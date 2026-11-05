@@ -72,7 +72,7 @@
 <div class="toolbar"><nav class="group-nav" aria-label="Konaklama Planları"><a href="#p7-villa-daire" aria-current="location">Villa + Daire</a><a href="#p7-full-daire">Full Daire</a><a href="#p7-full-villa">Full Villa</a></nav><button type="button" class="mobile-filter-toggle" id="p7-mobile-filter-toggle" aria-expanded="false" aria-controls="p7-filter-controls">Arama ve Sıralama</button><div class="controls" id="p7-filter-controls"><label class="search"><span>Ara</span><input id="p7-search" type="search" placeholder="Yer, semt, olanak" aria-label="Konaklama seçeneklerinde ara"></label><label class="sort">Sırala <select id="p7-sort" aria-label="Seçenekleri Sırala"><option value="balance">İki Kulübe Dengeli</option><option value="rso-car">RSO Taksi</option><option value="tresor-car">Tresor Taksi</option><option value="rso-transit">RSO Toplu</option><option value="tresor-transit">Tresor Toplu</option></select></label><span id="p7-search-status" class="visually-hidden" role="status" aria-live="polite"></span></div></div><p class="sort-note">Her listede varsayılan sıra, iki kulüpten daha uzak olana araç süresine göredir; bilinmeyen süreler sonda yer alır.</p>
 <noscript><p class="noscript">Arama ve etkileşimli harita için JavaScript gerekir. Seçenekler aşağıdadır; kartlardaki harita araması ve fotoğraf bağlantıları kullanılabilir.</p></noscript>
 <div class="view-choice" role="group" aria-label="Görünüm Seçimi"><button type="button" id="p7-view-list" aria-pressed="true">Liste</button><button type="button" id="p7-view-map" aria-pressed="false">Harita</button></div>
-<dialog class="map-panel" id="p7-map-panel" hidden aria-labelledby="p7-map-title"><div class="map-heading"><div><h2 id="p7-map-title">Konaklamaları Haritada Gör</h2><p id="p7-map-plan-label" class="map-plan-label" aria-live="polite">Plan: Villa + Daire</p><p class="desktop-map-note">Noktalar yaklaşık konumu gösterir. İlanın tam adresi ve giriş yeri ayrıca doğrulanmalı.</p><p class="mobile-map-note">Konumlar yaklaşık. İlan adresini doğrulayın.</p></div><button type="button" class="map-close" id="p7-map-close">Listeye Dön</button><div class="map-controls"><label>Plan <select id="p7-map-group"><option value="p7-villa-daire">Villa + Daire</option><option value="p7-full-daire">Full Daire</option><option value="p7-full-villa">Full Villa</option></select></label><label><input type="checkbox" id="p7-map-conditional" checked> Notu Olanları da Göster</label><button type="button" id="p7-map-fit" disabled>Tüm Noktaları Sığdır</button><button type="button" id="p7-map-fit-clubs" disabled>Kulüplere Yaklaş</button></div></div><div id="p7-map-canvas" class="map-canvas" role="region" aria-label="Konaklamalar ve kulüplerin yaklaşık konumları"></div><p class="map-notice" id="p7-map-status" role="status" aria-live="polite">Harita yükleniyor.</p><p class="map-help">Konaklama iğnesini seçerek kartı açın. Turuncu iğneler notu olan seçeneklerdir. Kulüp iğnesi adres ve kaynak bilgisini gösterir. Harita açılmazsa kartlardaki Google Haritalar bağlantılarını kullanın.</p></dialog>
+<dialog class="map-panel" id="p7-map-panel" hidden aria-labelledby="p7-map-title"><div class="map-heading"><div><h2 id="p7-map-title">Konaklamaları Haritada Gör</h2><p id="p7-map-plan-label" class="map-plan-label" aria-live="polite">Plan: Villa + Daire</p><p class="desktop-map-note">Noktalar yaklaşık konumu gösterir. İlanın tam adresi ve giriş yeri ayrıca doğrulanmalı.</p><p class="mobile-map-note">Konumlar yaklaşık. İlan adresini doğrulayın.</p></div><button type="button" class="map-close" id="p7-map-close">Listeye Dön</button><div class="map-controls"><label>Plan <select id="p7-map-group"><option value="p7-villa-daire">Villa + Daire</option><option value="p7-full-daire">Full Daire</option><option value="p7-full-villa">Full Villa</option><option value="hepsi">Hepsi</option></select></label><label><input type="checkbox" id="p7-map-conditional" checked> Notu Olanları da Göster</label><button type="button" id="p7-map-fit" disabled>Tüm Noktaları Sığdır</button><button type="button" id="p7-map-fit-clubs" disabled>Kulüplere Yaklaş</button></div></div><div id="p7-map-canvas" class="map-canvas" role="region" aria-label="Konaklamalar ve kulüplerin yaklaşık konumları"></div><p class="map-notice" id="p7-map-status" role="status" aria-live="polite">Harita yükleniyor.</p><p class="map-help">Konaklama iğnesini seçerek kartı açın. Turuncu iğneler notu olan seçeneklerdir. Kulüp iğnesi adres ve kaynak bilgisini gösterir. Harita açılmazsa kartlardaki Google Haritalar bağlantılarını kullanın.</p></dialog>
 <div class="groups"><section class="group" id="p7-villa-daire"><div class="section-heading"><div><h2>Villa + Daire</h2><p>İlk iki gece özel daire, son iki gece villa veya tamamı kiralanan özel ev. İki ayrı rezervasyon gerekir. Dört gecelik bütçeyi yalnız eşleşme toplamıyla değerlendirin.</p><p class="group-mobile">30 Ara → 1 Oca Daire · 1 → 3 Oca Ev</p></div><span class="group-count">4 Öneri · 7 Dikkat Gerektiren</span></div><p class="empty search-empty" hidden>Aramanızla eşleşen seçenek yok.</p><div class="split-layout">
 <div class="subsection"><div class="subheading"><h3>30 Aralık → 1 Ocak · 2 Gece Daire</h3></div><div class="card-grid"><article class="stay-card" id="p7-konaklama-2" data-order="2" data-id="bolunmus-alexa" data-check-in="2026-12-30" data-check-out="2027-01-01" data-rso-car-min="19" data-tresor-car-min="5" data-rso-transit-min="48" data-tresor-transit-min="17" data-lat="52.5252082" data-lon="13.4118263" data-map-accuracy="address">
       <div class="card-head"><div class="card-title"><p class="card-kicker">30 Aralık 2026 → 1 Ocak 2027 · 2 Gece</p><h4>ALEXA, Geniş Tasarım Dairesi</h4><p class="area">Daire · Kleine Alexanderstraße 9, 10178 Berlin</p><button type="button" class="card-open card-open-desktop" aria-label="ALEXA, Geniş Tasarım Dairesi Ayrıntılarını Aç">Ayrıntıları Aç</button></div><div class="amount"><strong>180.800 TL</strong><small>2 Gece · 7 Yetişkin</small><table class="share-table" aria-label="2 gecelik toplamın kişi başı paylaşımı"><caption>Kişi Başı · Bu Toplamın Bölüşümü</caption><tbody><tr><th scope="row">1/6</th><td>30.133,33 TL</td></tr><tr><th scope="row">1/7</th><td>25.828,57 TL</td></tr></tbody></table></div></div>
@@ -415,7 +415,7 @@
 <div class="toolbar"><nav class="group-nav" aria-label="Konaklama Planları"><a href="#p6-villa-daire" aria-current="location">Villa + Daire</a><a href="#p6-full-daire">Full Daire</a><a href="#p6-full-villa">Full Villa</a></nav><button type="button" class="mobile-filter-toggle" id="p6-mobile-filter-toggle" aria-expanded="false" aria-controls="p6-filter-controls">Arama ve Sıralama</button><div class="controls" id="p6-filter-controls"><label class="search"><span>Ara</span><input id="p6-search" type="search" placeholder="Yer, semt, olanak" aria-label="Konaklama seçeneklerinde ara"></label><label class="sort">Sırala <select id="p6-sort" aria-label="Seçenekleri Sırala"><option value="balance">İki Kulübe Dengeli</option><option value="rso-car">RSO Taksi</option><option value="tresor-car">Tresor Taksi</option><option value="rso-transit">RSO Toplu</option><option value="tresor-transit">Tresor Toplu</option></select></label><span id="p6-search-status" class="visually-hidden" role="status" aria-live="polite"></span></div></div><p class="sort-note">Her listede varsayılan sıra, iki kulüpten daha uzak olana araç süresine göredir; bilinmeyen süreler sonda yer alır.</p>
 <noscript><p class="noscript">Arama ve etkileşimli harita için JavaScript gerekir. Seçenekler aşağıdadır; kartlardaki harita araması ve fotoğraf bağlantıları kullanılabilir.</p></noscript>
 <div class="view-choice" role="group" aria-label="Görünüm Seçimi"><button type="button" id="p6-view-list" aria-pressed="true">Liste</button><button type="button" id="p6-view-map" aria-pressed="false">Harita</button></div>
-<dialog class="map-panel" id="p6-map-panel" hidden aria-labelledby="p6-map-title"><div class="map-heading"><div><h2 id="p6-map-title">Konaklamaları Haritada Gör</h2><p id="p6-map-plan-label" class="map-plan-label" aria-live="polite">Plan: Villa + Daire</p><p class="desktop-map-note">Noktalar yaklaşık konumu gösterir. İlanın tam adresi ve giriş yeri ayrıca doğrulanmalı.</p><p class="mobile-map-note">Konumlar yaklaşık. İlan adresini doğrulayın.</p></div><button type="button" class="map-close" id="p6-map-close">Listeye Dön</button><div class="map-controls"><label>Plan <select id="p6-map-group"><option value="p6-villa-daire">Villa + Daire</option><option value="p6-full-daire">Full Daire</option><option value="p6-full-villa">Full Villa</option></select></label><label><input type="checkbox" id="p6-map-conditional" checked> Notu Olanları da Göster</label><button type="button" id="p6-map-fit" disabled>Tüm Noktaları Sığdır</button><button type="button" id="p6-map-fit-clubs" disabled>Kulüplere Yaklaş</button></div></div><div id="p6-map-canvas" class="map-canvas" role="region" aria-label="Konaklamalar ve kulüplerin yaklaşık konumları"></div><p class="map-notice" id="p6-map-status" role="status" aria-live="polite">Harita yükleniyor.</p><p class="map-help">Konaklama iğnesini seçerek kartı açın. Turuncu iğneler notu olan seçeneklerdir. Kulüp iğnesi adres ve kaynak bilgisini gösterir. Harita açılmazsa kartlardaki Google Haritalar bağlantılarını kullanın.</p></dialog>
+<dialog class="map-panel" id="p6-map-panel" hidden aria-labelledby="p6-map-title"><div class="map-heading"><div><h2 id="p6-map-title">Konaklamaları Haritada Gör</h2><p id="p6-map-plan-label" class="map-plan-label" aria-live="polite">Plan: Villa + Daire</p><p class="desktop-map-note">Noktalar yaklaşık konumu gösterir. İlanın tam adresi ve giriş yeri ayrıca doğrulanmalı.</p><p class="mobile-map-note">Konumlar yaklaşık. İlan adresini doğrulayın.</p></div><button type="button" class="map-close" id="p6-map-close">Listeye Dön</button><div class="map-controls"><label>Plan <select id="p6-map-group"><option value="p6-villa-daire">Villa + Daire</option><option value="p6-full-daire">Full Daire</option><option value="p6-full-villa">Full Villa</option><option value="hepsi">Hepsi</option></select></label><label><input type="checkbox" id="p6-map-conditional" checked> Notu Olanları da Göster</label><button type="button" id="p6-map-fit" disabled>Tüm Noktaları Sığdır</button><button type="button" id="p6-map-fit-clubs" disabled>Kulüplere Yaklaş</button></div></div><div id="p6-map-canvas" class="map-canvas" role="region" aria-label="Konaklamalar ve kulüplerin yaklaşık konumları"></div><p class="map-notice" id="p6-map-status" role="status" aria-live="polite">Harita yükleniyor.</p><p class="map-help">Konaklama iğnesini seçerek kartı açın. Turuncu iğneler notu olan seçeneklerdir. Kulüp iğnesi adres ve kaynak bilgisini gösterir. Harita açılmazsa kartlardaki Google Haritalar bağlantılarını kullanın.</p></dialog>
 <div class="groups"><section class="group" id="p6-villa-daire"><div class="section-heading"><div><h2>Villa + Daire</h2><p>İlk iki gece özel daire, son iki gece villa veya tamamı kiralanan özel ev. İki ayrı rezervasyon gerekir. Dört gecelik bütçeyi yalnız eşleşme toplamıyla değerlendirin.</p><p class="group-mobile">30 Ara → 1 Oca Daire · 1 → 3 Oca Ev</p></div><span class="group-count">4 Öneri · 3 Dikkat Gerektiren</span></div><p class="empty search-empty" hidden>Aramanızla eşleşen seçenek yok.</p><div class="split-layout">
 <div class="subsection"><div class="subheading"><h3>30 Aralık → 1 Ocak · 2 Gece Daire</h3></div><div class="card-grid"><article class="stay-card" id="p6-konaklama-1" data-order="1" data-id="six-airbnb-1506711709322131491-first" data-check-in="2026-12-30" data-check-out="2027-01-01" data-rso-car-min="15" data-tresor-car-min="7" data-lat="52.50964" data-lon="13.45417" data-map-accuracy="listing_approx">
       <div class="card-head"><div class="card-title"><p class="card-kicker">30 Aralık 2026 → 1 Ocak 2027 · 2 Gece</p><h4>Urban Nest | Dört Yatak Odalı Daire</h4><p class="area">Dairenin tamamı · Friedrichshain, Libauer Straße</p><button type="button" class="card-open card-open-desktop" aria-label="Urban Nest | Dört Yatak Odalı Daire Ayrıntılarını Aç">Ayrıntıları Aç</button></div><div class="amount"><strong>1.464,68 €</strong><small class="converted-price">≈ 82.549 TL</small><small>2 Gece · 6 Yetişkin</small><table class="share-table" aria-label="2 gecelik toplamın kişi başı paylaşımı"><caption>Kişi Başı · Bu Toplamın Bölüşümü</caption><tbody><tr><th scope="row">1/6</th><td>244,11 €<span class="share-approx">≈ 13.758 TL</span></td></tr><tr><th scope="row">1/7</th><td>209,24 €<span class="share-approx">≈ 11.793 TL</span></td></tr></tbody></table></div></div>
@@ -740,7 +740,9 @@
       document.createTextNode(' veya listeye dönüp ilanın Google Haritalar bağlantısını kullanın.'));
   }
   const usableCard = card => !card.hidden && (!card.closest('.conditional') || includeConditional.checked);
-  const idFor = card => `${card.dataset.id}|${card.dataset.checkIn}|${card.dataset.checkOut}`;
+  const selectedCards = () => Array.from(root.querySelectorAll(
+    group.value === 'hepsi' ? '.groups .stay-card' : `#${group.value} .stay-card`
+  )).filter(usableCard);
   const titleFor = card => card.querySelector('.card-title h3, .card-title h4').textContent;
   const updatePlanLabel = () => { if (planLabel) planLabel.textContent = `Plan: ${group.selectedOptions[0]?.textContent || ''}`; };
   const setMapGroup = id => {
@@ -751,7 +753,7 @@
   const currentPageGroup = () => root.querySelector('.group-nav a[aria-current="location"]')?.hash.slice(1) || location.hash.slice(1);
   setMapGroup(currentPageGroup());
   const updateStatus = () => {
-    const selected = Array.from(root.querySelectorAll(`#${group.value} .stay-card`)).filter(usableCard);
+    const selected = selectedCards();
     const missing = selected.filter(c => !c.dataset.lat || !c.dataset.lon).length;
     if (!mapFailure) markStatus(`${selected.length} toplam seçenek · ${markers.size} konumlu · ${missing} konum doğrulanmadı.`);
   };
@@ -787,12 +789,12 @@
     });
     return window.__berlinMapLibraries;
   }
-  function icon(label, className) {
+  function icon(label, className, horizontalOffset = 0) {
     const wrap = document.createElement('span');
-    const title = document.createElement('span'); title.className = 'pin-label'; title.textContent = label;
+    const title = document.createElement('span'); title.className = 'pin-label'; title.textContent = label; title.style.pointerEvents = 'none';
     const pin = document.createElement('span'); pin.className = 'pin-shape';
     wrap.append(title, pin);
-    return window.L.divIcon({className, html:wrap.innerHTML, iconSize:[44,44], iconAnchor:[22,44], popupAnchor:[0,-38]});
+    return window.L.divIcon({className, html:wrap.innerHTML, iconSize:[44,44], iconAnchor:[22-horizontalOffset,44], popupAnchor:[-horizontalOffset,-38]});
   }
   function showCard(card, marker) {
     if (!dialog || typeof dialog.showModal !== 'function') {
@@ -831,16 +833,25 @@
   function draw() {
     if (!map || !markerLayer) return;
     markerLayer.clearLayers(); markers = new Map();
-    const cards = root.querySelectorAll(`#${group.value} .stay-card`);
+    const cards = selectedCards().filter(card => card.dataset.lat && card.dataset.lon &&
+      Number.isFinite(Number(card.dataset.lat)) && Number.isFinite(Number(card.dataset.lon)));
+    // A listing can appear in several plans at the same coordinates. Shift only
+    // the icons in screen pixels so every card stays clickable; coordinates stay unchanged.
+    const atPoint = new Map();
     cards.forEach(card => {
-      if (!usableCard(card) || !card.dataset.lat || !card.dataset.lon) return;
+      const point = `${Number(card.dataset.lat)},${Number(card.dataset.lon)}`;
+      if (!atPoint.has(point)) atPoint.set(point, []);
+      atPoint.get(point).push(card);
+    });
+    cards.forEach(card => {
       const lat = Number(card.dataset.lat), lon = Number(card.dataset.lon);
-      if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
+      const samePoint = atPoint.get(`${lat},${lon}`);
+      const offset = (samePoint.indexOf(card) - (samePoint.length - 1) / 2) * 50;
       const name = titleFor(card), price = card.querySelector('.amount strong').textContent;
       const accuracy = card.dataset.mapAccuracy === 'area' ? 'yaklaşık bölge, bina teyitsiz' : 'yaklaşık konum';
       const hasNotes = Boolean(card.closest('.conditional'));
       const accessibleName = `${name} · ${price} · ${accuracy}${hasNotes ? ' · notu olan seçenek' : ''}`;
-      const marker = window.L.marker([lat,lon], {icon:icon(name, hasNotes ? 'map-pin conditional' : 'map-pin'), title:accessibleName, keyboard:true});
+      const marker = window.L.marker([lat,lon], {icon:icon(name, hasNotes ? 'map-pin conditional' : 'map-pin', offset), title:accessibleName, keyboard:true});
       marker.on('click', () => showCard(card, marker));
       marker.on('add', () => {
         const element = marker.getElement();
@@ -850,7 +861,7 @@
           if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); event.stopPropagation(); showCard(card, marker); }
         });
       });
-      marker.addTo(markerLayer); markers.set(idFor(card), marker);
+      marker.addTo(markerLayer); markers.set(card, marker);
     });
     updateStatus();
   }
@@ -963,7 +974,10 @@
   if (fitButton) fitButton.addEventListener('click', () => fitPoints());
   if (fitClubsButton) fitClubsButton.addEventListener('click', () => fitPoints(true));
   root.addEventListener('cards-filtered', draw);
-  root.addEventListener('group-current-changed', event => { setMapGroup(event.detail?.id); draw(); if (!panel.hidden) fitPoints(); });
+  root.addEventListener('group-current-changed', event => {
+    if (group.value === 'hepsi' && !panel.hidden) return;
+    setMapGroup(event.detail?.id); draw(); if (!panel.hidden) fitPoints();
+  });
   root.addEventListener('click', async event => {
     const detailButton = event.target.closest('.card-open');
     if (detailButton) {
@@ -981,7 +995,7 @@
     if (card.closest('.conditional')) includeConditional.checked = true;
     if (!(await showMap(true))) return;
     draw();
-    const marker = markers.get(idFor(card));
+    const marker = markers.get(card);
     if (marker) {
       map.setView(marker.getLatLng(), 13);
       marker.getElement()?.classList.add('selected');
