@@ -196,6 +196,16 @@
   const filterPanel = root.querySelector('.filter-panel');
   const mobileFilterButton = root.querySelector('.mobile-filter-toggle');
   const filterResults = root.querySelector('.filter-results');
+  const resultsContent = root.querySelector('.results-content');
+  let availabilitySummary = null;
+  if (resultsContent) {
+    availabilitySummary = document.createElement('div');
+    availabilitySummary.className = 'availability-summary';
+    availabilitySummary.setAttribute('role', 'status');
+    availabilitySummary.hidden = true;
+    availabilitySummary.innerHTML = '<b class="sum-date"></b><span class="sum-ok"></span><span class="sum-no"></span><span class="sum-rest"></span>';
+    resultsContent.prepend(availabilitySummary);
+  }
   const filterValues = [capacityFilter, priceFilter, travelFilter, bedsFilter, roomsFilter].filter(Boolean);
   const knownNumber = value => value !== undefined && value !== '' && Number.isFinite(Number(value)) ? Number(value) : null;
   let availabilityRecords = [];
@@ -418,6 +428,19 @@
           }
         } else if (full) full.remove();
       }
+      // Unavailable offers stay listed: greyed, crossed out and dated.
+      let stamp = card.querySelector('.unavailable-stamp');
+      if (visibleStatus?.status === 'unavailable') {
+        if (!stamp) {
+          stamp = document.createElement('div');
+          stamp.className = 'unavailable-stamp';
+          stamp.setAttribute('aria-hidden', 'true');
+          stamp.innerHTML = '<span class="stamp-x"><svg class="i"><use href="#i-x"></use></svg></span><b>Bu tarihlerde müsait değil</b><small></small>';
+          card.querySelector('.card-media')?.append(stamp);
+        }
+        const checked = new Intl.DateTimeFormat('tr-TR', {day:'numeric', month:'long', hour:'2-digit', minute:'2-digit', timeZone:'Europe/Istanbul'}).format(new Date(visibleStatus.checkedAt));
+        stamp.querySelector('small').textContent = `${visibleStatus.adults} kişi · Son kontrol ${checked}`;
+      } else if (stamp) stamp.remove();
       card.querySelectorAll('.ruebezahl-table tr[data-source-id]').forEach(row => {
         const offer = availabilityRecords.find(entry => entry.scope === 'offer' && entry.id === row.dataset.sourceId && entry.checkIn === card.dataset.checkIn && entry.checkOut === card.dataset.checkOut && entry.adults === party);
         row.dataset.availability = offer?.status || 'unknown';
@@ -474,6 +497,24 @@
       newStatus.textContent = `${visibleNew} son eklenen seçenek gösteriliyor`;
     }
     if (status) status.textContent = filtering ? `${cards.filter(card => !card.hidden).length} sonuç` : 'Tüm gruplara dönüldü';
+    if (availabilitySummary) {
+      const shown = cards.filter(card => !card.hidden && (favoritesOnly || !card.closest('.group')?.hidden));
+      const available = shown.filter(card => card.dataset.availability === 'available').length;
+      const unavailable = shown.filter(card => card.dataset.availability === 'unavailable').length;
+      const latest = availabilityRecords.filter(entry => entry.adults === party).map(entry => Date.parse(entry.checkedAt)).filter(Number.isFinite).sort((a, b) => b - a)[0];
+      availabilitySummary.hidden = !latest || !(available || unavailable);
+      if (!availabilitySummary.hidden) {
+        const day = new Intl.DateTimeFormat('tr-TR', {day:'numeric', month:'long'}).format(new Date(latest));
+        availabilitySummary.querySelector('.sum-date').textContent = `Son müsaitlik kontrolü · ${day} · ${party} kişi`;
+        const ok = availabilitySummary.querySelector('.sum-ok');
+        const no = availabilitySummary.querySelector('.sum-no');
+        ok.hidden = !available; ok.textContent = `${available} ilan müsait göründü`;
+        no.hidden = !unavailable; no.textContent = `${unavailable} ilan artık müsait değil`;
+        availabilitySummary.querySelector('.sum-rest').textContent = shown.length - available - unavailable
+          ? `${shown.length - available - unavailable} ilan bu kontrolde doğrulanmadı. Fiyatlar ve müsaitlik değişebilir.`
+          : 'Fiyatlar ve müsaitlik değişebilir.';
+      }
+    }
     if (filterResults) {
       const visibleCount = cards.filter(card => !card.hidden && (favoritesOnly || !card.closest('.group')?.hidden)).length;
       filterResults.textContent = hasExtraFilters ? `${visibleCount} seçenek gösteriliyor` : '';

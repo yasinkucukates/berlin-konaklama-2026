@@ -227,8 +227,57 @@ body{background:
 }
 @media(max-width:899px){.card-dialog-content .stay-card .card-more .detail-tabs{top:-16px}}
 
+/* ---------- Availability states (daily checks) ---------- */
+/* Available: a calm live dot on the dated chip. */
+.stay-card[data-availability="available"] .media-flags .availability-status::before,
+.availability-summary .sum-ok::before{content:"";flex:none;width:7px;height:7px;border-radius:50%;background:#2f9a62;animation:avail-pulse 2.4s ease-out infinite}
+@keyframes avail-pulse{0%{box-shadow:0 0 0 0 rgba(47,154,98,.55)}70%{box-shadow:0 0 0 7px rgba(47,154,98,0)}100%{box-shadow:0 0 0 0 rgba(47,154,98,0)}}
+
+/* Unavailable: never removed; greyed, crossed out, dated, still openable. */
+.stay-card[data-availability="unavailable"]{background:linear-gradient(160deg,rgba(236,234,231,.8),rgba(222,219,215,.62));border-color:rgba(255,255,255,.6);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 6px 18px -10px rgba(40,30,20,.28)}
+.groups .stay-card[data-availability="unavailable"]:hover{transform:none}
+.stay-card[data-availability="unavailable"] .photo-grid img{filter:grayscale(1) contrast(.92) brightness(1.04);opacity:.5}
+.stay-card[data-availability="unavailable"] .card-media::after{z-index:3;
+  background:linear-gradient(to bottom right,transparent calc(50% - 1px),rgba(255,255,255,.8) calc(50% - 1px),rgba(255,255,255,.8) calc(50% + 1px),transparent calc(50% + 1px)),
+             linear-gradient(to top right,transparent calc(50% - 1px),rgba(255,255,255,.8) calc(50% - 1px),rgba(255,255,255,.8) calc(50% + 1px),transparent calc(50% + 1px))}
+.unavailable-stamp{position:absolute;z-index:5;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-3deg);display:flex;flex-direction:column;align-items:center;gap:5px;
+  min-width:210px;padding:13px 20px 12px;border-radius:18px;background:rgba(44,37,33,.62);border:1px solid rgba(255,255,255,.38);color:#fff;text-align:center;pointer-events:none;
+  box-shadow:0 14px 34px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.25);backdrop-filter:blur(16px) saturate(120%);-webkit-backdrop-filter:blur(16px) saturate(120%);
+  animation:stamp-in .45s cubic-bezier(.2,.9,.3,1.25) both}
+@keyframes stamp-in{from{opacity:0;transform:translate(-50%,-50%) rotate(-3deg) scale(1.25)}to{opacity:1;transform:translate(-50%,-50%) rotate(-3deg) scale(1)}}
+.stamp-x{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.16);border:1.5px solid rgba(255,255,255,.75)}
+.stamp-x .i{width:19px;height:19px;stroke-width:2.6}
+.unavailable-stamp b{font:800 14px/1.2 var(--sans);letter-spacing:.01em}
+.unavailable-stamp small{font:600 11px/1.25 var(--sans);opacity:.85}
+.stay-card[data-availability="unavailable"] .media-flag,.stay-card[data-availability="unavailable"] .party-quote-note{display:none}
+.stay-card[data-availability="unavailable"] .card-head,.stay-card[data-availability="unavailable"] .fact-tiles,.stay-card[data-availability="unavailable"] .card-alert{opacity:.5;filter:grayscale(.9);transition:opacity .2s ease}
+.stay-card[data-availability="unavailable"]:hover .card-head,.stay-card[data-availability="unavailable"]:hover .fact-tiles,.stay-card[data-availability="unavailable"]:hover .card-alert,
+.stay-card[data-availability="unavailable"]:focus-within .card-head,.stay-card[data-availability="unavailable"]:focus-within .fact-tiles,.stay-card[data-availability="unavailable"]:focus-within .card-alert{opacity:.85}
+.stay-card[data-availability="unavailable"] .amount strong{text-decoration:line-through;text-decoration-thickness:2px;text-decoration-color:rgba(60,55,52,.75)}
+.stay-card[data-availability="unavailable"] .card-open-main{background:rgba(255,255,255,.5);border-color:rgba(60,55,52,.18);color:#5d534b;box-shadow:inset 0 1px 0 rgba(255,255,255,.8)}
+.card-dialog-content .stay-card[data-availability="unavailable"] .card-head,.card-dialog-content .stay-card[data-availability="unavailable"] .fact-tiles,.card-dialog-content .stay-card[data-availability="unavailable"] .card-alert{opacity:.85}
+
+/* Dated summary of the latest check above the results. */
+.availability-summary{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 14px;padding:10px 14px;border-radius:15px;
+  background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.85);box-shadow:inset 0 1px 0 #fff,0 8px 22px -14px rgba(62,42,26,.35);
+  backdrop-filter:blur(18px) saturate(160%);-webkit-backdrop-filter:blur(18px) saturate(160%);font-size:12px;color:#5d534b}
+.availability-summary .sum-date{color:#2b2622;font-size:12.5px}
+.availability-summary .sum-ok,.availability-summary .sum-no{display:inline-flex;align-items:center;gap:7px;padding:4px 10px;border-radius:999px;font-weight:750}
+.availability-summary .sum-ok{background:rgba(232,246,237,.9);color:#1f5c3b}
+.availability-summary .sum-no{background:rgba(52,46,42,.82);color:#fff}
+.availability-summary .sum-no::before{content:"✕";font-size:11px}
+.availability-summary .sum-rest{flex-basis:100%;color:#7a7067;font-size:11px}
+@media(min-width:900px){.availability-summary .sum-rest{flex-basis:auto}}
+
+/* The filter panel's example matches the real card treatment. */
+.status-example-visual{position:relative;overflow:hidden;background:linear-gradient(135deg,#cfcac5,#b9b3ad);color:#fff;font-size:0}
+.status-example-visual::before,.status-example-visual::after{content:"";position:absolute;left:-10%;right:-10%;top:50%;height:1.5px;background:rgba(255,255,255,.9);transform:rotate(38deg)}
+.status-example-visual::after{transform:rotate(-38deg)}
+
 /* ---------- Small screens ---------- */
 @media(max-width:639px){
+  .unavailable-stamp{min-width:0;padding:10px 16px}.unavailable-stamp b{font-size:13px;white-space:nowrap}.unavailable-stamp small{white-space:nowrap}
   .results-content .card-grid,.card-grid{grid-template-columns:minmax(0,1fr);gap:20px}
   .stay-card .card-media{aspect-ratio:4/3}
   .stay-card .card-head{padding:13px 14px 2px}
@@ -238,7 +287,7 @@ body{background:
   .card-dialog{width:100%;border-radius:22px 22px 0 0}
   .card-dialog-content{padding:10px}
 }
-@media(prefers-reduced-motion:reduce){.stay-card,.fact-tile,.fact-tile::after{transition:none}.groups .stay-card:hover{transform:none}}
+@media(prefers-reduced-motion:reduce){.stay-card,.fact-tile,.fact-tile::after{transition:none}.groups .stay-card:hover{transform:none}.unavailable-stamp,.stay-card[data-availability] .media-flags .availability-status::before,.availability-summary .sum-ok::before{animation:none}}
 @media(prefers-reduced-transparency:reduce){
   .stay-card,.card-dialog,.media-flag,.media-flags .availability-status,.stay-card .favorite-button::before,.js .card-more .detail-tabs{backdrop-filter:none;-webkit-backdrop-filter:none}
   .stay-card{background:#fffdfa}.media-flag,.media-flags .availability-status{background:#fff}.card-dialog{background:#f7f3ed}
