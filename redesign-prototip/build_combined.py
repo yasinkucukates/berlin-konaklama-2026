@@ -213,7 +213,6 @@ def main() -> None:
     combined = combined.replace('6 Yetişkin · 4 Gece · En Çok 6.000 € · 6 Ayrı Yatak Öncelikli', '6 veya 7 Yetişkin · 4 Gece · Ayrı Yatak Öncelikli')
     combined = combined.replace('>6 Ayrı Yatak ve Tresor</option>', '>Ayrı Yatak ve Tresor</option>')
     combined = combined.replace('Kişi başı pay, gösterilen toplamın altıya bölünmesidir.', 'Kişi başı pay, gösterilen toplamın seçilen kişi sayısına bölünmesidir; bu hesap yeni bir fiyat teklifi değildir.')
-    combined = combined.replace('Altı kişilik fiyatı ve müsaitliği teyitsiz ilanlarda seçili tarihler için güncel koşullar yeniden kontrol edilmelidir.', 'Seçilen kişi sayısı için fiyat ve müsaitlik teyit edilmemişse güncel koşullar yeniden kontrol edilmelidir.')
     combined = combined.replace('Kaynak gözlemleri: 5 ve 6 Kasım 2026.', 'Önceki kaynak gözlemleri: 5 ve 6 Kasım 2026; son kontroller ilgili kartlarda gösterilir.')
     title = 'Berlin Konaklamaları | 30 Aralık – 3 Ocak' if args.live else 'Berlin Konaklamaları | Önizleme'
     # Live: the embedded snapshot shows at once, then the page reads the daily

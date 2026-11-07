@@ -44,6 +44,8 @@ Günlük müsaitlik: Canlı sayfa açılışta yanındaki `availability-status.j
 
 Kur: Fiyatlar kaynaktaki para biriminde gösterilir; yanında euro ve TL karşılığı (dolar fiyatında ikisi) yazar. Sayfa her açılışta Frankfurter üzerinden günün ECB referans kurunu (`api.frankfurter.dev/v1/latest`) alır ve tüm ≈ tutarları, TL fiyatlı ilanların filtre ve sıralamadaki euro değerini buna göre günceller. Kur alınamazsa tarayıcıdaki son kur, o da yoksa derlemedeki referans kur (`build_liquid.py` içindeki `TRY_PER_EUR`) kullanılır. "En uygun" etiketleri derleme anındaki kurla belirlenir.
 
+Kişi sayısı: Ev ve daireler bütün olarak kiralandığı için gösterilen fiyat 6 ve 7 kişi için aynı kabul edilir (7 Kasım 2026 kullanıcı kararı). Ayrıntı `redesign-prototip/MUSAITLIK.md` içindedir.
+
 ## Eşitleme ve sınırlar
 
 Bu dal, 7 Kasım 2026 yerel prototipinin GitHub çalışma kopyasıdır. Bilgisayardaki eski önizleme ve günlük kontrol kaynağı `Projects/Skills-ve-MCPler/denemeler/berlin-konaklama-arama` altında kalır; bu iki kopya otomatik eşitlenmez. Değişiklikleri taşımadan önce iki taraftaki en son sürümü ve ortak beğenilerin korunmasını kontrol edin. Yeni bulunan ilanlar, kullanıcı seçmeden prototipe veya canlı siteye eklenmez. Fiyat ve müsaitlik değişebilir; kişi kapasitesi tek başına fiyat veya müsaitlik kanıtı değildir.

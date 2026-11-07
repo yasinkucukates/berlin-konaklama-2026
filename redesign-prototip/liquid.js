@@ -51,6 +51,15 @@
       .map(entry => !('lastAvailableAt' in entry) || (entry.status === 'unavailable' && isTime(entry.lastAvailableAt) &&
         Date.parse(entry.lastAvailableAt) <= Date.parse(entry.checkedAt)) ? entry : {...entry, lastAvailableAt: undefined});
   };
+  // Whole homes are rented as a unit (7 Kasım kullanıcı kararı): a dated result
+  // for 6 or 7 people applies to the other count too. The one exception is a
+  // seven-person "unavailable", which can mean only that 7 exceeds capacity.
+  const partyRecord = (records, match, party) => {
+    const own = records.find(entry => match(entry) && entry.adults === party);
+    if (own) return own;
+    const other = records.find(entry => match(entry) && entry.adults !== party);
+    return other && !(party === 6 && other.status === 'unavailable') ? other : undefined;
+  };
   let embeddedAvailability = [];
   try { embeddedAvailability = usableAvailability(JSON.parse(availabilityNode?.textContent || '{}')) || []; } catch (_) {}
   const loadLiveAvailability = () => {
@@ -485,18 +494,18 @@
         (activeBest === 'best-apartment' && card.dataset.planGroup === 'full-daire' && card.dataset.bestAlternative === 'true') ||
         (showHouseAlternatives && card.dataset.planGroup === 'full-villa' && card.dataset.bestAlternative === 'true');
       card.hidden = !generalMatch || (activeBest !== '' && !bestMatch);
-      const matchingStatus = count => availabilityRecords.find(entry => entry.scope === 'card' && entry.id === card.dataset.id && entry.checkIn === card.dataset.checkIn && entry.checkOut === card.dataset.checkOut && entry.adults === count);
-      // Never use a six-person availability result as the seven-person result.
-      const status = matchingStatus(party);
+      const sameStay = entry => entry.checkIn === card.dataset.checkIn && entry.checkOut === card.dataset.checkOut;
+      const status = partyRecord(availabilityRecords, entry => entry.scope === 'card' && entry.id === card.dataset.id && sameStay(entry), party);
       const offerRows = Array.from(card.querySelectorAll('.ruebezahl-table tr[data-source-id]'));
-      const allOffersUnavailable = offerRows.length > 0 && offerRows.every(row => availabilityRecords.some(entry => entry.scope === 'offer' && entry.id === row.dataset.sourceId && entry.checkIn === card.dataset.checkIn && entry.checkOut === card.dataset.checkOut && entry.adults === party && entry.status === 'unavailable'));
+      const offerStatus = row => partyRecord(availabilityRecords, entry => entry.scope === 'offer' && entry.id === row.dataset.sourceId && sameStay(entry), party);
+      const allOffersUnavailable = offerRows.length > 0 && offerRows.every(row => offerStatus(row)?.status === 'unavailable');
       // One provider's sold-out result cannot make a multi-offer property sold out.
       const visibleStatus = status?.status === 'unavailable' && offerRows.length && !allOffersUnavailable ? null : status;
       const quoteNote = card.querySelector('.party-quote-note');
       if (quoteNote) {
         const selected = Number(guestFilter?.value || 6);
         const notes = [];
-        if (Number(card.dataset.offerAdults) !== selected) notes.push(status?.status === 'available' && status.displayPrice ? `Karttaki fiyat ${card.dataset.offerAdults} kişi için; ${selected} kişilik son kaynak fiyatı ayrıca gösteriliyor.` : `Gösterilen fiyat ${card.dataset.offerAdults} kişi için; ${selected} kişi için fiyat ve müsaitlik ayrıca kontrol edilmeli.`);
+        // The price is the same for 6 or 7 people; only the listing's capacity can limit the group.
         if (capacity !== null && capacity < selected) notes.push(`İlan kapasitesi ${capacity} kişi; ${selected}. kişi için ev sahibi onayı gerekir.`);
         quoteNote.hidden = notes.length === 0;
         quoteNote.textContent = notes.join(' ');
@@ -543,7 +552,7 @@
         stamp.querySelector('small').textContent = `${visibleStatus.adults} kişi · Son kontrol ${trDayTime(visibleStatus.checkedAt)}`;
       } else if (stamp) stamp.remove();
       card.querySelectorAll('.ruebezahl-table tr[data-source-id]').forEach(row => {
-        const offer = availabilityRecords.find(entry => entry.scope === 'offer' && entry.id === row.dataset.sourceId && entry.checkIn === card.dataset.checkIn && entry.checkOut === card.dataset.checkOut && entry.adults === party);
+        const offer = offerStatus(row);
         row.dataset.availability = offer?.status || 'unknown';
         const label = row.querySelector('.offer-availability');
         if (label) { label.hidden = !offer; label.textContent = offer ? `${offer.status === 'unavailable' ? 'Bu tarihlerde müsait değil' : 'Kaynakta müsait göründü'} · ${new Intl.DateTimeFormat('tr-TR',{day:'numeric',month:'long'}).format(new Date(offer.checkedAt))}` : ''; }
@@ -602,7 +611,7 @@
       const shown = cards.filter(card => !card.hidden && (favoritesOnly || !card.closest('.group')?.hidden));
       const available = shown.filter(card => card.dataset.availability === 'available').length;
       const unavailable = shown.filter(card => card.dataset.availability === 'unavailable').length;
-      const latest = availabilityRecords.filter(entry => entry.adults === party).map(entry => Date.parse(entry.checkedAt)).filter(Number.isFinite).sort((a, b) => b - a)[0];
+      const latest = availabilityRecords.map(entry => Date.parse(entry.checkedAt)).filter(Number.isFinite).sort((a, b) => b - a)[0];
       availabilitySummary.hidden = !latest || !(available || unavailable);
       if (!availabilitySummary.hidden) {
         const day = new Intl.DateTimeFormat('tr-TR', {day:'numeric', month:'long'}).format(new Date(latest));

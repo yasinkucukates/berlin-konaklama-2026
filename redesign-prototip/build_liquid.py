@@ -878,13 +878,10 @@ def point_coords(point):
 
 
 def visible_note(text):
-    # A seven-person source quote does not establish a six-person price.
-    # Keep its full wording in the evidence section, with a short warning on
-    # the card instead of presenting the source party as the current group.
+    # Whole homes are rented as a unit, so the source party size is not a
+    # warning. Old party-size remarks stay in the evidence section only.
     if ADULTS == 7:
-        clean, omitted = omit_old_party_context(text)
-        if omitted:
-            return clean or '6 kişi için fiyat, müsaitlik ve konaklama koşullarını kaynakta yeniden kontrol edin.'
+        clean, _ = omit_old_party_context(text)
         return clean
     return text
 
@@ -952,13 +949,13 @@ def public_price_conditions(text):
 BEST_HOUSE_ALTERNATIVES = {
     '1611035619222657901': (1, 'Tresor yaklaşık 45 dk. İlan odalarda 7 tek yatak bildiriyor; iki ayrı dairenin tamamını ve fiyat kapsamını kontrol edin.'),
     '937599705398085803': (2, 'Tresor yaklaşık 15 dk. 4 yatak ve 1 çekyat var; altı kişi için yatak paylaşımı ve çekyat uygunluğu kontrol edilmeli.'),
-    'idyllisches-haus': (3, 'Tresor yaklaşık 10 dk. 3 çift yatak ve 2 çekyat bildirilmiş; yatak paylaşımı, çekyatlar ve altı kişilik fiyat kontrol edilmeli.'),
+    'idyllisches-haus': (3, 'Tresor yaklaşık 10 dk. 3 çift yatak ve 2 çekyat bildirilmiş; yatak paylaşımı ve çekyatlar kontrol edilmeli.'),
     'six-vrbo-145069-full': (4, 'Tresor yaklaşık 37 dk; sauna var. Altı kişiden ikisinin yatacağı yer kaynakta açık değil.'),
 }
 BEST_APARTMENT_ALTERNATIVES = {
     '1519600838702010375': (1, 'İlan 3 çift ve 5 tek yatak bildiriyor. Son iki odadaki tek yatakların ayrılabilirliği ve vergili toplam teyitsiz.'),
     'six-airbnb-1656340-full': (2, 'İlan 1 çift ve 5 tek yatak bildiriyor; son odadaki üçüncü tek yatak fotoğrafta doğrulanamadı. Vergi ve ekleri kontrol edin.'),
-    '1389128667463860564': (3, 'İlan 3 çift ve 3 tek yatak bildiriyor; tek yatakların yetişkinlere uygunluğu ve altı kişilik fiyat teyitsiz.'),
+    '1389128667463860564': (3, 'İlan 3 çift ve 3 tek yatak bildiriyor; tek yatakların yetişkinlere uygunluğu teyitsiz.'),
 }
 
 
@@ -1085,7 +1082,7 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
         if any(term in lower for term in ('havlu', 'nevresim')) and any(term in lower for term in ('ücret', 'ayrı')):
             visible_notes.append(sentence)
     visible_notes = [visible_note(note) for note in visible_notes]
-    note_html = ''.join(f'<p><b>Not:</b> {esc(note)}</p>' for note in dict.fromkeys(visible_notes))
+    note_html = ''.join(f'<p><b>Not:</b> {esc(note)}</p>' for note in dict.fromkeys(visible_notes) if note)
     caution_reasons = []
     if audit.get('group') == 'conditional' and user_conditions:
         caution_reasons.append(visible_note(user_conditions))
@@ -1100,7 +1097,7 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
     if has_display_warnings:
         caution_reasons = ['Yatak, fiyat ve kullanım koşulları aşağıdaki notlarda açıklanır.']
     caution_list = ''
-    caution_unique = list(dict.fromkeys(caution_reasons)) if audit.get('group') == 'conditional' else []
+    caution_unique = list(dict.fromkeys(reason for reason in caution_reasons if reason)) if audit.get('group') == 'conditional' else []
     generic_caution = audit.get('group') == 'conditional' and not caution_unique
     if generic_caution:
         caution_unique = ['Notlardaki koşulları rezervasyondan önce kontrol edin.']
@@ -1180,7 +1177,8 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
     share_html = share_table(share_amount, share_currency, row.get('capacity'), nights, approximate=bool(row.get('priceApproximate')), max_adults=audit.get('maxAdults'))
     quote_label = (f'Vrbo · {nights} Gece · 6 Yetişkin' if ruebezahl_exception(row)
                    else f'{nights} Gece · {ADULTS} Yetişkin')
-    quote_warning = '<span class="offer-party offer-party-7">Önceki 7 kişilik teklif; güncel fiyat ve müsaitlik yeniden kontrol edilmeli.</span>' if ADULTS == 7 else ''
+    # Whole-home rentals: a quote for 7 people is the price for 6 as well (7 Kasım kullanıcı kararı).
+    quote_warning = ''
     quote_warning_html = f'<div class="offer-warning">{quote_warning}</div>' if quote_warning else ''
     source_file = row.get('_sourceFile') if ADULTS == 6 else ''
     new_listing = source_file in ('new-search.json', 'new-search-ek.json', 'wellness-new.json', 'galeri-sweep-20261106.json')
@@ -1248,8 +1246,6 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
         alert_kind, alert_text = 'warn', 'Vergili toplam kesin değil; rezervasyondan önce kontrol edin.'
     elif caution_unique and not generic_caution:
         alert_kind, alert_text = 'warn', caution_unique[0]
-    elif ADULTS == 7:
-        alert_kind, alert_text = 'warn', 'Önceki 7 kişilik teklif; fiyat ve müsaitlik yeniden kontrol edilmeli.'
     elif far_house:
         alert_kind, alert_text = 'warn', f'Daha uzak: Tresor’a araçla yaklaşık {int(travel_mins)} dk.'
     elif generic_caution:
@@ -1617,7 +1613,7 @@ def main():
 <div class="subsection"><div class="subheading"><h3>1 Ocak → 3 Ocak · 2 Gece Villa / Özel Ev</h3></div><p class="subnote">1 Ocak çıkışı ile sonraki giriş arasındaki süre ve transfer her eşleşmede ayrıca kontrol edilmeli.</p>{rendered['split_house']}</div></div>{pair_html}</section>
 <section class="group" id="full-daire"><div class="best-apartment-intro" hidden><b>En Uygun Daireler ve Teyit Gerektiren Adaylar</b><p>Önce koşulları doğrulanan seçenekler, ardından yatak veya toplam fiyatı ayrıca kontrol edilmesi gereken adaylar gösterilir.</p></div><div class="best-empty empty" hidden><p>En uygun ölçütlerini kaynaklarla doğrulayan dört gecelik daire bulunamadı.</p><button type="button" class="best-reset">Tüm Daireleri Gör</button></div><div class="section-heading"><div><h2>Daire</h2><p>30 Aralık → 3 Ocak · dört gece özel daire veya ilanda açıkça belirtilen özel daire düzeni.</p><p class="group-mobile">30 Ara → 3 Oca · 4 Gece</p></div><span class="group-count">{count_label(('full_apartment',))}</span></div><p class="empty search-empty" hidden>Bu filtrelerle eşleşen seçenek yok.</p>{rendered['full_apartment']}</section>
 <section class="group" id="full-villa"><div class="best-alternatives-intro" hidden><b>Koşullara En Yakın Villalar ve Evler</b><p>20 dakika ve altı ayrı yatak şartlarını birlikte doğrulayan villa bulunamadı. Aşağıdaki alternatiflerin farklarını her kartta belirttik.</p></div><div class="best-empty empty" hidden><p>En uygun ölçütlerini kaynaklarla doğrulayan dört gecelik villa bulunamadı.</p><button type="button" class="best-reset">Tüm Villaları Gör</button></div><div class="section-heading"><div><h2>Villa</h2><p>30 Aralık → 3 Ocak · dört gece villa veya tamamı kiralanan özel ev. Gerçek yapı türü kartta yazılıdır.</p><p class="group-mobile">30 Ara → 3 Oca · 4 Gece</p><button type="button" class="show-split-houses">1–3 Ocak · İki Gecelik Evleri Gör ↗</button></div><span class="group-count">{count_label(('full_house',))}</span></div><p class="empty search-empty" hidden>Bu filtrelerle eşleşen seçenek yok.</p>{rendered['full_house']}</section></div>
-<footer class="footer"><p id="kur"><span class="fx-rate-long">5 Kasım 2026 tarihli ECB referans kurları: 1 € = 56,1729 TL; 1 € = 1,1224 USD.</span> Sayfa her açılışta günün ECB kurunu alır; alınamazsa son bilinen kur kullanılır. Referans kurlar banka veya tahsilat kuru değildir. <a href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html" target="_blank" rel="noopener noreferrer">ECB Kur Kaynağı ↗</a></p><p>Kaynak gözlemleri: 5 ve 6 Kasım 2026. Fiyat, vergiler, iptal ve kullanılabilirlik ilan ekranında yeniden kontrol edilmeli. Rezervasyon yapılmadı.</p><p>Araç süreleri taksi beklemesini ve yılbaşı trafiğini içermez; çoğu trafiksiz rota tahminidir. Toplu taşıma süreleri kaynakta belirtilen örneklerdir, yılbaşı tarifesi ve dönüş ayrıca kontrol edilmeli. {ADULTS} kişi için birden fazla araç gerekebilir.</p><p>Kişi başı pay, gösterilen toplamın altıya bölünmesidir. Altı kişilik fiyatı ve müsaitliği teyitsiz ilanlarda seçili tarihler için güncel koşullar yeniden kontrol edilmelidir. Kişi sayısı değişince ilanın fiyatı da değişebilir. İlan kapasitesini aşan kişi ancak ev sahibinin açık onayıyla kalabilir; gösterilen matematiksel pay kabul anlamına gelmez.</p><p>Fotoğraflar ilan sağlayıcılarından yüklenir. Tarayıcı kaynak görseli engellerse karttaki ilan bağlantısını kullanın.</p></footer></main>
+<footer class="footer"><p id="kur"><span class="fx-rate-long">5 Kasım 2026 tarihli ECB referans kurları: 1 € = 56,1729 TL; 1 € = 1,1224 USD.</span> Sayfa her açılışta günün ECB kurunu alır; alınamazsa son bilinen kur kullanılır. Referans kurlar banka veya tahsilat kuru değildir. <a href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html" target="_blank" rel="noopener noreferrer">ECB Kur Kaynağı ↗</a></p><p>Kaynak gözlemleri: 5 ve 6 Kasım 2026. Fiyat, vergiler, iptal ve kullanılabilirlik ilan ekranında yeniden kontrol edilmeli. Rezervasyon yapılmadı.</p><p>Araç süreleri taksi beklemesini ve yılbaşı trafiğini içermez; çoğu trafiksiz rota tahminidir. Toplu taşıma süreleri kaynakta belirtilen örneklerdir, yılbaşı tarifesi ve dönüş ayrıca kontrol edilmeli. {ADULTS} kişi için birden fazla araç gerekebilir.</p><p>Kişi başı pay, gösterilen toplamın altıya bölünmesidir. Ev ve daireler bütün olarak kiralandığı için gösterilen fiyat 6 ve 7 kişi için aynıdır. İlan kapasitesini aşan kişi ancak ev sahibinin açık onayıyla kalabilir; gösterilen matematiksel pay kabul anlamına gelmez.</p><p>Fotoğraflar ilan sağlayıcılarından yüklenir. Tarayıcı kaynak görseli engellerse karttaki ilan bağlantısını kullanın.</p></footer></main>
 <dialog id="lightbox" class="lightbox" aria-labelledby="lightbox-title"><div class="lightbox-header"><strong id="lightbox-title">Fotoğraf</strong><button type="button" data-close aria-label="Fotoğrafı Kapat">✕</button></div><div class="lightbox-stage"><img alt="" referrerpolicy="no-referrer"><p class="lightbox-error" hidden>Fotoğraf yüklenemedi. Alttaki kaynak bağlantısını kullanın.</p></div><div class="lightbox-controls"><button type="button" data-step="-1" aria-label="Önceki Fotoğraf">←</button><div class="lightbox-caption"><span id="lightbox-caption" aria-live="polite"></span><a id="lightbox-source" target="_blank" rel="noopener noreferrer">Kaynak Görseli Aç ↗</a></div><button type="button" data-step="1" aria-label="Sonraki Fotoğraf">→</button></div></dialog>
 <dialog id="card-dialog" class="card-dialog" aria-labelledby="card-dialog-title"><div class="card-dialog-head"><strong id="card-dialog-title">Konaklama Ayrıntıları</strong><button type="button" id="card-dialog-close" aria-label="Konaklama Kartını Kapat">✕</button></div><div id="card-dialog-content" class="card-dialog-content"></div></dialog>
 <script type="application/json" id="map-clubs">{clubs_json}</script></div><script>{script}</script><script>{map_script}</script></body></html>'''
