@@ -34,7 +34,8 @@ MAP_POINTS = META / 'map-points.json'
 BED_AUDIT = HERE / 'bed-audit.json'
 BED_BREAKDOWNS = HERE / 'bed-breakdowns.json'
 BED_ROOM_FILES = (HERE / 'bed-rooms.json', HERE / 'bed-rooms-extra-houses.json',
-                  HERE / 'bed-rooms-extra-apts.json', HERE / 'bed-rooms-sweep-20261106.json')
+                  HERE / 'bed-rooms-extra-apts.json', HERE / 'bed-rooms-sweep-20261106.json',
+                  HERE / 'bed-rooms-sweep-20261107.json')
 OUT = HERE / ('preview-six.html' if ADULTS == 6 else 'preview-seven.html')
 FOUR_IN, FOUR_OUT = '2026-12-30', '2027-01-03'
 MONTHS = {11: 'Kasım', 12: 'Aralık', 1: 'Ocak'}
@@ -186,7 +187,7 @@ def load_bed_rooms():
         return obj
 
     for path in BED_ROOM_FILES:
-        if path.name == 'bed-rooms-sweep-20261106.json' and not path.exists():
+        if path.name.startswith('bed-rooms-sweep-') and not path.exists():
             continue
         try:
             raw = json.loads(path.read_text(encoding='utf-8'), object_pairs_hook=unique_object)
@@ -337,9 +338,8 @@ def verified_beds(row, records, breakdowns=None):
 def load_rows():
     rows = []
     full_paths = [DATA / 'galeri-veri.json']
-    sweep = DATA / 'galeri-sweep-20261106.json'
-    if ADULTS == 6 and sweep.exists():
-        full_paths.append(sweep)
+    if ADULTS == 6:
+        full_paths.extend(sorted(DATA.glob('galeri-sweep-*.json')))
     for path in full_paths:
         full = read_json(path)
         if not isinstance(full, list):
@@ -1181,7 +1181,7 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
     quote_warning = ''
     quote_warning_html = f'<div class="offer-warning">{quote_warning}</div>' if quote_warning else ''
     source_file = row.get('_sourceFile') if ADULTS == 6 else ''
-    new_listing = source_file in ('new-search.json', 'new-search-ek.json', 'wellness-new.json', 'galeri-sweep-20261106.json')
+    new_listing = source_file in ('new-search.json', 'new-search-ek.json', 'wellness-new.json', 'galeri-sweep-20261106.json', 'galeri-sweep-20261107.json')
     refreshed_price = source_file == 'refreshed-search.json'
     fresh_text = 'Yeni Eklenen' if new_listing else 'Fiyat Güncellendi' if refreshed_price else ''
     shared_gallery = ''

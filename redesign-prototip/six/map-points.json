@@ -787,6 +787,236 @@
       "accuracy": "area",
       "source": "https://www.airbnb.com.tr/rooms/1166429151300530583?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
       "note": "Rungestraße 12 çevresi; daire girişi teyitli değil."
+    },
+    {
+      "id": "sweep7-airbnb-1765241459359399223-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5382,
+      "lon": 13.3966,
+      "accuracy": "approximate",
+      "source": "https://www.google.com/maps/dir/52.5382%2C13.3966/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+    },
+    {
+      "id": "sweep7-airbnb-1510142980699078825-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4686,
+      "lon": 13.42731,
+      "accuracy": "approximate",
+      "source": "https://www.google.com/maps/dir/52.4686%2C13.42731/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+    },
+    {
+      "id": "sweep7-airbnb-1389672541037596818-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.48723,
+      "lon": 13.36653,
+      "accuracy": "approximate",
+      "source": "https://www.google.com/maps/dir/52.48723%2C13.36653/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+    },
+    {
+      "id": "sweep7-airbnb-40216009-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4686732,
+      "lon": 13.38778,
+      "accuracy": "address",
+      "source": "https://www.google.com/maps/dir/52.4686732%2C13.38778/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+    },
+    {
+      "id": "sweep7-airbnb-38533401-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.46775,
+      "lon": 13.38822,
+      "accuracy": "approximate",
+      "source": "https://www.google.com/maps/dir/52.46775%2C13.38822/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+    },
+    {
+      "id": "sweep7-airbnb-34301098-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.46473,
+      "lon": 13.39321,
+      "accuracy": "approximate",
+      "source": "https://www.google.com/maps/dir/52.46473%2C13.39321/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+    },
+    {
+      "id": "sweep7-airbnb-31297828-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4960034,
+      "lon": 13.4433823,
+      "accuracy": "address",
+      "source": "https://www.google.com/maps/dir/52.4960034%2C13.4433823/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+    },
+    {
+      "id": "sweep7-airbnb-1268121761753625501-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.491676,
+      "lon": 13.3954149,
+      "accuracy": "address",
+      "source": "https://www.google.com/maps/dir/52.491676%2C13.3954149/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+    },
+    {
+      "id": "sweep7-airbnb-32453210-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4485137,
+      "lon": 13.3854635,
+      "accuracy": "address",
+      "source": "https://www.google.com/maps/dir/52.4485137%2C13.3854635/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+    },
+    {
+      "id": "sweep7-airbnb-31701521-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.44911,
+      "lon": 13.3864,
+      "accuracy": "approximate",
+      "source": "https://www.google.com/maps/dir/52.44911%2C13.3864/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+    },
+    {
+      "id": "sweep7-airbnb-942782300690662568-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.50552,
+      "lon": 13.30782,
+      "accuracy": "approximate",
+      "source": "https://www.google.com/maps/dir/52.50552%2C13.30782/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+    },
+    {
+      "id": "sweep7-airbnb-1363888262051860529-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4924,
+      "lon": 13.4175,
+      "accuracy": "approximate",
+      "source": "https://www.google.com/maps/dir/52.4924%2C13.4175/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+    },
+    {
+      "id": "sweep7-airbnb-51513538-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5491274,
+      "lon": 13.4582849,
+      "accuracy": "address",
+      "source": "https://www.google.com/maps/dir/52.5491274%2C13.4582849/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+    },
+    {
+      "id": "sweep7-airbnb-1174576099912827244-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5504111,
+      "lon": 13.4453997,
+      "accuracy": "address",
+      "source": "https://www.google.com/maps/dir/52.5504111%2C13.4453997/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+    },
+    {
+      "id": "sweep7-airbnb-1478101487047693053-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.506925,
+      "lon": 13.317301,
+      "accuracy": "address",
+      "source": "https://www.google.com/maps/dir/52.506925%2C13.317301/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+    },
+    {
+      "id": "sweep7-airbnb-1066700616308697452-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5031,
+      "lon": 13.3269,
+      "accuracy": "approximate",
+      "source": "https://www.google.com/maps/dir/52.5031%2C13.3269/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+    },
+    {
+      "id": "sweep7-airbnb-1805168581752936023-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.44784,
+      "lon": 13.34261,
+      "accuracy": "approximate",
+      "source": "https://www.google.com/maps/dir/52.44784%2C13.34261/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+    },
+    {
+      "id": "sweep7-airbnb-1727650304700546371-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4769707,
+      "lon": 13.4261428,
+      "accuracy": "address",
+      "source": "https://www.google.com/maps/dir/52.4769707%2C13.4261428/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+    },
+    {
+      "id": "sweep7-airbnb-1305081869431363843-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.425242,
+      "lon": 13.5341714,
+      "accuracy": "address",
+      "source": "https://www.google.com/maps/dir/52.425242%2C13.5341714/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+    },
+    {
+      "id": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.2996,
+      "lon": 13.453,
+      "accuracy": "address",
+      "source": "https://www.google.com/maps/dir/52.2996%2C13.453/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Booking harita konumu (data-atlas-latlng); adresle tutarlı"
+    },
+    {
+      "id": "sweep7-booking-ferienhaus-berlin-6-pax-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.3642,
+      "lon": 13.3747,
+      "accuracy": "address",
+      "source": "https://www.google.com/maps/dir/52.3642%2C13.3747/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Booking harita konumu (data-atlas-latlng); adresle tutarlı"
+    },
+    {
+      "id": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5169,
+      "lon": 13.6549,
+      "accuracy": "address",
+      "source": "https://www.google.com/maps/dir/52.5169%2C13.6549/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Booking harita konumu (data-atlas-latlng); adresle tutarlı"
+    },
+    {
+      "id": "sweep7-holidu-69492292-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.448185,
+      "lon": 13.343799,
+      "accuracy": "approximate",
+      "source": "https://www.google.com/maps/dir/52.448185%2C13.343799/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
+      "note": "Holidu konumu; Steglitz VI ile aynı nokta (aynı bina)"
     }
   ]
 }
