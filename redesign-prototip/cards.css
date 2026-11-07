@@ -104,15 +104,18 @@ body{background:
 .stay-card .amount .converted-price{display:block;margin-top:3px;color:#7b4a37;font-size:11px;font-weight:650}
 .stay-card .amount .quote-label{display:block;margin-top:2px;color:#7a7067;font-size:10px}
 .stay-card .share-table{display:block;width:auto;max-width:none;margin:7px 0 0 auto;border:0;background:transparent}
-.stay-card .share-table caption,.stay-card .share-table .share-approx,.stay-card .share-table .share-limit{display:none}
+.stay-card .share-table caption,.stay-card .share-table .share-limit{display:none}
 .stay-card .share-table tbody{display:block}
-.stay-card .share-table tr{display:inline-flex;align-items:baseline;gap:6px;padding:4px 9px;border-radius:999px;
+.stay-card .share-table tr{display:inline-flex;align-items:baseline;gap:6px;padding:4px 10px;border-radius:12px;
   background:rgba(135,80,61,.09);border:1px solid rgba(135,80,61,.16)}
 .stay-card .share-table tr[hidden]{display:none}
 .stay-card .share-table th,.stay-card .share-table td{width:auto;padding:0;border:0;font-size:11px}
 .stay-card .share-table th{color:#7a5a4b;font-weight:650}
 .stay-card .share-table th::before{content:"Kişi başı "}
 .stay-card .share-table .share-main{font-weight:800;color:#5e3527}
+/* Per-person share in both currencies: amount on the first line, the other currency below. */
+.stay-card .share-table td{display:flex;flex-direction:column;align-items:flex-end;gap:1px}
+.stay-card .share-table .share-approx{display:block;margin:0;color:#7b4a37;font-weight:650;white-space:nowrap}
 
 /* ---------- Four key facts, each a doorway to its detail tab ---------- */
 .fact-tiles{order:2;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:12px 16px 0}
@@ -210,7 +213,6 @@ body{background:
 .card-dialog-content .stay-card{height:auto;transform:none!important;background:rgba(255,255,255,.4);box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 1px 2px rgba(62,42,26,.06)}
 .card-dialog-content .stay-card .card-title>.offer-party{display:inline-block;margin:0 0 6px}
 .card-dialog-content .stay-card .card-head h3,.card-dialog-content .stay-card .card-head h4{-webkit-line-clamp:4;min-height:0;font-size:19px}
-.card-dialog-content .stay-card .share-table .share-approx{display:inline;margin-left:6px}
 .card-dialog-content .stay-card .card-actions{margin-top:0}
 .card-dialog-content .stay-card .fact-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
 .card-dialog-content .stay-card .photo-actions{display:flex!important;padding:8px 12px 0}

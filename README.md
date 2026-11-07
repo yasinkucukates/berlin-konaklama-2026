@@ -42,6 +42,8 @@ Ardından yalnız `/tmp/index.html`, güncel `main` üzerinde `index.html` olara
 
 Günlük müsaitlik: Canlı sayfa açılışta yanındaki `availability-status.json` dosyasını önbelleksiz okur ve kartları ona göre günceller. Günlük kontrolün canlıya yansıması için `main` dalında yalnız bu dosyanın güncellenmesi yeterlidir; `index.html` yeniden üretilmez. Bilgisayardaki eski canlı üretici artık kullanılmamalıdır; o üretici `index.html` dosyasını eski görünümle değiştirir. Yeni ilan veya arayüz değişikliği önce bu dalda yapılır, sonra onayla canlıya derlenir.
 
+Kur: Fiyatlar kaynaktaki para biriminde gösterilir; yanında euro ve TL karşılığı (dolar fiyatında ikisi) yazar. Sayfa her açılışta Frankfurter üzerinden günün ECB referans kurunu (`api.frankfurter.dev/v1/latest`) alır ve tüm ≈ tutarları, TL fiyatlı ilanların filtre ve sıralamadaki euro değerini buna göre günceller. Kur alınamazsa tarayıcıdaki son kur, o da yoksa derlemedeki referans kur (`build_liquid.py` içindeki `TRY_PER_EUR`) kullanılır. "En uygun" etiketleri derleme anındaki kurla belirlenir.
+
 ## Eşitleme ve sınırlar
 
 Bu dal, 7 Kasım 2026 yerel prototipinin GitHub çalışma kopyasıdır. Bilgisayardaki eski önizleme ve günlük kontrol kaynağı `Projects/Skills-ve-MCPler/denemeler/berlin-konaklama-arama` altında kalır; bu iki kopya otomatik eşitlenmez. Değişiklikleri taşımadan önce iki taraftaki en son sürümü ve ortak beğenilerin korunmasını kontrol edin. Yeni bulunan ilanlar, kullanıcı seçmeden prototipe veya canlı siteye eklenmez. Fiyat ve müsaitlik değişebilir; kişi kapasitesi tek başına fiyat veya müsaitlik kanıtı değildir.

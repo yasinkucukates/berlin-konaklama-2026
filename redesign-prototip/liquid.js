@@ -67,6 +67,58 @@
       .catch(() => {});
   };
 
+  // Exchange rates. Every ≈ amount carries its source amount and currency; the
+  // build writes them at the reference rate, then the page asks for the day's ECB
+  // reference rate (last good rate kept for a day without network) and rewrites
+  // both the euro and the lira equivalents.
+  const fxNote = document.querySelector('.fx-note[data-fx-try]');
+  const fxReference = fxNote ? {date:fxNote.dataset.fxDate, TRY:Number(fxNote.dataset.fxTry), USD:Number(fxNote.dataset.fxUsd)} : null;
+  const fxUsable = rate => rate && isDay(rate.date) && Number.isFinite(rate.TRY) && rate.TRY > 5 && rate.TRY < 500 &&
+    Number.isFinite(rate.USD) && rate.USD > 0.5 && rate.USD < 2;
+  const whole = new Intl.NumberFormat('tr-TR', {maximumFractionDigits:0});
+  const rateNumber = new Intl.NumberFormat('tr-TR', {minimumFractionDigits:2, maximumFractionDigits:4});
+  const rateShort = new Intl.NumberFormat('tr-TR', {minimumFractionDigits:2, maximumFractionDigits:2});
+  const fxDay = (day, year) => new Intl.DateTimeFormat('tr-TR', {day:'numeric', month:'long', ...(year ? {year:'numeric'} : {}), timeZone:'UTC'}).format(new Date(day + 'T12:00:00Z'));
+  const toEur = (amount, currency, rate) => currency === 'EUR' ? amount : currency === 'TRY' ? amount / rate.TRY : amount / rate.USD;
+  function applyFx(rate) {
+    document.querySelectorAll('[data-fx-amount]').forEach(node => {
+      const amount = Number(node.dataset.fxAmount);
+      if (!Number.isFinite(amount)) return;
+      const eur = toEur(amount, node.dataset.fxCurrency, rate);
+      node.textContent = (node.dataset.fxTo || '').split(',').map(target => target === 'TRY'
+        ? `≈ ${whole.format(Math.round(eur * rate.TRY))} TL` : `≈ ${whole.format(Math.round(eur))} €`).join(' · ');
+    });
+    // Filters and sorting use the euro value; update it only where it was derived
+    // from the same lira or dollar total at the reference rate.
+    document.querySelectorAll('.stay-card[data-price-eur]').forEach(card => {
+      const head = card.querySelector('.card-head .converted-price[data-fx-amount]');
+      if (!head || head.dataset.fxCurrency === 'EUR' || !fxReference) return;
+      const amount = Number(head.dataset.fxAmount);
+      if (!card.dataset.priceEurReference) card.dataset.priceEurReference = card.dataset.priceEur;
+      const before = Number(card.dataset.priceEurReference);
+      const atReference = toEur(amount, head.dataset.fxCurrency, fxReference);
+      if (Number.isFinite(before) && Math.abs(before - atReference) <= atReference * 0.01) card.dataset.priceEur = toEur(amount, head.dataset.fxCurrency, rate).toFixed(2);
+    });
+    document.querySelectorAll('.fx-rate-short').forEach(node => { node.textContent = `≈ işaretli tutarlar ${fxDay(rate.date)} ECB kuruyla hesaplanır: 1 € = ${rateShort.format(rate.TRY)} TL.`; });
+    document.querySelectorAll('.fx-rate-long').forEach(node => { node.textContent = `${fxDay(rate.date, true)} tarihli ECB referans kurları: 1 € = ${rateNumber.format(rate.TRY)} TL; 1 € = ${rateNumber.format(rate.USD)} USD.`; });
+    document.dispatchEvent(new Event('berlin-fx'));
+  }
+  const loadDailyRate = () => {
+    if (!fxReference || typeof fetch !== 'function') return;
+    let saved = null;
+    try { saved = JSON.parse(localStorage.getItem('berlin-fx-eur') || 'null'); } catch (_) {}
+    if (fxUsable(saved) && saved.date > fxReference.date) applyFx(saved);
+    fetch('https://api.frankfurter.dev/v1/latest?base=EUR&symbols=TRY,USD', {cache:'no-store', credentials:'omit', referrerPolicy:'no-referrer'})
+      .then(response => response.ok ? response.json() : null)
+      .then(data => {
+        const rate = data && data.base === 'EUR' && data.rates ? {date:data.date, TRY:Number(data.rates.TRY), USD:Number(data.rates.USD)} : null;
+        if (!fxUsable(rate) || rate.date < fxReference.date) return;
+        try { localStorage.setItem('berlin-fx-eur', JSON.stringify(rate)); } catch (_) {}
+        applyFx(rate);
+      })
+      .catch(() => {});
+  };
+
   document.addEventListener('click', event => {
     const tab = event.target.closest('.detail-tab');
     if (tab) activateCardTab(tab.closest('.stay-card'), tab.dataset.tab);
@@ -731,6 +783,8 @@
     cards.forEach(applyCapacityEvidence);
     applyFilters();
   });
+  // Lira-priced offers change their euro value with the day's rate.
+  document.addEventListener('berlin-fx', () => { applyFilters(); if (sort) applySort(); });
 
   const markImageFailure = img => {
     const anchor = img.closest('a');
@@ -801,6 +855,7 @@
   dialog.addEventListener('close', () => { large.removeAttribute('src'); if (opener) opener.focus(); });
   });
   loadLiveAvailability();
+  loadDailyRate();
   if (adapter()) refreshFavorites();
   window.addEventListener('berlin-favorites-transport-ready', refreshFavorites);
   window.addEventListener('focus', () => { if (adapter()) refreshFavorites(); });
