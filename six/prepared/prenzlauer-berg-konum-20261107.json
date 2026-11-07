@@ -1,0 +1,31 @@
+{
+  "observedAt": "2026-11-07",
+  "id": "six-airbnb-1452938883567081364-full",
+  "source": "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+  "title": "Gruplar ve aileler için 90 m²'lik vaha, mutfak, çamaşır makinesi",
+  "area": "Prenzlauer Berg, Berlin, Almanya (Tüm kiralık konut, zemin kat)",
+  "capacity": 6,
+  "bedrooms": 2,
+  "baths": 1,
+  "lat": 52.5539,
+  "lon": 13.4187,
+  "locationAccuracy": "exact",
+  "locationNote": "Sayfa verisinde isExactLocation:true; koordinat Airbnb tarafından 4 ondalığa yuvarlanmış (yaklaşık ±10 m). OSRM başlangıcı Trelleborger Straße'ye oturdu.",
+  "rooms": [
+    {"name": "1. yatak odası", "beds": ["tek kişilik", "tek kişilik", "kanepe", "beşik"]},
+    {"name": "2. yatak odası", "beds": ["tek kişilik", "tek kişilik", "tek kişilik", "tek kişilik", "beşik"]},
+    {"name": "Oturma odası", "beds": ["kanepe"]}
+  ],
+  "sixSeparateBeds": true,
+  "sofaNeeded": false,
+  "available": true,
+  "priceText": "€1.495 (4 gece için), indirimsiz fiyatı €1.805; döküm: 4 gece x €373,73 = €1.494,90",
+  "priceNote": "Toplam fiyat gösterimi; dökümde ayrı hizmet bedeli satırı yok, ücretler dahil görünüyor. Berlin şehir vergisi (City Tax) dahil değil, ev sahibi ayrı faturayla tahsil ediyor. Rezerve edin düğmesi etkin, tarihler müsait.",
+  "osrm": {
+    "request": "https://router.project-osrm.org/table/v1/driving/13.4187,52.5539;13.5053346,52.459911;13.419484,52.5106807?sources=0&destinations=1;2&annotations=duration,distance",
+    "tresorCarMin": 11,
+    "tresorKm": 6.1,
+    "rsoCarMin": 25,
+    "rsoKm": 14.5
+  }
+}
