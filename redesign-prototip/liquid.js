@@ -308,6 +308,16 @@
     availabilitySummary.innerHTML = '<b class="sum-date"></b><span class="sum-ok"></span><span class="sum-no"></span><span class="sum-rest"></span>';
     resultsContent.prepend(availabilitySummary);
   }
+  // Open filters are named above the results, each with its own remove button.
+  let activeFilterBar = null;
+  if (resultsContent) {
+    activeFilterBar = document.createElement('div');
+    activeFilterBar.className = 'active-filters';
+    activeFilterBar.setAttribute('role', 'group');
+    activeFilterBar.setAttribute('aria-label', 'Açık filtreler');
+    activeFilterBar.hidden = true;
+    resultsContent.prepend(activeFilterBar);
+  }
   const filterValues = [capacityFilter, priceFilter, travelFilter, bedsFilter, roomsFilter].filter(Boolean);
   const knownNumber = value => value !== undefined && value !== '' && Number.isFinite(Number(value)) ? Number(value) : null;
   let availabilityRecords = embeddedAvailability;
@@ -632,7 +642,58 @@
     const filterCount = filterValues.filter(control => control.value !== 'all').length;
     const mobileCount = mobileFilterButton?.querySelector('.active-filter-count');
     if (mobileCount) mobileCount.textContent = filterCount ? `(${filterCount})` : '';
+    renderActiveFilters();
     root.dispatchEvent(new Event('cards-filtered', {bubbles:true}));
+  }
+  function renderActiveFilters() {
+    filterValues.forEach(control => control.classList.toggle('is-active', control.value !== 'all'));
+    const chips = filterValues.filter(control => control.value !== 'all').map(control => {
+      const name = (control.closest('label')?.firstChild?.textContent || '').trim();
+      const value = control.selectedOptions[0]?.textContent.trim() || control.value;
+      return {text:name ? `${name}: ${value}` : value, clear:() => { control.value = 'all'; }};
+    });
+    if (activeBest) chips.unshift({text:activeBest === 'best-house' ? 'En Uygun Villa' : 'En Uygun Daire', clear:() => selectPlan(selectedGroup?.id || allPlanId)});
+    if (newOnly) chips.unshift({text:'Son Eklenenler', clear:() => setNewOnly(false)});
+    root.dataset.activeFilters = String(chips.length);
+    if (!activeFilterBar) return;
+    activeFilterBar.hidden = !chips.length;
+    if (!chips.length) { activeFilterBar.replaceChildren(); return; }
+    const after = () => { applyFilters(); if (sort) applySort(); };
+    const heading = document.createElement('b'); heading.className = 'active-filters-title';
+    heading.textContent = chips.length === 1 ? 'Açık filtre' : `${chips.length} açık filtre`;
+    const nodes = [heading];
+    chips.forEach(chip => {
+      const button = document.createElement('button'); button.type = 'button'; button.className = 'filter-chip';
+      button.setAttribute('aria-label', `${chip.text} filtresini kaldır`);
+      const label = document.createElement('span'); label.textContent = chip.text;
+      button.append(label, icon('x'));
+      button.addEventListener('click', () => { chip.clear(); after(); activeFilterBar.querySelector('.filter-chip, .filter-chips-clear')?.focus({preventScroll:true}); });
+      nodes.push(button);
+    });
+    if (chips.length > 1) {
+      const clear = document.createElement('button'); clear.type = 'button'; clear.className = 'filter-chips-clear'; clear.textContent = 'Tümünü kaldır';
+      clear.addEventListener('click', () => { chips.forEach(chip => chip.clear()); after(); });
+      nodes.push(clear);
+    }
+    if (favoritesOnly) {
+      let total = cards.filter(card => favorites.entries.has(offerKey(offerFromCard(card)))).length;
+      relatedQuotes.forEach(({six, seven}) => {
+        if (favorites.entries.has(offerKey(offerFromCard(six))) && favorites.entries.has(offerKey(offerFromCard(seven)))) total--;
+      });
+      const shown = cards.filter(card => !card.hidden).length;
+      if (total > shown) {
+        const note = document.createElement('p'); note.className = 'active-filters-note';
+        note.textContent = shown ? `${total} favoriden ${shown} tanesi gösteriliyor; diğerleri bu filtrelere takılıyor.` : `${total} favorinin hiçbiri bu filtrelere uymuyor.`;
+        nodes.push(note);
+      }
+    }
+    activeFilterBar.replaceChildren(...nodes);
+  }
+  function icon(name) {
+    const ns = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(ns, 'svg'); svg.setAttribute('class', 'i'); svg.setAttribute('aria-hidden', 'true'); svg.setAttribute('focusable', 'false');
+    const use = document.createElementNS(ns, 'use'); use.setAttribute('href', `#i-${name}`); svg.append(use);
+    return svg;
   }
   filterValues.forEach(control => control.addEventListener('change', () => { applyFilters(); if (sort) applySort(); }));
   guestFilter?.addEventListener('change', () => { applyFilters(); if (sort) applySort(); });
