@@ -509,7 +509,7 @@
     "capacity": 8,
     "rooms": 2,
     "baths": "2, her dairede 1",
-    "beds": "Her Family Apartment 1 queen yatak ve 1 çift kişilik çekyat, azami 4 kişi. İki dairenin birleşik ilan kapasitesi 8.",
+    "beds": "Her aile dairesinde (Family Apartment) 1 queen yatak ve 1 çift kişilik çekyat, azami 4 kişi. İki dairenin birleşik ilan kapasitesi 8.",
     "features": "Her daire yaklaşık 29 m², mini mutfak ve özel duşlu banyo; iki birim ayrı yaşam alanlarıdır. Fotoğraftaki mutfak tesis örneğidir, atanacak birim farklı olabilir.",
     "price": "137.484,81 TL",
     "priceStatus": "İki birim için tarihli toplam; ödeme özeti görülmedi",
@@ -560,12 +560,12 @@
     "capacity": 8,
     "rooms": 2,
     "baths": "2, her dairede 1",
-    "beds": "Her One Bedroom Apartment için 1 king yatak ve 1 çekyat; her daire ilan kapasitesi 4. Çekyat ölçüsü ve dört yetişkinin fiilî rahatlığı ayrıca teyit edilmeli.",
+    "beds": "Her tek yatak odalı dairede (One Bedroom Apartment) 1 king yatak ve 1 çekyat; her daire ilan kapasitesi 4. Çekyat ölçüsü ve dört yetişkinin fiilî rahatlığı ayrıca teyit edilmeli.",
     "features": "Her dairede mutfak, yaşam ve yemek alanı, özel duşlu banyo. İki ayrı dairenin oturma alanları birleşik değil.",
     "price": "148.387,46 TL",
     "priceStatus": "İki birim için tarihli toplam; ödeme özeti görülmedi",
     "priceClass": "search",
-    "priceNote": "05.11.2026 Skiplagged ekranında 30 Aralık–3 Ocak, 7 yetişkin / 2 daire, One Bedroom Apartment için toplam. Ekranda 29 Aralık saat 02.00 öncesine kadar ücretsiz iptal gösteriliyor; saat ve şartları son aşamada doğrulayın. Nihai tahsilat kuru değişebilir; ödeme satıcısı ayrıca doğrulanmalı.",
+    "priceNote": "05.11.2026 Skiplagged ekranında 30 Aralık–3 Ocak, 7 yetişkin / 2 daire, tek yatak odalı daire (One Bedroom Apartment) için toplam. Ekranda 29 Aralık saat 02.00 öncesine kadar ücretsiz iptal gösteriliyor; saat ve şartları son aşamada doğrulayın. Nihai tahsilat kuru değişebilir; ödeme satıcısı ayrıca doğrulanmalı.",
     "availabilityNote": "Aynı tesisin iki dairesi. Aynı bina kanadı, kat veya yan yanalık için kaynak garantisi yok.",
     "rsoCar": "19 dk",
     "rsoTransit": "42 dk",
@@ -581,7 +581,7 @@
     ],
     "photos": [
       [
-        "One Bedroom Apartment yatak ve banyo",
+        "Tek yatak odalı daire, yatak ve banyo",
         "https://q-xx.bstatic.com/xdata/images/hotel/max3000/772702723.jpg?k=3d4ecc347faef67d2fa4afc70d1bb8071a2ffc57ac99591ddcbb8f511e8560e4&o=&a=2325679"
       ],
       [

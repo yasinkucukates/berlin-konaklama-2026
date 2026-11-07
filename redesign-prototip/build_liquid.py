@@ -36,6 +36,12 @@ BED_BREAKDOWNS = HERE / 'bed-breakdowns.json'
 BED_ROOM_FILES = (HERE / 'bed-rooms.json', HERE / 'bed-rooms-extra-houses.json',
                   HERE / 'bed-rooms-extra-apts.json', HERE / 'bed-rooms-sweep-20261106.json',
                   HERE / 'bed-rooms-sweep-20261107.json')
+# English/German room and bed words copied from listing pages (7 Nov sweep).
+FOREIGN_BED_TEXT = re.compile(r'\b(?:bed|beds|bedroom|living room|sofa bed|bunk|couch|couches|crib|mattress|mattresses|single|double'
+                              r'|Bett|Betten|Einzelbett\w*|Doppelbett\w*|Schlafzimmer|Wohnzimmer|Queensize|Schlafsofa)\b', re.I)
+# From the 7 November sweep on, sweep rows keep the provider's name as
+# originalName and need a reviewed Turkish card title in titles-tr.json.
+TITLE_REQUIRED_FROM = 'galeri-sweep-20261107.json'
 OUT = HERE / ('preview-six.html' if ADULTS == 6 else 'preview-seven.html')
 FOUR_IN, FOUR_OUT = '2026-12-30', '2027-01-03'
 MONTHS = {11: 'Kasım', 12: 'Aralık', 1: 'Ocak'}
@@ -210,6 +216,10 @@ def load_bed_rooms():
                 for room in rooms
             ):
                 raise ValueError(f'{path.name}: {listing_id} için oda adı ve yatak bilgisi gerekli')
+            # Room tables are shown on the card as written; the bed badge also
+            # counts only Turkish bed words, so source-language labels stop here.
+            if any(FOREIGN_BED_TEXT.search(room['name']) or FOREIGN_BED_TEXT.search(room['beds']) for room in rooms):
+                raise ValueError(f'{path.name}: {listing_id} oda veya yatak metni Türkçe değil')
             if not isinstance(record.get('note'), str) or not record['note'].strip():
                 raise ValueError(f'{path.name}: {listing_id} için kaynak notu gerekli')
             if record.get('status') not in ('belirsiz', 'ilan', 'fotoğraflı'):
@@ -1381,6 +1391,10 @@ def main():
     for row in rows:
         row['_raw_name'] = row.get('name', '')
         title = titles.get(str(row.get('id')), {})
+        source_file = str(row.get('_sourceFile') or '')
+        if (source_file.startswith('galeri-sweep-') and source_file >= TITLE_REQUIRED_FROM
+                and not (isinstance(title, dict) and str(title.get('displayName') or '').strip())):
+            raise ValueError(f"Türkçe kart başlığı eksik ({TITLES.name}): {row.get('id')}")
         if isinstance(title, dict) and isinstance(title.get('displayName'), str) and title['displayName'].strip():
             row['name'] = title['displayName'].strip()
         if ruebezahl_exception(row):

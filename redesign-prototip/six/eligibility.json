@@ -242,7 +242,7 @@
       "privacy": "entire_private",
       "category": "apartment",
       "group": "conditional",
-      "reason": "Airbnb tüm kiralık konut ve daire içinde bir banyo bildiriyor. Kulübe araç süresi doğrulanmadı.",
+      "reason": "Airbnb tüm kiralık konut ve daire içinde bir banyo bildiriyor. Kulübe araç süresi 07.11.2026’da Airbnb ilan noktasından OSRM ile hesaplandı.",
       "source": "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6",
       "maxAdults": 6,
       "ui7Eligible": false

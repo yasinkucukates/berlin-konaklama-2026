@@ -362,11 +362,11 @@
       "id": "six-airbnb-1452938883567081364-full",
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
-      "lat": null,
-      "lon": null,
-      "accuracy": "unknown",
+      "lat": 52.5539,
+      "lon": 13.4187,
+      "accuracy": "listing_approx",
       "source": "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6",
-      "note": "Konum kanıtı bulunamadı."
+      "note": "Airbnb ilan noktası, 07.11.2026. Sayfa verisi kesin konum diyor ama koordinat 4 ondalığa yuvarlı (yaklaşık ±10 m); bina girişi doğrulanmadı."
     },
     {
       "id": "six-booking-urban-flats-1270649713-full",

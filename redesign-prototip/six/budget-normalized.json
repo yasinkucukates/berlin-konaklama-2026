@@ -335,18 +335,18 @@
       "id": "six-airbnb-1452938883567081364-full",
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
-      "amountEUR": 1539.0,
+      "amountEUR": 1495.0,
       "currencyBasis": "native",
       "band": "within",
       "taxKnown": false,
       "taxReserveFlag": true,
-      "sourceTaxStatus": "conflict",
+      "sourceTaxStatus": "excluded",
       "depositFlag": false,
       "depositText": null,
       "componentOnly": false,
       "sourceFile": "new-search.json",
-      "sourcePriceText": "1.539 €",
-      "notes": "Altı yetişkin için tarihli kaynak fiyatıdır. Doğrudan EUR tutarı kullanıldı. Vergi ve ek ücretlerin kesin kapsamı doğrulanmadı; fiyat artabilir."
+      "sourcePriceText": "1.495 €",
+      "notes": "Altı yetişkin için 07.11.2026 tarihli kaynak fiyatıdır. Doğrudan EUR tutarı kullanıldı. Berlin şehir vergisi dahil değil; ödenecek toplam artar."
     },
     {
       "id": "six-booking-urban-flats-1270649713-full",

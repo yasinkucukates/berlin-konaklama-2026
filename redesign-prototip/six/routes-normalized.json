@@ -222,13 +222,13 @@
       "id": "six-airbnb-1452938883567081364-full",
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
-      "rsoCarMin": null,
-      "tresorCarMin": null,
+      "rsoCarMin": 25,
+      "tresorCarMin": 11,
       "tresorRangeUpperMin": null,
       "rsoTransitMin": null,
       "tresorTransitMin": null,
       "routeQuality": "Kaynakta bildirilen araç süresi, yaklaşık konum olabilir",
-      "notes": "Konum ve iki hedefe ulaşım kontrol edilmedi; sokak, bina veya nokta ataması yapılmadı. Kaynak: new-search.json"
+      "notes": "OSRM trafiksiz sürüş modeli; Airbnb ilan noktası (07.11.2026) kullanıldı: Tresor 6,1 km, RSO 14,5 km. Gerçek trafik, kış ve yılbaşı koşullarında süre değişebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4187,52.5539;13.5053346,52.459911;13.419484,52.5106807?sources=0&destinations=1;2&annotations=duration,distance"
     },
     {
       "id": "six-booking-urban-flats-1270649713-full",
