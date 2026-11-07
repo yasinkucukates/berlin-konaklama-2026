@@ -511,6 +511,11 @@ def photos_html(row):
             label, raw_url = photo
             url = safe_url(raw_url)
             if url:
+                parsed = urlsplit(url)
+                # Booking serves gallery images only with the signed k= query
+                # copied from the listing; without it the card shows no photo.
+                if parsed.hostname == 'cf.bstatic.com' and not parse_qs(parsed.query).get('k'):
+                    raise ValueError(f"İmzasız Booking görseli (k= yok): {row.get('id')} {url}")
                 images.append((str(label), url))
     if not images:
         return '<div class="empty-photo"><p>Fotoğraf bağlantısı yok. İlanı açın.</p></div>'
