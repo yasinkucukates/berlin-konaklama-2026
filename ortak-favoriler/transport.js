@@ -9,7 +9,7 @@
   const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
   // Apps Script web apps often need 2-6 s per call after a quiet spell.
   const LIST_TIMEOUT_MS = 10000;
-  const WRITE_TIMEOUT_MS = 15000;
+  const WRITE_TIMEOUT_MS = 12000;
   const VERIFY_WINDOW_MS = 20000;
 
   function validateItem(item) {
@@ -65,24 +65,34 @@
       return data.items.map(validateItem);
     }
 
-    async function change(op, input) {
+    // A plain (CORS) POST: Apps Script answers through googleusercontent.com
+    // with Access-Control-Allow-Origin, so the page can read {"ok":true|false}
+    // in about a second. Measured on the live endpoint on 7 November 2026.
+    // 'ok' = written, 'rejected' = the server refused (listing not on its list,
+    // vote limit, or a busy lock), 'unknown' = no readable answer; the server
+    // may still have applied it, so the list decides.
+    async function send(op, input) {
       requireSecureContext();
       const item = validateItem(input);
-      const wanted = op === 'add';
       const controller = new AbortController();
       const timer = setTimeout(() => controller.abort(), WRITE_TIMEOUT_MS);
-      let delivered = true;
       try {
-        await fetch(url.href, {method: 'POST', mode: 'no-cors', referrerPolicy: 'no-referrer', body: JSON.stringify({op:wanted?'vote':'unvote', scope:'berlin-guide-v1', item, voter:voterId()}), signal: controller.signal});
+        const response = await fetch(url.href, {method: 'POST', referrerPolicy: 'no-referrer', body: JSON.stringify({op:op==='add'?'vote':'unvote', scope:'berlin-guide-v1', item, voter:voterId()}), signal: controller.signal});
+        const data = await response.json().catch(() => null);
+        return data && data.ok === true ? 'ok' : data && data.ok === false ? 'rejected' : 'unknown';
       } catch (_) {
-        // A slow or cut-off response does not mean the vote was lost; the
-        // server often finishes the write anyway. Let the list decide.
-        delivered = false;
+        return 'unknown';
       } finally {
         clearTimeout(timer);
       }
-      // Apps Script can take several seconds per call, so confirm the vote by
-      // reading the list again with growing pauses instead of failing early.
+    }
+
+    // Older callers: write, then return the confirmed list.
+    async function change(op, input) {
+      const item = validateItem(input);
+      const wanted = op === 'add';
+      const outcome = await send(op, item);
+      if (outcome === 'rejected') throw new Error('Sunucu işlemi kabul etmedi');
       const started = Date.now();
       for (let attempt = 0; ; attempt++) {
         try {
@@ -92,9 +102,9 @@
         if (Date.now() - started >= VERIFY_WINDOW_MS) break;
         await wait(Math.min(1000 * 2 ** attempt, 4000));
       }
-      throw new Error(delivered ? 'İşlem doğrulanamadı; listeyi yenileyin' : 'İşlemin sonucu bilinmiyor; listeyi yenileyin');
+      throw new Error('İşlem doğrulanamadı; listeyi yenileyin');
     }
 
-    return {list, add: item => change('add', item), remove: item => change('remove', item)};
+    return {list, send, add: item => change('add', item), remove: item => change('remove', item)};
   };
 })();

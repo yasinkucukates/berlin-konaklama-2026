@@ -197,3 +197,7 @@
 .show-split-houses:hover,.show-split-houses:focus-visible{background:#f4e9df}
 .resort-summary{margin:7px 0;color:#71472f;font-size:11px;line-height:1.4;font-weight:650}
 .distance-badge{display:inline-block;padding:5px 8px;border-radius:7px;margin:0 6px 8px 0;background:#fff0d9;border:1px solid #dcb77b;color:#75470e;font:700 11px/1.35 var(--sans)}
+/* A vote that is still being saved: the heart already shows the choice and pulses softly. */
+.favorite-button[data-syncing] .favorite-heart{animation:favorite-sync 1.1s ease-in-out infinite}
+@keyframes favorite-sync{50%{opacity:.45}}
+@media (prefers-reduced-motion:reduce){.favorite-button[data-syncing] .favorite-heart{animation:none;opacity:.6}}

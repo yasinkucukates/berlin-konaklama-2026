@@ -150,7 +150,14 @@
     const route = location.hash.slice(1).split('?')[0];
     return route.startsWith('fav=') ? '' : route;
   };
-  const favorites = {state:'disconnected', entries:new Set(), busy:false, uncertain:false, pending:new Map(), errors:new Set(), revision:0, metadata:new Map(), mine:new Set()};
+  // Shared favorites. A tap changes the heart at once and the vote is sent in
+  // the background, one request per card, so cards never wait for each other.
+  // Until the shared list confirms it, the choice stays in `pending` (also kept
+  // in this browser), so a slow server or a reload never flips the heart back.
+  // Only a vote the server keeps refusing, or one it never confirms after
+  // several tries, is undone, and the card then says so.
+  const favorites = {state:'disconnected', entries:new Set(), busy:false, uncertain:false, pending:new Map(), errors:new Set(),
+    metadata:new Map(), mine:new Set(), server:new Map(), serverReadAt:0, inflight:new Map(), waiters:new Map(), lastReadAt:0};
   const offerFromCard = card => ({id:card.dataset.id, checkIn:card.dataset.checkIn, checkOut:card.dataset.checkOut});
   const offerKey = offer => JSON.stringify([offer.id, offer.checkIn, offer.checkOut]);
   const validOffer = offer => offer && typeof offer.id === 'string' && offer.id.length > 0 &&
@@ -161,9 +168,10 @@
     return api && ['list', 'add', 'remove'].every(method => typeof api[method] === 'function') ? api : null;
   };
   const notifyFavorites = () => document.dispatchEvent(new Event('berlin-favorites-state'));
-  // The shared list runs on Apps Script, which can take several seconds per
-  // call. A vote also waits for the list to confirm it (see transport.js).
-  const READ_TIMEOUT_MS = 15000, WRITE_TIMEOUT_MS = 60000;
+  // Apps Script needs 1-2 s per call and longer after a quiet spell.
+  const READ_TIMEOUT_MS = 15000, WRITE_TIMEOUT_MS = 30000;
+  const RESEND_AFTER_MS = [0, 3000, 6000, 12000], MAX_TRIES = RESEND_AFTER_MS.length;
+  const PENDING_STORE = 'berlin-favorite-pending-v1', PENDING_MAX_AGE_MS = 6 * 3600 * 1000;
   const timed = async (promise, ms) => {
     let timer;
     try {
@@ -172,89 +180,156 @@
       })]);
     } finally { clearTimeout(timer); }
   };
-  const applyVoteRows = items => { favorites.metadata=new Map(items.map(x=>[offerKey(x),x])); favorites.mine=new Set(items.filter(x=>x.mine).map(offerKey)); return new Set(items.map(offerKey)); };
   const readFavoriteEntries = async api => {
     const items = await timed(Promise.resolve().then(() => api.list()), READ_TIMEOUT_MS);
     if (!Array.isArray(items) || !items.every(validOffer)) throw new Error('Invalid favorites response');
     return items;
   };
-  let writeQueue = Promise.resolve();
-  // After a failed read or an unconfirmed vote, look again soon instead of
-  // waiting for the 30-second refresh: a slow vote usually lands meanwhile.
-  let retryTimer = 0, retryDelay = 3000;
-  function scheduleFavoriteRetry() {
-    clearTimeout(retryTimer);
-    retryTimer = setTimeout(() => { if (adapter()) refreshFavorites(); }, retryDelay);
-    retryDelay = Math.min(retryDelay * 2, 30000);
+  function savePending() {
+    try {
+      const rows = [...favorites.pending].map(([key, p]) => [key, {offer:p.offer, selected:p.selected, since:p.since}]);
+      rows.length ? localStorage.setItem(PENDING_STORE, JSON.stringify(rows)) : localStorage.removeItem(PENDING_STORE);
+    } catch (_) { /* Private mode: the choice still syncs while the page is open. */ }
+  }
+  function loadPending() {
+    try {
+      const rows = JSON.parse(localStorage.getItem(PENDING_STORE) || '[]');
+      for (const [key, p] of Array.isArray(rows) ? rows : []) {
+        if (p && validOffer(p.offer) && offerKey(p.offer) === key && typeof p.selected === 'boolean' &&
+            Number.isFinite(p.since) && Date.now() - p.since < PENDING_MAX_AGE_MS) {
+          favorites.pending.set(key, {offer:p.offer, selected:p.selected, since:p.since, tries:0, lastSent:0, settledAt:0, written:false});
+        }
+      }
+    } catch (_) { /* Ignore a damaged entry. */ }
+  }
+  // What the page shows: the last shared list with this browser's unconfirmed choices on top.
+  function rebuildFavorites() {
+    const meta = new Map([...favorites.server].map(([key, row]) => [key, {...row}]));
+    for (const [key, p] of favorites.pending) {
+      const row = meta.get(key) || {...p.offer, count:0, mine:false, legacy:false};
+      if (row.mine !== p.selected) meta.set(key, {...row, mine:p.selected, count:Math.max(0, row.count + (p.selected ? 1 : -1))});
+    }
+    favorites.metadata = meta;
+    favorites.mine = new Set([...meta].filter(([, row]) => row.mine).map(([key]) => key));
+    favorites.entries = new Set([...meta].filter(([, row]) => row.count || row.legacy).map(([key]) => key));
+    favorites.uncertain = favorites.errors.size > 0;
+  }
+  function settle(key) {
+    favorites.pending.delete(key);
+    (favorites.waiters.get(key) || []).forEach(resolve => resolve());
+    favorites.waiters.delete(key);
+  }
+  function failFavorite(key) {
+    settle(key);
+    favorites.errors.add(key);
+    setTimeout(() => { favorites.errors.delete(key); rebuildFavorites(); notifyFavorites(); }, 20000);
+  }
+  // A choice is confirmed by a list read that started after its last write
+  // finished; an older read can't tell whether that write landed yet. A repeat
+  // of the same choice still in flight can't change the result, so it doesn't
+  // hold the confirmation back; an opposite one does.
+  function confirmFromServer() {
+    for (const [key, p] of favorites.pending) {
+      if (favorites.inflight.has(key) && favorites.inflight.get(key) !== p.selected) continue;
+      if (favorites.serverReadAt < p.settledAt) continue;
+      if (Boolean(favorites.server.get(key)?.mine) === p.selected) settle(key);
+      // The server said it was written; stop waiting for the list after a minute.
+      else if (p.written && Date.now() - p.settledAt > 60000) settle(key);
+    }
+  }
+  let readTimer = 0, syncTimer = 0, retryDelay = 3000;
+  const scheduleRead = ms => { clearTimeout(readTimer); readTimer = setTimeout(() => { if (adapter()) refreshFavorites(); }, ms); };
+  const scheduleSync = ms => { clearTimeout(syncTimer); syncTimer = setTimeout(syncFavorites, ms); };
+  function syncFavorites() {
+    const api = adapter();
+    if (!api) return;
+    let wait = Infinity;
+    for (const [key, p] of favorites.pending) {
+      if (favorites.inflight.has(key) || p.written) continue;
+      if (p.tries >= MAX_TRIES) {
+        // Give the list one more look after the last try before giving up.
+        const left = p.settledAt + 8000 - Date.now();
+        if (left <= 0) failFavorite(key); else wait = Math.min(wait, left);
+        continue;
+      }
+      const due = p.lastSent + RESEND_AFTER_MS[p.tries] - Date.now();
+      if (p.tries && due > 0) { wait = Math.min(wait, due); continue; }
+      sendFavorite(api, key, p);
+    }
+    savePending(); rebuildFavorites(); notifyFavorites();
+    if (Number.isFinite(wait)) scheduleSync(wait + 50);
+  }
+  async function sendFavorite(api, key, p) {
+    const selected = p.selected;
+    favorites.inflight.set(key, selected);
+    p.tries++; p.lastSent = Date.now();
+    let outcome = 'unknown';
+    try {
+      if (typeof api.send === 'function') {
+        outcome = await timed(Promise.resolve().then(() => api.send(selected ? 'add' : 'remove', p.offer)), WRITE_TIMEOUT_MS);
+      } else {
+        // Preview adapter: add/remove resolve with the confirmed list.
+        const items = await timed(Promise.resolve().then(() => selected ? api.add(p.offer) : api.remove(p.offer)), WRITE_TIMEOUT_MS);
+        outcome = 'ok';
+        if (Array.isArray(items) && items.every(validOffer)) { favorites.server = new Map(items.map(x => [offerKey(x), x])); favorites.serverReadAt = Date.now(); }
+      }
+    } catch (_) { outcome = 'unknown'; }
+    favorites.inflight.delete(key);
+    p.settledAt = Date.now();
+    if (favorites.pending.get(key) === p && p.selected === selected) {
+      if (outcome === 'ok') p.written = true;
+      else if (outcome === 'rejected' && p.tries >= MAX_TRIES - 1) { failFavorite(key); }
+    }
+    // A newer tap on the same card is sent right after this one finishes.
+    confirmFromServer();
+    scheduleSync(0);
+    scheduleRead(outcome === 'ok' ? 400 : 1500);
   }
   async function refreshFavorites() {
-    if (favorites.busy || favorites.pending.size) return;
     const api = adapter();
     if (!api) { favorites.state = 'disconnected'; favorites.entries.clear(); notifyFavorites(); return; }
-    const revision = favorites.revision;
+    if (favorites.busy) { scheduleRead(1000); return; }
     favorites.busy = true;
     if (favorites.state !== 'ready') favorites.state = 'loading';
     notifyFavorites();
+    const startedAt = Date.now();
     try {
       const entries = await readFavoriteEntries(api);
-      // A read started before a click must not overwrite that click.
-      if (revision === favorites.revision && !favorites.pending.size) {
-        favorites.entries = applyVoteRows(entries);
-        favorites.state = 'ready'; favorites.uncertain = false; favorites.errors.clear();
-        clearTimeout(retryTimer); retryDelay = 3000;
-      }
+      favorites.server = new Map(entries.map(x => [offerKey(x), x]));
+      favorites.serverReadAt = startedAt; favorites.lastReadAt = Date.now();
+      favorites.state = 'ready'; retryDelay = 3000;
+      confirmFromServer();
     } catch (_) {
-      if (revision === favorites.revision) {
-        if (favorites.state !== 'ready') favorites.state = 'error';
-        favorites.uncertain = true;
+      if (favorites.state !== 'ready') favorites.state = 'error';
+      scheduleRead(retryDelay); retryDelay = Math.min(retryDelay * 2, 30000);
+    } finally {
+      favorites.busy = false;
+      rebuildFavorites(); notifyFavorites();
+      // Written but not yet visible in the list: look again shortly.
+      if ([...favorites.pending.values()].some(p => p.written || p.tries)) {
+        scheduleRead(2500); scheduleSync(0);
       }
-      scheduleFavoriteRetry();
-    } finally { favorites.busy = false; notifyFavorites(); }
+    }
   }
   function toggleFavorite(offer) {
-    const api = adapter();
-    if (!api || favorites.state !== 'ready' || !validOffer(offer)) return;
+    if (!adapter() || !validOffer(offer)) return;
     const key = offerKey(offer);
-    if (favorites.pending.has(key)) return;
-    const before = favorites.mine.has(key);
-    const beforeMeta=favorites.metadata.get(key)||{count:0,mine:false,legacy:false};
-    favorites.revision++;
+    const selected = !favorites.mine.has(key);
     favorites.errors.delete(key);
-    favorites.pending.set(key, {before, beforeMeta, selected:!before});
-    const changed={...beforeMeta,count:Math.max(0,beforeMeta.count+(before?-1:1)),mine:!before}; favorites.metadata.set(key,changed); before?favorites.mine.delete(key):favorites.mine.add(key);
-    if(changed.count||changed.legacy)favorites.entries.add(key);else favorites.entries.delete(key);
-    notifyFavorites(); // Immediate feedback, explicitly marked as pending.
-    const operation = async () => {
-      try {
-        const result = await timed(Promise.resolve().then(() => before ? api.remove(offer) : api.add(offer)), WRITE_TIMEOUT_MS);
-        // The transport already verifies the write. Reuse its confirmed list
-        // instead of making a redundant second network read.
-        const entries = Array.isArray(result) && result.every(validOffer)
-          ? result : await readFavoriteEntries(api);
-        favorites.pending.delete(key);
-        favorites.entries = applyVoteRows(entries);
-        for (const [pendingKey, value] of favorites.pending) {
-          const meta=favorites.metadata.get(pendingKey)||{count:0,mine:false,legacy:false};
-          const changed={...meta,count:Math.max(0,meta.count+(value.selected?1:-1)),mine:value.selected};favorites.metadata.set(pendingKey,changed);
-          value.selected?favorites.mine.add(pendingKey):favorites.mine.delete(pendingKey);
-          if(changed.count||changed.legacy)favorites.entries.add(pendingKey);else favorites.entries.delete(pendingKey);
-        }
-        favorites.uncertain = favorites.errors.size > 0;
-      } catch (_) {
-        favorites.pending.delete(key);
-        favorites.metadata.set(key,beforeMeta);before?favorites.mine.add(key):favorites.mine.delete(key);if(beforeMeta.count||beforeMeta.legacy)favorites.entries.add(key);else favorites.entries.delete(key);
-        favorites.errors.add(key); favorites.uncertain = true;
-        retryDelay = 3000; scheduleFavoriteRetry();
-      } finally {
-        favorites.revision++;
-        notifyFavorites();
-      }
-    };
-    // Distinct cards can be clicked while a write is pending; server writes
-    // remain ordered so old responses cannot undo newer choices.
-    writeQueue = writeQueue.then(operation, operation);
-    return writeQueue;
+    const p = favorites.pending.get(key);
+    if (p) Object.assign(p, {selected, since:Date.now(), tries:0, lastSent:0, written:false});
+    else favorites.pending.set(key, {offer:{id:offer.id, checkIn:offer.checkIn, checkOut:offer.checkOut}, selected, since:Date.now(), tries:0, lastSent:0, settledAt:0, written:false});
+    savePending(); rebuildFavorites(); notifyFavorites(); // The heart changes now.
+    scheduleSync(0);
+    // Resolves when the shared list agrees (or the vote is given up), so the
+    // clicked card can stay in place while the order settles.
+    return new Promise(resolve => {
+      const list = favorites.waiters.get(key) || [];
+      list.push(resolve); favorites.waiters.set(key, list);
+      setTimeout(resolve, 30000);
+    });
   }
+  loadPending();
 
   document.querySelectorAll('[data-berlin-view]').forEach(root => {
   const byId = name => root.querySelector(`[id="${root.dataset.idPrefix || ''}${name}"]`);
@@ -736,17 +811,15 @@
     }
     if (favoriteStatus) {
       favoriteStatus.textContent = favorites.state === 'ready'
-        ? (window.BerlinPrototype ? 'Önizleme: Beğeniler yalnızca bu denemede tutulur, ortak listeye yazılmaz.' : favorites.uncertain ? 'Bir işlemin sonucu doğrulanamadı. Ortak listeyi Güncelle ile kontrol edin.' : 'İsimsiz beğeniler siteyi açan herkese görünür. Her tarayıcı bir kez beğenebilir; favoriler en çok beğenilene göre sıralanır.')
-        : favorites.state === 'loading' ? 'Ortak favoriler yükleniyor.'
-        : favorites.state === 'error' && favorites.uncertain
-          ? 'İşlemin sonucu doğrulanamadı. Ortak listeyi yeniden yükleyin.'
-          : favorites.state === 'error' ? 'Ortak favoriler yüklenemedi. Yeniden deneyin.'
+        ? (window.BerlinPrototype ? 'Önizleme: Beğeniler yalnızca bu denemede tutulur, ortak listeye yazılmaz.' : favorites.uncertain ? 'Bir beğeni kaydedilemedi. Kalbe yeniden basın.' : 'İsimsiz beğeniler siteyi açan herkese görünür. Her tarayıcı bir kez beğenebilir; favoriler en çok beğenilene göre sıralanır.')
+        : favorites.state === 'loading' ? 'Ortak favoriler yükleniyor; beğenebilirsiniz, liste gelince eşitlenir.'
+        : favorites.state === 'error' ? 'Ortak favoriler şu an yüklenemedi; beğenileriniz bu tarayıcıda bekletilip yeniden denenir.'
           : window.BerlinFavoritesEndpointConfigured ? 'Ortak favoriler henüz bağlanamadı.'
           : 'Ortak favoriler bağlanmadı.';
     }
     if (favoriteRetry) {
       favoriteRetry.hidden = !adapter();
-      favoriteRetry.disabled = favorites.busy || favorites.pending.size > 0;
+      favoriteRetry.disabled = favorites.busy;
       favoriteRetry.textContent = ready ? 'Güncelle' : 'Yeniden Dene';
     }
     // A map dialog contains a live clone, so refresh original and copied buttons.
@@ -754,9 +827,11 @@
       const card = button.closest('.stay-card');
       if (!card) return;
       const key = offerKey(offerFromCard(card));
-      const pending = favorites.pending.get(key);
+      // A vote the server has acknowledged no longer looks busy; it still waits
+      // for the shared list, so an older list can't flip the heart back.
+      const pending = favorites.pending.get(key)?.written === false;
       const failed = favorites.errors.has(key);
-      const selected = ready && favorites.mine.has(key);
+      const selected = favorites.mine.has(key);
       const vote=favorites.metadata.get(key)||{count:0};
       card.dataset.votes=String(vote.count);
       card.classList.toggle('liked-two',vote.count===2);card.classList.toggle('liked-many',vote.count>=3);
@@ -764,18 +839,20 @@
       badge.textContent=vote.count?`${vote.count} Beğeni`:vote.legacy?'Önceki Ortak Favori':'';badge.hidden=!badge.textContent;
       const name = card.querySelector('.card-title h3, .card-title h4')?.textContent || 'Konaklama';
       const dates = card.querySelector('.card-kicker')?.textContent || '';
-      button.disabled = !ready || Boolean(pending);
+      // The heart stays usable while the shared list loads or a vote syncs.
+      const usable = Boolean(adapter());
+      button.disabled = !usable;
       button.setAttribute('aria-busy', String(Boolean(pending)));
+      button.toggleAttribute('data-syncing', Boolean(pending));
       button.setAttribute('aria-pressed', String(selected));
-      button.setAttribute('aria-label', ready ? `${name}, ${dates}: ${selected ? 'favorilerden kaldır' : 'favorilere ekle'}` : 'Ortak favoriler şu anda kullanılamıyor');
+      button.setAttribute('aria-label', usable ? `${name}, ${dates}: ${selected ? 'favorilerden kaldır' : 'favorilere ekle'}${pending ? ' (kaydediliyor)' : ''}` : 'Ortak favoriler şu anda kullanılamıyor');
       button.querySelector('.favorite-heart').textContent = selected ? '♥' : '♡';
-      button.querySelector('.favorite-label').textContent = pending ? (pending.selected ? 'Kaydediliyor…' : 'Kaldırılıyor…') : selected ? 'Beğendin' : 'Beğen';
+      button.querySelector('.favorite-label').textContent = selected ? 'Beğendin' : 'Beğen';
       const unavailable = button.closest('.favorite-control')?.querySelector('.favorite-unavailable');
       if (unavailable) {
-        unavailable.hidden = ready && !failed;
-        unavailable.textContent = failed ? 'Sonuç doğrulanamadı; yeniden deneyin' : ready && pending ? 'Kaydediliyor' : favorites.state === 'loading' ? 'Yükleniyor' : favorites.state === 'error'
-          ? 'Durum doğrulanamadı' : window.BerlinFavoritesEndpointConfigured
-            ? 'Ortak liste bağlanamadı' : 'Ortak liste bağlı değil';
+        unavailable.hidden = usable && !failed;
+        unavailable.textContent = failed ? 'Beğeni kaydedilemedi; yeniden deneyin'
+          : window.BerlinFavoritesEndpointConfigured ? 'Ortak liste bağlanamadı' : 'Ortak liste bağlı değil';
       }
     });
     const before = favoriteAnchor?.isConnected && !favoriteAnchor.hidden ? favoriteAnchor.getBoundingClientRect().top : null;
@@ -1071,9 +1148,12 @@
   });
   loadLiveAvailability();
   loadDailyRate();
-  if (adapter()) refreshFavorites();
-  window.addEventListener('berlin-favorites-transport-ready', refreshFavorites);
-  window.addEventListener('focus', () => { if (adapter()) refreshFavorites(); });
-  document.addEventListener('visibilitychange', () => { if (!document.hidden && adapter()) refreshFavorites(); });
-  window.setInterval(() => { if (!document.hidden && adapter()) refreshFavorites(); }, 30000);
+  // Every list read waits for the server's lock, so read less often: on
+  // load, on return to the tab (at most every 10 s) and once a minute.
+  const freshRead = () => { if (adapter() && Date.now() - favorites.lastReadAt > 10000) refreshFavorites(); };
+  if (adapter()) { refreshFavorites(); if (favorites.pending.size) scheduleSync(0); }
+  window.addEventListener('berlin-favorites-transport-ready', () => { refreshFavorites(); scheduleSync(0); });
+  window.addEventListener('focus', freshRead);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) freshRead(); });
+  window.setInterval(() => { if (!document.hidden && adapter()) refreshFavorites(); }, 60000);
 })();
