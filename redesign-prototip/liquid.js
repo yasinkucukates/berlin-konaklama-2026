@@ -161,21 +161,32 @@
     return api && ['list', 'add', 'remove'].every(method => typeof api[method] === 'function') ? api : null;
   };
   const notifyFavorites = () => document.dispatchEvent(new Event('berlin-favorites-state'));
-  const timed = async promise => {
+  // The shared list runs on Apps Script, which can take several seconds per
+  // call. A vote also waits for the list to confirm it (see transport.js).
+  const READ_TIMEOUT_MS = 15000, WRITE_TIMEOUT_MS = 60000;
+  const timed = async (promise, ms) => {
     let timer;
     try {
       return await Promise.race([promise, new Promise((_, reject) => {
-        timer = setTimeout(() => reject(new Error('Favorite service timed out')), 12000);
+        timer = setTimeout(() => reject(new Error('Favorite service timed out')), ms);
       })]);
     } finally { clearTimeout(timer); }
   };
   const applyVoteRows = items => { favorites.metadata=new Map(items.map(x=>[offerKey(x),x])); favorites.mine=new Set(items.filter(x=>x.mine).map(offerKey)); return new Set(items.map(offerKey)); };
   const readFavoriteEntries = async api => {
-    const items = await timed(Promise.resolve().then(() => api.list()));
+    const items = await timed(Promise.resolve().then(() => api.list()), READ_TIMEOUT_MS);
     if (!Array.isArray(items) || !items.every(validOffer)) throw new Error('Invalid favorites response');
     return items;
   };
   let writeQueue = Promise.resolve();
+  // After a failed read or an unconfirmed vote, look again soon instead of
+  // waiting for the 30-second refresh: a slow vote usually lands meanwhile.
+  let retryTimer = 0, retryDelay = 3000;
+  function scheduleFavoriteRetry() {
+    clearTimeout(retryTimer);
+    retryTimer = setTimeout(() => { if (adapter()) refreshFavorites(); }, retryDelay);
+    retryDelay = Math.min(retryDelay * 2, 30000);
+  }
   async function refreshFavorites() {
     if (favorites.busy || favorites.pending.size) return;
     const api = adapter();
@@ -190,12 +201,14 @@
       if (revision === favorites.revision && !favorites.pending.size) {
         favorites.entries = applyVoteRows(entries);
         favorites.state = 'ready'; favorites.uncertain = false; favorites.errors.clear();
+        clearTimeout(retryTimer); retryDelay = 3000;
       }
     } catch (_) {
       if (revision === favorites.revision) {
         if (favorites.state !== 'ready') favorites.state = 'error';
         favorites.uncertain = true;
       }
+      scheduleFavoriteRetry();
     } finally { favorites.busy = false; notifyFavorites(); }
   }
   function toggleFavorite(offer) {
@@ -213,7 +226,7 @@
     notifyFavorites(); // Immediate feedback, explicitly marked as pending.
     const operation = async () => {
       try {
-        const result = await timed(Promise.resolve().then(() => before ? api.remove(offer) : api.add(offer)));
+        const result = await timed(Promise.resolve().then(() => before ? api.remove(offer) : api.add(offer)), WRITE_TIMEOUT_MS);
         // The transport already verifies the write. Reuse its confirmed list
         // instead of making a redundant second network read.
         const entries = Array.isArray(result) && result.every(validOffer)
@@ -231,6 +244,7 @@
         favorites.pending.delete(key);
         favorites.metadata.set(key,beforeMeta);before?favorites.mine.add(key):favorites.mine.delete(key);if(beforeMeta.count||beforeMeta.legacy)favorites.entries.add(key);else favorites.entries.delete(key);
         favorites.errors.add(key); favorites.uncertain = true;
+        retryDelay = 3000; scheduleFavoriteRetry();
       } finally {
         favorites.revision++;
         notifyFavorites();

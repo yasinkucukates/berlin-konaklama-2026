@@ -42,6 +42,9 @@ FOREIGN_BED_TEXT = re.compile(r'\b(?:bed|beds|bedroom|living room|sofa bed|bunk|
 # From the 7 November sweep on, sweep rows keep the provider's name as
 # originalName and need a reviewed Turkish card title in titles-tr.json.
 TITLE_REQUIRED_FROM = 'galeri-sweep-20261107.json'
+# Same image uploaded more than once to a listing, found by a visual check on
+# 7 November (exact file or the same frame with tiny exposure/crop changes).
+PHOTO_DUPLICATES = HERE.parent / 'six' / 'prepared' / 'foto-mukerrer-20261107.json'
 OUT = HERE / ('preview-six.html' if ADULTS == 6 else 'preview-seven.html')
 FOUR_IN, FOUR_OUT = '2026-12-30', '2027-01-03'
 MONTHS = {11: 'Kasım', 12: 'Aralık', 1: 'Ocak'}
@@ -481,6 +484,39 @@ def price_route_decision(amount_eur, legs):
         if decision != 'include':
             return decision
     return 'premium' if premium else 'standard'
+
+
+def load_photo_duplicates():
+    """Card id -> {repeated photo identity: identity of the copy that stays}."""
+    if not PHOTO_DUPLICATES.exists():
+        return {}
+    result = {}
+    for card in read_json(PHOTO_DUPLICATES).get('cardsWithDuplicates', []):
+        drops = result.setdefault(str(card['id']), {})
+        for group in card.get('groups', []):
+            kept = identity(group['keep'])
+            for url in group.get('duplicates', []):
+                drops[identity(url)] = kept
+        if set(drops) & set(drops.values()):
+            raise ValueError(f"{PHOTO_DUPLICATES.name}: {card['id']} için tutulan fotoğraf aynı zamanda tekrar sayılmış")
+    return result
+
+
+def drop_duplicate_photos(rows, duplicates):
+    """Remove repeated uploads of one image; the copy that stays must be present."""
+    removed = 0
+    for row in rows:
+        drops = duplicates.get(str(row.get('id')))
+        if not drops:
+            continue
+        photos = row.get('photos') or []
+        url_of = lambda photo: str(photo[1]) if isinstance(photo, (list, tuple)) and len(photo) == 2 else ''
+        present = {identity(url_of(photo)) for photo in photos if url_of(photo)}
+        kept = [photo for photo in photos
+                if not (url_of(photo) and drops.get(identity(url_of(photo))) in present)]
+        removed += len(photos) - len(kept)
+        row['photos'] = kept
+    return removed
 
 
 def load_photo_overrides():
@@ -1381,6 +1417,7 @@ def main():
             row['photos'] = kept
             row['_photo_coverage'] = 'İlana ait olduğu doğrulanamayan görseller çıkarıldı.'
     apply_verified_galleries(rows, checked_galleries)
+    drop_duplicate_photos(rows, load_photo_duplicates())
     if TITLES.exists():
         title_data = read_json(TITLES)
         titles = title_data.get('titles') if isinstance(title_data, dict) else None

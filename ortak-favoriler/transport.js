@@ -6,6 +6,11 @@
   let voter=null;
   function voterId(){ if(voter)return voter; try { voter=localStorage.getItem('berlin-anonymous-voter'); if(!/^[0-9a-f]{32}$/.test(voter||'')){voter=randomHex();localStorage.setItem('berlin-anonymous-voter',voter);} } catch(_){throw new Error('Beğeni için tarayıcı depolamasına izin verin');} return voter; }
   const same = (a, b) => a.id === b.id && a.checkIn === b.checkIn && a.checkOut === b.checkOut;
+  const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+  // Apps Script web apps often need 2-6 s per call after a quiet spell.
+  const LIST_TIMEOUT_MS = 10000;
+  const WRITE_TIMEOUT_MS = 15000;
+  const VERIFY_WINDOW_MS = 20000;
 
   function validateItem(item) {
     if (!item || typeof item.id !== 'string' || !/^[a-z0-9-]{1,128}$/.test(item.id) ||
@@ -53,8 +58,8 @@
 
     async function list() {
       requireSecureContext();
-      const data = await jsonp({op:'public-list', scope:'berlin-guide-v1', voter:voterId()}, 5500);
-      if (!data || data.ok !== true || !Array.isArray(data.items) || data.items.length > 100) {
+      const data = await jsonp({op:'public-list', scope:'berlin-guide-v1', voter:voterId()}, LIST_TIMEOUT_MS);
+      if (!data || data.ok !== true || !Array.isArray(data.items) || data.items.length > 300) {
         throw new Error('Ortak favoriler doğrulanamadı');
       }
       return data.items.map(validateItem);
@@ -63,20 +68,31 @@
     async function change(op, input) {
       requireSecureContext();
       const item = validateItem(input);
+      const wanted = op === 'add';
       const controller = new AbortController();
-      const timer = setTimeout(() => controller.abort(), 3500);
+      const timer = setTimeout(() => controller.abort(), WRITE_TIMEOUT_MS);
+      let delivered = true;
       try {
-        await fetch(url.href, {method: 'POST', mode: 'no-cors', referrerPolicy: 'no-referrer', body: JSON.stringify({op:op==='add'?'vote':'unvote', scope:'berlin-guide-v1', item, voter:voterId()}), signal: controller.signal});
+        await fetch(url.href, {method: 'POST', mode: 'no-cors', referrerPolicy: 'no-referrer', body: JSON.stringify({op:wanted?'vote':'unvote', scope:'berlin-guide-v1', item, voter:voterId()}), signal: controller.signal});
       } catch (_) {
-        throw new Error('İşlemin sonucu bilinmiyor; listeyi yenileyin');
+        // A slow or cut-off response does not mean the vote was lost; the
+        // server often finishes the write anyway. Let the list decide.
+        delivered = false;
       } finally {
         clearTimeout(timer);
       }
-      const items = await list();
-      if (items.some(x => same(x, item) && x.mine) !== (op === 'add')) {
-        throw new Error('İşlem doğrulanamadı; listeyi yenileyin');
+      // Apps Script can take several seconds per call, so confirm the vote by
+      // reading the list again with growing pauses instead of failing early.
+      const started = Date.now();
+      for (let attempt = 0; ; attempt++) {
+        try {
+          const items = await list();
+          if (items.some(x => same(x, item) && x.mine) === wanted) return items;
+        } catch (_) { /* Retry until the window closes. */ }
+        if (Date.now() - started >= VERIFY_WINDOW_MS) break;
+        await wait(Math.min(1000 * 2 ** attempt, 4000));
       }
-      return items;
+      throw new Error(delivered ? 'İşlem doğrulanamadı; listeyi yenileyin' : 'İşlemin sonucu bilinmiyor; listeyi yenileyin');
     }
 
     return {list, add: item => change('add', item), remove: item => change('remove', item)};
