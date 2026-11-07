@@ -4,7 +4,6 @@
   const canvas = document.querySelector('#map-canvas');
   const status = document.querySelector('#map-status');
   const group = document.querySelector('#map-group');
-  const includeConditional = document.querySelector('#map-conditional');
   const planLabel = document.querySelector('#map-plan-label');
   const listButton = document.querySelector('#view-list');
   const mapButton = document.querySelector('#view-map');
@@ -29,51 +28,44 @@
   if (mapControls) mapControls.append(clubChooser);
   let map, markerLayer, mapFailure = '', mapLoadTimer, opener = null, mapOpener = null, mapIsModal = false;
   let markers = new Map();
-  let clubMarkers = new Map();
-  let clubOverlay, clubLayoutQueued = false;
-  let selectedMarker = null, selectedLabel = null, selectedText = '', selectionTimer = null;
+  let clubMarkers = new Map(), clubNames = new Map(), namePane;
+  let stayPins = [], lastSignature = '', favoritesOnly = false, layoutQueued = false;
+  let selectedKeys = null, selectionTimer = null, previewOffer = null;
   const scrollBehavior = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
   const clubCenter = [52.52, 13.405];
   const markStatus = (message) => { status.textContent = message; };
+  const offerKey = card => JSON.stringify([card.dataset.id, card.dataset.checkIn, card.dataset.checkOut]);
+  const whole = new Intl.NumberFormat('tr-TR', {maximumFractionDigits:0});
+  // One icon family for the whole site: the page's Lucide sprite.
+  function svgIcon(name) {
+    const ns = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(ns, 'svg');
+    svg.setAttribute('class', 'i'); svg.setAttribute('aria-hidden', 'true'); svg.setAttribute('focusable', 'false');
+    // Copy the sprite's paths instead of <use> so CSS can fill a heart.
+    const symbol = document.getElementById(`i-${name}`);
+    if (symbol) {
+      ['viewBox', 'fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin'].forEach(attr => { if (symbol.hasAttribute(attr)) svg.setAttribute(attr, symbol.getAttribute(attr)); });
+      Array.from(symbol.childNodes).forEach(node => svg.append(node.cloneNode(true)));
+    }
+    return svg;
+  }
+  // Map frame: the canvas plus a small listing card that opens over the map.
+  const frame = document.createElement('div'); frame.className = 'map-frame';
+  canvas.before(frame); frame.append(canvas);
+  const preview = document.createElement('section');
+  preview.className = 'map-preview'; preview.hidden = true; preview.setAttribute('aria-live', 'polite');
+  frame.append(preview);
+  const favoriteToggle = document.createElement('button');
+  favoriteToggle.type = 'button'; favoriteToggle.className = 'map-favorites'; favoriteToggle.setAttribute('aria-pressed', 'false');
+  favoriteToggle.append(svgIcon('heart'), document.createTextNode(' Yalnız Favoriler '));
+  const favoriteCount = document.createElement('span'); favoriteCount.className = 'map-favorites-count'; favoriteToggle.append(favoriteCount);
+  if (mapControls) mapControls.prepend(favoriteToggle);
   function clearSelection() {
     clearTimeout(selectionTimer); selectionTimer = null;
-    selectedMarker?.getElement()?.classList.remove('selected', 'pin-pulse');
-    selectedMarker = null; selectedText = '';
-    selectedLabel?.remove(); selectedLabel = null;
-  }
-  function placeSelectedLabel(avoidClubNames = false) {
-    const markerElement = selectedMarker?.getElement();
-    const shape = markerElement?.querySelector('.pin-shape');
-    const original = markerElement?.querySelector('.pin-label');
-    if (!shape || !original || canvas.hidden || panel.hidden) return;
-    if (!selectedLabel || !selectedLabel.isConnected) {
-      selectedLabel = document.createElement('span');
-      selectedLabel.className = 'selected-stay-label';
-      selectedLabel.setAttribute('aria-hidden', 'true');
-      canvas.append(selectedLabel);
-    }
-    selectedLabel.textContent = selectedText || original.textContent;
-    const bounds = canvas.getBoundingClientRect(), pin = shape.getBoundingClientRect();
-    const label = selectedLabel.getBoundingClientRect();
-    const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
-    const centre = pin.left + pin.width / 2 - bounds.left - label.width / 2;
-    const obstacles = avoidClubNames ? Array.from(canvas.querySelectorAll('.club-group-label, .club-pin .pin-label, .club-pin .pin-shape, .map-pin:not(.selected) .pin-shape, .leaflet-control'))
-      .filter(el => getComputedStyle(el).visibility !== 'hidden' && getComputedStyle(el).display !== 'none')
-      .map(el => ({rect:el.getBoundingClientRect(), weight:el.matches('.club-group-label, .club-pin .pin-label, .leaflet-control') ? 1000 : 100})) : [];
-    const overlaps = (a,b) => a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
-    const options = [];
-    for (const gap of [8,18,28,40,60,80,100,120]) for (const shift of [0,-40,40,-80,80]) for (const below of [false,true]) {
-      const left = clamp(centre + shift, 8, bounds.width - label.width - 8);
-      const rawTop = below ? pin.bottom - bounds.top + gap : pin.top - bounds.top - label.height - gap;
-      if (rawTop < 8 || rawTop + label.height > bounds.height - 8) continue;
-      const rect = {left:bounds.left+left,right:bounds.left+left+label.width,top:bounds.top+rawTop,bottom:bounds.top+rawTop+label.height};
-      const score = obstacles.reduce((total, obstacle) => total + (overlaps(rect, obstacle.rect) ? obstacle.weight : 0), 0)
-        + Math.abs(shift) / 1000 + gap / 1000 + (below ? 0.001 : 0);
-      options.push({left, top:rawTop, score});
-    }
-    options.sort((a,b) => a.score - b.score);
-    const chosen = options[0] || {left:clamp(centre,8,bounds.width-label.width-8), top:8};
-    selectedLabel.style.left = `${chosen.left}px`; selectedLabel.style.top = `${chosen.top}px`;
+    canvas.querySelectorAll('.map-pin.selected').forEach(el => el.classList.remove('selected', 'pin-pulse'));
+    selectedKeys = null; previewOffer = null;
+    preview.hidden = true; preview.replaceChildren();
+    scheduleLayout();
   }
   function showMapFailure(message) {
     if (mapFailure) return;
@@ -93,7 +85,8 @@
   const hasNotes = card => card.dataset.bestCandidate==='true'||card.dataset.bestAlternative==='true'||card.dataset.conditional==='true'||card.closest('.conditional');
   const bestMatch = card => card.dataset.bestEligible === 'true' || card.dataset.bestCandidate === 'true';
   const hasBestHouse = () => Array.from(document.querySelectorAll('.groups .stay-card')).some(card => card.dataset.planGroup === 'full-villa' && bestMatch(card));
-  const usableCard = card => card.dataset.generalMatch !== 'false' && (!hasNotes(card) || includeConditional.checked);
+  const isFavorite = card => Number(card.dataset.votes || 0) > 0;
+  const usableCard = card => card.dataset.generalMatch !== 'false' && (!favoritesOnly || isFavorite(card));
   const inPlan = card => {
     const plan = group.value.replace(/^p[67]-/, '');
     if (plan === 'hepsi') return true;
@@ -124,7 +117,10 @@
       else {
         const alternatives = group.value === 'best-house' && !hasBestHouse() ? ' Tam eşleşme yok; koşullara yakın alternatifler gösteriliyor.' : group.value === 'best-apartment' ? ' Teyit gerektiren adaylar da gösteriliyor.' : '';
         const points = new Set(markers.values()).size;
-        markStatus(`${selected.length} teklif · ${points} harita işareti · ${missing} konum doğrulanmadı. Aynı yaklaşık konumdaki teklifler tek işarette gösterilir.${alternatives}`);
+        const favorites = selected.filter(isFavorite).length;
+        const filtersOn = Number(view?.dataset.activeFilters || 0);
+        if (favoritesOnly && !selected.length) markStatus(filtersOn ? 'Açık filtrelerle eşleşen ortak favori yok.' : 'Bu planda henüz ortak favori yok. Kartlardaki kalp ile beğenebilirsiniz.');
+        else markStatus(`${points} konumda ${selected.length} teklif${favorites ? ` · ${favorites} favori` : ''}${missing ? ` · ${missing} ilanın konumu belirsiz` : ''}${filtersOn ? ` · ${filtersOn} filtre açık` : ''}. Konumlar yaklaşıktır.${alternatives}`);
       }
     }
   };
@@ -160,75 +156,50 @@
     });
     return window.__berlinMapLibraries;
   }
-  const categoryInfo = {
-    apartment: {kind:'apartment', label:'Daire'},
-    private_house: {kind:'house', label:'Ev'},
-    villa: {kind:'villa', label:'Villa'},
-    multiunit: {kind:'multiunit', label:'Birden çok birim'}
-  };
-  function symbol(kind) {
-    if (kind === 'club') {
-      const rainbow = document.createElement('span');
-      rainbow.className = 'pin-symbol rainbow-symbol';
-      rainbow.setAttribute('aria-hidden', 'true');
-      rainbow.textContent = '🌈';
-      return rainbow;
-    }
-    const paths = {
-      // White silhouettes stay distinct even when the marker is orange for a note.
-      apartment:'M3 1h10v14H3z M5 3h2v2H5z M9 3h2v2H9z M5 6h2v2H5z M9 6h2v2H9z M7 10h2v5H7z',
-      house:'M8 1.4 1 7.3h2v7.3h4V10h2v4.6h4V7.3h2Z',
-      villa:'M8 1 1 5.2v1.6h1v7.5h12V6.8h1V5.2L8 1ZM4 7h2v2H4zm6 0h2v2h-2zM7 10h2v4H7z',
-      multiunit:'M1 4h6v10H1z M9 1h6v13H9z M3 6h2v2H3z M3 10h2v2H3z M11 3h2v2h-2z M11 7h2v2h-2z M11 11h2v2h-2z',
-      notice:'M6.8 2h2.4l-.5 7.5H7.3L6.8 2ZM8 11a1.4 1.4 0 1 1 0 2.8A1.4 1.4 0 0 1 8 11Z',
-      stay:'M8 3a5 5 0 1 0 0 10A5 5 0 0 0 8 3Z'
-    };
-    const ns = 'http://www.w3.org/2000/svg';
-    const svg = document.createElementNS(ns, 'svg');
-    svg.setAttribute('viewBox', '0 0 16 16');
-    svg.setAttribute('aria-hidden', 'true');
-    svg.setAttribute('focusable', 'false');
-    svg.setAttribute('class', 'pin-symbol');
-    const path = document.createElementNS(ns, 'path');
-    path.setAttribute('d', paths[kind] || paths.stay);
-    path.setAttribute('fill', 'currentColor');
-    path.setAttribute('fill-rule', 'evenodd');
-    svg.append(path);
-    return svg;
-  }
+  // Two marker kinds only: a price label for stays and a rainbow disc for clubs.
+  const rainbow = () => { const mark = document.createElement('span'); mark.className = 'rainbow'; mark.setAttribute('aria-hidden', 'true'); mark.textContent = '🌈'; return mark; };
+  const anchorClub = name => /^(RSO|Tresor)\b/i.test(name);
   const legend = document.createElement('div');
   legend.className = 'map-legend';
   legend.setAttribute('role', 'group');
   legend.setAttribute('aria-label', 'Harita işaretleri açıklaması');
-  const legendItems = [
-    ['apartment', 'Daire', 'apartment'], ['house', 'Ev', 'house'],
-    ['villa', 'Villa', 'villa'], ['multiunit', 'Birden çok birim', 'multiunit'],
-    ['club', 'Kulüp', 'club'], ['note', 'Turuncu çerçeve: notlu ilan', 'notice'],
-    ['closed', 'Kapalı kulüp', 'club']
-  ];
-  if (Array.from(document.querySelectorAll('.groups .stay-card')).some(card => !categoryInfo[card.dataset.category])) {
-    legendItems.splice(4, 0, ['stay', 'Türü belirsiz', 'stay']);
-  }
-  legendItems.forEach(([kind, label, symbolKind]) => {
+  const swatch = (className, children) => { const el = document.createElement('span'); el.className = `legend-swatch ${className}`; el.setAttribute('aria-hidden', 'true'); el.append(...children); return el; };
+  [
+    [swatch('stay', ['1.900 €']), 'Konaklama'],
+    [swatch('stay favorite', [svgIcon('heart'), '2']), 'Ortak favori'],
+    [swatch('stay unavailable', ['1.900 €']), 'Son kontrolde dolu'],
+    [swatch('club', [rainbow()]), 'Kulüp'],
+    [swatch('club anchor', [rainbow()]), 'Tresor ve RSO']
+  ].forEach(([mark, label]) => {
     const item = document.createElement('span'); item.className = 'map-legend-item';
-    const mark = document.createElement('span'); mark.className = `legend-icon ${kind}`;
-    mark.setAttribute('aria-hidden', 'true'); mark.append(symbol(symbolKind));
     item.append(mark, document.createTextNode(label)); legend.append(item);
   });
-  canvas.before(legend);
-  function icon(label, className, horizontalOffset = 0, kind = '', offerCount = 0) {
+  frame.before(legend);
+  const priceOf = card => {
+    const eur = Number(card.dataset.priceEur);
+    const head = card.querySelector('.card-head .converted-price[data-fx-currency]');
+    if (Number.isFinite(eur) && eur > 0) return `${head && head.dataset.fxCurrency !== 'EUR' ? '≈' : ''}${whole.format(Math.round(eur))} €`;
+    return 'Fiyat ?';
+  };
+  function stayIcon(samePoint, label, className) {
     const wrap = document.createElement('span');
-    const title = document.createElement('span'); title.className = 'pin-label'; title.textContent = label; title.style.pointerEvents = 'none';
-    const pin = document.createElement('span'); pin.className = 'pin-shape';
-    pin.append(symbol(kind || (className.startsWith('club-pin') ? 'club' : 'stay')));
-    wrap.append(title, pin);
-    if (offerCount > 1) {
-      const count = document.createElement('span'); count.className = 'pin-count';
-      count.textContent = String(offerCount); count.setAttribute('aria-hidden', 'true'); wrap.append(count);
-    }
-    return window.L.divIcon({className, html:wrap.innerHTML, iconSize:[44,44], iconAnchor:[22-horizontalOffset,44], popupAnchor:[-horizontalOffset,-38]});
+    const pill = document.createElement('span'); pill.className = 'pin-label';
+    const votes = samePoint.reduce((sum, card) => sum + Number(card.dataset.votes || 0), 0);
+    if (votes) { pill.append(svgIcon('heart')); const v = document.createElement('b'); v.className = 'pin-votes'; v.textContent = String(votes); pill.append(v); }
+    const price = document.createElement('span'); price.className = 'pin-price'; price.textContent = label; pill.append(price);
+    if (samePoint.length > 1) { const count = document.createElement('span'); count.className = 'pin-count'; count.textContent = `+${samePoint.length - 1}`; pill.append(count); }
+    const dot = document.createElement('span'); dot.className = 'pin-shape';
+    wrap.append(dot, pill);
+    return window.L.divIcon({className, html:wrap.innerHTML, iconSize:[14,14], iconAnchor:[7,7]});
   }
-  function showCard(card, marker, returnOffers = null, tab = 'overview') {
+  function clubIcon(name, className) {
+    const wrap = document.createElement('span');
+    const disc = document.createElement('span'); disc.className = 'pin-shape'; disc.append(rainbow());
+    wrap.append(disc);
+    const size = className.includes('anchor') ? 30 : 24;
+    return window.L.divIcon({className, html:wrap.innerHTML, iconSize:[size,size], iconAnchor:[size/2,size/2], popupAnchor:[0,-size/2]});
+  }
+  function showCard(card, marker, tab = 'overview') {
     if (!dialog || typeof dialog.showModal !== 'function') {
       const enclosing = card.closest('details');
       if (enclosing) enclosing.open = true;
@@ -263,11 +234,6 @@
     const content = dialog.querySelector('#card-dialog-content');
     content.replaceChildren(clone);
     if (window.BerlinCardTabs) window.BerlinCardTabs.activate(clone, tab);
-    if (returnOffers) {
-      const back = document.createElement('button'); back.type = 'button'; back.className = 'map-offers-back';
-      back.textContent = '← Aynı Konumdaki Teklifler';
-      back.addEventListener('click', () => showOfferPicker(returnOffers, marker)); content.prepend(back);
-    }
     if (!dialog.open) dialog.showModal();
     dialog.scrollTop = 0; content.scrollTop = 0;
     if (window.BerlinCardTabs && tab !== 'overview') window.BerlinCardTabs.reveal(clone);
@@ -292,67 +258,160 @@
     cards.forEach(card => { const key = sourcePropertyKey(card); if (!groups.has(key)) groups.set(key, []); groups.get(key).push(card); });
     return groups;
   }
-  function showOfferPicker(cards, marker) {
-    const panelContent = document.createElement('div'); panelContent.className = 'map-offer-picker';
-    const intro = document.createElement('p');
-    intro.textContent = 'Bu teklifler aynı yaklaşık harita noktasını kullanıyor. Gerçek ev kapıları ayrı ayrı doğrulanmadı.';
-    panelContent.append(intro);
-    groupedOffers(cards).forEach(offers => {
-      const section = document.createElement('section'); section.className = 'map-offer-property';
-      const heading = document.createElement('strong'); heading.textContent = titleFor(offers.find(c => c.querySelector('.offer-party-6')) || offers[0]);
-      section.append(heading);
-      offers.slice().sort((a,b) => a.dataset.checkIn.localeCompare(b.dataset.checkIn) ||
-        Number(Boolean(b.querySelector('.offer-party-6'))) - Number(Boolean(a.querySelector('.offer-party-6')))).forEach(card => {
-        const button = document.createElement('button'); button.type = 'button'; button.className = 'map-offer-option';
-        const date = document.createElement('span'); date.textContent = card.querySelector('.card-kicker')?.textContent || `${card.dataset.checkIn} → ${card.dataset.checkOut}`;
-        const amount = document.createElement('strong'); amount.textContent = card.querySelector('.amount strong')?.textContent || 'Fiyat teyitsiz';
-        const party = document.createElement('small'); party.textContent = card.querySelector('.offer-party-6') ? '6 kişilik kaynak teklifi' : 'Farklı kişi sayısı için eski teklif';
-        button.append(date, amount, party);
-        button.addEventListener('click', () => { if (marker.closePopup) marker.closePopup(); showCard(card, marker, cards); });
-        section.append(button);
-      });
-      panelContent.append(section);
-    });
-    if (!dialog || typeof dialog.showModal !== 'function') {
-      marker.bindPopup(panelContent, {maxHeight:300}).openPopup(); return;
-    }
-    opener = marker.getElement();
-    dialog.querySelector('#card-dialog-title').textContent = `${groupedOffers(cards).size} İlan · ${cards.length} Teklif`;
-    dialog.querySelector('#card-dialog-content').replaceChildren(panelContent);
-    if (!dialog.open) dialog.showModal();
+  const textOf = (card, selector) => card.querySelector(selector)?.textContent.trim() || '';
+  function headPrice(card) {
+    const strong = card.querySelector('.amount strong');
+    if (!strong) return 'Fiyat teyitsiz';
+    const copy = strong.cloneNode(true); copy.querySelectorAll('.price-qualifier').forEach(el => el.remove());
+    return copy.textContent.trim();
   }
-  function draw() {
+  function previewSingle(card, samePoint, marker) {
+    previewOffer = card;
+    const content = [];
+    const close = document.createElement('button'); close.type = 'button'; close.className = 'map-preview-close';
+    close.setAttribute('aria-label', 'Kartı kapat'); close.append(svgIcon('x')); close.addEventListener('click', clearSelection);
+    content.push(close);
+    const img = card.querySelector('.photo-grid img');
+    const media = document.createElement('button'); media.type = 'button'; media.className = 'map-preview-media';
+    media.setAttribute('aria-label', `${titleFor(card)}: ayrıntıları aç`);
+    if (img) { const photo = document.createElement('img'); photo.alt = ''; photo.loading = 'lazy'; photo.src = img.currentSrc || img.src; media.append(photo); }
+    media.addEventListener('click', () => showCard(card, marker));
+    const body = document.createElement('div'); body.className = 'map-preview-body';
+    if (samePoint.length > 1) {
+      const back = document.createElement('button'); back.type = 'button'; back.className = 'map-preview-back';
+      back.textContent = `← Bu konumdaki ${samePoint.length} teklif`;
+      back.addEventListener('click', () => previewList(samePoint, marker));
+      body.append(back);
+    }
+    const kicker = document.createElement('p'); kicker.className = 'map-preview-kicker'; kicker.textContent = textOf(card, '.card-kicker');
+    const title = document.createElement('h3'); title.textContent = titleFor(card);
+    const price = document.createElement('p'); price.className = 'map-preview-price';
+    const main = document.createElement('b'); main.textContent = headPrice(card);
+    const other = document.createElement('span'); other.textContent = textOf(card, '.card-head .converted-price');
+    price.append(main, other);
+    const share = card.querySelector('.share-table tr[data-share-people]:not([hidden])');
+    const shareLine = document.createElement('p'); shareLine.className = 'map-preview-share';
+    if (share) shareLine.textContent = `Kişi başı (${share.dataset.sharePeople} kişi): ${textOf(share, '.share-main')}${textOf(share, '.share-approx') ? ' · ' + textOf(share, '.share-approx') : ''}`;
+    const facts = document.createElement('p'); facts.className = 'map-preview-facts';
+    const tresor = Number(card.dataset.tresorCarMin), beds = Number(card.dataset.normalBeds);
+    if (Number.isFinite(tresor) && card.dataset.tresorCarMin !== '') facts.append(svgIcon('car-taxi-front'), document.createTextNode(` Tresor’a ${tresor} dk`));
+    if (Number.isFinite(beds) && card.dataset.normalBeds !== '') facts.append(svgIcon('bed-double'), document.createTextNode(` ${beds} ayrı yatak`));
+    body.append(kicker, title, price);
+    if (share) body.append(shareLine);
+    if (facts.childNodes.length) body.append(facts);
+    if (card.dataset.availability === 'unavailable') {
+      const sold = document.createElement('p'); sold.className = 'map-preview-sold'; sold.textContent = 'Son kontrolde bu tarihler müsait değildi.'; body.append(sold);
+    }
+    const actions = document.createElement('div'); actions.className = 'map-preview-actions';
+    const original = card.querySelector('.favorite-button');
+    if (original) {
+      const fav = document.createElement('button'); fav.type = 'button'; fav.className = 'map-preview-like';
+      const votes = Number(card.dataset.votes || 0);
+      fav.setAttribute('aria-pressed', original.getAttribute('aria-pressed') || 'false');
+      fav.disabled = original.disabled;
+      fav.append(svgIcon('heart'), document.createTextNode(original.getAttribute('aria-pressed') === 'true' ? ' Beğendin' : ' Beğen'));
+      if (votes) { const count = document.createElement('span'); count.className = 'map-preview-votes'; count.textContent = String(votes); fav.append(count); }
+      fav.addEventListener('click', () => original.click());
+      actions.append(fav);
+    }
+    const details = document.createElement('button'); details.type = 'button'; details.className = 'map-preview-details';
+    details.append(svgIcon('maximize-2'), document.createTextNode(' Ayrıntılar')); details.addEventListener('click', () => showCard(card, marker));
+    actions.append(details);
+    const listing = card.querySelector('a.listing');
+    if (listing) {
+      const link = document.createElement('a'); link.className = 'map-preview-link'; link.href = listing.href; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      link.append(svgIcon('square-arrow-out-up-right'), document.createTextNode(' İlan')); actions.append(link);
+    }
+    preview.classList.toggle('is-unavailable', card.dataset.availability === 'unavailable');
+    preview.classList.remove('is-list');
+    preview.setAttribute('aria-label', `${titleFor(card)} · seçili ilan`);
+    preview.replaceChildren(...content, media, body, actions);
+    preview.hidden = false;
+  }
+  function previewList(samePoint, marker) {
+    previewOffer = null;
+    const close = document.createElement('button'); close.type = 'button'; close.className = 'map-preview-close';
+    close.setAttribute('aria-label', 'Kartı kapat'); close.append(svgIcon('x')); close.addEventListener('click', clearSelection);
+    const body = document.createElement('div'); body.className = 'map-preview-body';
+    const heading = document.createElement('h3'); heading.textContent = `Bu konumda ${samePoint.length} teklif`;
+    const note = document.createElement('p'); note.className = 'map-preview-kicker'; note.textContent = 'Aynı yaklaşık noktayı kullanan teklifler; kapı konumları ayrıca doğrulanmadı.';
+    const list = document.createElement('div'); list.className = 'map-preview-list';
+    samePoint.slice().sort((a, b) => Number(isFavorite(b)) - Number(isFavorite(a)) || a.dataset.checkIn.localeCompare(b.dataset.checkIn) || Number(a.dataset.priceEur) - Number(b.dataset.priceEur)).forEach(card => {
+      const row = document.createElement('button'); row.type = 'button'; row.className = 'map-preview-row';
+      if (card.dataset.availability === 'unavailable') row.classList.add('is-unavailable');
+      const name = document.createElement('span'); name.className = 'row-title'; name.textContent = titleFor(card);
+      const date = document.createElement('small'); date.textContent = textOf(card, '.card-kicker');
+      const amount = document.createElement('strong'); amount.textContent = headPrice(card);
+      if (isFavorite(card)) { const heart = document.createElement('span'); heart.className = 'row-heart'; heart.append(svgIcon('heart'), document.createTextNode(card.dataset.votes)); name.prepend(heart); }
+      row.append(name, amount, date);
+      row.addEventListener('click', () => previewSingle(card, samePoint, marker));
+      list.append(row);
+    });
+    body.append(heading, note, list);
+    preview.classList.remove('is-unavailable'); preview.classList.add('is-list');
+    preview.setAttribute('aria-label', `${samePoint.length} teklif · seçili konum`);
+    preview.replaceChildren(close, body);
+    preview.hidden = false;
+  }
+  function selectPoint(samePoint, marker, card = null) {
+    canvas.querySelectorAll('.map-pin.selected').forEach(el => el.classList.remove('selected'));
+    marker.getElement()?.classList.add('selected');
+    marker.setZIndexOffset(3000);
+    selectedKeys = samePoint.map(offerKey);
+    if (card || samePoint.length === 1) previewSingle(card || samePoint[0], samePoint, marker);
+    else previewList(samePoint, marker);
+    requestAnimationFrame(() => revealPin(marker));
+    scheduleLayout();
+  }
+  // Keep the chosen pin in sight beside (desktop) or above (phone) the card.
+  function revealPin(marker) {
+    const pin = marker.getElement()?.getBoundingClientRect(), card = preview.getBoundingClientRect();
+    if (!map || !pin || preview.hidden) return;
+    const area = canvas.getBoundingClientRect(), margin = 48;
+    const covered = pin.left < card.right && pin.right > card.left && pin.top < card.bottom && pin.bottom > card.top;
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (covered && card.width > area.width * 0.7) map.panBy([0, pin.bottom - card.top + margin], {animate:!reduce});
+    else if (covered) map.panBy([pin.right - card.left + margin, 0], {animate:!reduce});
+    else if (pin.top < area.top + 10) map.panBy([0, pin.top - area.top - margin], {animate:!reduce});
+  }
+  const priority = (cards) => cards.some(isFavorite) ? 1 : cards.some(c => c.dataset.availability !== 'unavailable') ? 2 : 4;
+  function draw(force = false) {
     if (!map || !markerLayer) return;
-    clearSelection();
-    markerLayer.clearLayers(); markers = new Map();
     const cards = selectedCards().filter(card => card.dataset.lat && card.dataset.lon &&
       Number.isFinite(Number(card.dataset.lat)) && Number.isFinite(Number(card.dataset.lon)));
+    const bestPlan = group.value === 'best-apartment' || group.value === 'best-house';
+    // Redraw only when something visible changed; favorites refresh often.
+    const signature = [group.value, favoritesOnly, ...cards.map(card => `${offerKey(card)}:${card.dataset.availability}:${card.dataset.votes || 0}:${card.dataset.priceEur}`)].join('|');
+    updateFavoriteToggle();
+    if (!force && signature === lastSignature) { refreshPreview(); updateStatus(); return; }
+    lastSignature = signature;
+    const keep = selectedKeys;
+    markerLayer.clearLayers(); markers = new Map(); stayPins = [];
     // Equal coordinates may represent several dates, prices or neighboring
-    // properties. Keep one pin at the supplied point and let users choose.
+    // properties. Keep one marker at the supplied point and let users choose.
     const atPoint = new Map();
     cards.forEach(card => {
       const point = `${Number(card.dataset.lat)},${Number(card.dataset.lon)}`;
       if (!atPoint.has(point)) atPoint.set(point, []);
       atPoint.get(point).push(card);
     });
+    let restored = null;
     atPoint.forEach(samePoint => {
+      samePoint.sort((a, b) => Number(a.dataset.availability === 'unavailable') - Number(b.dataset.availability === 'unavailable') || Number(a.dataset.priceEur || Infinity) - Number(b.dataset.priceEur || Infinity));
       const card = samePoint[0];
       const lat = Number(card.dataset.lat), lon = Number(card.dataset.lon);
       const name = titleFor(card);
-      const bestPlan = group.value === 'best-apartment' || group.value === 'best-house';
-      const price = bestPlan && card.dataset.bestBasis === 'booking' && card.dataset.bestPriceLabel
-        ? card.dataset.bestPriceLabel : card.querySelector('.amount strong').textContent;
-      const accuracy = card.dataset.mapAccuracy === 'area' ? 'yaklaşık bölge, bina teyitsiz' : 'yaklaşık konum';
-      const notePresent = samePoint.some(hasNotes);
-      const taxWarning = card.dataset.bestCandidate === 'true' ? ' · Vergili toplamı kontrol edin' : '';
-      const category = categoryInfo[card.dataset.category] || {kind:'stay', label:'Türü belirsiz konaklama'};
-      const groupTitle = `${groupedOffers(samePoint).size} ilan · ${samePoint.length} teklif · yaklaşık konum`;
-      const accessibleName = samePoint.length > 1 ? `${groupTitle} · teklifleri göster` : `${name} · ${category.label} · ${price} · ${accuracy}${notePresent ? ' · notu olan seçenek' : ''}${taxWarning}`;
-      const markerClass = `map-pin ${category.kind}${notePresent ? ' conditional' : ''}`;
-      // Keep a candidate clickable when a nearby club marker overlaps it at
-      // the initial map zoom. Club navigation remains available in the chooser.
-      const marker = window.L.marker([lat,lon], {icon:icon(samePoint.length > 1 ? groupTitle : name+' · '+price+taxWarning, markerClass, 0, category.kind, samePoint.length), title:accessibleName, keyboard:true, zIndexOffset:samePoint.some(c => c.dataset.bestCandidate === 'true') ? 1000 : 0});
-      const open = () => samePoint.length > 1 ? showOfferPicker(samePoint, marker) : showCard(card, marker);
+      const label = bestPlan && card.dataset.bestBasis === 'booking' && card.dataset.bestPriceLabel ? card.dataset.bestPriceLabel : priceOf(card);
+      const favorite = samePoint.some(isFavorite);
+      const unavailable = samePoint.every(c => c.dataset.availability === 'unavailable');
+      const votes = samePoint.reduce((sum, c) => sum + Number(c.dataset.votes || 0), 0);
+      const accessibleName = samePoint.length > 1
+        ? `Bu konumda ${samePoint.length} teklif · en düşük ${label}${favorite ? ` · ${votes} beğeni` : ''} · teklifleri göster`
+        : `${name} · ${headPrice(card)}${favorite ? ` · ${votes} beğeni` : ''}${unavailable ? ' · son kontrolde müsait değil' : ''}`;
+      const markerClass = `map-pin${favorite ? ' favorite' : ''}${unavailable ? ' unavailable' : ''}`;
+      const rank = priority(samePoint) + (unavailable ? 2 : 0);
+      const marker = window.L.marker([lat,lon], {icon:stayIcon(samePoint, label, markerClass), title:accessibleName, keyboard:true, zIndexOffset:(5 - rank) * 200, riseOnHover:true});
+      const open = () => selectPoint(samePoint, marker);
       marker.on('click', open);
       marker.on('add', () => {
         const element = marker.getElement();
@@ -368,150 +427,107 @@
         });
       });
       marker.addTo(markerLayer); samePoint.forEach(item => markers.set(item, marker));
+      stayPins.push({marker, samePoint, rank, price:Number(card.dataset.priceEur) || Infinity});
+      if (keep && samePoint.some(c => keep.includes(offerKey(c)))) restored = {samePoint, marker};
     });
+    if (restored) {
+      const current = previewOffer && restored.samePoint.includes(previewOffer) ? previewOffer : null;
+      restored.marker.getElement()?.classList.add('selected'); restored.marker.setZIndexOffset(3000);
+      selectedKeys = restored.samePoint.map(offerKey);
+      if (current || restored.samePoint.length === 1) previewSingle(current || restored.samePoint[0], restored.samePoint, restored.marker);
+      else previewList(restored.samePoint, restored.marker);
+    } else if (keep) clearSelection();
     updateStatus();
+    scheduleLayout();
   }
-  function placeClubNames(){
-    if (!map || !clubMarkers.size || canvas.hidden) return;
+  function refreshPreview() {
+    if (preview.hidden || !previewOffer) return;
+    const marker = markers.get(previewOffer);
+    if (!marker) return;
+    const samePoint = [...markers].filter(([, m]) => m === marker).map(([card]) => card);
+    previewSingle(previewOffer, samePoint, marker);
+  }
+  function updateFavoriteToggle() {
+    const total = Array.from(document.querySelectorAll('.groups .stay-card')).filter(card => inPlan(card) && card.dataset.generalMatch !== 'false' && isFavorite(card)).length;
+    favoriteCount.textContent = `(${total})`;
+    favoriteToggle.setAttribute('aria-pressed', String(favoritesOnly));
+  }
+  // One labelling pass for the whole map. Labels are placed in order of
+  // importance and never cover another label, a club disc or a stay dot. A
+  // stay label that does not fit keeps its dot; a club name that does not fit
+  // waits for zoom. Hovering or focusing a marker always shows its name.
+  function layoutLabels() {
+    if (!map || canvas.hidden) return;
+    // Markers glide during a zoom animation; measure where they stop.
+    if (canvas.classList.contains('leaflet-zoom-anim')) { setTimeout(scheduleLayout, 120); return; }
     const bounds = canvas.getBoundingClientRect();
     if (!bounds.width || !bounds.height) return;
-    if (!clubOverlay || !clubOverlay.isConnected) {
-      clubOverlay = document.createElement('div');
-      clubOverlay.className = 'club-groups-overlay';
-      canvas.append(clubOverlay);
-    }
-    const intersects = (a,b,pad=0) => a.left < b.right+pad && a.right+pad > b.left && a.top < b.bottom+pad && a.bottom+pad > b.top;
-    const center = rect => ({x:(rect.left+rect.right)/2,y:(rect.top+rect.bottom)/2});
-    const union = rects => ({left:Math.min(...rects.map(r=>r.left)),right:Math.max(...rects.map(r=>r.right)),top:Math.min(...rects.map(r=>r.top)),bottom:Math.max(...rects.map(r=>r.bottom))});
+    const hit = (a, b, pad = 2) => a.left < b.right + pad && a.right + pad > b.left && a.top < b.bottom + pad && a.bottom + pad > b.top;
+    const inside = r => r.left >= bounds.left + 3 && r.right <= bounds.right - 3 && r.top >= bounds.top + 3 && r.bottom <= bounds.bottom - 3;
+    const box = (left, top, width, height) => ({left, top, right:left + width, bottom:top + height});
+    const placed = Array.from(canvas.querySelectorAll('.leaflet-control')).map(el => el.getBoundingClientRect());
+    if (!preview.hidden) placed.push(preview.getBoundingClientRect());
+    const marks = [];
     const items = [];
-    clubMarkers.forEach((marker,index) => {
-      const el = marker.getElement(), label = el?.querySelector('.pin-label'), shape = el?.querySelector('.pin-shape');
-      if (!el || !label || !shape) return;
-      label.style.visibility = 'visible';
-      const pin = shape.getBoundingClientRect();
-      if (!intersects(pin,bounds)) return;
-      items.push({marker,index,label,el,pin,name:clubs[Number(index)]?.name || label.textContent});
+    stayPins.forEach(pin => {
+      const el = pin.marker.getElement(), label = el?.querySelector('.pin-label'), dot = el?.querySelector('.pin-shape');
+      if (!el || !label || !dot) return;
+      el.classList.remove('compact', 'below', 'right', 'left');
+      const dotRect = dot.getBoundingClientRect();
+      if (!hit(dotRect, bounds, 0)) { el.classList.add('compact'); return; }
+      const selected = el.classList.contains('selected');
+      const favorite = pin.samePoint.some(isFavorite);
+      const order = selected ? 0 : favorite ? 2 : pin.rank >= 4 ? 5 : 4;
+      marks.push({el, rect:dotRect, level:selected ? 0 : favorite ? 1 : order});
+      items.push({kind:'stay', el, label, mark:dotRect, order, block:order, price:pin.price});
     });
-    if (!items.length) { clubOverlay.replaceChildren(); return; }
-    const allPins = Array.from(canvas.querySelectorAll('.club-pin .pin-shape'))
-      .map(el => el.getBoundingClientRect()).filter(rect => intersects(rect,bounds));
-    const stayPins = Array.from(canvas.querySelectorAll('.map-pin .pin-shape, .selected-stay-label'))
-      .map(el => el.getBoundingClientRect()).filter(rect => intersects(rect,bounds));
-    const mapControlsInCanvas = Array.from(canvas.querySelectorAll('.leaflet-control'))
-      .map(el => el.getBoundingClientRect()).filter(rect => intersects(rect,bounds));
-    // Pins within this distance are genuinely adjacent on the current map.
-    // Their names share one compact label; each name opens its own club.
-    let units = [];
-    items.forEach(item => {
-      const p = center(item.pin), touching = [];
-      units.forEach((unit,i) => {
-        if (unit.some(other => {const q=center(other.pin);return Math.hypot(p.x-q.x,p.y-q.y)<40;})) touching.push(i);
-      });
-      if (!touching.length) units.push([item]);
-      else {
-        const merged = [item];
-        touching.reverse().forEach(i => merged.push(...units.splice(i,1)[0]));
-        units.push(merged);
-      }
+    clubMarkers.forEach((marker, index) => {
+      const el = marker.getElement(), label = clubNames.get(index), disc = el?.querySelector('.pin-shape');
+      if (!el || !label || !disc) return;
+      label.classList.add('name-hidden');
+      const discRect = disc.getBoundingClientRect();
+      if (!hit(discRect, bounds, 0)) return;
+      const anchor = el.classList.contains('anchor');
+      marks.push({el, rect:discRect, level:0});
+      items.push({kind:'club', el, label, mark:discRect, order:anchor ? 1 : 3, block:anchor ? 1 : 4, price:0});
     });
-    let placements = null, prepared = [];
-    for (let pass=0; pass<items.length; pass++) {
-      clubOverlay.replaceChildren();
-      prepared = units.map(members => {
-        const pinBox = union(members.map(x=>x.pin));
-        let node;
-        if (members.length === 1) node = members[0].label;
-        else {
-          node = document.createElement('div'); node.className = 'club-group-label';
-          node.setAttribute('role','group'); node.setAttribute('aria-label','Yakın kulüpler');
-          ['pointerdown','mousedown','touchstart','dblclick'].forEach(type=>node.addEventListener(type,event=>event.stopPropagation()));
-          members.slice().sort((a,b)=>a.name.localeCompare(b.name,'tr')).forEach(item => {
-            const button = document.createElement('button'); button.type = 'button'; button.textContent = item.name;
-            button.setAttribute('aria-label',`${item.name} konumuna yaklaş ve bilgisini aç`);
-            if (item.el.classList.contains('closed')) button.classList.add('closed');
-            button.addEventListener('click',event => {
-              event.stopPropagation();
-              map.setView(item.marker.getLatLng(),17,{animate:!window.matchMedia('(prefers-reduced-motion: reduce)').matches});
-              item.marker.openPopup();
-            });
-            node.append(button);
-          });
-          if (members.length > 6) node.classList.add('two-columns');
-          clubOverlay.append(node);
-        }
-        node.style.visibility = 'hidden';
-        const c = center(pinBox), candidates=[];
-        for (const horizontal of (members.length===2 ? [false,true] : [false])) {
-          if (members.length>1) node.classList.toggle('horizontal',horizontal);
-          const size=node.getBoundingClientRect();
-          candidates.push(...[4,12,20,28].flatMap(gap=>[
-            ...[c.x-size.width/2,c.x-size.width/2-8,c.x-size.width/2+8,c.x-size.width/2-16,c.x-size.width/2+16,pinBox.left,pinBox.right-size.width,pinBox.left-size.width+8,pinBox.right-8].map(left=>({left,top:pinBox.top-size.height-gap})),
-            ...[c.y-size.height/2,c.y-size.height/2-8,c.y-size.height/2+8,pinBox.top,pinBox.bottom-size.height,pinBox.top-size.height+8,pinBox.bottom-8].map(top=>({left:pinBox.right+gap,top})),
-            ...[c.x-size.width/2,c.x-size.width/2-8,c.x-size.width/2+8,c.x-size.width/2-16,c.x-size.width/2+16,pinBox.left,pinBox.right-size.width,pinBox.left-size.width+8,pinBox.right-8].map(left=>({left,top:pinBox.bottom+gap})),
-            ...[c.y-size.height/2,c.y-size.height/2-8,c.y-size.height/2+8,pinBox.top,pinBox.bottom-size.height,pinBox.top-size.height+8,pinBox.bottom-8].map(top=>({left:pinBox.left-size.width-gap,top}))
-          ]).map(p=>({...p,right:p.left+size.width,bottom:p.top+size.height,horizontal}))
-           .filter(p=>p.left>=bounds.left+3&&p.right<=bounds.right-3&&p.top>=bounds.top+3&&p.bottom<=bounds.bottom-3)
-           .filter(p=>!allPins.some(pin=>intersects(p,pin,2)) && !mapControlsInCanvas.some(control=>intersects(p,control,3)))
-           .map(p=>({...p,stayPenalty:stayPins.reduce((sum,pin)=>sum+(intersects(p,pin)?1:0),0)})));
-        }
-        if (members.length>1) node.classList.remove('horizontal');
-        candidates.sort((a,b)=>a.stayPenalty-b.stayPenalty);
-        return {members,node,pinBox,candidates};
-      }).sort((a,b)=>a.candidates.length-b.candidates.length || b.members.length-a.members.length);
-      const chosen=[];
-      let attempts=0, bestPenalty=Infinity, bestChoices=null;
-      function solve(i,penalty){
-        if (i===prepared.length) {
-          if (penalty<bestPenalty){bestPenalty=penalty;bestChoices=chosen.slice();}
-          return bestPenalty===0;
-        }
-        if (++attempts>30000) return false;
-        for (const rect of prepared[i].candidates) {
-          const nextPenalty=penalty+rect.stayPenalty;
-          if (nextPenalty>=bestPenalty || chosen.some(other=>intersects(rect,other,3))) continue;
-          chosen.push(rect); if (solve(i+1,nextPenalty)) return true; chosen.pop();
-        }
-        return false;
+    // Stay dots sit above club discs; club names sit above both. Tresor/RSO
+    // and favourite labels may cover ordinary dots, price labels may cover
+    // booked dots, and nothing covers a favourite or the chosen pin.
+    const free = (rect, item) => inside(rect) && !placed.some(other => hit(rect, other)) &&
+      !marks.some(mark => mark.el !== item.el && mark.level <= item.block && hit(rect, mark.rect, 1));
+    items.sort((a, b) => a.order - b.order || a.price - b.price).forEach(item => {
+      const size = item.label.getBoundingClientRect();
+      const m = item.mark, cx = (m.left + m.right) / 2, cy = (m.top + m.bottom) / 2, w = size.width, h = size.height;
+      if (item.kind === 'stay') {
+        const gap = m.top - size.bottom;
+        const sides = [['', size], ['below', box(size.left, m.bottom + gap, w, h)], ['right', box(m.right + gap, cy - h / 2, w, h)], ['left', box(m.left - gap - w, cy - h / 2, w, h)]];
+        const choice = sides.find(([, rect]) => free(rect, item));
+        if (choice) { if (choice[0]) item.el.classList.add(choice[0]); placed.push(choice[1]); }
+        else if (item.order === 0) placed.push(size);
+        else item.el.classList.add('compact');
+        return;
       }
-      solve(0,0);
-      if (bestChoices) { placements=bestChoices; break; }
-      // Merge only nearby pin groups if four immediate sides are insufficient.
-      let nearest=Infinity, pair=null;
-      for(let i=0;i<units.length;i++) for(let j=i+1;j<units.length;j++){
-        const a=center(union(units[i].map(x=>x.pin))),b=center(union(units[j].map(x=>x.pin)));
-        const distance=Math.hypot(a.x-b.x,a.y-b.y);
-        if(distance<nearest){nearest=distance;pair=[i,j];}
-      }
-      if(!pair || nearest>100) break;
-      units[pair[0]].push(...units[pair[1]]); units.splice(pair[1],1);
-    }
-    // A very small viewport can still be constrained. Keep each name next to
-    // its own pin instead of moving it away or adding connecting lines.
-    clubOverlay.dataset.layout = placements ? 'solved' : 'fallback';
-    if (!placements) placements=prepared.map(unit=>unit.candidates[0] || {left:unit.pinBox.right+4,top:unit.pinBox.top});
-    prepared.forEach((unit,i) => {
-      const rect=placements[i];
-      if(unit.members.length===1){
-        const item=unit.members[0],icon=item.el.getBoundingClientRect();
-        unit.node.style.left=`${rect.left-icon.left}px`;unit.node.style.top=`${rect.top-icon.top}px`;
-        unit.node.style.bottom='auto';unit.node.style.transform='none';
-      }else{
-        unit.members.forEach(item=>{item.label.style.visibility='hidden';});
-        unit.node.classList.toggle('horizontal',Boolean(rect.horizontal));
-        unit.node.style.left=`${rect.left-bounds.left}px`;unit.node.style.top=`${rect.top-bounds.top}px`;
-      }
-      unit.node.style.visibility='visible';
+      const gap = 5;
+      const choice = [box(cx - w / 2, m.top - gap - h, w, h), box(m.right + gap, cy - h / 2, w, h), box(cx - w / 2, m.bottom + gap, w, h), box(m.left - gap - w, cy - h / 2, w, h),
+        box(m.right - 4, m.top - h - 2, w, h), box(m.left - w + 4, m.top - h - 2, w, h), box(m.right - 4, m.bottom + 2, w, h), box(m.left - w + 4, m.bottom + 2, w, h)]
+        .find(rect => free(rect, item));
+      if (!choice) return;
+      const origin = namePane.getBoundingClientRect();
+      Object.assign(item.label.style, {left:`${choice.left - origin.left}px`, top:`${choice.top - origin.top}px`});
+      item.label.classList.remove('name-hidden');
+      placed.push(choice);
     });
   }
-  function scheduleClubNames(){
-    if (clubLayoutQueued) return;
-    clubLayoutQueued = true;
-    requestAnimationFrame(()=>{clubLayoutQueued=false;placeSelectedLabel();placeClubNames();placeSelectedLabel(true);});
+  function scheduleLayout() {
+    if (layoutQueued) return;
+    layoutQueued = true;
+    requestAnimationFrame(() => { layoutQueued = false; layoutLabels(); });
   }
   function createMap() {
     map = window.L.map(canvas, {scrollWheelZoom:true, touchZoom:true, dragging:true, minZoom:1, maxZoom:19}).setView(clubCenter, 10);
     const tiles = window.MaplibreGLLeaflet.maplibreGL({
-      style:'https://tiles.openfreemap.org/styles/liberty',
+      style:'https://tiles.openfreemap.org/styles/positron',
       attributionControl:{customAttribution:'<a href="https://openfreemap.org/">OpenFreeMap</a> · &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> · <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> katkıda bulunanlar'}
     }).addTo(map);
     const gl = tiles.getMaplibreMap();
@@ -522,7 +538,8 @@
     gl.on('load', () => { mapLoaded = true; clearTimeout(mapLoadTimer); });
     gl.on('error', () => showMapFailure('Harita yüklenemedi.'));
     markerLayer = window.L.layerGroup().addTo(map);
-    clubMarkers = new Map();
+    clubMarkers = new Map(); clubNames = new Map();
+    namePane = map.createPane('clubNames');
     clubs.forEach((club, index) => {
       const lat = Number(club.lat), lon = Number(club.lon);
       if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
@@ -541,7 +558,8 @@
         }
         content.append(more);
       }
-      const marker = window.L.marker([lat,lon], {icon:icon(club.name, inactive ? 'club-pin closed' : 'club-pin'), title:`${club.name} · kulüp${inactive ? ' · kapalı' : ''}`, keyboard:true}).bindPopup(content);
+      const anchor = anchorClub(club.name);
+      const marker = window.L.marker([lat,lon], {icon:clubIcon(club.name, `club-pin${anchor ? ' anchor' : ''}${inactive ? ' closed' : ''}`), title:`${club.name} · kulüp${inactive ? ' · kapalı' : ''}`, keyboard:true, zIndexOffset:anchor ? -300 : -400}).bindPopup(content);
       marker.on('add', () => {
         const element = marker.getElement();
         if (!element) return;
@@ -551,17 +569,27 @@
         });
       });
       marker.addTo(map); clubMarkers.set(String(index), marker);
+      const name = document.createElement('span');
+      name.className = `club-name name-hidden${anchor ? ' anchor' : ''}${inactive ? ' closed' : ''}`;
+      name.textContent = club.name; name.setAttribute('aria-hidden', 'true');
+      name.addEventListener('click', event => { event.stopPropagation(); marker.openPopup(); });
+      namePane.append(name); clubNames.set(String(index), name);
     });
-    map.on('move zoom resize',scheduleClubNames);
-    scheduleClubNames();
-    draw();
+    map.on('moveend zoomend resize', scheduleLayout);
+    scheduleLayout();
+    map.on('click', clearSelection);
+    draw(true);
     if (fitButton) fitButton.disabled = false;
     if (fitClubsButton) fitClubsButton.disabled = false;
     clubChooser.disabled = false;
   }
   function fitPoints(clubsOnly = false) {
     if (!map) return;
-    const coordinates = clubsOnly ? [] : [...markers.values()].map(marker => marker.getLatLng());
+    const coordinates = clubsOnly ? [] : [...new Set(markers.values())].map(marker => marker.getLatLng());
+    if (favoritesOnly && coordinates.length) {
+      const padding = window.matchMedia('(max-width:639px)').matches ? [70,50] : [60,60];
+      map.fitBounds(window.L.latLngBounds(coordinates), {padding, maxZoom:14}); return;
+    }
     clubs.forEach(club => {
       const lat = Number(club.lat), lon = Number(club.lon);
       if (Number.isFinite(lat) && Number.isFinite(lon)) coordinates.push([lat,lon]);
@@ -604,8 +632,8 @@
         graphics.getExtension('WEBGL_lose_context')?.loseContext();
         createMap();
       }
-      draw();
-      requestAnimationFrame(() => { map.invalidateSize(); if (newMap && !shouldScroll) fitPoints(true); });
+      draw(true);
+      requestAnimationFrame(() => { map.invalidateSize(); scheduleLayout(); });
       return true;
     } catch (_) {
       showMapFailure('Harita bu cihazda yüklenemedi.');
@@ -617,9 +645,12 @@
   if (mapClose) mapClose.addEventListener('click', hideMap);
   panel.addEventListener('cancel', event => { event.preventDefault(); hideMap(); });
   window.addEventListener('resize', () => { if (!panel.hidden) { openMapPanel(); if (map) requestAnimationFrame(() => map.invalidateSize()); } });
-  group.addEventListener('change', () => { updatePlanLabel(); draw(); fitPoints(); });
-  if (resetBest) resetBest.addEventListener('click', () => { setMapGroup('hepsi'); draw(); fitPoints(); });
-  includeConditional.addEventListener('change', draw);
+  group.addEventListener('change', () => { updatePlanLabel(); clearSelection(); draw(true); fitPoints(); });
+  if (resetBest) resetBest.addEventListener('click', () => { setMapGroup('hepsi'); draw(true); fitPoints(); });
+  favoriteToggle.addEventListener('click', () => {
+    favoritesOnly = !favoritesOnly; clearSelection(); draw(true); fitPoints(!favoritesOnly);
+  });
+  document.addEventListener('berlin-favorites-state', () => { if (map) draw(); else updateFavoriteToggle(); });
   if (fitButton) fitButton.addEventListener('click', () => fitPoints());
   if (fitClubsButton) fitClubsButton.addEventListener('click', () => fitPoints(true));
   clubChooser.addEventListener('change', () => {
@@ -628,10 +659,10 @@
     map.setView(marker.getLatLng(), 17, {animate:!window.matchMedia('(prefers-reduced-motion: reduce)').matches});
     marker.openPopup();
   });
-  document.addEventListener('cards-filtered', draw);
+  document.addEventListener('cards-filtered', () => draw());
   document.addEventListener('group-current-changed', event => {
     if (group.value === 'hepsi' && !panel.hidden && !String(event.detail?.id || '').startsWith('best-')) return;
-    setMapGroup(event.detail?.id); draw(); if (!panel.hidden) fitPoints();
+    setMapGroup(event.detail?.id); draw(true); if (!panel.hidden) fitPoints();
   });
   document.addEventListener('click', async event => {
     const relatedButton = event.target.closest('.related-offer-open');
@@ -648,7 +679,7 @@
         if (window.BerlinCardTabs) window.BerlinCardTabs.activate(card, detailButton.dataset.tab, true);
         return;
       }
-      if (card) showCard(card, {getElement: () => detailButton}, null, detailButton.dataset.tab || 'overview');
+      if (card) showCard(card, {getElement: () => detailButton}, detailButton.dataset.tab || 'overview');
       return;
     }
     const button = event.target.closest('.map-show');
@@ -659,18 +690,17 @@
     if (!parent || !card.dataset.lat || !card.dataset.lon) return;
     mapOpener = button;
     setMapGroup(view?.dataset.activeBest && bestMatch(card) ? view.dataset.activeBest : parent.classList.contains('group-favorites')?'hepsi':parent.id);
-    if (hasNotes(card)) includeConditional.checked = true;
+    if (favoritesOnly && !isFavorite(card)) { favoritesOnly = false; }
     if (!(await showMap(true))) return;
-    draw();
+    draw(true);
     const marker = markers.get(card);
     if (marker) {
       requestAnimationFrame(()=>{
         map.invalidateSize();map.stop();map.setView(marker.getLatLng(),15,{animate:false});
-        clearSelection(); selectedMarker=marker;
-        selectedText = `${titleFor(card)} · ${card.querySelector('.amount strong')?.textContent || 'Fiyat teyitsiz'}`;
-        const element=marker.getElement();element?.classList.add('selected','pin-pulse');element?.focus({preventScroll:true});
-        placeSelectedLabel(); scheduleClubNames();
-        selectionTimer=setTimeout(()=>element?.classList.remove('pin-pulse'),6000);
+        const samePoint = [...markers].filter(([, m]) => m === marker).map(([item]) => item);
+        selectPoint(samePoint, marker, card);
+        const element=marker.getElement();element?.classList.add('pin-pulse');element?.focus({preventScroll:true});
+        selectionTimer=setTimeout(()=>element?.classList.remove('pin-pulse'),4000);
       });
     }
   });
