@@ -1,0 +1,1520 @@
+[
+  {
+    "id": "sweep7-airbnb-1765241459359399223-20261230-20270103",
+    "sourceId": "1765241459359399223",
+    "name": "Central 120 m² Design Loft Berlin Mitte",
+    "area": "Mitte",
+    "address": null,
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 9,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Bedroom 1: 1 king bed, 2 single beds; Bedroom 2: 1 king bed, 2 single beds; Bedroom 3: 1 single bed",
+    "features": "120 m²; Puan 5.0; Ev sahibi: Paula & Patrick",
+    "price": "3.704 €",
+    "priceEUR": 3704,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 16 Aralık 2026 öncesi ücretsiz iptal",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "22 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "9 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (4.0 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.3966,52.5382;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.3966,52.5382;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1765241459359399223",
+    "sourceURL": "https://www.airbnb.com/rooms/1765241459359399223?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/c2a6dfc4-a295-425d-994b-66e512390e55.png"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/1497ea7a-97b5-4a31-b8e7-0a835ffefdbd.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/0f917ea6-cf24-4806-8123-13a9548178b3.png"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/1765241459359399223?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-1510142980699078825-20261230-20270103",
+    "sourceId": "1510142980699078825",
+    "name": "Modern accommodation Emser",
+    "area": "Wilmersdorf (Emser Str.)",
+    "address": null,
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 7,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Bedroom 1: 2 single beds; Bedroom 2: 2 single beds; Bedroom 3: 3 single beds",
+    "features": "Puan 4.08; Registriernummer 08/Z/AZ/015524-25; Ev sahibi: Mehmet",
+    "price": "1.093 €",
+    "priceEUR": 1093,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 24 saat ücretsiz iptal, sonrası iade yok",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "12 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "12 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (5.4 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.42731,52.4686;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.42731,52.4686;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1510142980699078825",
+    "sourceURL": "https://www.airbnb.com/rooms/1510142980699078825?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/1340dc46-cfa5-4308-b381-94ea923879d4.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/5bff8eaf-4adf-4f61-9f8b-c8e5216ba937.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/a79bccda-afc9-47dc-ab2f-39e10b4a41a6.jpeg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı.",
+      "İptal: 24 saat ücretsiz iptal, sonrası iade yok."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/1510142980699078825?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-1389672541037596818-20261230-20270103",
+    "sourceId": "1389672541037596818",
+    "name": "Modern place to stay - Schöneberg",
+    "area": "Schöneberg",
+    "address": null,
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 7,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Bedroom 1: 3 single beds; Bedroom 2: 2 single beds; Bedroom 3: 2 single beds",
+    "features": "Puan 4.29; Registriernummer 07/Z/AZ/020090-25; Ev sahibi: Mehmet",
+    "price": "1.264 €",
+    "priceEUR": 1264,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 24 saat ücretsiz iptal, sonrası iade yok",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "19 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "12 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (6.2 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.36653,52.48723;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.36653,52.48723;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1389672541037596818",
+    "sourceURL": "https://www.airbnb.com/rooms/1389672541037596818?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/96374968-f1fa-4a5b-8dec-967ec6d5c7b8.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/7607957a-0ca9-4b3d-99a0-130c7ed03bd9.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/032d25a1-6b43-4ea6-90fe-b7268bfcfb29.jpeg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı.",
+      "İptal: 24 saat ücretsiz iptal, sonrası iade yok."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/1389672541037596818?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-40216009-20261230-20270103",
+    "sourceId": "40216009",
+    "name": "La Corniche Apartments",
+    "area": "Ringbahnstraße 58, 12099 Berlin",
+    "address": "Ringbahnstraße 58, 12099 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 8,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "1",
+    "beds": "Bedroom 1: 3 single beds; Bedroom 2: 3 single beds; Bedroom 3: 2 single beds",
+    "features": "Ev sahibi: La Corniche Apartments GmbH",
+    "price": "1.187 €",
+    "priceEUR": 1187,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 24 saat ücretsiz iptal, sonrası iade yok",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "13 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "11 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (6.3 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: adres (ilan \"Listing address\") Nominatim ile geokodlandı. Kaynak: https://router.project-osrm.org/route/v1/driving/13.38778,52.4686732;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.38778,52.4686732;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/40216009",
+    "sourceURL": "https://www.airbnb.com/rooms/40216009?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/7bce0945-0cdd-4170-a414-4b14f3148627.jpg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/8c8a1beb-772d-482e-a289-3444c1145f4e.jpg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/0f3f55e6-7204-4cfd-a824-5865cccc60e3.jpg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı.",
+      "İptal: 24 saat ücretsiz iptal, sonrası iade yok."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/40216009?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-38533401-20261230-20270103",
+    "sourceId": "38533401",
+    "name": "La Corniche Apartments PREMIUM",
+    "area": "Ringbahnstraße 58, 12099, Berlin, Berlin",
+    "address": "Ringbahnstraße 58, 12099, Berlin, Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 12,
+    "capacityNote": null,
+    "rooms": 5,
+    "baths": "3",
+    "beds": "Bedroom 1: 3 single beds; Bedroom 2: 2 single beds; Bedroom 3: 3 single beds; Bedroom 4: 2 single beds; Bedroom 5: 3 single beds",
+    "features": "Puan 4.57; Ev sahibi: La Corniche Apartments GmbH",
+    "price": "1.908 €",
+    "priceEUR": 1908,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 24 saat ücretsiz iptal, sonrası iade yok (23 Aralık öncesi kısmi iade)",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "14 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "12 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (6.5 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.38822,52.46775;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.38822,52.46775;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/38533401",
+    "sourceURL": "https://www.airbnb.com/rooms/38533401?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/8ea70ed9-3519-4a87-abd0-41c7e81863cb.jpg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/1711c2ec-ac0b-47a3-8242-f25ac1aa0cf1.jpg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/824f6654-d4f9-4584-9376-b980c2ece669.jpg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı.",
+      "İptal: 24 saat ücretsiz iptal, sonrası iade yok (23 Aralık öncesi kısmi iade)."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/38533401?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-34301098-20261230-20270103",
+    "sourceId": "34301098",
+    "name": "La Corniche Apartments R3EGL.",
+    "area": "Ringbahnstr. 58, 12099, Berlin, Berlin",
+    "address": "Ringbahnstr. 58, 12099, Berlin, Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 6,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Bedroom 1: 1 single bed; Bedroom 2: 2 single beds; Bedroom 3: 3 single beds",
+    "features": "Ev sahibi: La Corniche Apartments GmbH",
+    "price": "1.053 €",
+    "priceEUR": 1053,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 24 saat ücretsiz iptal, sonrası iade yok",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "13 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "12 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (7.0 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.39321,52.46473;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.39321,52.46473;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/34301098",
+    "sourceURL": "https://www.airbnb.com/rooms/34301098?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/af135273-97de-4b8c-a8d8-040cb15aef61.jpg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/b33e2537-6091-483b-a4d5-ab45004cdfa4.jpg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/9785adcb-367c-4f52-aefe-08de584b6219.jpg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı.",
+      "İptal: 24 saat ücretsiz iptal, sonrası iade yok."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/34301098?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-31297828-20261230-20270103",
+    "sourceId": "31297828",
+    "name": "3 Apartments | 18 People | 1 floor | Kreuzberg",
+    "area": "Görlitzer Str. 38, 10997 Berlin",
+    "address": "Görlitzer Str. 38, 10997 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 16,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "4",
+    "beds": "Bedroom 1: 4 single beds, 1 bunk bed; Bedroom 2: 2 single beds, 1 bunk bed; Bedroom 3: 2 bunk beds",
+    "features": "Puan 4.65; Ev sahibi: Stella",
+    "price": "2.976 €",
+    "priceEUR": 2976,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 30 Kasım 2026 öncesi ücretsiz iptal",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "14 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "7 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (3.1 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: adres (ilan \"Listing address\") Nominatim ile geokodlandı. Kaynak: https://router.project-osrm.org/route/v1/driving/13.4433823,52.4960034;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.4433823,52.4960034;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/31297828",
+    "sourceURL": "https://www.airbnb.com/rooms/31297828?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/31fbcc0d-3124-4c67-aac8-467bbca2c4ea.jpg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/9b36e425-666e-4ebb-8a3e-1875b0aff237.jpg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/8ff35d6a-2f80-4990-8931-90ae8f5a46d2.jpg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/31297828?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-1268121761753625501-20261230-20270103",
+    "sourceId": "1268121761753625501",
+    "name": "Big stay for 13 in Kreuzberg",
+    "area": "Gneisenaustraße 89, 10961 Berlin",
+    "address": "Gneisenaustraße 89, 10961 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 13,
+    "capacityNote": null,
+    "rooms": 9,
+    "baths": "3",
+    "beds": "Bedroom 1: 1 double bed; Bedroom 2: 1 double bed; Bedroom 3: 1 double bed; Bedroom 4: 1 double bed; Bedroom 5: 1 double bed; Bedroom 6: 1 double bed; Bedroom 7: 1 double bed; Bedroom 8: 1 double bed; Bedroom 9: 1 double bed",
+    "features": "Puan 4.41; Ev sahibi: Baharbin",
+    "price": "3.632 €",
+    "priceEUR": 3632,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 30 Kasım 2026 öncesi ücretsiz iptal",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "17 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "6 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (3.3 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: adres (ilan \"Listing address\") Nominatim ile geokodlandı. Kaynak: https://router.project-osrm.org/route/v1/driving/13.3954149,52.491676;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.3954149,52.491676;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1268121761753625501",
+    "sourceURL": "https://www.airbnb.com/rooms/1268121761753625501?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/e5f94dd1-4aa5-4aeb-8c13-6684ab374a3e.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/7ff430f0-ee47-452a-961b-709c3a7a0125.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/c5be17a1-9b5a-43a9-a3da-84c1182c2bcf.jpeg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/1268121761753625501?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-32453210-20261230-20270103",
+    "sourceId": "32453210",
+    "name": "\"Freesie\" Apartment",
+    "area": "Mariendorfer Damm 47, 12109 Berlin",
+    "address": "Mariendorfer Damm 47, 12109 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 13,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Bedroom 1: 2 single beds; Bedroom 2: 3 single beds; Bedroom 3: 3 single beds, 1 sofa bed",
+    "features": "Puan 4.46; Ev sahibi: Tim",
+    "price": "2.364 €",
+    "priceEUR": 2364,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 30 Kasım 2026 öncesi ücretsiz iptal",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "16 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "15 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (8.4 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: adres (ilan \"Listing address\") Nominatim ile geokodlandı. Kaynak: https://router.project-osrm.org/route/v1/driving/13.3854635,52.4485137;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.3854635,52.4485137;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/32453210",
+    "sourceURL": "https://www.airbnb.com/rooms/32453210?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/6eb65ceb-4a1e-44fe-babd-02e03708382f.jpg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/71671eee-50b8-45dc-b74c-5905a335f8dc.jpg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/6ac11c35-0583-4bc2-a4a2-03d5fe562f04.jpg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/32453210?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-31701521-20261230-20270103",
+    "sourceId": "31701521",
+    "name": "Apartment \"Enzian\"",
+    "area": "Mariendorfer Damm 47, 12109, Berlin, Deutschland",
+    "address": "Mariendorfer Damm 47, 12109, Berlin, Deutschland",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 12,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Bedroom 1: 3 single beds; Bedroom 2: 4 single beds, 1 sofa bed; Bedroom 3: 1 king bed",
+    "features": "103 m²; Puan 4.05; Ev sahibi: Tim",
+    "price": "2.364 €",
+    "priceEUR": 2364,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 30 Kasım 2026 öncesi ücretsiz iptal",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "18 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "16 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (8.8 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.3864,52.44911;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.3864,52.44911;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/31701521",
+    "sourceURL": "https://www.airbnb.com/rooms/31701521?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/14a90e40-e96b-471c-9bcb-28dfaa4c3e73.jpg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/9e9cc4a7-2ba2-45b9-b7f3-5334408183ce.jpg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/10511fb1-ffab-4f91-a04d-480897dc4e26.jpg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/31701521?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-942782300690662568-20261230-20270103",
+    "sourceId": "942782300690662568",
+    "name": "Exil DeLuxe",
+    "area": "Wilmersdorf",
+    "address": null,
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 15,
+    "capacityNote": null,
+    "rooms": 4,
+    "baths": "1",
+    "beds": "Bedroom 1: 1 double bed; Bedroom 2: 4 single beds; Bedroom 3: 1 double bed, 2 single beds; Bedroom 4: 1 single bed; Living room: 2 sofa beds",
+    "features": "Puan 4.22; Registriernummer 04/Z/AZ/014191-23; Ev sahibi: Bülent",
+    "price": "2.442 €",
+    "priceEUR": 2442,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 24 saat ücretsiz iptal, sonrası iade yok",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "24 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "17 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (9.3 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.30782,52.50552;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.30782,52.50552;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/942782300690662568",
+    "sourceURL": "https://www.airbnb.com/rooms/942782300690662568?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/c7fbf450-cd27-4993-926d-7a55825837fc.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/dbd962f0-0a58-4c7c-89e2-0fd04ca01217.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/b76d442d-e72d-4c69-88b0-a15a6b06eac6.jpeg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı.",
+      "İptal: 24 saat ücretsiz iptal, sonrası iade yok."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/942782300690662568?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-1363888262051860529-20261230-20270103",
+    "sourceId": "1363888262051860529",
+    "name": "Generous Familiy Flat",
+    "area": "Prenzlauer Berg / Pankow",
+    "address": null,
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 6,
+    "capacityNote": null,
+    "rooms": 4,
+    "baths": "1",
+    "beds": "Bedroom 1: 1 single bed; Bedroom 2: 1 bunk bed; Bedroom 3: 1 single bed; Bedroom 4: 1 single bed; Living room: 1 sofa bed",
+    "features": "Puan 5.0; Ev sahibi: Soltan",
+    "price": "2.192 €",
+    "priceEUR": 2192,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 24 saat ücretsiz iptal, sonrası iade yok",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "16 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "7 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (3.4 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.4175,52.4924;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.4175,52.4924;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1363888262051860529",
+    "sourceURL": "https://www.airbnb.com/rooms/1363888262051860529?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2Mzg4ODI2MjA1MTg2MDUyOQ==/original/7442aa63-9fe8-4edd-be0e-ba03fc67fa61.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/e859cb8c-916a-4590-909f-a9405541995c.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/a0bd0d38-f91e-41b1-9227-1cb1cf1caf58.jpeg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "1 kişi kanepede yatar: 5 ayrı yatak + kanepe/çekyat.",
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı.",
+      "İptal: 24 saat ücretsiz iptal, sonrası iade yok."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/1363888262051860529?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-51513538-20261230-20270103",
+    "sourceId": "51513538",
+    "name": "3 bedroom city apartment",
+    "area": "Smetanastraße 8, 13088 Berlin",
+    "address": "Smetanastraße 8, 13088 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 8,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "1.5",
+    "beds": "Bedroom 1: 1 queen bed; Bedroom 2: 2 single beds; Bedroom 3: 2 single beds; Living room: 1 sofa bed",
+    "features": "Puan 4.64; Ev sahibi: Ruth",
+    "price": "1.638 €",
+    "priceEUR": 1638,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 30 Kasım 2026 öncesi ücretsiz iptal",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "23 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "13 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (7.6 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: adres (ilan \"Listing address\") Nominatim ile geokodlandı. Kaynak: https://router.project-osrm.org/route/v1/driving/13.4582849,52.5491274;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.4582849,52.5491274;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/51513538",
+    "sourceURL": "https://www.airbnb.com/rooms/51513538?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-51513538/original/7b45ff4f-800d-407f-a891-bd9de3e1b6d9.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-51513538/original/653ddb5f-facc-4c71-b2e4-2cc05fb51ed6.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/85cdbd9f-b0ac-4c55-84bc-cf60e66689a9.jpeg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "1 kişi kanepede yatar: 5 ayrı yatak + kanepe/çekyat.",
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/51513538?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-1174576099912827244-20261230-20270103",
+    "sourceId": "1174576099912827244",
+    "name": "170m² Exclusive Loft with Terrace – central",
+    "area": "Langhansstraße 21, 13086 Berlin",
+    "address": "Langhansstraße 21, 13086 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 7,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Bedroom 1: 2 king beds, 1 crib; Bedroom 2: 1 queen bed; Bedroom 3: 1 double bed, 1 single bed; Living room: 2 couches",
+    "features": "170 m²; Puan 4.94; Ev sahibi: Wissam",
+    "price": "1.584 €",
+    "priceEUR": 1584,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 24 saat ücretsiz iptal, sonrası iade yok",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "24 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "10 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (5.6 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: adres (ilan \"Listing address\") Nominatim ile geokodlandı. Kaynak: https://router.project-osrm.org/route/v1/driving/13.4453997,52.5504111;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.4453997,52.5504111;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1174576099912827244",
+    "sourceURL": "https://www.airbnb.com/rooms/1174576099912827244?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/3be53743-5705-4489-88e0-23393843f1b5.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/bf75f350-f4e0-47d1-b82f-ce0f9e7ba0ba.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/5e7b6776-aa97-46eb-a8ab-abe913dacf15.jpeg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "1 kişi kanepede yatar: 5 ayrı yatak + kanepe/çekyat.",
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı.",
+      "İptal: 24 saat ücretsiz iptal, sonrası iade yok."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/1174576099912827244?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-1478101487047693053-20261230-20270103",
+    "sourceId": "1478101487047693053",
+    "name": "Ku’DAMM Charming Old Home/4-10 ppl/Family friendly",
+    "area": "Schlüterstraße 19, 10625 Berlin",
+    "address": "Schlüterstraße 19, 10625 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 10,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Bedroom 1: 1 queen bed, 1 bunk bed; Bedroom 2: 1 queen bed, 1 sofa bed, 1 crib; Bedroom 3: 1 single bed",
+    "features": "130 m²; Puan 5.0; Ev sahibi: Novi",
+    "price": "5.355 €",
+    "priceEUR": 5355,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 25 Aralık 2026 öncesi ücretsiz iptal",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "24 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "16 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (8.7 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: adres (ilan \"Listing address\") Nominatim ile geokodlandı. Kaynak: https://router.project-osrm.org/route/v1/driving/13.317301,52.506925;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.317301,52.506925;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1478101487047693053",
+    "sourceURL": "https://www.airbnb.com/rooms/1478101487047693053?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/ea4aeb23-181d-4791-a38a-29e5734e316c.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/6f049505-aeb4-4199-90ab-653e05b44ed4.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/c7ed043e-36a6-45d1-8e6f-a77ec29cbd3c.jpeg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "1 kişi kanepede yatar: 5 ayrı yatak + kanepe/çekyat.",
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/1478101487047693053?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-1066700616308697452-20261230-20270103",
+    "sourceId": "1066700616308697452",
+    "name": "X-large Lifestyle Loft in Prime City Location",
+    "area": "Charlottenburg / City West",
+    "address": null,
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 16,
+    "capacityNote": null,
+    "rooms": 4,
+    "baths": "2",
+    "beds": "Bedroom 1: 1 king bed, 2 floor mattresses; Bedroom 2: 1 king bed; Bedroom 3: 2 single beds; Bedroom 4: 1 bunk bed; Living room 1: 1 sofa bed, 2 air mattresses; Living room 2: 2 couches",
+    "features": "200 m²; Puan 4.94; Registriernummer 04/Z/RA/014883-23; Ev sahibi: Beatrice",
+    "price": "5.978 €",
+    "priceEUR": 5978,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 30 Kasım 2026 öncesi ücretsiz iptal",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "23 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "14 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (8.3 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.3269,52.5031;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.3269,52.5031;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1066700616308697452",
+    "sourceURL": "https://www.airbnb.com/rooms/1066700616308697452?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/25ad6d8a-c129-49f7-9803-573c870f3c0f.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/7a1233c0-fb10-44f2-abb2-013672a6254a.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/7824da84-336a-4c9d-9fdc-071b17ecba63.jpeg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/1066700616308697452?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json",
+    "premiumBedProof": {
+      "verified": true,
+      "independentBeds": 6,
+      "source": "https://www.airbnb.com/rooms/1066700616308697452?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "note": "Oda oda döküm; çift kişilik yatak tek yatak, ranza iki yatak sayıldı; çekyat/kanepe ve yer yatağı sayılmadı."
+    }
+  },
+  {
+    "id": "sweep7-airbnb-1805168581752936023-20261230-20270103",
+    "sourceId": "1805168581752936023",
+    "name": "Steglitz VI - Apartment for groups, teams + installers",
+    "area": "Steglitz",
+    "address": null,
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 6,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "1",
+    "beds": "Bedroom 1: 3x Einzelbetten; Bedroom 2: 3x Einzelbetten; Bedroom 3: 2x Einzelbetten",
+    "features": "Puan New; Registriernummer 02/Z/AZ/016395-22; Ev sahibi: Paul",
+    "price": "996 €",
+    "priceEUR": 996,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 16 Aralık 2026 öncesi ücretsiz iptal",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "21 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "19 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (11.7 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.34261,52.44784;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.34261,52.44784;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1805168581752936023",
+    "sourceURL": "https://www.airbnb.com/rooms/1805168581752936023?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/8c92f7ac-915d-4530-ae15-8f9fc03165ba.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/bf4e5ec5-c816-44ef-86c3-454a042372c5.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/e1b2c9eb-37ed-476d-9a9e-b734ae41f3b1.jpeg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/1805168581752936023?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-1727650304700546371-20261230-20270103",
+    "sourceId": "1727650304700546371",
+    "name": "Freedom Apartment: Ideal for big groups and family",
+    "area": "Hermannstraße 55, 12049 Berlin",
+    "address": "Hermannstraße 55, 12049 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 12,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "3",
+    "beds": "Bedroom 1: 1 king bed, 1 double bed, 1 single bed; Bedroom 2: 1 king bed, 1 single bed; Bedroom 3: 1 double bed, 4 single beds",
+    "features": "45 m²; Ev sahibi: Freedom Studio Apartments",
+    "price": "1.996 €",
+    "priceEUR": 1996,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": "",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "14 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "9 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (4.2 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: adres (ilan \"Listing address\") Nominatim ile geokodlandı. Kaynak: https://router.project-osrm.org/route/v1/driving/13.4261428,52.4769707;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.4261428,52.4769707;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1727650304700546371",
+    "sourceURL": "https://www.airbnb.com/rooms/1727650304700546371?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/e261c00c-8bcb-4573-8e9d-972146c6ed53.png"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/1f717d8f-cdcc-471d-9f9a-4ed317def229.png"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/abd4dafe-7a7e-439b-b607-c69a7525ecf3.png"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı.",
+      "Olası mükerrer: booking:freedom-studioapartment-booking (aynı işletme: Freedom Studio Apartments; aynı daire olup olmadığı belirsiz)"
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/1727650304700546371?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-airbnb-1305081869431363843-20261230-20270103",
+    "sourceId": "1305081869431363843",
+    "name": "Stil Haus Bungalow",
+    "area": "Korkedamm 18, 12524 Berlin",
+    "address": "Korkedamm 18, 12524 Berlin",
+    "kind": "Evin tamamı",
+    "group": "full-house",
+    "capacity": 6,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Bedroom 1: 3 king beds, 2 couches; Bedroom 2: 1 queen bed, 1 couch; Bedroom 3: 1 queen bed; Living room: 2 couches",
+    "features": "Puan 3.67; Ev sahibi: Denis",
+    "price": "1.200 €",
+    "priceEUR": 1200,
+    "priceApproximate": false,
+    "priceStatus": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": "",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "10 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "19 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (14.4 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: adres (ilan \"Listing address\") Nominatim ile geokodlandı. Kaynak: https://router.project-osrm.org/route/v1/driving/13.5341714,52.425242;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.5341714,52.425242;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1305081869431363843",
+    "sourceURL": "https://www.airbnb.com/rooms/1305081869431363843?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/6b96cc12-7dd2-435a-a6c1-043840df13f5.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/a1ec2e7f-c5c7-47df-afc1-ac80c4903da6.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/cdeb0db7-af0e-483d-874c-adba22a69ec8.jpeg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "1 kişi kanepede yatar: 5 ayrı yatak + kanepe/çekyat.",
+      "Airbnb toplamına Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.airbnb.com/rooms/1305081869431363843?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+    "sourceId": "triumph-haus-mit-3-schlafzimmer",
+    "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+    "area": "Kienitzer Straße 56, 15834 Rangsdorf",
+    "address": "Kienitzer Straße 56, 15834 Rangsdorf",
+    "kind": "Evin tamamı",
+    "group": "full-house",
+    "capacity": null,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": null,
+    "beds": "Yatak Odası 1: 2 tek kişilik yatak; Yatak Odası 2: 2 tek kişilik yatak; Yatak Odası 3: 2 tek kişilik yatak",
+    "features": "140 m²",
+    "price": "111.809 TL",
+    "priceEUR": 1998,
+    "priceApproximate": true,
+    "priceStatus": "vergi ve ücretler dahil",
+    "priceClass": "search",
+    "priceNote": "EUR karşılığı TCMB 06.11.2026 efektif olmayan döviz satış kuru 55.9609 ile; Booking TR hesabında fiyatı yalnız TL gösterdi İptal: İade edilmez (online ön ödeme)",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "24 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "31 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (34.0 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Booking harita konumu (data-atlas-latlng); adresle tutarlı. Kaynak: https://router.project-osrm.org/route/v1/driving/13.453,52.2996;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.453,52.2996;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.booking.com/hotel/de/triumph-haus-mit-3-schlafzimmer.html",
+    "sourceURL": "https://www.booking.com/hotel/de/triumph-haus-mit-3-schlafzimmer.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/485990991.jpg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/485992698.jpg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/485992477.jpg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Booking.com",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "İptal: İade edilmez (online ön ödeme).",
+      "Tresor'a araçla trafiksiz ~31 dk (OSRM); gündüz trafikte uzayabilir."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.booking.com/hotel/de/triumph-haus-mit-3-schlafzimmer.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-booking-ferienhaus-berlin-6-pax-20261230-20270103",
+    "sourceId": "ferienhaus-berlin-6-pax",
+    "name": "Ferienhaus Berlin 6 Pax",
+    "area": "Teltower Straße 56 (Ferienhaus FH5), 15831 Blankenfelde-Mahlow",
+    "address": "Teltower Straße 56 (Ferienhaus FH5), 15831 Blankenfelde-Mahlow",
+    "kind": "Evin tamamı",
+    "group": "full-house",
+    "capacity": null,
+    "capacityNote": null,
+    "rooms": 4,
+    "baths": null,
+    "beds": "Yatak Odası 1: 1 tek kişilik yatak; Yatak Odası 2: 2 tek kişilik yatak; Yatak Odası 3: 2 tek kişilik yatak; Yatak Odası 4: 1 tek kişilik yatak",
+    "features": "85 m²",
+    "price": "89.224 TL",
+    "priceEUR": 1594,
+    "priceApproximate": true,
+    "priceStatus": "83.913 TL + 5.311 TL vergi/ücret; toplam yazıldı",
+    "priceClass": "search",
+    "priceNote": "EUR karşılığı TCMB 06.11.2026 efektif olmayan döviz satış kuru 55.9609 ile; Booking TR hesabında fiyatı yalnız TL gösterdi İptal: İade edilmez (online ön ödeme)",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "26 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "33 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (22.2 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Booking harita konumu (data-atlas-latlng); adresle tutarlı. Kaynak: https://router.project-osrm.org/route/v1/driving/13.3747,52.3642;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.3747,52.3642;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.booking.com/hotel/de/ferienhaus-berlin-6-pax.html",
+    "sourceURL": "https://www.booking.com/hotel/de/ferienhaus-berlin-6-pax.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/929479761.jpg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/929480040.jpg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/929480044.jpg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Booking.com",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "İptal: İade edilmez (online ön ödeme).",
+      "Tresor'a araçla trafiksiz ~33 dk (OSRM); gündüz trafikte uzayabilir."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.booking.com/hotel/de/ferienhaus-berlin-6-pax.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-booking-im-grund-22-c-20261230-20270103",
+    "sourceId": "im-grund-22-c",
+    "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+    "area": "Im Grund 22-22d, 15366 Hoppegarten",
+    "address": "Im Grund 22-22d, 15366 Hoppegarten",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": null,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": null,
+    "beds": "Yatak Odası 1: 1 tek kişilik, 1 çift kişilik; Yatak Odası 2: 1 tek kişilik, 1 çift kişilik; Yatak Odası 3: 1 çift kişilik, 1 büyük çift kişilik; Oturma odası: 2 çekyat",
+    "features": "110 m²",
+    "price": "100.628 TL",
+    "priceEUR": 1798,
+    "priceApproximate": true,
+    "priceStatus": "vergi ve ücretler dahil",
+    "priceClass": "search",
+    "priceNote": "EUR karşılığı TCMB 06.11.2026 efektif olmayan döviz satış kuru 55.9609 ile; Booking TR hesabında fiyatı yalnız TL gösterdi İptal: 23 Aralık 2026 öncesi ücretsiz iptal (01.01–03.01 için 25 Aralık); 21 Aralık’a kadar ödeme yok",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "28 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "28 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (18.5 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Booking harita konumu (data-atlas-latlng); adresle tutarlı. Kaynak: https://router.project-osrm.org/route/v1/driving/13.6549,52.5169;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.6549,52.5169;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.booking.com/hotel/de/im-grund-22-c.html",
+    "sourceURL": "https://www.booking.com/hotel/de/im-grund-22-c.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/325119697.jpg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/325119703.jpg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/325119706.jpg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "Booking.com",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Tresor'a araçla trafiksiz ~28 dk (OSRM); gündüz trafikte uzayabilir."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.booking.com/hotel/de/im-grund-22-c.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  },
+  {
+    "id": "sweep7-holidu-69492292-20261230-20270103",
+    "sourceId": "69492292",
+    "name": "Steglitz V-große Altbauwohnung, 3 Zimmer, Küche, Bad & Balkon",
+    "area": "Steglitz",
+    "address": null,
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 9,
+    "capacityNote": null,
+    "rooms": 3,
+    "baths": null,
+    "beds": "Bedroom 1: 2x Queensize Betten; Bedroom 2: 1x Queensize Bett, 1x Einzelbett; Bedroom 3: 2x Einzelbetten",
+    "features": "",
+    "price": "1.328 €",
+    "priceEUR": 1328,
+    "priceApproximate": false,
+    "priceStatus": "Holidu \"exact\" toplam; ödeme ekranında doğrulanmadı",
+    "priceClass": "search",
+    "priceNote": " İptal: 15 Aralık 2026’ya kadar ücretsiz iptal (Holidu verisi)",
+    "availabilityNote": "6 yetişkin ve seçili tarihlerle 07.11.2026 tarihinde fiyat görüldü; müsaitlik değişebilir.",
+    "rsoCar": "20 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "19 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM araç rotası, trafiksiz serbest akış (11.6 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Holidu konumu; Steglitz VI ile aynı nokta (aynı bina). Kaynak: https://router.project-osrm.org/route/v1/driving/13.343799,52.448185;13.419484,52.5106807?overview=false",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.343799,52.448185;13.419484,52.5106807?overview=false",
+    "sleepConfirmed": true,
+    "link": "https://www.holidu.de/d/69492292",
+    "sourceURL": "https://www.holidu.de/d/69492292?checkin=2026-12-30&checkout=2027-01-03&adults=6",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://img.holidu.com/images/9358b8b5-38ce-47f5-8916-23f81bb7cba0/l.jpg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://img.holidu.com/images/d99343bb-2d35-4298-84bb-3759c4453a5e/l.jpg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://img.holidu.com/images/ff6017af-ce9d-428f-9ec6-76a440f860c2/l.jpg"
+      ]
+    ],
+    "photoNote": "İlan arama sonucundaki ilk görseller; oda eşleşmesi doğrulanmadı.",
+    "platform": "FeWo-direkt (Holidu)",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "displayWarnings": [
+      "Olası mükerrer: airbnb:51080483 veya airbnb:51698367 (Steglitz grup daireleri; yatak dökümü yok) ile aynı daire olabilir",
+      "Steglitz VI ile aynı binada ayrı daire."
+    ],
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan evin/dairenin tamamını sunuyor.",
+      "source": "https://www.holidu.de/d/69492292?checkin=2026-12-30&checkout=2027-01-03&adults=6"
+    },
+    "checkedAt": "2026-11-07",
+    "_sourceFile": "galeri-sweep-20261107.json",
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+  }
+]
