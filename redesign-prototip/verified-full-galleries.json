@@ -3809,8 +3809,8 @@
       "targets": [
         "sweep7-airbnb-1727650304700546371-20261230-20270103"
       ],
-      "expected": 108,
-      "method": "Airbnb ilan fotoğraf turunda 108 fotoğraf görüldü; 7 Kasım 2026",
+      "expected": 90,
+      "method": "Airbnb ilan fotoğraf turunda 108 fotoğraf görüldü; 7 Kasım 2026. Aynı gün Mac’te 108 görsel küçük boyutta indirilip görüntü benzerliğiyle gruplandı ve gözle karşılaştırıldı: 18 fotoğraf, ev sahibinin aynı görseli yeniden yüklemesi (birkaçında yalnız parlaklık veya kadraj çok az farklı). Her gruptan ilk fotoğraf kaldı; çıkarılanlar duplicatesRemoved alanında.",
       "photos": [
         {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/33834973-6bd6-4834-99c6-a974a88f0c11.png",
@@ -3818,14 +3818,6 @@
         },
         {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/cacd75c6-45c2-4d5c-806e-fb8e0ff82450.jpeg",
-          "label": "Full kitchen"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/ef851503-2533-4e52-8589-053955b5f0a9.jpeg",
-          "label": "Full kitchen"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/4a96b4d6-4afc-4d9d-9c8a-c1a059cd874a.jpeg",
           "label": "Full kitchen"
         },
         {
@@ -3845,10 +3837,6 @@
           "label": "Dining area"
         },
         {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/7cda7e5c-8afe-43f8-93b2-f100db2b5bcb.jpeg",
-          "label": "Dining area"
-        },
-        {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/86fd6409-35b6-43c1-97f6-824e3e1ea22f.jpeg",
           "label": "Bedroom 1"
         },
@@ -3861,15 +3849,7 @@
           "label": "Bedroom 1"
         },
         {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/305fcab8-f529-4bf6-8133-2c7d31062081.jpeg",
-          "label": "Bedroom 1"
-        },
-        {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b3a4a099-6d4f-4c21-af31-1488ebc06679.jpeg",
-          "label": "Bedroom 1"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/24a6dbbe-bd91-41b7-b1f9-943c7304d9c8.jpeg",
           "label": "Bedroom 1"
         },
         {
@@ -3969,19 +3949,7 @@
           "label": "Bedroom 1"
         },
         {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/a5198164-99d6-46a0-a156-f72279214499.jpeg",
-          "label": "Bedroom 1"
-        },
-        {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/82373621-4c92-4458-8cab-a26a7abedc35.jpeg",
-          "label": "Bedroom 1"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/6f083825-c30c-4a1c-9c54-cadbd67238ad.jpeg",
-          "label": "Bedroom 1"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/43e55455-2eed-469e-be94-80169c735a7b.jpeg",
           "label": "Bedroom 1"
         },
         {
@@ -3993,20 +3961,12 @@
           "label": "Bedroom 1"
         },
         {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/347febaf-51a1-46ef-9794-45005b1b8316.jpeg",
-          "label": "Bedroom 1"
-        },
-        {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/ef80c4f5-2b2c-48a6-a7a4-602f94818fa8.jpeg",
           "label": "Bedroom 1"
         },
         {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/1ff2eb5f-e224-49f1-b978-91ad2e72bbb0.jpeg",
           "label": "Bedroom 1"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/82762dff-d3a6-48c0-b44d-99c1ec25ca5a.png",
-          "label": "Bedroom 2"
         },
         {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/e261c00c-8bcb-4573-8e9d-972146c6ed53.png",
@@ -4058,10 +4018,6 @@
         },
         {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/73e452cc-492a-4d37-9ae1-272ff523a0a9.jpeg",
-          "label": "Bedroom 3"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/2d6bda69-acc4-44ca-9720-512aee19316f.jpeg",
           "label": "Bedroom 3"
         },
         {
@@ -4117,14 +4073,6 @@
           "label": "Bedroom 3"
         },
         {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/e390d980-59e5-4ba0-b861-cf8a34c93544.jpeg",
-          "label": "Bedroom 3"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/20b3cd8a-d8f1-4ca5-93a7-10705cf42fa9.jpeg",
-          "label": "Bedroom 3"
-        },
-        {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/0c5effce-e54a-41ed-a0cd-df57dbf5b577.jpeg",
           "label": "Bedroom 3"
         },
@@ -4165,10 +4113,6 @@
           "label": "Full bathroom 2"
         },
         {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/49699dde-59d7-445f-b3a6-dcf9fbea1897.jpeg",
-          "label": "Full bathroom 3"
-        },
-        {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/1f717d8f-cdcc-471d-9f9a-4ed317def229.png",
           "label": "Additional photos"
         },
@@ -4178,10 +4122,6 @@
         },
         {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/1d1cc9f6-47cf-4e39-ac09-dbed8b338e65.png",
-          "label": "Additional photos"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/34137cfd-4ebf-4d77-b92e-f0c9677eb0e7.png",
           "label": "Additional photos"
         },
         {
@@ -4213,14 +4153,6 @@
           "label": "Additional photos"
         },
         {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/d40f0d03-d925-49d2-9e4e-ab9718f3023a.jpeg",
-          "label": "Additional photos"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b3ccc302-6c42-4a28-9549-d76bee037a71.jpeg",
-          "label": "Additional photos"
-        },
-        {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/d40c482d-6965-4a38-869b-6b734f2284e7.jpeg",
           "label": "Additional photos"
         },
@@ -4237,12 +4169,119 @@
           "label": "Additional photos"
         },
         {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/44c8a0b3-2d88-42a5-bc1e-407b7dd3ef42.jpeg",
-          "label": "Additional photos"
-        },
-        {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/fe38674a-9aeb-4310-90fb-e9d361a2bfc8.png",
           "label": "Additional photos"
+        }
+      ],
+      "sourceShownCount": 108,
+      "duplicatesRemoved": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/ef851503-2533-4e52-8589-053955b5f0a9.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/cacd75c6-45c2-4d5c-806e-fb8e0ff82450.jpeg",
+          "livePosition": 6,
+          "keptLivePosition": 5
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/4a96b4d6-4afc-4d9d-9c8a-c1a059cd874a.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/cacd75c6-45c2-4d5c-806e-fb8e0ff82450.jpeg",
+          "livePosition": 7,
+          "keptLivePosition": 5
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/7cda7e5c-8afe-43f8-93b2-f100db2b5bcb.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/3a42b9ff-a5ed-4b2b-b0b6-75e99ea9fe2f.jpeg",
+          "livePosition": 12,
+          "keptLivePosition": 11
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/305fcab8-f529-4bf6-8133-2c7d31062081.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/86fd6409-35b6-43c1-97f6-824e3e1ea22f.jpeg",
+          "livePosition": 16,
+          "keptLivePosition": 13
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/24a6dbbe-bd91-41b7-b1f9-943c7304d9c8.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b3a4a099-6d4f-4c21-af31-1488ebc06679.jpeg",
+          "livePosition": 18,
+          "keptLivePosition": 17
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/a5198164-99d6-46a0-a156-f72279214499.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/75ace849-cbc1-4650-b45b-ef5e5afa6324.jpeg",
+          "livePosition": 43,
+          "keptLivePosition": 29
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/6f083825-c30c-4a1c-9c54-cadbd67238ad.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b57c8a35-d900-4993-bf1f-2a740454f255.jpeg",
+          "livePosition": 45,
+          "keptLivePosition": 31
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/43e55455-2eed-469e-be94-80169c735a7b.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/179445da-16ac-4bdc-bff2-5e11c387d9ac.jpeg",
+          "livePosition": 46,
+          "keptLivePosition": 37
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/347febaf-51a1-46ef-9794-45005b1b8316.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/956a41f0-5939-4613-a6df-089aa02669d5.jpeg",
+          "livePosition": 49,
+          "keptLivePosition": 30
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/82762dff-d3a6-48c0-b44d-99c1ec25ca5a.png",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/33834973-6bd6-4834-99c6-a974a88f0c11.png",
+          "livePosition": 52,
+          "keptLivePosition": 4
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/2d6bda69-acc4-44ca-9720-512aee19316f.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b3136024-b356-4071-a599-acea390c0419.jpeg",
+          "livePosition": 65,
+          "keptLivePosition": 8
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/e390d980-59e5-4ba0-b861-cf8a34c93544.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b99ac00e-3036-41e7-b1da-1194cdf326ce.jpeg",
+          "livePosition": 79,
+          "keptLivePosition": 63
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/20b3cd8a-d8f1-4ca5-93a7-10705cf42fa9.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/2fe6ef6a-f07f-43b9-988a-8821976aa686.jpeg",
+          "livePosition": 80,
+          "keptLivePosition": 67
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/49699dde-59d7-445f-b3a6-dcf9fbea1897.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/865f04d1-4766-4e1c-857c-215fae862b26.jpeg",
+          "livePosition": 91,
+          "keptLivePosition": 87
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/34137cfd-4ebf-4d77-b92e-f0c9677eb0e7.png",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/abd4dafe-7a7e-439b-b607-c69a7525ecf3.png",
+          "livePosition": 93,
+          "keptLivePosition": 3
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/d40f0d03-d925-49d2-9e4e-ab9718f3023a.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/97e4eb36-f9af-4ef7-b209-a315327b3f8a.jpeg",
+          "livePosition": 101,
+          "keptLivePosition": 73
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b3ccc302-6c42-4a28-9549-d76bee037a71.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/fc32e2bd-e78d-41f0-b3df-fed68092af2e.jpeg",
+          "livePosition": 102,
+          "keptLivePosition": 100
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/44c8a0b3-2d88-42a5-bc1e-407b7dd3ef42.jpeg",
+          "sameAs": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/0ef98c0b-e110-4a20-90f5-cfe4eb234df9.jpeg",
+          "livePosition": 107,
+          "keptLivePosition": 106
         }
       ]
     },
