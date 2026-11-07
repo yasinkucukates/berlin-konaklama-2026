@@ -987,10 +987,12 @@
     const dates = card.querySelector('.card-kicker')?.textContent.trim() || '';
     const priceNode = card.querySelector('.amount strong')?.cloneNode(true);
     priceNode?.querySelectorAll('.price-qualifier').forEach(node => node.remove());
-    const text = [name, dates, priceNode?.textContent.trim() || ''].filter(Boolean).join(' · ');
+    const summary = [name, dates, priceNode?.textContent.trim() || ''].filter(Boolean).join(' · ');
     // Phones get the system share sheet (WhatsApp, Messages); computers copy the link.
+    // The link goes inside the text: given separate text and url fields, iOS
+    // "Copy" and some apps (WhatsApp) keep only the text and drop the link.
     if (typeof navigator.share === 'function' && window.matchMedia('(pointer: coarse)').matches) {
-      try { await navigator.share({title:name, text, url}); return; }
+      try { await navigator.share({text:`${summary}\n${url}`}); return; }
       catch (error) { if (error && error.name === 'AbortError') return; }
     }
     try {
