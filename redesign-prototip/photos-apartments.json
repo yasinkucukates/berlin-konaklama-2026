@@ -1,0 +1,705 @@
+{
+  "records": [
+    {
+      "targetKeys": [
+        [
+          "1216757408450098435",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "1216757408450098435",
+      "photos": [
+        [
+          "Yatak Odası 1",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTIxNjc1NzQwODQ1MDA5ODQzNQ%3D%3D/original/71a85894-431a-4f42-9461-0de1491a8d50.jpeg"
+        ],
+        [
+          "Yatak Odası 2",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/63054ac2-6dff-41b0-a162-19a36a2a0461.jpeg"
+        ],
+        [
+          "Yatak Odası 3",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTIxNjc1NzQwODQ1MDA5ODQzNQ%3D%3D/original/26600fb0-c0e3-45b5-badc-559d72d60c31.jpeg"
+        ],
+        [
+          "Mutfak",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/f5277f27-143c-459e-b637-23cc8736a43e.jpeg"
+        ],
+        [
+          "Banyo",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/4f75b894-d93c-46c7-ac35-af9a1590388f.jpeg"
+        ],
+        [
+          "Yemek Alanı",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/b48fa08c-e8ec-48ac-a67a-65c9707eb5c2.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 7",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/599127a5-829d-4164-ab03-23b71d91c433.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 8",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTIxNjc1NzQwODQ1MDA5ODQzNQ%3D%3D/original/15e3cde7-88b0-4ff4-8124-19d8ec733d21.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 9",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/3ebc0027-a3ff-4677-a5be-3cbc46541f63.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 10",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/6c91ca98-e636-4677-8882-fd079ac4e90e.jpeg"
+        ]
+      ],
+      "coverageNote": "İlk seçkide: Beş yatak odasının üçü seçkide gösteriliyor. Ayrı salon veya dış cephe fotoğrafı seçilmedi. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/1216757408450098435",
+      "verifiedVisual": false
+    },
+    {
+      "targetKeys": [
+        [
+          "1389128667463860564",
+          "2026-12-30",
+          "2027-01-03"
+        ],
+        [
+          "bolunmus-roof-chill",
+          "2026-12-30",
+          "2027-01-01"
+        ]
+      ],
+      "id": "1389128667463860564",
+      "photos": [
+        [
+          "Salon",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/b8262520-388f-49a5-b429-e57637f67a23.jpeg"
+        ],
+        [
+          "Mutfak ve Yemek Alanı",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/24e75085-1b90-499d-874f-6093005f7dd4.jpeg"
+        ],
+        [
+          "Yatak Odası",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/54ce5eed-5353-4f3f-bc89-b4dbfe3f0d92.jpeg"
+        ],
+        [
+          "Birden Fazla Yataklı Oda",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/00cf6dd8-4563-40f5-8e48-597de442592d.jpeg"
+        ],
+        [
+          "Banyo",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/ef49c7eb-c3ec-4652-9c56-7f2df892bec8.jpeg"
+        ],
+        [
+          "Dış Cephe",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/03f1fd57-3b05-40b1-9dec-6636e38fe34b.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 7",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/0698d0cf-0dc5-47d1-a5a6-00449c7831ae.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 8",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/30dbe0fa-efed-404a-83eb-dc3825578091.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 9",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/a4a5811f-5184-496f-a3df-c3c79bd5f0ba.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 10",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/cd9c59f1-d61c-45c0-a14c-1114a4d4c619.jpeg"
+        ]
+      ],
+      "coverageNote": "İlk seçkide: İki farklı yatak odası görünümü seçildi. Kaynakta yatak odası numaraları bazı fotoğraflarda birbiriyle çelişiyor; bütün odalar gösterilmiyor. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/1389128667463860564",
+      "verifiedVisual": false
+    },
+    {
+      "targetKeys": [
+        [
+          "1519600838702010375",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "1519600838702010375",
+      "photos": [
+        [
+          "Oturma ve Yemek Alanı",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/2f31137a-af5b-406c-abf8-9fc8a17fdf95.jpeg"
+        ],
+        [
+          "Mutfak",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/7254fe71-6c06-49f6-b6d4-ba15e3051f10.jpeg"
+        ],
+        [
+          "Yatak Odası 1",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/f103aa5a-15ab-4259-bf3a-a995ebdbf86a.jpeg"
+        ],
+        [
+          "Yatak Odası 2",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/f6d06f22-a630-4eaf-a580-e0f79497acb1.jpeg"
+        ],
+        [
+          "Yatak Odası 3",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/bfa3874e-4864-4aad-9370-df9f07bd98d4.jpeg"
+        ],
+        [
+          "Banyo",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/77e06ae8-7c2f-427b-9f00-fe5e52ed0146.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 7",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/d1ce8af5-3467-45e7-b2bc-8c9970ca3e3b.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 8",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/44cfd7f9-d6b9-4d2a-b0d1-d6a5085c47b1.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 9",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/fb0c5dd8-4b15-4896-91c9-087435879a5e.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 10",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/18eebae9-9030-4f26-9acf-1939bff963b9.jpeg"
+        ]
+      ],
+      "coverageNote": "İlk seçkide: Beş yatak odasının üçü seçkide gösteriliyor. Seçkide dış cephe fotoğrafı yok. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/1519600838702010375",
+      "verifiedVisual": false
+    },
+    {
+      "targetKeys": [
+        [
+          "1710064464627076724",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "1710064464627076724",
+      "photos": [
+        [
+          "Yatak ve Oturma Alanı",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1710064464627076724/original/0eb152e2-7d1a-4353-8848-b40e82e75011.png"
+        ],
+        [
+          "Yemek Alanı",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1710064464627076724/original/7f7d829c-6c49-4748-9000-c11c82b4cb43.png"
+        ],
+        [
+          "Banyo",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1710064464627076724/original/e392646e-f4b1-40ae-92c3-df546cc13ee5.png"
+        ],
+        [
+          "Dış Cephe",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1710064464627076724/original/befe0f88-6de2-46e1-b967-83ae03ecfc4f.jpeg"
+        ],
+        [
+          "Açık Alan Görünümü",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1710064464627076724/original/1300b1da-b798-4a8f-b600-be9661321374.jpeg"
+        ]
+      ],
+      "coverageNote": "Beş fotoğrafta yalnız bir yatak ve oturma alanı ayırt edilebildi. Kaynağın 1 ve 3 numaralı yatak odası görselleri aynı görünümü tekrarlıyor; mutfak ayrıca doğrulanamadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/1710064464627076724",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "1804486533198172905",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "1804486533198172905",
+      "photos": [
+        [
+          "Oturma ve Yemek Alanı",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/0d04b592-7ce7-481f-9e5b-7c03ac1be9c9.jpeg"
+        ],
+        [
+          "Mutfak",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/e3729496-9ee5-450b-99b4-a4fc0e9488e9.jpeg"
+        ],
+        [
+          "Yatak Odası 1",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/fdfcb4db-955d-4671-8a07-cd76e4aa9e33.jpeg"
+        ],
+        [
+          "Yatak Odası 2",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/8e29d58b-9fd6-4e12-9859-375e991146fd.jpeg"
+        ],
+        [
+          "Banyo",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/4cc17914-e014-42d8-bbf3-c87171fd7a42.jpeg"
+        ],
+        [
+          "Dış Cephe",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/c0d0fa65-23fd-4cd5-9ace-2b9f729f92a6.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 7",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/5df7a051-18c6-46b0-8fd8-8df7849a326e.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 8",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/8bee55d4-284c-40f4-9fe0-f1a0775220b3.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 9",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/154c976e-7d74-43bb-9332-b416195b49f7.jpeg"
+        ]
+      ],
+      "coverageNote": "İlk seçkide: Dört yatak odasının ikisi seçkide gösteriliyor; oturma alanı yemek alanıyla birlikte görünüyor. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/1804486533198172905",
+      "verifiedVisual": false
+    },
+    {
+      "targetKeys": [
+        [
+          "1166429151300530583",
+          "2026-12-30",
+          "2027-01-03"
+        ],
+        [
+          "1166429151300530583",
+          "2026-12-30",
+          "2027-01-01"
+        ]
+      ],
+      "id": "1166429151300530583",
+      "photos": [
+        [
+          "Salon",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/f8a604db-f53a-4f00-9398-eb441f1179a6.png"
+        ],
+        [
+          "Mutfak",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/61a03aef-2740-427b-94b4-902bffb5e4be.png"
+        ],
+        [
+          "Yatak Odası 1",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/cb09033d-32fe-4a7a-925c-85eeca200927.png"
+        ],
+        [
+          "Yatak Odası 2",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/550b1035-93c9-4a37-82ef-7b0231915920.png"
+        ],
+        [
+          "Banyo",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/ca2257cb-4a51-431a-bb59-9a204fbac973.png"
+        ],
+        [
+          "İlan Fotoğrafı 6",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/63dbf222-ff61-445b-8a7f-67f4c264f086.png"
+        ],
+        [
+          "İlan Fotoğrafı 7",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/496b675d-8a21-4504-8761-e8e98a25cfce.png"
+        ],
+        [
+          "İlan Fotoğrafı 8",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/e7b5566e-007d-4d60-8f86-86d3819c02ec.png"
+        ],
+        [
+          "İlan Fotoğrafı 9",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/3c5b084d-7a00-450c-9d39-5e308cf6f00e.png"
+        ],
+        [
+          "İlan Fotoğrafı 10",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/2df58ca8-b8b6-408e-a61f-75434c9dd56f.png"
+        ]
+      ],
+      "coverageNote": "İlk seçkide: İki yatak odası, salon, mutfak ve banyo gösteriliyor. Seçilen beş görsel arasında dış cephe yok. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/1166429151300530583",
+      "verifiedVisual": false
+    },
+    {
+      "targetKeys": [
+        [
+          "1352773721511868469",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "1352773721511868469",
+      "photos": [
+        [
+          "Mutfak ve Yemek Alanı",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/efaa9f45-6aeb-4ad0-b5e3-2c329f302a6b.jpeg"
+        ],
+        [
+          "Yatak Odası 1",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/46992a82-94e2-4c63-8c53-602de3cb3b7e.jpeg"
+        ],
+        [
+          "Yatak Odası 2",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/95394dbd-65e3-4d53-94dc-5e76b734b0ca.jpeg"
+        ],
+        [
+          "Yatak Odası 3",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/44156eae-a7c9-44d1-b3b1-1177a951c952.jpeg"
+        ],
+        [
+          "Banyo ve Duş Alanı",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/0c53c5c4-edbd-4c57-8957-45599419bc4f.jpeg"
+        ],
+        [
+          "Dış Cephe",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/7438d2fb-b21c-4025-8315-498f22099892.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 7",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/2e124781-1a3c-40d9-80fe-627278d22b40.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 8",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/915b029f-4bf6-4980-bc21-9859784ab4cc.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 9",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/2545ae46-1a2e-46ea-a0ff-5360ed61af5a.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 10",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/424499cd-efee-4110-b37f-1aac639803e2.jpeg"
+        ]
+      ],
+      "coverageNote": "İlk seçkide: Altı yatak odasının üçü seçkide gösteriliyor. Kaynağın salon etiketli görüntüsünde koridor göründüğü için ayrı salon doğrulanamadı. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/1352773721511868469",
+      "verifiedVisual": false
+    },
+    {
+      "targetKeys": [
+        [
+          "53802915",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "53802915",
+      "photos": [
+        [
+          "Salon",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTM4MDI5MTU%3D/original/2e9aa38a-dee8-4211-ab69-0de75bb0aff3.jpeg"
+        ],
+        [
+          "Mutfak",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-53802915/original/78371238-49d9-4c91-9d67-6d923a48f067.jpeg"
+        ],
+        [
+          "Yatak Odası 1",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTM4MDI5MTU%3D/original/7a9a6a20-69a0-4772-8648-744e6cde96f7.jpeg"
+        ],
+        [
+          "Yatak Odası 2",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-53802915/original/ce3838e2-252c-43a3-a8a8-855fc566ac1e.jpeg"
+        ],
+        [
+          "Yatak Odası 3",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-53802915/original/20d9ccc7-7976-43bf-a825-8a42f40c5dbc.jpeg"
+        ],
+        [
+          "Banyo",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-53802915/original/29c40945-dfac-48f7-9b92-775659f50d00.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 7",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-53802915/original/49db85b7-7e39-492a-b64e-6b511e281c4d.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 8",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTM4MDI5MTU%3D/original/203ca184-5710-4ce0-a0d9-174fd326e343.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 9",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-53802915/original/299e04f4-2818-4fd9-97e8-ec630275fff4.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 10",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTM4MDI5MTU%3D/original/dc33d25e-cbc5-43bd-b969-1c602a7283d8.jpeg"
+        ]
+      ],
+      "coverageNote": "İlk seçkide: Üç farklı yatak odası görünümü seçildi. İlan başlığı üç, bir fotoğraf açıklaması dört ayrı yatak odasından söz ediyor. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/53802915",
+      "verifiedVisual": false
+    },
+    {
+      "targetKeys": [
+        [
+          "12048269",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "12048269",
+      "photos": [
+        [
+          "Salon",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/3bb65b9f-45a1-4fc6-a4b5-4990dbe140df.jpeg"
+        ],
+        [
+          "Mutfak",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/c17675b6-e8ad-4fb3-9046-d7dda2f07a43.jpeg"
+        ],
+        [
+          "Yatak Odası",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/d7be43c3-2aa4-4cca-9656-a0e25ffdaaf2.jpeg"
+        ],
+        [
+          "Banyo",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/1bc25382-009a-4c86-8ceb-8544c4c0c71d.jpeg"
+        ],
+        [
+          "Teras",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/a3ab1fd4-9983-4075-933e-a7a9d701881c.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 6",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/81b82deb-c836-42c7-a2a5-74f88e2b8d36.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 7",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/fb522ce9-0506-47fc-997f-82ae6dd47234.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 8",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/be236b2a-fc72-4006-a331-73e827f93b6d.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 9",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/f4e4e2b7-d006-4fe7-9e56-cfe6c45af944.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 10",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/75cf47df-c34e-4d0a-9121-08aac5d11d71.jpeg"
+        ]
+      ],
+      "coverageNote": "İlk seçkide: Beş fotoğrafta bir yatak odası gösteriliyor. Kaynak başlıkları genel olduğu ve diğer yatak görüntülerinin ayrı odalara ait olduğu belirlenemediği için oda numarası verilmedi. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/12048269",
+      "verifiedVisual": false
+    },
+    {
+      "targetKeys": [
+        [
+          "45436574",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "45436574",
+      "photos": [
+        [
+          "Salon",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/2fd0da2f-1160-4cf3-98ca-c75b00114a8e.jpeg"
+        ],
+        [
+          "Mutfak",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/db7cd15c-ffee-4821-8740-941bc79dd8e1.jpeg"
+        ],
+        [
+          "Yatak Odası 1",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/2953e819-3997-4854-91cf-88f32fd3c3da.jpeg"
+        ],
+        [
+          "Yatak Odası 2",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/17dc1c85-dc7c-4f2b-9022-cb1738c07cc7.jpeg"
+        ],
+        [
+          "Duş Alanı",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/1935f036-3e43-4c3e-b740-f467a99f7d4a.jpeg"
+        ],
+        [
+          "Çevre Görünümü",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/c0674225-4129-4181-b311-bbe90d6f28ed.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 7",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/d53a33dc-564d-4780-87f7-306e428ea44a.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 8",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/1edc9e68-cb69-4b9f-b2fc-6d81a4926a85.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 9",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/e88a46de-5276-4d79-8643-6d2a9acc0a2b.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 10",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/4409fa41-01d8-4add-82b7-b147b1cceece.jpeg"
+        ]
+      ],
+      "coverageNote": "İlk seçkide: İki yatak odası, salon, mutfak ve duş seçildi. Son görsel bina cephesi değil, ilan galerisindeki çevre görünümüdür. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/45436574",
+      "verifiedVisual": false
+    },
+    {
+      "targetKeys": [
+        [
+          "1150006272268927007",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "1150006272268927007",
+      "photos": [
+        [
+          "Oturma ve Yemek Alanı",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/78d9c53c-fb19-45f3-b982-a09c27735e06.jpeg"
+        ],
+        [
+          "Mutfak",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/461253f9-99c3-48b9-abb4-65b7d39c9dec.jpeg"
+        ],
+        [
+          "Yatak Odası 1",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/242a772c-3795-4154-8eed-8d15d0e266d9.jpeg"
+        ],
+        [
+          "Yatak Odası 2",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/6cfc2840-6360-432d-ac95-8643548427a0.jpeg"
+        ],
+        [
+          "Banyo",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/e0d495e8-88e6-4cfb-bca3-d0433c0f85b5.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 6",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/0958fba8-d7f8-4712-a17a-ec29651ceba8.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 7",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/7f9873dc-f35d-4b24-b9bb-d881a5abc649.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 8",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/25c280aa-033e-41b6-98e3-a51671d7cb9a.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 9",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/309cd1f5-5a71-4dee-9c7d-4978b26c5fd5.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 10",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/f8a825f3-dd93-4516-9bda-987f0e3e8e1b.jpeg"
+        ]
+      ],
+      "coverageNote": "İlk seçkide: İki yatak odası, oturma ve yemek alanı, mutfak ve banyo gösteriliyor. Seçilen beş görsel arasında dış cephe yok. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/1150006272268927007",
+      "verifiedVisual": false
+    },
+    {
+      "targetKeys": [
+        [
+          "21074683",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "21074683",
+      "photos": [
+        [
+          "Salon",
+          "https://a0.muscache.com/im/pictures/383c2769-d088-4cf7-a08d-9ef1914caa03.jpg"
+        ],
+        [
+          "Mutfak",
+          "https://a0.muscache.com/im/pictures/ac3d8377-292a-493c-be68-09813cceaeba.jpg"
+        ],
+        [
+          "Yatak Odası",
+          "https://a0.muscache.com/im/pictures/a8a912d0-143b-42f9-ac31-28071be46725.jpg"
+        ],
+        [
+          "Dar Yatak Odası",
+          "https://a0.muscache.com/im/pictures/168a2ad6-3e8a-41a7-9679-51b0d7cc9a2a.jpg"
+        ],
+        [
+          "Banyo",
+          "https://a0.muscache.com/im/pictures/46388808-902a-42b2-b5cb-06132793c314.jpg"
+        ],
+        [
+          "İlan Fotoğrafı 6",
+          "https://a0.muscache.com/im/pictures/1e77f250-8bbb-4884-ac6b-1af5155043e0.jpg"
+        ],
+        [
+          "İlan Fotoğrafı 7",
+          "https://a0.muscache.com/im/pictures/5d232db8-b4ef-4eac-b6ef-9aa8808fc1f3.jpg"
+        ],
+        [
+          "İlan Fotoğrafı 8",
+          "https://a0.muscache.com/im/pictures/efbd0721-84b6-4feb-9a2f-d0674553133f.jpg"
+        ],
+        [
+          "İlan Fotoğrafı 9",
+          "https://a0.muscache.com/im/pictures/56f907b1-d660-4e4c-883f-5daa4af86d3b.jpg"
+        ],
+        [
+          "İlan Fotoğrafı 10",
+          "https://a0.muscache.com/im/pictures/5c30eb5e-e14c-447b-99d5-85b21857eabb.jpg"
+        ]
+      ],
+      "coverageNote": "İlk seçkide: İki farklı yatak odası görünümü seçildi; kaynak bazı yatak fotoğraflarına oda numarası vermiyor. Üçüncü odanın ayrı görüntüsü bu seçkide doğrulanmadı. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/21074683",
+      "verifiedVisual": false
+    },
+    {
+      "targetKeys": [
+        [
+          "bolunmus-alexa",
+          "2026-12-30",
+          "2027-01-01"
+        ]
+      ],
+      "id": "bolunmus-alexa",
+      "photos": [
+        [
+          "Salon",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/769f9e28-871c-46f0-8312-5898e2fa0dea.jpeg"
+        ],
+        [
+          "Mutfak",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/a296315f-cb6c-43d5-bddf-4143854d9f91.jpeg"
+        ],
+        [
+          "Yatak Odası 1",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/5e9aab1d-2203-4314-8581-027d015e5867.jpeg"
+        ],
+        [
+          "Yatak Odası 2",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/b53f10c6-e6e8-40de-9813-15ec53c88ffe.jpeg"
+        ],
+        [
+          "Banyo",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/989e48e2-cb5e-43e8-9415-43cfee20f487.jpeg"
+        ],
+        [
+          "Dış Cephe",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/11be5417-f4a9-448c-816b-3c7041069b65.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 7",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/67b1e9c1-3f5f-4c5a-9a17-884c5c4dea08.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 8",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/20b232c7-4302-4753-8d9d-5ea5af7c42a4.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 9",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/74995a99-5c47-4a88-9dc5-3c766971a97b.jpeg"
+        ],
+        [
+          "İlan Fotoğrafı 10",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/c2f97648-6cf4-4272-83b6-2956df72f5d1.jpeg"
+        ]
+      ],
+      "coverageNote": "İlk seçkide: Dört yatak odasının ikisi ve üç banyodan biri seçkide gösteriliyor. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+      "source": "Airbnb ilanı ve Apify tri_angle/airbnb-rooms-urls-scraper, 05.11.2026, dataset ddaFYH2bBB0kOBKp2: https://www.airbnb.com/rooms/1260209089340243876",
+      "verifiedVisual": false
+    }
+  ]
+}

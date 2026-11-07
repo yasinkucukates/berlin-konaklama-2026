@@ -1,0 +1,1750 @@
+{
+  "records": [
+    {
+      "source": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239",
+      "targets": [
+        "six-vrbo-145069-full",
+        "six-vrbo-145069-last"
+      ],
+      "expected": 24,
+      "method": "Vrbo 24 fotoğraflık kaynak galerisinde göründü; 6 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/3ed5942c.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Außenbereich",
+          "description": "Eine Reihe moderner, zweigeschossiger Häuser mit gepflasterter Auffahrt und gepflegten Gärten."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/9e0f0f24.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Grundriss",
+          "description": "Zwei Grundrisse eines Hotels mit beschrifteten Zimmern und Annehmlichkeiten."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/061da9de.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Außenbereich",
+          "description": "Ein modernes, zweistöckiges Haus mit Satteldach, großen Fenstern und einer gepflasterten Auffahrt."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/c6c88691.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Außenbereich",
+          "description": "Ein modernes, zweistöckiges Haus mit Balkon, Terrasse und Gartenmöbeln sowie einem gepflegten Garten."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/22078afd.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Wohnbereich",
+          "description": "Ein modernes Wohnzimmer mit einer Couch, einem Esstisch und Stühlen. Auf dem Tisch befindet sich ein Fernseher und eine Weinflasche."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/5c077907.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Speisen",
+          "description": "Ein modernes Wohnzimmer mit Essbereich, großen Fenstern und einer Chandelier."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/ce68c42a.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Außenbereich",
+          "description": "Ein modernes Wohngebäude mit roter Fassade, mehreren Balkonen und einem gepflegten Garten."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/e0b2b562.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Unterkunftsgelände",
+          "description": "Ein gelbes Gebäude mit Solaranlage, einem Weg und umliegender Bepflanzung."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/5bd59573.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Außenbereich",
+          "description": "Ein modernes, zweistöckiges Haus mit Balkon, umgeben von einem gepflegten Garten und Bäumen."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/db284b9d.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Außenbereich",
+          "description": "Ein Wohngebiet mit zwei gelben Häusern, jedes mit einem Balkon und einem geparkten Auto davor."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/bc2a6076.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Speisen",
+          "description": "Ein modernes Wohnzimmer mit Esstisch, Stühlen, einer Couch und einem Chandelier."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/367a6546.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Speisen",
+          "description": "Ein Wohnzimmer mit Fernseher, Holzmöbeln, einem Essbereich und großen Fenstern."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/a5709389.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Innenbereich",
+          "description": "Eine moderne Treppe mit Holzboden und Metallgeländern, die zu einem hellen Raum mit großem Fenster und einer Tür führt."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/9cb61575.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Badezimmer",
+          "description": "Ein Badezimmer mit Toilette, Dusche und Fenster."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/b5e8de13.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Zimmer",
+          "description": "Ein Schlafzimmer mit einem Bett, zwei Nachttischlampen, einem Nachttisch und einem Fenster mit Vorhängen."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/fee6e716.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Eigene Küche",
+          "description": "Eine Küche mit Holzausstattung, einem Einbauofen, einem Fenster mit Jalousien und einem Mülleimer."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/cf4a0c35.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Badezimmer",
+          "description": "Ein modernes Badezimmer mit Dusche, Toilette, Bidet und Waschbecken."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/3f7bec99.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Badezimmer",
+          "description": "Ein modernes Badezimmer mit einer großen Badewanne, einer Duschkabine und einem Balkon mit Gartenmöbeln."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/bd231a1e.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Sauna",
+          "description": "Ein Holzblockhaus-Interieur mit einer Bank und einem Holzeimer."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/7722a5b1.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Innenbereich",
+          "description": "Ein geräumiges Badezimmer mit Badewanne, Dusche und einer separaten Duschkabine."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/da9c256c.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Fitnessbereich",
+          "description": "Drei Personen fahren auf Fahrrädern auf einem befestigten Weg, der von Bäumen gesäumt ist."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/47c0fb86.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Jachthafen",
+          "description": "Ein Yachthafen mit mehreren angemeldeten Booten, darunter ein weißes Boot mit der Aufschrift „Ines“ und ein blaues Boot mit der Aufschrift „Reneé“."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/12c891bf.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "See",
+          "description": "Ein Boot mit einer Kabine und einem Deck, Passagiere auf dem Deck, und ruhiges Gewässer mit Bäumen im Hintergrund."
+        },
+        {
+          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/b54979e2.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Unterkunftsgelände",
+          "description": "Eine Holzskulptur von einem Kamm und einem Stuhl vor einem Gebäude mit Holzfassade."
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1611035619222657901",
+      "targets": [
+        "1611035619222657901"
+      ],
+      "expected": 34,
+      "method": "Airbnb fotoğraf turunda 34 görsel doğrudan doğrulandı; 6 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/53f8912a-8792-4e8b-85b4-161faddc4393.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/4343143d-248c-4461-b15c-55ebb2784bed.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/34890c0a-95fa-4f3f-a246-0dfe1d650834.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/1fd737bb-0684-4455-86d3-539de93f88cb.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1611035619222657901/original/5237be54-2780-4b04-afe2-5b2a2fe9affa.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 5"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/c2d048ce-f12a-4177-85a5-c8b7eaf8d9ca.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 6"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1611035619222657901/original/0439ff6d-fdfe-4be6-9f9a-ad27440b0531.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 7"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/8111c316-b6ea-40ef-801d-4f9999cccfd8.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 8"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/6e740ef2-e3f9-4805-a6c4-128de50d5b1b.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 9"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/1deb5196-164f-4f0c-9828-81eae2b3c040.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 10"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/8472e63d-0cd9-4528-a1a3-637a13e32dbd.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 11"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/8dc24411-65c1-47da-9835-216d80cc64ee.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 12"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1611035619222657901/original/8302bf62-c447-41d1-a829-e48f4ab1c865.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 13"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1611035619222657901/original/2b8da3f6-c21c-4982-9158-c0cf9ecc399a.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 14"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/dd2b322f-b465-4782-a082-9b9baa5cdacc.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 15"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/51dc9d71-058c-45ff-a47d-d1bfed5089c3.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 16"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1611035619222657901/original/4e74dff1-9269-42ba-a719-716ac24b5d35.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 17"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1611035619222657901/original/7a3b3341-a481-4e21-a914-53e25fc7a5de.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 18"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/9a054f24-9d31-46a3-8d4e-8a2ec7301ae8.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 19"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/645e5b2d-18a1-4e65-9144-c7556eea58fb.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 20"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/662e5cce-1204-405d-bc4f-310125056b94.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 21"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1611035619222657901/original/13cd7050-11ad-44e5-b172-493b62f1a6b8.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 22"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/187bb632-10f5-498b-9baa-7fa3101e62d7.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 23"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/65fa45c0-3989-400d-a8f6-b71d5ddf5424.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 24"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/22866a2e-c97f-460f-b4d4-7b630db216fd.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 25"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1611035619222657901/original/d9f33e42-2b2c-49fe-8918-8ac6f839d71b.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 26"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1611035619222657901/original/1340b590-939b-42e0-972c-fda90cc78698.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 27"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/11f5dcb9-9f3e-49cb-840c-e418fc400aea.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 28"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/6fd00289-a198-4090-93c7-9cf0d3c00814.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 29"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/e5dd0f50-6220-41bf-a5f9-0b77d309f6e8.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 30"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1062867910727120743/original/f26d122d-c8dc-4f21-af43-9f2425be74f9.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 31"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1062867910727120743/original/7824810f-ecf9-4861-878a-e78802ac217e.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 32"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1062867910727120743/original/bd8943cc-2bb1-4bc9-9b89-59d47483e881.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 33"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1611035619222657901/original/e329240a-f7d9-424e-b84e-a51adfccf879.jpeg?im_w=1440",
+          "label": "İlan Galerisi · Fotoğraf 34"
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/greatstay-apartment-paul-robeson-str.tr.html",
+      "targets": [
+        "paul-loft"
+      ],
+      "expected": 26,
+      "method": "Booking tesis galerisinde 26 görsel; 6 Kasım 2026",
+      "photos": [
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir odada yatak veya yataklar",
+          "label": "İlan Galerisi · Fotoğraf 1",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125841.jpg?k=a3fd829f5539816aba3367d0fc06b511b8e594cdf666da67afcb6785188a3972&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir odada yatak veya yataklar",
+          "label": "İlan Galerisi · Fotoğraf 2",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125827.jpg?k=9e507d0c0528cc300e87ad04b084d7db26d945d112ae10cdec6aeba15da95bf0&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir odada yatak veya yataklar",
+          "label": "İlan Galerisi · Fotoğraf 3",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125830.jpg?k=ccf0815b9cf92dadc14bbb0e1783e0e0e22589c72b9adb99b3b254fef287c7b1&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir odada yatak veya yataklar",
+          "label": "İlan Galerisi · Fotoğraf 4",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125831.jpg?k=f6da3ed7dfbd3a47837d01bd274196b4af93344c18ca6297d8a19651298fdd1c&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir oturma alanı",
+          "label": "İlan Galerisi · Fotoğraf 5",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125824.jpg?k=98977d792bdf5002761ea51d29c1f8f33e3484868c65c34e1c9b5c3bde620de6&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir televizyon ve/veya eğlence merkezi",
+          "label": "İlan Galerisi · Fotoğraf 6",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125828.jpg?k=9796c079a8305cb2a6c8d2464a5ab63ec622a2c5841daca4520469138a183a3e&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir televizyon ve/veya eğlence merkezi",
+          "label": "İlan Galerisi · Fotoğraf 7",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125825.jpg?k=ed8166c5b03afc2823bbc1e4cc4e03660fecfa6b3ef3098d27f8a513ab15ba8d&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir odada yatak veya yataklar",
+          "label": "İlan Galerisi · Fotoğraf 8",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125847.jpg?k=38aabaa211d7bc3b18cc7ceb0e0e1c2ebef9ea5bce8480a2d6d0d0da623dacf0&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir oturma alanı",
+          "label": "İlan Galerisi · Fotoğraf 9",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125840.jpg?k=ecc18c2b2a1f553fe9c52308186cf60696d9f0d99f09b0382c8ef48a638e6a20&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir odada yatak veya yataklar",
+          "label": "İlan Galerisi · Fotoğraf 10",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125837.jpg?k=3e6b386658077476a3fed2342055752c94479f377ae26977491712d728bb8609&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir oturma alanı",
+          "label": "İlan Galerisi · Fotoğraf 11",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125844.jpg?k=3e1abd7337a09ee7a0b760a0866dbda21a99384bf2132ce49d3b2ba3c9044444&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir odada yatak veya yataklar",
+          "label": "İlan Galerisi · Fotoğraf 12",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125845.jpg?k=e2e8b291b9ba13a9dc8faf943c383cb972ec3284edbb730b6b5d9c12dcf92189&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir odada yatak veya yataklar",
+          "label": "İlan Galerisi · Fotoğraf 13",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125881.jpg?k=62a4b172f5fef3bd4e20ecfc67592da960ae7434de713cf54e1a3b329a1d0523&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir odada yatak veya yataklar",
+          "label": "İlan Galerisi · Fotoğraf 14",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125885.jpg?k=a270d645d20821209511bca6505172ac73b386632ffb6e376a1e125907be4428&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir odada yatak veya yataklar",
+          "label": "İlan Galerisi · Fotoğraf 15",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125880.jpg?k=60ed457ee271b5957262784a10f22488f597321979c8760dce127965558c19a4&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir oturma alanı",
+          "label": "İlan Galerisi · Fotoğraf 16",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max300/81125878.jpg?k=5d82a305fb3962f9910da20eeb88594ffd6cce07313348fb758d785edcc70584&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde mutfak veya mini mutfak",
+          "label": "İlan Galerisi · Fotoğraf 17",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max300/81125852.jpg?k=85db6b9e77787c01af0f6c3a883acdd68c79c4351e74ed90023aacd796b20e81&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde mutfak veya mini mutfak",
+          "label": "İlan Galerisi · Fotoğraf 18",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max300/81125859.jpg?k=23766d3acdf4608b8474f1f250037dc2be442ae5eba605ceb6a2e45f08df87ec&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde mutfak veya mini mutfak",
+          "label": "İlan Galerisi · Fotoğraf 19",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max300/81125862.jpg?k=2a03f34b1a05a11128eae160b146b37de12bbbf05fa9dd8107fc96d00315974e&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir televizyon ve/veya eğlence merkezi",
+          "label": "İlan Galerisi · Fotoğraf 20",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max300/81125863.jpg?k=647218540a13f66e2396251bc8903218691efe6851cf8bc4b13bb8f82f6d2d2c&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir banyo",
+          "label": "İlan Galerisi · Fotoğraf 21",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max300/81125861.jpg?k=b9324978ad247546964fccc47c5c8053130018b7cb5e9c548cb150be6414f47b&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir banyo",
+          "label": "İlan Galerisi · Fotoğraf 22",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max300/81125869.jpg?k=1477fa5e1cb9f9b52fa5729a2edf681fd0644c607005d731a555bc544f0e82f4&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir banyo",
+          "label": "İlan Galerisi · Fotoğraf 23",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max300/81125871.jpg?k=44b752411ea18c692dd939da6896b9c20c3652ef5b23118edcb0fb3181525fe9&o="
+        },
+        {
+          "description": "Civardaki semt veya daire yakınında bir semt",
+          "label": "İlan Galerisi · Fotoğraf 24",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max300/64442760.jpg?k=4e4920cf51a226e9533d771e6bb2f1bd4e9d75f7edfa6e9ef7906d5b96006848&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests tesisinde bir balkon veya teras",
+          "label": "İlan Galerisi · Fotoğraf 25",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max300/166602865.jpg?k=935b01cc5de90b94777066c4d208c14eb85c516eaff095e19f37f5ea708ca8b9&o="
+        },
+        {
+          "description": "The Paul Loft, big 3 Bed room apartment, 120 m2, group & family friendly, Prenzlauer Berg, ideal for 4 - 8 Guests kat planı",
+          "label": "İlan Galerisi · Fotoğraf 26",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max300/490909204.jpg?k=0c2a0ad927ee9996423d91cef36cc3d54b9ab2a7050ab9a8e7a57620b98b272f&o="
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html",
+      "unitId": "1270649713",
+      "targets": [
+        "six-booking-urban-flats-1270649713-full",
+        "bolunmus-urban-flats"
+      ],
+      "expected": 13,
+      "method": "Booking seçili 70 m² daire penceresindeki 13 fotoğraf; 6 Kasım 2026",
+      "photos": [
+        {
+          "label": "Seçili Daire · Fotoğraf 1",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240256.jpg?k=fe53d6750690904085277d28b45cffb8f7252cfb4efa8c39f0010232cdc2043c&o="
+        },
+        {
+          "label": "Seçili Daire · Fotoğraf 2",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240257.jpg?k=582cb545aa81e258b3c925427b0f2fd9b8512e8ae6ac7f3791ab3ef0cad777ee&o="
+        },
+        {
+          "label": "Seçili Daire · Fotoğraf 3",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240254.jpg?k=1ab39bcd033285218425f6c62fed2fc35a998450daa5ae5b67cbefa7e1c2ce78&o="
+        },
+        {
+          "label": "Seçili Daire · Fotoğraf 4",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240250.jpg?k=95ac2c7d67902a7ee7f93020d8325760989b83596f7a3b95453a407ac896ad52&o="
+        },
+        {
+          "label": "Seçili Daire · Fotoğraf 5",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240255.jpg?k=0b36afe445740b1d5883e8b5cb07cfd8d335459841485c87b8d41a25d6bf6366&o="
+        },
+        {
+          "label": "Seçili Daire · Fotoğraf 6",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240244.jpg?k=76d375c92fb3d6822ed50a968a65d1a3a8c749c1ef857f9a24275e8b146ce5bc&o="
+        },
+        {
+          "label": "Seçili Daire · Fotoğraf 7",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240259.jpg?k=154951f0e000287c778fc1f4fc4cdd7263c11961cef814819256327cf10e9729&o="
+        },
+        {
+          "label": "Seçili Daire · Fotoğraf 8",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240263.jpg?k=1b5cae7693951f3c1c48c687b5ff461adf7d88913bede29f3fa12bbbe468a463&o="
+        },
+        {
+          "label": "Seçili Daire · Fotoğraf 9",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240260.jpg?k=fb75298af39f2f3ccd50e7a46dff0882520b3e21e12942a8ecf0e79fb6174e13&o="
+        },
+        {
+          "label": "Seçili Daire · Fotoğraf 10",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240265.jpg?k=88c366175ff816f5d8c99fe3e5664fb19d96a9c30fb93a38d44454eb0e7b230a&o="
+        },
+        {
+          "label": "Seçili Daire · Fotoğraf 11",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240261.jpg?k=c843375c5ddc52a0ffce4cd275df448d9fbc1a05eca490a8d22a7cc3da1a4772&o="
+        },
+        {
+          "label": "Seçili Daire · Fotoğraf 12",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240245.jpg?k=73bb15607fb5389cfef4cd9e29af84e187b94b6ce4f66c318ba15b76298657f3&o="
+        },
+        {
+          "label": "Seçili Daire · Fotoğraf 13",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/882240268.jpg?k=a65c4b38d0965e3ab5f55d9df9f659740636761c88bec28a80e3e7c098f78d57&o="
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html",
+      "unitId": "1315188502",
+      "targets": [
+        "grand-central-upper"
+      ],
+      "expected": 22,
+      "method": "Booking Üst Katlarda 135 m² seçili daire penceresinde 22 fotoğraf; 6 Kasım 2026",
+      "photos": [
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 1",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622240976.jpg?k=9b1ee219ab6e164874992371e63093cba1dbc49b1588a99be429429c0b0b0016&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 2",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622240803.jpg?k=c87ccfdc848258134b852fbdbbf7e4de4f9eb2290609574bbfdf33e537dd8a95&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 3",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622240349.jpg?k=42172e87e152d540482f08b6c57ad631d7e9329f5a601805258525f43d7cd941&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 4",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622241247.jpg?k=ad3389ec5f6e55d513592cb0b61b2a83ddb123d3a064ac048785072b140317f7&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 5",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622240273.jpg?k=6a6b1683a764196396084049b08701ae3c0be43eb92fad92d47b76dd05116ead&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 6",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622241385.jpg?k=507fea6140e4088cad953433a1bb9f9ca5337b3d5c78570cbfd6a9f25ca622e8&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 7",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622241572.jpg?k=332ea08750f90ab749e7134d93270b9112a9cc8ec794fb5f916cc9c261c2c81e&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 8",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622241139.jpg?k=2aac850cb79325db92f1708552731b688703217d0880a8b627dedfd945186902&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 9",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622241510.jpg?k=db8f0bcd46a77f516b5199a26f2a541e1913d66781dbbd404f60400cb7f04747&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 10",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622237774.jpg?k=7e709a2732dbe6a7d3a5ad1911757c270959e42fa058ebc792c9fb03f0d81ba0&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 11",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622237666.jpg?k=b50d993a33d82f3b6848f98007075677a5afbb7c3b6b47022cf2b94979a874e0&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 12",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622242093.jpg?k=7f3774c71f259e3abfad23f9c8cdac6a06c214c999586cb55c2b3e0220cdee4a&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 13",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622241999.jpg?k=66b76facd333a88469d585f6978d47f854b151713109c64143dee225421982dc&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 14",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622241921.jpg?k=4dad2684bdfc9489392bb1ba3ff348d8e0f4ec9317588e2bc2b9c148eb8d0d3e&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 15",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622241807.jpg?k=3348f4672fda1b52c5d4599da11956ba1a8398bcdf206743ab4343b39bf170a3&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 16",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622241731.jpg?k=09dbd5501d109cb3dfde29b5c58d5932dc663c94068fb94dbdb6b7a49f4aa374&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 17",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622241641.jpg?k=a73d79dad7238a316911a80353716976b780a6fcea2050d82e0f2a06ce58c36f&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 18",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622240624.jpg?k=45722a17bb4b1795b67cebfbec8763b092b9376b87a02d82a0eb677d295b5a37&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 19",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622240493.jpg?k=0cdd122e8aa1bb4f8faeef54baa665d1ba593e3d5a31bb787c90b9d424f38972&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 20",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622240421.jpg?k=d3b8e3a775e35c14a0f5f39523e5ef3cc546a2534af73fed732f25f8ee1b69e1&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 21",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622239510.jpg?k=b7971093d78e77a6233cb50d2488822fb0043c981a799ed7e0ba9d82216da68b&o="
+        },
+        {
+          "label": "Üst Kat Dairesi · Fotoğraf 22",
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/622239420.jpg?k=2ef1d9963e2a01a03610c52443e2e8f541f9078b3b220bff1ab1ff771a69b0fb&o="
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/eastside34.tr.html",
+      "unitId": "790949501",
+      "targets": [
+        "six-booking-osthafen-790949501-full"
+      ],
+      "expected": 11,
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/361345455.jpg?k=aaec4ee6f14aaca5e280661f726c729dd6d6203db4d7f5ffd754c2552e3f7670&o=",
+          "label": "Fotoğraf 1",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/419353209.jpg?k=b8536b79a7778516356706a1df9e7a56de59f004cfe55806788236e385c51470&o=",
+          "label": "Fotoğraf 2",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/361281656.jpg?k=b994916e94b9ade19b6fbbf7c7952fd37b5e37681754b0db8fa101fbdc87d22f&o=",
+          "label": "Fotoğraf 3",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/361281641.jpg?k=982d24d4ca15fd02e93313b7efa4ac3a3ba4318222fc91e2560119f374acbfee&o=",
+          "label": "Fotoğraf 4",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/361281629.jpg?k=5a3b44b1ba2c30100faeb3e4e999fe0c418488fd87dbec6679e070d0e6448d1a&o=",
+          "label": "Fotoğraf 5",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/361281636.jpg?k=5bf93db1fed7f8b157405cb2488df10f19bb25ed37de95548d259832d25f83cb&o=",
+          "label": "Fotoğraf 6",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/361281669.jpg?k=708216396d63e036732f937c48aae1dd745ce5219f291edf03d2f1fb4250d3e2&o=",
+          "label": "Fotoğraf 7",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/361345423.jpg?k=7b53b671e89a56419a517cb465cdd9d682fe2c472ad9702c734415641bf37e1e&o=",
+          "label": "Fotoğraf 8",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/361345430.jpg?k=3b23215506b971f18dfcdb983c4d11dabf4fc43ad3112e9b6d7958fa3f88b515&o=",
+          "label": "Fotoğraf 9",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/361345443.jpg?k=3bc8c4599e77dc2424054b10a263f931e3f156f344a63d8bcbac0bbb4b8df9d7&o=",
+          "label": "Fotoğraf 10",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/361345449.jpg?k=e3052445378ab28e7e568300ed2f33ced6a9d7768eda59c813cbdb80943bbe55&o=",
+          "label": "Fotoğraf 11",
+          "alt": ""
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/greatstay-apartment-danzigerstr.tr.html",
+      "unitId": "169367802",
+      "targets": [
+        "danziger-loft"
+      ],
+      "expected": 20,
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919428908.jpg?k=87b9609726ad0b6b68c145c5df78c1e5dff013f2a60ec082de6b39802c480d88&o=",
+          "label": "Fotoğraf 1",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919428894.jpg?k=ff7a36ca056464d59a634732088f177ff52066cc0f3e9a1c742f7378e49f6174&o=",
+          "label": "Fotoğraf 2",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919428899.jpg?k=893a747d9dd693035b25923f6f259d4c7c2d7561213a4aff46b57184be33c469&o=",
+          "label": "Fotoğraf 3",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919428913.jpg?k=edde6cd0d87356788be10c34745018443a66715acd0217e2bb6d10593396d522&o=",
+          "label": "Fotoğraf 4",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919428915.jpg?k=1f4d3b1315e412c5ae6ae91dde628810349ecd07b2bde223fd9f5bc1ea874533&o=",
+          "label": "Fotoğraf 5",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919428907.jpg?k=2c2c88de1ec4c4cfc236a3c7b48a888248e923191ed57ed1f0c1895c125a1bca&o=",
+          "label": "Fotoğraf 6",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919429073.jpg?k=be5b13993fe99956575bae60edb1a893b6bbdd875dffcacdfc7c802fb105a58b&o=",
+          "label": "Fotoğraf 7",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919429065.jpg?k=21e5749dd34c3ea526e3ff84e37e4e675f77b3c8135afb66392087f7663d401e&o=",
+          "label": "Fotoğraf 8",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919429070.jpg?k=cb38026c1213088732d443ef28cbc683a709d6e095fcb83856c49a6f14854ffb&o=",
+          "label": "Fotoğraf 9",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919429068.jpg?k=551bfaba303b127a6ad1e65f4a48e64805e1d1a76dcb05a792bf995888909e1a&o=",
+          "label": "Fotoğraf 10",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919429074.jpg?k=a5ec01e283571f6329150d011bb7198051b849128aad05345c1c61fef3e69f76&o=",
+          "label": "Fotoğraf 11",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919429058.jpg?k=fc2716b1abaaa72a8cba24708092cd10d93c2097646b273e529e8c19395e70eb&o=",
+          "label": "Fotoğraf 12",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919429234.jpg?k=3a36be8752a6bd7fe8e85951b7a21a4b017788c739177d9abaf590d201da24af&o=",
+          "label": "Fotoğraf 13",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919429243.jpg?k=50d816ebbe5cd4c675b29aba0fc603d4c791f6a73dbbf4f05384b81dcf8b4da5&o=",
+          "label": "Fotoğraf 14",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919429265.jpg?k=8a569dbc125084b3599ee677aa1f8d7803148eb9b2b4f91834cd09f33ec1463a&o=",
+          "label": "Fotoğraf 15",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919429262.jpg?k=47f936190cf199abd5a423020401baa22d0ae83120879b92b03130d256926e00&o=",
+          "label": "Fotoğraf 16",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/919429260.jpg?k=e60bce114e0a482d95d6b35dd05fc9507721b4c683f21860f8ea4bcb9a357968&o=",
+          "label": "Fotoğraf 17",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/63751792.jpg?k=406cfe7f7a40ec4005ff87750f609764495b4b3629ac07cc9fd67b67d58f1170&o=",
+          "label": "Fotoğraf 18",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/63751784.jpg?k=7e3342b512b6a619469cd104a74eda3fa81b9ffb9fc97eabc953a9616185bf86&o=",
+          "label": "Fotoğraf 19",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/213819502.jpg?k=6616468aa226ad02f3b88fb4562ed17bcc47d63f3f7e8dc33053d9393ecb226f&o=",
+          "label": "Fotoğraf 20",
+          "alt": ""
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/idyllisches-haus-mitten-in-berlin.tr.html",
+      "unitId": "254387201",
+      "targets": [
+        "idyllisches-haus"
+      ],
+      "expected": 34,
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/256696672.jpg?k=40e7b49d3c41bc0712cbc9191f78f266f174a1a34115a0a0964211094cb50703&o=",
+          "label": "Fotoğraf 1",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/256696037.jpg?k=23d569eee2f88b536024b2a02f9ba4392953356096bdd036a86cd968dc0d0804&o=",
+          "label": "Fotoğraf 2",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/256698517.jpg?k=5f9f48b91790957e6c39c2250db60a12163151f940a69812f30ec0e2db2f356e&o=",
+          "label": "Fotoğraf 3",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/256696012.jpg?k=af40d3c7bd8294b2b071b961e9746bf8ad084d06748f9de8c009f0417ec26c0a&o=",
+          "label": "Fotoğraf 4",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/256696589.jpg?k=16aeb61c8016c3c745eea77ee9444fdab886200a11c9994731a4551ab5ff1310&o=",
+          "label": "Fotoğraf 5",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/256696535.jpg?k=3facbabbd83dcd1540b9ea762321a5b09253126bbb278053e988c68ee842b916&o=",
+          "label": "Fotoğraf 6",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133851311.jpg?k=75684b44deab001e8aa10830ccaec2509d063c2a055fa582cf610d4e5191b366&o=",
+          "label": "Fotoğraf 7",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133850609.jpg?k=dc43d0c7d097174f4fe590a8c077f338057f87ca7a7b3db8dc7a2ee8e86fbec8&o=",
+          "label": "Fotoğraf 8",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133850464.jpg?k=6c9d0eeb3b8a1bd40b4f0c55cf5d064272f5d7a6924610f2b3e58281bb4567e2&o=",
+          "label": "Fotoğraf 9",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133851201.jpg?k=bc4ec0ea484606526452cc74e59d24fae3939dada21550c39ddd854d9ee00a93&o=",
+          "label": "Fotoğraf 10",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133851043.jpg?k=e5098cc306f7f74e589c27d2f5234b3fe782c85daff80fc62cf65214575ed3ca&o=",
+          "label": "Fotoğraf 11",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133850921.jpg?k=1999e04923855151e98943588be481329e2724d8763b5eb7cdd7f8c657d029e5&o=",
+          "label": "Fotoğraf 12",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133851583.jpg?k=dc15d83ae5de3b83bf3ce73a1773f99385b58b21d42a6720decb0ecc8f9fd482&o=",
+          "label": "Fotoğraf 13",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133851687.jpg?k=60ad9024b6d031df72f16b8e2b79a59196d1d7e0ce4ef60117e766a9952642e3&o=",
+          "label": "Fotoğraf 14",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133851896.jpg?k=483a27ce29a5f11106fe556c4980da499c8cff80ac168577181e19cf062e8377&o=",
+          "label": "Fotoğraf 15",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/106387611.jpg?k=3c3b2080656c6c009dba6e02ca2c9084f6887cbb9afaea73ca44afd48c6ae271&o=",
+          "label": "Fotoğraf 16",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133851476.jpg?k=14b995bd9697e7708ac14c67cfb07d0127fc9c57634449d1575b9eca60c2fc05&o=",
+          "label": "Fotoğraf 17",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133851348.jpg?k=1357fdd92c9b3e60850106a8aedd1a1450738b1eb116b0169213556938914aee&o=",
+          "label": "Fotoğraf 18",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133853123.jpg?k=207956fad6015a9ab41266fe5f12b038a7b9fc441c7c32559157618c16f51886&o=",
+          "label": "Fotoğraf 19",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133852639.jpg?k=2c5cfe6448868e6550caf942e7e78f48742442d90e1cec1f13a5760989eb82a6&o=",
+          "label": "Fotoğraf 20",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133852977.jpg?k=aefd7a0f0b71a67ba75503f5eb705c6f486aaec5b99f2f751f93475ec2255099&o=",
+          "label": "Fotoğraf 21",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133852878.jpg?k=c257bfe3a3de28e27252dfb56ce847f5cb2d1855a7d1a1562a4b9b722fa6ff41&o=",
+          "label": "Fotoğraf 22",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133852433.jpg?k=0fc6e99319ae64c589433e3c853241cb7f92330c0616dfd97ef6f89e5bb53ec3&o=",
+          "label": "Fotoğraf 23",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133853647.jpg?k=2040b67876e5e2234dc37f754ed2df4a24462e0fe05dc077b956cc7bb8ff8e50&o=",
+          "label": "Fotoğraf 24",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133854060.jpg?k=aa7eb787aba89b9e7db8608412d7c1e76979c4477f2a86f61c8edb4e201c30ef&o=",
+          "label": "Fotoğraf 25",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/256697568.jpg?k=b57a76c14f47cb0417e55dbda38f86a47b63d2912f23286a239acb08241793f5&o=",
+          "label": "Fotoğraf 26",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/256696920.jpg?k=b50b08e8b88b360b4031a2e8dfc4b689bdc833713948215ec98a73ec8570ca75&o=",
+          "label": "Fotoğraf 27",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133855114.jpg?k=94c5aab9ed0aa3c1ed7270b523d15ce5331cabbb4ef381825337e428fa2d087c&o=",
+          "label": "Fotoğraf 28",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133854958.jpg?k=7148d7c24db4675526d6cec1f1194381e37e3ab268cebea71c5311bf3643c765&o=",
+          "label": "Fotoğraf 29",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/133853968.jpg?k=f66f32342cdca33666ee2e488e654852ee8f6405a172fc25958a758cf56f120c&o=",
+          "label": "Fotoğraf 30",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/256698299.jpg?k=b8ba637ca92ee6926e7f0800acb2290c5d0de01c4f6f1905fe1baf96537138ab&o=",
+          "label": "Fotoğraf 31",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/256698071.jpg?k=dfd30b124ab5f1397663085fc1c3e966001f05aeb9efcf260c002f8c0968a250&o=",
+          "label": "Fotoğraf 32",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/256698158.jpg?k=21b43b2974a6ca1ca4ffabeffe53196ffaf5d880c1ab03b57cb1a681f8f43484&o=",
+          "label": "Fotoğraf 33",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/256697917.jpg?k=c12a60ae21470c787203c7949256e6516b1d17c18579121a1e50f0402d362aa5&o=",
+          "label": "Fotoğraf 34",
+          "alt": ""
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/torstrasse.tr.html",
+      "unitId": "1693702001",
+      "targets": [
+        "bolunmus-torstrasse"
+      ],
+      "expected": 22,
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898603324.jpg?k=5c180f31cd96eafd172af503c244a23081cd0ee8d978bd48e08ab3b03c486e68&o=",
+          "label": "Fotoğraf 1",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898603178.jpg?k=edcd3232dfbdbe764f514d752157218dba1e9cc2788b74f262c2a6d316bc5fcd&o=",
+          "label": "Fotoğraf 2",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898603293.jpg?k=b28707ef2e90f07c7e61c6eefd00f1841d84e9f1001f42e329819b8bd00d0584&o=",
+          "label": "Fotoğraf 3",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898603348.jpg?k=045d59025322ab3c3c65fd950dbae43d19d740a6e1699d66cdc0a6bf8ddff09b&o=",
+          "label": "Fotoğraf 4",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898603611.jpg?k=c61088331b399ceaf1d7f26253a1eef10abe3ab7d2b45e40cc03e6a197686ae7&o=",
+          "label": "Fotoğraf 5",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898603653.jpg?k=c5a2af35820718777c0a024d49284e16cd38a9c30e48b505cff9041f9ab423a6&o=",
+          "label": "Fotoğraf 6",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898603679.jpg?k=4cc0d807e3b281fad4b5bd7d2e7da6c1f8e66e036e66516c95d2c0675d90e587&o=",
+          "label": "Fotoğraf 7",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898603760.jpg?k=587139946918df7ab24156e7ed4a3498bf5b97dda9618cffb7c650c8da65530d&o=",
+          "label": "Fotoğraf 8",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898603851.jpg?k=ee68ff2cd6cee6b1a19a95aeaaf70f41c5e23d05c756e9e2b0af735f7a5df052&o=",
+          "label": "Fotoğraf 9",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604120.jpg?k=8c3a2590bd759576e79ea80468c49f8140a8cc07a46ee75bc9106d19f08b6f36&o=",
+          "label": "Fotoğraf 10",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604167.jpg?k=963d2c4ed01c89888892d46cfde8ccabf078a4943d2932107aabf44c5d7b19af&o=",
+          "label": "Fotoğraf 11",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604239.jpg?k=58eb12a905b8be50d01c07e98af8059675ea3c2f277c27392d6ddc57830ffa15&o=",
+          "label": "Fotoğraf 12",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604281.jpg?k=6f448bb6d8ed2a8a941adfed39c58425d7806b25efb91feeb2da478ecedf8d97&o=",
+          "label": "Fotoğraf 13",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604401.jpg?k=b058e021e5efe890c6192f99897fdcf711f2f6ab34e15772e6465b7def1b3a48&o=",
+          "label": "Fotoğraf 14",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604475.jpg?k=cbccdf6b0486d1379de8201243182880bd52464ee738abc902a1f74b8adbdf9e&o=",
+          "label": "Fotoğraf 15",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604516.jpg?k=08e7d6d8c6a5ac1f0f1570e9ea8cf71217b5a21758a7fbc450ff36e4ac2f5d03&o=",
+          "label": "Fotoğraf 16",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604559.jpg?k=34e7c3351b93f119aa74c7a4e2f27c7ec9079da7daeed5c577ac66e7052e67a9&o=",
+          "label": "Fotoğraf 17",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604595.jpg?k=07c802186e7bb45494bf643bc92f64e9b6648d3a695a7ae3fbc902ebf4b57626&o=",
+          "label": "Fotoğraf 18",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604648.jpg?k=ac2df9e012789abcca0b8898a114516b8e56ba8246c1e8de93bb1b32070e4f01&o=",
+          "label": "Fotoğraf 19",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604673.jpg?k=55afd9d7fc51d3efe8edd9d986c8cb14db2d6c0cc93928381a920dd9a804a253&o=",
+          "label": "Fotoğraf 20",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604751.jpg?k=e2b4b8e6b6972e559336b9d6a5942088a2053b3820aaf59a68ddbf78718fc175&o=",
+          "label": "Fotoğraf 21",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604843.jpg?k=27843fabab3b31f6fe6a446f2764fd4b17ad0cabd2d6a15ef89f57992ea3dfce&o=",
+          "label": "Fotoğraf 22",
+          "alt": ""
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/arabel-design-apartments.tr.html",
+      "unitId": "112683324",
+      "targets": [
+        "yeni-arabel-suite"
+      ],
+      "expected": 22,
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690338.jpg?k=d202d6cebd609a65ddf9d8a1171a5568896e18e6d6b185fc2c3c2278b1a148c5&o=",
+          "label": "Fotoğraf 1",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690337.jpg?k=9acd25b306edb3434001390ff16a990e4d5ba2d6d01359943d8271653c01be0b&o=",
+          "label": "Fotoğraf 2",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690339.jpg?k=1e7ef4ff2176ef01cee0201c9cc0014e41d3513e86ba8f9d9d9c9730561f57ef&o=",
+          "label": "Fotoğraf 3",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690335.jpg?k=402c065aa4d97ffb009ff0c876a413e396070391ea54db863160ebd90ed09308&o=",
+          "label": "Fotoğraf 4",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690334.jpg?k=2940c9eebf17a1a65be93ad72f1497645261b15eff7ba4743cae5301a84cfa27&o=",
+          "label": "Fotoğraf 5",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690329.jpg?k=05925deeae44e8945594500000d2b45703e9de280c642ebcc87624c96b1158e7&o=",
+          "label": "Fotoğraf 6",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690331.jpg?k=9849faf0ed85939827071fc81c97be7f91b827a11ff1c603cf184faf0434d4f8&o=",
+          "label": "Fotoğraf 7",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690336.jpg?k=6b1e8f9509cef44376d7a74588d68f2ea3416b4a6e8c332ed3b2f86c70b03214&o=",
+          "label": "Fotoğraf 8",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690332.jpg?k=a0d1e0c347c67a91f4bd846a326949415144f18d1c47ef0306bfeb2833d0aac9&o=",
+          "label": "Fotoğraf 9",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690507.jpg?k=cb7508278b0d06035172001421d22926592118742cc48d1878f34876aa12e953&o=",
+          "label": "Fotoğraf 10",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690501.jpg?k=ba844755877160c3eedbc5e538d1935c3d3dc34b10736316aca83ff0eaf2803f&o=",
+          "label": "Fotoğraf 11",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690496.jpg?k=1606e546c4203f743bd1e6b064bf5a92ed84992e0306cb5cbb2b9c7115fa4272&o=",
+          "label": "Fotoğraf 12",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690494.jpg?k=5bddfd55510cbf7246823f115e1aaca80aa27675338087593908f3e011f9a7b2&o=",
+          "label": "Fotoğraf 13",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690490.jpg?k=33f077b1f4781b2276a42eb85a37a1287a92a05202accf2b5e3525459140cc29&o=",
+          "label": "Fotoğraf 14",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690488.jpg?k=f8dd1805bbdfd6e81ce561a727d9012f67d07f0478f47d041098792e33e4f163&o=",
+          "label": "Fotoğraf 15",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690483.jpg?k=2e16434270696b4a68f8331745b1900e6fc39ec11552a07e937ff26fc4f9bb82&o=",
+          "label": "Fotoğraf 16",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690479.jpg?k=8667c1e1393d09bb71cc2d6649ea5de5560f1eb0ce58148e9f5e55f47f739582&o=",
+          "label": "Fotoğraf 17",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690466.jpg?k=76858b3680dfe39048a8ce892d2c2b03a44282c7a8c0ff649cf6488e1382887d&o=",
+          "label": "Fotoğraf 18",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690445.jpg?k=74e2f6e89d786c441ec01fcffdf81b5fb60e6d29850551e369bc82ad78b656a2&o=",
+          "label": "Fotoğraf 19",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690435.jpg?k=33c3c53abce379f01e3bc2bb76da1c8e09602570023a45f1eb5f8f9cb101a9e3&o=",
+          "label": "Fotoğraf 20",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690426.jpg?k=50a42820c421c118df46db4c846642c9da51243e75636992d0882fa96a3cdc0a&o=",
+          "label": "Fotoğraf 21",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/928690416.jpg?k=b867269af956a2f10be827a151ae24af6a624020f80b683ea77cd7775027dd81&o=",
+          "label": "Fotoğraf 22",
+          "alt": ""
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/locke-at-east-side-gallery.tr.html",
+      "unitId": "979082304",
+      "targets": [
+        "yeni-locke-2-family"
+      ],
+      "expected": 7,
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509388.jpg?k=309398fc7bc2efbbbf55dbf7e3fa4a4c5270f035e31c89071f94588c847f9fa5&o=",
+          "label": "Fotoğraf 1",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509379.jpg?k=1423976a2018bf7cdc71ffc949e2928918b4e19f8df68890e00e7b0ff50c75bd&o=",
+          "label": "Fotoğraf 2",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509383.jpg?k=2ae53b0e1ea482f2747b3470d8adcdbd61ece544cf5362324066c0d1bd4bdc68&o=",
+          "label": "Fotoğraf 3",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509961.jpg?k=4b423c3d75bb6be47b56919f154b82fa6cd8219d4d6285860889ea2e3a96b305&o=",
+          "label": "Fotoğraf 4",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509372.jpg?k=569f4f8b5b79fc0b187eeb3d05f580d56817208ddf422a5f82d06ace53452f0c&o=",
+          "label": "Fotoğraf 5",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509389.jpg?k=60a6a4c54b4d40fbb9c4187a93d861f99a462947b4fc1187a67df5bc59676609&o=",
+          "label": "Fotoğraf 6",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509385.jpg?k=fc0f65e1012da3a7979ab934596925c70a4f9b544dd9f7aaf54e073679986649&o=",
+          "label": "Fotoğraf 7",
+          "alt": ""
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/wilde-aparthotels-by-staycity-berlin-checkpoint-charlie.tr.html",
+      "unitId": "551861601",
+      "targets": [
+        "yeni-wilde-2-daire"
+      ],
+      "expected": 7,
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/772702723.jpg?k=3d4ecc347faef67d2fa4afc70d1bb8071a2ffc57ac99591ddcbb8f511e8560e4&o=",
+          "label": "Fotoğraf 1",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/680597984.jpg?k=3668701cab4744edbcc3f5bc4fb09f3b847b51f2a5dc437b868d160a9d61ed05&o=",
+          "label": "Fotoğraf 2",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/217132699.jpg?k=5c7a1b17a20907383f81641ce4b98591dddcd1f013c3e181ca3eeb64acc46fdc&o=",
+          "label": "Fotoğraf 3",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/772702974.jpg?k=d361314942aa2c23f7c09a0a39d8f2c11ae2150321691225a65756a0775d67d2&o=",
+          "label": "Fotoğraf 4",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/772702930.jpg?k=d5b847167682fae7cf9ded6cee76989fd33ab3ed5ac19cbc0047ade6de54952d&o=",
+          "label": "Fotoğraf 5",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/217132659.jpg?k=a94190939cf2dabce59ae4f7cd4eb4284f04c7016938db4159dd68f382d7d1aa&o=",
+          "label": "Fotoğraf 6",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/230508395.jpg?k=d0751fe45668897ef6f790fbe8d132aae2a0ac0cfc043eee98e51defe76df039&o=",
+          "label": "Fotoğraf 7",
+          "alt": ""
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/im-herzen-von-kreuzberg-perfekt-gelegen-fur-bis-zu-8-personen.tr.html",
+      "unitId": "1171247801",
+      "targets": [
+        "yeni-kreuzberg-freiligrath"
+      ],
+      "expected": 19,
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823371.jpg?k=f2de8578a796da704377e465b293c54ff6a961da0db9f77536a338b7288f949e&o=",
+          "label": "Fotoğraf 1",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823365.jpg?k=9e309d2cb15e234184140f6a456ae2861bc6f59a1b441ca665b1ef0650307b9d&o=",
+          "label": "Fotoğraf 2",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823332.jpg?k=a9004809ee69d5a5bf4caa59f4bf5639c1cb745bf5a4cf80fe6b9cbd6c88d451&o=",
+          "label": "Fotoğraf 3",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823381.jpg?k=3455165c31d7fcfe5e8f8a6ecae713a63a1f9c5da75809a58c5e306e9d354e70&o=",
+          "label": "Fotoğraf 4",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823348.jpg?k=14e5a19a7f011aafa1eef18edc01f3e72f061bb7a023490db246d77a1effaf8a&o=",
+          "label": "Fotoğraf 5",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823315.jpg?k=88f232619551b834b13a1f851594d608d8103a2a3c54102c45ca05c77e23ad2f&o=",
+          "label": "Fotoğraf 6",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823387.jpg?k=3b442b9de2747894e55bc8efed49522d092f13f27f3319957737fa557f21f3bc&o=",
+          "label": "Fotoğraf 7",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823384.jpg?k=6d95923225b4d1afabb7d6d7f9ee99fe45f9d55dc1c5b1dccdeb98df7bcd555b&o=",
+          "label": "Fotoğraf 8",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823391.jpg?k=c35e0bfe76035b6508ef960baa3b88f64fca7af1358b7ca01a3b8d4ef2e62780&o=",
+          "label": "Fotoğraf 9",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823399.jpg?k=ab7480d46785a3fbddf732d268f243a71681804b115d17df6ee260d5700253d7&o=",
+          "label": "Fotoğraf 10",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823400.jpg?k=68f85b81ed059e5a0b9dfceba7dc8de26d8ab233b2e03380408a3c3e53685ec4&o=",
+          "label": "Fotoğraf 11",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823342.jpg?k=25d7a2e3ad25044a5007aa869475ad3e2b6455a901a3346bd29ab209a6e5bdba&o=",
+          "label": "Fotoğraf 12",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823366.jpg?k=4a13cd8266f08dcc079dc5a1aae757387bd171c93e54810d648abe713cceae51&o=",
+          "label": "Fotoğraf 13",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823369.jpg?k=f3f0f85992c2b6bcecc7bbd1f6f0539f69740eb2534fd2d7678281cbd0007786&o=",
+          "label": "Fotoğraf 14",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823380.jpg?k=77eb9a0109c714efeffa807077a7a39ea93182f311d9d20859a54bc8f35a7f03&o=",
+          "label": "Fotoğraf 15",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823352.jpg?k=0593544b9ed94a027a559e125991af9666a4bca618256aed40fcb0180e0a55af&o=",
+          "label": "Fotoğraf 16",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823274.jpg?k=dfdc4740f2732e99f4fbc532afabcaa0a6e50da559985ff9f7db4664c68edefc&o=",
+          "label": "Fotoğraf 17",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823351.jpg?k=300ef211a872b5bf1d65f53cb082ba7b0c46443ebd6761513d4082bdfb0e1b37&o=",
+          "label": "Fotoğraf 18",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/546823431.jpg?k=061eac21b0db0a46045bf21e60b873334be31d4fd7c670f9ee6e1a844fa2de81&o=",
+          "label": "Fotoğraf 19",
+          "alt": ""
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.holidu.com/d/56239528",
+      "targets": [
+        "six-holidu-56239528-full"
+      ],
+      "expected": 21,
+      "sourceShownCount": 22,
+      "photos": [
+        {
+          "src": "https://img.holidu.com/images/0b234fc2-0c10-4228-907d-2b9dbe5f9e48/l.avif",
+          "label": "Fotoğraf 1",
+          "alt": "Apartment view 0"
+        },
+        {
+          "src": "https://img.holidu.com/images/6d072dfb-76c4-462d-aca4-f0d1ee10b7bd/l.avif",
+          "label": "Fotoğraf 2",
+          "alt": "Apartment view 1"
+        },
+        {
+          "src": "https://img.holidu.com/images/cca82da6-9c55-4bc4-bb66-0ab1e76f19d3/l.avif",
+          "label": "Fotoğraf 3",
+          "alt": "Apartment view 2"
+        },
+        {
+          "src": "https://img.holidu.com/images/6b4a9fa9-8bbb-4c62-be3a-b19d74c1e5cc/l.avif",
+          "label": "Fotoğraf 4",
+          "alt": "Apartment view 3"
+        },
+        {
+          "src": "https://img.holidu.com/images/7689e7d7-5ae0-4a83-8252-4331e267f955/l.avif",
+          "label": "Fotoğraf 5",
+          "alt": "Apartment view 4"
+        },
+        {
+          "src": "https://img.holidu.com/images/00009123-91c6-4737-b934-1dc7cb8dc3af/l.avif",
+          "label": "Fotoğraf 6",
+          "alt": "Apartment view 5"
+        },
+        {
+          "src": "https://img.holidu.com/images/0806b975-1c94-4283-aceb-a022a01b308e/l.avif",
+          "label": "Fotoğraf 7",
+          "alt": "Apartment view 6"
+        },
+        {
+          "src": "https://img.holidu.com/images/84bdff4d-0c3c-438b-8431-3f20c4957a67/l.avif",
+          "label": "Fotoğraf 8",
+          "alt": "Apartment view 7"
+        },
+        {
+          "src": "https://img.holidu.com/images/0855c1ee-1fcb-4f8c-b545-faf5b4e744e0/l.avif",
+          "label": "Fotoğraf 9",
+          "alt": "Apartment view 8"
+        },
+        {
+          "src": "https://img.holidu.com/images/6c62314c-4429-440d-af74-7f6d04ec8996/l.avif",
+          "label": "Fotoğraf 10",
+          "alt": "Apartment view 9"
+        },
+        {
+          "src": "https://img.holidu.com/images/8fa732ec-01df-4866-9f62-f635d6adbff4/l.avif",
+          "label": "Fotoğraf 11",
+          "alt": "Apartment view 10"
+        },
+        {
+          "src": "https://img.holidu.com/images/40670585-cc90-4267-90b2-652591ac3128/l.avif",
+          "label": "Fotoğraf 12",
+          "alt": "Apartment view 11"
+        },
+        {
+          "src": "https://img.holidu.com/images/068da7dc-e14a-47d6-b1e5-1ae97d5156d2/l.avif",
+          "label": "Fotoğraf 13",
+          "alt": "Apartment view 12"
+        },
+        {
+          "src": "https://img.holidu.com/images/15944f0f-4e3e-4bf3-8cd9-0c2e618fb551/l.avif",
+          "label": "Fotoğraf 14",
+          "alt": "Apartment view 13"
+        },
+        {
+          "src": "https://img.holidu.com/images/8bb25a88-8b37-49ae-b217-e5f2cde1a5e5/l.avif",
+          "label": "Fotoğraf 15",
+          "alt": "Apartment view 14"
+        },
+        {
+          "src": "https://img.holidu.com/images/76475bd3-de68-41ce-9040-d1db39e75bfc/l.avif",
+          "label": "Fotoğraf 16",
+          "alt": "Apartment view 15"
+        },
+        {
+          "src": "https://img.holidu.com/images/92dab833-41ea-408c-945e-1be8f9a8ec79/l.avif",
+          "label": "Fotoğraf 17",
+          "alt": "Apartment view 16"
+        },
+        {
+          "src": "https://img.holidu.com/images/91516c2f-6ab2-495c-a74e-98c46e3c5de3/l.avif",
+          "label": "Fotoğraf 18",
+          "alt": "Apartment view 17"
+        },
+        {
+          "src": "https://img.holidu.com/images/1940ca49-426a-4ede-870e-10ce5747333b/l.avif",
+          "label": "Fotoğraf 19",
+          "alt": "Apartment view 18"
+        },
+        {
+          "src": "https://img.holidu.com/images/3ebcfe52-c95f-4fe1-b13f-1f5a7e7f974e/l.avif",
+          "label": "Fotoğraf 20",
+          "alt": "Apartment view 19"
+        },
+        {
+          "src": "https://img.holidu.com/images/3d78cf0d-bed0-41a3-ba96-88e8483da1aa/l.avif",
+          "label": "Fotoğraf 21",
+          "alt": "Apartment view 20"
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.tr.html",
+      "unitId": "1387722001",
+      "targets": [
+        "bolunmus-roof-chill"
+      ],
+      "expected": 22,
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913229.jpg?k=8d4a5f396de441d25261ef62b1bf176fa2e06bda4adfa9eedbb3201be2428315&o=",
+          "label": "Fotoğraf 1",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913240.jpg?k=e42380bd6e8d2ed0bcb31b6b936c7774b7f774fe661c11495c7de5684c33d2bd&o=",
+          "label": "Fotoğraf 2",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913228.jpg?k=40044940fe44a49b4857fb110217cb820d6e5c8832ce62b6f2b13695993b77fa&o=",
+          "label": "Fotoğraf 3",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913190.jpg?k=d50febcf9ac2c27db58f8be969de3f43691dd28b53e19857e53c92f156dc339b&o=",
+          "label": "Fotoğraf 4",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913170.jpg?k=cc0dcc8051a48c7ca086018d677d4a94d5e780676426ee9432ad6951e09ccdaf&o=",
+          "label": "Fotoğraf 5",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913318.jpg?k=048f60bf2efc2fe02fca277c1193e3e217d28a7e1717f09f8060c90d3e09db06&o=",
+          "label": "Fotoğraf 6",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913254.jpg?k=8614188fc918b3b54d4958ac375aedb467ebcdf9b9036b993e715a3bb78ec02f&o=",
+          "label": "Fotoğraf 7",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913195.jpg?k=184128037171a8b97e9aef82e1c9ff8ada7c27afa287057db05e74b02edcbc64&o=",
+          "label": "Fotoğraf 8",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913173.jpg?k=63678bb2762e69007c688bcd2264cf3c97452476a738c0302323d61d238407d5&o=",
+          "label": "Fotoğraf 9",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913225.jpg?k=84d319461c21bd3d35ee26a748fe4a86ff982167fc0ecad656273bd5b88aed76&o=",
+          "label": "Fotoğraf 10",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913242.jpg?k=1879bd9f3668de84fc83fd0d67dd4b0df9fd3ad88caf7ff124f3e7a53b3344d4&o=",
+          "label": "Fotoğraf 11",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913248.jpg?k=60e37a6a9417d11dc19f23d8fac7d0a9bab811a99fee732cc0617a7f61c2de17&o=",
+          "label": "Fotoğraf 12",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913158.jpg?k=362f8be271c7f781ff2426a8d7a498f5edddeaad8fca12924efb3d7720b01f34&o=",
+          "label": "Fotoğraf 13",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913174.jpg?k=bb45cd6397d66088a2a8a69e0402d1332e5e1552caa9226453525b833202b988&o=",
+          "label": "Fotoğraf 14",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913160.jpg?k=501328cb868da82c1226c6ef3b0f1aaacd1cc504ab05105a871d275de3dad9dd&o=",
+          "label": "Fotoğraf 15",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913200.jpg?k=34b4b36c14178a6fbc8e8f07b19088fc2c4145548357cd3fc5119b6029bd42d2&o=",
+          "label": "Fotoğraf 16",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913185.jpg?k=34b73273bda27a96c76632a00ce528d3903fbcf7e3a68ed04c435fb6641907d2&o=",
+          "label": "Fotoğraf 17",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913183.jpg?k=eb7518a09e161b3e45a6ad8c344cfa7b12bda9c9cecf671e3b869546ee489438&o=",
+          "label": "Fotoğraf 18",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913251.jpg?k=8d200d3aea2a61b4fff5a1e6e7be387dded10aa6fe1053e19598716adc0cd343&o=",
+          "label": "Fotoğraf 19",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913261.jpg?k=a14fd069f594686ce3998d65707bca0ab37b7aafb67f7c1140ca904f3c87df25&o=",
+          "label": "Fotoğraf 20",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913314.jpg?k=41d6dd41f2ac6d386e1766becd22b6f958a360b15a9902439a2e0f84acb781d9&o=",
+          "label": "Fotoğraf 21",
+          "alt": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/669913313.jpg?k=1587b69102bcf575f27359606ea6c79761c1e723d26071d5ac88be13ab40b774&o=",
+          "label": "Fotoğraf 22",
+          "alt": ""
+        }
+      ],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "source": "https://www.airbnb.com.tr/rooms/1166429151300530583?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "targets": [
+        "1166429151300530583"
+      ],
+      "expected": 23,
+      "method": "Airbnb oda fotoğraf turunda 23 görsel, 6 Kasım 2026",
+      "observedAt": "2026-11-06",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/f8a604db-f53a-4f00-9398-eb441f1179a6.png",
+          "label": "Oturma odası 1",
+          "description": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/496b675d-8a21-4504-8761-e8e98a25cfce.png",
+          "label": "Oturma odası 2",
+          "description": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/1be5ea12-3a67-4e7e-82ee-f0175901e198.png",
+          "label": "Oturma odası 3",
+          "description": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/ebd3ad71-13a1-4f84-b53b-0b82cf7c8a63.png",
+          "label": "Oturma odası 4",
+          "description": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/658487cd-4d1f-4c37-95c5-59efeca82f86.png",
+          "label": "Oturma odası 5",
+          "description": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/632a2bc9-df7f-4104-afe7-c371b29cb598.png",
+          "label": "Oturma odası 6",
+          "description": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/0c8fa026-cfca-466b-827b-ed088fa8be3b.png",
+          "label": "Oturma odası 7",
+          "description": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/5bd7865f-a0da-4c37-a877-23aade37ddae.png",
+          "label": "Oturma odası 8",
+          "description": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/61a03aef-2740-427b-94b4-902bffb5e4be.png",
+          "label": "Tam mutfak 1",
+          "description": "Tam mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/e7b5566e-007d-4d60-8f86-86d3819c02ec.png",
+          "label": "Tam mutfak 2",
+          "description": "Tam mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/71baf3fa-abc6-4fb6-b33e-1f48bac03a83.png",
+          "label": "Tam mutfak 3",
+          "description": "Tam mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/63dbf222-ff61-445b-8a7f-67f4c264f086.png",
+          "label": "Yemek alanı 1",
+          "description": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/ca8f4b34-87b8-455c-8fac-be128fab2a61.png",
+          "label": "Yemek alanı 2",
+          "description": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/04800c27-64f6-4e3c-90d2-ba73d04771db.png",
+          "label": "Yemek alanı 3",
+          "description": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/cb09033d-32fe-4a7a-925c-85eeca200927.png",
+          "label": "1. yatak odası 1",
+          "description": "1. yatak odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/3c5b084d-7a00-450c-9d39-5e308cf6f00e.png",
+          "label": "1. yatak odası 2",
+          "description": "1. yatak odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/a60ce442-91f8-4744-9746-5b699fc2adff.png",
+          "label": "1. yatak odası 3",
+          "description": "1. yatak odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/9bbec0e8-01b6-43af-87aa-4af34a3a838a.png",
+          "label": "1. yatak odası 4",
+          "description": "1. yatak odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/550b1035-93c9-4a37-82ef-7b0231915920.png",
+          "label": "2. yatak odası 1",
+          "description": "2. yatak odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/2df58ca8-b8b6-408e-a61f-75434c9dd56f.png",
+          "label": "2. yatak odası 2",
+          "description": "2. yatak odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/f9d5b896-f3a0-466f-b199-9a613e3ba3c8.png",
+          "label": "2. yatak odası 3",
+          "description": "2. yatak odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/ca2257cb-4a51-431a-bb59-9a204fbac973.png",
+          "label": "Banyo 1",
+          "description": "Banyo"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/76c6cac2-f6f2-47d5-8d56-9227b94795a3.png",
+          "label": "Ek fotoğraflar 1",
+          "description": "Ek fotoğraflar"
+        }
+      ]
+    }
+  ]
+}

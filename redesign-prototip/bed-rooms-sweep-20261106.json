@@ -1,0 +1,427 @@
+{
+  "sweep6-airbnb-1552405041368851207-20261230-20270103": {
+    "source": "https://www.airbnb.com.tr/rooms/1552405041368851207?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. yatak odası",
+        "beds": "3 tek kişilik yatak"
+      },
+      {
+        "name": "2. yatak odası",
+        "beds": "3 tek kişilik yatak ve 1 beşik"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-airbnb-1415265646306539034-20261230-20270103": {
+    "source": "https://www.airbnb.com.tr/rooms/1415265646306539034?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. ve 2. yatak odası",
+        "beds": "İki büyük odada toplam veya oda başına üç ayrı yatak ifadesi belirsiz."
+      },
+      {
+        "name": "3. yatak odası",
+        "beds": "İki misafirin uyuyabileceği belirtiliyor; yatak türü ve sayısı net değil."
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Altı ayrı yetişkin yatağı oda bazında kesinleşmedi. Ayrı oturma odası yok; ikinci kat merdivenli. Son yorumlarda cadde ve bar gürültüsü bildiriliyor.",
+    "status": "belirsiz"
+  },
+  "sweep6-airbnb-4027687-20261230-20270103": {
+    "source": "https://www.airbnb.com.tr/rooms/4027687?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. yatak odası",
+        "beds": "1 büyük çift kişilik yatak ve 1 tek kişilik yatak"
+      },
+      {
+        "name": "2. yatak odası",
+        "beds": "1 büyük çift kişilik yatak ve 1 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma odası",
+        "beds": "Büyük kanepe; altıdan fazla misafir için kullanılabileceği belirtiliyor."
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-airbnb-14314574-20261230-20270101": {
+    "source": "https://www.airbnb.com.tr/rooms/14314574?adults=6&check_in=2026-12-30&check_out=2027-01-01&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. yatak odası",
+        "beds": "1 queen çift kişilik yatak"
+      },
+      {
+        "name": "2. yatak odası",
+        "beds": "1 queen çift kişilik yatak"
+      },
+      {
+        "name": "3. yatak odası",
+        "beds": "1 queen çift kişilik yatak"
+      },
+      {
+        "name": "4. yatak odası",
+        "beds": "1 queen çift kişilik yatak"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-airbnb-1559249085935822360-20261230-20270101": {
+    "source": "https://www.airbnb.com.tr/rooms/1559249085935822360?adults=6&check_in=2026-12-30&check_out=2027-01-01&currency=EUR",
+    "rooms": [
+      {
+        "name": "Yatak odası",
+        "beds": "Oda kartında 4 tek kişilik yatak ve 1 çekyat."
+      },
+      {
+        "name": "Oturma odası",
+        "beds": "1 çekyat; yatak odasındaki çekyatla ayrı olup olmadığı teyitsiz."
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Açıklama 5 tek yatak + çift kişilik çekyat derken oda kartı 4 tek yatak ve çekyat gösteriyor; iki çekyatın ayrı olup olmadığı teyitsiz. Beşinci tek yatak veya altı ayrı yatak doğrulanmadı.",
+    "status": "belirsiz"
+  },
+  "sweep6-booking-1557174404-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174404",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "1 çift kişilik yatak (ekstra büyük)"
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "4 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-booking-1557174404-20261230-20270101": {
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174404",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "1 çift kişilik yatak (ekstra büyük)"
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "4 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-booking-1557174402-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174402",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "1 çift kişilik yatak (ekstra büyük)"
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "4 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-booking-1557174402-20261230-20270101": {
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174402",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "1 çift kişilik yatak (ekstra büyük)"
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "4 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-booking-1557174403-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174403",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "1 çift kişilik yatak (ekstra büyük)"
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "4 tek kişilik yatak"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-booking-1557174403-20261230-20270101": {
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174403",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "1 çift kişilik yatak (ekstra büyük)"
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "4 tek kişilik yatak"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-booking-1557174406-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174406",
+    "rooms": [
+      {
+        "name": "Yatak odası",
+        "beds": "3 tek kişilik yatak, 1 çift kişilik yatak (ekstra büyük)"
+      },
+      {
+        "name": "Oturma odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-booking-1557174406-20261230-20270101": {
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174406",
+    "rooms": [
+      {
+        "name": "Yatak odası",
+        "beds": "3 tek kişilik yatak, 1 çift kişilik yatak (ekstra büyük)"
+      },
+      {
+        "name": "Oturma odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-booking-1557174401-20261230-20270101": {
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174401",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "4 tek kişilik yatak"
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-booking-181193704-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/freedom-studioapartment-booking.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_181193704",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "En az 1 tek kişilik yatak ve 1 çift kişilik yatak; oda kartı 2 tek yatak bildiriyor."
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "1 tek kişilik yatak, 1 çift kişilik yatak (büyük)"
+      },
+      {
+        "name": "Yatak odası 3",
+        "beds": "5 tek kişilik yatak"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-booking-181193704-20261230-20270101": {
+    "source": "https://www.booking.com/hotel/de/freedom-studioapartment-booking.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_181193704",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "En az 1 tek kişilik yatak ve 1 çift kişilik yatak; oda kartı 2 tek yatak bildiriyor."
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "1 tek kişilik yatak, 1 çift kişilik yatak (büyük)"
+      },
+      {
+        "name": "Yatak odası 3",
+        "beds": "5 tek kişilik yatak"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-booking-850390007-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/schoenhouse-berlin-city-street.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_850390007",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "1 çift kişilik yatak (büyük)"
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "1 çift kişilik yatak (büyük)"
+      },
+      {
+        "name": "Oturma odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-booking-1252191308-20261230-20270101": {
+    "source": "https://www.booking.com/hotel/de/apartmenthaus-berlin-mitte-digital-check-in.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1252191308",
+    "rooms": [
+      {
+        "name": "Yatak odası",
+        "beds": "1 çift kişilik yatak (büyük)"
+      },
+      {
+        "name": "Oturma odası",
+        "beds": "2 çekyat"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-german-p5553503-20261230-20270103": {
+    "source": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p5553503?startDate=2026-12-30&endDate=2027-01-03&adults=6",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "1 queen çift kişilik yatak"
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "1 queen çift kişilik yatak"
+      },
+      {
+        "name": "Yatak odası 3",
+        "beds": "1 queen çift kişilik yatak"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-german-p5553503-20261230-20270101": {
+    "source": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p5553503?startDate=2026-12-30&endDate=2027-01-01&adults=6&chkin=2026-12-30&chkout=2027-01-01&searchId=09dca08b-5bab-4e9a-a315-d4de9a0142b2",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "1 queen çift kişilik yatak"
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "1 queen çift kişilik yatak"
+      },
+      {
+        "name": "Yatak odası 3",
+        "beds": "1 queen çift kişilik yatak"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-german-p2714753-20261230-20270103": {
+    "source": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p2714753?startDate=2026-12-30&endDate=2027-01-03&adults=6",
+    "rooms": [
+      {
+        "name": "Yatak odası 1",
+        "beds": "4 tek kişilik yatak, 1 büyük futon"
+      },
+      {
+        "name": "Yatak odası 2",
+        "beds": "3 tek kişilik yatak"
+      },
+      {
+        "name": "Yatak odası 3",
+        "beds": "1 king çift kişilik yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "1 büyük futon"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Çift kişilik yatak tek yataktır; çekyat ayrıca gösterilir.",
+    "status": "ilan"
+  },
+  "sweep6-airbnb-13868134-20261230-20270103": {
+    "source": "https://www.airbnb.com.tr/rooms/13868134?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. yatak odası",
+        "beds": "1 queen çift kişilik yatak"
+      },
+      {
+        "name": "2. yatak odası",
+        "beds": "1 queen çift kişilik yatak ve 2 tek kişilik yatak; İki tek kişilik yatak bir çift kişilik haline getirilebiliyor; ayrı yatak isteniyorsa ayrı tutulmalı."
+      },
+      {
+        "name": "3. yatak odası",
+        "beds": "1 queen çift kişilik yatak"
+      },
+      {
+        "name": "4. yatak odası",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "5. yatak odası",
+        "beds": "1 queen çift kişilik yatak"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. 4. ve 5. odanın görsel alt etiketleri başlıklarla ters görünüyor; döküm metin başlıklarını izler. Çift kişilik yatak bir yatak; çekyat ve bebek yatağı yetişkin gerçek yatak sayısına dahil edilmedi.",
+    "status": "ilan"
+  },
+  "sweep6-airbnb-1406503358873925054-20261230-20270103": {
+    "source": "https://www.airbnb.com.tr/rooms/1406503358873925054?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. yatak odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "2. yatak odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "3. yatak odası",
+        "beds": "1 çift kişilik yatak ve 1 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma odası 2",
+        "beds": "2 tek kişilik yatak ve 1 çekyat (gerçek yatak sayısına dahil değil)"
+      }
+    ],
+    "note": "06.11.2026 ilan oda dökümü. Dörtten fazla yatağın hazırlanması için varıştan bir hafta önce bildirim isteniyor. Çift kişilik yatak bir yatak; çekyat ve bebek yatağı yetişkin gerçek yatak sayısına dahil edilmedi.",
+    "status": "ilan"
+  }
+}

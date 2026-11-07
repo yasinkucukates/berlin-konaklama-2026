@@ -1,0 +1,1215 @@
+[
+  {
+    "id": "six-airbnb-588125307521181982-first",
+    "sourceId": "588125307521181982",
+    "samePropertyAs": null,
+    "previousSevenStatus": "Önceki galeride aynı ilan bulunmadı.",
+    "name": "Mainzer Straße | İki Banyolu Daire",
+    "area": "Friedrichshain, Mainzer Straße",
+    "kind": "Dairenin tamamı",
+    "group": "split-first-apartment",
+    "capacity": 8,
+    "rooms": 2,
+    "baths": "2",
+    "beds": "Her odada bir çift ve bir tek kişilik gerçek yatak: toplam 2 çift + 2 tek, altı kişi çekyatsız kalabilir.",
+    "features": "Yaklaşık 90 m²; iki duşlu banyo ve WC, mutfak, ısıtma, Wi-Fi ve çamaşır makinesi. Dijital check-in için kimlik isteniyor; kartla depozito provizyonu istenebilir.",
+    "price": "1.201,85 €",
+    "priceEUR": 1201.85,
+    "priceStatus": "Araç toplamı; vergi satırı var",
+    "priceClass": "search",
+    "priceNote": "30 Aralık–1 Ocak, altı yetişkin için toplam 1.201,85 € ve vergi satırı 150,23 €. Dökümde baz ve indirim kalemleri tam açıklanmadığından son toplam kontrol edilmeli.",
+    "availabilityNote": "Altı yetişkin ve doğru iki geceyle arama isAvailable=true ve fiyat döndürdü.",
+    "rsoCar": "17 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "8 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz sürüş modeli; Airbnb yaklaşık ilan noktası kullanıldı. Gerçek trafik, kış ve yılbaşı koşullarında süre değişebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.3914,52.5026;13.4641,52.4978;13.4629,52.5144;13.44745,52.5149;13.46318,52.5133;13.4626,52.5141;13.45417,52.50964;13.56474,52.49435;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7&destinations=8;9&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "assessment": "İki banyolu; iki çift ve iki tek gerçek yatak altı kişiye yeter. Yemek masası kaynakta beş kişilik.",
+    "link": "https://www.airbnb.com/rooms/588125307521181982?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR",
+    "photos": [
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/cfcd3602-a717-49e6-bfb2-c7104f69373a.jpeg"
+      ],
+      [
+        "Mutfak",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/346eea87-3bcc-46cf-b722-ef2805b61beb.jpeg"
+      ],
+      [
+        "Yemek alanı",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/340dbfea-3d1b-43c3-8a7a-c7aa15181a91.jpeg"
+      ],
+      [
+        "Birinci yatak odası",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/f16894e0-9756-4086-96c3-8a917aa68ef3.jpeg"
+      ],
+      [
+        "İkinci yatak odası",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/d45300a3-15ee-4075-8fe5-15617ca0c2a5.jpeg"
+      ],
+      [
+        "Banyo",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/89505e23-7e45-42ce-bd2a-fb041592fdbb.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 7",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/5d00a3e9-44da-4ab8-86b7-e6f4be584e47.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 8",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/6f241b94-2dc2-4136-895a-c1e6571e3cd4.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 9",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/117d7056-a060-4c36-927d-d24b1faa3b86.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/f454ca80-65f5-406e-a841-d42879826912.jpeg"
+      ]
+    ],
+    "photoNote": "Fotoğraf alan adları kaynak açıklamasından. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+    "platform": "Airbnb",
+    "wave": 6,
+    "adults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-01",
+    "nights": 2,
+    "checkInTime": "Dijital giriş, saat bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Entire rental unit; iki banyo/WC aynı dairenin içindedir.",
+      "source": "https://www.airbnb.com/rooms/588125307521181982?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR"
+    },
+    "coords": {
+      "lat": 52.5141,
+      "lon": 13.4626,
+      "accuracy": "Airbnb ilanının yaklaşık harita noktası; kesin kapı adresi değil",
+      "source": "https://www.airbnb.com/rooms/588125307521181982?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR"
+    },
+    "evidenceFile": "./six/airbnb.json",
+    "evidence": {
+      "provider": "Apify tri_angle Airbnb",
+      "runId": "sn4faf8dL8gpznOCV",
+      "datasetId": "SP9jzf5eLDF3i3rRj",
+      "observedAt": "2026-11-05T11:50:56.959Z",
+      "request": {
+        "adults": 6,
+        "checkIn": "2026-12-30",
+        "checkOut": "2027-01-01",
+        "currency": "EUR"
+      },
+      "returnedDates": {
+        "checkIn": "2026-12-30",
+        "checkOut": "2027-01-01"
+      },
+      "isAvailable": true,
+      "price": {
+        "label": "€1,202 total, originally €1,311",
+        "qualifier": "total",
+        "price": "€1,202",
+        "originalPrice": "€1,311",
+        "discountedPrice": "€1,202",
+        "breakDown": {
+          "basePrice": {
+            "description": "2 nights x €579.90",
+            "price": "€1,159.80"
+          },
+          "basePriceBreakdown": [],
+          "serviceFee": null,
+          "taxes": {
+            "price": "€150.23",
+            "description": "Taxes"
+          },
+          "total": {
+            "price": "€1,201.85",
+            "description": "Total"
+          },
+          "totalBeforeTaxes": null,
+          "cleaningFee": null,
+          "specialOffer": null,
+          "earlyBirdDiscount": null
+        }
+      },
+      "listing": {
+        "title": "Entire rental unit in Berlin, Germany",
+        "items": [
+          "8 guests",
+          "2 bedrooms",
+          "6 beds",
+          "2 bathrooms"
+        ]
+      },
+      "photosFrom": "Airbnb kaynak URL'leri"
+    },
+    "_sourceFile": "airbnb.json",
+    "maxAdults": null,
+    "ui7Eligible": null,
+    "priceQuoteAdults": 6,
+    "sevenQuoteConfirmed": false,
+    "sevenShareNote": "Yediye bölme yalnız altı yetişkinlik teklifin aritmetik paylaşımıdır; yedi yetişkin için fiyat veya uygunluk kanıtı değildir."
+  },
+  {
+    "id": "six-airbnb-1506711709322131491-first",
+    "sourceId": "1506711709322131491",
+    "samePropertyAs": null,
+    "previousSevenStatus": "Önceki ham aramada görüldü; 7 yetişkin fiyatı kullanılmadı.",
+    "name": "Urban Nest | Dört Yatak Odalı Daire",
+    "area": "Friedrichshain, Libauer Straße",
+    "kind": "Dairenin tamamı",
+    "group": "split-first-apartment",
+    "capacity": 8,
+    "rooms": 4,
+    "baths": "1",
+    "beds": "Üç odada 180×200 cm çift yatak, dördüncü odada 140×200 cm çift yatak. Altı kişi için ilk üç yatak yeterli. Küçük dördüncü odaya bitişik odadan geçiliyor.",
+    "features": "100 m²; mutfak, ısıtma, Wi-Fi ve bulaşık makinesi. Bir duşlu banyo; çamaşır makinesi yok. Kendi kendine giriş.",
+    "price": "1.464,68 €",
+    "priceEUR": 1464.68,
+    "priceStatus": "Araç toplamı; vergi kapsamı belirsiz",
+    "priceClass": "search",
+    "priceNote": "30 Aralık–1 Ocak, altı yetişkin için araç toplamı 1.464,68 €. Ayrı vergi veya hizmet ücreti satırı yok; dahil olup olmadığı belirsiz.",
+    "availabilityNote": "Altı yetişkin ve doğru iki geceyle arama isAvailable=true ve fiyat döndürdü.",
+    "rsoCar": "15 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "7 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz sürüş modeli; Airbnb yaklaşık ilan noktası kullanıldı. Gerçek trafik, kış ve yılbaşı koşullarında süre değişebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.3914,52.5026;13.4641,52.4978;13.4629,52.5144;13.44745,52.5149;13.46318,52.5133;13.4626,52.5141;13.45417,52.50964;13.56474,52.49435;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7&destinations=8;9&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "assessment": "Üç büyük çift yatak altı kişiye yeterli; dört oda seçeneği ve tek banyo var.",
+    "link": "https://www.airbnb.com/rooms/1506711709322131491?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR",
+    "photos": [
+      [
+        "Mutfak",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/a1c41bf2-6062-43a3-8111-083cfa771e77.jpeg"
+      ],
+      [
+        "Yemek alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/bb72e4f6-143f-41bd-80c2-be9903da6ec3.jpeg"
+      ],
+      [
+        "Birinci yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/c15c21a3-401e-4453-a1d0-b421db00c9d6.jpeg"
+      ],
+      [
+        "İkinci yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/77419c8f-eb4f-4367-9df5-95e84a17678f.jpeg"
+      ],
+      [
+        "Üçüncü yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/f695db6f-6cc5-4c8f-886e-79a37262badc.jpeg"
+      ],
+      [
+        "Banyo",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/220378b1-239e-4942-b3d2-7f23c4c030cb.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 7",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/14a7198b-4bb2-4b04-8c42-96e5a5df396b.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 8",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/04561d40-a290-440d-a3a1-9d93d54de272.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 9",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/0e4087b3-d766-4f17-adee-b74b77d309d1.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/58798343-e621-42f2-a3f3-a3eb160b4ff3.jpeg"
+      ]
+    ],
+    "photoNote": "Fotoğraf alan adları kaynak açıklamasından. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+    "platform": "Airbnb",
+    "wave": 6,
+    "adults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-01",
+    "nights": 2,
+    "checkInTime": "Kendi kendine giriş; başlangıç saati bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "İlan Entire rental unit, özel giriş ve daire içindeki banyo tarif ediyor.",
+      "source": "https://www.airbnb.com/rooms/1506711709322131491?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR"
+    },
+    "coords": {
+      "lat": 52.50964,
+      "lon": 13.45417,
+      "accuracy": "Airbnb ilanının yaklaşık harita noktası; kesin kapı adresi değil",
+      "source": "https://www.airbnb.com/rooms/1506711709322131491?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR"
+    },
+    "evidenceFile": "./six/airbnb.json",
+    "evidence": {
+      "provider": "Apify tri_angle Airbnb",
+      "runId": "sn4faf8dL8gpznOCV",
+      "datasetId": "SP9jzf5eLDF3i3rRj",
+      "observedAt": "2026-11-05T11:50:58.507Z",
+      "request": {
+        "adults": 6,
+        "checkIn": "2026-12-30",
+        "checkOut": "2027-01-01",
+        "currency": "EUR"
+      },
+      "returnedDates": {
+        "checkIn": "2026-12-30",
+        "checkOut": "2027-01-01"
+      },
+      "isAvailable": true,
+      "price": {
+        "label": "€1,465 total, originally €1,802",
+        "qualifier": "total",
+        "price": "€1,465",
+        "originalPrice": "€1,802",
+        "discountedPrice": "€1,465",
+        "breakDown": {
+          "basePrice": {
+            "description": "2 nights x €900.55",
+            "price": "€1,801.10"
+          },
+          "basePriceBreakdown": [],
+          "serviceFee": null,
+          "taxes": null,
+          "total": {
+            "price": "€1,464.68",
+            "description": "Total"
+          },
+          "totalBeforeTaxes": null,
+          "cleaningFee": null,
+          "specialOffer": null,
+          "earlyBirdDiscount": null
+        }
+      },
+      "listing": {
+        "title": "Entire rental unit in Berlin, Germany",
+        "items": [
+          "8 guests",
+          "4 bedrooms",
+          "4 beds",
+          "1 bathroom"
+        ]
+      },
+      "photosFrom": "Airbnb kaynak URL'leri"
+    },
+    "_sourceFile": "airbnb.json",
+    "maxAdults": null,
+    "ui7Eligible": null,
+    "priceQuoteAdults": 6,
+    "sevenQuoteConfirmed": false,
+    "sevenShareNote": "Yediye bölme yalnız altı yetişkinlik teklifin aritmetik paylaşımıdır; yedi yetişkin için fiyat veya uygunluk kanıtı değildir."
+  },
+  {
+    "id": "six-house-1144871109877188022-last",
+    "sourceId": "1144871109877188022",
+    "samePropertyAs": "1144871109877188022",
+    "name": "Biesdorf Bahçeli Ev",
+    "area": "Berlin, Biesdorf",
+    "kind": "Tüm ev",
+    "group": "full-house",
+    "capacity": 8,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Bir odada iki tek kişilik, diğer iki odada birer çift kişilik yatak. Altı kişi için çekyata gerek yok; çocuk odası olarak tanımlanan odadaki tek yatakların yetişkin ölçüsü teyitsiz.",
+    "features": "130 m² tüm ev ve bahçe; açık mutfak, iki banyo, Wi-Fi ve park yeri. Salondaki çekyat genişliği kaynakta 1,80 m ve 2 m olarak farklı tarif ediliyor.",
+    "price": "729,30 €",
+    "priceEUR": 729.3,
+    "priceStatus": "Ödeme öncesi toplam; vergi kapsamı belirsiz",
+    "priceClass": "checkout",
+    "priceNote": "Altı yetişkin için Airbnb ödeme öncesi özetinde toplam €729.30; vergi ayrı gösterilmedi, vergi ve diğer ücretlerin kapsamı teyitsiz. Ödeme yapılmadı. Baz €748.00, indirim €18.70.",
+    "availabilityNote": "Altı yetişkin ve seçili tarihlerle kaynakta müsaitlik ve ödeme öncesi fiyat görüldü. Fiyat ve müsaitlik değişebilir.",
+    "rsoCar": "16 dk",
+    "rsoTransit": "46 dk",
+    "tresorCar": "21 dk",
+    "tresorTransit": "47 dk",
+    "routeNote": "OSRM trafiksiz sürüş modeli; Airbnb yaklaşık ilan konumu kullanıldı. Gerçek adres, trafik ve yılbaşı koşulları süreyi değiştirebilir. VBB süreleri 1 Ocak 21.00 sonrası örnek aramaya aittir; tarife ve seferler yeniden kontrol edilmeli.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.4176,52.3231;13.48261,52.53651;13.6893,52.5982;13.7226,52.4623;13.6904,52.3008;13.592,52.5498;13.56474,52.49435;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6&destinations=7;8&annotations=duration,distance",
+    "routeObservedAt": "2026-11-05T12:33:58.544761+00:00",
+    "sleepConfirmed": false,
+    "assessment": "Altı kişi iki çift ve iki tek yatakla yerleşebilir; tek yatakların yetişkin ölçüsü teyit edilmeli. 1 Ocak girişi 16.00’dan itibaren.",
+    "link": "https://www.airbnb.com/rooms/1144871109877188022?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+    "photos": [
+      [
+        "Teras ve Dış Alan",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/058cfd71-efc9-4d0e-9448-6392c8e71024.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/65d4639e-a3b8-4eff-bb6b-1dae4d8573b3.jpeg"
+      ],
+      [
+        "Mutfak",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/a9d6d66b-4375-4532-987c-e8dcefa58496.jpeg"
+      ],
+      [
+        "Birinci Yatak Odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/efbf5011-3a3e-46a1-b596-902c09e0f3a8.jpeg"
+      ],
+      [
+        "Üçüncü Yatak Odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/add46c28-086c-45c9-b54d-e28eabace19e.jpeg"
+      ],
+      [
+        "Banyo",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/3db1fe24-60a1-441d-b1b7-0a2678b011ac.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 7",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/5e113f6b-5d91-4846-896c-6d8c68446523.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 8",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/512c8755-4c7e-4259-a008-29cb06787fbc.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 9",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/ca67641e-7123-4d33-aba7-04e2cbfd89c1.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/43042fdc-c23e-463a-988e-382b3044f589.jpeg"
+      ]
+    ],
+    "photoNote": "Dış cephe yerine teras gösteriliyor; üç yatak odasından ikisi seçildi. Kaynak fotoğraf kontrolü önceki ilan görseline ait. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+    "platform": "Airbnb",
+    "wave": 6,
+    "adults": 6,
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "16:00’dan itibaren",
+    "checkOutTime": "11:00’a kadar",
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Airbnb ilanı evin tamamını ve ev kapsamındaki 2 banyoyu gösteriyor.",
+      "source": "https://www.airbnb.com/rooms/1144871109877188022?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+    },
+    "coords": {
+      "lat": 52.49435,
+      "lon": 13.56474,
+      "accuracy": "Airbnb yaklaşık ilan noktası; kesin kapı adresi değil",
+      "source": "https://www.airbnb.com/rooms/1144871109877188022?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+    },
+    "evidenceFile": "./six/houses-evidence.json",
+    "evidence": {
+      "provider": "Apify tri_angle Airbnb",
+      "runId": "djpWaHNVzE5XaYXkn",
+      "datasetId": "6WeSrmmQO1bhgDaQ2",
+      "observedAt": "2026-11-05T11:57:26.139Z",
+      "request": {
+        "adults": 6,
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03",
+        "currency": "EUR"
+      },
+      "returnedDates": {
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03"
+      },
+      "isAvailable": true,
+      "price": {
+        "label": "€730 total",
+        "qualifier": "total",
+        "price": "€730",
+        "originalPrice": null,
+        "discountedPrice": null,
+        "breakDown": {
+          "basePrice": {
+            "description": "2 nights x €374.00",
+            "price": "€748.00"
+          },
+          "basePriceBreakdown": [],
+          "serviceFee": null,
+          "taxes": null,
+          "total": {
+            "price": "€729.30",
+            "description": "Total"
+          },
+          "totalBeforeTaxes": null,
+          "cleaningFee": null,
+          "specialOffer": null,
+          "earlyBirdDiscount": null
+        }
+      },
+      "listing": {
+        "title": "Entire home in Berlin, Germany",
+        "items": [
+          "8 guests",
+          "3 bedrooms",
+          "5 beds",
+          "2 bathrooms"
+        ]
+      },
+      "checkout": {
+        "id": "1144871109877188022",
+        "adults": 6,
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03",
+        "nights": 2,
+        "base": "€748.00",
+        "discount": "€18.70",
+        "total": "€729.30",
+        "tax": "not separately shown",
+        "freeCancellation": "2026-12-27 before",
+        "basis": "Airbnb Onay ve ödeme, seen via Chrome AX, no payment"
+      }
+    },
+    "_sourceFile": "houses.json",
+    "otherOffers": [
+      {
+        "id": "six-airbnb-1144871109877188022-last",
+        "sourceId": "1144871109877188022",
+        "sourceFile": "airbnb.json",
+        "link": "https://www.airbnb.com/rooms/1144871109877188022?check_in=2027-01-01&check_out=2027-01-03&adults=6&currency=EUR",
+        "price": "729,30 €",
+        "priceEUR": 729.3,
+        "priceTRY": null,
+        "priceStatus": "Araç toplamı; vergi kapsamı belirsiz"
+      }
+    ],
+    "maxAdults": null,
+    "ui7Eligible": null,
+    "priceQuoteAdults": 6,
+    "sevenQuoteConfirmed": false,
+    "sevenShareNote": "Yediye bölme yalnız altı yetişkinlik teklifin aritmetik paylaşımıdır; yedi yetişkin için fiyat veya uygunluk kanıtı değildir."
+  },
+  {
+    "id": "six-house-1777706242995862793-last",
+    "sourceId": "1777706242995862793",
+    "samePropertyAs": "1777706242995862793",
+    "name": "Dieter’in Evi",
+    "area": "Werneuchen",
+    "kind": "Tüm ev",
+    "group": "full-house",
+    "capacity": 7,
+    "rooms": 3,
+    "baths": "1,5",
+    "beds": "Bir queen ve üç tek kişilik normal yatak toplam beş kişiyi karşılar; altıncı yetişkin için çekyatın boyutu ve uygunluğu teyitsiz.",
+    "features": "Tüm ev; bahçe, teras ve ısıtmasız, mevsimlik havuz. Havuzun ocakta kullanılabilirliği ve dış alanların münhasırlığı doğrulanmadı.",
+    "price": "576,00 €",
+    "priceEUR": 576.0,
+    "priceStatus": "Tarihli araç fiyatı; vergi kapsamı belirsiz",
+    "priceClass": "search",
+    "priceNote": "Altı yetişkin ve seçili tarihler için kaynak araç €576 for 2 nights gösterdi; ayrıntılı toplam, vergi ve ücret dökümü boş. Ödeme öncesi son tutar ayrıca kontrol edilmeli.",
+    "availabilityNote": "Altı yetişkin ve seçili tarihlerle tarihli araç ayrıntısında isAvailable=true. Ödeme öncesi toplam ve güncel müsaitlik yeniden kontrol edilmeli.",
+    "rsoCar": "41 dk",
+    "rsoTransit": "Sorgu başarısız",
+    "tresorCar": "36 dk",
+    "tresorTransit": "Sorgu başarısız",
+    "routeNote": "OSRM trafiksiz sürüş modeli; Airbnb yaklaşık ilan konumu kullanıldı. Gerçek adres, trafik ve yılbaşı koşulları süreyi değiştirebilir. 1 Ocak için önceki VBB sorguları HTTP 404 döndürdü; bu sonuç sefer yokluğunu göstermez.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.4176,52.3231;13.48261,52.53651;13.6893,52.5982;13.7226,52.4623;13.6904,52.3008;13.592,52.5498;13.56474,52.49435;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6&destinations=7;8&annotations=duration,distance",
+    "routeObservedAt": "2026-11-05T12:33:58.544761+00:00",
+    "sleepConfirmed": false,
+    "assessment": "Altıncı kişinin çekyatı kullanabilmesi doğrulanırsa değerlendirilebilir. Havuzun kışın açık olduğu varsayılmamalı.",
+    "link": "https://www.airbnb.com/rooms/1777706242995862793?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+    "photos": [
+      [
+        "Teras ve Havuz",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/9c7d1da2-5101-48e0-ac56-e2f8914018cd.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/029cd52e-8312-4f06-b28e-504d25acb9ba.jpeg"
+      ],
+      [
+        "Mutfak ve Yemek Alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/a2c32df4-cef8-44bf-b051-8a7858be0457.jpeg"
+      ],
+      [
+        "Çift ve Tek Yataklı Oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/daa23227-88c1-4961-9dc2-c20b1eed92bd.jpeg"
+      ],
+      [
+        "İki Tek Yataklı Oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/88b1a0b2-5bcc-45a7-8d0b-cb5b40e4130e.jpeg"
+      ],
+      [
+        "Banyo",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/87e4892e-5d21-4653-953d-16be4b59a71b.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 7",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/d2385e66-b0ef-47a7-85e6-b694c670bf63.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 8",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/756b8c3b-82df-46e3-b199-e2e1965d7d9e.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 9",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/fef9175a-f9ee-4d53-b10f-6d9292287728.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/a3b931af-dd1e-4e19-b457-85183c4eff50.jpeg"
+      ]
+    ],
+    "photoNote": "Üç yatak odasından ikisi fotoğraflarda ayırt ediliyor. Havuz fotoğrafı kışın kullanımını doğrulamaz. Kaynak fotoğraf kontrolü önceki ilan görseline ait. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+    "platform": "Airbnb",
+    "wave": 6,
+    "adults": 6,
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "Esnek giriş; saat aralığı belirtilmedi",
+    "checkOutTime": "12:00’a kadar",
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Airbnb ilanı evin tamamını ve ev kapsamındaki 1,5 banyoyu gösteriyor.",
+      "source": "https://www.airbnb.com/rooms/1777706242995862793?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+    },
+    "coords": {
+      "lat": 52.5982,
+      "lon": 13.6893,
+      "accuracy": "Airbnb yaklaşık ilan noktası; kesin kapı adresi değil",
+      "source": "https://www.airbnb.com/rooms/1777706242995862793?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+    },
+    "evidenceFile": "./six/houses-evidence.json",
+    "evidence": {
+      "provider": "Apify tri_angle Airbnb",
+      "runId": "djpWaHNVzE5XaYXkn",
+      "datasetId": "6WeSrmmQO1bhgDaQ2",
+      "observedAt": "2026-11-05T11:57:26.139Z",
+      "request": {
+        "adults": 6,
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03",
+        "currency": "EUR"
+      },
+      "returnedDates": {
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03"
+      },
+      "isAvailable": true,
+      "price": {
+        "label": "€576 for 2 nights",
+        "qualifier": "for 2 nights",
+        "price": "€576",
+        "originalPrice": null,
+        "discountedPrice": null,
+        "breakDown": {
+          "basePrice": {
+            "description": "2 nights x €288.00",
+            "price": "€576.00"
+          },
+          "basePriceBreakdown": [],
+          "serviceFee": null,
+          "taxes": null,
+          "total": null,
+          "totalBeforeTaxes": null,
+          "cleaningFee": null,
+          "specialOffer": null,
+          "earlyBirdDiscount": null
+        }
+      },
+      "listing": {
+        "title": "Entire home in Werneuchen, Germany",
+        "items": [
+          "7 guests",
+          "3 bedrooms",
+          "5 beds",
+          "1.5 bathrooms"
+        ]
+      }
+    },
+    "_sourceFile": "houses.json",
+    "maxAdults": null,
+    "ui7Eligible": null,
+    "priceQuoteAdults": 6,
+    "sevenQuoteConfirmed": false,
+    "sevenShareNote": "Yediye bölme yalnız altı yetişkinlik teklifin aritmetik paylaşımıdır; yedi yetişkin için fiyat veya uygunluk kanıtı değildir."
+  },
+  {
+    "id": "six-house-1755900699204248773-last",
+    "sourceId": "1755900699204248773",
+    "samePropertyAs": "1755900699204248773",
+    "name": "Rosengarten Residence",
+    "area": "Schöneiche bei Berlin",
+    "kind": "Tüm ev",
+    "group": "full-house",
+    "capacity": 6,
+    "rooms": 2,
+    "baths": "2",
+    "beds": "İlanda iki yatak odası ve dört yatak var; yatakların türü, ölçüsü ve altı yetişkine uygun dağılımı teyitsiz.",
+    "features": "Bahçeye erişimli tüm ev; iki banyo ve mutfak. Bahçenin yalnız bu eve tahsisi ayrıca doğrulanmadı.",
+    "price": "341,00 €",
+    "priceEUR": 341.0,
+    "priceStatus": "Tarihli araç fiyatı; vergi kapsamı belirsiz",
+    "priceClass": "search",
+    "priceNote": "Altı yetişkin ve seçili tarihler için kaynak araç €341 for 2 nights gösterdi; ayrıntılı toplam, vergi ve ücret dökümü boş. Ödeme öncesi son tutar ayrıca kontrol edilmeli.",
+    "availabilityNote": "Altı yetişkin ve seçili tarihlerle tarihli araç ayrıntısında isAvailable=true. Ödeme öncesi toplam ve güncel müsaitlik yeniden kontrol edilmeli.",
+    "rsoCar": "29 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "38 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz sürüş modeli; Airbnb yaklaşık ilan konumu kullanıldı. Gerçek adres, trafik ve yılbaşı koşulları süreyi değiştirebilir. ",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.4176,52.3231;13.48261,52.53651;13.6893,52.5982;13.7226,52.4623;13.6904,52.3008;13.592,52.5498;13.56474,52.49435;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6&destinations=7;8&annotations=duration,distance",
+    "routeObservedAt": "2026-11-05T12:33:58.544761+00:00",
+    "sleepConfirmed": false,
+    "assessment": "Altı yetişkin için yatakların ölçüsü ve dağılımı teyit edilmeden kesin uygun sayılmamalı.",
+    "link": "https://www.airbnb.com/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+    "photos": [
+      [
+        "Dış Cephe",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/7951affb-e875-4a71-b7b1-d1ba5599c9f0.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/ac8647a6-19fb-423a-bf5a-7489961d2399.jpeg"
+      ],
+      [
+        "Mutfak",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/49154671-2e95-4046-a573-92a5579959fa.jpeg"
+      ],
+      [
+        "Birinci Yatak Odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/06e7d6ef-4fa2-409d-be34-496f0bcfbc66.jpeg"
+      ],
+      [
+        "İkinci Yatak Odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/35c97ed5-f02b-4220-86c8-6a9bc1193b32.jpeg"
+      ],
+      [
+        "Banyo",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/fd8c2366-49b7-4043-9c7c-7d3be1584dbd.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 7",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/35c31d3b-2579-4f09-86bb-76e25174ed6e.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 8",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/0c17f227-b4d6-4882-ab71-7bb3be8201a4.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 9",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/9541c74d-f61b-401b-9f77-f04ecce3313d.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/5aab6a83-c0d0-4b2c-bf18-37437ceaaaa4.jpeg"
+      ]
+    ],
+    "photoNote": "Alan adları kaynak görsel başlıklarından alındı; bu altı fotoğraf için ayrıca manuel görsel kontrol yapılmadı. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+    "platform": "Airbnb",
+    "wave": 6,
+    "adults": 6,
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "Bilinmiyor",
+    "checkOutTime": "Bilinmiyor",
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Airbnb tüm ev ve iki banyo bildiriyor; açıklama özel ev ve mahremiyeti vurguluyor. Bahçenin münhasırlığı ayrıca doğrulanmadı.",
+      "source": "https://www.airbnb.com/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+    },
+    "coords": {
+      "lat": 52.4623,
+      "lon": 13.7226,
+      "accuracy": "Airbnb yaklaşık ilan noktası; kesin kapı adresi değil",
+      "source": "https://www.airbnb.com/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+    },
+    "evidenceFile": "./six/houses-evidence.json",
+    "evidence": {
+      "provider": "Apify tri_angle Airbnb",
+      "runId": "djpWaHNVzE5XaYXkn",
+      "datasetId": "6WeSrmmQO1bhgDaQ2",
+      "observedAt": "2026-11-05T11:57:26.139Z",
+      "request": {
+        "adults": 6,
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03",
+        "currency": "EUR"
+      },
+      "returnedDates": {
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03"
+      },
+      "isAvailable": true,
+      "price": {
+        "label": "€341 for 2 nights",
+        "qualifier": "for 2 nights",
+        "price": "€341",
+        "originalPrice": null,
+        "discountedPrice": null,
+        "breakDown": {
+          "basePrice": {
+            "description": "2 nights x €170.50",
+            "price": "€341.00"
+          },
+          "basePriceBreakdown": [],
+          "serviceFee": null,
+          "taxes": null,
+          "total": null,
+          "totalBeforeTaxes": null,
+          "cleaningFee": null,
+          "specialOffer": null,
+          "earlyBirdDiscount": null
+        }
+      },
+      "listing": {
+        "title": "Entire home in Schöneiche bei Berlin, Germany",
+        "items": [
+          "6 guests",
+          "2 bedrooms",
+          "4 beds",
+          "2 bathrooms"
+        ]
+      }
+    },
+    "_sourceFile": "houses.json",
+    "maxAdults": null,
+    "ui7Eligible": false,
+    "priceQuoteAdults": 6,
+    "sevenQuoteConfirmed": false,
+    "sevenShareNote": "İlan kapasitesi veya yetişkin sınırı yedi kişiyi karşılamıyor."
+  },
+  {
+    "id": "six-house-1641351333944417315-last",
+    "sourceId": "1641351333944417315",
+    "samePropertyAs": "1641351333944417315",
+    "name": "Königs Wusterhausen Kır Evi",
+    "area": "Königs Wusterhausen",
+    "kind": "Tüm ev",
+    "group": "full-house",
+    "capacity": 8,
+    "rooms": 4,
+    "baths": "2",
+    "beds": "Üç odada birer çift kişilik yatak, dördüncü odada iki tek kişilik yatak. Altı yetişkin üç çift yatağı paylaşabilir.",
+    "features": "Tüm ev, iki banyo, bahçe, teras, mutfak, şömine ve otopark. Çamaşır makinesi ücretli; bağımsız bina niteliği ayrıca doğrulanmadı.",
+    "price": "845,00 €",
+    "priceEUR": 845.0,
+    "priceStatus": "Ödeme öncesi toplam; vergi kapsamı belirsiz",
+    "priceClass": "checkout",
+    "priceNote": "Altı yetişkin için Airbnb ödeme öncesi özetinde toplam €845.00; vergi ayrı gösterilmedi, vergi ve diğer ücretlerin kapsamı teyitsiz. Ödeme yapılmadı.",
+    "availabilityNote": "Altı yetişkin ve seçili tarihlerle kaynakta müsaitlik ve ödeme öncesi fiyat görüldü. Fiyat ve müsaitlik değişebilir.",
+    "rsoCar": "28 dk",
+    "rsoTransit": "65 dk",
+    "tresorCar": "36 dk",
+    "tresorTransit": "68 dk",
+    "routeNote": "OSRM trafiksiz sürüş modeli; Airbnb yaklaşık ilan konumu kullanıldı. Gerçek adres, trafik ve yılbaşı koşulları süreyi değiştirebilir. VBB süreleri 1 Ocak 21.00 sonrası örnek aramaya aittir; tarife ve seferler yeniden kontrol edilmeli.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.4176,52.3231;13.48261,52.53651;13.6893,52.5982;13.7226,52.4623;13.6904,52.3008;13.592,52.5498;13.56474,52.49435;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6&destinations=7;8&annotations=duration,distance",
+    "routeObservedAt": "2026-11-05T12:33:58.544761+00:00",
+    "sleepConfirmed": true,
+    "assessment": "Altı kişiye yetecek normal yatak düzeni var. 1 Ocak saat 16.00 girişine kadar bekleme ve bagaj planlanmalı.",
+    "link": "https://www.airbnb.com/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+    "photos": [
+      [
+        "Teras",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/02b4c64d-cb9f-4f1d-8742-693eede82652.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/87a6833f-a5d4-4d16-9957-7ce64ba7ddd1.jpeg"
+      ],
+      [
+        "Mutfak",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/73427a9c-c005-4970-9a4d-33d17e364802.jpeg"
+      ],
+      [
+        "Birinci Yatak Odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/fbbd970b-7f61-453b-934c-f2181eb25521.jpeg"
+      ],
+      [
+        "İki Tek Yataklı Oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/d15aa695-197b-478c-9eda-d27800e5b8cd.jpeg"
+      ],
+      [
+        "Banyo",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/460f60c1-da5e-4de6-80f2-ace8daf9744b.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 7",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/258476ff-d2cf-4593-a687-4c3a6a7b4f46.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 8",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/431dca69-7e47-4897-b3d9-60427df6667d.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 9",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/f0a12f91-4e73-427f-b701-a2300ff69081.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/8abe637b-1486-49bc-8df0-e2d935d50cd4.png"
+      ]
+    ],
+    "photoNote": "Dış cephe yerine teras gösteriliyor; dört yatak odasından ikisi fotoğraf seçiminde var. Kaynak fotoğraf kontrolü önceki ilan görseline ait. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+    "platform": "Airbnb",
+    "wave": 6,
+    "adults": 6,
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "16:00’dan itibaren",
+    "checkOutTime": "10:00’a kadar",
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Airbnb ilanı evin tamamını ve ev kapsamındaki 2 banyoyu gösteriyor.",
+      "source": "https://www.airbnb.com/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+    },
+    "coords": {
+      "lat": 52.3008,
+      "lon": 13.6904,
+      "accuracy": "Airbnb yaklaşık ilan noktası; kesin kapı adresi değil",
+      "source": "https://www.airbnb.com/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+    },
+    "evidenceFile": "./six/houses-evidence.json",
+    "evidence": {
+      "provider": "Apify tri_angle Airbnb",
+      "runId": "djpWaHNVzE5XaYXkn",
+      "datasetId": "6WeSrmmQO1bhgDaQ2",
+      "observedAt": "2026-11-05T11:57:26.139Z",
+      "request": {
+        "adults": 6,
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03",
+        "currency": "EUR"
+      },
+      "returnedDates": {
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03"
+      },
+      "isAvailable": true,
+      "price": {
+        "label": "€845 total",
+        "qualifier": "total",
+        "price": "€845",
+        "originalPrice": null,
+        "discountedPrice": null,
+        "breakDown": {
+          "basePrice": {
+            "description": "2 nights x €422.50",
+            "price": "€845.00"
+          },
+          "basePriceBreakdown": [],
+          "serviceFee": null,
+          "taxes": null,
+          "total": null,
+          "totalBeforeTaxes": null,
+          "cleaningFee": null,
+          "specialOffer": null,
+          "earlyBirdDiscount": null
+        }
+      },
+      "listing": {
+        "title": "Entire home in Königs Wusterhausen, Germany",
+        "items": [
+          "8 guests",
+          "4 bedrooms",
+          "5 beds",
+          "2 bathrooms"
+        ]
+      },
+      "checkout": {
+        "id": "1641351333944417315",
+        "adults": 6,
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03",
+        "nights": 2,
+        "base": "€845.00",
+        "total": "€845.00",
+        "tax": "not separately shown",
+        "freeCancellation": "2026-12-27 before",
+        "basis": "Airbnb Onay ve ödeme, seen via Chrome AX, no payment"
+      }
+    },
+    "_sourceFile": "houses.json",
+    "maxAdults": null,
+    "ui7Eligible": null,
+    "priceQuoteAdults": 6,
+    "sevenQuoteConfirmed": false,
+    "sevenShareNote": "Yediye bölme yalnız altı yetişkinlik teklifin aritmetik paylaşımıdır; yedi yetişkin için fiyat veya uygunluk kanıtı değildir."
+  },
+  {
+    "id": "six-house-1468719376516749093-last",
+    "sourceId": "1468719376516749093",
+    "samePropertyAs": "1468719376516749093",
+    "name": "Ahrensfelde Aile Evi",
+    "area": "Ahrensfelde",
+    "kind": "Tüm ev",
+    "group": "full-house",
+    "capacity": 8,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Üç yatak odasında üç çift kişilik yatak bulunuyor; üst kattaki iki odada ayrıca birer tek kişilik yatak tarif ediliyor. Altı yetişkin üç çift yatağı paylaşabilir.",
+    "features": "İki katlı tüm ev, iki banyo, mutfak, salon, teras, bahçe ve park yeri. Bahçe ve komşu alandaki düzenleme sürüyor.",
+    "price": "980,00 €",
+    "priceEUR": 980.0,
+    "priceStatus": "Ödeme öncesi toplam; vergi kapsamı belirsiz",
+    "priceClass": "checkout",
+    "priceNote": "Altı yetişkin için Airbnb ödeme öncesi özetinde toplam €980.00; vergi ayrı gösterilmedi, vergi ve diğer ücretlerin kapsamı teyitsiz. Ödeme yapılmadı.",
+    "availabilityNote": "Altı yetişkin ve seçili tarihlerle kaynakta müsaitlik ve ödeme öncesi fiyat görüldü. Fiyat ve müsaitlik değişebilir.",
+    "rsoCar": "25 dk",
+    "rsoTransit": "62 dk",
+    "tresorCar": "24 dk",
+    "tresorTransit": "55 dk",
+    "routeNote": "OSRM trafiksiz sürüş modeli; Airbnb yaklaşık ilan konumu kullanıldı. Gerçek adres, trafik ve yılbaşı koşulları süreyi değiştirebilir. VBB süreleri 1 Ocak 21.00 sonrası örnek aramaya aittir; tarife ve seferler yeniden kontrol edilmeli.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.4176,52.3231;13.48261,52.53651;13.6893,52.5982;13.7226,52.4623;13.6904,52.3008;13.592,52.5498;13.56474,52.49435;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6&destinations=7;8&annotations=duration,distance",
+    "routeObservedAt": "2026-11-05T12:33:58.544761+00:00",
+    "sleepConfirmed": true,
+    "assessment": "Altı kişi üç çift yatakta kalabilir. Bahçe ve komşu alan henüz tam düzenlenmemiş; giriş 16.00’dan itibaren.",
+    "link": "https://www.airbnb.com/rooms/1468719376516749093?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+    "photos": [
+      [
+        "Dış Giriş",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/8786008e-10d9-4dbc-9ffd-035d8b62f445.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/63b8a050-2d5e-41ad-b11c-dd054db3fedc.jpeg"
+      ],
+      [
+        "Mutfak",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/3d679410-5f73-4775-9345-c4c80f29ada5.jpeg"
+      ],
+      [
+        "Tek Kişilik Yataklı Oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/a7842bbe-71ea-411e-a129-7693b5e29df7.jpeg"
+      ],
+      [
+        "Çift Kişilik Yataklı Oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/e3867035-bec7-41e4-aba1-200e40c840bd.jpeg"
+      ],
+      [
+        "Banyo",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/2239025c-5324-4789-b6aa-9885bc0b1c1b.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 7",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/3ecdd9fe-d228-4866-a091-21c80447e63f.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 8",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/33dfbcb9-a46d-4af7-be77-5b41f94c8ef8.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 9",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/5007a507-44b3-4c10-b651-0225b42bf019.jpeg"
+      ],
+      [
+        "İlan Fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/91401a40-543c-4c81-b614-c597fda23e02.jpeg"
+      ]
+    ],
+    "photoNote": "Üç yatak odasından ikisi gösteriliyor; üçüncü oda ayrıca incelenmeli. Tamamlanmış bahçe görünümü yerine mevcut giriş fotoğrafı seçildi. Kaynak fotoğraf kontrolü önceki ilan görseline ait. Ek kareler aynı ilan kimliğinin kaynak galerisinden alındı; bu karelerin oda eşleşmesi ayrıca doğrulanmadı.",
+    "platform": "Airbnb",
+    "wave": 6,
+    "adults": 6,
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "16:00’dan itibaren",
+    "checkOutTime": "10:00’a kadar",
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Airbnb ilanı evin tamamını ve ev kapsamındaki 2 banyoyu gösteriyor.",
+      "source": "https://www.airbnb.com/rooms/1468719376516749093?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+    },
+    "coords": {
+      "lat": 52.5498,
+      "lon": 13.592,
+      "accuracy": "Airbnb yaklaşık ilan noktası; kesin kapı adresi değil",
+      "source": "https://www.airbnb.com/rooms/1468719376516749093?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+    },
+    "evidenceFile": "./six/houses-evidence.json",
+    "evidence": {
+      "provider": "Apify tri_angle Airbnb",
+      "runId": "djpWaHNVzE5XaYXkn",
+      "datasetId": "6WeSrmmQO1bhgDaQ2",
+      "observedAt": "2026-11-05T11:57:26.139Z",
+      "request": {
+        "adults": 6,
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03",
+        "currency": "EUR"
+      },
+      "returnedDates": {
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03"
+      },
+      "isAvailable": true,
+      "price": {
+        "label": "€980 total",
+        "qualifier": "total",
+        "price": "€980",
+        "originalPrice": null,
+        "discountedPrice": null,
+        "breakDown": {
+          "basePrice": {
+            "description": "2 nights x €490.00",
+            "price": "€980.00"
+          },
+          "basePriceBreakdown": [],
+          "serviceFee": null,
+          "taxes": null,
+          "total": null,
+          "totalBeforeTaxes": null,
+          "cleaningFee": null,
+          "specialOffer": null,
+          "earlyBirdDiscount": null
+        }
+      },
+      "listing": {
+        "title": "Entire home in Ahrensfelde, Germany",
+        "items": [
+          "8 guests",
+          "3 bedrooms",
+          "5 beds",
+          "2 bathrooms"
+        ]
+      },
+      "checkout": {
+        "id": "1468719376516749093",
+        "adults": 6,
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03",
+        "nights": 2,
+        "base": "€980.00",
+        "total": "€980.00",
+        "tax": "not separately shown",
+        "freeCancellation": "2026-12-02",
+        "basis": "Airbnb Onay ve ödeme, seen via Chrome AX, no payment"
+      }
+    },
+    "_sourceFile": "houses.json",
+    "maxAdults": null,
+    "ui7Eligible": null,
+    "priceQuoteAdults": 6,
+    "sevenQuoteConfirmed": false,
+    "sevenShareNote": "Yediye bölme yalnız altı yetişkinlik teklifin aritmetik paylaşımıdır; yedi yetişkin için fiyat veya uygunluk kanıtı değildir."
+  },
+  {
+    "id": "six-vrbo-145069-last",
+    "sourceId": "vrbo-5130239",
+    "samePropertyAs": "vrbo-5130239",
+    "name": "Rübezahl  |  Saunalı Tatil Evi 145069",
+    "area": "Köpenick, Müggelsee",
+    "kind": "Tatil evinin tamamı",
+    "group": "private-house",
+    "capacity": 6,
+    "maxAdults": 6,
+    "rooms": 2,
+    "beds": "Vrbo iki yatak odasında bir king çift kişilik yatak ve iki tek kişilik yatak gösteriyor. Kalan iki yetişkinin nerede yatacağı Vrbo ilanında belirtilmiyor; farklı kaynaklardaki üçüncü oda veya çekyat bilgisi ve varsa ek ücreti teyit edilmeli.",
+    "baths": "1 tam + ayrı WC",
+    "platform": "Vrbo",
+    "wave": 6,
+    "adults": 6,
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkedAt": "2026-11-05",
+    "link": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2027-01-01&endDate=2027-01-03&adults=6",
+    "sleepConfirmed": false,
+    "normalBeds": 3,
+    "attentionNote": "İki yetişkinin yatacağı yer Vrbo'da teyitli değil. Diğer kaynaklarda üçüncü oda, çekyat ve banyo sayısı hakkında çelişkili bilgiler ve olası günlük oda ücreti var.",
+    "priceClass": "search",
+    "priceEUR": 1603,
+    "price": "1.603 €",
+    "priceStatus": "Vrbo vergi ve ücretler dahil gösteriyor; ek koşullar çelişkili",
+    "priceNote": "05.11.2026 Vrbo ilanında altı yetişkin için iki gece 1.603 € toplam ve vergi/ücret dahil ibaresi görüldü. Üçüncü oda için olası ek ücret ile su, elektrik ve yerel vergi kapsamı hakkında kaynaklar çelişiyor; bu kalemlerin gösterilen fiyata dahil olduğu doğrulanmadı. İlanda 300 € depozito ayrıca belirtiliyor.",
+    "depositText": "300 € depozito konaklama bedelinden ayrı; tahsil koşulu ilanda belirtiliyor.",
+    "availabilityNote": "05.11.2026 Vrbo ilanında seçili tarihler ve altı misafir için müsaitlik ve fiyat gösterildi. Fiyat ve müsaitlik değişebilir; oda düzeni ayrıca teyit edilmeli.",
+    "cancellation": "2 Aralık 2026 öncesinde yerel saat 23.59'a kadar tam iade; 18 Aralık öncesinde servis bedeli düşülerek %50 iade; sonrasında iade yok. Güncel tarife koşulları yeniden kontrol edilmeli.",
+    "features": "130 m² tatil evinde misafire özel sauna ve küvet anlatılıyor; ilan kış tatilini de tanıtıyor. Jakuzi etiketinin özel kullanıma ait olduğu doğrulanmadı.",
+    "assessment": "Özel sauna ve tarihli teklif güçlü; altı yetişkinin yatak düzeni ile olası ek ücretler netleştirilmeli.",
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Vrbo ilanı tüm tatil evi, bir tam banyo ve ayrı misafir WC bildiriyor; açıklamada ev içindeki sauna özel wellness alanı olarak anlatılıyor.",
+      "source": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239"
+    },
+    "coords": {
+      "lat": 52.42603,
+      "lon": 13.62888,
+      "accuracy": "Ferienhausdorf Rübezahl için yaklaşık alan noktası; 145069 numaralı evin kapısı veya tam konumu teyit edilmedi.",
+      "source": "https://mapcarta.com/de/W309688637"
+    },
+    "rsoCar": "16 dk",
+    "tresorCar": "37 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeObservedAt": "2026-11-05",
+    "routeNote": "RSO: tatil köyünün yaklaşık alan noktasından OSRM trafiksiz rota, 952 saniye ve 9,95 km; süre yaklaşık 16 dakika. Tresor: Rübezahl merkezinden Google Haritalar 05.11.2026 anlık gözleminde 37 dakika ve 18,5 km. Aynı yaklaşık alan noktasından OSRM trafiksiz rota yaklaşık 30 dakika ve 18,43 km. Gerçek ev kapısı, yılbaşı trafiği ve toplu taşıma ayrıca doğrulanmalı.",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.62888,52.42603;13.5053346,52.459911?overview=false",
+    "routeSources": {
+      "RSO araç": "https://router.project-osrm.org/route/v1/driving/13.62888,52.42603;13.5053346,52.459911?overview=false",
+      "Tresor araç Google": "https://www.google.com/maps/dir/?api=1&origin=R%C3%BCbezahl+am+M%C3%BCggelsee%2C+Berlin&destination=Tresor+Berlin%2C+K%C3%B6penicker+Stra%C3%9Fe+70%2C+Berlin&travelmode=driving",
+      "Tresor araç OSRM": "https://router.project-osrm.org/route/v1/driving/13.62888,52.42603;13.419484,52.5106807?overview=false"
+    },
+    "photos": [
+      [
+        "İlan fotoğrafı  |  Tatil köyü",
+        "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/3ed5942c.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+      ],
+      [
+        "İlan fotoğrafı  |  Dış görünüm",
+        "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/061da9de.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+      ],
+      [
+        "İlan fotoğrafı  |  Oturma alanı",
+        "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/22078afd.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+      ],
+      [
+        "İlan fotoğrafı  |  Yatak odası",
+        "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/b5e8de13.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+      ],
+      [
+        "İlan fotoğrafı  |  Banyo",
+        "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/9cb61575.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+      ],
+      [
+        "İlan fotoğrafı  |  Sauna",
+        "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/bd231a1e.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+      ]
+    ],
+    "photoNote": "Bağlantılar 05.11.2026 tarihinde Vrbo 5130239 ilanının 24 görselli fotoğraf turundan alındı. Dış görseller tesis çevresini gösterebilir; ev kapısı veya oda eşleşmesi ayrıca doğrulanmadı.",
+    "photoSource": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?pwaThumbnailDialog=thumbnail-gallery",
+    "evidence": {
+      "provider": "Vrbo ilan ve tarife ekranı",
+      "observedAt": "2026-11-05",
+      "request": {
+        "adults": 6,
+        "children": 0,
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03",
+        "currency": "EUR"
+      },
+      "returnedDates": {
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03"
+      },
+      "isAvailable": true,
+      "observationScope": "Seçili altı misafir ve iki gece için Vrbo ilanındaki fiyat ekranı; rezervasyon veya son ödeme değildir.",
+      "price": {
+        "label": "1.603 €; bir tatil evi, iki gece, vergi ve ücretler dahil gösterildi",
+        "taxLine": "Gösterilen toplam vergi ve ücretleri içeriyor; diğer kaynaklarda geçen üçüncü oda, tüketim ve yerel verginin bu tutara dahil olup olmadığı belirsiz."
+      },
+      "listing": {
+        "title": "Ferienhaus für 6 Gäste mit 130m² in Berlin (145069)",
+        "items": [
+          "Tüm tatil evi",
+          "6 misafir",
+          "2 yatak odası",
+          "1 king yatak",
+          "2 tek kişilik yatak",
+          "1 banyo ve 1 misafir WC",
+          "Ev içinde özel sauna"
+        ]
+      },
+      "conflictingSources": [
+        "https://www.feline-holidays.de/katalog/Deutschland/Berlin/540-145069-110847",
+        "https://www.travanto.de/ferienhaus/sc/berlin/809913/ferienhaus-ferienhaus-19-mistel-berlin.php"
+      ]
+    },
+    "_sourceFile": "wellness-new.json",
+    "ui7Eligible": false,
+    "priceQuoteAdults": 6,
+    "sevenQuoteConfirmed": false,
+    "sevenShareNote": "İlan kapasitesi veya yetişkin sınırı yedi kişiyi karşılamıyor."
+  }
+]

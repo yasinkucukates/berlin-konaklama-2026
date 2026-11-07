@@ -1,0 +1,140 @@
+{
+  "1101465952016111173": {
+    "summary": "6 tek yatak (odalar: 3 + 1 + 2).",
+    "source": "https://www.airbnb.com.tr/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "normalBeds": 6,
+    "certainty": "Airbnb oda kartları dağılımı açıkça veriyor. 05.11.2026 incelemesinde kaynak fotoğraf dizisinde üç, bir ve iki ayrı yataklı odalar görünür."
+  },
+  "12541792": {
+    "summary": "En az 7 tek yatak (3 + 2 + en az 2), ayrıca 2 çekyat; son odadaki üçüncü yatak teyitsiz.",
+    "source": "https://www.airbnb.com.tr/rooms/12541792?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "normalBeds": 7,
+    "certainty": "İlan oda kartları 3 tek + 2 tek ve 1 çekyat + 3 tek diyor. Üçüncü odanın fotoğraf açıklaması ise 2 yatak ve başka bir çekyat diyor; fotoğraflarda odalar 3 + 2 + en az 2 tek şeklinde görünüyor. İlanın 9 gerçek yatak beyanı ve üçüncü odadaki üçüncü tek yatak fotoğraftan doğrulanamadı."
+  },
+  "1573761201032292155": {
+    "summary": "4 çift + 2 tek yatak (kırmızı: 1 çift + 1 tek; yeşil: 1 çift + 1 tek; sarı: 2 çift).",
+    "source": "https://www.airbnb.com.tr/rooms/1573761201032292155?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "normalBeds": 6,
+    "certainty": "05.11.2026 Airbnb açıklaması renkli odaların yatağını ve ölçüsünü açıkça listeliyor: kırmızı ve yeşildeki çiftler 180×200 cm, sarıdaki çiftler 160×200 cm, tekler 90×200 cm. Kaynak fotoğrafları oda düzeniyle genel olarak uyumlu."
+  },
+  "1472317094515056268": {
+    "summary": "5 çift + 2 çekyat (odalar: 2 + 2 + 1 çift; salonda 2 çekyat).",
+    "source": "https://www.airbnb.com.tr/rooms/1472317094515056268?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "normalBeds": 5,
+    "certainty": "Airbnb oda kartları 5 queen yatak ve salonda 2 çekyat bildiriyor; kaynak fotoğraf turundaki oda görselleri 2 + 2 + 1 geniş yatak düzenini destekliyor."
+  },
+  "21074683": {
+    "summary": "5 tek + 2 çekyat (odalar: 2 + 2 + 1 tek; salonda 2 çekyat).",
+    "source": "https://www.airbnb.com/rooms/21074683?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "normalBeds": 5,
+    "certainty": "Airbnb oda kartları ve açıklaması 5 tek normal yatak ile 2 ayrı çekyat bildiriyor. Açıklamaya göre tek yataklar 100×200 cm, çekyatlar 110×200 cm; tek yatakların birleştirilebildiği de söyleniyor. Fotoğraflarda yatak odaları ve birleşik görünen tekler var; çekyatlar normal yatak sayısına dahil değildir. Bağlantı 7 yetişkinli önceki tekliftir."
+  },
+  "1519600838702010375": {
+    "summary": "İlanda 3 çift + 5 tek + 1 çekyat (odalar: 1 çift + çekyat; 1 çift + 1 tek; 1 çift; 2 tek; 2 tek).",
+    "source": "https://www.airbnb.com/rooms/1519600838702010375?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": null,
+    "certainty": "İlan oda kartları bu dağılımı bildiriyor. Fotoğraf turunda 4. ve 5. odadaki ikili tek yataklar bitişik ve ortak bazalı gibi görünüyor; gerçekten ayrılıp ayrı kullanılabildikleri fotoğraftan teyit edilemedi. Sekiz bağımsız yatak kesinleştirilmedi."
+  },
+  "1754173933020764455": {
+    "summary": "İlanda 1 çift + 5 tek + 1 çekyat (odalar: 1 çift; 2 tek + çekyat; 2 tek; 1 tek).",
+    "source": "https://www.airbnb.com/rooms/1754173933020764455?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": null,
+    "certainty": "Airbnb oda kartları 1 king ve 5 tek bildiriyor. İkinci ve üçüncü oda fotoğraflarında tekler bitişik, geniş yatak gibi duruyor; ayrı kullanıma açılabilirlik teyitsiz. Altı bağımsız normal yatak kesinleştirilmedi."
+  },
+  "1611035619222657901": {
+    "summary": "İlanda 7 tek yatak (odalar: 2 + 2 + 3); üçüncü odanın sayısı fotoğrafta teyitsiz.",
+    "source": "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 6,
+    "certainty": "İlan oda kartları 2 + 2 + 3 tek diyor. Fotoğraf turunda ilk iki odada ikişer, üçüncü odanın iki görselinde yalnızca iki yatak görüldü. Üçüncü yatağın bulunması veya fotoğraf dışında olması doğrulanamadı. Fotoğraf ve oda kartlarında altı tek yatak için 2 + 2 + en az 2 alt sınırı korunur; yedinci yatak teyitsizdir."
+  },
+  "1452938883567081364": {
+    "summary": "İlanda 6 tek yatak (2 + 4); iki büyük yatağın tekli olarak ayrılarak hazırlanması teyit edilmeli.",
+    "source": "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "normalBeds": null,
+    "certainty": "Airbnb oda kartlarında 2 + 4 tek var; ikinci odanın fotoğraf açıklaması iki büyük yatağın ayrılabildiğini söylüyor. Kaynak fotoğraflarında birleşik yatak düzeni görülüyor. Birinci uyku alanı salon ile ikinci oda arasında; bağımsız kapalı oda mahremiyeti ayrıca teyit edilmeli."
+  },
+  "1042045413385336860": {
+    "summary": "1 küçük çift + 4 tek + 3 çekyat (oda 1: çift + çekyat; oda 2: 4 tek; salon: 2 çekyat).",
+    "source": "https://www.airbnb.com.tr/rooms/1042045413385336860?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "normalBeds": 5,
+    "certainty": "05.11.2026 Airbnb oda kartları üç kanepenin çekyat olduğunu açıkça bildiriyor. Kaynak fotoğraflarında bir küçük çift yatak, grup halinde tek yataklar ve kanepeler görülüyor; üç çekyatın açık hâli ve ölçüleri ayrıca doğrulanmadı."
+  },
+  "1231775696843779125": {
+    "summary": "İlanda iki odada toplam 6 tek yatak; oda bazında dağılım belirtilmiyor.",
+    "source": "https://www.airbnb.com.tr/rooms/1231775696843779125?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "normalBeds": null,
+    "certainty": "Airbnb açıklaması altı tek yatak diyor; 05.11.2026 kaynak fotoğraf dizisinde yatakların tamamı ve oda dağılımı görünmüyor. Ayrı yatakların fiilî sayısı fotoğraflardan teyit edilemedi."
+  },
+  "1352773721511868469": {
+    "summary": "İlanda 8 tek yatak (odalar: 2 + 1 + 1 + 1 + 1 + 2); son iki oda numarası fotoğraflarla çelişiyor.",
+    "source": "https://www.airbnb.com/rooms/1352773721511868469?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "normalBeds": null,
+    "certainty": "Airbnb metni 5. odada 1, 6. odada 2 tek diyor. Kaynak fotoğraf turunun Bedroom 5 görselinde iki, Bedroom 6 görselinde bir tek yatak görünüyor. Toplamı sekiz olsa da oda eşleşmesindeki çelişki çözülmedi. Bağlantı 7 yetişkinli önceki tekliftir."
+  },
+  "31203800": {
+    "summary": "İlanda 6 tek + 1 küçük çift (odalar: 2 + 2 + 2 tek; 1 küçük çift).",
+    "source": "https://www.airbnb.com/rooms/31203800?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": null,
+    "certainty": "İlan oda kartları dağılımı bildiriyor; incelenen kaynak fotoğrafları bütün odaları bu kartlara güvenilir biçimde eşleştirmeye yetmedi. Bu ayrı konutun yedi bağımsız normal yatağı fotoğraflardan teyit edilmedi."
+  },
+  "31348853": {
+    "summary": "İlanda 6 tek + 1 küçük çift + 1 çekyat (odalar: 2 + 2 tek; 1 küçük çift; 2 tek; salonda çekyat).",
+    "source": "https://www.airbnb.com/rooms/31348853?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": null,
+    "certainty": "İlan oda kartları bu dağılımı ve salonda ayrıca bir kanepeyi bildiriyor. İncelenen kaynak fotoğraflarında bütün odalar kartlara güvenilir biçimde eşleştirilemedi. Bu ayrı konutun yedi bağımsız normal yatağı fotoğraflardan teyit edilmedi."
+  },
+  "vrbo-5130239": {
+    "summary": "1 çift + 2 tek yatak belirtilmiş; diğer 2 yetişkinin yatağı ve olası üçüncü oda ücreti teyitsiz.",
+    "source": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239",
+    "normalBeds": null,
+    "certainty": "Vrbo 2 oda, 1 çift ve 2 tek bildiriyor. Aynı ev için farklı kaynaklar ek üçüncü oda ve çekyatla ilgili çelişiyor; altı yetişkinin tüm yatakları henüz doğrulanmadı."
+  },
+  "1166429151300530583": {
+    "summary": "4 tek + 1 çift yatak; salonda 1 çekyat (odalar: 4 tek; 1 çift).",
+    "source": "https://www.airbnb.com/rooms/1166429151300530583",
+    "normalBeds": 5,
+    "certainty": "05.11.2026 Airbnb oda kartları birinci odada dört tek, ikinci odada bir queen yatak bildiriyor. Kaynak fotoğraflarında dört ayrı tek yatak ve diğer odada bir çift yatak görünüyor. Açıklama salonda ayrıca iki kişilik uyku kanepesi olduğunu söylüyor; çekyat normal yatak sayısına dahil edilmedi."
+  },
+  "six-airbnb-1656340-full": {
+    "summary": "İlanda 1 çift + 5 tek yatak; üçüncü odadaki üçüncü tek fotoğrafla teyitsiz. Salonda 1 kanepe.",
+    "source": "https://www.airbnb.com/rooms/1656340",
+    "normalBeds": null,
+    "certainty": "05.11.2026 Airbnb oda kartları 1 king, 2 tek ve 3 tek bildiriyor. Üçüncü odanın birden fazla fotoğrafında iki tek yatak görünüyor; iki fotoğrafın açıklaması da bu odada iki tek yatak diyor. Üçüncü tek yatağın fotoğraf dışında olup olmadığı bilinmiyor. Salondaki kanepe oda kartında çekyat olarak tanımlanmıyor."
+  },
+  "six-airbnb-33234428-full": {
+    "summary": "Oda kartlarında 3 çift yatak (2 + 1); ilanın toplamındaki dördüncü yatağın türü ve yeri belirsiz.",
+    "source": "https://www.airbnb.com/rooms/33234428",
+    "normalBeds": null,
+    "certainty": "05.11.2026 Airbnb oda kartları ve açıklama üç çift yatak bildiriyor; kaynak fotoğrafları ilk odada iki, ikinci odada bir çift yatağı destekliyor. Buna karşılık ilan üst bilgisinde dört yatak yazıyor. Ek yatağın türü ve yeri açıklanmadığından kesin toplam açık bırakıldı; açıklamadaki XL kanepe kendiliğinden çekyat sayılmadı. İkinci odanın penceresi dışarıya değil salona bakıyor."
+  },
+  "six-airbnb-1152005761587998986-full": {
+    "summary": "3 çift yatak (üç odanın her birinde 1 çift).",
+    "source": "https://www.airbnb.com/rooms/1152005761587998986",
+    "normalBeds": 3,
+    "certainty": "05.11.2026 Airbnb açıklaması ve üç oda kartı her odada bir çift bazalı yatak bildiriyor. Kaynak galerisinde farklı duvar tablolarıyla ayırt edilebilen üç çift yatak görünümü var. Salon fotoğrafındaki kanepe çekyat olarak listelenmediği için ayrıca uyku yüzeyi sayılmadı."
+  },
+  "six-booking-osthafen-790949501-full": {
+    "summary": "Booking beyanı: 4 tek + 1 çift ve 1 çekyat (oda 1: 2 tek + 1 çift; oda 2: 2 tek; salon: çekyat).",
+    "source": "https://www.booking.com/hotel/de/eastside34.en-gb.html#room_790949501",
+    "normalBeds": null,
+    "certainty": "05.11.2026 Booking'de seçili iki yatak odalı daire 790949501 için oda dağılımı doğrudan okundu. Tesisin oda galerisi incelendi; bazı yataklar geniş veya bitişik hazırlanmış görünüyor ve fotoğraflar dört tekin ayrı hazırlanabilirliğini kesin göstermiyor. Beş bağımsız normal yatak bu nedenle görsel olarak kesinleştirilmedi."
+  },
+  "53802915": {
+    "summary": "3 çift yatak + 1 çekyat (odalar: 1 + 1 + 1 çift; salon: çekyat).",
+    "source": "https://www.airbnb.com/rooms/53802915",
+    "normalBeds": 3,
+    "certainty": "05.11.2026 Airbnb oda kartları iki king ve bir queen yatak, açıklama ayrıca 160×200 cm çekyat bildiriyor. Galeride üç farklı yatak odası ve açılmış çekyat görünümü var. Bir fotoğraf açıklaması dört yatak odası dese de ilan üst bilgisi üç yatak odası, açıklama ise çekyat alanı dahil dört ayrı oda bildiriyor; dördüncü normal yatak çıkarımı yapılmadı."
+  },
+  "12048269": {
+    "summary": "İlanda 3 çift yatak; iki ek misafir için 1 kanepe belirtilmiş, çekyat niteliği teyitsiz.",
+    "source": "https://www.airbnb.com/rooms/12048269",
+    "normalBeds": null,
+    "certainty": "05.11.2026 Airbnb oda kartları üç odada birer queen bildiriyor; metin iki queen ve bir çift diyor. Kaynak planında üç yatak odası gösterilse de fotoğraflarda bütün yatak odaları güvenilir biçimde eşleştirilemiyor. Açıklama salondaki kanepeyi iki ek misafir için sunuyor; açılıp çekyata dönüşmesi açıkça doğrulanmadı."
+  },
+  "1150006272268927007": {
+    "summary": "2 çift + 1 tek yatak ve 1 çekyat (bir çift salonla açık alanda; diğer alanda 1 çift + 1 tek).",
+    "source": "https://www.airbnb.com/rooms/1150006272268927007",
+    "normalBeds": 3,
+    "certainty": "05.11.2026 Airbnb oda kartları bir queen, bir çift, bir tek ve salonda bir çekyat bildiriyor. Kaynak fotoğrafları bir çift yatağın salon ve mutfakla açık bağlantılı alanda, diğer çift ile tekin farklı alanda olduğunu gösteriyor. Açıklama da queen yatağı salonda konumluyor; ilk alanı bağımsız kapalı yatak odası saymayın. Çekyatın açık hâli ve iki yetişkin için ölçüsü fotoğraftan teyit edilmedi."
+  }
+}

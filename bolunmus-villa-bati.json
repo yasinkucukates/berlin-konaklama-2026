@@ -1,0 +1,219 @@
+[
+  {
+    "id": "1562959650909159382",
+    "name": "Turmvilla",
+    "area": "Werder (Havel)",
+    "kind": "3 daireli tüm villa; bahçe ortak",
+    "capacity": 10,
+    "rooms": 5,
+    "baths": "3,5",
+    "beds": "4 queen ve 2 tek yatak; 7 yetişkin, çift yataklar paylaşılarak yerleşebilir.",
+    "features": "3 daireli Art Deco villa, 2 salon, Wi-Fi, TV, mutfak, sauna, göl iskelesi ve otopark. 2026 misafir yorumu bahçenin başka binalarla ortak olduğunu söylüyor.",
+    "price": "2.671,50 €",
+    "priceStatus": "Vergiler hariç",
+    "priceClass": "exclusive",
+    "priceNote": "Canlı fiyat penceresi 2 gece 2.740 € eksi 68,50 € indirim ve vergiler hariç 2.671,50 € gösterdi; nihai vergi dahil tutar bilinmiyor.",
+    "rsoCar": "61 dk",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "64 dk",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "Yaklaşık ilan koordinatından OSRM trafiksiz araç modeli, tam adres ve yılbaşı trafiği belirsiz; toplu taşıma bu iki gece için doğrulanmadı.",
+    "sleepConfirmed": true,
+    "assessment": "En dengeli batı seçeneği: yatak dağılımı açık, villa ilanda bütün olarak sunuluyor. 2026 misafirleri binanın tamamını tuttuklarını belirtmiş; bahçe ortak. Giriş 16.00.",
+    "link": "https://www.airbnb.com/rooms/1562959650909159382?adults=7&check_in=2027-01-01&check_out=2027-01-03&currency=EUR",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1562959650909159382/original/6ef6d979-d1a4-4aa7-b8cd-4b7744a22729.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1562959650909159382/original/28f2f5f7-d3fc-4b0d-95b4-e57d59183362.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1562959650909159382/original/11c05e25-5f4d-47ed-96f7-ef7b957c45bf.jpeg"
+      ]
+    ],
+    "checkInTime": "1 Ocak en erken 16.00",
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "platform": "Airbnb",
+    "wave": 2,
+    "evidenceFile": "./bolunmus-villa-bati.md",
+    "availabilityNote": "1-3 Ocak 2027 ve 7 misafir ile canlı ilanda rezervasyon düğmesi görüldü; fiyat ve müsaitlik değişebilir. Üç daireli tüm villa; bahçe 2026 misafir yorumuna göre ortak."
+  },
+  {
+    "id": "14848661",
+    "name": "Cottage Sanssouci Park",
+    "area": "Potsdam",
+    "kind": "İlanda tüm ev; münhasırlık çelişkili",
+    "capacity": 12,
+    "rooms": 4,
+    "baths": "4",
+    "beds": "3 küçük çift kişilik yatak, 2 tek yatak; salonda ayrıca 4 tek yatak. Yedi yetişkin için yer var.",
+    "features": "Tarihi dönüştürülmüş ahır, çatı katı salonu, mutfak, Wi-Fi, TV ve bahçeler. İlan sahibi aynı yerleşkede yaşıyor.",
+    "price": "2.090 €",
+    "priceStatus": "Vergi kapsamı ve toplam çelişkili",
+    "priceClass": "search",
+    "priceNote": "Canlı fiyat penceresi 2.090 € baz gösterdi ve vergi satırı yok. Tarihli araç araması 2.090 € + 242,50 € vergi = 2.332,50 € döndürdü; iki görünüm arasında fark var, nihai tutar doğrulanmadı.",
+    "rsoCar": "46 dk",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "44 dk",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "Yaklaşık ilan koordinatından OSRM trafiksiz araç modeli, tam adres ve yılbaşı trafiği belirsiz; toplu taşıma bu iki gece için doğrulanmadı.",
+    "sleepConfirmed": true,
+    "assessment": "Görece daha yakın ve yatakları yeterli, ancak 2018 yorumunda tüm ev denmesine rağmen başka çiftle paylaşım anlatılıyor. Güncel münhasırlık ve fiyat farkı giderilmeden kesin özel villa sayılmamalı.",
+    "link": "https://www.airbnb.com/rooms/14848661?adults=7&check_in=2027-01-01&check_out=2027-01-03&currency=EUR",
+    "photos": [
+      [
+        "Oturma alanı",
+        "https://a0.muscache.com/im/pictures/e8a1f400-545d-4075-b8bc-11d7160eac50.jpg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-14848661/original/de75275c-6d2b-4144-b70b-bee9405a2e5a.jpeg"
+      ]
+    ],
+    "checkInTime": "Esnek giriş; saat belirtilmedi",
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "platform": "Airbnb",
+    "wave": 2,
+    "evidenceFile": "./bolunmus-villa-bati.md",
+    "availabilityNote": "1-3 Ocak 2027 ve 7 misafir ile canlı ilanda rezervasyon düğmesi görüldü; fiyat ve müsaitlik değişebilir. Tüm ev yazmasına karşın 2018 paylaşım yorumu var; güncel münhasırlık teyitsiz."
+  },
+  {
+    "id": "22026440",
+    "name": "Villa an der Stadtgrenze zu Berlin",
+    "area": "Bernau / Panketal",
+    "kind": "Müstakil villa",
+    "capacity": 7,
+    "rooms": 2,
+    "baths": "1 tam + 1 WC",
+    "beds": "1 çift + 1 tek + 1 yer yatağı; diğer odada 1 çift; salonda 1 kanepe. Yedinci yetişkin için kanepe/yer yatağının yeterliliği belirsiz.",
+    "features": "135 m²; HDTV/kablo/Prime, Wi-Fi, mutfak, bahçe, teras, barbekü, ücretsiz otopark. Havuz, sauna, jakuzi listelenmiyor.",
+    "price": "1.004,40 €",
+    "priceStatus": "Vergi kapsamı belirsiz",
+    "priceClass": "search",
+    "priceNote": "Canlı fiyat penceresi 2 gece × 502,20 € = 1.004,40 € gösterdi. Vergiler ve diğer ücretlerin kapsamı doğrulanmadı.",
+    "rsoCar": "46 dk",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "37 dk",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "Yaklaşık ilan koordinatından OSRM trafiksiz araç modeli, tam adres ve yılbaşı trafiği belirsiz; toplu taşıma bu iki gece için doğrulanmadı.",
+    "sleepConfirmed": false,
+    "assessment": "Daha yakın tüm villa; 2 oda ve 1,5 banyo. 7 yetişkin için son uyku yerinin ölçüsü ve uygunluğu belirsiz.",
+    "link": "https://www.airbnb.com/rooms/22026440?adults=7&check_in=2027-01-01&check_out=2027-01-03&currency=EUR",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/d4ac70f9-89cf-41fb-87ca-05c70d28d914.jpg"
+      ],
+      [
+        "Oturma alanı",
+        "https://a0.muscache.com/im/pictures/31ba800e-48ee-44c8-9687-ecec8a46cc1e.jpg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/af456638-37b2-4d17-bd6f-d1cb44d7483d.jpg"
+      ]
+    ],
+    "wave": 2,
+    "platform": "Airbnb",
+    "checkInTime": "1 Ocak en erken 15.00",
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "evidenceFile": "./bolunmus-villa-bati.md",
+    "availabilityNote": "1-3 Ocak 2027 ve 7 misafir ile canlı ilanda rezervasyon düğmesi görüldü; fiyat ve müsaitlik değişebilir."
+  },
+  {
+    "id": "1062309373682445601",
+    "name": "Kleine Villa Arensnest",
+    "area": "Wiesenburg/Mark",
+    "kind": "Tüm kır evi ve özel bahçe",
+    "capacity": 10,
+    "rooms": 3,
+    "baths": "1",
+    "beds": "İlanda 8 yatak; açıklamada iki çift kişilik oda ve ortak alanlar geçiyor. Yedi yetişkinin gerçek yerleşimi teyitsiz.",
+    "features": "Özel bahçe, şömine, ateş alanı, barbekü, mutfak, çamaşır makinesi, park. Seminer odası da var; TV ve Wi-Fi durumu teyitsiz.",
+    "price": "1.595 €",
+    "priceStatus": "Vergi kapsamı belirsiz",
+    "priceClass": "search",
+    "priceNote": "Canlı fiyat penceresi 2 gece × 797,50 € = 1.595 € gösterdi; vergi ve diğer ücretlerin kapsamı açıklanmadı.",
+    "rsoCar": "93 dk",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "97 dk",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "OSRM yol ağı ile yaklaşık ilan noktasından, trafiksiz model; tam adres gizli ve yılbaşı trafiği dahil değil. Toplu taşıma varsa 31 Aralık 21.00 için VBB verili transport.rest örneği, değişebilir.",
+    "sleepConfirmed": false,
+    "assessment": "Bahçesi özel, kırsal bir grup evi. Sadece 1 banyo ve yatak dağılımı belirsiz; önce uyku planı kontrol edilmeli.",
+    "link": "https://www.airbnb.com/rooms/1062309373682445601?adults=7&check_in=2027-01-01&check_out=2027-01-03&currency=EUR",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/5bd4b8b4-db02-4680-ae80-68aee2a2d26b.jpg"
+      ],
+      [
+        "Şömineli oturma alanı",
+        "https://a0.muscache.com/im/pictures/0e34682a-1214-415c-b31f-4bbab6e2f45d.jpg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/d5965bc0-c99b-47f9-996e-d31228ef6812.jpg"
+      ]
+    ],
+    "wave": 2,
+    "nights": 2,
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./bolunmus-villa-bati.md",
+    "checkInTime": "Esnek giriş; saat belirtilmedi",
+    "availabilityNote": "1-3 Ocak 2027 ve 7 misafir ile canlı ilanda rezervasyon düğmesi görüldü; fiyat ve müsaitlik değişebilir."
+  },
+  {
+    "id": "43513070",
+    "name": "Sommerhof Granzow",
+    "area": "Mirow / Granzow",
+    "kind": "Göl yakınında tüm grup evi",
+    "capacity": 16,
+    "rooms": 10,
+    "baths": "5",
+    "beds": "20 yatak; açıklamaya göre odalarda iki tek kişilik yatak, bazı odalarda ayrıca ranzalar var. 7 yetişkin için ayrı yatak var.",
+    "features": "Grup kullanımında ev ve bahçe özel; 5 duşlu banyo koridorda, 2 ek tuvalet, grup mutfağı, bahçe, barbekü ve park. Nevresim kiralanabilir ve ek ücretli olabilir.",
+    "price": "2.320 €",
+    "priceStatus": "Vergi ve ekler belirsiz",
+    "priceClass": "search",
+    "priceNote": "Canlı fiyat penceresi 2 gece × 1.160 € = 2.320 €. İlan kişi ve konaklama günü başına 1,50 € belediye vergisini 01.2026 itibarıyla belirtiyor; dahil olup olmadığı ve 2027 uygulaması doğrulanmadı. Nevresim ayrıca fiyatlandırılabilir.",
+    "rsoCar": "133 dk",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "119 dk",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "Yaklaşık ilan koordinatından OSRM trafiksiz araç modeli, tam adres ve yılbaşı trafiği belirsiz; toplu taşıma bu iki gece için doğrulanmadı.",
+    "sleepConfirmed": true,
+    "assessment": "Çok uzak ve sade grup evi; ayrı yatak bol, beş banyo koridorda. Yerel vergi ve nevresim kapsamı netleştirilmeli.",
+    "link": "https://www.airbnb.com/rooms/43513070?adults=7&check_in=2027-01-01&check_out=2027-01-03&currency=EUR",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/0beddaf5-8de4-4eb0-bfb3-0c9bab746025.jpg"
+      ],
+      [
+        "İki tek yataklı oda",
+        "https://a0.muscache.com/im/pictures/41490920-a53a-4875-bf00-7b69188828de.jpg"
+      ]
+    ],
+    "checkInTime": "1 Ocak 15.00-21.00",
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "platform": "Airbnb",
+    "wave": 2,
+    "evidenceFile": "./bolunmus-villa-bati.md",
+    "availabilityNote": "1-3 Ocak 2027 ve 7 misafir ile canlı ilanda rezervasyon düğmesi görüldü; fiyat ve müsaitlik değişebilir. Turizm vergisi ve nevresim bedelinin dahil oluşu teyitsiz."
+  }
+]

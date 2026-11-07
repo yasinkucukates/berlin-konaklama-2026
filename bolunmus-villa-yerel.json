@@ -1,0 +1,134 @@
+[
+  {
+    "id": "bolunmus-lds1d",
+    "name": "LDS-1d",
+    "area": "Halbe, Teurow",
+    "kind": "Tatil evinin tamamı",
+    "capacity": 10,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "1. odada 1 tek ve 1 büyük çift yatak; 2. odada 3 tek ve 1 büyük çift yatak; 3. odada 4 tek yatak. Salonda 2 çekyat.",
+    "features": "165 m²; mutfak, bahçe, teras, ücretsiz özel otopark. Havlu ve nevresim ek ücretli olabilir, tutarı belirtilmedi. Havuz ve sauna tesis olanakları olarak doğrulanmadı. Parti yasak.",
+    "price": "84.289 TL",
+    "priceStatus": "İki gece, vergi ve ücret dahil",
+    "priceClass": "confirmed",
+    "priceNote": "1-3 Ocak 2027, 7 yetişkin ve iki gece için Booking canlı teklifi. 31 Aralık öncesi ücretsiz iptal, 29 Aralık öncesi ödeme yok.",
+    "availabilityNote": "Yedi yetişkin için evin tamamı teklif ediliyor; rezervasyon yapılmadı.",
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "15.00-18.00",
+    "rsoCar": "40 dk",
+    "rsoTransit": "Sonuç alınamadı",
+    "tresorCar": "48 dk",
+    "tresorTransit": "Sonuç alınamadı",
+    "routeNote": "OSRM trafiksiz: RSO 48,5 km, Tresor 56,2 km. 1 Ocak 21.00 gidiş ve 2 Ocak 06.00 dönüş VBB sorguları 404 döndü; bu sonuç sefer yok demek değildir.",
+    "sleepConfirmed": true,
+    "assessment": "Yedi yetişkinin ayrı yatak kullanabildiği tam ev; villa ya da spa iddiası yok.",
+    "link": "https://www.booking.com/hotel/de/lds-1d.tr.html?checkin=2027-01-01&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0",
+    "photos": [
+      [
+        "Yatak odası",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/897052570.jpg?k=a8e0cf8cf439baae455722daad2ba46e40984eba64602479362acf5dc792cd6b&o="
+      ],
+      [
+        "Oturma alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/897052578.jpg?k=f1fca800f313d66875c94ee5445dd381f38e9ad31c1aee1f2f62d820575a5699&o="
+      ],
+      [
+        "Mutfak",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/897052562.jpg?k=04bac2dc5bc394dbfeafb49a552c6e1d89469c96bb5e9961166a8337ce39d138&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2
+  },
+  {
+    "id": "bolunmus-spreeparadies",
+    "name": "Spreeparadies",
+    "area": "Neuendorf am See, Unterspreewald",
+    "kind": "Tatil evinin tamamı",
+    "capacity": 7,
+    "rooms": 7,
+    "baths": "7",
+    "beds": "Yedi odanın her birinde bir büyük çift kişilik yatak; bazı odalarda ve salonda ayrıca çekyatlar.",
+    "features": "500 m²; nehir manzarası, bahçe, teras, mutfak, Wi-Fi ve özel otopark. Havuz veya sauna listelenmiyor. 200 € iade edilebilir nakit depozito; 22.00-08.00 sessizlik.",
+    "price": "241.629 TL",
+    "priceStatus": "İki gece teklif, ev sahibi onayı gerekli",
+    "priceClass": "checkout",
+    "priceNote": "1-3 Ocak, 7 yetişkin ve iki gece için Booking toplamı vergi ve ücretler dahil 241.629 TL; tarife iadesiz.",
+    "availabilityNote": "Kesin müsaitlik değil: rezervasyon talebi ev sahibinin 24 saat içindeki kabulüne bağlı. Talep gönderilmedi.",
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "15.00 sonrası",
+    "rsoCar": "56 dk",
+    "rsoTransit": "Gece bağlantısı teyitsiz",
+    "tresorCar": "64 dk",
+    "tresorTransit": "Gece bağlantısı teyitsiz",
+    "routeNote": "OSRM trafiksiz: RSO 60,5 km, Tresor 68,2 km. VBB 1 Ocak 21.00 sonrası örnek aramada ilk gidişi 2 Ocak 10.16 gösterdi; gece bağlantısı doğrulanmadı. 2 Ocak sabah dönüşü için ilk sonuçlar 08.16 ve 08.20. Tarife önizlemedir.",
+    "sleepConfirmed": true,
+    "assessment": "Yedi ayrı yatak odası olan büyük ev, fakat ev sahibi onayı gerekiyor ve Berlin dışı.",
+    "link": "https://www.booking.com/hotel/de/spreeparadies-ort-fur-besondere-anlasse.tr.html?checkin=2027-01-01&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/684546388.jpg?k=ea6e9110b448dfd6571f743cfaea69bf9db11c3ceb2085b22ff47a50995346e4&o="
+      ],
+      [
+        "Salon",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/682456486.jpg?k=2f813c5914a33ddc1c47513cae8f86c1c754e6cc1e00c377f46330e738569d9b&o="
+      ],
+      [
+        "Yatak odası",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/682456458.jpg?k=5826bddfe5a41c524819f9c32724bafb1dfe9d96c04fb6584b2d1fbd56c32417&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2
+  },
+  {
+    "id": "bolunmus-ottenhain",
+    "name": "Landvilla Ottenhain",
+    "area": "Frohburg, Leipzig yakınında",
+    "kind": "Villa ve loftun tamamı",
+    "capacity": 8,
+    "rooms": 4,
+    "baths": "3",
+    "beds": "Üç çift kişilik yatak ve iki tek kişilik yatak. Dördüncü uyku alanı loftta açık niş, bağımsız kapalı oda değil.",
+    "features": "359 m²; şömine, geniş bahçe, mutfak, Wi-Fi ve otopark. İlan havuzun yalnız yazın açık olduğunu söylüyor. Nevresim ve havlu dahil.",
+    "price": "1.358 €",
+    "priceStatus": "İki gece, vergi ve harç dahil",
+    "priceClass": "confirmed",
+    "priceNote": "Holidu 1-3 Ocak 2027, 7 yetişkin, 2 gece için 1.358 € toplam ve vergi/harç dahil gösteriyor. 27 Aralık öncesi ücretsiz iptal.",
+    "availabilityNote": "İstenen tarihlerde villa ve loftun tamamı için müsaitlik ve canlı teklif görünüyor.",
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "15.00 sonrası",
+    "rsoCar": "Doğrulanmadı",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "Doğrulanmadı",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "İlan tam adresi göstermiyor; ev sahibi Berlin için yaklaşık 2,5 saat diyor. RSO ve Tresor için ayrı rota hesaplanmadı.",
+    "sleepConfirmed": true,
+    "assessment": "Gerçek geniş villa, iki gece teklif var; Berlin ve kulüplere çok uzak, açık havuz yalnız yazın kullanılıyor.",
+    "link": "https://www.holidu.de/d/65364918?checkin=2027-01-01&checkout=2027-01-03&adults=7",
+    "photos": [
+      [
+        "Dış cephe ve yaz havuzu",
+        "https://img.holidu.com/images/797e6179-b9e4-4708-8dcc-ce2d1694a96d/m.avif"
+      ],
+      [
+        "Yatak odası",
+        "https://img.holidu.com/images/629eda1a-58f5-4d43-adb4-ac85129a9eba/m.avif"
+      ],
+      [
+        "Loft oturma alanı",
+        "https://img.holidu.com/images/57b7725e-0a9c-4dff-a11b-ffa5c26a3d2f/m.avif"
+      ]
+    ],
+    "platform": "Holidu",
+    "wave": 2
+  }
+]

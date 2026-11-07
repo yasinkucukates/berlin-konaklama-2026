@@ -1,0 +1,271 @@
+[
+  {
+    "id": "bolunmus-urban-flats",
+    "name": "URBAN FLATS Berlin | 70 m²",
+    "area": "Mitte",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": 2,
+    "baths": "1",
+    "beds": "2 odanın her birinde 3 tek kişilik yatak; salonda 1 çekyat. Yedinci kişi çekyatta.",
+    "features": "70 m², balkon, özel mutfak, bulaşık ve çamaşır makinesi, Wi-Fi. Seçili daire üst katta; yalnız merdivenle erişim.",
+    "price": "70.432 TL",
+    "priceStatus": "Görünen fiyat + vergi ve ücretler",
+    "priceClass": "confirmed",
+    "priceNote": "67.060 TL + 3.372 TL vergi ve ücretler; iadesiz. 25 Aralık öncesi ücretsiz iptalli tarife 74.512 + 3.372 = 77.884 TL. Rakamlar Booking ekranında yuvarlanmış.",
+    "rsoCar": "Doğrulanmadı",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "Doğrulanmadı",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "RSO ve Tresor ulaşım süreleri ayrıca hesaplanmadı.",
+    "sleepConfirmed": true,
+    "assessment": "Altı ayrı normal yatak ve yedinci kişi için çekyat var. Birden fazla daire türü bulunuyor; fiyat ve görseller 70 m² seçili birime aittir.",
+    "link": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1",
+    "photos": [
+      [
+        "Salon",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/882240256.jpg?k=fe53d6750690904085277d28b45cffb8f7252cfb4efa8c39f0010232cdc2043c&o="
+      ],
+      [
+        "Üç tek yataklı oda",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/882240263.jpg?k=1b5cae7693951f3c1c48c687b5ff461adf7d88913bede29f3fa12bbbe468a463&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-01",
+    "nights": 2,
+    "checkOutTime": "00.00–11.00",
+    "checkedAt": "2026-11-05T13:29+03:00",
+    "availabilityNote": "Booking fiyat tablosunda bu tarih ve 7 yetişkin için tek birim seçeneği görüldü; rezervasyon yapılmadı.",
+    "address": "Große Hamburger Straße 20/21, 10115 Berlin",
+    "evidenceFile": "./bolunmus-daire-booking.md"
+  },
+  {
+    "id": "bolunmus-roof-chill",
+    "name": "Berlin Roof & Chill",
+    "area": "Friedrichshain",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": 3,
+    "baths": "2 banyo; WC sayısı teyitsiz",
+    "beds": "Booking 4 tek + 3 büyük çift + 3 çekyat listeliyor. Önceki Airbnb ilanı 3 tek + 3 king ve kanepe sayıyor.",
+    "features": "170 m², teras, mutfak, bulaşık makinesi, Wi-Fi ve ücretsiz otopark.",
+    "price": "92.156 TL",
+    "priceStatus": "Görünen fiyat + vergi ve ücretler",
+    "priceClass": "confirmed",
+    "priceNote": "70.241 TL + 21.915 TL vergi ve ücretler; 16 Aralık öncesi ücretsiz iptal. Booking tutarları yuvarlanmış.",
+    "rsoCar": "16 dk",
+    "rsoTransit": "36 dk",
+    "tresorCar": "7 dk",
+    "tresorTransit": "40 dk",
+    "routeNote": "Araç: yaklaşık ilan konumundan OSRM, trafik ve bekleme hariç. Toplu taşıma: 31 Aralık 22.00 örnek BVG/VBB önizlemesi; RSO: U5/RB24/165, 22:01–22:37, 9 dk yürüyüş; TRESOR: M10/U8, 22:00–22:40, 7 dk yürüyüş. 13 Aralık tarife değişikliği uyarısı var, yolculuk öncesi yeniden kontrol edilmeli.",
+    "sleepConfirmed": false,
+    "assessment": "Tek bir eski misafir, 13 kişilik grubunda bazı yatakların çocuklara daha uygun olduğunu yazmış; bu bir fiziksel ölçü tespiti değil. Booking ve Airbnb tek yatak sayısında farklı. Bir başka misafir WC sayısını da tartışmış; 7 yetişkinin yatak boyutları ve WC sayısı teyitsiz.",
+    "link": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1",
+    "photos": [
+      [
+        "İki katlı salon",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/24df0f7c-3318-41e4-b3df-6e6b5bdf427a.jpeg"
+      ],
+      [
+        "Oturma alanı",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/b8262520-388f-49a5-b429-e57637f67a23.jpeg"
+      ],
+      [
+        "Teras",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/0698d0cf-0dc5-47d1-a5a6-00449c7831ae.jpeg"
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-01",
+    "nights": 2,
+    "checkOutTime": "06.00–10.00",
+    "checkedAt": "2026-11-05T13:29+03:00",
+    "availabilityNote": "Booking fiyat tablosunda bu tarih ve 7 yetişkin için tek birim seçeneği görüldü; rezervasyon yapılmadı.",
+    "address": "Rigaer Str. 8, 10247 Berlin",
+    "samePropertyAirbnb": "https://www.airbnb.com/rooms/1389128667463860564",
+    "evidenceFile": "./bolunmus-daire-booking.md"
+  },
+  {
+    "id": "bolunmus-torstrasse",
+    "name": "Designer Apartment | Torstraße 129",
+    "area": "Mitte",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": 4,
+    "baths": "2",
+    "beds": "4 büyük çift kişilik yatak, ayrıca 2 çekyat; çift yatakların paylaşılmasıyla 7 yetişkin sığar.",
+    "features": "135 m², zemin katta, mutfak, çamaşır makinesi, TV ve Wi-Fi. Booking yeni ilanı; 10/10 puan diğer sitelerden 5 değerlendirmeye dayanıyor.",
+    "price": "92.378 TL",
+    "priceStatus": "Görünen fiyat + vergi ve ücretler",
+    "priceClass": "confirmed",
+    "priceNote": "82.263 TL + 10.115 TL vergi ve ücretler; 29 Aralık öncesi ücretsiz iptal. Rakamlar Booking ekranında yuvarlanmış.",
+    "rsoCar": "Doğrulanmadı",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "Doğrulanmadı",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "RSO ve Tresor ulaşım süreleri ayrıca hesaplanmadı.",
+    "sleepConfirmed": true,
+    "assessment": "Müstakil olmayan geniş daire. İki banyolu zemin kat birimi, önceki çatı katı Penthouse Torstraße ile aynı daire değil.",
+    "link": "https://www.booking.com/hotel/de/torstrasse.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1",
+    "photos": [
+      [
+        "Salon",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898603324.jpg?k=5c180f31cd96eafd172af503c244a23081cd0ee8d978bd48e08ab3b03c486e68&o="
+      ],
+      [
+        "Banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898603293.jpg?k=b28707ef2e90f07c7e61c6eefd00f1841d84e9f1001f42e329819b8bd00d0584&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-01",
+    "nights": 2,
+    "checkOutTime": "10.00–11.00",
+    "checkedAt": "2026-11-05T13:29+03:00",
+    "availabilityNote": "Booking fiyat tablosunda bu tarih ve 7 yetişkin için tek birim seçeneği görüldü; rezervasyon yapılmadı.",
+    "address": "Torstraße 129, 10119 Berlin",
+    "evidenceFile": "./bolunmus-daire-booking.md"
+  },
+  {
+    "id": "bolunmus-alexa",
+    "name": "ALEXA Spacious Design Apartment",
+    "area": "Mitte",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": 4,
+    "baths": "3",
+    "beds": "3 büyük çift, 2 tek kişilik ve 2 ranza yatağı. Yedi yetişkin, yatak paylaşımıyla ranzayı kullanmadan konaklayabilir.",
+    "features": "153 m²; mutfak, teras, Wi-Fi ve bulaşık makinesi. Bir yatak odasına aile odasından geçiliyor.",
+    "price": "180.800 TL",
+    "priceStatus": "Görünen fiyat + vergi ve ücretler",
+    "priceClass": "confirmed",
+    "priceNote": "170.685 TL + 10.115 TL vergi ve ücretler; iadesiz. Rakamlar Booking ekranında yuvarlanmış.",
+    "rsoCar": "19 dk",
+    "rsoTransit": "48 dk",
+    "tresorCar": "5 dk",
+    "tresorTransit": "17 dk",
+    "routeNote": "Araç: yaklaşık ilan konumundan OSRM, trafik ve bekleme hariç. Toplu taşıma: 31 Aralık 22.00 örnek BVG/VBB önizlemesi; RSO: U8/S47, 22:03–22:51, 23 dk yürüyüş; TRESOR: U8, 22:03–22:20, 14 dk yürüyüş. 13 Aralık tarife değişikliği uyarısı var, yolculuk öncesi yeniden kontrol edilmeli.",
+    "sleepConfirmed": true,
+    "assessment": "Üç banyo ve geniş alan güçlü; iki gece fiyatı yüksek. Geçiş odası ayrıntısı önceki Airbnb incelemesinden.",
+    "link": "https://www.booking.com/hotel/de/spacious-family-home-near-alexanderplatz-and-free-parking.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1",
+    "photos": [
+      [
+        "Mutfak ve yemek alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/71cb4c16-b102-4362-8653-f319d044cae4.jpeg"
+      ],
+      [
+        "İki tek yataklı oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/80ff925b-e9dc-47b5-a117-b8acc8d85614.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/5e9aab1d-2203-4314-8581-027d015e5867.jpeg"
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-01",
+    "nights": 2,
+    "checkOutTime": "En geç 10.00",
+    "checkedAt": "2026-11-05T13:29+03:00",
+    "availabilityNote": "Booking fiyat tablosunda bu tarih ve 7 yetişkin için tek birim seçeneği görüldü; rezervasyon yapılmadı.",
+    "address": "Kleine Alexanderstraße 9, 10178 Berlin",
+    "samePropertyAirbnb": "https://www.airbnb.com/rooms/1260209089340243876",
+    "evidenceFile": "./bolunmus-daire-booking.md"
+  },
+  {
+    "id": "bolunmus-rungestr",
+    "name": "City Center Berlin Rungestr | 75 m²",
+    "area": "Mitte",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": 2,
+    "baths": "1",
+    "beds": "Bir odada 4 tek, diğer odada 1 tek; salonda 1 çekyat. 7 kişi için çekyatta 2 kişinin yatması gerekir; çekyat ölçüsü teyitsiz.",
+    "features": "75 m²; özel mutfak, bulaşık ve çamaşır makinesi, TV, Wi-Fi. Üst katlara merdivenle erişim.",
+    "price": "69.870 TL",
+    "priceStatus": "Görünen fiyat + vergi ve ücretler",
+    "priceClass": "confirmed",
+    "priceNote": "67.060 TL + 2.810 TL vergi ve ücretler; iadesiz. 25 Aralık öncesi ücretsiz iptalli tarife 74.512 + 2.810 = 77.322 TL. Rakamlar Booking ekranında yuvarlanmış.",
+    "rsoCar": "Doğrulanmadı",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "Doğrulanmadı",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "RSO ve Tresor ulaşım süreleri ayrıca hesaplanmadı.",
+    "sleepConfirmed": false,
+    "assessment": "Booking 7 yetişkin teklifi veriyor. Çekyatın iki yetişkinlik olup olmadığı teyitsiz. Önceki HipSpot R3 ile görseller ve aynı işletmeci benziyor; adresler 10 ve 12 olduğundan aynı daire olduğu kesinleştirilmedi. Ayrı mülk saymak için ek doğrulama gerekir.",
+    "link": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1",
+    "photos": [
+      [
+        "Salon",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/888586375.jpg?k=db0ddb46dd842cb19c05592068a14b0a573d2c62d19544ee3253c17765a41260&o="
+      ],
+      [
+        "Dört tek yataklı oda",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/888586355.jpg?k=eb0dbabac6bd16ca9e973823f2f21e74e4e8cdf3dc485ab92d7d31c6857bb8c9&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-01",
+    "nights": 2,
+    "checkOutTime": "08.00–11.00",
+    "checkedAt": "2026-11-05T13:29+03:00",
+    "availabilityNote": "Booking fiyat tablosunda bu tarih ve 7 yetişkin için tek birim seçeneği görüldü; rezervasyon yapılmadı.",
+    "address": "Rungestraße 10, 10179 Berlin",
+    "possibleDuplicateAirbnb": "https://www.airbnb.com/rooms/1166429151300530583",
+    "evidenceFile": "./bolunmus-daire-booking.md"
+  },
+  {
+    "id": "bolunmus-loftly",
+    "name": "Loftly Kottbusser Damm 68",
+    "area": "Neukölln",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": 2,
+    "baths": "1",
+    "beds": "Booking seçili birimde 3 büyük çift + 1 tek yatak gösteriyor. İşletmeci genel açıklaması ise azami 6 kişi ve ranza diyor.",
+    "features": "70 m²; özel mutfak, bulaşık ve çamaşır makinesi, Wi-Fi, ücretsiz özel otopark. Hermannplatz metro 250–350 m.",
+    "price": "53.581 TL",
+    "priceStatus": "Görünen fiyat + vergi ve ücretler",
+    "priceClass": "confirmed",
+    "priceNote": "43.493 TL + 10.088 TL vergi ve ücretler; iadesiz. 29 Aralık öncesi ücretsiz iptalli tarife 48.326 + 10.813 = 59.139 TL. Rakamlar Booking ekranında yuvarlanmış.",
+    "rsoCar": "Doğrulanmadı",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "Doğrulanmadı",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "RSO ve Tresor ulaşım süreleri ayrıca hesaplanmadı.",
+    "sleepConfirmed": false,
+    "assessment": "Sitede 7 yetişkin fiyatı mevcut, ancak işletmeci açıklamasında 6 kişi sınırı ve ranza ifadesi var. Yedi yetişkin için kesin kabul ve yatak düzeni çelişkisi çözülmeden güvenilir aday sayılmamalı.",
+    "link": "https://www.booking.com/hotel/de/city-apartment-ii-kreuzberg-berlin.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1",
+    "photos": [
+      [
+        "Salon",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/775056406.jpg?k=41e3d05894ad6b2825e1a510c7e623c83310114b25501acc18277979e052ad67&o="
+      ],
+      [
+        "Yatak odası",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/775056140.jpg?k=3c27e032b7cfee6251046d5fce13b6de2315f8b6e6be4dde75e44043fe433a39&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-01",
+    "nights": 2,
+    "checkOutTime": "00.00–10.00",
+    "checkedAt": "2026-11-05T13:29+03:00",
+    "availabilityNote": "Booking fiyat tablosunda bu tarih ve 7 yetişkin için tek birim seçeneği görüldü; rezervasyon yapılmadı.",
+    "address": "Kottbusser Damm 68, 10967 Berlin",
+    "evidenceFile": "./bolunmus-daire-booking.md"
+  }
+]

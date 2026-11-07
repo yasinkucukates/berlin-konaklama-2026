@@ -1,0 +1,653 @@
+{
+  "records": [
+    {
+      "targetKeys": [
+        [
+          "brusseler-kiez",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "brusseler-kiez",
+      "photos": [
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727328078.jpg?k=5d3e856a56d186937615d241133241c6243b31c8b5e6523a622b21bdc602e2f3&o="
+        ],
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727328164.jpg?k=7a4c38be7b369dfbd46d51e91278933ed0fc634174492e523034d15f5abedbe9&o="
+        ],
+        [
+          "İki Yataklı Oda",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727327934.jpg?k=8c78816abbd83c9ca3fa6a5f365d1df490e08e52647d43fd6c96dc3b3c764e6b&o="
+        ],
+        [
+          "Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727328134.jpg?k=d26938656605c5bf37199d388893ee8b61bf15e441d1e1cb91e9be13589fdc1a&o="
+        ],
+        [
+          "Oturma Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727327960.jpg?k=f1e80d9a17a1600ded5429d8eefb449c63d239a5c8581c197942fbe5358276b6&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727327825.jpg?k=bf7aa4e7260bd4f8eb81fca8ee5a33cf31e9be11a263bcd7ccb96692d828c442&o="
+        ]
+      ],
+      "coverageNote": "Seçili üç yatak odalı daire etiketiyle sunulan görseller. Yatak fotoğraflarının kaynakta oda numarası yok; üç ayrı odanın her biri fotoğraflarla kesin eşleştirilemedi. Dış alan gösterilmiyor.",
+      "source": "https://www.booking.com/hotel/de/beautiful-apartment-in-brusseler-kiez.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "paul-loft",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "paul-loft",
+      "photos": [
+        [
+          "Yatak ve Oturma Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125841.jpg?k=a3fd829f5539816aba3367d0fc06b511b8e594cdf666da67afcb6785188a3972&o="
+        ],
+        [
+          "Yatak ve Yemek Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125827.jpg?k=9e507d0c0528cc300e87ad04b084d7db26d945d112ae10cdec6aeba15da95bf0&o="
+        ],
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125881.jpg?k=62a4b172f5fef3bd4e20ecfc67592da960ae7434de713cf54e1a3b329a1d0523&o="
+        ],
+        [
+          "Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125852.jpg?k=85db6b9e77787c01af0f6c3a883acdd68c79c4351e74ed90023aacd796b20e81&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max300/81125861.jpg?k=b9324978ad247546964fccc47c5c8053130018b7cb5e9c548cb150be6414f47b&o="
+        ],
+        [
+          "Balkon",
+          "https://cf.bstatic.com/xdata/images/hotel/max300/166602865.jpg?k=935b01cc5de90b94777066c4d208c14eb85c516eaff095e19f37f5ea708ca8b9&o="
+        ]
+      ],
+      "coverageNote": "Kaynak üç yatak odası derken işletmeci iki oda ve yataklı salon anlatıyor. Görsellerde oda numarası yok; yataklı yaşam alanı açıkça etiketlendi.",
+      "source": "https://www.booking.com/hotel/de/greatstay-apartment-paul-robeson-str.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "danziger-loft",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "danziger-loft",
+      "photos": [
+        [
+          "Salon ve Yatak Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/919428908.jpg?k=87b9609726ad0b6b68c145c5df78c1e5dff013f2a60ec082de6b39802c480d88&o="
+        ],
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/919428907.jpg?k=2c2c88de1ec4c4cfc236a3c7b48a888248e923191ed57ed1f0c1895c125a1bca&o="
+        ],
+        [
+          "Mutfak ve Yemek Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/919429074.jpg?k=a5ec01e283571f6329150d011bb7198051b849128aad05345c1c61fef3e69f76&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/919429243.jpg?k=50d816ebbe5cd4c675b29aba0fc603d4c791f6a73dbbf4f05384b81dcf8b4da5&o="
+        ],
+        [
+          "Balkon",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/63751792.jpg?k=406cfe7f7a40ec4005ff87750f609764495b4b3629ac07cc9fd67b67d58f1170&o="
+        ]
+      ],
+      "coverageNote": "Yalnız 110 m² üç yatak odalı daireye etiketli görseller kullanıldı. İkinci ayrı yatak odası fotoğrafı kesin ayırt edilemedi. İşletmeci iki oda ve yataklı salon diyor.",
+      "source": "https://www.booking.com/hotel/de/greatstay-apartment-danzigerstr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "grand-central-upper",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "grand-central-upper",
+      "photos": [
+        [
+          "Oturma ve Yemek Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/622242093.jpg?k=7f3774c71f259e3abfad23f9c8cdac6a06c214c999586cb55c2b3e0220cdee4a&o="
+        ],
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max300/622241807.jpg?k=3348f4672fda1b52c5d4599da11956ba1a8398bcdf206743ab4343b39bf170a3&o="
+        ],
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max300/622240976.jpg?k=9b1ee219ab6e164874992371e63093cba1dbc49b1588a99be429429c0b0b0016&o="
+        ],
+        [
+          "Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max300/622241999.jpg?k=66b76facd333a88469d585f6978d47f854b151713109c64143dee225421982dc&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/622237666.jpg?k=b50d993a33d82f3b6848f98007075677a5afbb7c3b6b47022cf2b94979a874e0&o="
+        ]
+      ],
+      "coverageNote": "Yalnız üst kat üç yatak odalı birim etiketli görseller kullanıldı. Üçüncü ayrı yatak odası ve dış alan fotoğrafı güvenle ayırt edilemedi; oda numaraları fotoğraflara bağlanmadı.",
+      "source": "https://www.booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "schonefeld-tesla",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "schonefeld-tesla",
+      "photos": [
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/850730556.jpg?k=c3624f035a1abc2487723bb6a2ced2701b0a59f760b3ba969f89320df364d9e9&o="
+        ],
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/850730439.jpg?k=fb4ba519de097b21f57c865611d5ce14b8c214870d7c0f570972eb035d6cf2a4&o="
+        ],
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max300/850730571.jpg?k=a214bee173d720aec733e1e16b747fbf4a6baddaa7e57df0670fc9f14dcc047a&o="
+        ],
+        [
+          "Oturma ve Yatak Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/850730531.jpg?k=038e00a5b1d3dcc339652e9b33fef3087633b25d577048232490463237ed25fd&o="
+        ],
+        [
+          "Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/850730524.jpg?k=f3d91e3b13bc1ecaf86658c468680f7f3289a97c64459b583ecfa8561c4a3a9b&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/850730458.jpg?k=f883d08c24282527181814e4ee74be2e501d8f11f4e5ba7fc2f0d24513cdbdaf&o="
+        ]
+      ],
+      "coverageNote": "Kaynak oda numarası belirtmiyor; yatak görüntülerinin tam oda dağılımı kesin değil. Kaynakta gösterilen dış alan bu seçkiye dahil edilmedi.",
+      "source": "https://www.booking.com/hotel/de/schonefeld-berlin-large-house-for-max-10-persons-near-tesla.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "bolunmus-lds1d",
+          "2027-01-01",
+          "2027-01-03"
+        ]
+      ],
+      "id": "bolunmus-lds1d",
+      "photos": [
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/897052570.jpg?k=a8e0cf8cf439baae455722daad2ba46e40984eba64602479362acf5dc792cd6b&o="
+        ],
+        [
+          "Oturma Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/897052578.jpg?k=f1fca800f313d66875c94ee5445dd381f38e9ad31c1aee1f2f62d820575a5699&o="
+        ],
+        [
+          "Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/897052606.jpg?k=8de5eac8a071439463b76e7b02e3c8793337be2e177a3dea2d05f96f7176f32e&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/897052586.jpg?k=2b7ac6f258aba7b980f94813fcd033170cb8e2c772e144a33dcb56d63503cdf2&o="
+        ],
+        [
+          "Yemek Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/897052555.jpg?k=840c6159956c9c34edf866f3f932d0b20495a83848bb6c9be2448c25b55228ad&o="
+        ],
+        [
+          "Yakın Çevre",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/897052250.jpg?k=7be925960d388c75e688ff143af562a6a31a2478ce9be2230b07e72afc19817c&o="
+        ]
+      ],
+      "coverageNote": "Galeride yalnız bir yatak odası görüntüsü vardı; diğer iki oda gösterilmiyor. Son görsel yakın çevre manzarasıdır, evin özel alanı değildir; havuz fotoğrafı tesise ait sayılmadı.",
+      "source": "https://www.booking.com/hotel/de/lds-1d.tr.html?checkin=2027-01-01&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "landhaus",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "landhaus",
+      "photos": [
+        [
+          "İki Yataklı Oda",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/540339548.jpg?k=7468569a5cf1ca1cd89e222e9ffc66e076edf65c581de0a19edc2547da54b483&o="
+        ],
+        [
+          "İki Yataklı Oda",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/532658730.jpg?k=d1c97f92c945bf3d409f41cae7558f21fcee65afade3367db1f07c151f96e402&o="
+        ],
+        [
+          "Oturma Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max300/536149613.jpg?k=78cb321679dce6c2429e32584feec24e44fe40504016411c18e3e4a60ca3b979&o="
+        ],
+        [
+          "Mutfak ve Yemek Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/536149648.jpg?k=0485d395576ecaec8dcafad9173569e6c4b3504b4b3f28ee04994c7f5503212c&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max300/536149597.jpg?k=f9ee4d02726e21f50fe0282038871e208e0ac3fe951aee7f46c69e3fb1325cbf&o="
+        ],
+        [
+          "Bahçe",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/536149728.jpg?k=df23f4bd389330debeba1d5496e9fca0a7a8343e295b4171c39cd6cf5f039829&o="
+        ]
+      ],
+      "coverageNote": "Üç yatak odalı villanın galerisinde iki farklı yatak alanı seçildi; üçüncü odanın fotoğrafla eşleşmesi ve oda numaraları net değil.",
+      "source": "https://www.booking.com/hotel/de/authentisches-landhaus-comfort-housing-dallgow-doberitz.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "bolunmus-urban-flats",
+          "2026-12-30",
+          "2027-01-01"
+        ]
+      ],
+      "id": "bolunmus-urban-flats",
+      "photos": [
+        [
+          "Üç Yataklı Oda",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/882240263.jpg?k=1b5cae7693951f3c1c48c687b5ff461adf7d88913bede29f3fa12bbbe468a463&o="
+        ],
+        [
+          "Üç Yataklı Oda",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/882240265.jpg?k=88c366175ff816f5d8c99fe3e5664fb19d96a9c30fb93a38d44454eb0e7b230a&o="
+        ],
+        [
+          "Salon ve Yemek Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/882240256.jpg?k=fe53d6750690904085277d28b45cffb8f7252cfb4efa8c39f0010232cdc2043c&o="
+        ],
+        [
+          "Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/882240250.jpg?k=95ac2c7d67902a7ee7f93020d8325760989b83596f7a3b95453a407ac896ad52&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/882240245.jpg?k=73bb15607fb5389cfef4cd9e29af84e187b94b6ce4f66c318ba15b76298657f3&o="
+        ],
+        [
+          "Balkon",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/882240268.jpg?k=a65c4b38d0965e3ab5f55d9df9f659740636761c88bec28a80e3e7c098f78d57&o="
+        ]
+      ],
+      "coverageNote": "Seçili 70 m² dairede iki odada üçer tek yatak ve salonda çekyat bulunuyor. Görsellerde oda numarası belirtilmedi; benzer yatak görüntülerinin oda numarasına eşleşmesi kesin değil.",
+      "source": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1#room_1270649713",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "bolunmus-torstrasse",
+          "2026-12-30",
+          "2027-01-01"
+        ]
+      ],
+      "id": "bolunmus-torstrasse",
+      "photos": [
+        [
+          "Yatak ve Oturma Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898603679.jpg?k=4cc0d807e3b281fad4b5bd7d2e7da6c1f8e66e036e66516c95d2c0675d90e587&o="
+        ],
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898604648.jpg?k=ac2df9e012789abcca0b8898a114516b8e56ba8246c1e8de93bb1b32070e4f01&o="
+        ],
+        [
+          "Salon ve Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898603324.jpg?k=5c180f31cd96eafd172af503c244a23081cd0ee8d978bd48e08ab3b03c486e68&o="
+        ],
+        [
+          "Duşlu Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898603293.jpg?k=b28707ef2e90f07c7e61c6eefd00f1841d84e9f1001f42e329819b8bd00d0584&o="
+        ],
+        [
+          "Küvetli Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898604673.jpg?k=55afd9d7fc51d3efe8edd9d986c8cb14db2d6c0cc93928381a920dd9a804a253&o="
+        ],
+        [
+          "Yakın Çevre",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898603760.jpg?k=587139946918df7ab24156e7ed4a3498bf5b97dda9618cffb7c650c8da65530d&o="
+        ]
+      ],
+      "coverageNote": "Seçili 135 m² zemin kat dairesinde dört yatak odası ve iki banyo bulunuyor. Yatak görüntülerinin oda numaraları belirtilmedi; kalan odalar gösterilmiyor. Sokak görüntüsü yakın çevreyi gösteriyor.",
+      "source": "https://www.booking.com/hotel/de/torstrasse.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1#room_1693702001",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "yeni-charlottenburg-uc-odali",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "yeni-charlottenburg-uc-odali",
+      "photos": [
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/582321750.jpg?k=c3d1ddb064c963e60616ebf190df0f0a308341b3bfd8717c69820952e81ebf25&o="
+        ],
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max300/582321748.jpg?k=015ee864889328a9fd56f66aa616f35de8238cdf11f65db4eac575138a2ffc4d&o="
+        ],
+        [
+          "Oturma Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/582321745.jpg?k=52286fac6a19971c5a57a9a3091dfd8e7343806e8b5a3477a883cc9ca85178cc&o="
+        ],
+        [
+          "Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/582321736.jpg?k=9b0004c106455b4affaeff4aed6f99bc24b992d662c0497069bc0a38d59c51f6&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/582321743.jpg?k=f7438c9867adade5a1f9ac6070319245bdc07aa638c378b4d42d35b2fa40282f&o="
+        ],
+        [
+          "Dış Cephe",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/582321759.jpg?k=5ab80e4beab4db1e38c04dfe697388f1f2377e1180792980d7d7ea1813f51245&o="
+        ],
+        [
+          "Standart Daire Galerisi · 7",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321742.jpg?k=ecc1fd604647a59dfeff6b4f59b52d948bfc8773e41de6632254111ffa1dff25&o="
+        ],
+        [
+          "Standart Daire Galerisi · 8",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582319758.jpg?k=01e08a800c245523551ff961b8a4b65a1a23fddd98c1d3edf648d53d71128d05&o="
+        ],
+        [
+          "Standart Daire Galerisi · 9",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321730.jpg?k=d4a90d9082c77b83bc544833a53d3931ae4483eb47bc8a26de08b3cdbcfa4177&o="
+        ],
+        [
+          "Standart Daire Galerisi · 10",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321725.jpg?k=aa98cf78ab07b849bc4ec10addf747cfe2ff4ed9e469f337d43ca61dcd91c144&o="
+        ],
+        [
+          "Standart Daire Galerisi · 11",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321720.jpg?k=ec9a1e8fa82dd875d23614cb537e1e7e5841b72a3ca550f20083f0c502ade1a6&o="
+        ],
+        [
+          "Standart Daire Galerisi · 12",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321724.jpg?k=9ee6ae1e5b5b0429bd495dec2313c8c525b246491d3fa51000731d2c6410f4e0&o="
+        ],
+        [
+          "Standart Daire Galerisi · 13",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321761.jpg?k=27d8e47e11cbab047710f9a476879c3ca34e92c5f5bc866dc9d73eea7abd14ec&o="
+        ],
+        [
+          "Standart Daire Galerisi · 14",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321738.jpg?k=b8c5ce7bafa372f40d27af5afdc032d48052196265e4a22f4bec8e608885ceec&o="
+        ],
+        [
+          "Standart Daire Galerisi · 15",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321728.jpg?k=533470e0601eead9c1e66c254e7d7ce2fd1179565ce7d9cc053eb8a2091c6733&o="
+        ],
+        [
+          "Standart Daire Galerisi · 16",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321735.jpg?k=289b90d79a04275ce75f962735228646149955f7bd72229e0d48d09940f2514a&o="
+        ],
+        [
+          "Standart Daire Galerisi · 17",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321733.jpg?k=c68b853c3370ee9aa0656d39e7f10e598ad29882139fc9763cda13573cdb2119&o="
+        ],
+        [
+          "Standart Daire Galerisi · 18",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321732.jpg?k=46148246a52374b93053ccf60b0196a85066508d21d5c153c164eb544bdc61d8&o="
+        ],
+        [
+          "Standart Daire Galerisi · 19",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321739.jpg?k=c30b187cb2d3ee08083d26398bb91c6fab93be26a28061e8a5af61f42bb9af7b&o="
+        ],
+        [
+          "Standart Daire Galerisi · 20",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321737.jpg?k=5e4c2ef9d5aee14a7a8d0729e250429b13b55386e52de4ab1ec95a1ef5ef9146&o="
+        ],
+        [
+          "Standart Daire Galerisi · 21",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321734.jpg?k=48db9c47dbf1363da581e5b04a67def6c95e5f78ad5e33391d531375c6be4210&o="
+        ],
+        [
+          "Standart Daire Galerisi · 22",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321756.jpg?k=4ddea7141d06f2ad692066d6a5d73c6bdd2987bc7aca17450711f9492de667d1&o="
+        ],
+        [
+          "Standart Daire Galerisi · 23",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321764.jpg?k=4c4b1ebcb6b1708e6a9667212dbdcbdd87390eb3752f2a76afbc3cbf82ac9da8&o="
+        ],
+        [
+          "Standart Daire Galerisi · 24",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321752.jpg?k=93dee9878bf153530137cb7dd52e04992b78fbaa533c2ba40e9c0a1423294409&o="
+        ],
+        [
+          "Standart Daire Galerisi · 25",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321753.jpg?k=1ab0eb0828670dd9eebc72a5a5425b41e2c2787b8aa96ff5151320a11d28a8ff&o="
+        ],
+        [
+          "Standart Daire Galerisi · 26",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321754.jpg?k=fda52d694c67d0b11b542d9635348185a4bbb19c55ac4c9b70bed26ba7d59c6d&o="
+        ],
+        [
+          "Standart Daire Galerisi · 27",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321749.jpg?k=673459d21e97056a4a4f9b55689a6bb34261be021d4ce2595cfef006b4835ebe&o="
+        ],
+        [
+          "Standart Daire Galerisi · 28",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321751.jpg?k=47dd0c760c8f2e86aa4968e7ad4d08ac9873e34de030fbda402fd854d79be569&o="
+        ],
+        [
+          "Standart Daire Galerisi · 29",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321744.jpg?k=50c65bbd75827349a376145f7950feacbdcd6923c9987e5f54823027e64336f4&o="
+        ],
+        [
+          "Standart Daire Galerisi · 30",
+          "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/582321746.jpg?k=58c1afa04e398b3120eed58e91d997d84ac03d04d57e4b883f8f83a79521f8af&o="
+        ]
+      ],
+      "coverageNote": "Görseller seçili üç yatak odalı standart daireyle eşleşiyor. Üçüncü yatak odası ve fotoğraf ile oda numarası eşleşmesi kesin değil. Booking seçili Üç Yatak Odalı Standart Daire penceresindeki 30 fotoğrafın tamamı eklendi; ek karelerin oda numaraları belirlenmedi.",
+      "source": "https://www.booking.com/hotel/de/traumhafte-wohnung-mitten-in-charlottenburg.de.html",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "yeni-kreuzberg-freiligrath",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "yeni-kreuzberg-freiligrath",
+      "photos": [
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/546823315.jpg?k=88f232619551b834b13a1f851594d608d8103a2a3c54102c45ca05c77e23ad2f&o="
+        ],
+        [
+          "Oturma ve Yatak Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/546823400.jpg?k=68f85b81ed059e5a0b9dfceba7dc8de26d8ab233b2e03380408a3c3e53685ec4&o="
+        ],
+        [
+          "Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/546823369.jpg?k=f3f0f85992c2b6bcecc7bbd1f6f0539f69740eb2534fd2d7678281cbd0007786&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/546823274.jpg?k=dfdc4740f2732e99f4fbc532afabcaa0a6e50da559985ff9f7db4664c68edefc&o="
+        ],
+        [
+          "Yakın Çevre",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/546823431.jpg?k=061eac21b0db0a46045bf21e60b873334be31d4fd7c670f9ee6e1a844fa2de81&o="
+        ]
+      ],
+      "coverageNote": "Bu birimde tek yatak odası bulunuyor; yataklar aynı odada. Yakın çevre fotoğrafı özel dış alan değildir.",
+      "source": "https://www.booking.com/hotel/de/im-herzen-von-kreuzberg-perfekt-gelegen-fur-bis-zu-8-personen.de.html",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "yeni-arabel-suite",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "yeni-arabel-suite",
+      "photos": [
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/928690335.jpg?k=402c065aa4d97ffb009ff0c876a413e396070391ea54db863160ebd90ed09308&o="
+        ],
+        [
+          "Salon ve Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/928690338.jpg?k=d202d6cebd609a65ddf9d8a1171a5568896e18e6d6b185fc2c3c2278b1a148c5&o="
+        ],
+        [
+          "Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/928690329.jpg?k=05925deeae44e8945594500000d2b45703e9de280c642ebcc87624c96b1158e7&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/928690336.jpg?k=6b1e8f9509cef44376d7a74588d68f2ea3416b4a6e8c332ed3b2f86c70b03214&o="
+        ],
+        [
+          "Tesis Dış Cephesi",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/928690445.jpg?k=74e2f6e89d786c441ec01fcffdf81b5fb60e6d29850551e369bc82ad78b656a2&o="
+        ]
+      ],
+      "coverageNote": "Görseller seçili üç yatak odalı süit tipine ait. Üç farklı yatak odası ayrı fotoğraflarda ayırt edilemedi. Dış cephe tesis geneline aittir.",
+      "source": "https://www.booking.com/hotel/de/arabel-design-apartments.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0#room_112683324",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "yeni-locke-2-family",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "yeni-locke-2-family",
+      "photos": [
+        [
+          "Yatak Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/890509961.jpg?k=4b423c3d75bb6be47b56919f154b82fa6cd8219d4d6285860889ea2e3a96b305&o="
+        ],
+        [
+          "Oturma Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/890509388.jpg?k=309398fc7bc2efbbbf55dbf7e3fa4a4c5270f035e31c89071f94588c847f9fa5&o="
+        ],
+        [
+          "Mini Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/890509372.jpg?k=569f4f8b5b79fc0b187eeb3d05f580d56817208ddf422a5f82d06ace53452f0c&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/890509389.jpg?k=60a6a4c54b4d40fbb9c4187a93d861f99a462947b4fc1187a67df5bc59676609&o="
+        ]
+      ],
+      "coverageNote": "Seçili 29 m² aile dairesinin dört farklı kullanım alanı gösteriliyor. İki atanacak dairenin görünümü farklı olabilir.",
+      "source": "https://www.booking.com/hotel/de/locke-at-east-side-gallery.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=2#room_979082304",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "yeni-wilde-2-daire",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "yeni-wilde-2-daire",
+      "photos": [
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/772702723.jpg?k=3d4ecc347faef67d2fa4afc70d1bb8071a2ffc57ac99591ddcbb8f511e8560e4&o="
+        ],
+        [
+          "Oturma Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/680597984.jpg?k=3668701cab4744edbcc3f5bc4fb09f3b847b51f2a5dc437b868d160a9d61ed05&o="
+        ],
+        [
+          "Mutfak ve Yemek Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/217132699.jpg?k=5c7a1b17a20907383f81641ce4b98591dddcd1f013c3e181ca3eeb64acc46fdc&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/217132659.jpg?k=a94190939cf2dabce59ae4f7cd4eb4284f04c7016938db4159dd68f382d7d1aa&o="
+        ]
+      ],
+      "coverageNote": "Seçili tek yatak odalı daireye ait dört farklı alan gösteriliyor. İki atanacak daire farklı olabilir.",
+      "source": "https://www.booking.com/hotel/de/wilde-aparthotels-by-staycity-berlin-checkpoint-charlie.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=2#room_551861601",
+      "verifiedVisual": true
+    },
+    {
+      "targetKeys": [
+        [
+          "idyllisches-haus",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "id": "idyllisches-haus",
+      "photos": [
+        [
+          "Yatak Odası",
+          "https://cf.bstatic.com/xdata/images/hotel/max300/256697568.jpg?k=b57a76c14f47cb0417e55dbda38f86a47b63d2912f23286a239acb08241793f5&o="
+        ],
+        [
+          "İki Yataklı Oda",
+          "https://cf.bstatic.com/xdata/images/hotel/max300/256698299.jpg?k=b8ba637ca92ee6926e7f0800acb2290c5d0de01c4f6f1905fe1baf96537138ab&o="
+        ],
+        [
+          "Oturma Alanı",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/256698158.jpg?k=21b43b2974a6ca1ca4ffabeffe53196ffaf5d880c1ab03b57cb1a681f8f43484&o="
+        ],
+        [
+          "Mutfak",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/133850464.jpg?k=6c9d0eeb3b8a1bd40b4f0c55cf5d064272f5d7a6924610f2b3e58281bb4567e2&o="
+        ],
+        [
+          "Banyo",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/133853123.jpg?k=207956fad6015a9ab41266fe5f12b038a7b9fc441c7c32559157618c16f51886&o="
+        ],
+        [
+          "Dış Cephe ve Bahçe",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/256696672.jpg?k=40e7b49d3c41bc0712cbc9191f78f266f174a1a34115a0a0964211094cb50703&o="
+        ]
+      ],
+      "coverageNote": "İki yatak odalı konağın galerisinde iki farklı yatak alanı seçildi; oda numaraları görsellere bağlanmadı.",
+      "source": "https://www.booking.com/hotel/de/idyllisches-haus-mitten-in-berlin.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0",
+      "verifiedVisual": true
+    }
+  ]
+}

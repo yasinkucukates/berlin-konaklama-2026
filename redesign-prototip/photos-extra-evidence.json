@@ -1,0 +1,1677 @@
+{
+  "description": "İlave fotoğrafların kaynak URL, ilan kimliği ve sağlayıcı veri kümesi eşleştirme kaydı; görsel dosyası içermez.",
+  "date": "2026-11-05",
+  "scope": "Mevcut Apify veri kümeleri salt okunarak kullanıldı; yeni aktör çalıştırılmadı.",
+  "records": [
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "1754173933020764455",
+      "sourceId": "1754173933020764455",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/1754173933020764455?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "4BR House close to Potsdam and Berlin",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1754173933020764455",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 10,
+          "caption": "Bedroom 4 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1754173933020764455/original/83f3c18e-4808-473a-87e2-0d171c855785.jpeg"
+        },
+        {
+          "index": 0,
+          "caption": "Full kitchen 1 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1754173933020764455/original/f70d4fb2-866d-45ef-b8b4-02f256927372.jpeg"
+        },
+        {
+          "index": 13,
+          "caption": "Full bathroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1754173933020764455/original/35dea0fd-3fe4-46d3-bfbd-e94b2da7d077.jpeg"
+        },
+        {
+          "index": 6,
+          "caption": "Bedroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1754173933020764455/original/4f6d3983-a394-46a8-8d51-f387adb8e14b.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "31203800",
+      "sourceId": "31203800",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/31203800?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Vacation home ,,At the train station “",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "31203800",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": true,
+      "added": [
+        {
+          "index": 9,
+          "caption": "Guest bathroom",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-31203800/original/03f6f97b-5ea3-4a1f-8e13-0875bbff534e.jpeg"
+        },
+        {
+          "index": 19,
+          "caption": "Listing image 20",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-31203800/original/492581b2-0ddb-4b32-88bf-e02945395d4d.jpeg"
+        },
+        {
+          "index": 20,
+          "caption": "Listing image 21",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-31203800/original/a92c96d5-428c-4f4a-8c69-ec3903c5e7be.jpeg"
+        },
+        {
+          "index": 21,
+          "caption": "Listing image 22",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-31203800/original/05110022-f9a7-4d29-be22-37e93049139c.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "31348853",
+      "sourceId": "31348853",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/31348853?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Vacation home with a patio",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "31348853",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 7,
+          "caption": "Guest bathroom",
+          "url": "https://a0.muscache.com/im/pictures/006878d1-7c16-4401-b0ba-0bea353d1571.jpg"
+        },
+        {
+          "index": 10,
+          "caption": "Terrace view,living room",
+          "url": "https://a0.muscache.com/im/pictures/ec199be7-670a-4c8c-b529-34ad15918d83.jpg"
+        },
+        {
+          "index": 17,
+          "caption": "Living room/kitchen",
+          "url": "https://a0.muscache.com/im/pictures/564726d1-123c-496f-a906-6dc769b2b302.jpg"
+        },
+        {
+          "index": 18,
+          "caption": "Living room",
+          "url": "https://a0.muscache.com/im/pictures/ff8c2a94-5a53-48ee-b2d4-81a54fdb333f.jpg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "873230612368758488",
+      "sourceId": "873230612368758488",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/873230612368758488?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Central 130m², 3BR, 2Bath, Work & Family-Friendly",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "873230612368758488",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 5,
+          "caption": "Full kitchen image 1",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-873230612368758488/original/9ea79b96-f19a-4f66-9e12-61b7e9122269.jpeg"
+        },
+        {
+          "index": 7,
+          "caption": "Kitchenette image 1",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-873230612368758488/original/b77d3c26-a31f-4f4b-988f-ec6a6008a3b0.jpeg"
+        },
+        {
+          "index": 8,
+          "caption": "Dining area 1 image 1",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-873230612368758488/original/16f0fa56-e427-4827-a219-8507966896e9.jpeg"
+        },
+        {
+          "index": 10,
+          "caption": "Dining area 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-873230612368758488/original/a5b58025-dd37-4489-82e6-18a341e4db84.jpeg"
+        },
+        {
+          "index": 36,
+          "caption": "Laundry area image 1",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-873230612368758488/original/270e33e8-ac70-4bc3-be63-a84b77be511b.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "937599705398085803",
+      "sourceId": "937599705398085803",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/937599705398085803?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "House with parking & garden near the zoo",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "937599705398085803",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 12,
+          "caption": "Bedroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTM3NTk5NzA1Mzk4MDg1ODAz/original/9994e0c4-e00b-4978-b0fd-cc396f30a799.jpeg"
+        },
+        {
+          "index": 16,
+          "caption": "Bedroom 4 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTM3NTk5NzA1Mzk4MDg1ODAz/original/0d217cac-cf74-4f85-adc8-69de5eba3dc2.jpeg"
+        },
+        {
+          "index": 25,
+          "caption": "Half bathroom image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTM3NTk5NzA1Mzk4MDg1ODAz/original/2dbd9b22-eb98-4bef-9c61-69623603c963.jpeg"
+        },
+        {
+          "index": 31,
+          "caption": "Backyard image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTM3NTk5NzA1Mzk4MDg1ODAz/original/9b0e13bc-8ac8-40a5-a9fa-26053a7991a9.jpeg"
+        },
+        {
+          "index": 32,
+          "caption": "Patio image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTM3NTk5NzA1Mzk4MDg1ODAz/original/8cd70dae-208c-4c76-885c-5741ccbd6612.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "1468719376516749093",
+      "sourceId": "1468719376516749093",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/1468719376516749093?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Family house near Berlin",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1468719376516749093",
+          "2026-12-30",
+          "2027-01-03"
+        ],
+        [
+          "1468719376516749093",
+          "2027-01-01",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 26,
+          "caption": "Bedroom 3 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/3ecdd9fe-d228-4866-a091-21c80447e63f.jpeg"
+        },
+        {
+          "index": 34,
+          "caption": "Full bathroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/33dfbcb9-a46d-4af7-be77-5b41f94c8ef8.jpeg"
+        },
+        {
+          "index": 17,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/5007a507-44b3-4c10-b651-0225b42bf019.jpeg"
+        },
+        {
+          "index": 39,
+          "caption": "Laundry area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/91401a40-543c-4c81-b614-c597fda23e02.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "565270388295704317",
+      "sourceId": "565270388295704317",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/565270388295704317?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Remise gallop racecourse near Berlin",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "565270388295704317",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 12,
+          "caption": "Bedroom 1 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-565270388295704317/original/c7cf19e8-8d56-4157-8baf-badfab2dce09.jpeg"
+        },
+        {
+          "index": 31,
+          "caption": "Full bathroom 3 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-565270388295704317/original/3ef383e8-2165-4418-8d13-5584d4382b20.jpeg"
+        },
+        {
+          "index": 32,
+          "caption": "Patio image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-565270388295704317/original/53632b08-e0fb-443a-a406-9eef676b354e.jpeg"
+        },
+        {
+          "index": 34,
+          "caption": "Outdoor dining area",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTY1MjcwMzg4Mjk1NzA0MzE3/original/52232b49-7993-487d-b821-db02973cf79f.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "22026440",
+      "sourceId": "22026440",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/22026440?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Villa on the city border to Berlin",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "22026440",
+          "2026-12-30",
+          "2027-01-03"
+        ],
+        [
+          "22026440",
+          "2027-01-01",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 17,
+          "caption": "Half bathroom image 1",
+          "url": "https://a0.muscache.com/im/pictures/9e900c59-e8fa-445e-862b-759e4333bbc0.jpg"
+        },
+        {
+          "index": 20,
+          "caption": "Patio image 1",
+          "url": "https://a0.muscache.com/im/pictures/fe99605b-8056-42fa-aef0-f5b566dda932.jpg"
+        },
+        {
+          "index": 6,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/ebfa0920-250d-44c3-bda2-27c11905959e.jpg"
+        },
+        {
+          "index": 0,
+          "caption": "Living room image 1",
+          "url": "https://a0.muscache.com/im/pictures/01f959dc-2948-4b1f-ac44-b2136d284f94.jpg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "1552331405600484908",
+      "sourceId": "1552331405600484908",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/1552331405600484908?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Ruby & Indigo - architectural hideaway",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1552331405600484908",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 10,
+          "caption": "The bed folds out easily from the built-in cabinet, offering a clever and space-saving sleeping solution.",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1552331405600484908/original/64c3f4c2-fdce-4baa-9797-e996d77f72f9.jpeg"
+        },
+        {
+          "index": 18,
+          "caption": "The first sleeping alcove opens to the living area and can be closed off with two sliding doors, creating a cozy and private place to rest.",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1552331405600484908/original/fbe31f91-c288-4f33-b09c-1dfc0ba66f45.jpeg"
+        },
+        {
+          "index": 9,
+          "caption": "The sofa in the living area transforms into a cozy bed, ideal for additional guests.",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1552331405600484908/original/118f1f95-43c2-4bc5-a4ec-81dfc8b90452.jpeg"
+        },
+        {
+          "index": 22,
+          "caption": "The spacious rain shower offers a refreshing and comfortable shower experience, perfect to start or end your day.",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1552331405600484908/original/b22213b0-9bad-44cc-9250-7192dd850d62.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "1800855588199404311",
+      "sourceId": "1800855588199404311",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/1800855588199404311?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Haus Blankenfelde-Mahlow Dahlewitz – Berlin & BER",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1800855588199404311",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 5,
+          "caption": "Bedroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/bf3c859e-c867-4e00-b3f5-a2fa0c3b4295.jpeg"
+        },
+        {
+          "index": 6,
+          "caption": "Bedroom 3 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/6666e4d5-a417-4ca2-b798-83bf777eba69.jpeg"
+        },
+        {
+          "index": 12,
+          "caption": "Full bathroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/a3a6d3db-973d-4919-a7b1-8d1a74942002.jpeg"
+        },
+        {
+          "index": 13,
+          "caption": "Workspace image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/303f4cd7-32ef-424c-8765-cba38c31747e.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "1175489093358086077",
+      "sourceId": "1175489093358086077",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/1175489093358086077?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Family house with lake access",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1175489093358086077",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 2,
+          "caption": "Kitchenette image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1175489093358086077/original/38ed95d7-9968-4641-8389-b952859ce738.png"
+        },
+        {
+          "index": 3,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1175489093358086077/original/039f3bd8-742d-4218-851f-7f223896b323.png"
+        },
+        {
+          "index": 6,
+          "caption": "Bedroom 1 image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1175489093358086077/original/979657cb-a21a-4b4f-8ee0-d51b6dbd3dd5.png"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "1641351333944417315",
+      "sourceId": "1641351333944417315",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/1641351333944417315?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Country house residence just outside Berlin",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1641351333944417315",
+          "2027-01-01",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 4,
+          "caption": "Bedroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/258476ff-d2cf-4593-a687-4c3a6a7b4f46.jpeg"
+        },
+        {
+          "index": 9,
+          "caption": "Full bathroom 1 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/431dca69-7e47-4897-b3d9-60427df6667d.jpeg"
+        },
+        {
+          "index": 1,
+          "caption": "Living room image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/f0a12f91-4e73-427f-b701-a2300ff69081.jpeg"
+        },
+        {
+          "index": 21,
+          "caption": "Garage with roof",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/8abe637b-1486-49bc-8df0-e2d935d50cd4.png"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "1144871109877188022",
+      "sourceId": "1144871109877188022",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/1144871109877188022?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Beautiful house in Berlin, close to the city center",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1144871109877188022",
+          "2027-01-01",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 14,
+          "caption": "Bedroom 2 image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/5e113f6b-5d91-4846-896c-6d8c68446523.jpeg"
+        },
+        {
+          "index": 19,
+          "caption": "Full bathroom 1 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/512c8755-4c7e-4259-a008-29cb06787fbc.jpeg"
+        },
+        {
+          "index": 5,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/ca67641e-7123-4d33-aba7-04e2cbfd89c1.jpeg"
+        },
+        {
+          "index": 22,
+          "caption": "Laundry area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/43042fdc-c23e-463a-988e-382b3044f589.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-houses.json",
+      "targetId": "1777706242995862793",
+      "sourceId": "1777706242995862793",
+      "datasetId": "L5P5DVh1INHvALkIz",
+      "sourceUrl": "https://www.airbnb.com/rooms/1777706242995862793?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Dieter's House",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1777706242995862793",
+          "2027-01-01",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": true,
+      "added": [
+        {
+          "index": 4,
+          "caption": "Listing image 5",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/d2385e66-b0ef-47a7-85e6-b694c670bf63.jpeg"
+        },
+        {
+          "index": 5,
+          "caption": "Listing image 6",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/756b8c3b-82df-46e3-b199-e2e1965d7d9e.jpeg"
+        },
+        {
+          "index": 6,
+          "caption": "Listing image 7",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/fef9175a-f9ee-4d53-b10f-6d9292287728.jpeg"
+        },
+        {
+          "index": 7,
+          "caption": "Listing image 8",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/a3b931af-dd1e-4e19-b457-85183c4eff50.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-apartments.json",
+      "targetId": "1216757408450098435",
+      "sourceId": "1216757408450098435",
+      "datasetId": "ddaFYH2bBB0kOBKp2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1216757408450098435?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Spacious 5 Bedroom Apartment w/Balcony for Groups",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1216757408450098435",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 19,
+          "caption": "Bedroom 4 image 1",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/599127a5-829d-4164-ab03-23b71d91c433.jpeg"
+        },
+        {
+          "index": 21,
+          "caption": "Bedroom 5 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTIxNjc1NzQwODQ1MDA5ODQzNQ%3D%3D/original/15e3cde7-88b0-4ff4-8124-19d8ec733d21.jpeg"
+        },
+        {
+          "index": 30,
+          "caption": "Workspace image 1",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/3ebc0027-a3ff-4677-a5be-3cbc46541f63.jpeg"
+        },
+        {
+          "index": 32,
+          "caption": "Laundry area image 1",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/6c91ca98-e636-4677-8882-fd079ac4e90e.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-apartments.json",
+      "targetId": "1389128667463860564",
+      "sourceId": "1389128667463860564",
+      "datasetId": "ddaFYH2bBB0kOBKp2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1389128667463860564?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Berlin Roof&Chill I OverTheTop",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1389128667463860564",
+          "2026-12-30",
+          "2027-01-03"
+        ],
+        [
+          "bolunmus-roof-chill",
+          "2026-12-30",
+          "2027-01-01"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 4,
+          "caption": "Outdoor dinging area with access to kitchen and 2nd dining area and living room / 2 large doors / BBQ electric",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/0698d0cf-0dc5-47d1-a5a6-00449c7831ae.jpeg"
+        },
+        {
+          "index": 15,
+          "caption": "Second bathroom with separate toilet",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/30dbe0fa-efed-404a-83eb-dc3825578091.jpeg"
+        },
+        {
+          "index": 16,
+          "caption": "Second bathroom with Second Shower",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/a4a5811f-5184-496f-a3df-c3c79bd5f0ba.jpeg"
+        },
+        {
+          "index": 11,
+          "caption": "Bedroom 3 with 2 Beds (1 Master / 1 single)",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/cd9c59f1-d61c-45c0-a14c-1114a4d4c619.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-apartments.json",
+      "targetId": "1519600838702010375",
+      "sourceId": "1519600838702010375",
+      "datasetId": "ddaFYH2bBB0kOBKp2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1519600838702010375?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "BIG New 6Rms Flat/150m2 City Center Prime Location",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1519600838702010375",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 17,
+          "caption": "Bedroom 4 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/d1ce8af5-3467-45e7-b2bc-8c9970ca3e3b.jpeg"
+        },
+        {
+          "index": 21,
+          "caption": "Bedroom 5 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/44cfd7f9-d6b9-4d2a-b0d1-d6a5085c47b1.jpeg"
+        },
+        {
+          "index": 26,
+          "caption": "Full bathroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/fb0c5dd8-4b15-4896-91c9-087435879a5e.jpeg"
+        },
+        {
+          "index": 2,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/18eebae9-9030-4f26-9acf-1939bff963b9.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-apartments.json",
+      "targetId": "1804486533198172905",
+      "sourceId": "1804486533198172905",
+      "datasetId": "ddaFYH2bBB0kOBKp2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1804486533198172905?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Elvano Apartments with Garden Flat",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1804486533198172905",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 5,
+          "caption": "Bedroom 3 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/5df7a051-18c6-46b0-8fd8-8df7849a326e.jpeg"
+        },
+        {
+          "index": 6,
+          "caption": "Bedroom 4 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/8bee55d4-284c-40f4-9fe0-f1a0775220b3.jpeg"
+        },
+        {
+          "index": 1,
+          "caption": "Full kitchen image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/154c976e-7d74-43bb-9332-b416195b49f7.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-apartments.json",
+      "targetId": "1166429151300530583",
+      "sourceId": "1166429151300530583",
+      "datasetId": "ddaFYH2bBB0kOBKp2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1166429151300530583?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "+ HipSpot Berlin Mitte R3 +",
+      "initialCount": 5,
+      "targetKeys": [
+        [
+          "1166429151300530583",
+          "2026-12-30",
+          "2027-01-03"
+        ],
+        [
+          "1166429151300530583",
+          "2026-12-30",
+          "2027-01-01"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 11,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/63dbf222-ff61-445b-8a7f-67f4c264f086.png"
+        },
+        {
+          "index": 1,
+          "caption": "Living room image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/496b675d-8a21-4504-8761-e8e98a25cfce.png"
+        },
+        {
+          "index": 9,
+          "caption": "Full kitchen image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/e7b5566e-007d-4d60-8f86-86d3819c02ec.png"
+        },
+        {
+          "index": 15,
+          "caption": "Bedroom 1 image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/3c5b084d-7a00-450c-9d39-5e308cf6f00e.png"
+        },
+        {
+          "index": 19,
+          "caption": "Bedroom 2 image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/2df58ca8-b8b6-408e-a61f-75434c9dd56f.png"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-apartments.json",
+      "targetId": "1352773721511868469",
+      "sourceId": "1352773721511868469",
+      "datasetId": "ddaFYH2bBB0kOBKp2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1352773721511868469?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Attic apartment in villa!",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "1352773721511868469",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 11,
+          "caption": "Bedroom 4 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/2e124781-1a3c-40d9-80fe-627278d22b40.jpeg"
+        },
+        {
+          "index": 12,
+          "caption": "Bedroom 5 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/915b029f-4bf6-4980-bc21-9859784ab4cc.jpeg"
+        },
+        {
+          "index": 14,
+          "caption": "Bedroom 6 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/2545ae46-1a2e-46ea-a0ff-5360ed61af5a.jpeg"
+        },
+        {
+          "index": 15,
+          "caption": "Full bathroom 1 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/424499cd-efee-4110-b37f-1aac639803e2.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-apartments.json",
+      "targetId": "53802915",
+      "sourceId": "53802915",
+      "datasetId": "ddaFYH2bBB0kOBKp2",
+      "sourceUrl": "https://www.airbnb.com/rooms/53802915?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "120m2 Design Apt, 3BR, 2B, big Kitchen 11 min Alex",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "53802915",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 16,
+          "caption": "A large wooden table is inviting for elegant dinners or  business meetings - wine glasses to be found in the kitchen :)",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-53802915/original/49db85b7-7e39-492a-b64e-6b511e281c4d.jpeg"
+        },
+        {
+          "index": 46,
+          "caption": "Half bathroom image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTM4MDI5MTU%3D/original/203ca184-5710-4ce0-a0d9-174fd326e343.jpeg"
+        },
+        {
+          "index": 49,
+          "caption": "The entrance to your new home in Berlin: we designed a walkthrough that will take you through the single rooms in the following pictures.",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-53802915/original/299e04f4-2818-4fd9-97e8-ec630275fff4.jpeg"
+        },
+        {
+          "index": 22,
+          "caption": "Bedroom 1 image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTM4MDI5MTU%3D/original/dc33d25e-cbc5-43bd-b969-1c602a7283d8.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-apartments.json",
+      "targetId": "12048269",
+      "sourceId": "12048269",
+      "datasetId": "ddaFYH2bBB0kOBKp2",
+      "sourceUrl": "https://www.airbnb.com/rooms/12048269?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Penthouse Torstr, 3BRs, 2baths, 150sqm, 4-8 Guests",
+      "initialCount": 5,
+      "targetKeys": [
+        [
+          "12048269",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": true,
+      "added": [
+        {
+          "index": 3,
+          "caption": "Listing image 4",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/81b82deb-c836-42c7-a2a5-74f88e2b8d36.jpeg"
+        },
+        {
+          "index": 4,
+          "caption": "Listing image 5",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/fb522ce9-0506-47fc-997f-82ae6dd47234.jpeg"
+        },
+        {
+          "index": 5,
+          "caption": "Listing image 6",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/be236b2a-fc72-4006-a331-73e827f93b6d.jpeg"
+        },
+        {
+          "index": 6,
+          "caption": "Listing image 7",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/f4e4e2b7-d006-4fe7-9e56-cfe6c45af944.jpeg"
+        },
+        {
+          "index": 7,
+          "caption": "Listing image 8",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/75cf47df-c34e-4d0a-9121-08aac5d11d71.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-apartments.json",
+      "targetId": "45436574",
+      "sourceId": "45436574",
+      "datasetId": "ddaFYH2bBB0kOBKp2",
+      "sourceUrl": "https://www.airbnb.com/rooms/45436574?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "City apartment Spreeufer in the heart of Berlin",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "45436574",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 13,
+          "caption": "Half bathroom image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/d53a33dc-564d-4780-87f7-306e428ea44a.jpeg"
+        },
+        {
+          "index": 1,
+          "caption": "Living room image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/1edc9e68-cb69-4b9f-b2fc-6d81a4926a85.jpeg"
+        },
+        {
+          "index": 4,
+          "caption": "Full kitchen image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/e88a46de-5276-4d79-8643-6d2a9acc0a2b.jpeg"
+        },
+        {
+          "index": 9,
+          "caption": "Bedroom 2 image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/4409fa41-01d8-4add-82b7-b147b1cceece.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-apartments.json",
+      "targetId": "1150006272268927007",
+      "sourceId": "1150006272268927007",
+      "datasetId": "ddaFYH2bBB0kOBKp2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1150006272268927007?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "2 BR, central Apt. at Maybachufer",
+      "initialCount": 5,
+      "targetKeys": [
+        [
+          "1150006272268927007",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 8,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/0958fba8-d7f8-4712-a17a-ec29651ceba8.jpeg"
+        },
+        {
+          "index": 22,
+          "caption": "Half bathroom image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/7f9873dc-f35d-4b24-b9bb-d881a5abc649.jpeg"
+        },
+        {
+          "index": 0,
+          "caption": "Living room image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/25c280aa-033e-41b6-98e3-a51671d7cb9a.jpeg"
+        },
+        {
+          "index": 14,
+          "caption": "Bedroom 2 image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/309cd1f5-5a71-4dee-9c7d-4978b26c5fd5.jpeg"
+        },
+        {
+          "index": 18,
+          "caption": "Full bathroom image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/f8a825f3-dd93-4516-9bda-987f0e3e8e1b.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-apartments.json",
+      "targetId": "21074683",
+      "sourceId": "21074683",
+      "datasetId": "ddaFYH2bBB0kOBKp2",
+      "sourceUrl": "https://www.airbnb.com/rooms/21074683?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "Arbio I Cosy Spacious Apart in Bergmannkiez",
+      "initialCount": 5,
+      "targetKeys": [
+        [
+          "21074683",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 13,
+          "caption": "Big dinner table to have meals together",
+          "url": "https://a0.muscache.com/im/pictures/1e77f250-8bbb-4884-ac6b-1af5155043e0.jpg"
+        },
+        {
+          "index": 25,
+          "caption": "Bedroom with 2 single beds",
+          "url": "https://a0.muscache.com/im/pictures/5d232db8-b4ef-4eac-b6ef-9aa8808fc1f3.jpg"
+        },
+        {
+          "index": 32,
+          "caption": "Shower room",
+          "url": "https://a0.muscache.com/im/pictures/efbd0721-84b6-4feb-9a2f-d0674553133f.jpg"
+        },
+        {
+          "index": 39,
+          "caption": "Shower",
+          "url": "https://a0.muscache.com/im/pictures/56f907b1-d660-4e4c-883f-5daa4af86d3b.jpg"
+        },
+        {
+          "index": 0,
+          "caption": "Modern interior design",
+          "url": "https://a0.muscache.com/im/pictures/5c30eb5e-e14c-447b-99d5-85b21857eabb.jpg"
+        }
+      ]
+    },
+    {
+      "adults": 7,
+      "sourceFile": "redesign/photos-apartments.json",
+      "targetId": "bolunmus-alexa",
+      "sourceId": "1260209089340243876",
+      "datasetId": "ddaFYH2bBB0kOBKp2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1260209089340243876?locale=en-US&currency=USD&adults=7",
+      "sourceTitle": "ALEXA Spacious Design Apart up to 10 Ppl/Wifi",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "bolunmus-alexa",
+          "2026-12-30",
+          "2027-01-01"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 31,
+          "caption": "Bedroom 3 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/67b1e9c1-3f5f-4c5a-9a17-884c5c4dea08.jpeg"
+        },
+        {
+          "index": 39,
+          "caption": "Bedroom 4 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/20b232c7-4302-4753-8d9d-5ea5af7c42a4.jpeg"
+        },
+        {
+          "index": 48,
+          "caption": "Full bathroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/74995a99-5c47-4a88-9dc5-3c766971a97b.jpeg"
+        },
+        {
+          "index": 52,
+          "caption": "Full bathroom 3 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/c2f97648-6cf4-4272-83b6-2956df72f5d1.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/airbnb.json",
+      "targetId": "six-airbnb-1152005761587998986-full",
+      "sourceId": "1152005761587998986",
+      "datasetId": "6xgvpAjwkiUgokmcY",
+      "sourceUrl": "https://www.airbnb.com/rooms/1152005761587998986?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03",
+      "sourceTitle": "Beautiful 3-room apartment for families and groups",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-airbnb-1152005761587998986-full",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": true,
+      "added": [
+        {
+          "index": 4,
+          "caption": "A4 I5231",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1152005761587998986/original/acc99b3b-af7c-43ed-99f5-09bc4c371e69.jpeg"
+        },
+        {
+          "index": 7,
+          "caption": "A4 I5248",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1152005761587998986/original/01395f4c-f3c3-4530-b004-93aa69cc0436.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/airbnb.json",
+      "targetId": "six-airbnb-1656340-full",
+      "sourceId": "1656340",
+      "datasetId": "6xgvpAjwkiUgokmcY",
+      "sourceUrl": "https://www.airbnb.com/rooms/1656340?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03",
+      "sourceTitle": "1,292 sq ft Historic Landmark, Checkpoint Charlie",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-airbnb-1656340-full",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 12,
+          "caption": "bedroom 03, 2 single beds 100x200cm that can be put together into a king size bed",
+          "url": "https://a0.muscache.com/im/pictures/457bbceb-b2e0-4046-9849-ac1dd0eb5354.jpg"
+        },
+        {
+          "index": 18,
+          "caption": "bath 2,  WC Starck by Duravit, shower rain dance by hans grohe",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTY1NjM0MA==/original/9478dc7a-03b8-4448-ac0c-3e2b3149fd7b.jpeg"
+        },
+        {
+          "index": 20,
+          "caption": "Balcony image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTY1NjM0MA==/original/c84f6b45-079d-4da8-8fbf-b5bed35deff5.jpeg"
+        },
+        {
+          "index": 7,
+          "caption": "bedroom 01, we wash all bed linen and towels with organic, non parfumed washing fluid, all douves and pillows can be washed by 95 Celsius and are vor allergic people",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTY1NjM0MA==/original/b2d61ed6-26bc-4325-a9fd-c592a8c8dea1.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/airbnb.json",
+      "targetId": "six-airbnb-1186815887957943578-full",
+      "sourceId": "1186815887957943578",
+      "datasetId": "wFSm5eOnIARThdFNb",
+      "sourceUrl": "https://www.airbnb.com/rooms/1186815887957943578?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03",
+      "sourceTitle": "Luxurious designer apartment with 3 bedrooms",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-airbnb-1186815887957943578-full",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 11,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NjgxNTg4Nzk1Nzk0MzU3OA%3D%3D/original/a653c57b-e39b-46d0-abd9-1197f80bb944.jpeg"
+        },
+        {
+          "index": 26,
+          "caption": "WC image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NjgxNTg4Nzk1Nzk0MzU3OA%3D%3D/original/a66301e0-0692-4e8e-a3c2-adb77448a031.jpeg"
+        },
+        {
+          "index": 28,
+          "caption": "Exterior image 1",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-1186815887957943578/original/9d03423f-fe42-42d8-b95d-94ec66a1aca0.jpeg"
+        },
+        {
+          "index": 2,
+          "caption": "Living room image 3",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NjgxNTg4Nzk1Nzk0MzU3OA%3D%3D/original/4e826094-3fda-40ad-9763-acbb8c2edb36.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/airbnb.json",
+      "targetId": "six-airbnb-33234428-full",
+      "sourceId": "33234428",
+      "datasetId": "wFSm5eOnIARThdFNb",
+      "sourceUrl": "https://www.airbnb.com/rooms/33234428?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03",
+      "sourceTitle": "Stylish Flat in the Heart of Friedrichshain-Berlin",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-airbnb-33234428-full",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 5,
+          "caption": "Kitchen with little seating area",
+          "url": "https://a0.muscache.com/im/pictures/250f202a-7e8c-4bb1-a9ef-89c7720eaca5.jpg"
+        },
+        {
+          "index": 9,
+          "caption": "Bedroom 1 with two double beds (1.60 x 2m)",
+          "url": "https://a0.muscache.com/im/pictures/7f9f42f5-08fd-4241-adf9-c38df1572dc8.jpg"
+        },
+        {
+          "index": 15,
+          "caption": "Large Walk-In Shower",
+          "url": "https://a0.muscache.com/im/pictures/0641d1da-5e00-48bc-8ba5-a0f6a644ebbf.jpg"
+        },
+        {
+          "index": 16,
+          "caption": "Little Bathroom (For some more privacy)",
+          "url": "https://a0.muscache.com/im/pictures/7cb5955c-5584-4967-bcd2-f48354301768.jpg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/airbnb.json",
+      "targetId": "six-airbnb-1461578862659272395-full",
+      "sourceId": "1461578862659272395",
+      "datasetId": "wFSm5eOnIARThdFNb",
+      "sourceUrl": "https://www.airbnb.com/rooms/1461578862659272395?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03",
+      "sourceTitle": "Brand new design apartment with 3 bedrooms",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-airbnb-1461578862659272395-full",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 8,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-1461578862659272395/original/230b6480-7069-4b1a-bce3-e42708940e59.jpeg"
+        },
+        {
+          "index": 18,
+          "caption": "WC image 1",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-1461578862659272395/original/3cba551c-e5ee-4fba-a69b-78994bc95dc6.jpeg"
+        },
+        {
+          "index": 19,
+          "caption": "Exterior image 1",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-1461578862659272395/original/2a767247-ebd7-4a2e-a9ff-dadf4394ad4c.jpeg"
+        },
+        {
+          "index": 1,
+          "caption": "Living room image 2",
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-1461578862659272395/original/c8263058-0f8c-4c58-b3f2-ec5c38113d24.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/airbnb.json",
+      "targetId": "six-airbnb-588125307521181982-first",
+      "sourceId": "588125307521181982",
+      "datasetId": "SP9jzf5eLDF3i3rRj",
+      "sourceUrl": "https://www.airbnb.com/rooms/588125307521181982?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-01",
+      "sourceTitle": "Two BR and Two BTH plus Self Checkin plus Street P",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-airbnb-588125307521181982-first",
+          "2026-12-30",
+          "2027-01-01"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 9,
+          "caption": "1st bedroom",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/5d00a3e9-44da-4ab8-86b7-e6f4be584e47.jpeg"
+        },
+        {
+          "index": 12,
+          "caption": "2nd bedroom",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/6f241b94-2dc2-4136-895a-c1e6571e3cd4.jpeg"
+        },
+        {
+          "index": 17,
+          "caption": "2nd bathroom is smaller than the 1rst",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/117d7056-a060-4c36-927d-d24b1faa3b86.jpeg"
+        },
+        {
+          "index": 19,
+          "caption": "Building",
+          "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-588125307521181982/original/f454ca80-65f5-406e-a841-d42879826912.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/airbnb.json",
+      "targetId": "six-airbnb-1506711709322131491-first",
+      "sourceId": "1506711709322131491",
+      "datasetId": "SP9jzf5eLDF3i3rRj",
+      "sourceUrl": "https://www.airbnb.com/rooms/1506711709322131491?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-01",
+      "sourceTitle": "Urban Nest Apartment 3 | Cozy & Central",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-airbnb-1506711709322131491-first",
+          "2026-12-30",
+          "2027-01-01"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 26,
+          "caption": "Small bedroom with access from the neighbouring room Queen size bed 140x200 cm",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/14a7198b-4bb2-4b04-8c42-96e5a5df396b.jpeg"
+        },
+        {
+          "index": 33,
+          "caption": "New modern design toilet",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/04561d40-a290-440d-a3a1-9d93d54de272.jpeg"
+        },
+        {
+          "index": 36,
+          "caption": "House from the outside",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/0e4087b3-d766-4f17-adee-b74b77d309d1.jpeg"
+        },
+        {
+          "index": 10,
+          "caption": "Dining area for dinner with friends and family",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1506711709322131491/original/58798343-e621-42f2-a3f3-a3eb160b4ff3.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/airbnb.json",
+      "targetId": "six-airbnb-1144871109877188022-last",
+      "sourceId": "1144871109877188022",
+      "datasetId": "1aPo0IU4qNqCnfD7d",
+      "sourceUrl": "https://www.airbnb.com/rooms/1144871109877188022?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+      "sourceTitle": "Beautiful house in Berlin, close to the city center",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-airbnb-1144871109877188022-last",
+          "2027-01-01",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 15,
+          "caption": "Bedroom 2 image 3",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/4bba9c51-c26b-4eed-bdce-40d126de6c1d.jpeg"
+        },
+        {
+          "index": 17,
+          "caption": "Bedroom 3 image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/add46c28-086c-45c9-b54d-e28eabace19e.jpeg"
+        },
+        {
+          "index": 20,
+          "caption": "Full bathroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/f96207a0-6f2d-4b9a-af69-e360db0aee6b.jpeg"
+        },
+        {
+          "index": 5,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/ca67641e-7123-4d33-aba7-04e2cbfd89c1.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/houses.json",
+      "targetId": "six-house-1800855588199404311-full",
+      "sourceId": "1800855588199404311",
+      "datasetId": "NfCVCbVO3TcFLoFMv",
+      "sourceUrl": "https://www.airbnb.com/rooms/1800855588199404311?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03",
+      "sourceTitle": "House in Blankenfelde-Mahlow, Dahlewitz – Berlin & BER",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-house-1800855588199404311-full",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 5,
+          "caption": "Bedroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/bf3c859e-c867-4e00-b3f5-a2fa0c3b4295.jpeg"
+        },
+        {
+          "index": 6,
+          "caption": "Bedroom 3 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/6666e4d5-a417-4ca2-b798-83bf777eba69.jpeg"
+        },
+        {
+          "index": 12,
+          "caption": "Full bathroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/a3a6d3db-973d-4919-a7b1-8d1a74942002.jpeg"
+        },
+        {
+          "index": 13,
+          "caption": "Workspace image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/303f4cd7-32ef-424c-8765-cba38c31747e.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/houses.json",
+      "targetId": "six-house-19794276-full",
+      "sourceId": "19794276",
+      "datasetId": "NfCVCbVO3TcFLoFMv",
+      "sourceUrl": "https://www.airbnb.com/rooms/19794276?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03",
+      "sourceTitle": "Charming house",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-house-19794276-full",
+          "2026-12-30",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 7,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/b1a7f175-5b83-4eba-8b8a-9a7467e4b9db.jpg"
+        },
+        {
+          "index": 21,
+          "caption": "Full bathroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/b853b228-9e46-4c38-afc9-23728352b6f0.jpg"
+        },
+        {
+          "index": 23,
+          "caption": "Back garden image 1",
+          "url": "https://a0.muscache.com/im/pictures/4289a0cd-05bb-4842-982f-506dbe874006.jpg"
+        },
+        {
+          "index": 1,
+          "caption": "Living room image 2",
+          "url": "https://a0.muscache.com/im/pictures/503e1776-ca50-412e-9f91-bb3a05eb09a4.jpg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/houses.json",
+      "targetId": "six-house-1777706242995862793-last",
+      "sourceId": "1777706242995862793",
+      "datasetId": "6WeSrmmQO1bhgDaQ2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1777706242995862793?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+      "sourceTitle": "Haus Dieter",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-house-1777706242995862793-last",
+          "2027-01-01",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": true,
+      "added": [
+        {
+          "index": 4,
+          "caption": "Listing image 5",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/d2385e66-b0ef-47a7-85e6-b694c670bf63.jpeg"
+        },
+        {
+          "index": 5,
+          "caption": "Listing image 6",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/756b8c3b-82df-46e3-b199-e2e1965d7d9e.jpeg"
+        },
+        {
+          "index": 6,
+          "caption": "Listing image 7",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/fef9175a-f9ee-4d53-b10f-6d9292287728.jpeg"
+        },
+        {
+          "index": 7,
+          "caption": "Listing image 8",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/a3b931af-dd1e-4e19-b457-85183c4eff50.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/houses.json",
+      "targetId": "six-house-1755900699204248773-last",
+      "sourceId": "1755900699204248773",
+      "datasetId": "6WeSrmmQO1bhgDaQ2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+      "sourceTitle": "Rosengarten Residence",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-house-1755900699204248773-last",
+          "2027-01-01",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 4,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/35c31d3b-2579-4f09-86bb-76e25174ed6e.jpeg"
+        },
+        {
+          "index": 11,
+          "caption": "Full bathroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/0c17f227-b4d6-4882-ab71-7bb3be8201a4.jpeg"
+        },
+        {
+          "index": 12,
+          "caption": "Patio image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/9541c74d-f61b-401b-9f77-f04ecce3313d.jpeg"
+        },
+        {
+          "index": 13,
+          "caption": "Laundry area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1755900699204248773/original/5aab6a83-c0d0-4b2c-bf18-37437ceaaaa4.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/houses.json",
+      "targetId": "six-house-1641351333944417315-last",
+      "sourceId": "1641351333944417315",
+      "datasetId": "6WeSrmmQO1bhgDaQ2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+      "sourceTitle": "Country house residence on the outskirts of Berlin",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-house-1641351333944417315-last",
+          "2027-01-01",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 4,
+          "caption": "Bedroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/258476ff-d2cf-4593-a687-4c3a6a7b4f46.jpeg"
+        },
+        {
+          "index": 9,
+          "caption": "Full bathroom 1 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/431dca69-7e47-4897-b3d9-60427df6667d.jpeg"
+        },
+        {
+          "index": 1,
+          "caption": "Living room image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/f0a12f91-4e73-427f-b701-a2300ff69081.jpeg"
+        },
+        {
+          "index": 21,
+          "caption": "Garage with roof",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/8abe637b-1486-49bc-8df0-e2d935d50cd4.png"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/houses.json",
+      "targetId": "six-house-1468719376516749093-last",
+      "sourceId": "1468719376516749093",
+      "datasetId": "6WeSrmmQO1bhgDaQ2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1468719376516749093?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+      "sourceTitle": "Family house near Berlin",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-house-1468719376516749093-last",
+          "2027-01-01",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 26,
+          "caption": "Bedroom 3 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/3ecdd9fe-d228-4866-a091-21c80447e63f.jpeg"
+        },
+        {
+          "index": 34,
+          "caption": "Full bathroom 2 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/33dfbcb9-a46d-4af7-be77-5b41f94c8ef8.jpeg"
+        },
+        {
+          "index": 17,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/5007a507-44b3-4c10-b651-0225b42bf019.jpeg"
+        },
+        {
+          "index": 39,
+          "caption": "Laundry area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/91401a40-543c-4c81-b614-c597fda23e02.jpeg"
+        }
+      ]
+    },
+    {
+      "adults": 6,
+      "sourceFile": "six/houses.json",
+      "targetId": "six-house-1144871109877188022-last",
+      "sourceId": "1144871109877188022",
+      "datasetId": "6WeSrmmQO1bhgDaQ2",
+      "sourceUrl": "https://www.airbnb.com/rooms/1144871109877188022?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+      "sourceTitle": "Beautiful house in Berlin, close to the city center",
+      "initialCount": 6,
+      "targetKeys": [
+        [
+          "six-house-1144871109877188022-last",
+          "2027-01-01",
+          "2027-01-03"
+        ]
+      ],
+      "visuallyReviewedSample": false,
+      "added": [
+        {
+          "index": 14,
+          "caption": "Bedroom 2 image 2",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/5e113f6b-5d91-4846-896c-6d8c68446523.jpeg"
+        },
+        {
+          "index": 19,
+          "caption": "Full bathroom 1 image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/512c8755-4c7e-4259-a008-29cb06787fbc.jpeg"
+        },
+        {
+          "index": 5,
+          "caption": "Dining area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/ca67641e-7123-4d33-aba7-04e2cbfd89c1.jpeg"
+        },
+        {
+          "index": 22,
+          "caption": "Laundry area image 1",
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/43042fdc-c23e-463a-988e-382b3044f589.jpeg"
+        }
+      ]
+    }
+  ]
+}

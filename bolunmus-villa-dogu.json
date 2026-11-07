@@ -1,0 +1,269 @@
+[
+  {
+    "id": "1641351333944417315",
+    "name": "Königs Wusterhausen kır evi",
+    "area": "Königs Wusterhausen",
+    "kind": "Tüm ev",
+    "capacity": 8,
+    "rooms": 4,
+    "baths": "2",
+    "beds": "1. oda 1 queen, 2. oda 1 çift kişilik, 3. oda 1 king, 4. oda 2 tek kişilik yatak. Üç çift yatağın paylaşımıyla 7 yetişkin için yer var.",
+    "features": "Tam ev ve bahçe; teras, şömine, mutfak, Wi-Fi ve ücretsiz otopark. Çamaşır makinesi ücretli. Havuz veya sauna incelenen listede görünmedi.",
+    "price": "₺53.016,92",
+    "priceStatus": "Ödeme öncesi toplam; vergi kapsamı belirsiz",
+    "priceClass": "checkout",
+    "priceNote": "Airbnb ödeme öncesi özette 1–3 Ocak, 7 yetişkin için iki gece toplamı ₺53.016,92; EUR özette €943. Ayrı vergi satırı veya verginin dahil olduğu açık ifade yok.",
+    "rsoCar": "28 dk",
+    "rsoTransit": "65 dk",
+    "tresorCar": "36 dk",
+    "tresorTransit": "68 dk",
+    "routeNote": "VBB RSO 21.12–22.17 RB36 + S46 + 165; Tresor 21.12–22.20 RB36 + RE7 + S3. OSRM araç rotası trafiksiz modeldir; ilan koordinatı yaklaşık. VBB 1 Ocak 21.00 sonrası örnek tarifesidir, yürüyüş dahil; 13 Aralık tarife değişikliği için eklemeler bekleniyor. Gerçek adres ve seferler yeniden kontrol edilmeli.",
+    "sleepConfirmed": true,
+    "assessment": "Yedi yetişkinin yatak düzeni açık. 1 Ocak giriş 16.00, HipSpot 11.00 çıkışından 5 saat sonra. Bahçe ve teras misafir kullanımında, bağımsız villa tipi ayrıca doğrulanmadı.",
+    "link": "https://www.airbnb.com/rooms/1641351333944417315?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=TRY",
+    "photos": [
+      [
+        "Teras",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/02b4c64d-cb9f-4f1d-8742-693eede82652.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/87a6833f-a5d4-4d16-9957-7ce64ba7ddd1.jpeg"
+      ],
+      [
+        "İki tek yataklı oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/d15aa695-197b-478c-9eda-d27800e5b8cd.jpeg"
+      ],
+      [
+        "Çift kişilik oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1641351333944417315/original/fbbd970b-7f61-453b-934c-f2181eb25521.jpeg"
+      ]
+    ],
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "16:00'dan itibaren",
+    "checkOutTime": "10:00'a kadar",
+    "propertyPrivacy": "Airbnb tüm ev diyor; ev, geniş bahçe ve teras misafire açık. Arsanın sınırları ve bağımsız bina niteliği ayrıca doğrulanmadı.",
+    "poolWinter": "Havuz veya sauna incelenen olanak listesinde görünmedi.",
+    "priceTRY": "₺53.016,92",
+    "priceEUR": "€943,00",
+    "priceEvidence": "TRY ve EUR ödeme öncesi özet",
+    "platform": "Airbnb",
+    "wave": 3,
+    "availabilityNote": "1–3 Ocak 2027, 7 yetişkin için tarihli Airbnb sayfası ve EUR ödeme öncesi özet açıldı; rezervasyon yapılmadı.",
+    "evidenceFile": "./bolunmus-villa-dogu.md"
+  },
+  {
+    "id": "1144871109877188022",
+    "name": "Biesdorf bahçeli ev",
+    "area": "Berlin, Biesdorf",
+    "kind": "Tüm ev",
+    "capacity": 8,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "1. oda 2 tek kişilik, 2. ve 3. odalar birer king yatak; salonda açılır çift kişilik kanepe. 7. kişi için çekyat veya ilanda sözü edilen mobil yatak gerekir.",
+    "features": "130 m² tam ev ve bahçe; geniş salon, açık mutfak, iki banyo, Wi-Fi ve park yeri. İlanda çekyatın genişliği 1,80 m, görsel açıklamasında 2 m denmiş; ölçü çelişkili. Havuz veya sauna incelenen olanaklarda görünmedi.",
+    "price": "₺46.483,97",
+    "priceStatus": "Ödeme öncesi toplam; vergi kapsamı belirsiz",
+    "priceClass": "checkout",
+    "priceNote": "Airbnb TRY ödeme öncesi özeti: ₺47.675,87 eksi ₺1.191,90 indirim, toplam ₺46.483,97. EUR özette €826,80. Ayrı vergi satırı veya dahil ibaresi görülmedi.",
+    "rsoCar": "16 dk",
+    "rsoTransit": "46 dk",
+    "tresorCar": "21 dk",
+    "tresorTransit": "47 dk",
+    "routeNote": "VBB RSO 21.05–21.51 X69 + 60; Tresor 21.00–21.47 169 + U5 + U8. OSRM araç rotası trafiksiz modeldir; ilan koordinatı yaklaşık. VBB 1 Ocak 21.00 sonrası örnek tarifesidir, yürüyüş dahil; 13 Aralık tarife değişikliği için eklemeler bekleniyor. Gerçek adres ve seferler yeniden kontrol edilmeli.",
+    "sleepConfirmed": true,
+    "assessment": "Berlin içinde uygun konumlu tam ev. Yedi kişi için salondaki çift kişilik çekyatın kullanımı gerekir; ilandaki mobil yatağın yerleşimi ayrıca doğrulanmadı.",
+    "link": "https://www.airbnb.com/rooms/1144871109877188022?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=TRY",
+    "photos": [
+      [
+        "Dış alan",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/058cfd71-efc9-4d0e-9448-6392c8e71024.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/65d4639e-a3b8-4eff-bb6b-1dae4d8573b3.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1144871109877188022/original/a9d7d4c3-31de-493b-b980-ff9962365648.jpeg"
+      ]
+    ],
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "16:00'dan itibaren",
+    "checkOutTime": "11:00'a kadar",
+    "propertyPrivacy": "İlan evin ve bahçenin tamamını kiraladığını söylüyor.",
+    "poolWinter": "Havuz veya sauna incelenen olanak listesinde görünmedi.",
+    "priceTRY": "₺46.483,97",
+    "priceEUR": "€826,80",
+    "priceEvidence": "TRY ve EUR ödeme öncesi özet",
+    "platform": "Airbnb",
+    "wave": 3,
+    "availabilityNote": "1–3 Ocak 2027, 7 yetişkin için tarihli Airbnb sayfası ve EUR ödeme öncesi özet açıldı; rezervasyon yapılmadı.",
+    "evidenceFile": "./bolunmus-villa-dogu.md"
+  },
+  {
+    "id": "1468719376516749093",
+    "name": "Ahrensfelde aile evi",
+    "area": "Ahrensfelde",
+    "kind": "Müstakil tam ev",
+    "capacity": 8,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "1. oda 1 king + 1 tek kişilik; 2. oda 1 queen; 3. oda 1 king + çekyat. Yedi yetişkin üç çift yatağı paylaşarak ve tek yatağı kullanarak kalabilir.",
+    "features": "İki kat, mutfak, salon, teras, bahçe, Wi-Fi ve park yeri. Bahçe ve komşu alanın düzenlemesi sürüyor. Havuz ve sauna incelenen olanaklarda listelenmedi.",
+    "price": "₺59.594,84",
+    "priceStatus": "Ödeme öncesi toplam; vergi kapsamı belirsiz",
+    "priceClass": "checkout",
+    "priceNote": "Airbnb TRY ödeme öncesi özetinde 1–3 Ocak ve 7 yetişkin için toplam ₺59.594,84; EUR özette €1.060. Ayrı vergi satırı veya açık dahil ibaresi yok.",
+    "rsoCar": "25 dk",
+    "rsoTransit": "62 dk",
+    "tresorCar": "24 dk",
+    "tresorTransit": "55 dk",
+    "routeNote": "VBB RSO 21.02–22.04 M6 + M17; Tresor 21.02–21.57 M6 + S7 + U8. OSRM araç rotası trafiksiz modeldir; ilan koordinatı yaklaşık. VBB 1 Ocak 21.00 sonrası örnek tarifesidir, yürüyüş dahil; 13 Aralık tarife değişikliği için eklemeler bekleniyor. Gerçek adres ve seferler yeniden kontrol edilmeli.",
+    "sleepConfirmed": true,
+    "assessment": "Dört gecelik araştırmada da yer alan ev, bu kez bağımsız iki gece fiyatıyla doğrulandı. Üç çift kişilik yatak paylaşılmalı; 1 Ocak girişi 16.00.",
+    "link": "https://www.airbnb.com/rooms/1468719376516749093?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=TRY",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/8786008e-10d9-4dbc-9ffd-035d8b62f445.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/63b8a050-2d5e-41ad-b11c-dd054db3fedc.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/a7842bbe-71ea-411e-a129-7693b5e29df7.jpeg"
+      ]
+    ],
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "16:00'dan itibaren",
+    "checkOutTime": "10:00'a kadar",
+    "propertyPrivacy": "İlan tüm müstakil evin misafir kullanımında olduğunu söylüyor. Bahçe ve komşu alan henüz tamamen düzenlenmemiş olabilir.",
+    "poolWinter": "Havuz veya sauna incelenen olanak listesinde görünmedi.",
+    "priceTRY": "₺59.594,84",
+    "priceEUR": "€1.060,00",
+    "priceEvidence": "TRY ve EUR ödeme öncesi özet",
+    "platform": "Airbnb",
+    "wave": 3,
+    "availabilityNote": "1–3 Ocak 2027, 7 yetişkin için tarihli Airbnb sayfası ve EUR ödeme öncesi özet açıldı; rezervasyon yapılmadı.",
+    "evidenceFile": "./bolunmus-villa-dogu.md"
+  },
+  {
+    "id": "1777706242995862793",
+    "name": "Dieter'in evi",
+    "area": "Werneuchen",
+    "kind": "Tüm ev",
+    "capacity": 7,
+    "rooms": 3,
+    "baths": "1,5",
+    "beds": "1. oda 1 queen + 1 tek kişilik; 2. oda 2 tek kişilik; 3. oda 1 çekyat. Beş kişi normal yatakta; 6. ve 7. yetişkin için çekyatın ölçüsü ve uygunluğu teyitsiz.",
+    "features": "Tüm ev, bahçe, teras, ızgara ve havuz. İlan havuzu mevsimlik ve ısıtmasız olarak niteliyor; kapaklı olması kışın kullanılacağı anlamına gelmez.",
+    "price": "₺39.131",
+    "priceStatus": "TL ilan etiketi; vergi kapsamı belirsiz",
+    "priceClass": "search",
+    "priceNote": "Airbnb TRY tarihli araç sonucu ₺39.131 gösteriyor. EUR ödeme öncesi özette aynı iki gece ve 7 yetişkin için €696,00 toplam var; TL ödeme öncesi tam tutar ve vergi kapsamı ayrıca doğrulanmadı.",
+    "rsoCar": "41 dk",
+    "rsoTransit": "Sorgu başarısız",
+    "tresorCar": "36 dk",
+    "tresorTransit": "Sorgu başarısız",
+    "routeNote": "OSRM trafiksiz ve yaklaşık koordinatla. 1 Ocak 21.00 VBB sorguları iki kulüp için HTTP 404 döndürdü; bu tek başına sefer yokluğu kanıtı değildir. OSRM araç rotası trafiksiz modeldir; ilan koordinatı yaklaşık. VBB 1 Ocak 21.00 sonrası örnek tarifesidir, yürüyüş dahil; 13 Aralık tarife değişikliği için eklemeler bekleniyor. Gerçek adres ve seferler yeniden kontrol edilmeli.",
+    "sleepConfirmed": false,
+    "assessment": "Uygun fiyatlı görünse de çekyatta iki yetişkinin kalabileceği ve havuzun ocakta açık olacağı doğrulanmadı. İlanda giriş esnek deniyor, belirli saat yok.",
+    "link": "https://www.airbnb.com/rooms/1777706242995862793?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=TRY",
+    "photos": [
+      [
+        "Dış alan",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/20ae2c76-b088-4886-a30c-f04823e899ba.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/029cd52e-8312-4f06-b28e-504d25acb9ba.jpeg"
+      ],
+      [
+        "Çift ve tek yataklı oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/daa23227-88c1-4961-9dc2-c20b1eed92bd.jpeg"
+      ],
+      [
+        "Mevsimlik havuz",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/637aeecf-a07b-4bad-9a45-43588acca6a0.jpeg"
+      ]
+    ],
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "Esnek giriş; saat aralığı belirtilmedi",
+    "checkOutTime": "12:00'a kadar",
+    "propertyPrivacy": "Airbnb tüm ev diyor. Bahçe ve havuzun misafire açık olduğu yazılı; bu alanların yalnızca bu eve tahsisi açıkça doğrulanmadı.",
+    "poolWinter": "Havuz mevsimlik ve ısıtıcısı yok; 1 Ocak'ta kullanılabilirliği teyitsiz.",
+    "priceTRY": "₺39.131",
+    "priceEUR": "€696,00",
+    "priceEvidence": "EUR ödeme öncesi özet; TRY Apify ilan etiketi",
+    "platform": "Airbnb",
+    "wave": 3,
+    "availabilityNote": "1–3 Ocak 2027, 7 yetişkin için tarihli Airbnb sayfası ve EUR ödeme öncesi özet açıldı; rezervasyon yapılmadı.",
+    "evidenceFile": "./bolunmus-villa-dogu.md"
+  },
+  {
+    "id": "794976468764992098",
+    "name": "Laura'nın gül bahçesindeki kır evi",
+    "area": "Wendisch Rietz",
+    "kind": "Tüm kır evi",
+    "capacity": 8,
+    "rooms": 2,
+    "baths": "1",
+    "beds": "İlan 2 yatak odası ve 4 yatak bildiriyor. Fotoğrafta salonda ranza, açıklamalı başka görselde iki koltuğun çift yatağa dönüştüğü görülüyor; yedi yetişkin için yatakların ölçüsü ve uygunluğu teyitsiz.",
+    "features": "Bahçeli tüm kır evi. Isıtmalı kapalı havuz evin içinde değil; ev sahibinin yaklaşık 10 dakika bisiklet mesafesindeki başka arazisinde. Havuzun 1–3 Ocak'ta açık olup olmadığı teyitsiz.",
+    "price": "₺53.748",
+    "priceStatus": "TL ilan etiketi; vergi kapsamı belirsiz",
+    "priceClass": "search",
+    "priceNote": "Airbnb TRY tarihli araç sonucu ₺53.748 gösteriyor. EUR ödeme öncesi özette aynı iki gece ve 7 yetişkin için €956,00 toplam var; TL ödeme öncesi tam tutar ve vergi kapsamı ayrıca doğrulanmadı.",
+    "rsoCar": "53 dk",
+    "rsoTransit": "107 dk",
+    "tresorCar": "61 dk",
+    "tresorTransit": "107 dk",
+    "routeNote": "VBB RSO 21.30–23.17 RB36 + S46 + 165; Tresor 21.30–23.17 RB36 + RE7 + S7 + U8. OSRM araç rotası trafiksiz modeldir; ilan koordinatı yaklaşık. VBB 1 Ocak 21.00 sonrası örnek tarifesidir, yürüyüş dahil; 13 Aralık tarife değişikliği için eklemeler bekleniyor. Gerçek adres ve seferler yeniden kontrol edilmeli.",
+    "sleepConfirmed": false,
+    "assessment": "Uzak tesisteki ısıtmalı kapalı havuz dikkat çekiyor; özel değil veya kışın açık olduğu varsayılmamalı. Yedi yetişkinin yatak yerleri ayrıca teyit gerektiriyor.",
+    "link": "https://www.airbnb.com/rooms/794976468764992098?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=TRY",
+    "photos": [
+      [
+        "Dış alan",
+        "https://a0.muscache.com/im/pictures/0e40a22d-e898-4fbc-89f8-46d4af74cfe9.jpg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6Nzk0OTc2NDY4NzY0OTkyMDk4/original/dda81a7b-7d62-434c-9da2-7458aa710f5c.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6Nzk0OTc2NDY4NzY0OTkyMDk4/original/d277f0e0-a764-49d8-817c-6a99565615d5.jpeg"
+      ],
+      [
+        "Başka tesisteki havuz",
+        "https://a0.muscache.com/im/pictures/fa00db86-e77d-4395-85f8-a8c6e865b00b.jpg"
+      ]
+    ],
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkInTime": "15:00'ten itibaren",
+    "checkOutTime": "11:00'a kadar",
+    "propertyPrivacy": "Airbnb tüm kır evini gösteriyor; evin arazisinde yalnız misafir olunduğu yazılı. Başka arazideki havuzun kullanımının özel olduğu belirtilmiyor.",
+    "poolWinter": "Başka tesiste ısıtmalı kapalı havuz; 1–3 Ocak'ta açık olması ve özel kullanımı teyitsiz.",
+    "priceTRY": "₺53.748",
+    "priceEUR": "€956,00",
+    "priceEvidence": "EUR ödeme öncesi özet; TRY Apify ilan etiketi",
+    "platform": "Airbnb",
+    "wave": 3,
+    "availabilityNote": "1–3 Ocak 2027, 7 yetişkin için tarihli Airbnb sayfası ve EUR ödeme öncesi özet açıldı; rezervasyon yapılmadı.",
+    "evidenceFile": "./bolunmus-villa-dogu.md"
+  }
+]

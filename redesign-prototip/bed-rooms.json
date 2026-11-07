@@ -1,0 +1,479 @@
+{
+  "1101465952016111173": {
+    "source": "https://www.airbnb.com.tr/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "3 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      }
+    ],
+    "note": "05.11.2026 tarihli kaynak incelemesinde üç odanın dağılımı fotoğraflarla destekleniyor.",
+    "status": "fotoğraflı"
+  },
+  "12541792": {
+    "source": "https://www.airbnb.com.tr/rooms/12541792?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "3 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak, 1 çekyat"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "En az 2 tek kişilik yatak; fotoğraf açıklamasına göre 1 çekyat"
+      }
+    ],
+    "note": "Üçüncü oda kartı 3 tek yatak bildiriyor; fotoğraf açıklaması 2 yatak ve bir çekyat diyor. Üçüncü tek yatağın varlığı ve toplam 9 gerçek yatak beyanı doğrulanmadı.",
+    "status": "belirsiz"
+  },
+  "1573761201032292155": {
+    "source": "https://www.airbnb.com.tr/rooms/1573761201032292155?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası (kırmızı)",
+        "beds": "1 çift kişilik yatak, 1 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası (yeşil)",
+        "beds": "1 çift kişilik yatak, 1 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası (sarı)",
+        "beds": "2 çift kişilik yatak"
+      }
+    ],
+    "note": "Kaynak fotoğrafları oda düzeniyle genel olarak uyumlu. Sarı odanın yatakları açıklamada 160×200 cm, oda kartında king olarak tanımlanıyor.",
+    "status": "ilan"
+  },
+  "1472317094515056268": {
+    "source": "https://www.airbnb.com.tr/rooms/1472317094515056268?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 çift kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "2 çekyat"
+      }
+    ],
+    "note": "Yatak odası görselleri çift yatakların dağılımını destekliyor; salondaki 2 çekyat ilan oda kartı beyanıdır.",
+    "status": "ilan"
+  },
+  "21074683": {
+    "source": "https://www.airbnb.com/rooms/21074683?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "2 çekyat"
+      }
+    ],
+    "note": "Tek yataklar bazı fotoğraflarda birleşik görünüyor; ilan bunların birleştirilebildiğini söylüyor. Çekyatlar 110×200 cm olarak belirtilmiş.",
+    "status": "ilan"
+  },
+  "1519600838702010375": {
+    "source": "https://www.airbnb.com/rooms/1519600838702010375?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çift kişilik yatak, 1 çekyat"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak, 1 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "4. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "5. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      }
+    ],
+    "note": "Dağılım ilan oda kartlarına göre. 4. ve 5. odada teklerin ayrı kullanılabilirliği fotoğraflardan teyit edilemedi.",
+    "status": "belirsiz"
+  },
+  "1754173933020764455": {
+    "source": "https://www.airbnb.com/rooms/1754173933020764455?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak, 1 çekyat"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "4. Yatak Odası",
+        "beds": "1 tek kişilik yatak"
+      }
+    ],
+    "note": "Dağılım ilan oda kartlarına göre. 2. ve 3. odadaki bitişik görünen tek yatakların ayrı kullanımı teyit edilmeli.",
+    "status": "belirsiz"
+  },
+  "1611035619222657901": {
+    "source": "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "En az 2 tek kişilik yatak; ilanda 3 tek yatak"
+      }
+    ],
+    "note": "Üçüncü odanın incelenen iki fotoğrafında yalnızca 2 yatak görülüyor; üçüncü yatağın varlığı veya fotoğraf dışında kalıp kalmadığı doğrulanmadı.",
+    "status": "belirsiz"
+  },
+  "1452938883567081364": {
+    "source": "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak, 1 kanepe, 1 bebek karyolası"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "4 tek kişilik yatak, 1 bebek karyolası"
+      }
+    ],
+    "note": "İkinci odada iki büyük yatağın tekli olarak ayrılması ilanda belirtiliyor ancak ayrıca teyit edilmeli. İlk alan salon ile ikinci oda arasında; kapalı oda mahremiyeti teyitsiz. Kanepe çekyat olarak belirtilmiyor.",
+    "status": "belirsiz"
+  },
+  "1042045413385336860": {
+    "source": "https://www.airbnb.com.tr/rooms/1042045413385336860?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 küçük çift kişilik yatak, 1 çekyat"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "4 tek kişilik yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "2 çekyat"
+      }
+    ],
+    "note": "Üç çekyat ilan oda kartlarında belirtiliyor; açık hâlleri ve ölçüleri fotoğraflarla doğrulanmadı.",
+    "status": "ilan"
+  },
+  "1231775696843779125": {
+    "source": "https://www.airbnb.com.tr/rooms/1231775696843779125?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "rooms": [
+      {
+        "name": "Yatak Düzeni",
+        "beds": "İlanda iki odada toplam 6 tek kişilik yatak"
+      }
+    ],
+    "note": "Yatakların odalara dağılımı belirtilmiyor; fotoğraflar fiilî sayı ve oda dağılımını doğrulamaya yetmedi.",
+    "status": "belirsiz"
+  },
+  "1352773721511868469": {
+    "source": "https://www.airbnb.com/rooms/1352773721511868469?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "4. Yatak Odası",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "5. Yatak Odası",
+        "beds": "1 veya 2 tek kişilik yatak"
+      },
+      {
+        "name": "6. Yatak Odası",
+        "beds": "1 veya 2 tek kişilik yatak"
+      }
+    ],
+    "note": "İlan metni 5. odada 1, 6. odada 2 tek diyor; fotoğraf turunda bu sayılar ters görünüyor. Hangi odada hangisinin bulunduğu teyitsiz.",
+    "status": "belirsiz"
+  },
+  "31203800": {
+    "source": "https://www.airbnb.com/rooms/31203800?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "4. Yatak Odası",
+        "beds": "1 küçük çift kişilik yatak"
+      }
+    ],
+    "note": "Dağılım Airbnb oda kartlarına göre; fotoğraflar bütün odaları kartlarla güvenilir biçimde eşleştirmeye yetmedi.",
+    "status": "ilan"
+  },
+  "31348853": {
+    "source": "https://www.airbnb.com/rooms/31348853?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 küçük çift kişilik yatak"
+      },
+      {
+        "name": "4. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "1 çekyat, 1 kanepe"
+      }
+    ],
+    "note": "Dağılım Airbnb oda kartlarına göre; fotoğraflar bütün odaları kartlarla güvenilir biçimde eşleştirmeye yetmedi. Salondaki ayrıca belirtilen kanepe ikinci çekyat sayılmadı.",
+    "status": "ilan"
+  },
+  "vrbo-5130239": {
+    "source": "https://www.vrbo.com/en-gb/p5130239",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      }
+    ],
+    "note": "Vrbo 6 misafir ve bu iki odayı bildiriyor; diğer 2 kişinin yatacağı yer açıklanmıyor. Başka kaynaklardaki üçüncü oda, çekyat ve olası oda ücreti çelişkili ve teyitsiz.",
+    "status": "belirsiz"
+  },
+  "1166429151300530583": {
+    "source": "https://www.airbnb.com/rooms/1166429151300530583",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "4 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "Yatak odalarının düzeni fotoğraflarda görülüyor. Salondaki çekyat ilanın açıklamasında yer alıyor; açık hâli ayrıca doğrulanmadı.",
+    "status": "ilan"
+  },
+  "six-airbnb-1656340-full": {
+    "source": "https://www.airbnb.com/rooms/1656340",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "En az 2 tek kişilik yatak; ilanda 3 tek yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "1 kanepe"
+      }
+    ],
+    "note": "Üçüncü oda kartı 3 tek yatak, fotoğraf açıklamaları ise 2 tek yatak diyor; üçüncü yatak teyitsiz. Salon kanepesi çekyat olarak tanımlanmıyor.",
+    "status": "belirsiz"
+  },
+  "six-airbnb-33234428-full": {
+    "source": "https://www.airbnb.com/rooms/33234428",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "1 kanepe"
+      }
+    ],
+    "note": "İlan üst bilgisinde 4 yatak, oda kartlarında 3 çift yatak var; dördüncü yatağın türü ve yeri belirsiz. Kanepe çekyat olarak belirtilmiyor; 2. oda penceresi salona bakıyor.",
+    "status": "belirsiz"
+  },
+  "six-airbnb-1152005761587998986-full": {
+    "source": "https://www.airbnb.com/rooms/1152005761587998986",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      }
+    ],
+    "note": "İlan oda kartları ve kaynak galerisinde üç ayrı çift yatak görülüyor. Salondaki kanepe çekyat olarak listelenmedi.",
+    "status": "fotoğraflı"
+  },
+  "six-booking-osthafen-790949501-full": {
+    "source": "https://www.booking.com/hotel/de/eastside34.en-gb.html#room_790949501",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak, 1 çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "Booking 790949501 numaralı dairenin oda beyanı. Fotoğraflar dört tek yatağın ayrı hazırlanabilirliğini kesin göstermiyor.",
+    "status": "belirsiz"
+  },
+  "53802915": {
+    "source": "https://www.airbnb.com/rooms/53802915",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "Salon / dördüncü uyku alanı",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "İlan 3 yatak odası ve ayrı bir çekyat alanı bildiriyor. Bir fotoğraf açıklamasında 4 yatak odası yazıyor; dördüncü normal yatak teyitli değil.",
+    "status": "belirsiz"
+  },
+  "12048269": {
+    "source": "https://www.airbnb.com/rooms/12048269",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "1 kanepe"
+      }
+    ],
+    "note": "Kanepe iki ek misafir için belirtiliyor; çekyat olarak açıldığı teyit edilmedi. Fotoğraflarda bütün yatak odaları güvenilir biçimde eşleştirilemedi.",
+    "status": "belirsiz"
+  },
+  "1150006272268927007": {
+    "source": "https://www.airbnb.com/rooms/1150006272268927007",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası (salona açık)",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak, 1 tek kişilik yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "Birinci yatak salon ve mutfakla açık bağlantılı alanda; bağımsız kapalı oda olarak değerlendirilmemeli. Çekyatın açık hâli ve ölçüsü teyitsiz.",
+    "status": "belirsiz"
+  }
+}

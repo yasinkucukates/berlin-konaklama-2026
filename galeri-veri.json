@@ -1,0 +1,1896 @@
+[
+  {
+    "id": "villa-see61",
+    "name": "Villa See61",
+    "area": "Niederlehme, Königs Wusterhausen",
+    "kind": "Villanın tamamı",
+    "capacity": 10,
+    "rooms": 5,
+    "baths": "4",
+    "beds": "Dört ayrı odada birer ekstra büyük çift kişilik yatak; beşinci odada 2 ranza yatağı. Booking yedi yetişkine villanın tamamını teklif ediyor.",
+    "features": "360 m²; göl kıyısı, özel mutfak, sauna, spa küveti, bahçe, teras, özel otopark ve Wi-Fi. Açık yüzme havuzu 13 Kasım 2026 ile 1 Nisan 2027 arasında kapalı. 500 € iade edilebilir hasar depozitosu. 22.00-07.00 sessizlik; parti yasak.",
+    "price": "254.103 TL",
+    "priceStatus": "Vergi ve ücretler dahil",
+    "priceClass": "confirmed",
+    "priceNote": "Booking 30 Aralık 2026 giriş, 3 Ocak 2027 çıkış ve 7 yetişkin için dört gecelik teklif. Bu tarife iadesiz; 28 Aralık öncesi ücretsiz iptalli alternatif 294.225 TL.",
+    "availabilityNote": "Seçilen tarihlerde tek villanın tamamı için canlı teklif ve rezervasyon seçimi görünüyor.",
+    "rsoCar": "29 dk",
+    "rsoTransit": "63 dk",
+    "tresorCar": "37 dk",
+    "tresorTransit": "79 dk",
+    "routeNote": "OSRM trafiksiz: RSO 30,1 km, Tresor 37,8 km. VBB: 31 Aralık çıkış örnekleri 21.14-22.17 ve 21.14-22.33; 1 Ocak sabah dönüşleri sırasıyla 83 ve 81 dk. 13 Aralık tarife değişikliği sonrası önizleme, kesin sefer sayılmaz.",
+    "sleepConfirmed": true,
+    "assessment": "Yedi kişi için gerçek villanın tamamı, dört geniş çift kişilik yataklı oda ve özel sauna. Açık havuz konaklama boyunca kapalı; henüz konuk yorumu yok.",
+    "link": "https://www.booking.com/hotel/de/villa-seeblick-konigs-wusterhausen.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/925727568.jpg?k=bd25442d49eb97f48f1420531824eb6dec8d0f51db7ac15d8c2ad55153b2e7b5&o="
+      ],
+      [
+        "Salon",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/925731830.jpg?k=44ddf894a08337e15ed85a6b4afe69c1d6b82b53ba7eb74d9694897c59228fbd&o="
+      ],
+      [
+        "Yatak odası",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/925732930.jpg?k=eed23cff04445bbe40257ee8785bd365ba5428c704513e76be1213dbb5eeebe6&o="
+      ],
+      [
+        "Açık havuz, kışın kapalı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/925727898.jpg?k=59cb454d4ddbb3e1356987f8d9984b6086a787413f0db294a8c8ac49224b0229&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-yerel-galeri.json"
+  },
+  {
+    "id": "idyllisches-haus",
+    "name": "Idyllisches Haus mitten in Berlin",
+    "area": "Alt-Hohenschönhausen, Lichtenberg",
+    "kind": "Tatil evinin tamamı",
+    "capacity": 15,
+    "rooms": 2,
+    "baths": "2",
+    "beds": "İlk odada 2 çift kişilik yatak, ikinci odada 1 çift kişilik yatak, salonda 2 çekyat. Yedi kişinin konaklaması en az bir çekyat kullanımı ve yatak paylaşımı gerektirir.",
+    "features": "130 m²; bahçe, teras, barbekü, mutfak, ücretsiz özel otopark ve Wi-Fi. 22.00-06.00 sessizlik, parti yasak.",
+    "price": "100.155 TL",
+    "priceStatus": "Vergi ve ücretler dahil",
+    "priceClass": "confirmed",
+    "priceNote": "Booking 4 gece ve 7 yetişkin için 92.176 TL + 7.979 TL vergi/ücret gösteriyor; toplam 100.155 TL. Tarife iadesiz. 25 Aralık öncesi ücretsiz iptalli alternatif 110.396 TL.",
+    "availabilityNote": "İstenen tarihlerde evin tamamı için canlı rezervasyon teklifi görülüyor.",
+    "rsoCar": "21 dk",
+    "rsoTransit": "46 dk",
+    "tresorCar": "10 dk",
+    "tresorTransit": "40 dk",
+    "routeNote": "OSRM trafiksiz: RSO 11,8 km, Tresor 5,9 km. VBB 31 Aralık 21.00 sonrası örnek; 1 Ocak 06.00 sonrası dönüş RSO 45 dk, Tresor 47 dk. Yılbaşı tarife önizlemesi değişebilir.",
+    "sleepConfirmed": true,
+    "assessment": "Berlin içinde bahçeli, tamamı kiralanan ev. Yatak odası sayısı iki; yedinci kişi için çekyat ve yatak paylaşımı gerekir.",
+    "link": "https://www.booking.com/hotel/de/idyllisches-haus-mitten-in-berlin.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/256696672.jpg?k=40e7b49d3c41bc0712cbc9191f78f266f174a1a34115a0a0964211094cb50703&o="
+      ],
+      [
+        "Salon",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/256698158.jpg?k=21b43b2974a6ca1ca4ffabeffe53196ffaf5d880c1ab03b57cb1a681f8f43484&o="
+      ],
+      [
+        "Yatak odası",
+        "https://cf.bstatic.com/xdata/images/hotel/max300/133853647.jpg?k=2040b67876e5e2234dc37f754ed2df4a24462e0fe05dc077b956cc7bb8ff8e50&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-yerel-galeri.json"
+  },
+  {
+    "id": "brusseler-kiez",
+    "name": "Beautiful Apartment in Brüsseler Kiez",
+    "area": "Wedding / Mitte",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": "3",
+    "baths": "1,5 / 2",
+    "beds": "Oda 1: 1 büyük çift kişilik; oda 2: 2 büyük çift kişilik; oda 3: 1 büyük çift kişilik. 7 yetişkin için çift yatak paylaşımı gerekir.",
+    "features": "110 m²; özel mutfak, bulaşık ve çamaşır makinesi, Wi-Fi, TV, iç avlu manzarası. Booking iki banyo gösteriyor; aynı adlı Airbnb ilanı 1,5 banyo diyor. Tam banyo sayısı doğrulanmalı.",
+    "price": "78.460 TL",
+    "priceStatus": "Gösterilen baz + vergi ve ücretler",
+    "priceClass": "confirmed",
+    "priceNote": "30 Aralık 2026 giriş, 3 Ocak 2027 çıkış, 7 yetişkin: 70.930 TL + 7.530 TL vergi ve ücretler; tutarlar ekranda yuvarlanmış. İadesiz. 25 Aralık öncesi ücretsiz iptal edilen seçenek 78.810 + 7.530 = 86.340 TL. Hasar olursa 300 €’ya kadar talep koşulu var, önceden depozito olduğu belirtilmiyor.",
+    "rsoCar": "29 dk / 15,9 km",
+    "rsoTransit": "55 dk (22:00–22:55; 22.00'den toplam 55 dk; U6 + S41 + S9)",
+    "tresorCar": "15 dk / 7,4 km",
+    "tresorTransit": "35 dk (22:00–22:35; 22.00'den toplam 35 dk; U6 + U9 + U8)",
+    "routeNote": "Önceki Airbnb aynı adlı kayıt koordinatı; kesin bina değil. OSRM trafiksiz model; VBB 31.12.2026 saat 22.00 sonrası örnek, yılbaşı tarifesi ve yaklaşık başlangıç konumu değişebilir.",
+    "sleepConfirmed": true,
+    "assessment": "Uygun fiyatlı, 3 odalı geniş daire; 4 çift yatak ve az sayıdaki 4 Booking değerlendirmesi dikkate alınmalı. Sokağı ilanda açık değil. Airbnb 17910598 ile aynı adlı ilan; önceki 14 teslimde yer almıyordu.",
+    "link": "https://www.booking.com/hotel/de/beautiful-apartment-in-brusseler-kiez.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1",
+    "photos": [
+      [
+        "Yatak odası",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727328078.jpg?k=5d3e856a56d186937615d241133241c6243b31c8b5e6523a622b21bdc602e2f3&o="
+      ],
+      [
+        "Oturma alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727327960.jpg?k=f1e80d9a17a1600ded5429d8eefb449c63d239a5c8581c197942fbe5358276b6&o="
+      ],
+      [
+        "Mutfak",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727328229.jpg?k=d533334abf9d4bfefc3e713a738d39dc4e34cdd28a80d5bdd30052f833d6f2db&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-booking-galeri.json"
+  },
+  {
+    "id": "paul-loft",
+    "name": "The Paul Loft",
+    "area": "Prenzlauer Berg / Pankow",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": "2 + salon",
+    "baths": "1",
+    "beds": "3 büyük çift kişilik + 1 tek kişilik yatak; ayrıca salonda 1 çekyat. Booking 3 yatak odası gösteriyor; işletmeci metni 2 oda ve yataklı salon diyor.",
+    "features": "Seçili birim 110 m²; başlık 120 m² diyor. Balkon, özel mutfak, bulaşık ve çamaşır makinesi, TV, Wi-Fi, otopark; üst katlara merdivenle erişim.",
+    "price": "136.043 TL",
+    "priceStatus": "Vergi ve ücretler dahil",
+    "priceClass": "confirmed",
+    "priceNote": "30 Aralık 2026 giriş, 3 Ocak 2027 çıkış, 7 yetişkin; 16 Aralık öncesi ücretsiz iptal, 14 Aralık tarihine kadar ödeme yok. 22.00 sonrası giriş 30 € ek. Sayfada varış öncesi banka havalesi ve üstte gösterilmeyen ek ücret olasılığı yazıyor.",
+    "rsoCar": "24 dk / 13,8 km",
+    "rsoTransit": "40 dk (22:02–22:42; 22.00'den toplam 42 dk; S41 + 165)",
+    "tresorCar": "10 dk / 5,3 km",
+    "tresorTransit": "26 dk (22:01–22:27; 22.00'den toplam 27 dk; U2 + 265)",
+    "routeNote": "Kullanıcıdan gelen yaklaşık ilan koordinatı. OSRM trafiksiz model; VBB 31.12.2026 saat 22.00 sonrası örnek, yılbaşı tarifesi ve yaklaşık başlangıç konumu değişebilir.",
+    "sleepConfirmed": true,
+    "assessment": "Geniş ve aydınlık daire. Yedi kişiye üç çift ve bir tek yatak yeter; odaların gerçek bağımsızlığı ve 110/120 m² çelişkisi dikkate alınmalı. Daire, müstakil bina değil.",
+    "link": "https://www.booking.com/hotel/de/greatstay-apartment-paul-robeson-str.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1",
+    "photos": [
+      [
+        "Yatak ve oturma alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125841.jpg?k=a3fd829f5539816aba3367d0fc06b511b8e594cdf666da67afcb6785188a3972&o="
+      ],
+      [
+        "Yatak ve yemek alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125827.jpg?k=9e507d0c0528cc300e87ad04b084d7db26d945d112ae10cdec6aeba15da95bf0&o="
+      ],
+      [
+        "Oturma alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81125824.jpg?k=98977d792bdf5002761ea51d29c1f8f33e3484868c65c34e1c9b5c3bde620de6&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-booking-galeri.json"
+  },
+  {
+    "id": "danziger-loft",
+    "name": "The Danziger",
+    "area": "Prenzlauer Berg / Pankow",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": "2 + salon",
+    "baths": "1 tam + WC",
+    "beds": "Seçilen 110 m² dairede 3 büyük çift kişilik yatak + 1 çekyat. Booking 3 yatak odası gösterse de işletmeci 2 yatak odası ve yataklı salon diyor.",
+    "features": "2 balkon, panoramik manzara, özel mutfak, bulaşık ve çamaşır makinesi, TV, Wi-Fi, asansör. Seçilen birimin açıklamasına göre 1 tam banyo + ayrı tuvalet.",
+    "price": "163.184 TL",
+    "priceStatus": "Vergi ve ücretler dahil",
+    "priceClass": "confirmed",
+    "priceNote": "30 Aralık 2026 giriş, 3 Ocak 2027 çıkış, 7 yetişkin; 16 Aralık öncesi ücretsiz iptal, 14 Aralık tarihine kadar ödeme yok. 22.00 sonrası giriş 30 € ek. Varış öncesi banka havalesi ve üstte gösterilmeyen ek ücret olasılığı yazıyor.",
+    "rsoCar": "21 dk / 12,4 km",
+    "rsoTransit": "43 dk (22:07–22:50; 22.00'den toplam 50 dk; M2 + S8 + S47)",
+    "tresorCar": "7 dk / 3,9 km",
+    "tresorTransit": "21 dk (22:04–22:25; 22.00'den toplam 25 dk; M2 + U8)",
+    "routeNote": "Aynı isimli Trivago ilanının yaklaşık koordinatı; seçili Booking birimiyle fiziksel eşleşme kesin değil. OSRM trafiksiz model; VBB 31.12.2026 saat 22.00 sonrası örnek, yılbaşı tarifesi ve yaklaşık başlangıç konumu değişebilir.",
+    "sleepConfirmed": true,
+    "assessment": "İki daireli tesisin 7 kişilik tek büyük birimi sunuluyor; iki daire kiralanmıyor. Altı kişi üç çift yatağı paylaşır; yedinci kişi çekyatı kullanır. Booking kartındaki 2 banyo, birimin açık anlatımında bir banyo + ayrı WC.",
+    "link": "https://www.booking.com/hotel/de/greatstay-apartment-danzigerstr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1",
+    "photos": [
+      [
+        "Salon ve yatak alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/919428908.jpg?k=87b9609726ad0b6b68c145c5df78c1e5dff013f2a60ec082de6b39802c480d88&o="
+      ],
+      [
+        "Yatak odası",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/919428913.jpg?k=edde6cd0d87356788be10c34745018443a66715acd0217e2bb6d10593396d522&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-booking-galeri.json"
+  },
+  {
+    "id": "grand-central-upper",
+    "name": "Grand Central City Apartments | üst kat",
+    "area": "Mitte",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": "3",
+    "baths": "1",
+    "beds": "1. ve 2. odada birer tek + birer büyük çift yatak; 3. odada bir büyük çift yatak + çekyat.",
+    "features": "135 m²; özel mutfak, Wi-Fi, TV, bulaşık ve çamaşır makinesi, kurutucu; üst katlara yalnız merdivenle erişim. Seçilen birim 1 banyolu.",
+    "price": "164.407 TL",
+    "priceStatus": "Gösterilen baz + vergi ve ücretler",
+    "priceClass": "confirmed",
+    "priceNote": "30 Aralık 2026 giriş, 3 Ocak 2027 çıkış, 7 yetişkin: 133.691 TL + 30.716 TL vergi ve ücretler; tutarlar ekranda yuvarlanmış. 30 Kasım öncesi ücretsiz iptal, 28 Kasım tarihine kadar ödeme yok. Hasar olursa 300 €’ya kadar talep koşulu var.",
+    "rsoCar": "17 dk / 9,9 km",
+    "rsoTransit": "41 dk (22:01–22:42; 22.00'den toplam 42 dk; 165)",
+    "tresorCar": "3 dk / 1,4 km",
+    "tresorTransit": "20 dk (22:00–22:20; 22.00'den toplam 20 dk; U2 + U8)",
+    "routeNote": "Kullanıcıca verilen adres, OSM Nominatim bina noktası. OSRM trafiksiz model; VBB 31.12.2026 saat 22.00 sonrası örnek, yılbaşı tarifesi ve yaklaşık başlangıç konumu değişebilir.",
+    "sleepConfirmed": true,
+    "assessment": "Booking bu üst kat dairesini 7 yetişkine sunuyor. Seçili birim, önceki ham aramadaki Airbnb 1298405404517902049 ile adres, kat, yatak ve aynı salon görseli bakımından eşleşiyor; önceki 14 teslimde yok. Önceki aramada 6 yetişkinle sınırlanan 1656340 ve 1152005761587998986 ayrı yerler.",
+    "link": "https://www.booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1",
+    "photos": [
+      [
+        "Salon",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/622240273.jpg?k=6a6b1683a764196396084049b08701ae3c0be43eb92fad92d47b76dd05116ead&o="
+      ],
+      [
+        "Yatak odası",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/622240976.jpg?k=9b1ee219ab6e164874992371e63093cba1dbc49b1588a99be429429c0b0b0016&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-booking-galeri.json"
+  },
+  {
+    "id": "schonefeld-tesla",
+    "name": "Schönefeld-Berlin large house near TESLA",
+    "area": "Schönefeld, Karlshof",
+    "kind": "Dairenin tamamı",
+    "capacity": 10,
+    "rooms": 5,
+    "baths": "2",
+    "beds": "Birinci odada 3 tek ve 1 çift, ikinci odada 1 çift, üçüncü odada 2 tek ve 1 çift, dördüncü ve beşinci odaların her birinde 2 tek kişilik yatak.",
+    "features": "121 m²; tam mutfak, bulaşık makinesi, teras, ücretsiz otopark ve Wi-Fi. 22.00-07.00 sessizlik, parti yasak.",
+    "price": "65.970 TL",
+    "priceStatus": "Vergi dahil teklif, ev sahibi onayı gerekli",
+    "priceClass": "checkout",
+    "priceNote": "Booking 7 yetişkin için 60.913 TL + 5.057 TL vergi/ücret gösteriyor; toplam 65.970 TL. 16 Aralık öncesi ücretsiz iptal.",
+    "availabilityNote": "Müsaitliği kesin değil: düğme sorgu gönder diyor; ev sahibi 24 saat içinde yanıtlar. Sorgu gönderilmedi.",
+    "rsoCar": "24 dk",
+    "rsoTransit": "Gece bağlantısı teyitsiz",
+    "tresorCar": "32 dk",
+    "tresorTransit": "Gece bağlantısı teyitsiz",
+    "routeNote": "OSRM trafiksiz: RSO 19,2 km, Tresor 26,9 km. VBB 31 Aralık 21.00 sonrası ilk sonuçları ertesi sabah 08.32 çıkışlı gösterdi; gece bağlantısı doğrulanamadı. 1 Ocak 06.00 sonrası ilk dönüş sonuçları RSO 09.16, Tresor 08.59 kalkışlı. Tarife önizlemedir.",
+    "sleepConfirmed": true,
+    "assessment": "Çok sayıda ayrı gerçek yatak var; beş odalı tek daire. Ev sahibi onayı gerektiği ve yılbaşı gecesi toplu ulaşım sonucu geciktiği için koşullu aday.",
+    "link": "https://www.booking.com/hotel/de/schonefeld-berlin-large-house-for-max-10-persons-near-tesla.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0",
+    "photos": [
+      [
+        "Salon",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/850729330.jpg?k=068c17b5acf617d5b817d4cbeb5ce5344785496dd28e8eee03eff7aa966b4617&o="
+      ],
+      [
+        "Yatak odası",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/850730556.jpg?k=c3624f035a1abc2487723bb6a2ced2701b0a59f760b3ba969f89320df364d9e9&o="
+      ],
+      [
+        "Mutfak",
+        "https://cf.bstatic.com/xdata/images/hotel/max300/850730482.jpg?k=663e1f53c196b431dbc1ba134bb5bdd3d1ebee4fac5be0282ae5ecb7b2f05f8e&o="
+      ]
+    ],
+    "platform": "Booking",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-yerel-galeri.json"
+  },
+  {
+    "id": "spree-loft-moabit",
+    "name": "200qm Loft an der Spree",
+    "area": "Moabit, Berlin",
+    "kind": "Loft dairenin tamamı",
+    "capacity": 20,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "İlk iki odanın her birinde bir çift kişilik yatak ve ranza bulunuyor. Üçüncü oda ilan metnine göre gençler/çocuklar için; salonda iki çekyat. Ranzaların yetişkin ölçüsü teyitsiz.",
+    "features": "200 m²; Spree manzarası, 16 kişilik yemek masası, açık mutfak ve Wi-Fi. Parti ve ilave ziyaretçiler ev sahibiyle önceden görüşülmeli.",
+    "price": "2.212 €",
+    "priceStatus": "Vergi kapsamında çelişki",
+    "priceClass": "checkout",
+    "priceNote": "Holidu 7 yetişkin, 4 gece için toplam 2.212 € ve vergiler dahil gösteriyor; ev sahibi açıklaması ayrıca %5 şehir vergisinin nakit ödeneceğini yazıyor. Kesin toplam belirsiz; iadesiz.",
+    "availabilityNote": "Seçilen tarihler ve yedi yetişkin için Holidu açıkça müsait yazıyor.",
+    "rsoCar": "Doğrulanmadı",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "Doğrulanmadı",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "İlanda yalnız Moabit bölgesi görüldü; açık bina adresi teyit edilmediği için kesin rota ve süre hesaplanmadı.",
+    "sleepConfirmed": false,
+    "assessment": "Büyük ortak alanlı tek loft; müstakil villa değil. Özellikle ranza ölçüsü ve şehir vergisi çelişkisi netleşmeli.",
+    "link": "https://www.holidu.de/d/61640526?checkin=2026-12-30&checkout=2027-01-03&adults=7",
+    "photos": [
+      [
+        "Salon ve yemek alanı",
+        "https://img.holidu.com/images/abc7e4d9-ff14-4424-91fc-e8a8eaa62297/m.avif"
+      ],
+      [
+        "Çift kişilik yatak",
+        "https://img.holidu.com/images/e6c2023b-8254-49e1-9522-27af11faa5c5/m.avif"
+      ],
+      [
+        "Ranzalı oda",
+        "https://img.holidu.com/images/7a54eafb-f8f2-4186-8b0f-c4748a0c0765/m.avif"
+      ]
+    ],
+    "platform": "Holidu",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-yerel-galeri.json"
+  },
+  {
+    "id": "yeni-arabel-suite",
+    "wave": 2,
+    "platform": "Skiplagged",
+    "name": "Arabel Design Apartments, Three-Bedroom Suite",
+    "area": "Tiergarten, Potsdamer Straße 89",
+    "kind": "Tek daire / üç yatak odalı süit",
+    "capacity": 8,
+    "rooms": 3,
+    "baths": "En az 1; ek banyo kaydı var",
+    "beds": "Booking oda açıklamasında 1. odada 1 king ve 1 tek, 2. ve 3. odalarda birer king, salonda 2 çekyat. Kaynaklarda kapasite 8 ile 11 arasında değişiyor; yedi yetişkin bu düzende karşılanıyor.",
+    "features": "Özel mutfaklı salon ve yemek alanı; fırın, oturma alanı ve özel banyo. Seçilen süit fotoğrafında büyük masa, iki oturma bölümü ve mutfak görülüyor.",
+    "price": "135.937,87 TL",
+    "priceStatus": "Tarihli arama toplamı; nihai ödeme özeti görülmedi",
+    "priceClass": "search",
+    "priceNote": "05.11.2026 Skiplagged ekranında 30 Aralık–3 Ocak, 7 yetişkin ve 1 birim. Ekrandaki toplam, tesiste ödenecek 1.405,36 TL dahil gösteriliyor. Teklif geri ödemesiz. Aracın TL çevrimi yaklaşık olup tahsilat kuru değişebilir. Araç envanterinde Booking BKG kodu var; son satıcı ayrıca kontrol edilmeli.",
+    "availabilityNote": "Tarihli arama sonucu; ücret ve müsaitlik değişebilir.",
+    "rsoCar": "23 dk",
+    "rsoTransit": "50 dk",
+    "tresorCar": "9 dk",
+    "tresorTransit": "30 dk",
+    "routeNote": "Araç süreleri OSRM trafiksiz tahmini. Toplu taşıma VBB, 31 Aralık 2026 21.00 sonrası örnek, yürüyüş dahil; yılbaşı tarifesi önizleme niteliğinde ve değişebilir. Kaynak bağlantıları routeSources alanında.",
+    "sleepConfirmed": true,
+    "assessment": "Grup tek ortak salonda kalabilir; fiyat 180.000 TL bütçenin altında. Seçilen süitin kesin banyo sayısı ve iptal koşulu ödeme öncesi doğrulanmalı.",
+    "link": "https://skiplagged.com/hotel/744972/arabel-design-apartments-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
+    "sourceLinks": [
+      "https://www.booking.com/hotel/de/arabel-design-apartments.html",
+      "https://www.expedia.com/Berlin-Hotels-Arabel-Design-Apartments-Berlin.h9059756.Hotel-Information"
+    ],
+    "photos": [
+      [
+        "Seçilen süit: salon ve mutfak",
+        "https://q-xx.bstatic.com/xdata/images/hotel/max3000/928690339.jpg?k=1e7ef4ff2176ef01cee0201c9cc0014e41d3513e86ba8f9d9d9c9730561f57ef&o=&a=2325679"
+      ],
+      [
+        "Tesis mutfak örneği, aynı süit olduğu garanti değil",
+        "https://q-xx.bstatic.com/xdata/images/hotel/max3000/226672410.jpg?k=5c61d4b6563d2cbf40fad7e7e98deeb68a97ec84facf1b53b081fd70ccfaa416&o=&a=2325679"
+      ]
+    ],
+    "routeSources": {
+      "RSO_arac": "https://router.project-osrm.org/route/v1/driving/13.364899,52.5017466;13.50534,52.45991?overview=false",
+      "RSO_toplu": "https://v6.vbb.transport.rest/journeys?from.latitude=52.5017466&from.longitude=13.364899&from.address=Potsdamer+Stra%C3%9Fe+89%2C+Berlin&to.latitude=52.45991&to.longitude=13.50534&to.address=Schnellerstra%C3%9Fe+137%2C+Berlin&departure=2026-12-31T21%3A00%3A00%2B01%3A00&results=2&pretty=false",
+      "Tresor_arac": "https://router.project-osrm.org/route/v1/driving/13.364899,52.5017466;13.41948,52.51068?overview=false",
+      "Tresor_toplu": "https://v6.vbb.transport.rest/journeys?from.latitude=52.5017466&from.longitude=13.364899&from.address=Potsdamer+Stra%C3%9Fe+89%2C+Berlin&to.latitude=52.51068&to.longitude=13.41948&to.address=K%C3%B6penicker+Stra%C3%9Fe+70%2C+Berlin&departure=2026-12-31T21%3A00%3A00%2B01%3A00&results=2&pretty=false"
+    },
+    "checkedAt": "2026-11-05 Europe/Istanbul",
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-apart-galeri.json"
+  },
+  {
+    "id": "yeni-charlottenburg-uc-odali",
+    "wave": 2,
+    "platform": "Skiplagged",
+    "name": "Traumhafte Wohnung mitten in Charlottenburg",
+    "area": "Charlottenburg, Bleibtreustraße 12",
+    "kind": "Tek daire / üç yatak odası",
+    "capacity": 8,
+    "rooms": 3,
+    "baths": "1",
+    "beds": "Üç yatak odasının her birinde 1 king, ortak alanda 1 çekyat; yedinci yetişkin için çekyat gerekir.",
+    "features": "110 m²; özel mutfak, fırın, ocak, buzdolabı, bulaşık ve çamaşır makinesi. Salon ve bir çift kişilik yatak fotoğrafı açılarak incelendi.",
+    "price": "118.358,15 TL",
+    "priceStatus": "Tarihli arama toplamı; nihai ödeme özeti görülmedi",
+    "priceClass": "search",
+    "priceNote": "05.11.2026 Skiplagged ekranında 30 Aralık–3 Ocak, 7 yetişkin ve 1 daire. Tutar içinde tesiste tahsil edilecek 4.496,74 TL gösteriliyor; teklif geri ödemesiz. TL çevrimi tahsilatta değişebilir. Araç envanterinde Booking BKG kodu var; son satıcı ayrıca kontrol edilmeli.",
+    "availabilityNote": "Booking kaynağı ayrıca iade edilebilir 250 EUR hasar depozitosu bildiriyor. Bu depozito konaklama ücretinden ayrı değerlendirilir.",
+    "rsoCar": "23 dk",
+    "rsoTransit": "53 dk",
+    "tresorCar": "15 dk",
+    "tresorTransit": "32 dk",
+    "routeNote": "Araç süreleri OSRM trafiksiz tahmini. Toplu taşıma VBB, 31 Aralık 2026 21.00 sonrası örnek, yürüyüş dahil; yılbaşı tarifesi önizleme niteliğinde ve değişebilir. Kaynak bağlantıları routeSources alanında.",
+    "sleepConfirmed": true,
+    "assessment": "Üç ayrı yatak odası ve ortak yaşam alanıyla güçlü aday; kulüplere en yakın seçenek değil. Çekyatın tek yetişkin için hazırlanması gerekir.",
+    "link": "https://skiplagged.com/hotel/8912209/traumhafte-wohnung-mitten-in-charlottenburg-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
+    "sourceLinks": [
+      "https://www.agoda.com/en-sg/traumhafte-wohnung-mitten-in-charlottenburg/hotel/berlin-de.html",
+      "https://www.booking.com/hotel/de/traumhafte-wohnung-mitten-in-charlottenburg.de.html"
+    ],
+    "photos": [
+      [
+        "Dairenin yemek ve oturma alanı",
+        "https://q-xx.bstatic.com/xdata/images/hotel/max3000/582321742.jpg?k=ecc1fd604647a59dfeff6b4f59b52d948bfc8773e41de6632254111ffa1dff25&o=&a=2325679"
+      ],
+      [
+        "Dairenin yatak odası",
+        "https://q-xx.bstatic.com/xdata/images/hotel/max3000/582321748.jpg?k=015ee864889328a9fd56f66aa616f35de8238cdf11f65db4eac575138a2ffc4d&o=&a=2325679"
+      ]
+    ],
+    "routeSources": {
+      "RSO_arac": "https://router.project-osrm.org/route/v1/driving/13.31966,52.50443;13.50534,52.45991?overview=false",
+      "RSO_toplu": "https://v6.vbb.transport.rest/journeys?from.latitude=52.50443&from.longitude=13.31966&from.address=Bleibtreustra%C3%9Fe+12%2C+Berlin&to.latitude=52.45991&to.longitude=13.50534&to.address=Schnellerstra%C3%9Fe+137%2C+Berlin&departure=2026-12-31T21%3A00%3A00%2B01%3A00&results=2&pretty=false",
+      "Tresor_arac": "https://router.project-osrm.org/route/v1/driving/13.31966,52.50443;13.41948,52.51068?overview=false",
+      "Tresor_toplu": "https://v6.vbb.transport.rest/journeys?from.latitude=52.50443&from.longitude=13.31966&from.address=Bleibtreustra%C3%9Fe+12%2C+Berlin&to.latitude=52.51068&to.longitude=13.41948&to.address=K%C3%B6penicker+Stra%C3%9Fe+70%2C+Berlin&departure=2026-12-31T21%3A00%3A00%2B01%3A00&results=2&pretty=false"
+    },
+    "checkedAt": "2026-11-05 Europe/Istanbul",
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-apart-galeri.json"
+  },
+  {
+    "id": "yeni-kreuzberg-freiligrath",
+    "wave": 2,
+    "platform": "Skiplagged",
+    "name": "Im Herzen von Kreuzberg",
+    "area": "Kreuzberg, Freiligrathstraße 3",
+    "kind": "Tek daire / bir yatak odası",
+    "capacity": 8,
+    "rooms": 1,
+    "baths": "1",
+    "beds": "Bir yatak odasında 3 çift kişilik yatak, salonda 140 × 200 cm çekyat. İşletmeci açıklaması yatak odasında 6 kişi ve salonda 2 kişi bildirmektedir.",
+    "features": "Mutfak, ortak yemek masası, salon, çamaşır makinesi, bulaşık makinesi ve özel banyo. Üç yatağın aynı odada olduğu fotoğrafta görüldü.",
+    "price": "96.953,11 TL",
+    "priceStatus": "Tarihli arama toplamı; nihai ödeme özeti görülmedi",
+    "priceClass": "search",
+    "priceNote": "05.11.2026 Skiplagged ekranında 30 Aralık–3 Ocak, 7 yetişkin ve 1 daire. Tutar içinde tesiste tahsil edilecek 3.316,02 TL gösteriliyor; teklif geri ödemesiz. TL çevrimi tahsilatta değişebilir. Araç envanterinde Booking BKG kodu var; son satıcı ayrıca kontrol edilmeli.",
+    "availabilityNote": "Booking kaynağı ayrıca iade edilebilir 250 EUR hasar depozitosu bildiriyor. Bu depozito konaklama ücretinden ayrı değerlendirilir.",
+    "rsoCar": "17 dk",
+    "rsoTransit": "34 dk",
+    "tresorCar": "9 dk",
+    "tresorTransit": "20 dk",
+    "routeNote": "Araç süreleri OSRM trafiksiz tahmini. Toplu taşıma VBB, 31 Aralık 2026 21.00 sonrası örnek, yürüyüş dahil; yılbaşı tarifesi önizleme niteliğinde ve değişebilir. Kaynak bağlantıları routeSources alanında.",
+    "sleepConfirmed": true,
+    "assessment": "Tek daire ve uygun fiyat; altı kişinin aynı yatak odasında uyuması mahremiyet açısından önemli ödün.",
+    "link": "https://skiplagged.com/hotel/9485872/im-herzen-von-kreuzberg---perfekt-gelegen-fur-bis-zu-8-personen-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
+    "sourceLinks": [
+      "https://www.booking.com/hotel/de/im-herzen-von-kreuzberg-perfekt-gelegen-fur-bis-zu-8-personen.de.html"
+    ],
+    "photos": [
+      [
+        "Üç çift kişilik yatak bulunan oda",
+        "https://q-xx.bstatic.com/xdata/images/hotel/max3000/546823332.jpg?k=a9004809ee69d5a5bf4caa59f4bf5639c1cb745bf5a4cf80fe6b9cbd6c88d451&o=&a=2325679"
+      ],
+      [
+        "Yemek alanı",
+        "https://q-xx.bstatic.com/xdata/images/hotel/max3000/546823400.jpg?k=68f85b81ed059e5a0b9dfceba7dc8de26d8ab233b2e03380408a3c3e53685ec4&o=&a=2325679"
+      ],
+      [
+        "Salondaki çekyat",
+        "https://q-xx.bstatic.com/xdata/images/hotel/max3000/546823351.jpg?k=300ef211a872b5bf1d65f53cb082ba7b0c46443ebd6761513d4082bdfb0e1b37&o=&a=2325679"
+      ]
+    ],
+    "routeSources": {
+      "RSO_arac": "https://router.project-osrm.org/route/v1/driving/13.40879,52.49096;13.50534,52.45991?overview=false",
+      "RSO_toplu": "https://v6.vbb.transport.rest/journeys?from.latitude=52.49096&from.longitude=13.40879&from.address=Freiligrathstra%C3%9Fe+3%2C+Berlin&to.latitude=52.45991&to.longitude=13.50534&to.address=Schnellerstra%C3%9Fe+137%2C+Berlin&departure=2026-12-31T21%3A00%3A00%2B01%3A00&results=2&pretty=false",
+      "Tresor_arac": "https://router.project-osrm.org/route/v1/driving/13.40879,52.49096;13.41948,52.51068?overview=false",
+      "Tresor_toplu": "https://v6.vbb.transport.rest/journeys?from.latitude=52.49096&from.longitude=13.40879&from.address=Freiligrathstra%C3%9Fe+3%2C+Berlin&to.latitude=52.51068&to.longitude=13.41948&to.address=K%C3%B6penicker+Stra%C3%9Fe+70%2C+Berlin&departure=2026-12-31T21%3A00%3A00%2B01%3A00&results=2&pretty=false"
+    },
+    "checkedAt": "2026-11-05 Europe/Istanbul",
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-apart-galeri.json"
+  },
+  {
+    "id": "yeni-locke-2-family",
+    "wave": 2,
+    "platform": "Skiplagged",
+    "name": "Locke East Side Gallery, iki Family Apartment",
+    "area": "Friedrichshain, Mühlenstraße 61–63",
+    "kind": "Aynı tesiste iki daire",
+    "capacity": 8,
+    "rooms": 2,
+    "baths": "2, her dairede 1",
+    "beds": "Her Family Apartment 1 queen yatak ve 1 çift kişilik çekyat, azami 4 kişi. İki dairenin birleşik ilan kapasitesi 8.",
+    "features": "Her daire yaklaşık 29 m², mini mutfak ve özel duşlu banyo; iki birim ayrı yaşam alanlarıdır. Fotoğraftaki mutfak tesis örneğidir, atanacak birim farklı olabilir.",
+    "price": "137.484,81 TL",
+    "priceStatus": "İki birim için tarihli toplam; ödeme özeti görülmedi",
+    "priceClass": "search",
+    "priceNote": "05.11.2026 Skiplagged ekranında 30 Aralık–3 Ocak, 7 yetişkin / 2 Family Apartment için toplam; geri ödemesiz. Aynı ekranda ücretsiz iptalli alternatif 148.163,32 TL gösteriliyor. TL çevrimi tahsilatta değişebilir; ödeme satıcısı ayrıca doğrulanmalı.",
+    "availabilityNote": "Aynı tesis ve aynı adres aralığı doğrulandı; iki dairenin aynı bina kanadında, aynı katta veya yan yana olacağı garanti edilmiyor.",
+    "rsoCar": "14 dk",
+    "rsoTransit": "32 dk",
+    "tresorCar": "3 dk",
+    "tresorTransit": "14 dk",
+    "routeNote": "Araç süreleri OSRM trafiksiz tahmini. Toplu taşıma VBB, 31 Aralık 2026 21.00 sonrası örnek, yürüyüş dahil; yılbaşı tarifesi önizleme niteliğinde ve değişebilir. Kaynak bağlantıları routeSources alanında.",
+    "sleepConfirmed": true,
+    "assessment": "İki kulübe de görece yakın, her dairede mutfak ve banyo var. Herkes tek salonda buluşmak isterse 29 m² birimler küçük kalabilir; komşuluk teyitsiz.",
+    "link": "https://skiplagged.com/hotel/7675980/locke-at-east-side-gallery-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=7",
+    "sourceLinks": [
+      "https://www.expedia.com/Berlin-Hotels-Locke-At-East-Side-Gallery.h78208919.Hotel-Information",
+      "https://www.airbnb.com/rooms/852135921732135707"
+    ],
+    "photos": [
+      [
+        "Family Apartment oturma köşesi",
+        "https://pix8.agoda.net/hotelImages/43366644/726109149/d8416f72d905e339217a89e4ed560e27.jpg?ce=0&s=1024x768"
+      ],
+      [
+        "Tesis mutfak örneği, atanacak daire değişebilir",
+        "https://bynder.onthebeach.co.uk/cdn-cgi/image/width%3D1400%2Cquality%3D80%2Cfit%3Dcover%2Cformat%3Dauto/m/46cd4fa78c6ac286/original/Locke-at-East-Side-Gallery-Friedrichshain-Room-25.jpg"
+      ]
+    ],
+    "routeSources": {
+      "RSO_arac": "https://router.project-osrm.org/route/v1/driving/13.43709,52.50697;13.50534,52.45991?overview=false",
+      "RSO_toplu": "https://v6.vbb.transport.rest/journeys?from.latitude=52.50697&from.longitude=13.43709&from.address=M%C3%BChlenstra%C3%9Fe+61-63%2C+Berlin&to.latitude=52.45991&to.longitude=13.50534&to.address=Schnellerstra%C3%9Fe+137%2C+Berlin&departure=2026-12-31T21%3A00%3A00%2B01%3A00&results=2&pretty=false",
+      "Tresor_arac": "https://router.project-osrm.org/route/v1/driving/13.43709,52.50697;13.41948,52.51068?overview=false",
+      "Tresor_toplu": "https://v6.vbb.transport.rest/journeys?from.latitude=52.50697&from.longitude=13.43709&from.address=M%C3%BChlenstra%C3%9Fe+61-63%2C+Berlin&to.latitude=52.51068&to.longitude=13.41948&to.address=K%C3%B6penicker+Stra%C3%9Fe+70%2C+Berlin&departure=2026-12-31T21%3A00%3A00%2B01%3A00&results=2&pretty=false"
+    },
+    "checkedAt": "2026-11-05 Europe/Istanbul",
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-apart-galeri.json"
+  },
+  {
+    "id": "yeni-wilde-2-daire",
+    "wave": 2,
+    "platform": "Skiplagged",
+    "name": "Wilde Checkpoint Charlie, iki daire",
+    "area": "Mitte, Zimmerstraße 91",
+    "kind": "Aynı tesiste iki daire",
+    "capacity": 8,
+    "rooms": 2,
+    "baths": "2, her dairede 1",
+    "beds": "Her One Bedroom Apartment için 1 king yatak ve 1 çekyat; her daire ilan kapasitesi 4. Çekyat ölçüsü ve dört yetişkinin fiilî rahatlığı ayrıca teyit edilmeli.",
+    "features": "Her dairede mutfak, yaşam ve yemek alanı, özel duşlu banyo. İki ayrı dairenin oturma alanları birleşik değil.",
+    "price": "148.387,46 TL",
+    "priceStatus": "İki birim için tarihli toplam; ödeme özeti görülmedi",
+    "priceClass": "search",
+    "priceNote": "05.11.2026 Skiplagged ekranında 30 Aralık–3 Ocak, 7 yetişkin / 2 daire, One Bedroom Apartment için toplam. Ekranda 29 Aralık saat 02.00 öncesine kadar ücretsiz iptal gösteriliyor; saat ve şartları son aşamada doğrulayın. Nihai tahsilat kuru değişebilir; ödeme satıcısı ayrıca doğrulanmalı.",
+    "availabilityNote": "Aynı tesisin iki dairesi. Aynı bina kanadı, kat veya yan yanalık için kaynak garantisi yok.",
+    "rsoCar": "19 dk",
+    "rsoTransit": "42 dk",
+    "tresorCar": "5 dk",
+    "tresorTransit": "26 dk",
+    "routeNote": "Araç süreleri OSRM trafiksiz tahmini. Toplu taşıma VBB, 31 Aralık 2026 21.00 sonrası örnek, yürüyüş dahil; yılbaşı tarifesi önizleme niteliğinde ve değişebilir. Kaynak bağlantıları routeSources alanında.",
+    "sleepConfirmed": false,
+    "assessment": "Tresor yakınında iki mutfak ve iki banyo. Komşuluk ve çekyatın kaç yetişkine uygun olduğu teyit edilmedi.",
+    "link": "https://skiplagged.com/hotel/3558878/wilde-aparthotels-berlin-checkpoint-charlie-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=7",
+    "sourceLinks": [
+      "https://www.apartmentservice.de/en/serviced-apartments/berlin/wilde-aparthotels-berlin-checkpoint-charlie-1772",
+      "https://www.expedia.com/Berlin-Hotels-Wilde-Aparthotels-By-Staycity-Berlin.h39627881.Hotel-Information"
+    ],
+    "photos": [
+      [
+        "One Bedroom Apartment yatak ve banyo",
+        "https://q-xx.bstatic.com/xdata/images/hotel/max3000/772702723.jpg?k=3d4ecc347faef67d2fa4afc70d1bb8071a2ffc57ac99591ddcbb8f511e8560e4&o=&a=2325679"
+      ],
+      [
+        "Wilde mutfak ve salon örneği",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/772703089.jpg?k=72c18ff9a6a8a51da32ddf8494a78999dbc6ab15a0cf66092f77b18bda650a0d&o="
+      ]
+    ],
+    "routeSources": {
+      "RSO_arac": "https://router.project-osrm.org/route/v1/driving/13.38784,52.50776;13.50534,52.45991?overview=false",
+      "RSO_toplu": "https://v6.vbb.transport.rest/journeys?from.latitude=52.50776&from.longitude=13.38784&from.address=Zimmerstra%C3%9Fe+91%2C+Berlin&to.latitude=52.45991&to.longitude=13.50534&to.address=Schnellerstra%C3%9Fe+137%2C+Berlin&departure=2026-12-31T21%3A00%3A00%2B01%3A00&results=2&pretty=false",
+      "Tresor_arac": "https://router.project-osrm.org/route/v1/driving/13.38784,52.50776;13.41948,52.51068?overview=false",
+      "Tresor_toplu": "https://v6.vbb.transport.rest/journeys?from.latitude=52.50776&from.longitude=13.38784&from.address=Zimmerstra%C3%9Fe+91%2C+Berlin&to.latitude=52.51068&to.longitude=13.41948&to.address=K%C3%B6penicker+Stra%C3%9Fe+70%2C+Berlin&departure=2026-12-31T21%3A00%3A00%2B01%3A00&results=2&pretty=false"
+    },
+    "checkedAt": "2026-11-05 Europe/Istanbul",
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "evidenceFile": "./ikinci-dalga-apart-galeri.json"
+  },
+  {
+    "id": "1062309373682445601",
+    "name": "Kleine Villa Arensnest",
+    "area": "Wiesenburg/Mark",
+    "kind": "Tüm kır evi ve özel bahçe",
+    "capacity": 10,
+    "rooms": 3,
+    "baths": "1",
+    "beds": "İlanda 8 yatak; açıklamada iki çift kişilik oda ve ortak alanlar geçiyor. Yedi yetişkinin gerçek yerleşimi teyitsiz.",
+    "features": "Özel bahçe, şömine, ateş alanı, barbekü, mutfak, çamaşır makinesi, park. Seminer odası da var; TV ve Wi-Fi durumu teyitsiz.",
+    "price": "3.013 €",
+    "priceStatus": "Vergi kapsamı belirsiz",
+    "priceClass": "search",
+    "priceNote": "Canlı sayfada 30 Aralık-3 Ocak, 7 kişi, rezervasyon düğmesi ve dört gece fiyatı göründü. Vergi dahil olduğu doğrulanmadı.",
+    "rsoCar": "93 dk",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "97 dk",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "OSRM yol ağı ile yaklaşık ilan noktasından, trafiksiz model; tam adres gizli ve yılbaşı trafiği dahil değil. Toplu taşıma varsa 31 Aralık 21.00 için VBB verili transport.rest örneği, değişebilir.",
+    "sleepConfirmed": false,
+    "assessment": "Bahçesi özel, kırsal bir grup evi. Sadece 1 banyo ve yatak dağılımı belirsiz; önce uyku planı kontrol edilmeli.",
+    "link": "https://www.airbnb.com/rooms/1062309373682445601?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/5bd4b8b4-db02-4680-ae80-68aee2a2d26b.jpg"
+      ],
+      [
+        "Şömineli oturma alanı",
+        "https://a0.muscache.com/im/pictures/0e34682a-1214-415c-b31f-4bbab6e2f45d.jpg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/d5965bc0-c99b-47f9-996e-d31228ef6812.jpg"
+      ]
+    ],
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-bati-galeri.json"
+  },
+  {
+    "id": "1216757408450098435",
+    "name": "Pappelallee 5 yatak odalı daire",
+    "area": "Prenzlauer Berg",
+    "kind": "Daire",
+    "capacity": 9,
+    "rooms": 5,
+    "baths": "1",
+    "beds": "Dört odada birer çift kişilik, beşinci odada bir queen yatak ve kanepe. Yedi kişi için bazı çift kişilik yatakların paylaşılması gerekir; ölçüler ilanda net değil.",
+    "features": "Özel balkon, mutfak, TV, Wi-Fi ve her odada çalışma alanı. Sauna, jakuzi ve havuz olanaklarda listelenmiyor.",
+    "price": "2.034,23 €",
+    "priceStatus": "Araçta vergi dahil; ödeme özeti teyitsiz",
+    "priceClass": "search",
+    "priceNote": "Airbnb ekranı seçili tarihler ve 7 kişi için yaklaşık 1.893 € / 4 gece ve Reserve gösterdi. Aynı tarihli Apify şehir verisi 1.892,31 € + 141,92 € vergi = 2.034,23 € gösterdi. Son ödeme öncesi toplam ayrı doğrulanmadı.",
+    "sleepConfirmed": true,
+    "assessment": "Beş oda ve düşük görünen toplam avantaj. Yedi kişiye yalnız bir banyo; ilanda yatak ölçüleri yok.",
+    "photos": [
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/5252673c-331d-4136-b5d5-6acd4e4f6759.jpeg"
+      ],
+      [
+        "Oda ve çalışma alanı",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/b48fa08c-e8ec-48ac-a67a-65c9707eb5c2.jpeg"
+      ],
+      [
+        "Mutfak",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/f5277f27-143c-459e-b637-23cc8736a43e.jpeg"
+      ]
+    ],
+    "link": "https://www.airbnb.com/rooms/1216757408450098435?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "rsoCar": "23 dk",
+    "rsoTransit": "41 dk",
+    "tresorCar": "10 dk",
+    "tresorTransit": "25 dk",
+    "routeNote": "Araç: yaklaşık ilan konumundan OSRM, trafik ve bekleme hariç. Toplu taşıma: 31 Aralık 22.00 örnek BVG/VBB önizlemesi; RSO: M1/S41/165, 22:01–22:42, 11 dk yürüyüş; TRESOR: M1/U8, 22:00–22:25, 6 dk yürüyüş. 13 Aralık tarife değişikliği uyarısı var, yolculuk öncesi yeniden kontrol edilmeli.",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-daire-galeri.json"
+  },
+  {
+    "id": "1260209089340243876",
+    "name": "ALEXA 150 m² tasarım dairesi",
+    "area": "Mitte / Alexanderplatz",
+    "kind": "Daire",
+    "capacity": 10,
+    "rooms": 4,
+    "baths": "3",
+    "beds": "3 queen (160×200 cm), 2 tek kişilik (90×200 cm) ve 1 ranza (iki 90×200 cm). Dördüncü odaya aile yatak odasının içinden geçiliyor. Yedi yetişkin ranzayı kullanmadan yatak paylaşımıyla sığabilir.",
+    "features": "150 m²; özel teras, 3 modern banyo, büyük yemek masası, tam mutfak, TV, Wi-Fi, çamaşır ve kurutma makinesi. Sauna/jakuzi listelenmiyor.",
+    "price": "6.226,51 €",
+    "priceStatus": "Araçta vergi dahil; ödeme özeti teyitsiz",
+    "priceClass": "search",
+    "priceNote": "Airbnb seçili 7 misafir için 5.438 € / 4 gece ve Reserve gösterdi. Aynı tarihli Apify şehir verisi 5.438 € + 788,51 € vergi = 6.226,51 € gösterdi. Son ödeme öncesi toplam bağımsız doğrulanmadı.",
+    "sleepConfirmed": true,
+    "assessment": "Üç banyo ve merkeze yakınlık güçlü; bir yatak odası geçiş odası üzerinden ulaşılıyor ve fiyat diğer seçeneklerden yüksek.",
+    "photos": [
+      [
+        "Mutfak ve yemek alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/71cb4c16-b102-4362-8653-f319d044cae4.jpeg"
+      ],
+      [
+        "İki tek yataklı oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/80ff925b-e9dc-47b5-a117-b8acc8d85614.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1260209089340243876/original/5e9aab1d-2203-4314-8581-027d015e5867.jpeg"
+      ]
+    ],
+    "link": "https://www.airbnb.com/rooms/1260209089340243876?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "rsoCar": "19 dk",
+    "rsoTransit": "48 dk",
+    "tresorCar": "5 dk",
+    "tresorTransit": "17 dk",
+    "routeNote": "Araç: yaklaşık ilan konumundan OSRM, trafik ve bekleme hariç. Toplu taşıma: 31 Aralık 22.00 örnek BVG/VBB önizlemesi; RSO: U8/S47, 22:03–22:51, 23 dk yürüyüş; TRESOR: U8, 22:03–22:20, 14 dk yürüyüş. 13 Aralık tarife değişikliği uyarısı var, yolculuk öncesi yeniden kontrol edilmeli.",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-daire-galeri.json"
+  },
+  {
+    "id": "1375933413490647342",
+    "name": "Manor, Müritz National Park",
+    "area": "Speck / Waren, Mecklenburg Gölleri",
+    "kind": "Ana malikane ve park",
+    "capacity": 14,
+    "rooms": 12,
+    "baths": "9",
+    "beds": "Çok sayıda çift kişilik oda; açıklamada yatak genişliği 160-180 cm. 7 yetişkin için çift yatak paylaşımıyla yer var.",
+    "features": "Bilardo odası, özel sauna, mutfak, Wi-Fi, TV, otopark, park ve göle erişim. Açık havuz mevsimlik; yılbaşında kullanım doğrulanmadı.",
+    "price": "9.644 €",
+    "priceStatus": "Vergi kapsamı belirsiz",
+    "priceClass": "search",
+    "priceNote": "Canlı sayfada 30 Aralık-3 Ocak / 7 kişi ve rezervasyon düğmesiyle dört gece tutarı görüldü. Vergi/ücret kapsamı teyitsiz.",
+    "rsoCar": "160 dk",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "147 dk",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "OSRM yol ağı ile yaklaşık ilan noktasından, trafiksiz model; tam adres gizli ve yılbaşı trafiği dahil değil. Toplu taşıma varsa 31 Aralık 21.00 için VBB verili transport.rest örneği, değişebilir. Milli park içi araç erişimi ayrıca kontrol edilmeli.",
+    "sleepConfirmed": true,
+    "assessment": "Çok uzak: RSO yaklaşık 2 saat 40 dk. Bina ve park tümüyle misafirlere sunuluyor; mevsimlik havuzun yılbaşında açık olduğu varsayılmamalı.",
+    "link": "https://www.airbnb.com/rooms/1375933413490647342?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1375933413490647342/original/f1367abe-107f-45e2-93e6-a5a5ced0cade.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1375933413490647342/original/8e83e2f0-2293-46f7-b484-8d62c05caf21.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1375933413490647342/original/1e527b87-0efc-44c1-a5ce-a0a42eebe7a3.jpeg"
+      ]
+    ],
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-bati-galeri.json"
+  },
+  {
+    "id": "1389128667463860564",
+    "name": "Berlin Roof & Chill",
+    "area": "Friedrichshain",
+    "kind": "İki katlı çatı loftu",
+    "capacity": 13,
+    "rooms": 3,
+    "baths": "2 banyo; WC sayısı çelişkili",
+    "beds": "İlan üç ayrı yatak odası, toplam 3 king, 3 tek kişilik yatak ve bir kanepe sayıyor; hangi yatağın hangi odada olduğu sayfada açık değil. Bir değerlendirme 13 kişilik grupta bazı yatakların çocuklara daha uygun olduğunu belirtiyor.",
+    "features": "170 m², 50 m² salon, 40 m² özel teras, mutfak, TV, Wi-Fi, barbekü. Sauna veya havuz listelenmiyor.",
+    "price": "3.000 € (vergi kapsamı belirsiz)",
+    "priceStatus": "İlan fiyatı; vergi teyitsiz",
+    "priceClass": "search",
+    "priceNote": "30 Aralık 2026–3 Ocak 2027, 7 misafir seçili ilan ekranı 4 gece için 3.000 € ve Reserve düğmesi gösterdi. Vergi dahil nihai toplam doğrulanmadı. Ücretsiz iptal ilanında 29 Aralık öncesi yazıyor.",
+    "sleepConfirmed": false,
+    "assessment": "Büyük ortak salon ve teras güçlü. Bir konuk iki banyoya rağmen yalnız bir WC bulunduğunu yazmış; WC sayısı ve tek kişilik yatakların yetişkine uygunluğu önceden teyit edilmeli.",
+    "photos": [
+      [
+        "İki katlı salon",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/24df0f7c-3318-41e4-b3df-6e6b5bdf427a.jpeg"
+      ],
+      [
+        "Oturma alanı",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/b8262520-388f-49a5-b429-e57637f67a23.jpeg"
+      ],
+      [
+        "Teras",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1389128667463860564/original/0698d0cf-0dc5-47d1-a5a6-00449c7831ae.jpeg"
+      ]
+    ],
+    "link": "https://www.airbnb.com/rooms/1389128667463860564?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "rsoCar": "16 dk",
+    "rsoTransit": "36 dk",
+    "tresorCar": "7 dk",
+    "tresorTransit": "40 dk",
+    "routeNote": "Araç: yaklaşık ilan konumundan OSRM, trafik ve bekleme hariç. Toplu taşıma: 31 Aralık 22.00 örnek BVG/VBB önizlemesi; RSO: U5/RB24/165, 22:01–22:37, 9 dk yürüyüş; TRESOR: M10/U8, 22:00–22:40, 7 dk yürüyüş. 13 Aralık tarife değişikliği uyarısı var, yolculuk öncesi yeniden kontrol edilmeli.",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-daire-galeri.json"
+  },
+  {
+    "id": "1410131905882850182",
+    "name": "Beach House Malchow",
+    "area": "Malchow, Mecklenburg Gölleri",
+    "kind": "Tüm grup evi; 6 oda ve 2 daireli düzen",
+    "capacity": 16,
+    "rooms": 10,
+    "baths": "8",
+    "beds": "İlan 20 yatak bildiriyor; oda bazında 7 yetişkinin yerleşimi ayrıntılı doğrulanmadı.",
+    "features": "Göl kenarı, 2 salon, ortak mutfak, göl manzaralı teras, barbekü, Wi-Fi, TV, çamaşır makinesi ve park. Henüz ilan değerlendirmesi yok.",
+    "price": "3.080 €",
+    "priceStatus": "Vergi kapsamı belirsiz",
+    "priceClass": "search",
+    "priceNote": "Canlı sayfada 30 Aralık-3 Ocak, 7 kişi ve rezervasyon düğmesiyle dört gece tutarı görüldü. Vergi/ücret kapsamı teyitsiz.",
+    "rsoCar": "117 dk",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "103 dk",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "OSRM yol ağı ile yaklaşık ilan noktasından, trafiksiz model; tam adres gizli ve yılbaşı trafiği dahil değil. Toplu taşıma varsa 31 Aralık 21.00 için VBB verili transport.rest örneği, değişebilir.",
+    "sleepConfirmed": false,
+    "assessment": "Çok uzak; göl kenarında binanın tamamı olarak sunulan 6 oda ve 2 daireli grup tesisi. Sıcak ev düzeni ve yatakların türleri ayrıca değerlendirilmeli.",
+    "link": "https://www.airbnb.com/rooms/1410131905882850182?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1410131905882850182/original/59cc3325-a329-4054-a533-d02c87813aa0.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1410131905882850182/original/f6ad7797-63b8-44f3-8d95-2413798997e5.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1410131905882850182/original/3373f0b9-9230-42ca-92fa-ce4f097fca43.jpeg"
+      ]
+    ],
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-bati-galeri.json"
+  },
+  {
+    "id": "1463248924431451294",
+    "name": "Shelterloft Airpark",
+    "area": "Lärz, Mecklenburg Gölleri",
+    "kind": "Müstakil, dönüştürülmüş hangar",
+    "capacity": 10,
+    "rooms": 5,
+    "baths": "5,5",
+    "beds": "İlk dört odanın her birinde 1 çift kişilik yatak gösteriliyor; 7 yetişkin için çift yatak paylaşımıyla yer var. İlanda toplam 6 yatak.",
+    "features": "370 m², 5 duşlu banyo ve ek WC, açık mutfak, şömine, bilardo, TV, Wi-Fi, klima, bahçe, barbekü, 6 park yeri. Gençlik grupları kabul edilmiyor.",
+    "price": "6.343 €",
+    "priceStatus": "Vergi kapsamı belirsiz",
+    "priceClass": "search",
+    "priceNote": "Canlı sayfada dört gece / 7 misafir ve rezervasyon düğmesi göründü; araç 6.342,09 € baz ve yuvarlanmış 6.343 € gösterdi. Vergi/ücret kapsamı teyitsiz.",
+    "rsoCar": "126 dk",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "112 dk",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "OSRM yol ağı ile yaklaşık ilan noktasından, trafiksiz model; tam adres gizli ve yılbaşı trafiği dahil değil. Toplu taşıma varsa 31 Aralık 21.00 için VBB verili transport.rest örneği, değişebilir.",
+    "sleepConfirmed": true,
+    "assessment": "Çok uzak ama bütün yapı modern ve ferah; her odada banyo ve geniş salon var. 1 değerlendirme; iptal koşulu 24 saatten sonra iadesiz görünüyor.",
+    "link": "https://www.airbnb.com/rooms/1463248924431451294?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1463248924431451294/original/3a24a824-3596-46e9-8556-ec15053799f7.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1463248924431451294/original/d8204a9e-561a-4680-adb6-927547da9674.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1463248924431451294/original/5812d610-430d-40c9-ae60-b361bc73cb6f.jpeg"
+      ]
+    ],
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-bati-galeri.json"
+  },
+  {
+    "id": "1519600838702010375",
+    "name": "Kurfürstendamm 150 m²",
+    "area": "Charlottenburg / City West",
+    "kind": "Daire",
+    "capacity": 12,
+    "rooms": 5,
+    "baths": "2",
+    "beds": "1. oda king ve çekyat; 2. oda king ve tek; 3. oda queen; 4. ve 5. odalarda ikişer tek kişilik yatak. Tek ve çift yatakların paylaşımıyla yedi yetişkin sığar.",
+    "features": "150 m²; iki tam banyo, bunlardan biri ilanda tekerlekli sandalyeye uygun duşlu olarak anlatılıyor. TV, tam mutfak, 12 kişilik yemek masası, Wi-Fi ve çamaşır makinesi. Sauna/jakuzi listelenmiyor.",
+    "price": "2.739 € (vergi kapsamı belirsiz)",
+    "priceStatus": "İlan fiyatı; vergi teyitsiz",
+    "priceClass": "search",
+    "priceNote": "Seçili tarihler ve 7 misafir için Airbnb 2.739 € / 4 gece ile Reserve gösterdi; verginin dahil olup olmadığı bağımsız doğrulanmadı.",
+    "sleepConfirmed": true,
+    "assessment": "Beş ayrı oda ve dört tek kişilik yatağıyla uyku düzeni esnek. Konum City West olduğundan iki kulübe de Mitte veya Friedrichshain seçeneklerinden daha uzak olabilir.",
+    "photos": [
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/f103aa5a-15ab-4259-bf3a-a995ebdbf86a.jpeg"
+      ],
+      [
+        "Yemek alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/18eebae9-9030-4f26-9acf-1939bff963b9.jpeg"
+      ],
+      [
+        "Duşlu banyo",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1519600838702010375/original/870d7ffb-1f4a-4bf4-9965-22da740afe85.jpeg"
+      ]
+    ],
+    "link": "https://www.airbnb.com/rooms/1519600838702010375?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "rsoCar": "24 dk",
+    "rsoTransit": "54 dk",
+    "tresorCar": "15 dk",
+    "tresorTransit": "37 dk",
+    "routeNote": "Araç: yaklaşık ilan konumundan OSRM, trafik ve bekleme hariç. Toplu taşıma: 31 Aralık 22.00 örnek BVG/VBB önizlemesi; RSO: S5/S46/165, 22:03–22:57, 13 dk yürüyüş; TRESOR: S5, 22:02–22:39, 20 dk yürüyüş. 13 Aralık tarife değişikliği uyarısı var, yolculuk öncesi yeniden kontrol edilmeli.",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-daire-galeri.json"
+  },
+  {
+    "id": "1573761201032292155",
+    "name": "Weinberg 130 m² tasarım dairesi",
+    "area": "Mitte / Weinbergpark",
+    "kind": "İki katlı daire",
+    "capacity": 10,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Birinci ve ikinci odalarda 180×200 cm çift kişilik + 90×200 cm tek yatak; üçüncü odada iki 160×200 cm çift yatak. Yedi yetişkin yatak paylaşımıyla çekyatsız kalabilir.",
+    "features": "130 m²; iki katta üç oda, iki yağmur duşlu banyo, 10 kişilik yemek masası, mutfak, HDTV ve Wi-Fi. Sauna/jakuzi listelenmiyor.",
+    "price": "3.330 € (vergi kapsamı belirsiz)",
+    "priceStatus": "İlan fiyatı; vergi teyitsiz",
+    "priceClass": "search",
+    "priceNote": "Airbnb 7 misafir ve seçili tarihler için 3.330 € / 4 gece ile Reserve gösterdi. Fiyat penceresinde 3.330 € yazıyor, vergi kalemi açık değil. Ödeme öncesi vergili toplam teyit edilmedi.",
+    "sleepConfirmed": true,
+    "assessment": "Yatak ölçüleri açık ve iki tam banyo var. Bir odadaki iki çift yatak aynı odada; bazı misafirler oda paylaşacak.",
+    "photos": [
+      [
+        "Salon ve mutfak",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1573761201032292155/original/af90b620-bdb0-4277-a6df-75be5f49674d.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1573761201032292155/original/0cefe48a-d652-4d91-aa21-7d648e9dbc93.jpeg"
+      ],
+      [
+        "Banyo",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1573761201032292155/original/f2248ca9-6302-4884-b256-1743f1c28af3.jpeg"
+      ]
+    ],
+    "link": "https://www.airbnb.com/rooms/1573761201032292155?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "rsoCar": "21 dk",
+    "rsoTransit": "46 dk",
+    "tresorCar": "8 dk",
+    "tresorTransit": "15 dk",
+    "routeNote": "Araç: yaklaşık ilan konumundan OSRM, trafik ve bekleme hariç. Toplu taşıma: 31 Aralık 22.00 örnek BVG/VBB önizlemesi; RSO: U8/S47, 22:05–22:51, 18 dk yürüyüş; TRESOR: U8, 22:00–22:15, 9 dk yürüyüş. 13 Aralık tarife değişikliği uyarısı var, yolculuk öncesi yeniden kontrol edilmeli.",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-daire-galeri.json"
+  },
+  {
+    "id": "1610146635685764854",
+    "name": "Moabit geniş daire",
+    "area": "Moabit / Spree",
+    "kind": "Zemin kat daire",
+    "capacity": 10,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "İki odada birer queen yatak, üçüncü odada iki ranza; salonda çekyat. Yedi yetişkinin ranzaları kullanması gerekebilir; ranza boyutu ve taşıma sınırı ilanda doğrulanmadı.",
+    "features": "İki banyo, tam mutfak, TV, Wi-Fi ve çamaşır makinesi. Caddeye özel girişli eski ticari alan. Sauna/jakuzi listelenmiyor.",
+    "price": "3.421,26 €",
+    "priceStatus": "Araçta vergi dahil; ödeme özeti teyitsiz",
+    "priceClass": "search",
+    "priceNote": "Airbnb seçili 7 misafir için 2.988 € / 4 gece ve Reserve gösterdi. Aynı tarihli Apify şehir verisi 2.988 € + 433,26 € vergi = 3.421,26 € gösterdi. Son ödeme öncesi toplam bağımsız doğrulanmadı.",
+    "sleepConfirmed": false,
+    "assessment": "Görsellerde büyük yemek masası ve ayrı salon var. Ranzalı oda bir yorumda çocuk odası olarak anılıyor; yetişkin için ölçü ve taşıma sınırı sorulmalı.",
+    "photos": [
+      [
+        "Yemek alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/4bfa071d-ab0a-4b83-9800-1bb9a0ea9b96.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/90d68756-2dc0-45ae-a114-9007cad332ba.jpeg"
+      ],
+      [
+        "Ranzalı oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/f71b84ad-87c1-444e-a062-669592db477c.jpeg"
+      ]
+    ],
+    "link": "https://www.airbnb.com/rooms/1610146635685764854?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "rsoCar": "25 dk",
+    "rsoTransit": "52 dk",
+    "tresorCar": "11 dk",
+    "tresorTransit": "30 dk",
+    "routeNote": "Araç: yaklaşık ilan konumundan OSRM, trafik ve bekleme hariç. Toplu taşıma: 31 Aralık 22.00 örnek BVG/VBB önizlemesi; RSO: S9, 22:04–22:56, 22 dk yürüyüş; TRESOR: S9, 22:04–22:34, 19 dk yürüyüş. 13 Aralık tarife değişikliği uyarısı var, yolculuk öncesi yeniden kontrol edilmeli.",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-daire-galeri.json"
+  },
+  {
+    "id": "1611035619222657901",
+    "name": "Spreenhagen, 7 tek yataklı sıra ev",
+    "area": "Spreenhagen",
+    "kind": "Sıra ev, iki ayrı daire",
+    "capacity": 7,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "Üç odada sırasıyla 2, 2 ve 3 tek kişilik yatak.",
+    "features": "İki ayrı dairenin her birinde ayrı giriş, mutfak ve banyo; teras, mangal, park yeri ve çamaşır makinesi belirtiliyor. Yeni ilanda değerlendirme yok.",
+    "price": "€980",
+    "priceStatus": "Vergi dahil toplam teyitsiz",
+    "priceClass": "search",
+    "priceNote": "Airbnb sayfasında seçili 7 kişi ve 4 gece için €980 yazıyor; vergi ve diğer ücretlerin ayrıntısı gösterilmedi.",
+    "rsoCar": "37 dk",
+    "rsoTransit": "İlk sonuç ertesi sabah",
+    "tresorCar": "45 dk",
+    "tresorTransit": "İlk sonuç ertesi sabah",
+    "routeNote": "OSRM trafiksiz ve yaklaşık koordinatla. VBB 31 Aralık 21.00 sonrası her iki rota için ilk kalkışı 1 Ocak 07.21 gösterdi; RSO varış 09.23, Tresor 09.20. 31 Aralık 2026, 21.00 sonrası VBB önizlemesi; saatler Berlin yerel saatiyle. İlan koordinatları yaklaşık, biletlenmiş rota değil. 13 Aralık tarife değişikliği için eklemeler bekleniyor.",
+    "sleepConfirmed": true,
+    "assessment": "Yedi ayrı tek kişilik yatak güçlü yan. Tek ilanda iki ayrı girişli daire düzeni var; tek salonlu villa olarak değerlendirilmemeli. Yılbaşı akşamı toplu ulaşım sonucu elverişsiz.",
+    "link": "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+    "photos": [
+      [
+        "Teras ve dış",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/8111c316-b6ea-40ef-801d-4f9999cccfd8.jpeg"
+      ],
+      [
+        "Oturma alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/1deb5196-164f-4f0c-9828-81eae2b3c040.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/34890c0a-95fa-4f3f-a246-0dfe1d650834.jpeg"
+      ]
+    ],
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-dogu-galeri.json"
+  },
+  {
+    "id": "1710064464627076724",
+    "name": "Haus am Schwanensee",
+    "area": "Teupitz",
+    "kind": "Ev ilanı, daire tanımı",
+    "capacity": 10,
+    "rooms": 3,
+    "baths": "1",
+    "beds": "Üç odada 180×200 cm üç çift kişilik yatak; iki odada ayrıca 160×190 cm çekyat. Yedinci kişi çekyat kullanır.",
+    "features": "Göl kıyısı, mutfak, Wi-Fi, çamaşır ve kurutma makinesi; göle erişim ve ortak mangal alanı. Açık alanda çevre ve iskele çalışması sürüyor; ilanın kendi değerlendirmesi henüz yok.",
+    "price": "€1.799",
+    "priceStatus": "Vergi dahil toplam teyitsiz",
+    "priceClass": "search",
+    "priceNote": "Airbnb sayfasında seçili 7 kişi ve 4 gece için €1.799 yazıyor; vergi ve ücret dökümü gösterilmedi.",
+    "rsoCar": "35 dk",
+    "rsoTransit": "İlk sonuç ertesi sabah",
+    "tresorCar": "43 dk",
+    "tresorTransit": "İlk sonuç ertesi sabah",
+    "routeNote": "OSRM trafiksiz ve yaklaşık koordinatla. VBB 31 Aralık 21.00 sonrası her iki rota için ilk kalkışı 1 Ocak 08.24 gösterdi; RSO varış 09.57, Tresor 10.16. 31 Aralık 2026, 21.00 sonrası VBB önizlemesi; saatler Berlin yerel saatiyle. İlan koordinatları yaklaşık, biletlenmiş rota değil. 13 Aralık tarife değişikliği için eklemeler bekleniyor.",
+    "sleepConfirmed": true,
+    "assessment": "Göl kenarında, fakat Airbnb kategorisi tüm ev derken açıklama daire diyor; ortak mangal ve dış çalışma var. Fotoğraf turunda ayrı salon kategorisi görünmüyor; yemek alanı gösterildi.",
+    "link": "https://www.airbnb.com/rooms/1710064464627076724?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1710064464627076724/original/befe0f88-6de2-46e1-b967-83ae03ecfc4f.jpeg"
+      ],
+      [
+        "Yemek alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1710064464627076724/original/7f7d829c-6c49-4748-9000-c11c82b4cb43.png"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1710064464627076724/original/0eb152e2-7d1a-4353-8848-b40e82e75011.png"
+      ]
+    ],
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-dogu-galeri.json"
+  },
+  {
+    "id": "1754173933020764455",
+    "name": "Potsdam ve Berlin yakınında 4 odalı ev",
+    "area": "Stahnsdorf",
+    "kind": "İlan tüm ev; bahçe ortak",
+    "capacity": 7,
+    "rooms": 4,
+    "baths": "2",
+    "beds": "1 king ve 5 tek kişilik yatak; ek kanepe. Yedi yetişkinden ikisi king yatağı paylaşır.",
+    "features": "2 mutfak, TV, Wi-Fi, çamaşır ve bulaşık makinesi, 3 park yeri. Geniş bahçe ev sahibiyle ortak. Havuz, sauna, jakuzi ilanda listelenmedi.",
+    "price": "2.139 €",
+    "priceStatus": "Vergi kapsamı belirsiz",
+    "priceClass": "search",
+    "priceNote": "30 Aralık-3 Ocak, 7 misafir ve rezervasyon düğmesiyle dört gecelik tutar görüldü. Ayrı vergi ve ücretlerin dahil olduğu doğrulanmadı.",
+    "rsoCar": "35 dk",
+    "rsoTransit": "21.00 sorgusundan 154 dk",
+    "tresorCar": "36 dk",
+    "tresorTransit": "21.00 sorgusundan 168 dk",
+    "routeNote": "OSRM yol ağı ile yaklaşık ilan noktasından, trafiksiz model; tam adres gizli ve yılbaşı trafiği dahil değil. Toplu taşıma varsa 31 Aralık 21.00 için VBB verili transport.rest örneği, değişebilir. Stahnsdorf ilk dönen hareket 22.00, RSO varış 23.34 ve Tresor varış 23.48; ilk 60 dakika bekleme dahildir.",
+    "sleepConfirmed": true,
+    "assessment": "Yakın seçenek: 7 kişi yataklara sığıyor, iki mutfak var; bahçe ortak ve salon fotoğrafı ilanda belirgin değil. 2 değerlendirme.",
+    "link": "https://www.airbnb.com/rooms/1754173933020764455?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1754173933020764455/original/9daab941-b123-4dfb-b796-c75d4875cc6d.jpeg"
+      ],
+      [
+        "Mutfak ve yemek alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1754173933020764455/original/f3cbd44a-beb6-46c6-a509-910e58e73742.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1754173933020764455/original/b614bd8b-8953-4597-b006-16d0fdc7f407.jpeg"
+      ]
+    ],
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-bati-galeri.json"
+  },
+  {
+    "id": "1804486533198172905",
+    "name": "Elvano Apartments with Garden Flat",
+    "area": "Falkensee",
+    "kind": "İlan tüm ev; bağımsız yapı durumu belirsiz",
+    "capacity": 7,
+    "rooms": 4,
+    "baths": "1",
+    "beds": "İlanda 8 yatak yazıyor; yatak türleri ve yedi yetişkine dağılımı ayrıntılı doğrulanmadı.",
+    "features": "TV, Wi-Fi, mutfak, çamaşır makinesi, ücretsiz otopark. Yeni ilan ve bu ilan için henüz değerlendirme yok.",
+    "price": "1.326 €",
+    "priceStatus": "Vergiler hariç",
+    "priceClass": "exclusive",
+    "priceNote": "Canlı fiyat penceresi 4 gece 1.470 € eksi 144 € indirim ve vergiler hariç 1.326 € gösterdi. Vergi dahil ödeme toplamı bilinmiyor.",
+    "rsoCar": "44 dk",
+    "rsoTransit": "76 dk, 21.00 sorgusundan 83 dk",
+    "tresorCar": "40 dk",
+    "tresorTransit": "53 dk, 21.00 sorgusundan 60 dk",
+    "routeNote": "OSRM yol ağı ile yaklaşık ilan noktasından, trafiksiz model; tam adres gizli ve yılbaşı trafiği dahil değil. Toplu taşıma varsa 31 Aralık 21.00 için VBB verili transport.rest örneği, değişebilir. İlk örnek 21.07 hareket eder; başlangıçtaki 7 dakika bekleme ikinci sayıya dahildir.",
+    "sleepConfirmed": false,
+    "assessment": "En düşük gösterilen fiyat, ancak vergiler hariç. Adında daire geçiyor; yapının tamamının bağımsızlığı ve 8 yatağın dağılımı teyitsiz.",
+    "link": "https://www.airbnb.com/rooms/1804486533198172905?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/c0d0fa65-23fd-4cd5-9ace-2b9f729f92a6.jpeg"
+      ],
+      [
+        "Yemek ve oturma alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/0d04b592-7ce7-481f-9e5b-7c03ac1be9c9.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1804486533198172905/original/8bee55d4-284c-40f4-9fe0-f1a0775220b3.jpeg"
+      ]
+    ],
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-bati-galeri.json"
+  },
+  {
+    "id": "31203800",
+    "name": "Am Bahnhof, ön yarı müstakil ev",
+    "area": "Werneuchen",
+    "kind": "Yarı müstakil ev, ön birim",
+    "capacity": 7,
+    "rooms": 4,
+    "baths": "1,5",
+    "beds": "Üç odada ikişer tek kişilik yatak, dördüncü odada 1 küçük çift kişilik yatak. Yedi kişi için yedinci kişi küçük çift yatakta tek kalabilir.",
+    "features": "30 m² oturma ve yemek alanı, mutfak, teras ve mangal, iki ücretsiz park yeri. Ev iki ayrı girişli yarıdan oluşuyor. İlan Wi-Fi için €5/gün belirtiyor; çamaşır makinesi ücretli.",
+    "price": "€1.100",
+    "priceStatus": "Vergi dahil toplam teyitsiz",
+    "priceClass": "search",
+    "priceNote": "Airbnb sayfasında seçili 7 kişi ve 4 gece için €1.100 yazıyor; vergi ve ücret dökümü gösterilmedi. Kullanılırsa Wi-Fi €5/gün ilan edilmiş.",
+    "rsoCar": "48 dk",
+    "rsoTransit": "62 dk",
+    "tresorCar": "43 dk",
+    "tresorTransit": "63 dk",
+    "routeNote": "OSRM tahmini, trafiksiz; koordinatlar yaklaşık. VBB: RSO 21.02–22.04 RB25 + RB32; Tresor 21.02–22.05 RB25 + U5 + U8. 31 Aralık 2026, 21.00 sonrası VBB önizlemesi; saatler Berlin yerel saatiyle. İlan koordinatları yaklaşık, biletlenmiş rota değil. 13 Aralık tarife değişikliği için eklemeler bekleniyor.",
+    "sleepConfirmed": true,
+    "assessment": "İstasyon yanında ayrı girişli ön yarı ev. Teraslı diğer Werneuchen ilanıyla aynı ev sahibi ve tesis adına sahip, ancak ayrı ilan; iki kayıt tek büyük ev olarak sayılmamalı.",
+    "link": "https://www.airbnb.com/rooms/31203800?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+    "photos": [
+      [
+        "Ön yarı ev",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-31203800/original/228beb3f-b35b-412b-a618-52ebbe73b52a.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-31203800/original/492581b2-0ddb-4b32-88bf-e02945395d4d.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-31203800/original/ca5a869a-595e-4852-b60a-0d2f38866a22.jpeg"
+      ]
+    ],
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-dogu-galeri.json"
+  },
+  {
+    "id": "31348853",
+    "name": "Am Bahnhof, teraslı bungalov",
+    "area": "Werneuchen",
+    "kind": "Bungalov, ayrı ilan",
+    "capacity": 7,
+    "rooms": 4,
+    "baths": "1,5",
+    "beds": "Üç odada ikişer tek kişilik, dördüncü odada 1 küçük çift kişilik yatak; salonda ayrıca çekyat ve kanepe.",
+    "features": "Yaklaşık 30 m² oturma ve yemek alanı, mutfak, bulaşık ve çamaşır makinesi, teras, mangal, ücretsiz otopark. İlan Wi-Fi için €5/gün belirtiyor.",
+    "price": "€1.082",
+    "priceStatus": "Vergi dahil toplam teyitsiz",
+    "priceClass": "search",
+    "priceNote": "Airbnb sayfasında seçili 7 kişi ve 4 gece için €1.082 yazıyor; vergi ve ücret dökümü gösterilmedi. Kullanılırsa Wi-Fi €5/gün ilan edilmiş.",
+    "rsoCar": "48 dk",
+    "rsoTransit": "60 dk",
+    "tresorCar": "43 dk",
+    "tresorTransit": "61 dk",
+    "routeNote": "OSRM tahmini, trafiksiz; koordinatlar yaklaşık. VBB: RSO 21.04–22.04 RB25 + RB32; Tresor 21.04–22.05 RB25 + U5 + U8. İlanın tam adresi saklı olduğu için çok kısa görünen istasyon yürüyüşü teyitsiz. 31 Aralık 2026, 21.00 sonrası VBB önizlemesi; saatler Berlin yerel saatiyle. İlan koordinatları yaklaşık, biletlenmiş rota değil. 13 Aralık tarife değişikliği için eklemeler bekleniyor.",
+    "sleepConfirmed": true,
+    "assessment": "Werneuchen'deki diğer ilanla aynı ev sahibi ve tesis adına sahip ayrı seçenek. Ayrı birim olarak incelenmeli; dış cephe görseli bu ilanda belirlenemedi, galeriye bahçe fotoğrafı kondu.",
+    "link": "https://www.airbnb.com/rooms/31348853?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+    "photos": [
+      [
+        "Bahçe, cephe değil",
+        "https://a0.muscache.com/im/pictures/1894648b-0023-4378-ae46-4462696539fe.jpg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/a89d84a3-04b5-43d2-887c-870517c37851.jpg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-31348853/original/90ec78f2-e0d7-460d-97c6-e5be18c0a7c0.jpeg"
+      ]
+    ],
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-dogu-galeri.json"
+  },
+  {
+    "id": "873230612368758488",
+    "name": "Mitte 130 m² iki bağlantılı daire",
+    "area": "Mitte / Novalisstraße",
+    "kind": "İç kapıyla bağlantılı daire",
+    "capacity": 8,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "3 ayrı yatak odasında birer king yatak; salondaki çekyat iki kişi için. Yedinci kişi çekyatta kalır.",
+    "features": "İç kapıyla bağlanan 90 ve 40 m² iki zemin kat daire; iki duşlu banyo, tam mutfak + küçük mutfak, her odada 55 inç Netflix TV, Wi-Fi ve çamaşır makinesi. Sauna/jakuzi listelenmiyor.",
+    "price": "3.112,48 €",
+    "priceStatus": "Araçta vergi dahil; ödeme özeti teyitsiz",
+    "priceClass": "search",
+    "priceNote": "Airbnb fiyat penceresi 2.718,33 € vergi öncesi; aynı tarihli Apify verisi 394,15 € vergi ile 3.112,48 € toplam gösteriyor. 7 misafir ve Reserve düğmesi görüldü. Son ödeme öncesi toplam bağımsız doğrulanmadı.",
+    "sleepConfirmed": true,
+    "assessment": "İki banyo ve ayrı odalar güçlü; yedinci kişi çekyatta, altı kişilik ana yemek masası ile ikinci bölümde üç kişilik masa var.",
+    "photos": [
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-873230612368758488/original/1b90588f-10ba-4500-93b4-2e778594ba0f.jpeg"
+      ],
+      [
+        "TV ve salon",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-873230612368758488/original/1dffbe9b-1c1a-41ac-98e7-78b03c36fcac.jpeg"
+      ],
+      [
+        "İkinci yaşam alanı",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-873230612368758488/original/2a8db367-b53d-45e1-881a-71d47a772e2b.jpeg"
+      ]
+    ],
+    "link": "https://www.airbnb.com/rooms/873230612368758488?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "rsoCar": "23 dk",
+    "rsoTransit": "51 dk",
+    "tresorCar": "9 dk",
+    "tresorTransit": "23 dk",
+    "routeNote": "Araç: yaklaşık ilan konumundan OSRM, trafik ve bekleme hariç. Toplu taşıma: 31 Aralık 22.00 örnek BVG/VBB önizlemesi; RSO: M5/S9, 22:05–22:56, 17 dk yürüyüş; TRESOR: 142/U8, 22:02–22:25, 8 dk yürüyüş. 13 Aralık tarife değişikliği uyarısı var, yolculuk öncesi yeniden kontrol edilmeli.",
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-daire-galeri.json"
+  },
+  {
+    "id": "937599705398085803",
+    "name": "Bahçeli sıra ev, Tierpark yakınında",
+    "area": "Berlin, Lichtenberg",
+    "kind": "Sıra ev",
+    "capacity": 8,
+    "rooms": 4,
+    "baths": "1,5",
+    "beds": "1. oda 2 tek kişilik; 2. oda 1 king; 3. oda 1 çift kişilik; 4. oda 1 çekyat. Çekyatın ölçüsü belirtilmiyor.",
+    "features": "150 m²; özel bahçe ve teras, mutfak, bulaşık ve çamaşır makinesi, Wi-Fi, 1 ücretsiz park yeri. İlan başlığı 4 yatak odası derken açıklamada 3 oda ve 6 kişi de geçiyor.",
+    "price": "€1.887",
+    "priceStatus": "Vergi dahil toplam teyitsiz",
+    "priceClass": "search",
+    "priceNote": "Airbnb sayfasında 30 Aralık–3 Ocak, 7 kişi için 4 gecelik tutar. Arama sonucu €2.020 toplam göstermişti. Kalemler açıklanmadı; ev sahibi metninde net gecelik ücretin %7,5'i olarak ayrıca nakit şehir vergisi istendiği yazılı.",
+    "rsoCar": "15 dk",
+    "rsoTransit": "40 dk",
+    "tresorCar": "15 dk",
+    "tresorTransit": "36 dk",
+    "routeNote": "OSRM tahmini, trafiksiz; koordinatlar yaklaşık. VBB: RSO 21.06–21.46 yürüyüş + 108 + M17; Tresor 21.01–21.37 yürüyüş + S7. 31 Aralık 2026, 21.00 sonrası VBB önizlemesi; saatler Berlin yerel saatiyle. İlan koordinatları yaklaşık, biletlenmiş rota değil. 13 Aralık tarife değişikliği için eklemeler bekleniyor.",
+    "sleepConfirmed": false,
+    "assessment": "Kent içinde bahçeli ev. Üç yatak odasında altı kişilik yatak, yedinci kişi için çekyat var. Oda sayısı açıklamada çelişkili; ev sahibinin vergi notu toplamı belirsiz kılıyor.",
+    "link": "https://www.airbnb.com/rooms/937599705398085803?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTM3NTk5NzA1Mzk4MDg1ODAz/original/cf58352e-05d8-476d-b1a4-fd8477d8beb0.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTM3NTk5NzA1Mzk4MDg1ODAz/original/67f2e623-50c4-46f7-8b44-196e92522d01.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTM3NTk5NzA1Mzk4MDg1ODAz/original/cc4d3aec-2be0-43eb-ad5c-7fbe322766fc.jpeg"
+      ]
+    ],
+    "wave": 2,
+    "nights": 4,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "platform": "Airbnb",
+    "evidenceFile": "./ikinci-dalga-dogu-galeri.json"
+  },
+  {
+    "id": "landhaus",
+    "name": "LANDHAUS by Tendo Stay",
+    "area": "Dallgow-Döberitz",
+    "kind": "Müstakil ev",
+    "capacity": 7,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "6 tek kişilik yatak + salonda 1 çekyat.",
+    "features": "150 m²; TV, Wi-Fi, tam mutfak, bulaşık ve çamaşır makinesi, bahçe, teras, özel ücretsiz otopark. Havuz ve spa yok; sauna/jakuzi listelenmiyor.",
+    "price": "61.567 TL",
+    "priceStatus": "Vergi ve ücretler dahil",
+    "priceClass": "confirmed",
+    "priceNote": "Booking'in tarihli 7 yetişkin / villanın tamamı teklifinde doğrulandı. Yemek dahil değil. 25 Aralık öncesi ücretsiz iptal.",
+    "rsoCar": "48 dk",
+    "rsoTransit": "83 dk",
+    "tresorCar": "46 dk",
+    "tresorTransit": "60 dk",
+    "routeNote": "Araç: OSRM trafiksiz. Toplu taşıma: 31 Aralık 21.00 örnek VBB önizlemesi, yürüyüş dahil; istasyona yaklaşık 18 dk yürüyüş.",
+    "sleepConfirmed": true,
+    "assessment": "Fiyatı en iyi doğrulanan müstakil seçenek. Kulüplere uzak. Altı normal yatak var; yedinci kişinin kanepesinin ölçüsü ve konforu teyitsiz.",
+    "link": "https://www.booking.com/hotel/de/authentisches-landhaus-comfort-housing-dallgow-doberitz.tr.html",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1020,q_auto,w_2000/partner-images/09/47/06704bd336da5c09f156d4ed3dee06d733a33e7239bc983a239183933e16.jpeg"
+      ],
+      [
+        "Salon",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1020,q_auto,w_2000/partner-images/3c/ad/8dde40611b52d388060b9ec023595e9ee853968f7f4974d39c6211228329.jpeg"
+      ],
+      [
+        "İki tek yataklı oda",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1020,q_auto,w_2000/partner-images/3d/b2/1c3f2e89e9f680e0a4d5687b35fadf2c8ac382703cd44b72ecd1f3f68543.jpeg"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Booking"
+  },
+  {
+    "id": "1468719376516749093",
+    "name": "Family House",
+    "area": "Ahrensfelde",
+    "kind": "Müstakil ev",
+    "capacity": 8,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "3 çift kişilik + en az 1 tek kişilik yatak görsel/ilan teyitli; 7 yetişkin normal yataklarda. Açıklama ikinci tek yatak da sayıyor.",
+    "features": "TV, Wi-Fi, mutfak, bahçe, otopark. Havuz, sauna ve jakuzi listelenmiyor.",
+    "price": "2.000 €",
+    "priceStatus": "Ödeme öncesi toplam",
+    "priceClass": "checkout",
+    "priceNote": "4 gece × 500 €. Aynı tarihte TRY arama bedeli yaklaşık 112.444 TL. Özet ekranında ayrı vergi/temizlik/hizmet satırı yok; verginin kapsamı açık değil. 30 Kasım öncesi ücretsiz iptal.",
+    "rsoCar": "25 dk",
+    "rsoTransit": "62 dk",
+    "tresorCar": "24 dk",
+    "tresorTransit": "55 dk",
+    "routeNote": "Araç: yaklaşık ilan noktasından OSRM trafiksiz. Toplu taşıma: 31 Aralık 21.00 örnek VBB planı, yürüyüş dahil.",
+    "sleepConfirmed": true,
+    "assessment": "Müstakil ev ve ulaşım dengesi bakımından ilk tercihim. Salon sade ve ferah, üst kat odaları eğik tavanlı. Bahçe/komşu alan düzenlemesi sürüyor. İlandaki tamamlanmış bahçe görünümü düzenlenmiş/render olabilir; burada gerçek giriş fotoğrafı kullanıldı.",
+    "link": "https://www.airbnb.com/rooms/1468719376516749093?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Dış giriş fotoğrafı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/8786008e-10d9-4dbc-9ffd-035d8b62f445.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/63b8a050-2d5e-41ad-b11c-dd054db3fedc.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/e3867035-bec7-41e4-aba1-200e40c840bd.jpeg"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  },
+  {
+    "id": "565270388295704317",
+    "name": "Remise / eski ahırdan dönüştürülmüş ev",
+    "area": "Hoppegarten",
+    "kind": "Müstakil ev",
+    "capacity": 7,
+    "rooms": 3,
+    "baths": "İlan 3 diyor; kapsamı belirsiz",
+    "beds": "2 king + 2 tek kişilik yatak + 2 çekyat. Yedi kişiden en az biri çekyatta.",
+    "features": "TV; mutfak fotoğraf ve açıklamada var ancak olanak etiketinde 'mutfak yok' çelişkisi bulunuyor. Açık alan var; havuz/sauna/jakuzi listelenmiyor.",
+    "price": "168.833,29 TL + belirsiz vergi",
+    "priceStatus": "Vergiler hariç",
+    "priceClass": "exclusive",
+    "priceNote": "Fiyat modalında açıkça vergiler hariç. Ödeme öncesi özette aynı bedel var, vergi kalemi yok; oturum açma sınırında duruldu. Kesin vergi dahil toplam bilinmiyor.",
+    "rsoCar": "25 dk",
+    "rsoTransit": "73 dk",
+    "tresorCar": "26 dk",
+    "tresorTransit": "64 dk",
+    "routeNote": "Araç: OSRM trafiksiz. Toplu taşıma: 31 Aralık 22.00 sonrası örnek VBB planı; başlangıçta 24 dk yürüyüş var.",
+    "sleepConfirmed": true,
+    "assessment": "Ev ve oda düzeni güçlü; toplu taşıma yürüyüşü uzun. Fiyatı diğer evlerden yüksek ve vergi henüz açık değil.",
+    "link": "https://www.airbnb.com/rooms/565270388295704317?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-565270388295704317/original/0ccd0fff-b6e4-4928-9464-23a0b2edcd72.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-565270388295704317/original/15cf9d7e-ad75-499f-9a2d-f32791ecc7ea.jpeg"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  },
+  {
+    "id": "22026440",
+    "name": "Villa an der Stadtgrenze",
+    "area": "Bernau / Panketal",
+    "kind": "Müstakil villa",
+    "capacity": 7,
+    "rooms": 2,
+    "baths": "1 tam + 1 WC",
+    "beds": "2 çift + 1 tek kişilik yatak; ayrıca 1 çekyat ve 1 yer yatağı. Normal yataklar 5 kişilik.",
+    "features": "135 m²; HDTV/kablo/Prime, Wi-Fi, mutfak, bahçe, teras, barbekü, ücretsiz otopark. Havuz, sauna, jakuzi listelenmiyor.",
+    "price": "1.939,80 €",
+    "priceStatus": "Ödeme öncesi toplam",
+    "priceClass": "checkout",
+    "priceNote": "4 gece toplamı özet ekranında görüldü. TRY sorgusu yaklaşık 109.059 TL. Vergi/temizlik/hizmet ayrı açıklanmıyor. 24 saat içinde ücretsiz iptal, sonrası iadesiz.",
+    "rsoCar": "46 dk",
+    "rsoTransit": "80 dk",
+    "tresorCar": "37 dk",
+    "tresorTransit": "57 dk",
+    "routeNote": "Araç: OSRM trafiksiz, konum yaklaşık. Toplu taşıma: 31 Aralık 21.00 örnek VBB planı; Zepernick'e yaklaşık 15 dk yürüyüş.",
+    "sleepConfirmed": true,
+    "assessment": "Gerçek villa, klasik mobilyalı salon ve bahçe. Yedi yetişkin için iki kişinin çekyat/yer yatağı kullanması gerekiyor; Ahrensfelde kadar rahat uyku düzeni yok.",
+    "link": "https://www.airbnb.com/rooms/22026440?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/d4ac70f9-89cf-41fb-87ca-05c70d28d914.jpg"
+      ],
+      [
+        "Oturma alanı",
+        "https://a0.muscache.com/im/pictures/31ba800e-48ee-44c8-9687-ecec8a46cc1e.jpg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/af456638-37b2-4d17-bd6f-d1cb44d7483d.jpg"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  },
+  {
+    "id": "1166429151300530583",
+    "name": "HipSpot R3",
+    "area": "Mitte / Tresor",
+    "kind": "Daire",
+    "capacity": 8,
+    "rooms": 2,
+    "baths": "1",
+    "beds": "4 tek kişilik + 1 queen yatak; salonda 2 kişilik çekyat.",
+    "features": "TV, Wi-Fi, mutfak, bulaşık makinesi, fırın, Nespresso. Çamaşır makinesi ve klima yok. Havuz/jakuzi/sauna listelenmiyor. 3. kat, asansör yok.",
+    "price": "135.606,37 TL",
+    "priceStatus": "Ödeme öncesi toplam",
+    "priceClass": "checkout",
+    "priceNote": "Doğru tarihler ve 7 yetişkinle ödeme öncesi özette doğrulandı. İlan tüm ücretler dahil diyor; vergi ayrı açıklanmıyor. 25 Aralık öncesi ücretsiz iptal.",
+    "rsoCar": "25 dk",
+    "rsoTransit": "41 dk",
+    "tresorCar": "2 dk",
+    "tresorTransit": "Yürüyerek 6 dk",
+    "routeNote": "Google Maps 5 Kasım gündüz gözlemi. RSO: 165 otobüsüyle örnek rota. Yılbaşı gece tarifesi değil.",
+    "sleepConfirmed": true,
+    "assessment": "Tresor için en pratik seçeneklerden. Aydınlık salon, büyük L kanepe; bir odada dört tek yatak yan yana. Tek banyo ve merdiven dezavantaj.",
+    "link": "https://www.airbnb.com/rooms/1166429151300530583?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/f8a604db-f53a-4f00-9398-eb441f1179a6.png"
+      ],
+      [
+        "Dört tek yataklı oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/cb09033d-32fe-4a7a-925c-85eeca200927.png"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  },
+  {
+    "id": "1352773721511868469",
+    "name": "Villa içindeki çatı katı dairesi",
+    "area": "RSO tarafı",
+    "kind": "Daire",
+    "capacity": 8,
+    "rooms": 6,
+    "baths": "2 duş + 2 WC",
+    "beds": "8 ayrı tek kişilik yatak.",
+    "features": "110 m²; TV, Wi-Fi, mutfak, bulaşık ve çamaşır makinesi, bahçe, barbekü. Havuz/sauna listelenmiyor. Dik merdiven; havlu ek ücretli olabilir.",
+    "price": "84.964,80 TL",
+    "priceStatus": "Vergiler dahil ödeme öncesi toplam",
+    "priceClass": "confirmed",
+    "priceNote": "81.521,23 TL − 2.038,03 TL indirim + 5.481,60 TL vergi. Son ödeme öncesi özetle doğrulandı. Temizlik/hizmet ayrı satır değil. Tam iade sınırı 30 Kasım ifadesiyle veriliyor; saati yeniden kontrol edilmeli.",
+    "rsoCar": "10 dk",
+    "rsoTransit": "17 dk",
+    "tresorCar": "26 dk",
+    "tresorTransit": "43 dk",
+    "routeNote": "Google Maps 5 Kasım gündüz; yaklaşık ilan noktasından. RSO: 27/60 tramvayı ve yürüyüş.",
+    "sleepConfirmed": true,
+    "assessment": "RSO ve ayrı yatak önceliği için güçlü. Bütün villa değil; odalar ve ortak koridor dar, büyük bir salon görmedik.",
+    "link": "https://www.airbnb.com/rooms/1352773721511868469?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Binanın dışı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/7438d2fb-b21c-4025-8315-498f22099892.jpeg"
+      ],
+      [
+        "Mutfak ve yemek alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/efaa9f45-6aeb-4ad0-b5e3-2c329f302a6b.jpeg"
+      ],
+      [
+        "İki tek yataklı oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/46992a82-94e2-4c63-8c53-602de3cb3b7e.jpeg"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  },
+  {
+    "id": "53802915",
+    "name": "120 m² Design Apartment",
+    "area": "Friedrichshain",
+    "kind": "Daire",
+    "capacity": 8,
+    "rooms": 3,
+    "baths": "1 tam + 1 WC",
+    "beds": "2 adet 180×200 cm çift yatak + 1 adet 160×200 cm çift yatak; salonda 160×200 cm çekyat.",
+    "features": "120 m²; 65 inç TV ve Netflix, Wi-Fi, tam mutfak, binada ücretsiz çamaşır makinesi ve kurutucu. Klima yok. Havuz/sauna/jakuzi listelenmiyor.",
+    "price": "139.598,82 TL",
+    "priceStatus": "Vergiler dahil ödeme öncesi toplam",
+    "priceClass": "confirmed",
+    "priceNote": "203.538,85 TL − 81.618,49 TL indirim + 17.678,46 TL vergi. Ödeme öncesi özette doğrulandı. 24 saat ücretsiz iptal, sonrası iadesiz.",
+    "rsoCar": "17 dk",
+    "rsoTransit": "35 dk",
+    "tresorCar": "7 dk",
+    "tresorTransit": "26 dk",
+    "routeNote": "Araç: OSRM trafiksiz. Toplu taşıma: 31 Aralık 22.00 örnek VBB planı; U5/RB24/165 veya U5/U8.",
+    "sleepConfirmed": true,
+    "assessment": "Vergi dahil fiyatı doğrulanan geniş daire; büyük salon ve yetişkin boy yatakları güçlü. Yedinci kişi çekyatta. Geç giriş desteği sınırlı olabilir.",
+    "link": "https://www.airbnb.com/rooms/53802915?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTM4MDI5MTU%3D/original/2e9aa38a-dee8-4211-ab69-0de75bb0aff3.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTM4MDI5MTU%3D/original/7a9a6a20-69a0-4772-8648-744e6cde96f7.jpeg"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  },
+  {
+    "id": "12048269",
+    "name": "Penthouse Torstraße",
+    "area": "Mitte",
+    "kind": "Daire",
+    "capacity": 8,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "3 çift kişilik yatak + salonda 2 kişilik kanepe. Queen/double adları ilan içinde farklı.",
+    "features": "150 m²; TV, Wi-Fi, mutfak, asansör, ortak avlu terası/veranda, çamaşır makinesi ve kurutucu. Klima yok. Havuz/sauna/jakuzi listelenmiyor.",
+    "price": "173.162,35 TL",
+    "priceStatus": "Ödeme öncesi toplam",
+    "priceClass": "checkout",
+    "priceNote": "Doğru tarihler ve 7 yetişkinle özet ekranı. Vergi/temizlik/hizmet ayrı görünmüyor; kapsam belirsiz. 30 Kasım öncesi ücretsiz iptal.",
+    "rsoCar": "21 dk",
+    "rsoTransit": "44 dk",
+    "tresorCar": "7 dk",
+    "tresorTransit": "13 dk",
+    "routeNote": "Araç: OSRM trafiksiz. Toplu taşıma: 31 Aralık 22.00 örnek VBB planı; U8, RSO yönünde S47 bağlantısı.",
+    "sleepConfirmed": true,
+    "assessment": "Geniş salon, teras ve iki banyo artı. Gerçek müstakil villa değil; yedinci kişi kanepede.",
+    "link": "https://www.airbnb.com/rooms/12048269?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/3bb65b9f-45a1-4fc6-a4b5-4990dbe140df.jpeg"
+      ],
+      [
+        "Yatak odası",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/d7be43c3-2aa4-4cca-9656-a0e25ffdaaf2.jpeg"
+      ],
+      [
+        "Ortak teras",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-12048269/original/a3ab1fd4-9983-4075-933e-a7a9d701881c.jpeg"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  },
+  {
+    "id": "1552331405600484908",
+    "name": "Ruby & Indigo",
+    "area": "Friedrichshain",
+    "kind": "İki komşu daire",
+    "capacity": 12,
+    "rooms": 4,
+    "baths": "2",
+    "beds": "4 çift kişilik yatak + 2 çekyat. Bazı yatak alanları normal kapalı oda yerine niş.",
+    "features": "2 ayrı giriş, 2 mutfak, 2 banyo. Olanakların tamamı canlı doğrulanamadı; havuz/jakuzi/sauna teyidi yok.",
+    "price": "118.851,63 TL",
+    "priceStatus": "Araçta vergi dahil; canlı sayfa açılamadı",
+    "priceClass": "search",
+    "priceNote": "Aynı gün tarihli Apify araması 110.559,66 TL baz + 8.291,97 TL vergi gösterdi. Son canlı sayfa 503 verdi; bu fiyat güncel ödeme özeti değildir.",
+    "rsoCar": "15 dk",
+    "rsoTransit": "32 dk",
+    "tresorCar": "8 dk",
+    "tresorTransit": "26 dk",
+    "routeNote": "Araç: OSRM trafiksiz. Toplu taşıma: 31 Aralık 22.00 örnek VBB planı. RSO yönünde Ostkreuz'a 17 dk yürüyüş var.",
+    "sleepConfirmed": true,
+    "assessment": "Yedi kişi çift yatak paylaşarak çekyatsız kalabilir. Renkli, kompakt iki ünite; planda aralarında iç kapı görünmüyor.",
+    "link": "https://www.airbnb.com/rooms/1552331405600484908?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Kırmızı yaşam alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1552331405600484908/original/4781d91f-a0b9-4a54-a4fb-864f7c2b9d6e.jpeg"
+      ],
+      [
+        "Mavi yaşam alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1552331405600484908/original/7a4e54f8-ca4a-4fb2-a78a-e2a98acaa5bd.jpeg"
+      ],
+      [
+        "İki ünitenin kat planı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1552331405600484908/original/a6c4a4c4-47e5-401d-9787-bfa21e1e124c.jpeg"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  },
+  {
+    "id": "45436574",
+    "name": "City Spreeufer",
+    "area": "Friedrichshain",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": 2,
+    "baths": "1 tam + 1 WC",
+    "beds": "1 ayrılabilir çift kişilik + 3 tek kişilik yatak + 1–2 kişilik çekyat.",
+    "features": "TV, Wi-Fi, açık mutfak, bulaşık ve çamaşır makinesi, ücretsiz mülk içi park. Havuz/sauna listelenmiyor.",
+    "price": "87.902,39 TL",
+    "priceStatus": "Ödeme öncesi toplam",
+    "priceClass": "checkout",
+    "priceNote": "7 yetişkin ve doğru tarihler için özet ekranında 87.902,39 TL. Vergi/temizlik/hizmet ayrı görünmüyor; kapsam açık değil. 24 saat ücretsiz iptal, sonra iadesiz.",
+    "rsoCar": "17 dk",
+    "rsoTransit": "37–39 dk",
+    "tresorCar": "9 dk",
+    "tresorTransit": "23 dk",
+    "routeNote": "Google Maps 5 Kasım gündüz gözlemi, yaklaşık ilan noktasından. Yılbaşı gece koşulları değil.",
+    "sleepConfirmed": true,
+    "assessment": "İki kulüp arasında dengeli. Salon genişçe; temizlik puanı ve güncel temizlik/küf şikâyeti nedeniyle öneri sıralamasında geride.",
+    "link": "https://www.airbnb.com/rooms/45436574?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/2fd0da2f-1160-4cf3-98ca-c75b00114a8e.jpeg"
+      ],
+      [
+        "Üç tek yataklı oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-45436574/original/17dc1c85-dc7c-4f2b-9022-cb1738c07cc7.jpeg"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  },
+  {
+    "id": "1150006272268927007",
+    "name": "Maybachufer",
+    "area": "Neukölln",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": 2,
+    "baths": "1 tam + 1 WC",
+    "beds": "1 queen + 1 çift kişilik + 1 tek kişilik yatak; salonda şilteli çekyat. Çekyatın iki yetişkinlik ölçüsü teyitsiz.",
+    "features": "TV, mutfak, Wi-Fi, çamaşır ve kurutma makinesi. Zemin kat. Havuz/jakuzi/sauna teyidi yok.",
+    "price": "70.254,44 TL + ayrı şehir vergisi",
+    "priceStatus": "Vergi dahil toplam kesin değil",
+    "priceClass": "exclusive",
+    "priceNote": "Ödeme öncesi ekranda toplam 70.254,44 TL; ayrı vergi satırı yok. İlan %7,5 şehir vergisini ayrıca istiyor. Matrah ve ekran toplamıyla ilişkisi belirsiz; kesin vergi dahil fiyat hesaplanamadı. 24 saat sonrası iadesiz.",
+    "rsoCar": "14 dk",
+    "rsoTransit": "36 dk",
+    "tresorCar": "8 dk",
+    "tresorTransit": "18 dk",
+    "routeNote": "Araç: OSRM trafiksiz. Toplu taşıma: 31 Aralık 22.00 örnek VBB planı; 171/S46/165 veya 194/U8.",
+    "sleepConfirmed": false,
+    "assessment": "Konum ve bedel avantajlı. Salon dar ve uzun; yedinci kişinin çekyat düzeni ve vergi matrahı netleşmeli.",
+    "link": "https://www.airbnb.com/rooms/1150006272268927007?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Salon ve yemek alanı",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/569dadc4-abe2-4d33-8931-cb0b782543eb.jpeg"
+      ],
+      [
+        "İç alan",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAwNjI3MjI2ODkyNzAwNw%3D%3D/original/78d9c53c-fb19-45f3-b982-a09c27735e06.jpeg"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  },
+  {
+    "id": "21074683",
+    "name": "Arbio",
+    "area": "Kreuzberg / Bergmannkiez",
+    "kind": "Daire",
+    "capacity": 7,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "5 tek kişilik yatak + 2 ayrı çekyat.",
+    "features": "120 m²; HDTV, Wi-Fi, tam mutfak, bulaşık makinesi. Çamaşır makinesi ve klima yok; jakuzi listelenmiyor. Bodrum kat.",
+    "price": "156.504,76 TL + depozito",
+    "priceStatus": "Vergiler dahil; depozito ayrıca",
+    "priceClass": "confirmed",
+    "priceNote": "139.736,39 TL + 16.768,37 TL vergi. Ayrıca 33.732,93 TL depozito varış öncesi veya girişte yönetimce tahsil ediliyor; konaklama bedelinin içinde değil. Geçici toplam nakit ihtiyacı 190.237,69 TL olabilir. 24 saat sonrası iadesiz.",
+    "rsoCar": "24 dk",
+    "rsoTransit": "41 dk",
+    "tresorCar": "12 dk",
+    "tresorTransit": "27 dk",
+    "routeNote": "Google Maps 5 Kasım gündüz. RSO U6 + çevre S-Bahn, Tresor U7 + U8.",
+    "sleepConfirmed": true,
+    "assessment": "Herkes ayrı uyuyabilir, iki banyo iyi. Bodrumda küçük yüksek pencereler, sokak/ayak sesi uyarısı ve düşük göreli memnuniyet nedeniyle geride.",
+    "link": "https://www.airbnb.com/rooms/21074683?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/5c30eb5e-e14c-447b-99d5-85b21857eabb.jpg"
+      ],
+      [
+        "Bodrum yatak odası",
+        "https://a0.muscache.com/im/pictures/a8a912d0-143b-42f9-ac31-28071be46725.jpg"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  },
+  {
+    "id": "1800855588199404311",
+    "name": "Dahlewitz House",
+    "area": "Blankenfelde-Mahlow",
+    "kind": "Müstakil ev",
+    "capacity": 8,
+    "rooms": 4,
+    "baths": "2",
+    "beds": "1 queen + 2 king yatak; çocuk odasında 2 tek kişilik/açılır yatak tarifleri çelişkili. Yedinci yetişkin için ölçü teyitsiz.",
+    "features": "TV, mutfak ve bahçe. Havuz/jakuzi/sauna listelenmiyor. Yeni ilan, kendi değerlendirmesi yok.",
+    "price": "65.025,82 TL",
+    "priceStatus": "Vergi kapsamı belirsiz",
+    "priceClass": "unknown",
+    "priceNote": "7 misafir ve doğru tarihler için canlı modal, ayrı vergi/temizlik/hizmet satırı yok.",
+    "rsoCar": "29 dk",
+    "rsoTransit": "22.00 sorgusunda 5 sa. 4 dk",
+    "tresorCar": "37 dk",
+    "tresorTransit": "22.00 sorgusunda yaklaşık 5 sa. 12 dk",
+    "routeNote": "Araç: OSRM trafiksiz. VBB 31 Aralık 22.00 sonrası ilk örneği ancak 01.58 başlangıçlı döndürdü; 03.04/03.12 varış. Bu bütün gece seferlerinin yokluğunu kanıtlamaz.",
+    "sleepConfirmed": false,
+    "assessment": "Düşük fiyatlı müstakil alternatif, fakat yedinci yetişkinin yatağı ve gece ulaşımı açık. Bu iki nedenle öneri değil, koşullu seçenek.",
+    "link": "https://www.airbnb.com/rooms/1800855588199404311?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/58a30222-d091-41eb-af89-f9e0493d7202.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/da384daf-beae-4cf6-ad40-5a312693a3b8.jpeg"
+      ],
+      [
+        "Çocuk odasındaki kapalı yatak",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/ced944a9-f69e-49fb-b27f-6bfe5bdd97bb.jpeg"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  },
+  {
+    "id": "1175489093358086077",
+    "name": "Family House with Lake Access",
+    "area": "Müggelsee",
+    "kind": "Tüm ev",
+    "capacity": 7,
+    "rooms": 2,
+    "baths": "1",
+    "beds": "Fotoğrafta 1 çift + 1 tek + 2 katlı ranza, toplam 5 açık yatak yeri. Altıncı ve yedinci yetişkinin uyku yeri doğrulanmadı.",
+    "features": "TV, sauna, mutfak, göle erişim. Dış alan başka evlerle ortak. Sauna kullanım kapsamı ayrıca teyit edilmeli; yüzme havuzu/jakuzi teyidi yok.",
+    "price": "134.956,99 TL + vergi",
+    "priceStatus": "Vergiler hariç",
+    "priceClass": "exclusive",
+    "priceNote": "Canlı fiyat modalı açıkça vergiler hariç. 7 misafirli tarihli fiyat var; bu, yedi yetişkin için yatak kanıtı değil.",
+    "rsoCar": "27 dk",
+    "rsoTransit": "Doğrulanmadı",
+    "tresorCar": "40 dk",
+    "tresorTransit": "Doğrulanmadı",
+    "routeNote": "Araç: yaklaşık ilan noktasından OSRM trafiksiz.",
+    "sleepConfirmed": false,
+    "assessment": "Müsait görünen sauna/göl seçeneği. Yatak eksikliği, 4,25/5 puan ve temizlik/giriş şikâyetleri nedeniyle önermiyorum; tüm seçenekler isteği için koşullu gösteriliyor.",
+    "link": "https://www.airbnb.com/rooms/1175489093358086077?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "photos": [
+      [
+        "Dış cephe",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1175489093358086077/original/6b3287c4-cad3-4158-b656-0b29bab67681.jpeg"
+      ],
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1175489093358086077/original/e118ad03-9448-4f7b-9d9f-87c3f310d100.png"
+      ]
+    ],
+    "wave": 1,
+    "platform": "Airbnb"
+  }
+]

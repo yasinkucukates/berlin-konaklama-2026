@@ -1,0 +1,216 @@
+{
+  "landhaus": {
+    "normalBeds": 6,
+    "source": "https://www.booking.com/hotel/de/authentisches-landhaus-comfort-housing-dallgow-doberitz.tr.html"
+  },
+  "schonefeld-tesla": {
+    "normalBeds": 12,
+    "source": "yerel galeri-veri.json, oda dökümü; ev sahibi onayı ayrı gereklidir"
+  },
+  "bolunmus-urban-flats": {
+    "normalBeds": 6,
+    "source": "yerel bolunmus-daire-booking.json, seçili 70 m² birim"
+  },
+  "bolunmus-lds1d": {
+    "normalBeds": 10,
+    "source": "yerel bolunmus-villa-yerel.json, oda dökümü"
+  },
+  "21074683": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/21074683"
+  },
+  "565270388295704317": {
+    "normalBeds": 4,
+    "source": "https://www.airbnb.com/rooms/565270388295704317"
+  },
+  "six-airbnb-1101465952016111173-full": {
+    "normalBeds": 6,
+    "source": "https://www.airbnb.com.tr/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  },
+  "1101465952016111173": {
+    "normalBeds": 6,
+    "source": "https://www.airbnb.com.tr/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  },
+  "six-airbnb-1573761201032292155-full": {
+    "normalBeds": 6,
+    "source": "https://www.airbnb.com.tr/rooms/1573761201032292155?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  },
+  "1573761201032292155": {
+    "normalBeds": 6,
+    "source": "https://www.airbnb.com.tr/rooms/1573761201032292155?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  },
+  "six-airbnb-1472317094515056268-full": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com.tr/rooms/1472317094515056268?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  },
+  "1472317094515056268": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com.tr/rooms/1472317094515056268?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  },
+  "six-booking-urban-flats-1270649713-full": {
+    "normalBeds": 6,
+    "source": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=USD"
+  },
+  "booking-room-1270649713": {
+    "normalBeds": 6,
+    "source": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=USD"
+  },
+  "booking-room-790949501": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/eastside34.en-gb.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=USD"
+  },
+  "six-airbnb-1042045413385336860-full": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com.tr/rooms/1042045413385336860?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  },
+  "1042045413385336860": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com.tr/rooms/1042045413385336860?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  },
+  "12541792": {
+    "normalBeds": 7,
+    "source": "https://www.airbnb.com.tr/rooms/12541792?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "note": "En az 7 ayrı normal tek yatak 3+2+2 oda fotoğraflarında görüldü; 8. tek kaynak çelişkisi nedeniyle sayılmadı."
+  },
+  "six-airbnb-12541792-full": {
+    "normalBeds": 7,
+    "source": "https://www.airbnb.com.tr/rooms/12541792?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "note": "En az 7 ayrı normal tek yatak 3+2+2 oda fotoğraflarında görüldü; 8. tek kaynak çelişkisi nedeniyle sayılmadı."
+  },
+  "1166429151300530583": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/1166429151300530583"
+  },
+  "six-airbnb-1152005761587998986-full": {
+    "normalBeds": 3,
+    "source": "https://www.airbnb.com/rooms/1152005761587998986"
+  },
+  "53802915": {
+    "normalBeds": 3,
+    "source": "https://www.airbnb.com/rooms/53802915"
+  },
+  "1150006272268927007": {
+    "normalBeds": 3,
+    "source": "https://www.airbnb.com/rooms/1150006272268927007"
+  },
+  "1611035619222657901": {
+    "normalBeds": 6,
+    "source": "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "note": "Airbnb oda kartları 2 + 2 + 3 tek yatak bildiriyor; üçüncü odadaki üçüncü yatak fotoğrafta netleşmediği için altı yataklık alt sınır kullanıldı."
+  },
+  "sweep6-airbnb-1552405041368851207-20261230-20270103": {
+    "normalBeds": 6,
+    "source": "https://www.airbnb.com.tr/rooms/1552405041368851207?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-airbnb-1415265646306539034-20261230-20270103": {
+    "normalBeds": null,
+    "source": "https://www.airbnb.com.tr/rooms/1415265646306539034?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-airbnb-4027687-20261230-20270103": {
+    "normalBeds": 4,
+    "source": "https://www.airbnb.com.tr/rooms/4027687?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-airbnb-14314574-20261230-20270101": {
+    "normalBeds": 4,
+    "source": "https://www.airbnb.com.tr/rooms/14314574?adults=6&check_in=2026-12-30&check_out=2027-01-01&currency=EUR",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-airbnb-1559249085935822360-20261230-20270101": {
+    "normalBeds": 4,
+    "source": "https://www.airbnb.com.tr/rooms/1559249085935822360?adults=6&check_in=2026-12-30&check_out=2027-01-01&currency=EUR",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-1557174404-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174404",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-1557174404-20261230-20270101": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174404",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-1557174402-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174402",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-1557174402-20261230-20270101": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174402",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-1557174403-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174403",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-1557174403-20261230-20270101": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174403",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-1557174406-20261230-20270103": {
+    "normalBeds": 4,
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174406",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-1557174406-20261230-20270101": {
+    "normalBeds": 4,
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174406",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-1557174401-20261230-20270101": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174401",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-181193704-20261230-20270103": {
+    "normalBeds": 9,
+    "source": "https://www.booking.com/hotel/de/freedom-studioapartment-booking.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_181193704",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-181193704-20261230-20270101": {
+    "normalBeds": 9,
+    "source": "https://www.booking.com/hotel/de/freedom-studioapartment-booking.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_181193704",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-850390007-20261230-20270103": {
+    "normalBeds": 2,
+    "source": "https://www.booking.com/hotel/de/schoenhouse-berlin-city-street.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_850390007",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-booking-1252191308-20261230-20270101": {
+    "normalBeds": 1,
+    "source": "https://www.booking.com/hotel/de/apartmenthaus-berlin-mitte-digital-check-in.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1252191308",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-german-p5553503-20261230-20270103": {
+    "normalBeds": 3,
+    "source": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p5553503?startDate=2026-12-30&endDate=2027-01-03&adults=6",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-german-p5553503-20261230-20270101": {
+    "normalBeds": 3,
+    "source": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p5553503?startDate=2026-12-30&endDate=2027-01-01&adults=6&chkin=2026-12-30&chkout=2027-01-01&searchId=09dca08b-5bab-4e9a-a315-d4de9a0142b2",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-german-p2714753-20261230-20270103": {
+    "normalBeds": 8,
+    "source": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p2714753?startDate=2026-12-30&endDate=2027-01-03&adults=6",
+    "note": "Ayrı gerçek yatak alt sınırı; çift kişilik yatak bir, çekyat ve futon sıfır sayıldı."
+  },
+  "sweep6-airbnb-13868134-20261230-20270103": {
+    "normalBeds": 7,
+    "source": "https://www.airbnb.com.tr/rooms/13868134?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "note": "4 çift kişilik + 3 tek kişilik ayrı gerçek yatak; 2. odadaki iki tek yatak birleştirilebildiğinden ayrı hazırlanmalı. Çekyat ve bebek yatağı sayılmaz."
+  },
+  "sweep6-airbnb-1406503358873925054-20261230-20270103": {
+    "normalBeds": 6,
+    "source": "https://www.airbnb.com.tr/rooms/1406503358873925054?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "note": "3 çift kişilik + 3 tek kişilik ayrı gerçek yatak; çekyat sayılmaz. Dörtten fazla yatak için bir hafta önceden bildirim koşulu vardır."
+  }
+}

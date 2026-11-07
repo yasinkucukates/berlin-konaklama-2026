@@ -1,0 +1,545 @@
+[
+  {
+    "id": "six-travanto-809908-last",
+    "sourceId": "travanto-809908",
+    "samePropertyAs": "travanto-809908",
+    "name": "Rübezahl | 13 Erle Saunalı Ev",
+    "area": "Köpenick, Müggelsee",
+    "kind": "Tatil evinin tamamı",
+    "group": "private-house",
+    "capacity": 6,
+    "maxAdults": 6,
+    "rooms": "2 · 3. oda teyitsiz",
+    "beds": "İlan özetinde 2 yatak odası var. Uzun açıklama 3 oda anlatıyor ve 6 kişide üçüncü oda için günlük ek ücret olabileceğini söylüyor. Bu odanın erişimi ve dört yatağın bu evdeki düzeni teyitsiz.",
+    "baths": "1 · kaynak çelişkili",
+    "platform": "Travanto",
+    "wave": 6,
+    "adults": 6,
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkedAt": "2026-11-06",
+    "link": "https://www.travanto.de/ferienhaus/sc/berlin/809908/ferienhaus-ferienhaus-13-erle-berlin.php#von=01.01.2027&bis=03.01.2027&personen=6",
+    "sleepConfirmed": false,
+    "normalBeds": null,
+    "attentionNote": "Travanto iki oda bildiriyor; uzun açıklama üçüncü oda ve olası ek ücret anlatıyor. Altı kişiye ayrı yatak doğrulanmadı.",
+    "priceClass": "search",
+    "priceEUR": 892.64,
+    "price": "892,64 € + olası ekler",
+    "priceStatus": "Konaklama ve temizlik gösteriliyor; yerel vergi ve olası ek oda bedeli belirsiz.",
+    "priceNote": "06.11.2026 tarihinde 2 gece ve 6 yetişkin seçiliyken gösterilen toplam 892,64 €: 789,73 € konaklama + 102,91 € temizlik. Yerel vergi, tüketim ve üçüncü oda ücreti kaynakta çelişkili veya belirsiz; tutar artabilir. 300 € depozito ayrıca belirtiliyor.",
+    "depositText": "300 € depozito konaklama bedelinden ayrı; güncel tahsil koşulunu ilanda kontrol edin.",
+    "availabilityNote": "06.11.2026 tarihinde Travanto 2 gece ve 6 yetişkin seçiliyken müsaitlik ve fiyat gösterdi. Son ödeme öncesi kontrol edin.",
+    "cancellation": "Güncel tarifenin iptal koşulları ilanda kontrol edilmeli.",
+    "features": "130 m² tatil evi; ev içinde özel sauna, küvet, mutfak, teras ve bahçe. Sağlayıcı jakuzi etiketi kullanıyor; küvetin jakuzili olduğu ayrıca doğrulanmadı.",
+    "assessment": "Travanto iki oda bildiriyor; uzun açıklama üçüncü oda ve olası ek ücret anlatıyor. Altı kişiye ayrı yatak doğrulanmadı.",
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Travanto tatil evinin tamamını ve ev içinde özel sauna alanını sunuyor.",
+      "source": "https://www.travanto.de/ferienhaus/sc/berlin/809908/ferienhaus-ferienhaus-13-erle-berlin.php"
+    },
+    "coords": {
+      "lat": 52.42603,
+      "lon": 13.62888,
+      "accuracy": "Ferienhausdorf Rübezahl için yaklaşık alan noktası; 145069 numaralı evin kapısı veya tam konumu teyit edilmedi.",
+      "source": "https://mapcarta.com/de/W309688637"
+    },
+    "rsoCar": "16 dk",
+    "tresorCar": "37 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeObservedAt": "2026-11-05",
+    "routeNote": "RSO: tatil köyünün yaklaşık alan noktasından OSRM trafiksiz rota, 952 saniye ve 9,95 km; süre yaklaşık 16 dakika. Tresor: Rübezahl merkezinden Google Haritalar 05.11.2026 anlık gözleminde 37 dakika ve 18,5 km. Aynı yaklaşık alan noktasından OSRM trafiksiz rota yaklaşık 30 dakika ve 18,43 km. Gerçek ev kapısı, yılbaşı trafiği ve toplu taşıma ayrıca doğrulanmalı.",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.62888,52.42603;13.5053346,52.459911?overview=false",
+    "routeSources": {
+      "RSO araç": "https://router.project-osrm.org/route/v1/driving/13.62888,52.42603;13.5053346,52.459911?overview=false",
+      "Tresor araç Google": "https://www.google.com/maps/dir/?api=1&origin=R%C3%BCbezahl+am+M%C3%BCggelsee%2C+Berlin&destination=Tresor+Berlin%2C+K%C3%B6penicker+Stra%C3%9Fe+70%2C+Berlin&travelmode=driving",
+      "Tresor araç OSRM": "https://router.project-osrm.org/route/v1/driving/13.62888,52.42603;13.419484,52.5106807?overview=false"
+    },
+    "photos": [
+      [
+        "Kaynak galerisindeki fotoğraf 1",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-0.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 9",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-8.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 14",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-13.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 16",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-15.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 19",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-18.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 2",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-1.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 3",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-2.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 4",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-3.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 5",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-4.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 6",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-5.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 7",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-6.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 8",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-7.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 10",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-9.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 11",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-10.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 12",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-11.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 13",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-12.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 15",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-14.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 17",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-16.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 18",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-17.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 20",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-19.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 21",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-20.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 22",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-21.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 23",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-22.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 24",
+        "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-23.jpg"
+      ]
+    ],
+    "photoNote": "Bu eve ait Travanto ilan galerisinde görülen 24 fotoğraf. Görseller tesisin ortak çevresini gösterebilir; her karenin bu evdeki odalarla eşleşmesi teyit edilmedi.",
+    "photoSource": "https://www.travanto.de/ferienhaus/sc/berlin/809908/ferienhaus-ferienhaus-13-erle-berlin.php",
+    "evidence": {
+      "provider": "Travanto ilan ve fiyat ekranı",
+      "observedAt": "2026-11-06",
+      "request": {
+        "adults": 6,
+        "children": 0,
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03",
+        "currency": "EUR"
+      },
+      "isAvailable": true,
+      "observationScope": "Tarih ve 6 yetişkin seçili doğrudan ilan fiyatı; rezervasyon değildir.",
+      "price": {
+        "label": "892,64 €",
+        "components": "789,73 € konaklama + 102,91 € temizlik",
+        "taxLine": "Yerel vergi, su/elektrik ve 3. oda olası ek ücreti kaynakta çelişkili veya belirsiz."
+      }
+    },
+    "_sourceFile": "wellness-new.json",
+    "ui7Eligible": false,
+    "priceQuoteAdults": 6,
+    "sevenQuoteConfirmed": false,
+    "sevenShareNote": "İlan kapasitesi veya yetişkin sınırı yedi kişiyi karşılamıyor."
+  },
+  {
+    "id": "six-travanto-809910-last",
+    "sourceId": "travanto-809910",
+    "samePropertyAs": "travanto-809910",
+    "name": "Rübezahl | 15 Zeder Saunalı Ev",
+    "area": "Köpenick, Müggelsee",
+    "kind": "Tatil evinin tamamı",
+    "group": "private-house",
+    "capacity": 6,
+    "maxAdults": 6,
+    "rooms": "2 · 3. oda teyitsiz",
+    "beds": "İlan özetinde 2 yatak odası var. Uzun açıklama 3 oda anlatıyor ve 6 kişide üçüncü oda için günlük ek ücret olabileceğini söylüyor. Bu odanın erişimi ve dört yatağın bu evdeki düzeni teyitsiz.",
+    "baths": "1 · kaynak çelişkili",
+    "platform": "Travanto",
+    "wave": 6,
+    "adults": 6,
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkedAt": "2026-11-06",
+    "link": "https://www.travanto.de/ferienhaus/sc/berlin/809910/ferienhaus-ferienhaus-15-zeder-berlin.php#von=01.01.2027&bis=03.01.2027&personen=6",
+    "sleepConfirmed": false,
+    "normalBeds": null,
+    "attentionNote": "Travanto iki oda bildiriyor; uzun açıklama üçüncü oda ve olası ek ücret anlatıyor. Altı kişiye ayrı yatak doğrulanmadı.",
+    "priceClass": "search",
+    "priceEUR": 892.64,
+    "price": "892,64 € + olası ekler",
+    "priceStatus": "Konaklama ve temizlik gösteriliyor; yerel vergi ve olası ek oda bedeli belirsiz.",
+    "priceNote": "06.11.2026 tarihinde 2 gece ve 6 yetişkin seçiliyken gösterilen toplam 892,64 €: 789,73 € konaklama + 102,91 € temizlik. Yerel vergi, tüketim ve üçüncü oda ücreti kaynakta çelişkili veya belirsiz; tutar artabilir. 300 € depozito ayrıca belirtiliyor.",
+    "depositText": "300 € depozito konaklama bedelinden ayrı; güncel tahsil koşulunu ilanda kontrol edin.",
+    "availabilityNote": "06.11.2026 tarihinde Travanto 2 gece ve 6 yetişkin seçiliyken müsaitlik ve fiyat gösterdi. Son ödeme öncesi kontrol edin.",
+    "cancellation": "Güncel tarifenin iptal koşulları ilanda kontrol edilmeli.",
+    "features": "130 m² tatil evi; ev içinde özel sauna, küvet, mutfak, teras ve bahçe. Sağlayıcı jakuzi etiketi kullanıyor; küvetin jakuzili olduğu ayrıca doğrulanmadı.",
+    "assessment": "Travanto iki oda bildiriyor; uzun açıklama üçüncü oda ve olası ek ücret anlatıyor. Altı kişiye ayrı yatak doğrulanmadı.",
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Travanto tatil evinin tamamını ve ev içinde özel sauna alanını sunuyor.",
+      "source": "https://www.travanto.de/ferienhaus/sc/berlin/809910/ferienhaus-ferienhaus-15-zeder-berlin.php"
+    },
+    "coords": {
+      "lat": 52.42603,
+      "lon": 13.62888,
+      "accuracy": "Ferienhausdorf Rübezahl için yaklaşık alan noktası; 145069 numaralı evin kapısı veya tam konumu teyit edilmedi.",
+      "source": "https://mapcarta.com/de/W309688637"
+    },
+    "rsoCar": "16 dk",
+    "tresorCar": "37 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeObservedAt": "2026-11-05",
+    "routeNote": "RSO: tatil köyünün yaklaşık alan noktasından OSRM trafiksiz rota, 952 saniye ve 9,95 km; süre yaklaşık 16 dakika. Tresor: Rübezahl merkezinden Google Haritalar 05.11.2026 anlık gözleminde 37 dakika ve 18,5 km. Aynı yaklaşık alan noktasından OSRM trafiksiz rota yaklaşık 30 dakika ve 18,43 km. Gerçek ev kapısı, yılbaşı trafiği ve toplu taşıma ayrıca doğrulanmalı.",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.62888,52.42603;13.5053346,52.459911?overview=false",
+    "routeSources": {
+      "RSO araç": "https://router.project-osrm.org/route/v1/driving/13.62888,52.42603;13.5053346,52.459911?overview=false",
+      "Tresor araç Google": "https://www.google.com/maps/dir/?api=1&origin=R%C3%BCbezahl+am+M%C3%BCggelsee%2C+Berlin&destination=Tresor+Berlin%2C+K%C3%B6penicker+Stra%C3%9Fe+70%2C+Berlin&travelmode=driving",
+      "Tresor araç OSRM": "https://router.project-osrm.org/route/v1/driving/13.62888,52.42603;13.419484,52.5106807?overview=false"
+    },
+    "photos": [
+      [
+        "Kaynak galerisindeki fotoğraf 1",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-0.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 9",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-8.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 14",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-13.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 16",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-15.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 19",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-18.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 2",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-1.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 3",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-2.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 4",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-3.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 5",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-4.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 6",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-5.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 7",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-6.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 8",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-7.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 10",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-9.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 11",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-10.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 12",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-11.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 13",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-12.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 15",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-14.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 17",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-16.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 18",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-17.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 20",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-19.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 21",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-20.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 22",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-21.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 23",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-22.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 24",
+        "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-23.jpg"
+      ]
+    ],
+    "photoNote": "Bu eve ait Travanto ilan galerisinde görülen 24 fotoğraf. Görseller tesisin ortak çevresini gösterebilir; her karenin bu evdeki odalarla eşleşmesi teyit edilmedi.",
+    "photoSource": "https://www.travanto.de/ferienhaus/sc/berlin/809910/ferienhaus-ferienhaus-15-zeder-berlin.php",
+    "evidence": {
+      "provider": "Travanto ilan ve fiyat ekranı",
+      "observedAt": "2026-11-06",
+      "request": {
+        "adults": 6,
+        "children": 0,
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03",
+        "currency": "EUR"
+      },
+      "isAvailable": true,
+      "observationScope": "Tarih ve 6 yetişkin seçili doğrudan ilan fiyatı; rezervasyon değildir.",
+      "price": {
+        "label": "892,64 €",
+        "components": "789,73 € konaklama + 102,91 € temizlik",
+        "taxLine": "Yerel vergi, su/elektrik ve 3. oda olası ek ücreti kaynakta çelişkili veya belirsiz."
+      }
+    },
+    "_sourceFile": "wellness-new.json",
+    "ui7Eligible": false,
+    "priceQuoteAdults": 6,
+    "sevenQuoteConfirmed": false,
+    "sevenShareNote": "İlan kapasitesi veya yetişkin sınırı yedi kişiyi karşılamıyor."
+  },
+  {
+    "id": "six-travanto-809914-last",
+    "sourceId": "travanto-809914",
+    "samePropertyAs": "travanto-809914",
+    "name": "Rübezahl | 20 Mohn Saunalı Ev",
+    "area": "Köpenick, Müggelsee",
+    "kind": "Tatil evinin tamamı",
+    "group": "private-house",
+    "capacity": 6,
+    "maxAdults": 6,
+    "rooms": "2 · 3. oda teyitsiz",
+    "beds": "İlan özetinde 2 yatak odası var. Uzun açıklama 3 oda anlatıyor ve 6 kişide üçüncü oda için günlük ek ücret olabileceğini söylüyor. Bu odanın erişimi ve dört yatağın bu evdeki düzeni teyitsiz.",
+    "baths": "1 · kaynak çelişkili",
+    "platform": "Travanto",
+    "wave": 6,
+    "adults": 6,
+    "checkIn": "2027-01-01",
+    "checkOut": "2027-01-03",
+    "nights": 2,
+    "checkedAt": "2026-11-06",
+    "link": "https://www.travanto.de/ferienhaus/sc/berlin/809914/ferienhaus-ferienhaus-20-mohn-berlin.php#von=01.01.2027&bis=03.01.2027&personen=6",
+    "sleepConfirmed": false,
+    "normalBeds": null,
+    "attentionNote": "Travanto iki oda bildiriyor; uzun açıklama üçüncü oda ve olası ek ücret anlatıyor. Altı kişiye ayrı yatak doğrulanmadı.",
+    "priceClass": "search",
+    "priceEUR": 892.64,
+    "price": "892,64 € + olası ekler",
+    "priceStatus": "Konaklama ve temizlik gösteriliyor; yerel vergi ve olası ek oda bedeli belirsiz.",
+    "priceNote": "06.11.2026 tarihinde 2 gece ve 6 yetişkin seçiliyken gösterilen toplam 892,64 €: 789,73 € konaklama + 102,91 € temizlik. Yerel vergi, tüketim ve üçüncü oda ücreti kaynakta çelişkili veya belirsiz; tutar artabilir. 300 € depozito ayrıca belirtiliyor.",
+    "depositText": "300 € depozito konaklama bedelinden ayrı; güncel tahsil koşulunu ilanda kontrol edin.",
+    "availabilityNote": "06.11.2026 tarihinde Travanto 2 gece ve 6 yetişkin seçiliyken müsaitlik ve fiyat gösterdi. Son ödeme öncesi kontrol edin.",
+    "cancellation": "Güncel tarifenin iptal koşulları ilanda kontrol edilmeli.",
+    "features": "130 m² tatil evi; ev içinde özel sauna, küvet, mutfak, teras ve bahçe. Sağlayıcı jakuzi etiketi kullanıyor; küvetin jakuzili olduğu ayrıca doğrulanmadı.",
+    "assessment": "Travanto iki oda bildiriyor; uzun açıklama üçüncü oda ve olası ek ücret anlatıyor. Altı kişiye ayrı yatak doğrulanmadı.",
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Travanto tatil evinin tamamını ve ev içinde özel sauna alanını sunuyor.",
+      "source": "https://www.travanto.de/ferienhaus/sc/berlin/809914/ferienhaus-ferienhaus-20-mohn-berlin.php"
+    },
+    "coords": {
+      "lat": 52.42603,
+      "lon": 13.62888,
+      "accuracy": "Ferienhausdorf Rübezahl için yaklaşık alan noktası; 145069 numaralı evin kapısı veya tam konumu teyit edilmedi.",
+      "source": "https://mapcarta.com/de/W309688637"
+    },
+    "rsoCar": "16 dk",
+    "tresorCar": "37 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeObservedAt": "2026-11-05",
+    "routeNote": "RSO: tatil köyünün yaklaşık alan noktasından OSRM trafiksiz rota, 952 saniye ve 9,95 km; süre yaklaşık 16 dakika. Tresor: Rübezahl merkezinden Google Haritalar 05.11.2026 anlık gözleminde 37 dakika ve 18,5 km. Aynı yaklaşık alan noktasından OSRM trafiksiz rota yaklaşık 30 dakika ve 18,43 km. Gerçek ev kapısı, yılbaşı trafiği ve toplu taşıma ayrıca doğrulanmalı.",
+    "routeSource": "https://router.project-osrm.org/route/v1/driving/13.62888,52.42603;13.5053346,52.459911?overview=false",
+    "routeSources": {
+      "RSO araç": "https://router.project-osrm.org/route/v1/driving/13.62888,52.42603;13.5053346,52.459911?overview=false",
+      "Tresor araç Google": "https://www.google.com/maps/dir/?api=1&origin=R%C3%BCbezahl+am+M%C3%BCggelsee%2C+Berlin&destination=Tresor+Berlin%2C+K%C3%B6penicker+Stra%C3%9Fe+70%2C+Berlin&travelmode=driving",
+      "Tresor araç OSRM": "https://router.project-osrm.org/route/v1/driving/13.62888,52.42603;13.419484,52.5106807?overview=false"
+    },
+    "photos": [
+      [
+        "Kaynak galerisindeki fotoğraf 1",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-0.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 9",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-8.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 14",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-13.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 16",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-15.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 19",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-18.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 2",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-1.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 3",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-2.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 4",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-3.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 5",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-4.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 6",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-5.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 7",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-6.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 8",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-7.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 10",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-9.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 11",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-10.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 12",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-11.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 13",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-12.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 15",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-14.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 17",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-16.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 18",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-17.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 20",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-19.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 21",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-20.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 22",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-21.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 23",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-22.jpg"
+      ],
+      [
+        "Kaynak galerisindeki fotoğraf 24",
+        "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-23.jpg"
+      ]
+    ],
+    "photoNote": "Bu eve ait Travanto ilan galerisinde görülen 24 fotoğraf. Görseller tesisin ortak çevresini gösterebilir; her karenin bu evdeki odalarla eşleşmesi teyit edilmedi.",
+    "photoSource": "https://www.travanto.de/ferienhaus/sc/berlin/809914/ferienhaus-ferienhaus-20-mohn-berlin.php",
+    "evidence": {
+      "provider": "Travanto ilan ve fiyat ekranı",
+      "observedAt": "2026-11-06",
+      "request": {
+        "adults": 6,
+        "children": 0,
+        "checkIn": "2027-01-01",
+        "checkOut": "2027-01-03",
+        "currency": "EUR"
+      },
+      "isAvailable": true,
+      "observationScope": "Tarih ve 6 yetişkin seçili doğrudan ilan fiyatı; rezervasyon değildir.",
+      "price": {
+        "label": "892,64 €",
+        "components": "789,73 € konaklama + 102,91 € temizlik",
+        "taxLine": "Yerel vergi, su/elektrik ve 3. oda olası ek ücreti kaynakta çelişkili veya belirsiz."
+      }
+    },
+    "_sourceFile": "wellness-new.json",
+    "ui7Eligible": false,
+    "priceQuoteAdults": 6,
+    "sevenQuoteConfirmed": false,
+    "sevenShareNote": "İlan kapasitesi veya yetişkin sınırı yedi kişiyi karşılamıyor."
+  }
+]

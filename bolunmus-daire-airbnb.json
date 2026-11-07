@@ -1,0 +1,43 @@
+[
+  {
+    "id": "1166429151300530583",
+    "name": "HipSpot R3",
+    "area": "Mitte / Tresor",
+    "kind": "Daire",
+    "capacity": 8,
+    "rooms": 2,
+    "baths": "1",
+    "beds": "4 tek kişilik + 1 queen yatak; salonda 2 kişilik çekyat.",
+    "features": "TV, Wi-Fi, mutfak, bulaşık makinesi, fırın, Nespresso. Çamaşır makinesi ve klima yok. Havuz/jakuzi/sauna listelenmiyor. 3. kat, asansör yok.",
+    "price": "78.147,95 TL",
+    "priceStatus": "Ödeme öncesi toplam; vergi ayrımı gösterilmiyor",
+    "priceClass": "checkout",
+    "priceNote": "30 Aralık 2026 - 1 Ocak 2027, 7 yetişkin ve iki gece için Airbnb ödeme öncesi özetinde toplam 78.147,95 TL. Ayrı vergi, hizmet veya temizlik satırı yok; vergilerin toplam içindeki durumu açıkça belirtilmemiş. 1 Ocak çıkışı en geç 11.00. Ödeme özeti 25 Aralık tarihinden önce ücretsiz iptal diyor.",
+    "rsoCar": "25 dk",
+    "rsoTransit": "41 dk",
+    "tresorCar": "2 dk",
+    "tresorTransit": "Yürüyerek 6 dk",
+    "routeNote": "Google Maps 5 Kasım gündüz gözlemi. RSO: 165 otobüsüyle örnek rota. Yılbaşı gece tarifesi değil.",
+    "sleepConfirmed": true,
+    "assessment": "İki gecelik teklif var; Tresor yakınında. Dört tek yatak, bir çift yatak ve salonda çekyat; tek banyo, üçüncü kat ve asansör yok. 1 Ocak saat 11.00 çıkış ile villa giriş saati arasındaki bekleme hesaba katılmalı.",
+    "link": "https://www.airbnb.com.tr/rooms/1166429151300530583?check_in=2026-12-30&check_out=2027-01-01&adults=7&currency=TRY",
+    "photos": [
+      [
+        "Salon",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/f8a604db-f53a-4f00-9398-eb441f1179a6.png"
+      ],
+      [
+        "Dört tek yataklı oda",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/cb09033d-32fe-4a7a-925c-85eeca200927.png"
+      ]
+    ],
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-01",
+    "nights": 2,
+    "adults": 7,
+    "checkOutTime": "11:00",
+    "priceNumericTRY": 78147.95,
+    "availability": "available_in_checkout_preview",
+    "observedAtUTC": "2026-11-05T10:22:38.074639+00:00"
+  }
+]
