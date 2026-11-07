@@ -924,7 +924,7 @@
       // After a shared link, show the offer in the list as well.
       if (card && !card.hidden && card.getClientRects().length) {
         // A direct jump: the list can be very long, and the dialog was covering it.
-        card.scrollIntoView({block:'center', behavior:'auto'});
+        card.scrollIntoView({block:'center', behavior:'instant'});
         card.classList.add('is-shared');
         setTimeout(() => card.classList.remove('is-shared'), 2600);
       }
