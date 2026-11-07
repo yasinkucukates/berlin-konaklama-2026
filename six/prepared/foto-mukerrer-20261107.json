@@ -1,0 +1,1222 @@
+{
+ "scannedAt": "2026-11-07",
+ "sourceCommit": "424eca3",
+ "sourceFile": "index.html (dal claude/project-thread-qq3mhg)",
+ "method": "Her article[data-id] için data-photo-url sırasıyla alındı (aynı data-id ikinci kez geçerse ilki). Küçük boyut indirildi (muscache im_w=240, Booking max300 ve k/o imzası korunarak, Vrbo rw=300, diğerleri özgün). Yalnız aynı kart içinde karşılaştırıldı: sha256 birebir eşitlik, 256 bit dHash ve 256 bit aHash. Adaylar yan yana ve fark görüntüsüyle gözle doğrulandı. Aynı kare sayıldı: birebir aynı, yalnız pozlama/parlaklık farklı veya kadraj çok az kaymış. Sayılmadı: farklı açı ve aynı odanın farklı renk ışıklandırmalı çekimleri.",
+ "threshold": {
+  "candidate": "sha256 eşit VEYA dHash Hamming <= 24 VEYA aHash Hamming <= 20 (256 bit)",
+  "final": "gözle onay"
+ },
+ "downloadFailures": [],
+ "cardsScanned": 111,
+ "photosScanned": 3223,
+ "rejectedCandidates": [
+  {
+   "id": "sweep7-airbnb-942782300690662568-20261230-20270103",
+   "positions": [
+    54,
+    55
+   ],
+   "reason": "aynı oda, farklı LED ışık rengi"
+  },
+  {
+   "id": "sweep7-airbnb-942782300690662568-20261230-20270103",
+   "positions": [
+    54,
+    56
+   ],
+   "reason": "aynı oda, farklı LED ışık rengi"
+  },
+  {
+   "id": "sweep7-airbnb-942782300690662568-20261230-20270103",
+   "positions": [
+    55,
+    56
+   ],
+   "reason": "aynı oda, farklı LED ışık rengi"
+  },
+  {
+   "id": "sweep7-airbnb-942782300690662568-20261230-20270103",
+   "positions": [
+    81,
+    82
+   ],
+   "reason": "aynı oda, farklı ışık"
+  },
+  {
+   "id": "1552331405600484908",
+   "positions": [
+    4,
+    21
+   ],
+   "reason": "farklı açı/oda"
+  },
+  {
+   "id": "1552331405600484908",
+   "positions": [
+    7,
+    12
+   ],
+   "reason": "farklı açı"
+  },
+  {
+   "id": "1552331405600484908",
+   "positions": [
+    19,
+    20
+   ],
+   "reason": "farklı kare"
+  },
+  {
+   "id": "six-airbnb-1452938883567081364-full",
+   "positions": [
+    4,
+    13
+   ],
+   "reason": "farklı oda/açı"
+  }
+ ],
+ "cardsWithDuplicates": [
+  {
+   "id": "six-airbnb-12541792-full",
+   "photos": 25,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 11,
+     "duplicatePositions": [
+      14
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-12541792/original/833054c0-d2ca-4555-9ee4-75754aff52b2.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-12541792/original/92896b84-548e-4a89-bcc8-d4c1c760a526.jpeg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/six-airbnb-12541792-full.jpg"
+  },
+  {
+   "id": "sweep7-airbnb-1727650304700546371-20261230-20270103",
+   "photos": 90,
+   "duplicateCount": 3,
+   "groups": [
+    {
+     "keepPosition": 54,
+     "duplicatePositions": [
+      68
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/73e452cc-492a-4d37-9ae1-272ff523a0a9.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/0c5effce-e54a-41ed-a0cd-df57dbf5b577.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 73,
+     "duplicatePositions": [
+      74
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/3e58eae7-2ba0-439f-8395-0a21c7e6090a.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/865f04d1-4766-4e1c-857c-215fae862b26.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 79,
+     "duplicatePositions": [
+      82
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/66980fa5-514d-4e5d-877b-2664f1b60030.png?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/e302dd17-a2a9-4559-9a06-a0a0875cf9f2.png?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/sweep7-airbnb-1727650304700546371-20261230-20270103.jpg"
+  },
+  {
+   "id": "sweep7-airbnb-40216009-20261230-20270103",
+   "photos": 15,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 1,
+     "duplicatePositions": [
+      6
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/7bce0945-0cdd-4170-a414-4b14f3148627.jpg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/1ca4f094-9e6a-4875-a833-03821dbb38f1.jpg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/sweep7-airbnb-40216009-20261230-20270103.jpg"
+  },
+  {
+   "id": "sweep7-airbnb-1389672541037596818-20261230-20270103",
+   "photos": 23,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 9,
+     "duplicatePositions": [
+      21
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/7e7fc1ad-e5db-4fae-9bdb-0b7e242be7c6.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/8161b75d-9eaa-4f12-a238-c10ad380ab66.jpeg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/sweep7-airbnb-1389672541037596818-20261230-20270103.jpg"
+  },
+  {
+   "id": "sweep6-booking-181193704-20261230-20270103",
+   "photos": 50,
+   "duplicateCount": 4,
+   "groups": [
+    {
+     "keepPosition": 5,
+     "duplicatePositions": [
+      6
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/899650212.jpg?k=544c9616615824f59ddbec0d814286562b8a87fe895ceba040101bd7008b706b&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/899650210.jpg?k=e10ec9e5eb64990f34dea812ff508b00e794b3cd790c811dfbab7141e6223cb8&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 23,
+     "duplicatePositions": [
+      35
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/902578558.jpg?k=cc2113707f3e4b6b13cfa5e0cd75feedf180e1575a8f2a3bf2a6d46bd2d3fd56&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/902578565.jpg?k=c279216c2eee0f8582656a9be3d1671cb4c076c9568d2200757ac3266eed5c50&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 29,
+     "duplicatePositions": [
+      42
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/902578563.jpg?k=9a89b50a21f20d34a651f37bab7580d9f451cd0838f35fb049d3e5802ed623f8&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/902578603.jpg?k=7f72978394e1dca94446023dd3d1e67372c663088b3b40dec76d11a3a16406da&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 31,
+     "duplicatePositions": [
+      32
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/902578564.jpg?k=436763f945c2fe34ca0e4eaca954143fd3477b17e847137d629857b46b90f118&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/902578568.jpg?k=5aca93ce88cd5f1fac0509484e8cd0719f1ddc822815901d1cd46683576c2cea&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/sweep6-booking-181193704-20261230-20270103.jpg"
+  },
+  {
+   "id": "sweep7-airbnb-942782300690662568-20261230-20270103",
+   "photos": 94,
+   "duplicateCount": 5,
+   "groups": [
+    {
+     "keepPosition": 18,
+     "duplicatePositions": [
+      24
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/2a380b0a-8790-4552-bf5d-8e4f458c75fd.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/34b9a010-124d-4f74-96ff-174c28536bf4.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 19,
+     "duplicatePositions": [
+      25
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/bf20c4d9-a0f3-4c46-bf78-a0cbc129838d.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/f6836296-b932-44a5-81f5-a3bbde37a8ea.jpeg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    },
+    {
+     "keepPosition": 20,
+     "duplicatePositions": [
+      26
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/39e15dd9-f12e-4879-a106-e93a6624ffe6.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/5617d8e6-baec-476e-b094-b9149b3fa469.jpeg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    },
+    {
+     "keepPosition": 21,
+     "duplicatePositions": [
+      23
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/ee112364-bd1b-4fef-849b-d992afe147cd.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/7a1e874c-dd80-4963-b06f-02499daff0d6.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 22,
+     "duplicatePositions": [
+      28
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/c6007da4-c0f7-4f2c-8324-94302bb25c6c.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/41401f47-8a10-4eda-b97e-76ba9e6da824.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/sweep7-airbnb-942782300690662568-20261230-20270103.jpg"
+  },
+  {
+   "id": "sweep6-booking-1557174404-20261230-20270103",
+   "photos": 26,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 3,
+     "duplicatePositions": [
+      4
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888916653.jpg?k=fa9a45c644fe0ab86af00f90e5365e8235f500802cb8911dd8e7914d4b742f1e&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888916677.jpg?k=bff6a40bd0dc3b444a238f71180575137172e59c563505b9454aca7f1f3bacd1&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/sweep6-booking-1557174404-20261230-20270103.jpg"
+  },
+  {
+   "id": "1166429151300530583",
+   "photos": 23,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 1,
+     "duplicatePositions": [
+      11
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/f8a604db-f53a-4f00-9398-eb441f1179a6.png?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1166429151300530583/original/0c8fa026-cfca-466b-827b-ed088fa8be3b.png?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/1166429151300530583.jpg"
+  },
+  {
+   "id": "53802915",
+   "photos": 50,
+   "duplicateCount": 2,
+   "groups": [
+    {
+     "keepPosition": 2,
+     "duplicatePositions": [
+      20
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/miso/Hosting-53802915/original/78371238-49d9-4c91-9d67-6d923a48f067.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-53802915/original/61360044-f832-4053-b481-81640b05772b.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 6,
+     "duplicatePositions": [
+      46
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/miso/Hosting-53802915/original/29c40945-dfac-48f7-9b92-775659f50d00.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-53802915/original/529cbb0e-1bf6-4f84-b008-b86a37c2194f.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/53802915.jpg"
+  },
+  {
+   "id": "sweep6-airbnb-4027687-20261230-20270103",
+   "photos": 26,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 5,
+     "duplicatePositions": [
+      12
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/613910bd-0bd2-4bf9-951d-1b198ac0d8a3.jpg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/81eeb74c-404d-4a6c-9c59-c5020d238078.jpg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/sweep6-airbnb-4027687-20261230-20270103.jpg"
+  },
+  {
+   "id": "yeni-arabel-suite",
+   "photos": 22,
+   "duplicateCount": 9,
+   "groups": [
+    {
+     "keepPosition": 1,
+     "duplicatePositions": [
+      18
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690335.jpg?k=402c065aa4d97ffb009ff0c876a413e396070391ea54db863160ebd90ed09308&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690479.jpg?k=8667c1e1393d09bb71cc2d6649ea5de5560f1eb0ce58148e9f5e55f47f739582&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 2,
+     "duplicatePositions": [
+      15
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690338.jpg?k=d202d6cebd609a65ddf9d8a1171a5568896e18e6d6b185fc2c3c2278b1a148c5&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690490.jpg?k=33f077b1f4781b2276a42eb85a37a1287a92a05202accf2b5e3525459140cc29&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 3,
+     "duplicatePositions": [
+      14
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690329.jpg?k=05925deeae44e8945594500000d2b45703e9de280c642ebcc87624c96b1158e7&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690494.jpg?k=5bddfd55510cbf7246823f115e1aaca80aa27675338087593908f3e011f9a7b2&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 4,
+     "duplicatePositions": [
+      17
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690336.jpg?k=6b1e8f9509cef44376d7a74588d68f2ea3416b4a6e8c332ed3b2f86c70b03214&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690483.jpg?k=2e16434270696b4a68f8331745b1900e6fc39ec11552a07e937ff26fc4f9bb82&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 6,
+     "duplicatePositions": [
+      13
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690337.jpg?k=9acd25b306edb3434001390ff16a990e4d5ba2d6d01359943d8271653c01be0b&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690496.jpg?k=1606e546c4203f743bd1e6b064bf5a92ed84992e0306cb5cbb2b9c7115fa4272&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 7,
+     "duplicatePositions": [
+      12
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690339.jpg?k=1e7ef4ff2176ef01cee0201c9cc0014e41d3513e86ba8f9d9d9c9730561f57ef&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690501.jpg?k=ba844755877160c3eedbc5e538d1935c3d3dc34b10736316aca83ff0eaf2803f&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 8,
+     "duplicatePositions": [
+      16
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690334.jpg?k=2940c9eebf17a1a65be93ad72f1497645261b15eff7ba4743cae5301a84cfa27&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690488.jpg?k=f8dd1805bbdfd6e81ce561a727d9012f67d07f0478f47d041098792e33e4f163&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 9,
+     "duplicatePositions": [
+      11
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690331.jpg?k=9849faf0ed85939827071fc81c97be7f91b827a11ff1c603cf184faf0434d4f8&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690507.jpg?k=cb7508278b0d06035172001421d22926592118742cc48d1878f34876aa12e953&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 10,
+     "duplicatePositions": [
+      19
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690332.jpg?k=a0d1e0c347c67a91f4bd846a326949415144f18d1c47ef0306bfeb2833d0aac9&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/928690466.jpg?k=76858b3680dfe39048a8ce892d2c2b03a44282c7a8c0ff649cf6488e1382887d&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/yeni-arabel-suite.jpg"
+  },
+  {
+   "id": "873230612368758488",
+   "photos": 39,
+   "duplicateCount": 2,
+   "groups": [
+    {
+     "keepPosition": 3,
+     "duplicatePositions": [
+      28
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/miso/Hosting-873230612368758488/original/1b90588f-10ba-4500-93b4-2e778594ba0f.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-873230612368758488/original/19a20cd8-1bf1-49c2-b6e8-0180beb0b768.jpeg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    },
+    {
+     "keepPosition": 9,
+     "duplicatePositions": [
+      17
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/miso/Hosting-873230612368758488/original/16f0fa56-e427-4827-a219-8507966896e9.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-873230612368758488/original/2fa28e2b-8b34-4af2-942a-5196776bd640.jpeg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/873230612368758488.jpg"
+  },
+  {
+   "id": "sweep7-airbnb-1174576099912827244-20261230-20270103",
+   "photos": 21,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 15,
+     "duplicatePositions": [
+      18
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/44791829-6cf1-40a2-a4ec-261766dec46a.png?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/fc599d86-4fbb-4b6a-86eb-38e1b0358f4b.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/sweep7-airbnb-1174576099912827244-20261230-20270103.jpg"
+  },
+  {
+   "id": "1216757408450098435",
+   "photos": 33,
+   "duplicateCount": 3,
+   "groups": [
+    {
+     "keepPosition": 1,
+     "duplicatePositions": [
+      19
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTIxNjc1NzQwODQ1MDA5ODQzNQ%3D%3D/original/71a85894-431a-4f42-9461-0de1491a8d50.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/5252673c-331d-4136-b5d5-6acd4e4f6759.jpeg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    },
+    {
+     "keepPosition": 2,
+     "duplicatePositions": [
+      22
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/63054ac2-6dff-41b0-a162-19a36a2a0461.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTIxNjc1NzQwODQ1MDA5ODQzNQ%3D%3D/original/158f0345-dd69-4d72-8220-9b9f1f253ffd.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 28,
+     "duplicatePositions": [
+      33
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTIxNjc1NzQwODQ1MDA5ODQzNQ%3D%3D/original/60737103-96c9-4215-9071-88ed3b140fe7.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1216757408450098435/original/65957656-ac7c-4325-8192-6a64e8d39a7a.jpeg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/1216757408450098435.jpg"
+  },
+  {
+   "id": "six-airbnb-1042045413385336860-full",
+   "photos": 38,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 35,
+     "duplicatePositions": [
+      38
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/00bbba25-98e9-459c-8fbc-dcb8cb361fe3.jpg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/c08d5dfa-75df-470d-96b9-49cc0d78fbc7.jpg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/six-airbnb-1042045413385336860-full.jpg"
+  },
+  {
+   "id": "1352773721511868469",
+   "photos": 28,
+   "duplicateCount": 2,
+   "groups": [
+    {
+     "keepPosition": 21,
+     "duplicatePositions": [
+      28
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/5c509ae9-5d14-4b15-8706-eb9372b136ac.png?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/f9d3c787-efb1-4d69-9bfc-ba6568ea9ace.png?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    },
+    {
+     "keepPosition": 26,
+     "duplicatePositions": [
+      27
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/63c4c22e-cf14-48b8-bb99-a063cc550f5a.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1352773721511868469/original/3ba99b8f-5b61-42da-9115-67878c471aa4.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/1352773721511868469.jpg"
+  },
+  {
+   "id": "937599705398085803",
+   "photos": 48,
+   "duplicateCount": 4,
+   "groups": [
+    {
+     "keepPosition": 5,
+     "duplicatePositions": [
+      47
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-937599705398085803/original/002b337f-b72f-4feb-9448-eb4440034cd1.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-937599705398085803/original/3f979b48-9b73-42b3-b1ef-8672e424fc45.jpeg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    },
+    {
+     "keepPosition": 17,
+     "duplicatePositions": [
+      19
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTM3NTk5NzA1Mzk4MDg1ODAz/original/92992405-4a6b-4beb-8c8a-39713bb49af4.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTM3NTk5NzA1Mzk4MDg1ODAz/original/af4a8cdc-68ab-4b39-b45a-30bb00c1e94f.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 21,
+     "duplicatePositions": [
+      46
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-937599705398085803/original/75648080-d595-41c9-b3cf-edd81b2682e6.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-937599705398085803/original/4b3e1f6e-28de-4175-bebf-2cf258a36bab.jpeg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    },
+    {
+     "keepPosition": 22,
+     "duplicatePositions": [
+      45
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-937599705398085803/original/6d6b000b-5964-4b79-80df-235304d4a3c0.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-937599705398085803/original/1ce1bf4e-f840-4c4f-8d3b-37af2cc57f8b.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/937599705398085803.jpg"
+  },
+  {
+   "id": "1468719376516749093",
+   "photos": 46,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 7,
+     "duplicatePositions": [
+      33
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/3ecdd9fe-d228-4866-a091-21c80447e63f.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/fd2c1ede-8bf0-478c-9ae0-e17fd3f8fabe.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/1468719376516749093.jpg"
+  },
+  {
+   "id": "565270388295704317",
+   "photos": 71,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 18,
+     "duplicatePositions": [
+      19
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-565270388295704317/original/07dc69fe-5b8b-4b54-ade3-00a147289ba6.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-565270388295704317/original/4a040f46-43f3-4e56-9555-08107e92cb07.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/565270388295704317.jpg"
+  },
+  {
+   "id": "1611035619222657901",
+   "photos": 34,
+   "duplicateCount": 2,
+   "groups": [
+    {
+     "keepPosition": 13,
+     "duplicatePositions": [
+      28
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/dd2b322f-b465-4782-a082-9b9baa5cdacc.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/11f5dcb9-9f3e-49cb-840c-e418fc400aea.jpeg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    },
+    {
+     "keepPosition": 14,
+     "duplicatePositions": [
+      29
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/51dc9d71-058c-45ff-a47d-d1bfed5089c3.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1062867910727120743/original/6fd00289-a198-4090-93c7-9cf0d3c00814.jpeg?im_w=1440"
+     ],
+     "note": "birebir aynı dosya"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/1611035619222657901.jpg"
+  },
+  {
+   "id": "sweep6-booking-181193704-20261230-20270101",
+   "photos": 50,
+   "duplicateCount": 4,
+   "groups": [
+    {
+     "keepPosition": 5,
+     "duplicatePositions": [
+      6
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/899650212.jpg?k=544c9616615824f59ddbec0d814286562b8a87fe895ceba040101bd7008b706b&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/899650210.jpg?k=e10ec9e5eb64990f34dea812ff508b00e794b3cd790c811dfbab7141e6223cb8&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 23,
+     "duplicatePositions": [
+      35
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/902578558.jpg?k=cc2113707f3e4b6b13cfa5e0cd75feedf180e1575a8f2a3bf2a6d46bd2d3fd56&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/902578565.jpg?k=c279216c2eee0f8582656a9be3d1671cb4c076c9568d2200757ac3266eed5c50&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 29,
+     "duplicatePositions": [
+      42
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/902578563.jpg?k=9a89b50a21f20d34a651f37bab7580d9f451cd0838f35fb049d3e5802ed623f8&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/902578603.jpg?k=7f72978394e1dca94446023dd3d1e67372c663088b3b40dec76d11a3a16406da&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    },
+    {
+     "keepPosition": 31,
+     "duplicatePositions": [
+      32
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/902578564.jpg?k=436763f945c2fe34ca0e4eaca954143fd3477b17e847137d629857b46b90f118&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/902578568.jpg?k=5aca93ce88cd5f1fac0509484e8cd0719f1ddc822815901d1cd46683576c2cea&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/sweep6-booking-181193704-20261230-20270101.jpg"
+  },
+  {
+   "id": "sweep6-booking-1557174404-20261230-20270101",
+   "photos": 26,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 3,
+     "duplicatePositions": [
+      4
+     ],
+     "keep": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888916653.jpg?k=fa9a45c644fe0ab86af00f90e5365e8235f500802cb8911dd8e7914d4b742f1e&o=",
+     "duplicates": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888916677.jpg?k=bff6a40bd0dc3b444a238f71180575137172e59c563505b9454aca7f1f3bacd1&o="
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/sweep6-booking-1557174404-20261230-20270101.jpg"
+  },
+  {
+   "id": "six-house-1468719376516749093-last",
+   "photos": 46,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 7,
+     "duplicatePositions": [
+      33
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/3ecdd9fe-d228-4866-a091-21c80447e63f.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1468719376516749093/original/fd2c1ede-8bf0-478c-9ae0-e17fd3f8fabe.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/six-house-1468719376516749093-last.jpg"
+  },
+  {
+   "id": "six-house-1777706242995862793-last",
+   "photos": 17,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 9,
+     "duplicatePositions": [
+      14
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/fef9175a-f9ee-4d53-b10f-6d9292287728.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/fa03fb7c-d2f4-484b-970a-17a21901a99a.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/six-house-1777706242995862793-last.jpg"
+  },
+  {
+   "id": "1777706242995862793",
+   "photos": 17,
+   "duplicateCount": 1,
+   "groups": [
+    {
+     "keepPosition": 9,
+     "duplicatePositions": [
+      14
+     ],
+     "keep": "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/fef9175a-f9ee-4d53-b10f-6d9292287728.jpeg?im_w=1440",
+     "duplicates": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1777706242995862793/original/fa03fb7c-d2f4-484b-970a-17a21901a99a.jpeg?im_w=1440"
+     ],
+     "note": "aynı kare; pozlama/parlaklık veya kadraj çok az farklı"
+    }
+   ],
+   "contactSheet": "six/prepared/foto-mukerrer-20261107/1777706242995862793.jpg"
+  }
+ ],
+ "cardsWithoutDuplicates": [
+  {
+   "id": "six-airbnb-1101465952016111173-full",
+   "photos": 25
+  },
+  {
+   "id": "sweep7-airbnb-31297828-20261230-20270103",
+   "photos": 25
+  },
+  {
+   "id": "sweep6-airbnb-1552405041368851207-20261230-20270103",
+   "photos": 24
+  },
+  {
+   "id": "sweep7-airbnb-32453210-20261230-20270103",
+   "photos": 28
+  },
+  {
+   "id": "sweep7-airbnb-31701521-20261230-20270103",
+   "photos": 20
+  },
+  {
+   "id": "sweep7-airbnb-1805168581752936023-20261230-20270103",
+   "photos": 10
+  },
+  {
+   "id": "sweep7-airbnb-1268121761753625501-20261230-20270103",
+   "photos": 22
+  },
+  {
+   "id": "sweep7-airbnb-1765241459359399223-20261230-20270103",
+   "photos": 36
+  },
+  {
+   "id": "sweep7-airbnb-34301098-20261230-20270103",
+   "photos": 13
+  },
+  {
+   "id": "sweep7-airbnb-1510142980699078825-20261230-20270103",
+   "photos": 19
+  },
+  {
+   "id": "sweep7-airbnb-38533401-20261230-20270103",
+   "photos": 22
+  },
+  {
+   "id": "sweep6-airbnb-13868134-20261230-20270103",
+   "photos": 51
+  },
+  {
+   "id": "sweep7-airbnb-1066700616308697452-20261230-20270103",
+   "photos": 26
+  },
+  {
+   "id": "sweep6-german-p2714753-20261230-20270103",
+   "photos": 19
+  },
+  {
+   "id": "sweep7-holidu-69492292-20261230-20270103",
+   "photos": 30
+  },
+  {
+   "id": "six-airbnb-1573761201032292155-full",
+   "photos": 45
+  },
+  {
+   "id": "sweep6-airbnb-1406503358873925054-20261230-20270103",
+   "photos": 49
+  },
+  {
+   "id": "sweep7-booking-im-grund-22-c-20261230-20270103",
+   "photos": 14
+  },
+  {
+   "id": "sweep6-booking-1557174403-20261230-20270103",
+   "photos": 24
+  },
+  {
+   "id": "sweep6-booking-1557174402-20261230-20270103",
+   "photos": 29
+  },
+  {
+   "id": "sweep6-booking-1557174406-20261230-20270103",
+   "photos": 22
+  },
+  {
+   "id": "sweep6-german-p5553503-20261230-20270103",
+   "photos": 71
+  },
+  {
+   "id": "yeni-locke-2-family",
+   "photos": 7
+  },
+  {
+   "id": "grand-central-upper",
+   "photos": 22
+  },
+  {
+   "id": "yeni-wilde-2-daire",
+   "photos": 7
+  },
+  {
+   "id": "six-airbnb-33234428-full",
+   "photos": 17
+  },
+  {
+   "id": "six-airbnb-1656340-full",
+   "photos": 48
+  },
+  {
+   "id": "six-airbnb-1152005761587998986-full",
+   "photos": 8
+  },
+  {
+   "id": "sweep7-airbnb-1363888262051860529-20261230-20270103",
+   "photos": 22
+  },
+  {
+   "id": "danziger-loft",
+   "photos": 20
+  },
+  {
+   "id": "1389128667463860564",
+   "photos": 19
+  },
+  {
+   "id": "12048269",
+   "photos": 23
+  },
+  {
+   "id": "1150006272268927007",
+   "photos": 25
+  },
+  {
+   "id": "1552331405600484908",
+   "photos": 29
+  },
+  {
+   "id": "six-airbnb-1186815887957943578-full",
+   "photos": 30
+  },
+  {
+   "id": "six-airbnb-1461578862659272395-full",
+   "photos": 23
+  },
+  {
+   "id": "six-booking-osthafen-790949501-full",
+   "photos": 11
+  },
+  {
+   "id": "45436574",
+   "photos": 17
+  },
+  {
+   "id": "yeni-kreuzberg-freiligrath",
+   "photos": 19
+  },
+  {
+   "id": "paul-loft",
+   "photos": 26
+  },
+  {
+   "id": "six-airbnb-1452938883567081364-full",
+   "photos": 32
+  },
+  {
+   "id": "sweep6-booking-850390007-20261230-20270103",
+   "photos": 17
+  },
+  {
+   "id": "21074683",
+   "photos": 42
+  },
+  {
+   "id": "sweep7-airbnb-51513538-20261230-20270103",
+   "photos": 29
+  },
+  {
+   "id": "six-airbnb-1472317094515056268-full",
+   "photos": 27
+  },
+  {
+   "id": "sweep6-airbnb-1415265646306539034-20261230-20270103",
+   "photos": 16
+  },
+  {
+   "id": "yeni-charlottenburg-uc-odali",
+   "photos": 30
+  },
+  {
+   "id": "1519600838702010375",
+   "photos": 31
+  },
+  {
+   "id": "six-booking-urban-flats-1270649713-full",
+   "photos": 13
+  },
+  {
+   "id": "six-holidu-56239528-full",
+   "photos": 21
+  },
+  {
+   "id": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+   "photos": 35
+  },
+  {
+   "id": "sweep7-booking-ferienhaus-berlin-6-pax-20261230-20270103",
+   "photos": 6
+  },
+  {
+   "id": "six-house-19794276-full",
+   "photos": 31
+  },
+  {
+   "id": "idyllisches-haus",
+   "photos": 34
+  },
+  {
+   "id": "sweep7-airbnb-1305081869431363843-20261230-20270103",
+   "photos": 51
+  },
+  {
+   "id": "six-house-1800855588199404311-full",
+   "photos": 17
+  },
+  {
+   "id": "1800855588199404311",
+   "photos": 17
+  },
+  {
+   "id": "six-travanto-809908-full",
+   "photos": 24
+  },
+  {
+   "id": "six-travanto-809910-full",
+   "photos": 24
+  },
+  {
+   "id": "six-travanto-809914-full",
+   "photos": 24
+  },
+  {
+   "id": "22026440",
+   "photos": 31
+  },
+  {
+   "id": "six-vrbo-145069-full",
+   "photos": 24
+  },
+  {
+   "id": "1175489093358086077",
+   "photos": 25
+  },
+  {
+   "id": "bolunmus-urban-flats",
+   "photos": 13
+  },
+  {
+   "id": "sweep6-booking-1557174402-20261230-20270101",
+   "photos": 29
+  },
+  {
+   "id": "sweep6-booking-1557174403-20261230-20270101",
+   "photos": 24
+  },
+  {
+   "id": "sweep6-booking-1557174406-20261230-20270101",
+   "photos": 22
+  },
+  {
+   "id": "sweep6-booking-1557174401-20261230-20270101",
+   "photos": 21
+  },
+  {
+   "id": "sweep6-german-p5553503-20261230-20270101",
+   "photos": 71
+  },
+  {
+   "id": "sweep6-booking-1252191308-20261230-20270101",
+   "photos": 4
+  },
+  {
+   "id": "bolunmus-alexa",
+   "photos": 88
+  },
+  {
+   "id": "six-airbnb-1506711709322131491-first",
+   "photos": 45
+  },
+  {
+   "id": "bolunmus-roof-chill",
+   "photos": 22
+  },
+  {
+   "id": "bolunmus-torstrasse",
+   "photos": 22
+  },
+  {
+   "id": "six-airbnb-588125307521181982-first",
+   "photos": 20
+  },
+  {
+   "id": "sweep6-airbnb-1559249085935822360-20261230-20270101",
+   "photos": 15
+  },
+  {
+   "id": "sweep6-airbnb-14314574-20261230-20270101",
+   "photos": 58
+  },
+  {
+   "id": "six-house-1144871109877188022-last",
+   "photos": 27
+  },
+  {
+   "id": "1144871109877188022",
+   "photos": 27
+  },
+  {
+   "id": "six-house-1641351333944417315-last",
+   "photos": 22
+  },
+  {
+   "id": "1641351333944417315",
+   "photos": 22
+  },
+  {
+   "id": "six-travanto-809908-last",
+   "photos": 24
+  },
+  {
+   "id": "six-travanto-809910-last",
+   "photos": 24
+  },
+  {
+   "id": "six-travanto-809914-last",
+   "photos": 24
+  },
+  {
+   "id": "six-vrbo-145069-last",
+   "photos": 24
+  },
+  {
+   "id": "six-house-1755900699204248773-last",
+   "photos": 19
+  }
+ ],
+ "totalDuplicates": 54
+}
