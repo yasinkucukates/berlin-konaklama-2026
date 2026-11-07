@@ -156,7 +156,8 @@
     });
     return window.__berlinMapLibraries;
   }
-  // Two marker kinds only: a price label for stays and a disc for clubs.
+  // Two marker kinds only: a price label for stays and a rainbow disc for clubs.
+  const rainbow = () => { const mark = document.createElement('span'); mark.className = 'rainbow'; mark.setAttribute('aria-hidden', 'true'); mark.textContent = '🌈'; return mark; };
   const anchorClub = name => /^(RSO|Tresor)\b/i.test(name);
   const legend = document.createElement('div');
   legend.className = 'map-legend';
@@ -167,8 +168,8 @@
     [swatch('stay', ['1.900 €']), 'Konaklama'],
     [swatch('stay favorite', [svgIcon('heart'), '2']), 'Ortak favori'],
     [swatch('stay unavailable', ['1.900 €']), 'Son kontrolde dolu'],
-    [swatch('club', [svgIcon('disc-3')]), 'Kulüp'],
-    [swatch('club anchor', [svgIcon('disc-3')]), 'Tresor ve RSO']
+    [swatch('club', [rainbow()]), 'Kulüp'],
+    [swatch('club anchor', [rainbow()]), 'Tresor ve RSO']
   ].forEach(([mark, label]) => {
     const item = document.createElement('span'); item.className = 'map-legend-item';
     item.append(mark, document.createTextNode(label)); legend.append(item);
@@ -193,7 +194,7 @@
   }
   function clubIcon(name, className) {
     const wrap = document.createElement('span');
-    const disc = document.createElement('span'); disc.className = 'pin-shape'; disc.append(svgIcon('disc-3'));
+    const disc = document.createElement('span'); disc.className = 'pin-shape'; disc.append(rainbow());
     wrap.append(disc);
     const size = className.includes('anchor') ? 30 : 24;
     return window.L.divIcon({className, html:wrap.innerHTML, iconSize:[size,size], iconAnchor:[size/2,size/2], popupAnchor:[0,-size/2]});

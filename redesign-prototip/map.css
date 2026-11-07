@@ -1,6 +1,6 @@
 /* Map: the same paper, glass and terracotta system as the listing cards.
    Two marker kinds only. Stays are price labels on a small dot; clubs are a
-   dark disc with one record icon. State is shown by fill, not by new icons:
+   rainbow disc. State is shown by fill, not by new icons:
    terracotta + heart = shared favourite, grey + struck price = booked at the
    last check, dark = selected. */
 
@@ -46,8 +46,10 @@
 .legend-swatch.stay.favorite{background:var(--terracotta,#87503d);color:#fff;box-shadow:0 1px 3px rgba(111,62,47,.35)}
 .legend-swatch.stay.favorite .i{fill:currentColor}
 .legend-swatch.stay.unavailable{background:#ebe8e3;color:#8a847d;text-decoration:line-through;box-shadow:0 0 0 1px rgba(43,39,35,.08)}
-.legend-swatch.club{justify-content:center;width:20px;padding:0;border-radius:50%;background:#2f4448;color:#fff;box-shadow:0 0 0 2px #fff,0 1px 3px rgba(0,0,0,.25)}
-.legend-swatch.club.anchor{width:22px;height:22px;box-shadow:0 0 0 2px var(--mustard,#b8862b),0 1px 3px rgba(0,0,0,.25)}
+.legend-swatch.club{justify-content:center;width:20px;padding:0;border-radius:50%;background:radial-gradient(closest-side,#fff 70%,transparent 72%),conic-gradient(from -90deg,#e5484d,#f5a524,#f2d13a,#3fae5c,#2f8fd8,#6a5acd,#b04fc4,#e5484d);box-shadow:0 0 0 1.5px #fff,0 1px 3px rgba(0,0,0,.25)}
+.legend-swatch.club .rainbow{font-size:11px}
+.legend-swatch.club.anchor{width:24px;height:24px;box-shadow:0 0 0 1.5px #fff,0 0 0 3px #22363a,0 1px 3px rgba(0,0,0,.25)}
+.legend-swatch.club.anchor .rainbow{font-size:13px}
 
 /* ---------- Frame and canvas ---------- */
 .map-frame{position:relative;border-radius:16px;overflow:hidden;box-shadow:0 0 0 1px rgba(116,99,81,.16)}
@@ -115,16 +117,18 @@
 @media(prefers-reduced-motion:reduce){.map-pin.pin-pulse::before{animation:none}.map-pin .pin-label{transition:none}}
 
 /* ---------- Club markers ---------- */
-.club-pin .pin-shape{position:absolute;inset:0;display:grid;place-items:center;border-radius:50%;background:#2f4448;color:#fff;
-  box-shadow:0 0 0 2px #fff,0 1px 5px rgba(0,0,0,.35)}
-.club-pin .pin-shape .i{width:62%;height:62%}
-.club-pin.anchor .pin-shape{background:#22363a;box-shadow:0 0 0 2px #fff,0 0 0 4px var(--mustard,#b8862b),0 2px 7px rgba(0,0,0,.35)}
-.club-pin.closed .pin-shape{background:#a19b94}
+.club-pin .pin-shape{position:absolute;inset:0;display:grid;place-items:center;border-radius:50%;
+  background:radial-gradient(closest-side,#fff 70%,transparent 72%),conic-gradient(from -90deg,#e5484d,#f5a524,#f2d13a,#3fae5c,#2f8fd8,#6a5acd,#b04fc4,#e5484d);
+  box-shadow:0 0 0 1.5px #fff,0 1px 5px rgba(0,0,0,.32)}
+.club-pin .rainbow,.legend-swatch .rainbow{display:block;font:normal 13px/1 "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;text-align:center}
+.club-pin.anchor .pin-shape{box-shadow:0 0 0 1.5px #fff,0 0 0 3.5px #22363a,0 2px 7px rgba(0,0,0,.35)}
+.club-pin.anchor .rainbow{font-size:17px}
+.club-pin.closed .pin-shape{filter:grayscale(1);opacity:.75}
 .leaflet-clubNames-pane{z-index:640;pointer-events:none}
 .leaflet-zoom-anim .leaflet-clubNames-pane{visibility:hidden}
 .club-name{position:absolute;display:block;width:max-content;padding:3px 7px;border-radius:7px;background:rgba(255,255,255,.9);color:#22363a;
   font:750 11px/1.2 var(--sans);white-space:nowrap;box-shadow:0 0 0 1px rgba(34,54,58,.12),0 1px 4px rgba(34,54,58,.18);pointer-events:auto;cursor:pointer}
-.club-name.anchor{font-size:12px;color:#1b2b2e;box-shadow:0 0 0 1px rgba(184,134,43,.55),0 1px 4px rgba(34,54,58,.2)}
+.club-name.anchor{font-size:12px;color:#1b2b2e;box-shadow:0 0 0 1.5px #22363a,0 1px 4px rgba(34,54,58,.2)}
 .club-name.closed{color:#7c766f;text-decoration:line-through}
 .club-name.name-hidden{visibility:hidden;pointer-events:none}
 .club-pin:focus-visible{outline:none}

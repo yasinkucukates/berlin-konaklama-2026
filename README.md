@@ -46,7 +46,7 @@ Kur: Fiyatlar kaynaktaki para biriminde gösterilir; yanında euro ve TL karşı
 
 Kişi sayısı: Ev ve daireler bütün olarak kiralandığı için gösterilen fiyat 6 ve 7 kişi için aynı kabul edilir (7 Kasım 2026 kullanıcı kararı). Ayrıntı `redesign-prototip/MUSAITLIK.md` içindedir.
 
-Harita: İki işaret türü vardır. Konaklama, noktanın üstünde fiyat etiketidir; ortak favori kiremit renkte ve kalp ile beğeni sayısını taşır, son kontrolde dolu olan gri ve fiyatı çizili görünür. Kulüp koyu yuvarlak işarettir; Tresor ve RSO hardal halkalıdır. Etiketler üst üste binmez: yer yoksa ilan yalnız nokta olarak kalır, yakınlaştırınca etiketi açılır. İşarete dokununca haritanın üstünde kısa ilan kartı açılır (beğen, ayrıntılar, ilan bağlantısı); "Yalnız Favoriler" düğmesi haritayı ortak favorilere indirir.
+Harita: İki işaret türü vardır. Konaklama, noktanın üstünde fiyat etiketidir; ortak favori kiremit renkte ve kalp ile beğeni sayısını taşır, son kontrolde dolu olan gri ve fiyatı çizili görünür. Kulüp gökkuşağı halkalı yuvarlak işarettir; Tresor ve RSO daha büyük ve koyu çerçevelidir. Etiketler üst üste binmez: yer yoksa ilan yalnız nokta olarak kalır, yakınlaştırınca etiketi açılır. İşarete dokununca haritanın üstünde kısa ilan kartı açılır (beğen, ayrıntılar, ilan bağlantısı); "Yalnız Favoriler" düğmesi haritayı ortak favorilere indirir.
 
 Açık filtreler: Kenar paneldeki seçimler, En Uygun Daire/Villa ve Son Eklenenler sonuçların üstünde etiket olarak listelenir; her etiket tek dokunuşla kaldırılır. Favoriler görünümünde filtre bazı favorileri gizliyorsa kaç tanesinin gizlendiği yazılır.
 
