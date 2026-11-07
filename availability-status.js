@@ -43,6 +43,12 @@
     return '';
   }
 
+  function bookingIdentity(raw) {
+    if (sourceName(raw) !== 'Booking') return '';
+    try { return new URL(raw).pathname.replace(/\.[a-z]{2}(?:-[a-z]{2})?\.html$/i, '.html'); }
+    catch (_) { return ''; }
+  }
+
   function updateOfferRows(card, records, party) {
     card.querySelectorAll('.ruebezahl-table tbody tr').forEach(row => {
       const id = offerId(row.querySelector('a[href]'));
@@ -59,6 +65,31 @@
     });
   }
 
+  function updateBookingAlternatives(card, records) {
+    card.querySelectorAll('.booking-alternative').forEach(section => {
+      const links = Array.from(section.querySelectorAll('.booking-rate a[href]'));
+      const matches = records.filter(record => {
+        if (record.scope !== 'offer' || record.parentCardId !== card.dataset.id || !bookingIdentity(record.sourceUrl)) return false;
+        return links.some(link => {
+          const adults = Number(new URL(link.href).searchParams.get('group_adults'));
+          return adults === record.adults && bookingIdentity(link.href) === bookingIdentity(record.sourceUrl);
+        });
+      });
+      if (!matches.length) return;
+      const container = document.createElement('div');
+      container.className = 'live-availability';
+      matches.sort((a, b) => a.adults - b.adults).forEach(record => {
+        const label = document.createElement('span');
+        label.className = `live-availability__item${record.status === 'unavailable' ? ' live-availability__item--unavailable' : ''}`;
+        label.textContent = `Booking · ${record.adults} kişi · ${record.status === 'unavailable' ? 'Bu tarihlerde müsait değil' : 'Müsait görüldü'} · ${formatDate(record.checkedAt)}. Tarife koşulları ayrıca kontrol edilmeli.`;
+        if (record.lastAttempt?.result === 'unknown') label.textContent += ' Son kontrol doğrulanamadı; önceki sonuç gösteriliyor.';
+        container.append(label);
+      });
+      const heading = section.querySelector('h4');
+      if (heading) heading.insertAdjacentElement('afterend', container); else section.prepend(container);
+    });
+  }
+
   function providerSet(card) {
     const names = new Set();
     card.querySelectorAll('a[href]').forEach(link => {
@@ -71,7 +102,7 @@
   function render(records) {
     const latest = new Map();
     records.filter(valid).forEach(record => {
-      const key = JSON.stringify([record.scope, record.id, record.checkIn, record.checkOut, record.adults]);
+      const key = JSON.stringify([record.scope, record.id, record.parentCardId || '', record.checkIn, record.checkOut, record.adults]);
       if (!latest.has(key) || Date.parse(latest.get(key).checkedAt) < Date.parse(record.checkedAt)) latest.set(key, record);
     });
     const observations = Array.from(latest.values());
@@ -82,6 +113,7 @@
       const matches = dateMatches.filter(r => r.scope === 'card' && r.id === card.dataset.id && sourceName(r.sourceUrl) === source).sort((a, b) => a.adults - b.adults);
       const party = card.querySelector('.offer-party-7') && !card.querySelector('.offer-party-6') ? 7 : 6;
       updateOfferRows(card, dateMatches, party);
+      updateBookingAlternatives(card, dateMatches);
       if (!matches.length) return;
       const title = card.querySelector('.card-title');
       if (!title) return;
