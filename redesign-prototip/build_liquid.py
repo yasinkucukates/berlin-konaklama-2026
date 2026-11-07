@@ -69,11 +69,9 @@ RUEBEZAHL_EXCEPTION_KEYS = {
     ('six-vrbo-145069-full', '2026-12-30', '2027-01-03'),
     ('six-vrbo-145069-last', '2027-01-01', '2027-01-03'),
 }
-RUEBEZAHL_COMPARISON_IDS = {
-    'six-travanto-809908-full', 'six-travanto-809908-last',
-    'six-travanto-809910-full', 'six-travanto-809910-last',
-    'six-travanto-809914-full', 'six-travanto-809914-last',
-}
+# 13 Erle, 15 Zeder and 20 Mohn (Travanto 809908/809910/809914) were folded
+# into the 145069 comparison table on 6 November. On 7 November the user chose
+# to show them again as their own cards, under their original dated IDs.
 
 
 def read_json(path: Path):
@@ -1419,11 +1417,6 @@ def main():
     for row in rows:
         listing_id = str(row.get('id') or '')
         source_id = str(row.get('sourceId') or '')
-        # These remain in the source records and comparison table; their near-
-        # identical galleries do not need six extra cards on the visitor page.
-        if ADULTS == 6 and listing_id in RUEBEZAHL_COMPARISON_IDS:
-            skipped += 1
-            continue
         if listing_id in HARD_DISTANCE_EXCLUSIONS:
             distance_exclusions.append({'id': listing_id, 'checkIn': row.get('checkIn'), 'checkOut': row.get('checkOut'), 'reason': HARD_DISTANCE_EXCLUSIONS[listing_id]})
             skipped += 1
