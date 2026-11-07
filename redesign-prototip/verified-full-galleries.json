@@ -1745,6 +1745,3102 @@
           "description": "Ek fotoğraflar"
         }
       ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1765241459359399223",
+      "targets": [
+        "sweep7-airbnb-1765241459359399223-20261230-20270103"
+      ],
+      "expected": 36,
+      "method": "Airbnb ilan fotoğraf turunda 36 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/c776e533-4de8-47d5-8555-1cf950195a9b.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/63db1583-e9a2-45ba-a1ee-f579b4342241.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/b1efb506-c0e9-42f4-9f2e-938de55e26c0.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/d17ecc65-9eba-48d9-ac05-ff10d11e40c7.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/b5a75707-7759-4f21-9d64-82775f598106.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/e868d6e6-f815-4b40-9c2a-5a32b33f5815.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/e6fd6feb-8225-4975-9145-a825a651d62a.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/54a456ff-a260-4075-98bd-0d052a238840.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/7a84729a-b276-42cf-93c3-650149a714f3.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/0563a142-7d65-41ae-8eb8-2506235a94a5.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/b8333ac2-03a3-4b1b-a21b-b8e848e2b686.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/8911597d-20f2-40de-9226-b59a4724503d.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/14533327-d6d7-4e87-8a11-36c34ee87b3b.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/d8290b87-37e3-49c2-8327-235e8ab35802.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/24402aa9-0cf6-44a2-af4d-2ab177533b26.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/de87961d-2071-45a5-88c6-7122fc3426d7.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/d335accb-8889-48e5-ae05-571d086bc1d9.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/1497ea7a-97b5-4a31-b8e7-0a835ffefdbd.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/80182ae6-7153-40de-b2b5-3548968d8e43.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/d441c7fd-7aa8-4fd5-b56a-639e81e58e44.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/b6c8a021-1f51-4c42-860b-c9caebb898f0.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/51919fa8-c47c-4b04-a457-2b4f36c6a30a.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/13043d6d-17e9-410d-a470-3c47b5ac521f.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/1b206393-903a-48f9-91dd-3256098d8d19.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/34efa6df-2377-4cc6-b993-5cc636e043ed.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/ace8812b-9a7d-4442-93dc-37baa2176195.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/12dd53ff-f89b-40c6-82df-e9817dd56884.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/a210869e-6d99-4f8b-9f4f-ab099c8f5cb6.jpeg",
+          "label": "Laundry area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/0f917ea6-cf24-4806-8123-13a9548178b3.png",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/e574b5d8-6999-4795-a8a8-97b2a046f90a.png",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/c2a6dfc4-a295-425d-994b-66e512390e55.png",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/1c342f7c-e628-45de-90ad-1c7110a1dacf.png",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/038205a5-2c78-4bd5-aadd-2f3a0c9bbe66.png",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/a4c2f30f-473f-4e8b-a9ec-027bcd021dd5.png",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/12760146-bb72-408c-b6f0-39f6f5d0f03f.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/669b9816-d4fb-4e42-972c-4a07b2278b3d.png",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1510142980699078825",
+      "targets": [
+        "sweep7-airbnb-1510142980699078825-20261230-20270103"
+      ],
+      "expected": 19,
+      "method": "Airbnb ilan fotoğraf turunda 19 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/1340dc46-cfa5-4308-b381-94ea923879d4.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/0ee60d6c-d6db-4be4-ac20-03135fad3e73.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/0f3b2021-48b9-4a67-a364-d327bd79d678.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/320df974-641a-463c-92d8-6382c1343abc.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/72946dd7-187e-43b0-9e5e-050707faa00e.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/9bf478af-5d1a-43ba-a714-b21cbf7f1c58.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/4bdfa467-2c96-4410-a4a9-3332d0e8d268.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/ffbd3f78-90c2-4e69-a59e-ca82f0a9b583.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/5cdf8345-c91f-4c25-8862-e4422e8d8c24.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/2716bce8-fc02-420d-834d-cbb45d68ec49.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/5bff8eaf-4adf-4f61-9f8b-c8e5216ba937.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/ad01e024-5b28-42c5-b9b6-9e057dbbaaa0.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/c9af049f-3f07-44a7-872a-d33b19631f81.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/3938b84c-683c-4f2f-b7f2-03e818ae0c28.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/e37a22ea-7157-459b-bf8d-bc43ccddd3f1.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/5eef6b1a-550b-476b-b15b-ee75592f7ec5.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/a79bccda-afc9-47dc-ab2f-39e10b4a41a6.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/edb9cbd1-d1d2-482f-b311-00ce6c16260b.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/57f2ce58-749f-43f9-b48a-f1f2d30303c5.jpeg",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1389672541037596818",
+      "targets": [
+        "sweep7-airbnb-1389672541037596818-20261230-20270103"
+      ],
+      "expected": 23,
+      "method": "Airbnb ilan fotoğraf turunda 23 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/f8753501-0c97-4aed-95b1-892a694b93d1.jpeg",
+          "label": "Kitchenette"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/f2233ab8-ce90-4344-9a38-54d63c1ca7e1.jpeg",
+          "label": "Kitchenette"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/1561a2fa-6fd0-4d15-b226-b63121b56e5e.jpeg",
+          "label": "Kitchenette"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/c1ab02ed-8e37-4a36-911a-4f42417799e6.jpeg",
+          "label": "Kitchenette"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/90335b4c-758a-4d9a-8f60-a3dcf9a35b51.jpeg",
+          "label": "Kitchenette"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/7e7fc1ad-e5db-4fae-9bdb-0b7e242be7c6.jpeg",
+          "label": "Kitchenette"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/f7e738a8-ae5f-4924-9dea-46eec7b93c6a.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/92e18bcc-b976-4d1f-a946-8cfb6c0a4dc0.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/6588fb9e-5cbf-493e-944c-e42381c4f6a2.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/201c623e-62fb-4c4e-91e2-c9852352f039.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/d07ba9b5-cac8-454b-9bcf-f6fc7e6e128d.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/ccbbdb3e-8b80-4c27-86ab-ce0c2fbf676e.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/032d25a1-6b43-4ea6-90fe-b7268bfcfb29.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/0246c804-16f9-484d-8343-920f1d9a2fce.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/9f17e331-b1c4-46a2-b94c-fc24c97de9a4.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/f0e52bd9-9ab5-41a6-b129-1dd6bff21feb.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/083e94a6-58a2-4ae9-a1a5-41fff5864473.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/81fd965a-8750-4d92-9fec-a6f953e2040e.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/96374968-f1fa-4a5b-8dec-967ec6d5c7b8.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/7607957a-0ca9-4b3d-99a0-130c7ed03bd9.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/8161b75d-9eaa-4f12-a238-c10ad380ab66.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/fc66a7fd-9886-45d8-b9c8-41362165eb5f.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/3adaf0b7-5677-43d9-adf9-01bcfc34334c.jpeg",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/40216009",
+      "targets": [
+        "sweep7-airbnb-40216009-20261230-20270103"
+      ],
+      "expected": 15,
+      "method": "Airbnb ilan fotoğraf turunda 15 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/7bce0945-0cdd-4170-a414-4b14f3148627.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/8c8a1beb-772d-482e-a289-3444c1145f4e.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/0f3f55e6-7204-4cfd-a824-5865cccc60e3.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/3218b6c8-842b-4643-bac4-852a190b5259.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b3a3db11-54fd-4569-b916-554a51e4e1a9.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/1ca4f094-9e6a-4875-a833-03821dbb38f1.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/1db3c388-4da0-4d6b-8b55-2c1d1b7477a7.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/699e1ebc-3622-4efd-a37b-aa990dbf04b4.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/429c3e79-d066-483f-8f6e-783be5276c05.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/a39daaad-ed36-4ab3-82a8-98a8d5227bfc.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/746901b3-1733-4a0a-9e80-9ecccd3801c7.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/6bace5a2-cf19-4e57-97f0-ab2563883a24.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/5bb3df32-463e-4e8c-89b3-d68ac7f3745b.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/aeba6c76-7392-43bf-b26e-e7b4b9ef61d8.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/201169f0-1b1d-4d02-b7dd-e9ff248ecbab.jpg",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/38533401",
+      "targets": [
+        "sweep7-airbnb-38533401-20261230-20270103"
+      ],
+      "expected": 22,
+      "method": "Airbnb ilan fotoğraf turunda 22 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/8ea70ed9-3519-4a87-abd0-41c7e81863cb.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/1711c2ec-ac0b-47a3-8242-f25ac1aa0cf1.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/824f6654-d4f9-4584-9376-b980c2ece669.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c1ec9ee8-0951-47d2-884d-334abe0a91bc.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/fced5cfd-ed95-4225-a087-203e2e4e0ee3.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/7cafc310-2d12-4101-a272-4c9557ff8d2c.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/976c38a7-31f2-4e13-93a5-6852299079d6.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/362fb471-551c-414e-9ca7-1f32161592cf.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/7d3ff3c9-5795-4ac9-a000-c69f34ce98fd.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/de15699b-7709-4356-870e-8482d7db46f2.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/8c0bf46a-23e1-4af0-a5fe-e559bf3945e5.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/443d0396-3d78-4739-bdb2-fc976e640564.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/af366d98-b50f-4988-84e4-19131d4c7fe2.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c33667bc-c9e6-4333-9c27-1ae064bb33d6.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/15190f1d-609f-4025-a5a3-b1d40d5c2462.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/2e1e9f64-b789-4629-8218-75e1d237c798.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/4778a4d0-e724-4d88-b74a-9c84c0410799.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/a065620d-1f6c-4f97-a9ac-151432a72a2b.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b832acf6-460f-4b10-bc00-10abc62a0d36.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/357a183d-f002-4555-acd7-94df381ad408.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/f9b85471-7521-47db-bec8-0b9493b9f031.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/dd33fe0c-aa65-4907-a10e-63ca56490a19.jpg",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/34301098",
+      "targets": [
+        "sweep7-airbnb-34301098-20261230-20270103"
+      ],
+      "expected": 13,
+      "method": "Airbnb ilan fotoğraf turunda 13 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/9785adcb-367c-4f52-aefe-08de584b6219.jpg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/63687037-a0a3-4452-a97e-de2969b8f84e.jpg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/0980b1ba-08f7-4f6f-ab28-91ba4ea2c8fa.jpg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/2d72f4d0-a089-4026-8c80-80a5230eed38.jpg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/32424f5e-1c33-4043-ab55-1c7973eccb49.jpg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/6798cd0a-f1db-4d9f-aa37-d0e929407864.jpg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/af135273-97de-4b8c-a8d8-040cb15aef61.jpg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b33e2537-6091-483b-a4d5-ab45004cdfa4.jpg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c3c92f09-f370-4884-bc33-a9d439593172.jpg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/8cd6a078-d1cb-47fc-9b72-294adbe0b5f9.jpg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/94ac9d7e-7993-4de9-8476-9e883564afa7.jpg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/84e62cc4-7595-4237-8477-7fde1fbb9043.jpg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/1bbba773-005d-4b1e-a8fe-c81aced7b559.jpg",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/31297828",
+      "targets": [
+        "sweep7-airbnb-31297828-20261230-20270103"
+      ],
+      "expected": 25,
+      "method": "Airbnb ilan fotoğraf turunda 25 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/31fbcc0d-3124-4c67-aac8-467bbca2c4ea.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/9b36e425-666e-4ebb-8a3e-1875b0aff237.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/8ff35d6a-2f80-4990-8931-90ae8f5a46d2.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/1d02310f-54d2-4bfe-b937-7cb9dcdecd9e.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/18b1ce6f-fa05-4f22-8754-90e717697761.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/51eeddad-ef14-45ae-acc4-ebd2be6d0f95.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/8043eb4c-6b74-4c34-81b8-53b0ad582dd8.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/aa13f5d0-44b7-4ab0-99ec-c6c2e7527463.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/558ee88a-eb47-4d89-81e0-9d306449cb28.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/d2bc64f6-403e-4653-b7cc-7ee4b584040a.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/1c2b26d6-b01a-4a1b-a963-c1820724d938.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/5f340fd2-aff8-462c-98d0-00f056bfc4c2.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/e3115376-a729-4910-a943-c6539bfcb6fb.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/84f2412a-c0bc-4c9c-b3b3-191689cb5c69.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/5d72e1c2-c02e-40c6-907c-884e204cee6a.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/21d6d106-692a-4a7a-800f-61ce72b86528.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/f88abd94-a889-45fd-9543-8b202a735bc5.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/0a8621f4-d2f2-4854-b98a-008fd44e997e.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/10884cd3-9092-4230-98b7-ae0a7003f41c.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b925a7ec-81ff-476a-bf4c-d19d6c079401.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/ecc1d8f9-79df-486c-93dd-53c2d0e094f1.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/0a25ae3f-8c62-49ed-bf31-7e5d00250b7b.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/a050ee11-780e-4a50-9bd5-231aa37843e5.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c0a2253b-d564-4065-9f66-b84f4d2b5ef5.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/e75ee4f1-fc6b-4c6d-a539-74d367bf3b03.jpg",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1268121761753625501",
+      "targets": [
+        "sweep7-airbnb-1268121761753625501-20261230-20270103"
+      ],
+      "expected": 22,
+      "method": "Airbnb ilan fotoğraf turunda 22 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/c5be17a1-9b5a-43a9-a3da-84c1182c2bcf.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/225bb1a4-3d95-4431-a3b6-4739f89f6442.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/e5f94dd1-4aa5-4aeb-8c13-6684ab374a3e.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/78e42bd9-7695-4de4-aaea-3c7bb7264cfc.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/b998a8a2-ce67-46cc-9481-08112b808448.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/f7ec9d08-fb7c-437d-909a-775b8ec03e63.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/4030f617-4283-41fe-bfc5-6d4b9804ff28.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/e9bb81d1-aba0-4f30-8dff-b277d5d79993.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/c5bd605a-435d-4c23-a48a-da80d54f3834.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/300a7e8c-297d-49e5-abf6-4e259b12b33c.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/a56b8272-ab26-4c35-92fd-bfd50cd6ed4c.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/b59cb5e7-a3a1-47fe-b98c-108edfd835ac.jpeg",
+          "label": "Bedroom 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/2e531cfd-0e65-4ef0-b8a8-c2adf0642201.jpeg",
+          "label": "Bedroom 5"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/c008e9be-8c94-4768-aee3-9cee3dd298b2.jpeg",
+          "label": "Bedroom 6"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/7ff430f0-ee47-452a-961b-709c3a7a0125.jpeg",
+          "label": "Bedroom 7"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/1f9e2eb2-3196-417a-9ce2-b577ec05cab4.jpeg",
+          "label": "Bedroom 8"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/b689a57e-00ce-4b2c-a50d-44e80afaf115.jpeg",
+          "label": "Bedroom 9"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/bb282e16-d8ca-4938-b0ac-9a1182aab034.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/1cf4255f-352f-407b-872c-5ab6c64a349f.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/f733cc9b-4a12-4890-9231-c206d86bb959.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/a2c240fa-e030-490b-a1ce-afcbfc9be417.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/df707fb0-00af-46e3-9a0d-f80c952a79ff.jpeg",
+          "label": "Full bathroom 3"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/32453210",
+      "targets": [
+        "sweep7-airbnb-32453210-20261230-20270103"
+      ],
+      "expected": 28,
+      "method": "Airbnb ilan fotoğraf turunda 28 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/6ac11c35-0583-4bc2-a4a2-03d5fe562f04.jpg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/7bf073c1-ad7f-4bb3-8fd4-b43f4e09bf70.jpg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/d7ad70d5-35dc-454f-8590-3a1f48219d6a.jpg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/bd26e65d-2660-4722-b5d6-d39670c700e9.jpg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/da6cfefb-4f0c-44b6-a9f1-88ec3a9a1d4d.jpg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/4d4bbf12-7a01-43d7-afe5-201f40003b4e.jpg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/6eb65ceb-4a1e-44fe-babd-02e03708382f.jpg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/71671eee-50b8-45dc-b74c-5905a335f8dc.jpg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/19cb17a2-be4b-47d3-8169-d812151693f8.jpg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/3a9b00d9-d88b-4bc8-94eb-15905fb3aa06.jpg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/80c659c4-2a13-48ea-8265-e7a62cec9764.jpg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/07435c68-f3c9-401d-898c-32e2ee793a94.jpg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/6bf0b387-27df-4e8f-8441-641c27bedc7b.jpg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/00ed5710-b47e-4450-bd53-87be353ee597.jpg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/7e25d407-a86f-426f-b0b6-3145cbcf2ba0.jpg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/dcf3efb0-bd45-4646-9a15-c6ab079a5d2e.jpg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/39f4e4cd-d0c5-4130-9ddb-1fa689cb29bb.jpg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/346e93b5-a7d7-4938-8791-3948f82e79c4.jpg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/206d08fa-d540-45da-8cd4-f36ad36a4039.jpg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/31785c1d-f660-48f7-9f23-4ff4e34570b3.jpg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/17265a17-e9cf-49bd-9902-4129d2a65541.jpg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/84d9809b-4558-46b9-864d-940b0fa46bf6.jpg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/35f90c18-6b0e-4e51-be19-e75fd0968151.jpg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/471aa142-603e-4d81-98ca-90a03abb56a2.jpg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/f133c759-0428-464d-88d7-420c532d4745.jpg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/9db87952-f9d2-410b-99b1-e2d4f3033d7c.jpg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/763c107d-99f8-4280-8088-80e16ae017e1.jpg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/0224e56e-0961-4ee2-9c03-32d000897301.jpg",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/31701521",
+      "targets": [
+        "sweep7-airbnb-31701521-20261230-20270103"
+      ],
+      "expected": 20,
+      "method": "Airbnb ilan fotoğraf turunda 20 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/14a90e40-e96b-471c-9bcb-28dfaa4c3e73.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/9e9cc4a7-2ba2-45b9-b7f3-5334408183ce.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/10511fb1-ffab-4f91-a04d-480897dc4e26.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/be46d29e-14ef-4734-a2a6-1c66714c3c8c.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/52db586d-1ed0-4db7-8f86-c3c14e73dad3.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/37bb1a88-3561-42aa-ad2d-45704b046a62.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/6159c0fa-fcb8-4914-b134-9f45262048eb.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/170537d5-919e-453f-bafd-7361bd4ad58d.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/4258c3b1-3678-47fb-8fb6-ce58ca01d02e.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/720ac360-5e85-42dd-a3f7-a468c08f5ecc.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/06d9b230-2327-4624-b26c-9d9f2818b55d.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/5624c391-034e-46fe-b13f-2083db0b6d6d.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/39ebed28-d4e2-4d01-b653-c47b3c81cba5.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/2cc40530-33e7-4970-8968-fcbd5a6c4a67.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/23240d9b-3699-41c3-84eb-35c01dc8f96d.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/80ce82d2-577b-465d-9efe-47b950ba5850.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/cb8b3e81-66eb-42a5-a17e-6fac56bfd33f.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/6a93e33f-cde4-4951-bae5-c6f03c288dbe.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/3ceeec51-0a65-47aa-b04e-09e796b1975c.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/e5688efe-e20d-4547-b143-14e738d1f7ea.jpg",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/942782300690662568",
+      "targets": [
+        "sweep7-airbnb-942782300690662568-20261230-20270103"
+      ],
+      "expected": 94,
+      "method": "Airbnb ilan fotoğraf turunda 94 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/55111040-c03b-46a8-a9e6-5e60b60abe55.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/88167be8-292c-412d-aa7e-59e626a2c0fc.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/fae31c80-0a3e-4a6d-ad51-404b3f1d2dee.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/fc2c9531-1dca-4063-a15c-7b3634ce01c7.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/0ca76b49-ff73-436e-b802-1ad5dfb513d7.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/83d2305a-1e6f-4d21-99ca-5ccd03776190.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/5c828897-f985-4f9a-bac7-f20b14d601ec.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/ea677a20-affb-4c25-8bef-ee5a7c0eb048.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/45ec31b8-8d24-4d67-ba0e-e2f75687f782.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/c7fbf450-cd27-4993-926d-7a55825837fc.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/f97676ce-f956-41b0-a5cb-472dfd025435.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/9669ecc0-e8e6-4f21-94d8-7318548a87a5.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/5ad1c1e9-d3ca-4d81-ae0e-4152dcbcc556.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/41344ce4-f944-4c1e-aa5d-915441a3f96f.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/00383df0-d5fa-40dd-b633-96871fd352b4.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/2a380b0a-8790-4552-bf5d-8e4f458c75fd.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/bf20c4d9-a0f3-4c46-bf78-a0cbc129838d.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/39e15dd9-f12e-4879-a106-e93a6624ffe6.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/ee112364-bd1b-4fef-849b-d992afe147cd.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/c6007da4-c0f7-4f2c-8324-94302bb25c6c.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/7a1e874c-dd80-4963-b06f-02499daff0d6.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/34b9a010-124d-4f74-96ff-174c28536bf4.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/f6836296-b932-44a5-81f5-a3bbde37a8ea.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/5617d8e6-baec-476e-b094-b9149b3fa469.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/82633782-5347-4def-9d7f-b2673b17d3b8.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/41401f47-8a10-4eda-b97e-76ba9e6da824.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/16c044c6-ece3-4d06-9652-53b38a784056.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/5715b769-44b7-4498-8ad3-4b1d5e6e75ad.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/dac08533-8fcc-4307-a780-08f6bdf98092.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/dbd962f0-0a58-4c7c-89e2-0fd04ca01217.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/b76d442d-e72d-4c69-88b0-a15a6b06eac6.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/0db6b7b5-0479-4189-9b2f-97d7b3bee5b2.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/674bca86-79a7-48e8-86f0-d2636def833d.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/1853c480-f10c-46da-b5f5-e9f67c235ad0.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/5ef0fea1-8b34-4492-9edc-258afde42e86.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/fce93025-c54e-4b31-b82e-45ae318f0520.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/40da2e26-dcfb-4b90-ad77-3e1ab64034e4.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/19f6c7d4-e287-4aaf-a0a4-2c08e1108e80.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/85172d5e-a8f9-44f9-85bd-1b9006dea804.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/0965698d-9476-460e-b9bf-091c4143b73f.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/28d20e86-a1a2-4d34-8646-0d03764a0cf8.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/1ddcf7c6-acac-48c2-b0f3-c56eb583c5fd.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/e0f0e2b0-b6af-400f-b355-e5cee8bc4361.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/41b54c77-dc4f-4cdf-8537-e8e0c8029c60.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/6a9a9f90-82d7-4c54-bb2c-66faabfb7564.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/366b1f86-d474-4cbd-a31b-3dcbb7f7f7df.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/bc0b7c9e-3250-4f60-9ab8-f99a353c1f96.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/304829ea-24ec-4d91-8a50-649a9ee04b15.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/248d8016-7416-4f91-a778-6c9a5f371cc3.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/bf61cf27-534d-40ec-9949-be607d221509.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/7ac7ca56-8269-481b-8c21-4e54ad948344.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/8cca33a2-3b07-40a3-94d0-1f5915f416b2.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/52fa9f38-d689-4581-9024-d5f43daa4d91.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/797ef8fb-09d3-4054-bef3-e1653a16aabc.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/1e795fc6-110a-4bf9-ac2a-6d19855703f6.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/8f7096dc-10df-4e85-84e3-a5338c6139a9.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/52ee9efc-d77c-466c-8fcb-b0ec37bef24e.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/f02b3256-41ed-4b98-87b6-45657a6b35bb.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/e3b9465c-dd58-4601-876e-e570a6384357.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/718d3dc9-89c1-4ebd-bc22-74afd1980fb2.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/85f71060-e22a-40ff-a448-d844b9efdcf3.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/c89c5c37-7485-4f11-a90c-b80dace4fd4c.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/b44c3a42-f176-4fbc-9ce7-94b74e39d881.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/1931d94e-a134-4183-a602-114ccc85501c.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/af5a9b5a-03fb-4c37-a496-373c33998820.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/b78f0c81-0a48-42b1-b285-dc7ed393746c.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/f0cf2ede-18a5-4b8b-8c2a-42c57abda2dd.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/5cedbcd9-4037-4875-85c5-0c8c3d8baaf7.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/3d1aa982-2881-46d8-9e82-ed582e36900d.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/1dfdeb30-21c6-4601-82db-1c1c2c380282.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/f27f4198-e3ac-4aee-8c86-54583401cb9e.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/c5fb5cd3-0496-4b65-a51c-ac5513a43fb2.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/3395a289-33f3-4398-8c5e-3d3cea432245.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/322ba035-233b-4fd7-9a33-be83f9157de7.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/4bac356c-90a5-419f-989c-d72e64d19c75.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/60a93c1b-e4dc-4308-90d9-beeaaf1328c1.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/e43046e2-8a66-43fc-b596-3f9d90706c63.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/58dbbda4-a2fc-4121-a16b-39723ca1d74d.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/6b72c035-2f46-40df-9961-65d53de45091.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/7fe1677d-9fd5-4500-9128-60261dc4f328.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/fbf05818-07d0-4a12-a86c-34a37e0506d3.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/470d79d0-1334-49d6-ba23-57c6ae2c782b.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/d6ced041-2767-4d40-9171-d9ff7bbfc17c.jpeg",
+          "label": "Bedroom 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/a875b201-a9f4-4e9c-990e-a9f4676cb64f.jpeg",
+          "label": "Bedroom 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/271a37d2-dd96-4011-b968-c0a2428ff575.jpeg",
+          "label": "Bedroom 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/b79bc062-09e4-43e3-8c1a-e5e9b1efd4e8.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/75a51234-11c5-4e39-85f3-3f7a06845548.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/a28a9156-7fc5-4f12-8ee9-574410dc8f7c.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/90281341-9155-4570-b45c-687f6a360129.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/1f3c2cd8-1f10-487f-9411-e27f65119657.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/9b304969-8006-4002-bcf9-5a7dc3642986.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/985b9aca-9d59-4efd-90ea-a7a9f0267ed8.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/56f0945b-7d5a-47d0-aaad-c15447a11e77.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/fab2715e-329c-459b-b5ca-8097636fa38c.jpeg",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1363888262051860529",
+      "targets": [
+        "sweep7-airbnb-1363888262051860529-20261230-20270103"
+      ],
+      "expected": 22,
+      "method": "Airbnb ilan fotoğraf turunda 22 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2Mzg4ODI2MjA1MTg2MDUyOQ==/original/7442aa63-9fe8-4edd-be0e-ba03fc67fa61.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2Mzg4ODI2MjA1MTg2MDUyOQ==/original/d8fb9e46-3340-455a-ad92-a65b7bbb15be.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2Mzg4ODI2MjA1MTg2MDUyOQ==/original/5889e0d2-4122-4f91-b59e-41470b1805fb.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2Mzg4ODI2MjA1MTg2MDUyOQ==/original/7c793c21-9061-44eb-9fef-0023e9de8d18.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/c6a6e3a2-3a1a-4c59-8a12-03df5f8de205.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/574813be-a555-4628-95b4-4d70f67690ef.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/a0bd0d38-f91e-41b1-9227-1cb1cf1caf58.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/d828aefb-9790-4a1e-8dbd-1c4cba68513a.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/e859cb8c-916a-4590-909f-a9405541995c.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/863ac80f-bdfc-4235-8b0b-46bb83008714.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/b42d39ed-e34c-4a1a-a1b4-3c016ea6035a.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/0e9c6f97-9d13-4295-ba58-8d9dfe11352b.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/ec5d8cf5-2e3d-4948-bb3b-1ceb57807916.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/361934b9-c8c0-45ba-8e3f-6b5c33a10b82.jpeg",
+          "label": "Bedroom 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2Mzg4ODI2MjA1MTg2MDUyOQ==/original/c39a50bd-03dc-4c47-bba3-15dec6ccffb8.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2Mzg4ODI2MjA1MTg2MDUyOQ==/original/a453efcf-4d3e-4d35-a035-3ee265c7ea96.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2Mzg4ODI2MjA1MTg2MDUyOQ==/original/177f408b-45d7-4e7d-9602-7e07c57e2308.jpeg",
+          "label": "Workspace"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/2b078559-2083-43cf-806b-7f615815d20d.jpeg",
+          "label": "Exterior 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/ee71e318-6668-4207-b0f1-ac0ed8d784a4.jpeg",
+          "label": "Exterior 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/60062af2-296e-451a-8b65-5f7990a05863.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2Mzg4ODI2MjA1MTg2MDUyOQ==/original/0bd61904-527c-4244-89a4-62aea2b15b02.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/d23e58d0-90cb-435c-94db-9c4d8fcda143.jpeg",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/51513538",
+      "targets": [
+        "sweep7-airbnb-51513538-20261230-20270103"
+      ],
+      "expected": 29,
+      "method": "Airbnb ilan fotoğraf turunda 29 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/85cdbd9f-b0ac-4c55-84bc-cf60e66689a9.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/006bfa3d-b1ec-4eee-8e02-2cf79aab6436.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/07f8a639-b1d5-4d32-b4a0-9f75e4540311.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/111bd1e4-fdeb-40d9-8762-2eb6ca06a3c4.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/a7f11b10-e909-4f81-90a7-d111504c907a.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-51513538/original/392d557b-816f-49ed-9476-8ece38d545d2.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/db13c683-f0a5-4936-ba49-d66ae6f5a3e2.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-51513538/original/7b45ff4f-800d-407f-a891-bd9de3e1b6d9.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/b415d7ef-bf96-4e87-8bf1-cdff1ace79cd.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/61ddef87-30c6-4de6-a6e3-57341371d565.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/97c6b33a-ed89-4a6c-965b-72f0cd287c86.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/432c72d8-7b1f-40a4-925b-3e67b547c036.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/24847101-823b-4024-85c1-57699c99f70e.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/d2a8c658-3195-40ce-90a9-263ed4dc8c33.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/c78281ab-2c3e-4b2d-b017-61272a030174.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/93ebfbb5-fdfc-4e7b-ae83-c34d3217ed8a.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/8f652e3f-d2b7-46fa-9585-21d1d17246c9.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/e56f81ad-e048-4754-967a-cb4873cf3760.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/8d9042db-a412-484a-8035-f2c2932d392f.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-51513538/original/2de02f58-1399-42ba-ae58-55b8d013f71e.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/cf3900ed-6c25-40c4-b9de-dc3ab1fe5a0a.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/1639f4af-d8f2-47f1-bd22-518bc45ad3b9.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/3f26f1df-0f46-4277-bbf5-a341d570ec02.jpeg",
+          "label": "Half bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-51513538/original/6b1c9979-70ed-4967-8bd8-21beb7b411ab.jpeg",
+          "label": "Backyard"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-51513538/original/653ddb5f-facc-4c71-b2e4-2cc05fb51ed6.jpeg",
+          "label": "Backyard"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-51513538/original/6a5b34db-5eab-45a7-9388-82c0c9f22899.jpeg",
+          "label": "Backyard"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/a7f448d1-9ab7-48af-819c-4b593fcd9e46.jpeg",
+          "label": "Patio"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-51513538/original/fc4fd59a-91f7-4800-9fcd-203b0ecec8bd.jpeg",
+          "label": "Patio"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/0094c6b7-ae63-4f74-ac4b-3ec303842683.jpeg",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1174576099912827244",
+      "targets": [
+        "sweep7-airbnb-1174576099912827244-20261230-20270103"
+      ],
+      "expected": 21,
+      "method": "Airbnb ilan fotoğraf turunda 21 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/8a1a5e5f-13d5-41c1-b1d6-346c5c3c2bce.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/bf75f350-f4e0-47d1-b82f-ce0f9e7ba0ba.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/91390e7c-8eb4-4cf8-b80c-2be7719787f5.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/e99d32d4-d239-4228-bf0d-a876bbad4761.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/0b6ad078-0132-4eea-b1ba-529e60aca3ff.png",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/b6f7dff4-dbef-48bb-a1a4-440dfdd8de3b.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/fe20404a-9741-404c-b6f6-6cb7cabdb723.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/bc9d174c-131b-42a6-8041-c9d4cce97be6.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/248f55b0-e5bb-4a12-bce2-cf68a9ecfc3f.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/9f129750-a3e8-43db-8ca7-088e0b1dc959.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/5e7b6776-aa97-46eb-a8ab-abe913dacf15.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/4939e7ff-467c-4ab6-b9ae-4ac3cbad7574.png",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/0fa0d346-9761-4446-9a09-ab09ce037f7e.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/3be53743-5705-4489-88e0-23393843f1b5.jpeg",
+          "label": "Patio"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/44791829-6cf1-40a2-a4ec-261766dec46a.png",
+          "label": "Deck"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/326f26bb-6410-4135-83ef-754e2eb33f0e.png",
+          "label": "Deck"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/10b4671f-fcc1-4e75-9d25-98601e7e786b.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/fc599d86-4fbb-4b6a-86eb-38e1b0358f4b.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/79269aba-fa39-4e34-a186-31a69ed2306a.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/ddf1934c-0e65-48ba-9987-533917cf58f8.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/18a1806d-2eec-4a6f-821e-166f91beb188.jpeg",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1478101487047693053",
+      "targets": [
+        "sweep7-airbnb-1478101487047693053-20261230-20270103"
+      ],
+      "expected": 47,
+      "method": "Airbnb ilan fotoğraf turunda 47 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/c7ed043e-36a6-45d1-8e6f-a77ec29cbd3c.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/b1a67ba0-14ef-4512-a0b0-68c4820ba0f2.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/4ab702fa-de11-4ce3-83f3-b6f54901c053.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/8e8949c6-7305-408d-80fe-1c857346dd52.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/2ed750cd-45b0-4760-a14d-1a4734846256.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/9c236cad-f585-471d-90b0-6fbf93b6d650.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/4ba097d6-264a-4cf0-bb55-864f22a9bf01.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/ad9b2a90-6046-4140-a211-7a50cac98ba9.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/c102f406-abcf-462c-a08f-eb48858cce67.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/6f049505-aeb4-4199-90ab-653e05b44ed4.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/29ab4916-4607-43f8-8eca-af8521152547.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/f26667c3-27c9-4aa2-88f4-56c9cc1339e3.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/f374e160-0d40-4907-b37d-fefb81f2e84e.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/52fd317f-47a2-4707-a490-09da5a2f4a5f.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/c57d044f-ee2c-49d1-8419-454105d8bfef.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/40d32d24-2ae3-42db-bcf6-570337d8dd9d.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/ea4aeb23-181d-4791-a38a-29e5734e316c.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/980ae8ad-191c-42ec-980f-1ac773b6e7b1.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/483ec4d2-d00f-43bf-8d97-94fb9bd7d300.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/5928439d-f398-4d09-803f-f544b3ff76e7.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/1c83623f-2502-4e35-a5eb-4ae4c8c3b98e.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/2ec3f783-7e4e-4526-a268-01ac2fb67ea9.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/0bb28d51-3b9e-4420-8c0f-f1d513b48aca.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/5dec1d4b-9700-410f-81d4-eaf2f52f29a2.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/0133072a-3585-45a6-8c97-606deec28500.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/e687bfcc-3244-4713-8651-1d46447eace2.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/2828b44e-a0f6-4760-966f-5f53055e1fe3.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/a75d8474-2368-4ded-90de-a3805229b53a.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/85ceb392-99df-4788-8093-090ba670cfe8.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/e80e38da-1fa1-492e-a479-f0dc2bca6198.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/b57d58d6-4e1d-481f-ae39-74e24962d215.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/4b23c4ac-a117-4b35-be4b-72e9d44cd072.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/0e517ba6-4899-4dc2-95ae-79cc61232c90.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/e52aa67a-14f7-4828-821c-7c1567498d94.jpeg",
+          "label": "Laundry area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/9fdc5468-1438-486c-83a7-9d1f2b5426a1.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/5077f8b3-d012-4152-8d66-6efa061f8372.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/90f8b781-5dea-4722-8862-35901a2e6146.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/9735a994-13b4-4a76-9abd-a2b301801c88.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/e9d3a5f4-1e18-4191-ac06-eb3b1d33bdf4.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/07818347-e693-41bd-a2d2-271d05a36c7e.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/5a77b6c0-ba74-4a5a-a68f-6f6cd6f9a58e.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/8727ff25-d692-495e-916c-12768bd57588.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/8c301594-7ae4-4005-bb4f-d0c77f275436.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/2959eecc-99ba-4fcc-ac1b-cb5fd977efd9.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/0faf966d-7fd9-4597-a4f1-11818d5eccbf.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/ff9182c1-ade8-4981-8918-998cb80775a0.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/6a3d070e-9c75-499b-a9b6-ff065688f5a7.jpeg",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1066700616308697452",
+      "targets": [
+        "sweep7-airbnb-1066700616308697452-20261230-20270103"
+      ],
+      "expected": 26,
+      "method": "Airbnb ilan fotoğraf turunda 26 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/25ad6d8a-c129-49f7-9803-573c870f3c0f.jpeg",
+          "label": "Living room 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/7a1233c0-fb10-44f2-abb2-013672a6254a.jpeg",
+          "label": "Living room 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/07fb9b6a-80a1-480f-9f6c-4189941e35a1.jpg",
+          "label": "Living room 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/7824da84-336a-4c9d-9fdc-071b17ecba63.jpeg",
+          "label": "Living room 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/d0d35990-3845-4f96-8ca5-bfefd6ff097a.jpeg",
+          "label": "Living room 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/fdde9fd4-c26c-488c-ad69-9640d172cfb2.jpeg",
+          "label": "Living room 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/33a8adbb-3887-4047-b2ba-2c82dc679884.jpg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/c821b07d-b2c7-429c-8d16-37e3beed7fab.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/6bb8e8ca-83c9-4f1d-8b8e-00f7258da13f.jpg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/39c66a18-f538-498d-b887-f51bded2a6ae.jpg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/9bfecae7-49d2-4284-a687-5b70d8cab1a1.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/4cc6a074-2097-44e0-a7ee-daa75036e94f.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/db74fe65-99b6-4396-90c5-f0d2b51ed5bd.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/f9d9e026-afd7-45d4-841d-7ad16c07b264.jpg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/dec1b24f-a7f4-4027-a05b-d7cca87191a0.jpg",
+          "label": "Bedroom 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/2953c6fe-ac2d-4258-bdfa-6651dbb05afe.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/0bdbbcb0-528f-473e-9055-9806b8f68fe7.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/e4af4f42-e38f-4368-a49c-16865d1a9b94.jpg",
+          "label": "Workspace"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/a779a421-28ce-42bc-a19d-d9d5d06a6bf9.jpeg",
+          "label": "Balcony"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/b38a0bb0-1c95-4800-9c4c-b75a318f8cb3.jpeg",
+          "label": "Rooftop"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/268a88ac-e81a-4da4-8321-1c8cf4c67bad.jpeg",
+          "label": "Rooftop"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/4fd98c77-04b5-4bcb-94b7-cfad0d529ff6.jpeg",
+          "label": "Laundry area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/ee061e46-1bf2-4ce8-a4b1-1645550b16ec.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/cba527bb-c12f-45f8-a9cd-d9c5473f69bb.jpeg",
+          "label": "Library"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/7b609c20-3e75-493f-a092-c525b812a55b.jpg",
+          "label": "Library"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/d066e8aa-ad62-4808-b605-c9f3e88f44ca.jpg",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1805168581752936023",
+      "targets": [
+        "sweep7-airbnb-1805168581752936023-20261230-20270103"
+      ],
+      "expected": 10,
+      "method": "Airbnb ilan fotoğraf turunda 10 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/8c92f7ac-915d-4530-ae15-8f9fc03165ba.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/e1b2c9eb-37ed-476d-9a9e-b734ae41f3b1.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/bf4e5ec5-c816-44ef-86c3-454a042372c5.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/24d6731a-71c6-4700-8db6-c6f2e66bc65f.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/e4d0bc11-923a-45e4-8440-cefcec49770a.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/c5e0eda3-2359-42b2-ab2f-03daf39cf270.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/d0252cf7-2994-4e8f-9dcc-dde26f5b85be.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/fde34946-a328-4d72-8acc-0e8179afe815.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/28edc600-7892-4622-a387-836a481edd2b.jpeg",
+          "label": "Full bathroom"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/c1d6ad12-eaae-46bc-bd9c-ed5986c5497f.jpeg",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1727650304700546371",
+      "targets": [
+        "sweep7-airbnb-1727650304700546371-20261230-20270103"
+      ],
+      "expected": 108,
+      "method": "Airbnb ilan fotoğraf turunda 108 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/33834973-6bd6-4834-99c6-a974a88f0c11.png",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/cacd75c6-45c2-4d5c-806e-fb8e0ff82450.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/ef851503-2533-4e52-8589-053955b5f0a9.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/4a96b4d6-4afc-4d9d-9c8a-c1a059cd874a.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b3136024-b356-4071-a599-acea390c0419.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/838e2179-2498-4b58-b172-23e0dc9feb7c.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/1386556d-9ebe-4441-9334-c868ce421561.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/3a42b9ff-a5ed-4b2b-b0b6-75e99ea9fe2f.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/7cda7e5c-8afe-43f8-93b2-f100db2b5bcb.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/86fd6409-35b6-43c1-97f6-824e3e1ea22f.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/48af349b-1af5-4119-a607-681b403fda2b.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/685c5b77-2743-4e64-9ae9-3a49addcf268.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/305fcab8-f529-4bf6-8133-2c7d31062081.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b3a4a099-6d4f-4c21-af31-1488ebc06679.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/24a6dbbe-bd91-41b7-b1f9-943c7304d9c8.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/ef62cad9-6eae-476b-8f41-2ac87260b638.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/75b1ff4a-7aba-4318-b244-d305b45c0ed7.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/8ee71925-8868-4da5-8649-2d44af47a8e4.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/911a2412-3e5b-4615-870e-e70f6df61c53.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/ea50ebdf-bb65-42ff-b4ad-8637607f8cdf.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/eb9f2eeb-ee41-4cd9-a00c-2386fccb3b45.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/f75f86da-4e4d-44eb-bbc9-f6aba9451b1d.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/f578e60d-850a-4916-ae0c-cf2234603fa1.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/406fc538-7333-4564-83e6-2fb351c9be70.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/1a9e2ef4-d435-4c6c-a4a1-c7dd42821d2d.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/75ace849-cbc1-4650-b45b-ef5e5afa6324.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/956a41f0-5939-4613-a6df-089aa02669d5.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b57c8a35-d900-4993-bf1f-2a740454f255.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/9c848c26-9b3c-4962-9502-91e37ef45cc8.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/a3cac6b6-6649-4cb3-be19-1b06fc021855.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/32199143-0e10-4fbf-9501-55e826534e24.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/0c60ecbf-64a0-4d34-810d-e1fc39747ff5.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/87513147-ca1b-4082-b784-6a48208fefcd.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/179445da-16ac-4bdc-bff2-5e11c387d9ac.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/4d61fce5-66dc-4509-82a7-c35a0ff0ffcb.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/91b55179-3458-4737-bcc7-a2c419ad0715.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/7711a83b-cd5d-4687-84e2-0c3d58e45677.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/e3066f93-e45f-4612-802e-9ca2423488f0.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/7d50bb41-ede8-4664-9989-7be74eb29904.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/a5198164-99d6-46a0-a156-f72279214499.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/82373621-4c92-4458-8cab-a26a7abedc35.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/6f083825-c30c-4a1c-9c54-cadbd67238ad.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/43e55455-2eed-469e-be94-80169c735a7b.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/ad32cfbf-7036-40a3-b2ec-953fc7f13ab1.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/bade96cd-83b2-45ac-b671-6c151cd9c0b8.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/347febaf-51a1-46ef-9794-45005b1b8316.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/ef80c4f5-2b2c-48a6-a7a4-602f94818fa8.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/1ff2eb5f-e224-49f1-b978-91ad2e72bbb0.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/82762dff-d3a6-48c0-b44d-99c1ec25ca5a.png",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/e261c00c-8bcb-4573-8e9d-972146c6ed53.png",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/cabeef47-296d-47de-8fc7-55c0845b4b6b.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/fc71ccf6-803a-44a1-a025-ef8f181accc2.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/4e85a02b-2583-47d4-8d0e-f5dfb9886cbd.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/f63f5b96-1763-4c2f-a548-29bfe6de9c9a.png",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/322ba8c8-985c-4b2b-b770-622167f29e9c.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/9184a0c6-5759-4b0f-8d2f-9aefb460e2b6.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b03980e2-6551-49ce-93a0-0fa886288cd6.png",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/7904021a-f203-4e10-ae1a-63037f5ba3ca.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/6378c76a-04c8-40c5-aa55-b3ef9a118f93.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b2fce30a-4b63-436e-ad47-4ea22537219a.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b99ac00e-3036-41e7-b1da-1194cdf326ce.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/73e452cc-492a-4d37-9ae1-272ff523a0a9.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/2d6bda69-acc4-44ca-9720-512aee19316f.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/a6a5a6a6-62fc-43c3-9bf2-22d4ce612741.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/2fe6ef6a-f07f-43b9-988a-8821976aa686.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/a12d35de-b0bf-458d-88a9-a522e666ccc0.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/c04e0a50-2b1f-43a3-b2a2-bf850867d3dd.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/27f620ec-4faa-4137-9568-d6e96f9891e8.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/e09b252b-b06b-40e4-a0cd-b4ccbb001d20.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/ea61c01b-71e8-48e0-b05d-bfa48d761394.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/97e4eb36-f9af-4ef7-b209-a315327b3f8a.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/f1a7125b-a48c-43cf-b968-42f34d929455.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/21c7b54a-f674-407f-bf45-02f3760feb33.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/dae5e703-2238-4aeb-a8d9-a576fef763c6.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/0f05bc59-f22a-4e5b-89dc-8817ad4a5f0e.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/7cef98ad-18e5-48d7-9c1e-b12cf2ea4f55.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/e390d980-59e5-4ba0-b861-cf8a34c93544.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/20b3cd8a-d8f1-4ca5-93a7-10705cf42fa9.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/0c5effce-e54a-41ed-a0cd-df57dbf5b577.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/ac6c6bdb-383c-4d74-9034-c2fb028ccafe.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/2ae7b289-6acb-4751-80fe-1fe95f03d562.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/7ec19ca6-7af0-4e1e-a738-dfa8891581dd.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/df4bb5e1-bae3-4f7b-8bb8-852da349db71.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/3e58eae7-2ba0-439f-8395-0a21c7e6090a.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/865f04d1-4766-4e1c-857c-215fae862b26.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/99d2a741-cfe8-4da9-ac0a-12ddc23898ea.png",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/95cd325e-951f-441f-8434-b048dcb0280d.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/95880728-9da0-4dcb-baaf-4ad517f6b259.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/49699dde-59d7-445f-b3a6-dcf9fbea1897.jpeg",
+          "label": "Full bathroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/1f717d8f-cdcc-471d-9f9a-4ed317def229.png",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/abd4dafe-7a7e-439b-b607-c69a7525ecf3.png",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/1d1cc9f6-47cf-4e39-ac09-dbed8b338e65.png",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/34137cfd-4ebf-4d77-b92e-f0c9677eb0e7.png",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/66980fa5-514d-4e5d-877b-2664f1b60030.png",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/2d770955-6412-4132-ac9d-5c506ebf2075.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/011996de-9b53-426c-bb95-ce50aaf796e3.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/e302dd17-a2a9-4559-9a06-a0a0875cf9f2.png",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/43e636a9-c87c-4755-a270-7bc49019ff02.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/959f16aa-036a-48d4-949b-e60e7a3d5344.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/fc32e2bd-e78d-41f0-b3df-fed68092af2e.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/d40f0d03-d925-49d2-9e4e-ab9718f3023a.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/b3ccc302-6c42-4a28-9549-d76bee037a71.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/d40c482d-6965-4a38-869b-6b734f2284e7.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/bc9f8c76-ded7-43ab-ad7c-c6495e922798.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/6fc73308-51a7-443b-a14d-3a351cfe6414.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/0ef98c0b-e110-4a20-90f5-cfe4eb234df9.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/44c8a0b3-2d88-42a5-bc1e-407b7dd3ef42.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/fe38674a-9aeb-4310-90fb-e9d361a2bfc8.png",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1305081869431363843",
+      "targets": [
+        "sweep7-airbnb-1305081869431363843-20261230-20270103"
+      ],
+      "expected": 51,
+      "method": "Airbnb ilan fotoğraf turunda 51 fotoğraf görüldü; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/e3680a5a-47ac-45a5-afb3-cef3fe85cbe1.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/a972c373-b2ee-434d-b98f-0549d7e3a0b3.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/ce499bd0-a6b3-407a-9c9b-1ec8f2b40add.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/7a0dc7a8-85e7-4b6c-9e42-32fff61195aa.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/74747e83-62d6-4533-810e-42c097540dc1.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/4da7d8e6-5c7f-450c-9eb7-06e217895404.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/7a5a3af5-256a-42fa-b517-762067bc35cd.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/cfd4b0a0-3950-4214-aa5f-dea4b380174c.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/0aabe305-e3d7-4bb7-a0fb-f741b706258c.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/a171f88f-7949-4f33-bc6b-c3aa6e5828a5.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/b74ad8e9-9216-4c0c-ac2e-10d10a7de20f.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/9c35a335-de46-40f4-b066-ca769ba4b1f6.jpeg",
+          "label": "Living room"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/4da7b5f3-e784-4b04-9aa0-417cf1001947.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/af3e13d0-1e7d-4077-a1fb-b1bc2c0385ac.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/9b15b3a0-31f0-43d6-99ac-179b531c4d53.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/15b52fa2-c437-4c4c-8ba2-00fc2c89e179.jpeg",
+          "label": "Full kitchen"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/c070a8b2-7988-4c1d-8a10-5ca7a3ede8b5.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/bfe08b1d-f4e4-4532-9aec-da22127a5cd9.jpeg",
+          "label": "Dining area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/86feeb02-f6e5-4f0a-855c-1e5b625f1f23.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/1d82790c-a90a-4c10-9fea-90256d8752ad.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/03e8b17b-5bc2-4f38-a845-9e55d233ea7c.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/f8190245-21fb-4f3d-9f21-e2216b4671dc.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/bc12b17e-a1e7-4ffe-9c34-40a1698b0f1a.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/edcf0996-e27a-46cc-86d1-e3843deb583c.jpeg",
+          "label": "Bedroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/f6790994-721e-47b5-a836-192471de3ccc.jpeg",
+          "label": "Bedroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/814926a3-6a28-460c-9b68-c45aa185a057.jpeg",
+          "label": "Bedroom 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/f3e6159e-9d22-4553-9370-918e644c74dc.jpeg",
+          "label": "Full bathroom 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/60dee144-f2a6-4e59-bf76-4040df90e9e0.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/a3a2bfed-372e-47b9-bb3e-6ebc9cb511e3.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/e6c67136-b45d-4068-bc7b-1dbd1d77d32a.jpeg",
+          "label": "Full bathroom 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/0287ed11-4116-4248-a527-f06a7e2c8b7c.jpeg",
+          "label": "Backyard"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/669e869a-4e91-40e9-87b0-c0ff0f138bf0.jpeg",
+          "label": "Backyard"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/3ee25118-f811-4cbf-86fd-42033ab00df1.jpeg",
+          "label": "Laundry area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/86a237d5-29a7-4dc1-b95d-44e4b77072e9.jpeg",
+          "label": "Laundry area"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/fc10b2c9-7b79-47cf-a8bc-cd6a11e8c181.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/6b96cc12-7dd2-435a-a6c1-043840df13f5.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/a1ec2e7f-c5c7-47df-afc1-ac80c4903da6.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/cdeb0db7-af0e-483d-874c-adba22a69ec8.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/e29ac236-715f-4955-a445-9b9ead8cc1b1.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/4a2816a5-28e3-48a8-ae8c-fb26675c829c.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/ca63e3b3-8970-402a-9021-58d224bc577e.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/dae01327-1882-4233-8bcc-01c657762a1f.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/6e238f46-9518-4f03-9715-f2007b9a862e.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/46b717ff-7434-4d05-bff1-a9acd9b1f8e6.jpeg",
+          "label": "Exterior"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/3e0473ce-84fc-4796-b2f7-413ff9be5712.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/41b68b34-6cbf-4997-947e-7da87b6efcbd.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/724cb6dd-703b-4995-b12b-73410cc4cbfc.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/53b82a30-1073-41e1-b1ab-113d4d98be9d.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/90fec84c-e479-403f-b9b0-55446d755a02.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/e073c076-acb5-448c-9490-b51cd65ab092.jpeg",
+          "label": "Additional photos"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/265a2eec-c65e-419d-a120-468bbe10abab.png",
+          "label": "Additional photos"
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/triumph-haus-mit-3-schlafzimmer.html",
+      "targets": [
+        "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103"
+      ],
+      "expected": 35,
+      "method": "Booking çok üniteli tesis; seçili ünitenin (Üç Yatak Odalı Ev, oda 1052821701) kendi galerisinde 35 fotoğraf görüldü, diğer ünitelerin fotoğrafları eklenmedi; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/923925810.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/730031249.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485990991.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992698.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992477.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992590.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485991141.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992959.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992883.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992498.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992557.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992302.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992516.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992295.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992456.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992506.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992481.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485991307.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485993013.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992599.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485991329.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992475.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992007.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992962.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992619.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992009.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992617.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992452.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992948.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992544.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485991070.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992573.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992237.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992936.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/506536685.jpg",
+          "label": ""
+        }
+      ],
+      "unitId": "1052821701"
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/ferienhaus-berlin-6-pax.html",
+      "targets": [
+        "sweep7-booking-ferienhaus-berlin-6-pax-20261230-20270103"
+      ],
+      "expected": 6,
+      "method": "Booking ilan galerisinde 6 fotoğraf görüldü; tesiste tek ünite (Dört Yatak Odalı Ev) var, çocuk oyun alanı kareleri tesis geneline ait; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/929479761.jpg",
+          "label": "Bina"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/929480040.jpg",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/929480044.jpg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/929480047.jpg",
+          "label": "Oturma alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/929489695.jpg",
+          "label": "Çocuk oyun alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/929489699.jpg",
+          "label": "Çocuk oyun alanı"
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/im-grund-22-c.html",
+      "targets": [
+        "sweep7-booking-im-grund-22-c-20261230-20270103"
+      ],
+      "expected": 14,
+      "method": "Booking çok üniteli tesis; seçili ünitenin (Üç Yatak Odalı Ev, oda 715143503) kendi galerisinde 14 fotoğraf görüldü, diğer ünitelerin fotoğrafları eklenmedi; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119697.jpg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119703.jpg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119706.jpg",
+          "label": "Bahçe"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119719.jpg",
+          "label": "Bina"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119726.jpg",
+          "label": "Kat planı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119728.jpg",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119741.jpg",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119745.jpg",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119750.jpg",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119763.jpg",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/399131190.jpg",
+          "label": "Televizyon"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/407204167.jpg",
+          "label": "Televizyon"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/407204198.jpg",
+          "label": "Televizyon"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/503889411.jpg",
+          "label": ""
+        }
+      ],
+      "unitId": "715143503"
+    },
+    {
+      "source": "https://www.holidu.de/d/69492292",
+      "targets": [
+        "sweep7-holidu-69492292-20261230-20270103"
+      ],
+      "expected": 30,
+      "method": "Holidu ilan galerisinde 30 fotoğraf görüldü (en büyük erişilebilir boyut l.jpg; hr.jpg sunucuda açılmadı); oda etiketleri Holidu görsel etiketlerinden; 7 Kasım 2026",
+      "photos": [
+        {
+          "src": "https://img.holidu.com/images/9358b8b5-38ce-47f5-8916-23f81bb7cba0/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/d99343bb-2d35-4298-84bb-3759c4453a5e/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/ff6017af-ce9d-428f-9ec6-76a440f860c2/hr.jpg",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://img.holidu.com/images/56972d2a-69e3-40c1-a476-c6754442aade/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/01fa0cb9-0200-4290-9598-a1fd9fb1acc5/hr.jpg",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://img.holidu.com/images/59a6a793-a3d0-4193-b3c4-2959d76f44a1/hr.jpg",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://img.holidu.com/images/4603bb30-0eb2-49b6-b5a7-e53e375d3e83/hr.jpg",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://img.holidu.com/images/6a252eba-4b1d-4bd2-8cee-deb43f7a0122/hr.jpg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://img.holidu.com/images/49a811b2-d91a-4cae-bf68-9f52c5e279bb/hr.jpg",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://img.holidu.com/images/b59ac23d-83fd-4b19-8317-c6c9d7561a2f/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/0124b24a-81c9-4019-a909-01a6a5ddb50d/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/2ea46ce5-9947-483d-941b-8a75f10427c2/hr.jpg",
+          "label": "Dış mekân"
+        },
+        {
+          "src": "https://img.holidu.com/images/800a4bd4-8648-4572-ac05-54507f5861be/hr.jpg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://img.holidu.com/images/77f98188-6a05-41f1-a7e3-37621d02be2b/hr.jpg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://img.holidu.com/images/8252d308-3012-4e3c-b966-dd9f20b43349/hr.jpg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://img.holidu.com/images/6b7b8c89-ae8b-43f2-9b62-b46fba42dc37/hr.jpg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://img.holidu.com/images/d8652bba-5883-4c28-9021-2472f4657fc7/hr.jpg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://img.holidu.com/images/9de1e6d8-5777-4e85-b276-f5ad94073411/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/0e02822d-9b56-45d5-bb65-8400eb6e2281/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/79734f80-4108-41af-b5d6-7d1716a8f064/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/5c46e8ea-2272-4202-9872-1b269c01a805/hr.jpg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://img.holidu.com/images/caab1abc-19ab-4cab-96ab-7f4f1c2f4d79/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/a46a3db2-9063-478b-8654-00e1960d17e1/hr.jpg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://img.holidu.com/images/b278242e-ca57-4561-958c-1e1a20666319/hr.jpg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://img.holidu.com/images/b6fb2b78-afc0-4b7f-90c6-6f15341b17f6/hr.jpg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://img.holidu.com/images/45223160-c9e0-417f-8e0c-cff8620c465d/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/fbc5b5ca-21bb-439e-8435-49e789da8137/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/6458b371-7aa6-4e99-9075-910b8e16988f/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/bd77988a-7187-41e7-9944-a01ad916d6fa/hr.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://img.holidu.com/images/182d5730-c5f6-446a-ba7a-16b4d6b93c94/hr.jpg",
+          "label": ""
+        }
+      ]
     }
   ]
 }
