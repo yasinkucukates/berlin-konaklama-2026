@@ -2361,6 +2361,2766 @@
     "six/prepared/galeri-veri.json"
    ],
    "status": "sitede"
+  },
+  {
+   "key": "airbnb:1765241459359399223",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1765241459359399223",
+   "name": "Central 120 m² Design Loft Berlin Mitte",
+   "area": "Mitte",
+   "address": null,
+   "coords": {
+    "lat": 52.5382,
+    "lon": 13.3966,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 9,
+   "rooms": 3,
+   "baths": 2.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1510142980699078825",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1510142980699078825",
+   "name": "Modern accommodation Emser",
+   "area": "Wilmersdorf (Emser Str.)",
+   "address": null,
+   "coords": {
+    "lat": 52.4686,
+    "lon": 13.42731,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 7,
+   "rooms": 3,
+   "baths": 2.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1389672541037596818",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1389672541037596818",
+   "name": "Modern place to stay - Schöneberg",
+   "area": "Schöneberg",
+   "address": null,
+   "coords": {
+    "lat": 52.48723,
+    "lon": 13.36653,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 7,
+   "rooms": 3,
+   "baths": 2.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:40216009",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/40216009",
+   "name": "La Corniche Apartments",
+   "area": "Neukölln (Ringbahnstr.)",
+   "address": "Ringbahnstraße 58, 12099 Berlin",
+   "coords": {
+    "lat": 52.4686732,
+    "lon": 13.38778,
+    "accuracy": "adres"
+   },
+   "kind": "daire",
+   "capacity": 8,
+   "rooms": 3,
+   "baths": 1.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:38533401",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/38533401",
+   "name": "La Corniche Apartments PREMIUM",
+   "area": "Neukölln (Ringbahnstr.)",
+   "address": "Ringbahnstraße 58, 12099, Berlin, Berlin",
+   "coords": {
+    "lat": 52.46775,
+    "lon": 13.38822,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 12,
+   "rooms": 5,
+   "baths": 3.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:34301098",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/34301098",
+   "name": "La Corniche Apartments R3EGL.",
+   "area": "Neukölln (Ringbahnstr.)",
+   "address": "Ringbahnstr. 58, 12099, Berlin, Berlin",
+   "coords": {
+    "lat": 52.46473,
+    "lon": 13.39321,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 6,
+   "rooms": 3,
+   "baths": 2.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:31297828",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/31297828",
+   "name": "3 Apartments | 18 People | 1 floor | Kreuzberg",
+   "area": "Kreuzberg (Görlitzer Str.)",
+   "address": "Görlitzer Str. 38, 10997 Berlin",
+   "coords": {
+    "lat": 52.4960034,
+    "lon": 13.4433823,
+    "accuracy": "adres"
+   },
+   "kind": "daire",
+   "capacity": 16,
+   "rooms": 3,
+   "baths": 4.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1268121761753625501",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1268121761753625501",
+   "name": "Big stay for 13 in Kreuzberg",
+   "area": "Kreuzberg (Gneisenaustr.)",
+   "address": "Gneisenaustraße 89, 10961 Berlin",
+   "coords": {
+    "lat": 52.491676,
+    "lon": 13.3954149,
+    "accuracy": "adres"
+   },
+   "kind": "daire",
+   "capacity": 13,
+   "rooms": 9,
+   "baths": 3.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:32453210",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/32453210",
+   "name": "\"Freesie\" Apartment",
+   "area": "Mariendorf",
+   "address": "Mariendorfer Damm 47, 12109 Berlin",
+   "coords": {
+    "lat": 52.4485137,
+    "lon": 13.3854635,
+    "accuracy": "adres"
+   },
+   "kind": "daire",
+   "capacity": 13,
+   "rooms": 3,
+   "baths": 2.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:31701521",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/31701521",
+   "name": "Apartment \"Enzian\"",
+   "area": "Mariendorf",
+   "address": "Mariendorfer Damm 47, 12109, Berlin, Deutschland",
+   "coords": {
+    "lat": 52.44911,
+    "lon": 13.3864,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 12,
+   "rooms": 3,
+   "baths": 2.0,
+   "samePropertyAs": [
+    "55460987"
+   ],
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:942782300690662568",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/942782300690662568",
+   "name": "Exil DeLuxe",
+   "area": "Wilmersdorf",
+   "address": null,
+   "coords": {
+    "lat": 52.50552,
+    "lon": 13.30782,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 15,
+   "rooms": 4,
+   "baths": 1.0,
+   "samePropertyAs": [
+    "holidu:55405311"
+   ],
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1363888262051860529",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1363888262051860529",
+   "name": "Generous Familiy Flat",
+   "area": "Prenzlauer Berg / Pankow",
+   "address": null,
+   "coords": {
+    "lat": 52.4924,
+    "lon": 13.4175,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 6,
+   "rooms": 4,
+   "baths": 1.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:51513538",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/51513538",
+   "name": "3 bedroom city apartment",
+   "area": "Weißensee",
+   "address": "Smetanastraße 8, 13088 Berlin",
+   "coords": {
+    "lat": 52.5491274,
+    "lon": 13.4582849,
+    "accuracy": "adres"
+   },
+   "kind": "daire",
+   "capacity": 8,
+   "rooms": 3,
+   "baths": 1.5,
+   "samePropertyAs": [
+    "holidu:60481924"
+   ],
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1174576099912827244",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1174576099912827244",
+   "name": "170m² Exclusive Loft with Terrace – central",
+   "area": "Pankow",
+   "address": "Langhansstraße 21, 13086 Berlin",
+   "coords": {
+    "lat": 52.5504111,
+    "lon": 13.4453997,
+    "accuracy": "adres"
+   },
+   "kind": "daire",
+   "capacity": 7,
+   "rooms": 3,
+   "baths": 2.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1478101487047693053",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1478101487047693053",
+   "name": "Ku’DAMM Charming Old Home/4-10 ppl/Family friendly",
+   "area": "Charlottenburg",
+   "address": "Schlüterstraße 19, 10625 Berlin",
+   "coords": {
+    "lat": 52.506925,
+    "lon": 13.317301,
+    "accuracy": "adres"
+   },
+   "kind": "daire",
+   "capacity": 10,
+   "rooms": 3,
+   "baths": 2.0,
+   "samePropertyAs": [
+    "holidu:66189960"
+   ],
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1066700616308697452",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1066700616308697452",
+   "name": "X-large Lifestyle Loft in Prime City Location",
+   "area": "Charlottenburg / City West",
+   "address": null,
+   "coords": {
+    "lat": 52.5031,
+    "lon": 13.3269,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 16,
+   "rooms": 4,
+   "baths": 2.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1805168581752936023",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1805168581752936023",
+   "name": "Steglitz VI - Apartment for groups, teams + installers",
+   "area": "Steglitz",
+   "address": null,
+   "coords": {
+    "lat": 52.44784,
+    "lon": 13.34261,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 6,
+   "rooms": 3,
+   "baths": 1.0,
+   "samePropertyAs": [
+    "holidu:69282406"
+   ],
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1727650304700546371",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1727650304700546371",
+   "name": "Freedom Apartment: Ideal for big groups and family",
+   "area": "Neukölln (Hermannstr.)",
+   "address": "Hermannstraße 55, 12049 Berlin",
+   "coords": {
+    "lat": 52.4769707,
+    "lon": 13.4261428,
+    "accuracy": "adres"
+   },
+   "kind": "daire",
+   "capacity": 12,
+   "rooms": 3,
+   "baths": 3.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1093487777629181025",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1093487777629181025",
+   "name": "Holiday 33 Apartment L - 8 Rooms, 3 Baths (190m²)",
+   "area": "Prenzlauer Berg",
+   "address": "Kopenhagener Str. 9, 10437 Berlin",
+   "coords": {
+    "lat": 52.5490369,
+    "lon": 13.4106383,
+    "accuracy": "adres"
+   },
+   "kind": "daire",
+   "capacity": 12,
+   "rooms": 6,
+   "baths": 3.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:568559238557249296",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/568559238557249296",
+   "name": "Numa | Large 3-Bedroom Apartment with Sofabed",
+   "area": "Friedrichshain (Numa Kater)",
+   "address": "Warschauer Straße 46, 10243 Berlin",
+   "coords": {
+    "lat": 52.5036438,
+    "lon": 13.4472167,
+    "accuracy": "adres"
+   },
+   "kind": "daire",
+   "capacity": 9,
+   "rooms": 3,
+   "baths": 1.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1761050126833735364",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1761050126833735364",
+   "name": "Parkside Family Residence | 130 m² | Kids Room",
+   "area": "Mitte (Parkside)",
+   "address": null,
+   "coords": {
+    "lat": 52.5462,
+    "lon": 13.3765,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 8,
+   "rooms": 3,
+   "baths": 1.5,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:881100962020102125",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/881100962020102125",
+   "name": "Flattering Berlin 18",
+   "area": "Wedding",
+   "address": null,
+   "coords": {
+    "lat": 52.55013,
+    "lon": 13.36721,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 9,
+   "rooms": 3,
+   "baths": 1.0,
+   "samePropertyAs": [
+    "holidu:58793228"
+   ],
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1054854328388540881",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1054854328388540881",
+   "name": "Luxury Villa, 10 Rooms, 9 Bathrooms, Swimming Pool!",
+   "area": "Teltow",
+   "address": null,
+   "coords": {
+    "lat": 52.393,
+    "lon": 13.2847,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "villa",
+   "capacity": 16,
+   "rooms": 9,
+   "baths": 7.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1305081869431363843",
+   "siteIds": [],
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1305081869431363843",
+   "name": "Stil Haus Bungalow",
+   "area": "Treptow-Köpenick (Korkedamm, Grünau yakını)",
+   "address": "Korkedamm 18, 12524 Berlin",
+   "coords": {
+    "lat": 52.425242,
+    "lon": 13.5341714,
+    "accuracy": "adres"
+   },
+   "kind": "villa",
+   "capacity": 6,
+   "rooms": 3,
+   "baths": 2.0,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:triumph-haus-mit-3-schlafzimmer",
+   "siteIds": [],
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/triumph-haus-mit-3-schlafzimmer.html",
+   "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+   "area": "Rangsdorf (Teltow-Fläming)",
+   "address": "Kienitzer Straße 56, 15834 Rangsdorf",
+   "coords": {
+    "lat": 52.2996,
+    "lon": 13.453,
+    "accuracy": "adres"
+   },
+   "kind": "villa",
+   "capacity": null,
+   "rooms": 3,
+   "baths": null,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:ferienhaus-berlin-6-pax",
+   "siteIds": [],
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/ferienhaus-berlin-6-pax.html",
+   "name": "Ferienhaus Berlin 6 Pax",
+   "area": "Blankenfelde-Mahlow",
+   "address": "Teltower Straße 56 (Ferienhaus FH5), 15831 Blankenfelde-Mahlow",
+   "coords": {
+    "lat": 52.3642,
+    "lon": 13.3747,
+    "accuracy": "adres"
+   },
+   "kind": "villa",
+   "capacity": null,
+   "rooms": 4,
+   "baths": null,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:im-grund-22-c",
+   "siteIds": [],
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/im-grund-22-c.html",
+   "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+   "area": "Hoppegarten (Birkenstein)",
+   "address": "Im Grund 22-22d, 15366 Hoppegarten",
+   "coords": {
+    "lat": 52.5169,
+    "lon": 13.6549,
+    "accuracy": "adres"
+   },
+   "kind": "daire",
+   "capacity": null,
+   "rooms": 3,
+   "baths": null,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "holidu:69492292",
+   "siteIds": [],
+   "platform": "fewo-direkt",
+   "url": "https://www.holidu.de/d/69492292",
+   "name": "Steglitz V-große Altbauwohnung, 3 Zimmer, Küche, Bad & Balkon",
+   "area": "Steglitz",
+   "address": null,
+   "coords": {
+    "lat": 52.448185,
+    "lon": 13.343799,
+    "accuracy": "ilan-yaklasik"
+   },
+   "kind": "daire",
+   "capacity": 9,
+   "rooms": 3,
+   "baths": null,
+   "samePropertyAs": null,
+   "sources": [
+    "aday-arama/adaylar-2026-11-07.json"
+   ],
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:20561833",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/20561833",
+   "name": "Luxury 150m2 Residence Old City Berlin",
+   "area": "Condo in Berlin",
+   "coords": {
+    "lat": 52.51756,
+    "lon": 13.41168,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1298405404517902049",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1298405404517902049",
+   "name": "Central City Apt. Mitte Berlin Cathedral Museum Island",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.51269,
+    "lon": 13.40398,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1516664629518315705",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1516664629518315705",
+   "name": "Global Living | 110m² | 3 Bedrooms | Moritzplatz",
+   "area": "Serviced apartment in Berlin",
+   "coords": {
+    "lat": 52.5007,
+    "lon": 13.4132,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1110150478444917646",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1110150478444917646",
+   "name": "3-Rooms Apart. Citycenter Museuminsel Berlin-Mitte",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.513,
+    "lon": 13.4028,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:31467134",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/31467134",
+   "name": "Top Spot- Kreuzburg Central",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.49971,
+    "lon": 13.4394,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1097124971775341744",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1097124971775341744",
+   "name": "Unique Ap Kreuzberg 4 Bed Rooms",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.49308,
+    "lon": 13.39917,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1114502347195595546",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1114502347195595546",
+   "name": "City Center Berlin Mitte 2022 \"URBAN FLATS Berlin\"",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.52362,
+    "lon": 13.39849,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:16245894",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/16245894",
+   "name": "Gorgeous LEGAL Apartment for 6! 3BR / 2Bath.",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.4854,
+    "lon": 13.4246,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:8603631",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/8603631",
+   "name": "Stylish Berlin apartment in Bergmannkiez",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.49166,
+    "lon": 13.38973,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:16245953",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/16245953",
+   "name": "\"Beautiful  Penthouse with amazing  terrace\"",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.4854,
+    "lon": 13.4246,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:606926",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/606926",
+   "name": "My home in Berlin might be yours !",
+   "area": "Rental unit in Friedrichshain",
+   "coords": {
+    "lat": 52.52302,
+    "lon": 13.45452,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 2 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1094295373335288269",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1094295373335288269",
+   "name": "City Center Berlin |Mitte 501 \"URBAN FLATS Berlin\"",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.52287,
+    "lon": 13.39873,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1510668761580964209",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1510668761580964209",
+   "name": "Prenzlauer Berg: Apartment for 6, tram in 4 min",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.53521,
+    "lon": 13.42569,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1734671754145280716",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1734671754145280716",
+   "name": "Designer Apartment in Berlin's Prime Location",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5297,
+    "lon": 13.4003,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1114478631634514220",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1114478631634514220",
+   "name": "City Center Berlin Mitte 2012 \"URBAN FLATS Berlin\"",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5255,
+    "lon": 13.39886,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:49083210",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/49083210",
+   "name": "3 Bedroom Apartment with KeylessEasyEntry 24/7",
+   "area": "Serviced apartment in Berlin",
+   "coords": {
+    "lat": 52.50783,
+    "lon": 13.45868,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1273151223432730759",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1273151223432730759",
+   "name": "Cosy Two BR plus Self Checkin",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5348,
+    "lon": 13.4076,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1608666970508544992",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1608666970508544992",
+   "name": "Arbio I Bright & spacious Berlin home",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.53864,
+    "lon": 13.4214,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1088501536142233960",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1088501536142233960",
+   "name": "Spacious Architecture Apartment Kreuzberg",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.4921,
+    "lon": 13.37858,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:24259674",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/24259674",
+   "name": "ZOZO Berlin Vintage Vibe Apartment Prenzlauer Berg",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5407,
+    "lon": 13.42002,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1118128551347674037",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1118128551347674037",
+   "name": "Serene Haven: 3BR Apt with Light Tones and Artwork",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5116,
+    "lon": 13.4702,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1091049401714739246",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1091049401714739246",
+   "name": "ZOZO Berlin Grand Prenzlauer Berg Residence",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.54174,
+    "lon": 13.42107,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:886327209581598543",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/886327209581598543",
+   "name": "Vacation on the water",
+   "area": "Boat in Berlin",
+   "coords": {
+    "lat": 52.4976,
+    "lon": 13.4755,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Tekne/ev teknesi (Boat); villa/müstakil ev değil",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:9701019",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/9701019",
+   "name": "Spacious apartment in the Сenter of Berlin",
+   "area": "Guest suite in Berlin",
+   "coords": {
+    "lat": 52.53837,
+    "lon": 13.41217,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1216584442123381709",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1216584442123381709",
+   "name": "Up to 9 guests! Balcony, Groups-Friendly 5BR Apt",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.54482,
+    "lon": 13.41356,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Olası mükerrer: sitedeki \"Pappelallee 5 yatak odalı daire\" (airbnb:1216757408450098435) 146 m uzakta, aynı oda sayısı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1391282039611383783",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1391282039611383783",
+   "name": "Poets Place | Design Apartment in Kreuzberg",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.4874,
+    "lon": 13.3765,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1487124978450790796",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1487124978450790796",
+   "name": "Central 120m² Design Loft with Balcony",
+   "area": "Loft in Berlin",
+   "coords": {
+    "lat": 52.5402,
+    "lon": 13.40836,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1669587969841521383",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1669587969841521383",
+   "name": "125m² Design Hub | Private Entry | Mitte-Border",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5377,
+    "lon": 13.4108,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 5 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1713731710160909967",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1713731710160909967",
+   "name": "Large 5BR Apartment | Perfect for Groups | P-Berg",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5452,
+    "lon": 13.4157,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:30058984",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/30058984",
+   "name": "90 sqm 3 Room Full Kitchen, 5 min Main Station",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.52857,
+    "lon": 13.3869,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1715912658233052227",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1715912658233052227",
+   "name": "Arbio I Arabel King Suite - Sleeps 11",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.50278,
+    "lon": 13.36594,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 4 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1769503099747305818",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1769503099747305818",
+   "name": "Urban Elegance in Prenzlauer Berg - App 4",
+   "area": "Serviced apartment in Berlin",
+   "coords": {
+    "lat": 52.5463,
+    "lon": 13.4096,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:942646711749885435",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/942646711749885435",
+   "name": "Balcony | 3 Large BR, Desks, near Mauer Park Pberg",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.54746,
+    "lon": 13.4166,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:11746050",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/11746050",
+   "name": "The Paul, Group&Family flat, 3 BRs, For 4–8 Guests",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.552,
+    "lon": 13.4137,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:311703",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/311703",
+   "name": "Elegant 4 Room Apartment with 2 Bathrooms",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.4967,
+    "lon": 13.3563,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1145526663754751988",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1145526663754751988",
+   "name": "Central garden house loft in Berlin",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.54936,
+    "lon": 13.45211,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1584682685920901493",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1584682685920901493",
+   "name": "155m2 in City Center with Terrace & up to 6 ppl",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.49803,
+    "lon": 13.34881,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1747040602741767219",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1747040602741767219",
+   "name": "Family Apartment Moabit",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5273,
+    "lon": 13.3513,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 3 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1401471825935591820",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1401471825935591820",
+   "name": "180m2 Urban Loft – Balcony – Parking - Groups",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5381,
+    "lon": 13.37372,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Diğer",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1349228471698913628",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1349228471698913628",
+   "name": "Tiergarten: Large Apartment with 2 Bathrooms",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.53318,
+    "lon": 13.3506,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:970764866818900088",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/970764866818900088",
+   "name": "Grand Suites – 160 m² of Elegance & Comfort",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.53299,
+    "lon": 13.3792,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:767264142253006584",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/767264142253006584",
+   "name": "La Corniche Apartments Premium2",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.46469,
+    "lon": 13.39518,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:8751621",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/8751621",
+   "name": "Sunny Maisonnette & Garden Pankow",
+   "area": "Condo in Berlin",
+   "coords": {
+    "lat": 52.56314,
+    "lon": 13.40089,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:37734165",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/37734165",
+   "name": "Design Loft",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.54102,
+    "lon": 13.37082,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1545606803603865789",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1545606803603865789",
+   "name": "Modern New 130 m2 Apartment City Center KaDeWe/ZOO",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.50494,
+    "lon": 13.32425,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1185362314531639408",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1185362314531639408",
+   "name": "160m² Apartment: 3Bedrooms, 1.5 Baths & Balcony",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.4975,
+    "lon": 13.3113,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1185371951337071545",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1185371951337071545",
+   "name": "160 m² quiet apartment with balcony on Ku'damm",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.4975,
+    "lon": 13.3113,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:13060403",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/13060403",
+   "name": "Oasis in the urban jungle - 150 qm green/citynear",
+   "area": "Home in Berlin",
+   "coords": {
+    "lat": 52.55621,
+    "lon": 13.51681,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:44472456",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/44472456",
+   "name": "4-Bedrooms Apartment (130sqm) with 2 Bathrooms",
+   "area": "Serviced apartment in Berlin",
+   "coords": {
+    "lat": 52.5417,
+    "lon": 13.3633,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:44443842",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/44443842",
+   "name": "4-Bedroom Apartment (130sqm), 2 Bathroom & Balcony",
+   "area": "Serviced apartment in Berlin",
+   "coords": {
+    "lat": 52.5417,
+    "lon": 13.3633,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1094689777767288054",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1094689777767288054",
+   "name": "Charlottenburg central 3-room apartment with balcony",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.51941,
+    "lon": 13.30508,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1215670065483920217",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1215670065483920217",
+   "name": "Friedenau: 3 bedrooms for 6, S-Bahn in 6 min",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.46906,
+    "lon": 13.33573,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:18289300",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/18289300",
+   "name": "LEGAL and central Luxury Apt., underfloor heating",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.50466,
+    "lon": 13.31007,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:38450542",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/38450542",
+   "name": "3 Bedroom & 90qm Apartment in Charlottenburg",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5154,
+    "lon": 13.304,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1094703143284006810",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1094703143284006810",
+   "name": "Moabit 3-room apartment in a good location",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.53043,
+    "lon": 13.32759,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1705882789493544816",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1705882789493544816",
+   "name": "Practical 3-room apartment for 6 people in Wedding",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.54508,
+    "lon": 13.34764,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:16280687",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/16280687",
+   "name": "Penthouse (115sqm) with 3 Bedrooms  & Balcony",
+   "area": "Serviced apartment in Berlin",
+   "coords": {
+    "lat": 52.533,
+    "lon": 13.3269,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:842053424758910691",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/842053424758910691",
+   "name": "Comfort at Charlottenburg Castle",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.52427,
+    "lon": 13.29898,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1602775127649190141",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1602775127649190141",
+   "name": "SuarezLoft, 3BR, 2 baths, 120m2, ideal 2-6 Guests",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.50544,
+    "lon": 13.29407,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:696025291495494640",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/696025291495494640",
+   "name": "Steglitz-sized old building apartment, 3 rooms, kitchen & bathroom",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.4482,
+    "lon": 13.3438,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:54390985",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/54390985",
+   "name": "Ela Apartments Berlin",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.43631,
+    "lon": 13.31349,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1355023137621186501",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1355023137621186501",
+   "name": "160 sqm apartment in a lovely villa",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.4401,
+    "lon": 13.29675,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1060072094941688326",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1060072094941688326",
+   "name": "Vacation on the lake",
+   "area": "Boat in Berlin",
+   "coords": {
+    "lat": 52.4455,
+    "lon": 13.6228,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Tekne/ev teknesi (Boat); villa/müstakil ev değil",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1631838850027154131",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1631838850027154131",
+   "name": "House with a large garden just outside Berlin",
+   "area": "Home in Kleinmachnow",
+   "coords": {
+    "lat": 52.4082,
+    "lon": 13.2384,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1199345562225261710",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1199345562225261710",
+   "name": "Charming houseboat Marlin",
+   "area": "Boat in Teltow",
+   "coords": {
+    "lat": 52.40661,
+    "lon": 13.26077,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Tekne/ev teknesi (Boat); villa/müstakil ev değil",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:651857017585155116",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/651857017585155116",
+   "name": "160 sqm luxury houseboat in the middle of the lake",
+   "area": "Houseboat in Berlin",
+   "coords": {
+    "lat": 52.3795,
+    "lon": 13.6485,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Tekne/ev teknesi (Houseboat); villa/müstakil ev değil",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:898995184463318155",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/898995184463318155",
+   "name": "Schönefeld/Berlin - large house (10 people) near TESLA",
+   "area": "Home in Schönefeld",
+   "coords": {
+    "lat": 52.338,
+    "lon": 13.5412,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Mükerrer: sitede booking:schonefeld-berlin-large-house-for-max-10-persons-near-tesla olarak var",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1286216060239677729",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1286216060239677729",
+   "name": "Spacious South-Berlin Apartment with parking",
+   "area": "Rental unit in Großbeeren",
+   "coords": {
+    "lat": 52.3651,
+    "lon": 13.3143,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 32.7 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1381607092597384771",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1381607092597384771",
+   "name": "Bright & Spacious South-Berlin Flat with Parking",
+   "area": "Rental unit in Großbeeren",
+   "coords": {
+    "lat": 52.3651,
+    "lon": 13.3143,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 32.7 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1109427159975284561",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1109427159975284561",
+   "name": "Terrace house in Kleinmachnow",
+   "area": "Home in Kleinmachnow",
+   "coords": {
+    "lat": 52.4184,
+    "lon": 13.2185,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 2 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1788527671719840146",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1788527671719840146",
+   "name": "Oranienburg accommodation, max. 7 people, 3 bedrooms",
+   "area": "Rental unit in Oranienburg",
+   "coords": {
+    "lat": 52.72997,
+    "lon": 13.24656,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 34.4 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1494146615785441860",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1494146615785441860",
+   "name": "Accommodation Oranienburg max 7P",
+   "area": "Rental unit in Oranienburg",
+   "coords": {
+    "lat": 52.731732291740066,
+    "lon": 13.246499653501633,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 34.5 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1145385634025629190",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1145385634025629190",
+   "name": "Furnished apartment with balcony & parking space",
+   "area": "Rental unit in Blankenfelde-Mahlow",
+   "coords": {
+    "lat": 52.3275,
+    "lon": 13.4163,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 34.9 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1762983184625164563",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1762983184625164563",
+   "name": "3-room apartment between Potsdam and Berlin ",
+   "area": "Rental unit in Stahnsdorf",
+   "coords": {
+    "lat": 52.39202,
+    "lon": 13.21249,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 35.4 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1756666822821580178",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1756666822821580178",
+   "name": "4-room apartment between Potsdam and Berlin",
+   "area": "Rental unit in Stahnsdorf",
+   "coords": {
+    "lat": 52.39389,
+    "lon": 13.21141,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 36.2 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1272449821513030423",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1272449821513030423",
+   "name": "3BR apartment, parking & garden, close to A10/Berlin",
+   "area": "Rental unit in Petershagen/Eggersdorf",
+   "coords": {
+    "lat": 52.53131946883567,
+    "lon": 13.772382670759095,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 37.5 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1302857929204909922",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1302857929204909922",
+   "name": "Arbio Monteurzimmer Fredersdorf parking included",
+   "area": "Rental unit in Fredersdorf-Vogelsdorf",
+   "coords": {
+    "lat": 52.53998,
+    "lon": 13.74797,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 37.7 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:36330248",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/36330248",
+   "name": "Apartment in the villa on the city border of Berlin",
+   "area": "Condo in Falkensee",
+   "coords": {
+    "lat": 52.55662,
+    "lon": 13.14696,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 38.0 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1800163403942639302",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1800163403942639302",
+   "name": "Designer apartment in the historic Potsdam train station",
+   "area": "Rental unit in Potsdam",
+   "coords": {
+    "lat": 52.3823,
+    "lon": 13.1218,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 38.9 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1403376087059050689",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1403376087059050689",
+   "name": "Lakeside Retreat near Berlin",
+   "area": "Home in Berlin",
+   "coords": {
+    "lat": 52.43182,
+    "lon": 13.68722,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Olası mükerrer: An den Bänken 23 (Müggelsee) beş evli kompleks; sitedeki \"Family House with Lake Access Müggelsee\" (airbnb:1175489093358086077) ile aynı tesis; Booking cabin-with-sauna-by-the-lake de aynı adres",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1171445960798657373",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1171445960798657373",
+   "name": "Arbio Monteurzimmer Grünheide for 6 people",
+   "area": "Rental unit in Grünheide (Mark)",
+   "coords": {
+    "lat": 52.42476,
+    "lon": 13.82184,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 41.9 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1119528554595591440",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1119528554595591440",
+   "name": "Accommodation with terrace for 6 persons",
+   "area": "Rental unit in Petershagen/Eggersdorf",
+   "coords": {
+    "lat": 52.54267,
+    "lon": 13.79759,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 42.0 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1324776420584767178",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1324776420584767178",
+   "name": "Spacious Worker & Family Apartment, 2 Baths",
+   "area": "Rental unit in Ludwigsfelde",
+   "coords": {
+    "lat": 52.3068,
+    "lon": 13.2312,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 43.2 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:984146817146802831",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/984146817146802831",
+   "name": "Spacious fitter's & family apartment with terrace",
+   "area": "Rental unit in Ludwigsfelde",
+   "coords": {
+    "lat": 52.3068,
+    "lon": 13.2311,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 43.2 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1107873355519127651",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1107873355519127651",
+   "name": "The House – Stiller Grund",
+   "area": "Rental unit in Petershagen/Eggersdorf",
+   "coords": {
+    "lat": 52.5506,
+    "lon": 13.836,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 44.8 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1374520241221101617",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1374520241221101617",
+   "name": "Apt Z36  - \"Design Apartments - Luise\"",
+   "area": "Rental unit in Potsdam",
+   "coords": {
+    "lat": 52.39946076085104,
+    "lon": 13.04450757379244,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 45.3 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1183263415267760184",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1183263415267760184",
+   "name": "Berlin in 10 Min, 100qm",
+   "area": "Rental unit in Potsdam",
+   "coords": {
+    "lat": 52.44977,
+    "lon": 13.04714,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 46.3 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1135488749724919566",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1135488749724919566",
+   "name": "Arbio Apartment in Wustermark",
+   "area": "Rental unit in Wustermark",
+   "coords": {
+    "lat": 52.5441,
+    "lon": 12.97986,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 46.5 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1170973085255753000",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1170973085255753000",
+   "name": "Ivy Haus",
+   "area": "Rental unit in Falkensee",
+   "coords": {
+    "lat": 52.5582,
+    "lon": 13.0497,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 47.5 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1309402542171856506",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1309402542171856506",
+   "name": "Spacious Apartment in Strausberg - Sleeps 6",
+   "area": "Rental unit in Strausberg",
+   "coords": {
+    "lat": 52.578172966457494,
+    "lon": 13.882264903866853,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 50.1 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1447900678349833553",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1447900678349833553",
+   "name": "Apartment Kremmen for 9 Guests Free WiFi & Parking",
+   "area": "Rental unit in Kremmen",
+   "coords": {
+    "lat": 52.77383322672137,
+    "lon": 13.047656683375893,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Daire; Tresor araç süresi 51.4 dk (>30, OSRM)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:9430696",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/9430696",
+   "name": "Remise am See, Caputh",
+   "area": "Castle in Schwielowsee",
+   "coords": {
+    "lat": 52.3479,
+    "lon": 12.98729,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak dökümü yok (etkinlik mekânı \"Remise am See\", Caputh); herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:13663197",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/13663197",
+   "name": "Central flat near Alex with fiber optic Internet",
+   "area": "Serviced apartment in Berlin",
+   "coords": {
+    "lat": 52.5102,
+    "lon": 13.4168,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yalnız 6 gecelik fiyat çıktı (asgari konaklama)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1349388600917059169",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1349388600917059169",
+   "name": "In the heart of Kreuzberg– 140m² – cozy for groups",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.4969,
+    "lon": 13.43778,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1211586128244299839",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1211586128244299839",
+   "name": "4 Rooms nearby Potsdamer Platz",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5076,
+    "lon": 13.3863,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:26508423",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/26508423",
+   "name": "Berlin calling",
+   "area": "Serviced apartment in Berlin",
+   "coords": {
+    "lat": 52.53009,
+    "lon": 13.40922,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "4 gece penceresi için yalnız 5 gecelik fiyat çıktı (asgari konaklama >4 gece)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:928114741395000896",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/928114741395000896",
+   "name": "Spacious 3BR in Friedrichshain - Self Check-in",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5138,
+    "lon": 13.4624,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 3 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1152005869719071867",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1152005869719071867",
+   "name": "Beautiful 3-room apartment for families and groups",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.4978,
+    "lon": 13.4641,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:968576077766653158",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/968576077766653158",
+   "name": "The Garden Suites Penthouse by Suite.030",
+   "area": "Serviced apartment in Berlin",
+   "coords": {
+    "lat": 52.53422,
+    "lon": 13.40897,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:28182613",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/28182613",
+   "name": "N15 - Room22 Apartment Familyhouse",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.49048,
+    "lon": 13.39128,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yalnız 7 gecelik fiyat çıktı (asgari konaklama)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1273814853420840203",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1273814853420840203",
+   "name": "Spacious 3 Bedroom Apartment Online Check-In",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5339,
+    "lon": 13.4437,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1715912659116099298",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1715912659116099298",
+   "name": "Preparation Arbio I Arabel Queen Suite - Sleeps 10",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5027,
+    "lon": 13.36565,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1715912656287408231",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1715912656287408231",
+   "name": "Arbio I Arabel Suite - Sleeps 8",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.50269,
+    "lon": 13.36436,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:642575873704337999",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/642575873704337999",
+   "name": "Beautiful apartment Berlin-Neukölln family-friendly!",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.47565,
+    "lon": 13.44908,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:780553102645612115",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/780553102645612115",
+   "name": "105 m² duplex apartment in the heart of Berlin (Neukölln)",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.47237,
+    "lon": 13.42934,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1381635588538869592",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1381635588538869592",
+   "name": "Stylish Family Apartment in Prenzlauer Berg - Ela",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.5517,
+    "lon": 13.4172,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:4446421",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/4446421",
+   "name": "Soak up the Unique Vibe of an Expansive Artist's Loft",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.50119,
+    "lon": 13.3616,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1254118619239537634",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1254118619239537634",
+   "name": "BER/ Very big apartment!",
+   "area": "Rental unit in Großbeeren",
+   "coords": {
+    "lat": 52.54487013363386,
+    "lon": 13.39670539082355,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1518838113424075912",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1518838113424075912",
+   "name": "Large 3BR Apartment Alexanderplatz 15 min",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.55385,
+    "lon": 13.42776,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Tresor araç süresi adres geokodu ile 33 dk (Helmkrautstr. 35a, 13503); daire için 30 dk sınırı aşıldı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1289303037561947058",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1289303037561947058",
+   "name": "3 bedrooms · 95 m² · near Bellevue Palace",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.51982,
+    "lon": 13.35606,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:767249323281836677",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/767249323281836677",
+   "name": "La Corniche Apartments R1 / 3",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.46689,
+    "lon": 13.3938,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:766512924440825239",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/766512924440825239",
+   "name": "La Corniche Apartments GER150B",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.46468,
+    "lon": 13.39352,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:5977917",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/5977917",
+   "name": "3r2b, just renovated design jewel in Mitte-Moabit",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.53531,
+    "lon": 13.35244,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 2 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:21089349",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/21089349",
+   "name": "TheWilhelm, 2BRs,family&group friendly,4- 6 Guests",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.529,
+    "lon": 13.3411,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:39826933",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/39826933",
+   "name": "Newton Apartment",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.55047,
+    "lon": 13.36418,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 5 ayrı yatak, 0 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:44425604",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/44425604",
+   "name": "3-Bedroom Apartment (110sqm) with Terrace & Garden",
+   "area": "Serviced apartment in Berlin",
+   "coords": {
+    "lat": 52.5417,
+    "lon": 13.3633,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1072585204593781257",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1072585204593781257",
+   "name": "4 room apartment at Kurfürstendamm City Center",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.50102,
+    "lon": 13.30494,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1518836077798097478",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1518836077798097478",
+   "name": "Bright Apartment in the Heart of Berlin",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.52891,
+    "lon": 13.32581,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Puan 3.75; iptal/fiyat sayfada doğrulanamadı (zaman yetmedi) – sunulmadı, gerekirse tekrar bakılabilir",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1221551232439755860",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1221551232439755860",
+   "name": "Large family apartment in Berlin",
+   "area": "Condo in Berlin",
+   "coords": {
+    "lat": 52.448,
+    "lon": 13.3553,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:51080483",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/51080483",
+   "name": "Steglitz - Large groups and families in the southwest",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.44927,
+    "lon": 13.34346,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:51698367",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/51698367",
+   "name": "Steglitz - Apartment for large groups and families",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.44902,
+    "lon": 13.34466,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:965991036250012331",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/965991036250012331",
+   "name": "Spacious apartment with 4 rooms",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.44703,
+    "lon": 13.34474,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "İlanda oda oda yatak dökümü yok; herkese ayrı yatak doğrulanamadı",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:8725453",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/8725453",
+   "name": "Charming apartment in the house - 3 rooms kitchen - bathroom",
+   "area": "Rental unit in Berlin",
+   "coords": {
+    "lat": 52.478,
+    "lon": 13.5616,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 2 ayrı yatak, 2 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1394236039350463736",
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1394236039350463736",
+   "name": "Luxury Penthouse BER Airport | 3 Balconies • 75\"TV",
+   "area": "Condo in Schönefeld",
+   "coords": {
+    "lat": 52.3928,
+    "lon": 13.4928,
+    "accuracy": "airbnb-approx"
+   },
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 1 ayrı yatak, 1 kanepe (6 kişi için ≥6 yatak ya da 5 yatak+1 kanepe gerekir)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:remise-an-der-rennbahn-hoppegarten",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/remise-an-der-rennbahn-hoppegarten",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Mükerrer: sitedeki airbnb:565270388295704317 (Remise, Hoppegarten) ile aynı mülk; ayrıca 4 yatak+2 çekyat",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:ferienhaus-eichwalde-eichwalde",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/ferienhaus-eichwalde-eichwalde",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 4 yatak",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:boxi-jungle-house-unique-in-friedrichshain-3br",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/boxi-jungle-house-unique-in-friedrichshain-3br",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 3 yatak",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:zentrales-gartenhaus-loft-in-berlin",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/zentrales-gartenhaus-loft-in-berlin",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı (Airbnb 1145526663754751988 ile aynı: 3 yatak)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:mounterenwohnung-zimmer-in-finow-eberswalde",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/mounterenwohnung-zimmer-in-finow-eberswalde",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Monteur dairesi (villa değil), Tresor 51 dk",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:sanssouci-park-villa",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/sanssouci-park-villa",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Mükerrer: sitedeki airbnb:14848661 Cottage Sanssouci Park ile aynı mülk",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:cabin-with-sauna-by-the-lake",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/cabin-with-sauna-by-the-lake",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı (2 yatak); Müggelsee kompleksi sitede var",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:ferienpark-am-hellsee",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/ferienpark-am-hellsee",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı tutmadı: 5 yatak, kanepe yok",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:ferienwohnungen-biesenthal-stadt",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/ferienwohnungen-biesenthal-stadt",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Tatil dairesi (villa değil), Tresor 48 dk",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:ferienhaus-christina-oberuckersee",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/ferienhaus-christina-oberuckersee",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Tresor 79 dk (>55)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:bungalow-grunewalder-lauch",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/bungalow-grunewalder-lauch",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Tresor 113 dk",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:hasenhugel",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/hasenhugel",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Tresor 87 dk",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:am-waldrand-spreewald",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/am-waldrand-spreewald",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Tresor 82 dk",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:ferienreihenhauser-roswitha",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/ferienreihenhauser-roswitha",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Tresor 58,5 dk (>55)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:arboris-retreat-into-the-open",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/arboris-retreat-into-the-open",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Tresor 78 dk",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:hofensemble-nahe-berlin-lietzen",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/hofensemble-nahe-berlin-lietzen",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Tresor 87 dk",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "booking:ferienhaus-hase",
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/ferienhaus-hase",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Burg/Spreewald, Tresor >80 dk",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "holidu:58641584",
+   "platform": "holidu",
+   "url": "https://www.holidu.de/d/58641584",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Olası mükerrer: sitedeki \"Grand Central City Apartments Mitte Museumsinsel\"/\"Fischerinsel 3 odalı\" yakınında (Airbnb 1110150478444917646 ile aynı ilan görünüyor)",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "holidu:64181625",
+   "platform": "holidu",
+   "url": "https://www.holidu.de/d/64181625",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Olası mükerrer: sitedeki Grand Central City Apartments (Museumsinsel) ile aynı bina",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "holidu:63589004",
+   "platform": "holidu",
+   "url": "https://www.holidu.de/d/63589004",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Mükerrer: sitedeki \"ALEXA Spacious Design Apartment\"",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "holidu:58674991",
+   "platform": "holidu",
+   "url": "https://www.holidu.de/d/58674991",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Olası mükerrer: sitedeki Arbio dairesi yakınında, 5 yatak+2 kanepe",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "holidu:66881099",
+   "platform": "holidu",
+   "url": "https://www.holidu.de/d/66881099",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Olası mükerrer: sitedeki \"Kurfürstendamm 150 m²\" ile aynı nokta",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "holidu:49880063",
+   "platform": "holidu",
+   "url": "https://www.holidu.de/d/49880063",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Olası mükerrer: sitedeki \"HipSpot R3\"/\"City Center Berlin Rungestr\" yakınında",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "holidu:69501124",
+   "platform": "holidu",
+   "url": "https://www.holidu.de/d/69501124",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Otel (Hotel Passion), evin tamamı değil",
+   "firstSeen": "2026-11-07"
   }
  ]
 }

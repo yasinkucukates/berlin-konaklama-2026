@@ -1,0 +1,2465 @@
+{
+ "olusturuldu": "2026-11-07",
+ "kurallar": "ARAMA-KURALLARI.md (Tresor 52.5106807, 13.419484)",
+ "siteler": {
+  "airbnb": "tarandı: Berlin + Brandenburg harita karoları, 3 pencere; ilan sayfası ayrıştırıldı; fiyat/iptal tarayıcıda doğrulandı",
+  "booking": "Brandenburg tatil evi+villa (≥3 yatak odası) tarandı (Chrome); Berlin daire listesinde yalnız ilk sayfaya bakıldı",
+  "holidu": "Berlin ve Brandenburg, ≥3 yatak odası, 3 pencere (FeWo-direkt/Vrbo/Expedia/Booking ilanlarını topluyor)",
+  "vrbo/fewo-direkt": "doğrudan arama 429 (bot engeli); Holidu üzerinden kapsandı",
+  "google-vacation-rentals": "taranmadı",
+  "hometogo": "taranmadı (arama adresi 404)",
+  "traum-ferienwohnungen": "taranmadı (arama adresi 404)",
+  "e-domizil": "taranmadı (404)",
+  "ferienhausmiete.de": "taranmadı (404)",
+  "travanto": "taranmadı (404)",
+  "casamundo/belvilla": "taranmadı"
+ },
+ "mesafe": "OSRM araç profili, trafiksiz; gündüz trafikte %20–40 uzayabilir",
+ "adaylar": [
+  {
+   "key": "airbnb:1765241459359399223",
+   "platform": "airbnb",
+   "platformId": "1765241459359399223",
+   "url": "https://www.airbnb.com/rooms/1765241459359399223",
+   "title": "Central 120 m² Design Loft Berlin Mitte",
+   "hostName": "Paula & Patrick",
+   "address": null,
+   "coords": {
+    "lat": 52.5382,
+    "lon": 13.3966,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Mitte",
+   "kind": "daire",
+   "m2": 120.0,
+   "bedrooms": 3,
+   "baths": 2.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 king bed",
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 king bed",
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 single bed"
+     ]
+    }
+   ],
+   "separateBeds": 7,
+   "couches": 0,
+   "capacity": 9,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "5.0",
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/c2a6dfc4-a295-425d-994b-66e512390e55.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/1497ea7a-97b5-4a31-b8e7-0a835ffefdbd.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/0f917ea6-cf24-4806-8123-13a9548178b3.png"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 3704,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "16 Aralık 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 8.8,
+   "tresorCarKm": 4.1,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:1510142980699078825",
+   "platform": "airbnb",
+   "platformId": "1510142980699078825",
+   "url": "https://www.airbnb.com/rooms/1510142980699078825",
+   "title": "Modern accommodation Emser",
+   "hostName": "Mehmet",
+   "address": null,
+   "coords": {
+    "lat": 52.4686,
+    "lon": 13.42731,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Wilmersdorf (Emser Str.)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 2.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "3 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 7,
+   "couches": 0,
+   "capacity": 7,
+   "kanepeli": false,
+   "registrationNumber": "08/Z/AZ/015524-25",
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.08",
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/1340dc46-cfa5-4308-b381-94ea923879d4.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/5bff8eaf-4adf-4f61-9f8b-c8e5216ba937.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1510142980699078825/original/a79bccda-afc9-47dc-ab2f-39e10b4a41a6.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1093,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": {
+     "tutar": 678,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 12.1,
+   "tresorCarKm": 5.4,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Puan 4.08; liste fiyatı indirimli (asıl €1,322). Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Kapasite 7."
+  },
+  {
+   "key": "airbnb:1389672541037596818",
+   "platform": "airbnb",
+   "platformId": "1389672541037596818",
+   "url": "https://www.airbnb.com/rooms/1389672541037596818",
+   "title": "Modern place to stay - Schöneberg",
+   "hostName": "Mehmet",
+   "address": null,
+   "coords": {
+    "lat": 52.48723,
+    "lon": 13.36653,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Schöneberg",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 2.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "2 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 7,
+   "couches": 0,
+   "capacity": 7,
+   "kanepeli": false,
+   "registrationNumber": "07/Z/AZ/020090-25",
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.29",
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/96374968-f1fa-4a5b-8dec-967ec6d5c7b8.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/7607957a-0ca9-4b3d-99a0-130c7ed03bd9.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1389672541037596818/original/032d25a1-6b43-4ea6-90fe-b7268bfcfb29.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1264,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": {
+     "tutar": 776,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 12.0,
+   "tresorCarKm": 6.2,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Kapasite 7."
+  },
+  {
+   "key": "airbnb:40216009",
+   "platform": "airbnb",
+   "platformId": "40216009",
+   "url": "https://www.airbnb.com/rooms/40216009",
+   "title": "La Corniche Apartments",
+   "hostName": "La Corniche Apartments GmbH",
+   "address": "Ringbahnstraße 58, 12099 Berlin",
+   "coords": {
+    "lat": 52.4686732,
+    "lon": 13.38778,
+    "accuracy": "adres",
+    "accuracyNote": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+   },
+   "district": "Neukölln (Ringbahnstr.)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 1.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "2 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 8,
+   "couches": 0,
+   "capacity": 8,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": null,
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/7bce0945-0cdd-4170-a414-4b14f3148627.jpg",
+    "https://a0.muscache.com/im/pictures/8c8a1beb-772d-482e-a289-3444c1145f4e.jpg",
+    "https://a0.muscache.com/im/pictures/0f3f55e6-7204-4cfd-a824-5865cccc60e3.jpg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1187,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 11.9,
+   "tresorCarKm": 6.4,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Aynı işletmenin (La Corniche Apartments GmbH, Ringbahnstr. 58) birden çok dairesi var; ayrı birimler. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:38533401",
+   "platform": "airbnb",
+   "platformId": "38533401",
+   "url": "https://www.airbnb.com/rooms/38533401",
+   "title": "La Corniche Apartments PREMIUM",
+   "hostName": "La Corniche Apartments GmbH",
+   "address": "Ringbahnstraße 58, 12099, Berlin, Berlin",
+   "coords": {
+    "lat": 52.46775,
+    "lon": 13.38822,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Neukölln (Ringbahnstr.)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 5,
+   "baths": 3.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 4",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 5",
+     "yataklar": [
+      "3 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 13,
+   "couches": 0,
+   "capacity": 12,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.57",
+   "reviewCount": 7,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/8ea70ed9-3519-4a87-abd0-41c7e81863cb.jpg",
+    "https://a0.muscache.com/im/pictures/1711c2ec-ac0b-47a3-8242-f25ac1aa0cf1.jpg",
+    "https://a0.muscache.com/im/pictures/824f6654-d4f9-4584-9376-b980c2ece669.jpg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1908,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok (23 Aralık öncesi kısmi iade)",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 12.3,
+   "tresorCarKm": 6.6,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "5 yatak odası, 13 tek kişilik yatak. La Corniche Ringbahnstr. 58. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:34301098",
+   "platform": "airbnb",
+   "platformId": "34301098",
+   "url": "https://www.airbnb.com/rooms/34301098",
+   "title": "La Corniche Apartments R3EGL.",
+   "hostName": "La Corniche Apartments GmbH",
+   "address": "Ringbahnstr. 58, 12099, Berlin, Berlin",
+   "coords": {
+    "lat": 52.46473,
+    "lon": 13.39321,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Neukölln (Ringbahnstr.)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 2.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "3 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 6,
+   "couches": 0,
+   "capacity": 6,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": null,
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/af135273-97de-4b8c-a8d8-040cb15aef61.jpg",
+    "https://a0.muscache.com/im/pictures/b33e2537-6091-483b-a4d5-ab45004cdfa4.jpg",
+    "https://a0.muscache.com/im/pictures/9785adcb-367c-4f52-aefe-08de584b6219.jpg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1053,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 13.2,
+   "tresorCarKm": 7.1,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "La Corniche Ringbahnstr. 58. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:31297828",
+   "platform": "airbnb",
+   "platformId": "31297828",
+   "url": "https://www.airbnb.com/rooms/31297828",
+   "title": "3 Apartments | 18 People | 1 floor | Kreuzberg",
+   "hostName": "Stella",
+   "address": "Görlitzer Str. 38, 10997 Berlin",
+   "coords": {
+    "lat": 52.4960034,
+    "lon": 13.4433823,
+    "accuracy": "adres",
+    "accuracyNote": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+   },
+   "district": "Kreuzberg (Görlitzer Str.)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 4.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "4 single beds",
+      "1 bunk bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "2 single beds",
+      "1 bunk bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "2 bunk beds"
+     ]
+    }
+   ],
+   "separateBeds": 14,
+   "couches": 0,
+   "capacity": 16,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.65",
+   "reviewCount": 55,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/31fbcc0d-3124-4c67-aac8-467bbca2c4ea.jpg",
+    "https://a0.muscache.com/im/pictures/9b36e425-666e-4ebb-8a3e-1875b0aff237.jpg",
+    "https://a0.muscache.com/im/pictures/8ff35d6a-2f80-4990-8931-90ae8f5a46d2.jpg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 2976,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "30 Kasım 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 6.4,
+   "tresorCarKm": 2.9,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "İlan başlığına göre aynı katta 3 ayrı daire (18 kişilik); ranzalar var. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:1268121761753625501",
+   "platform": "airbnb",
+   "platformId": "1268121761753625501",
+   "url": "https://www.airbnb.com/rooms/1268121761753625501",
+   "title": "Big stay for 13 in Kreuzberg",
+   "hostName": "Baharbin",
+   "address": "Gneisenaustraße 89, 10961 Berlin",
+   "coords": {
+    "lat": 52.491676,
+    "lon": 13.3954149,
+    "accuracy": "adres",
+    "accuracyNote": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+   },
+   "district": "Kreuzberg (Gneisenaustr.)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 9,
+   "baths": 3.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 4",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 5",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 6",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 7",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 8",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 9",
+     "yataklar": [
+      "1 double bed"
+     ]
+    }
+   ],
+   "separateBeds": 9,
+   "couches": 0,
+   "capacity": 13,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.41",
+   "reviewCount": 80,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/e5f94dd1-4aa5-4aeb-8c13-6684ab374a3e.jpeg",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/7ff430f0-ee47-452a-961b-709c3a7a0125.jpeg",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-1268121761753625501/original/c5be17a1-9b5a-43a9-a3da-84c1182c2bcf.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 3632,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "30 Kasım 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 6.6,
+   "tresorCarKm": 3.5,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "9 yatak odası, her odada 1 çift kişilik yatak. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:32453210",
+   "platform": "airbnb",
+   "platformId": "32453210",
+   "url": "https://www.airbnb.com/rooms/32453210",
+   "title": "\"Freesie\" Apartment",
+   "hostName": "Tim",
+   "address": "Mariendorfer Damm 47, 12109 Berlin",
+   "coords": {
+    "lat": 52.4485137,
+    "lon": 13.3854635,
+    "accuracy": "adres",
+    "accuracyNote": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+   },
+   "district": "Mariendorf",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 2.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "3 single beds",
+      "1 sofa bed"
+     ]
+    }
+   ],
+   "separateBeds": 8,
+   "couches": 1,
+   "capacity": 13,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.46",
+   "reviewCount": 24,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/6eb65ceb-4a1e-44fe-babd-02e03708382f.jpg",
+    "https://a0.muscache.com/im/pictures/71671eee-50b8-45dc-b74c-5905a335f8dc.jpg",
+    "https://a0.muscache.com/im/pictures/6ac11c35-0583-4bc2-a4a2-03d5fe562f04.jpg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 2364,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "30 Kasım 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 16.8,
+   "tresorCarKm": 8.6,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Aynı adreste Enzian dairesi de aday; ayrı birimler. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:31701521",
+   "platform": "airbnb",
+   "platformId": "31701521",
+   "url": "https://www.airbnb.com/rooms/31701521",
+   "title": "Apartment \"Enzian\"",
+   "hostName": "Tim",
+   "address": "Mariendorfer Damm 47, 12109, Berlin, Deutschland",
+   "coords": {
+    "lat": 52.44911,
+    "lon": 13.3864,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Mariendorf",
+   "kind": "daire",
+   "m2": 103.0,
+   "bedrooms": 3,
+   "baths": 2.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "4 single beds",
+      "1 sofa bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 king bed"
+     ]
+    }
+   ],
+   "separateBeds": 8,
+   "couches": 1,
+   "capacity": 12,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.05",
+   "reviewCount": 22,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/14a90e40-e96b-471c-9bcb-28dfaa4c3e73.jpg",
+    "https://a0.muscache.com/im/pictures/9e9cc4a7-2ba2-45b9-b7f3-5334408183ce.jpg",
+    "https://a0.muscache.com/im/pictures/10511fb1-ffab-4f91-a04d-480897dc4e26.jpg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 2364,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "30 Kasım 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 18.1,
+   "tresorCarKm": 8.8,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [
+    {
+     "platform": "holidu",
+     "ilanNo": "55460987",
+     "url": "https://www.holidu.de/d/55460987",
+     "not": "Holidu doğrudan ilanı; 4 gece fiyatı görünmedi, 30.12–01.01 için 2.665 €"
+    }
+   ],
+   "olasiMukerrer": null,
+   "notes": "Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:942782300690662568",
+   "platform": "airbnb",
+   "platformId": "942782300690662568",
+   "url": "https://www.airbnb.com/rooms/942782300690662568",
+   "title": "Exil DeLuxe",
+   "hostName": "Bülent",
+   "address": null,
+   "coords": {
+    "lat": 52.50552,
+    "lon": 13.30782,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Wilmersdorf",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 4,
+   "baths": 1.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "4 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 double bed",
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 4",
+     "yataklar": [
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "2 sofa beds"
+     ]
+    }
+   ],
+   "separateBeds": 9,
+   "couches": 2,
+   "capacity": 15,
+   "kanepeli": false,
+   "registrationNumber": "04/Z/AZ/014191-23",
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.22",
+   "reviewCount": 9,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/c7fbf450-cd27-4993-926d-7a55825837fc.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-942782300690662568/original/dbd962f0-0a58-4c7c-89e2-0fd04ca01217.jpeg",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-942782300690662568/original/b76d442d-e72d-4c69-88b0-a15a6b06eac6.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 2442,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 17.1,
+   "tresorCarKm": 9.1,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [
+    {
+     "platform": "fewo-direkt (Holidu üzerinden)",
+     "ilanNo": "holidu:55405311",
+     "url": "https://www.holidu.de/d/55405311",
+     "not": "4 gece müsaitlik/fiyat görünmedi"
+    }
+   ],
+   "olasiMukerrer": null,
+   "notes": "Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı."
+  },
+  {
+   "key": "airbnb:1363888262051860529",
+   "platform": "airbnb",
+   "platformId": "1363888262051860529",
+   "url": "https://www.airbnb.com/rooms/1363888262051860529",
+   "title": "Generous Familiy Flat",
+   "hostName": "Soltan",
+   "address": null,
+   "coords": {
+    "lat": 52.4924,
+    "lon": 13.4175,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Prenzlauer Berg / Pankow",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 4,
+   "baths": 1.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 bunk bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 4",
+     "yataklar": [
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "1 sofa bed"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 1,
+   "capacity": 6,
+   "kanepeli": true,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "5.0",
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2Mzg4ODI2MjA1MTg2MDUyOQ==/original/7442aa63-9fe8-4edd-be0e-ba03fc67fa61.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/e859cb8c-916a-4590-909f-a9405541995c.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/a0bd0d38-f91e-41b1-9227-1cb1cf1caf58.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 2192,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 7.6,
+   "tresorCarKm": 3.5,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "KANEPELİ: 6. kişi kanepe/çekyatta yatar. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:51513538",
+   "platform": "airbnb",
+   "platformId": "51513538",
+   "url": "https://www.airbnb.com/rooms/51513538",
+   "title": "3 bedroom city apartment",
+   "hostName": "Ruth",
+   "address": "Smetanastraße 8, 13088 Berlin",
+   "coords": {
+    "lat": 52.5491274,
+    "lon": 13.4582849,
+    "accuracy": "adres",
+    "accuracyNote": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+   },
+   "district": "Weißensee",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 1.5,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 queen bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "1 sofa bed"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 1,
+   "capacity": 8,
+   "kanepeli": true,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.64",
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/miso/Hosting-51513538/original/7b45ff4f-800d-407f-a891-bd9de3e1b6d9.jpeg",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-51513538/original/653ddb5f-facc-4c71-b2e4-2cc05fb51ed6.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-51513538/original/85cdbd9f-b0ac-4c55-84bc-cf60e66689a9.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1638,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "30 Kasım 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": {
+     "tutar": 878,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "30 Kasım 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "01.01-03.01": {
+     "tutar": 878,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "30 Kasım 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    }
+   },
+   "tresorCarMin": 11.6,
+   "tresorCarKm": 6.0,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [
+    {
+     "platform": "fewo-direkt (Holidu üzerinden)",
+     "ilanNo": "holidu:60481924",
+     "url": "https://www.holidu.de/d/60481924",
+     "fiyat4gece": 1939
+    }
+   ],
+   "olasiMukerrer": null,
+   "notes": "KANEPELİ: 6. kişi kanepe/çekyatta yatar. Sitedeki \"Weißensee | Oyuncu Dairesi\" 342 m uzakta ama 2 odalı; farklı daire sayıldı. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:1174576099912827244",
+   "platform": "airbnb",
+   "platformId": "1174576099912827244",
+   "url": "https://www.airbnb.com/rooms/1174576099912827244",
+   "title": "170m² Exclusive Loft with Terrace – central",
+   "hostName": "Wissam",
+   "address": "Langhansstraße 21, 13086 Berlin",
+   "coords": {
+    "lat": 52.5504111,
+    "lon": 13.4453997,
+    "accuracy": "adres",
+    "accuracyNote": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+   },
+   "district": "Pankow",
+   "kind": "daire",
+   "m2": 170.0,
+   "bedrooms": 3,
+   "baths": 2.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "2 king beds",
+      "1 crib"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 queen bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 double bed",
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "2 couches"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 2,
+   "capacity": 7,
+   "kanepeli": true,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.94",
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/3be53743-5705-4489-88e0-23393843f1b5.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/bf75f350-f4e0-47d1-b82f-ce0f9e7ba0ba.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NDU3NjA5OTkxMjgyNzI0NA%3D%3D/original/5e7b6776-aa97-46eb-a8ab-abe913dacf15.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1584,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": {
+     "tutar": 1185,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "01.01-03.01": {
+     "tutar": 1197,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    }
+   },
+   "tresorCarMin": 10.4,
+   "tresorCarKm": 5.6,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "KANEPELİ: 6. kişi kanepe/çekyatta yatar. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Kapasite 7. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:1478101487047693053",
+   "platform": "airbnb",
+   "platformId": "1478101487047693053",
+   "url": "https://www.airbnb.com/rooms/1478101487047693053",
+   "title": "Ku’DAMM Charming Old Home/4-10 ppl/Family friendly",
+   "hostName": "Novi",
+   "address": "Schlüterstraße 19, 10625 Berlin",
+   "coords": {
+    "lat": 52.506925,
+    "lon": 13.317301,
+    "accuracy": "adres",
+    "accuracyNote": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+   },
+   "district": "Charlottenburg",
+   "kind": "daire",
+   "m2": 130.0,
+   "bedrooms": 3,
+   "baths": 2.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 queen bed",
+      "1 bunk bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 queen bed",
+      "1 sofa bed",
+      "1 crib"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 single bed"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 1,
+   "capacity": 10,
+   "kanepeli": true,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "5.0",
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/ea4aeb23-181d-4791-a38a-29e5734e316c.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/6f049505-aeb4-4199-90ab-653e05b44ed4.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1478101487047693053/original/c7ed043e-36a6-45d1-8e6f-a77ec29cbd3c.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 5355,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "25 Aralık 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 15.5,
+   "tresorCarKm": 8.5,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [
+    {
+     "platform": "booking (Holidu üzerinden)",
+     "ilanNo": "holidu:66189960",
+     "url": "https://www.holidu.de/d/66189960"
+    }
+   ],
+   "olasiMukerrer": null,
+   "notes": "KANEPELİ: 6. kişi kanepe/çekyatta yatar. Sitedeki \"Traumhafte Wohnung mitten in Charlottenburg\" 325 m uzakta ama 3 yataklı farklı daire. Konaklama vergisi eklenirse 6.000 € sınırına yaklaşır. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:1066700616308697452",
+   "platform": "airbnb",
+   "platformId": "1066700616308697452",
+   "url": "https://www.airbnb.com/rooms/1066700616308697452",
+   "title": "X-large Lifestyle Loft in Prime City Location",
+   "hostName": "Beatrice",
+   "address": null,
+   "coords": {
+    "lat": 52.5031,
+    "lon": 13.3269,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Charlottenburg / City West",
+   "kind": "daire",
+   "m2": 200.0,
+   "bedrooms": 4,
+   "baths": 2.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 king bed",
+      "2 floor mattresses"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 king bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 4",
+     "yataklar": [
+      "1 bunk bed"
+     ]
+    },
+    {
+     "oda": "Living room 1",
+     "yataklar": [
+      "1 sofa bed",
+      "2 air mattresses"
+     ]
+    },
+    {
+     "oda": "Living room 2",
+     "yataklar": [
+      "2 couches"
+     ]
+    }
+   ],
+   "separateBeds": 6,
+   "couches": 3,
+   "capacity": 16,
+   "kanepeli": false,
+   "registrationNumber": "04/Z/RA/014883-23",
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.94",
+   "reviewCount": 34,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/25ad6d8a-c129-49f7-9803-573c870f3c0f.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/7a1233c0-fb10-44f2-abb2-013672a6254a.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1066700616308697452/original/7824da84-336a-4c9d-9fdc-071b17ecba63.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 5978,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "30 Kasım 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 13.5,
+   "tresorCarKm": 7.8,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Fiyat sınırda: vergi eklenirse 6.000 € aşabilir. Sitedeki \"Kurfürstendamm 150 m²\" 264 m uzakta ama 5 odalı/150 m²; bu 4 yatak odalı/200 m², farklı sayıldı. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı."
+  },
+  {
+   "key": "airbnb:1805168581752936023",
+   "platform": "airbnb",
+   "platformId": "1805168581752936023",
+   "url": "https://www.airbnb.com/rooms/1805168581752936023",
+   "title": "Steglitz VI - Apartment for groups, teams + installers",
+   "hostName": "Paul",
+   "address": null,
+   "coords": {
+    "lat": 52.44784,
+    "lon": 13.34261,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Steglitz",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 1.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "3x Einzelbetten"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "3x Einzelbetten"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "2x Einzelbetten"
+     ]
+    }
+   ],
+   "separateBeds": 8,
+   "couches": 0,
+   "capacity": 6,
+   "kanepeli": false,
+   "registrationNumber": "02/Z/AZ/016395-22",
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "New",
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/8c92f7ac-915d-4530-ae15-8f9fc03165ba.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/bf4e5ec5-c816-44ef-86c3-454a042372c5.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1805168581752936023/original/e1b2c9eb-37ed-476d-9a9e-b734ae41f3b1.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 996,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "16 Aralık 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 20.0,
+   "tresorCarKm": 11.2,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [
+    {
+     "platform": "fewo-direkt (Holidu üzerinden)",
+     "ilanNo": "holidu:69282406",
+     "url": "https://www.holidu.de/d/69282406",
+     "fiyat4gece": 1357
+    }
+   ],
+   "olasiMukerrer": null,
+   "notes": "Airbnb yatak dökümü vermiyor; döküm Vrbo/FeWo-direkt ilanından (8 tek kişilik yatak). En ucuz toplam Airbnb 996 €. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı."
+  },
+  {
+   "key": "airbnb:1727650304700546371",
+   "platform": "airbnb",
+   "platformId": "1727650304700546371",
+   "url": "https://www.airbnb.com/rooms/1727650304700546371",
+   "title": "Freedom Apartment: Ideal for big groups and family",
+   "hostName": "Freedom Studio Apartments",
+   "address": "Hermannstraße 55, 12049 Berlin",
+   "coords": {
+    "lat": 52.4769707,
+    "lon": 13.4261428,
+    "accuracy": "adres",
+    "accuracyNote": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+   },
+   "district": "Neukölln (Hermannstr.)",
+   "kind": "daire",
+   "m2": 45.0,
+   "bedrooms": 3,
+   "baths": 3.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 king bed",
+      "1 double bed",
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 king bed",
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 double bed",
+      "4 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 10,
+   "couches": 0,
+   "capacity": 12,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": null,
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/e261c00c-8bcb-4573-8e9d-972146c6ed53.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/1f717d8f-cdcc-471d-9f9a-4ed317def229.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1727650304700546371/original/abd4dafe-7a7e-439b-b607-c69a7525ecf3.png"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1996,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": null,
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": {
+     "tutar": 998,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": null,
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "01.01-03.01": {
+     "tutar": 998,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": null,
+     "kaynak": "airbnb",
+     "kurNotu": null
+    }
+   },
+   "tresorCarMin": 8.7,
+   "tresorCarKm": 4.2,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": "booking:freedom-studioapartment-booking (aynı işletme: Freedom Studio Apartments; aynı daire olup olmadığı belirsiz)",
+   "notes": "Fiyat arama sonucundan; iptal koşulu sayfada doğrulanmadı. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:1093487777629181025",
+   "platform": "airbnb",
+   "platformId": "1093487777629181025",
+   "url": "https://www.airbnb.com/rooms/1093487777629181025",
+   "title": "Holiday 33 Apartment L - 8 Rooms, 3 Baths (190m²)",
+   "hostName": "⁨Holiday 33⁩",
+   "address": "Kopenhagener Str. 9, 10437 Berlin",
+   "coords": {
+    "lat": 52.5490369,
+    "lon": 13.4106383,
+    "accuracy": "adres",
+    "accuracyNote": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+   },
+   "district": "Prenzlauer Berg",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 6,
+   "baths": 3.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 king bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 king bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 queen bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 4",
+     "yataklar": [
+      "1 queen bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 5",
+     "yataklar": [
+      "1 queen bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 6",
+     "yataklar": [
+      "1 queen bed"
+     ]
+    },
+    {
+     "oda": "Living room 1",
+     "yataklar": [
+      "1 sofa bed"
+     ]
+    },
+    {
+     "oda": "Living room 2",
+     "yataklar": [
+      "1 sofa bed"
+     ]
+    }
+   ],
+   "separateBeds": 6,
+   "couches": 2,
+   "capacity": 12,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.73",
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA5MzQ4Nzc3NzYyOTE4MTAyNQ%3D%3D/original/ea8368f5-1c30-4241-8440-519a4eac0cba.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1093487777629181025/original/c158d57d-2a92-4c3f-a84f-05d25bf21ff2.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA5MzQ4Nzc3NzYyOTE4MTAyNQ%3D%3D/original/f9b62561-a9a6-4020-b68d-cabaa21d45af.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": null,
+    "30.12-01.01": null,
+    "01.01-03.01": {
+     "tutar": 1074,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "18 Aralık 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    }
+   },
+   "tresorCarMin": 10.4,
+   "tresorCarKm": 5.2,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Yalnız 01.01–03.01 penceresinde göründü. Sitedeki \"The Paul Loft\" 268 m uzakta, farklı daire. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:568559238557249296",
+   "platform": "airbnb",
+   "platformId": "568559238557249296",
+   "url": "https://www.airbnb.com/rooms/568559238557249296",
+   "title": "Numa | Large 3-Bedroom Apartment with Sofabed",
+   "hostName": "Numa Berlin Kater",
+   "address": "Warschauer Straße 46, 10243 Berlin",
+   "coords": {
+    "lat": 52.5036438,
+    "lon": 13.4472167,
+    "accuracy": "adres",
+    "accuracyNote": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+   },
+   "district": "Friedrichshain (Numa Kater)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 1.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 king bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 king bed",
+      "1 bunk bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "1 sofa bed"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 1,
+   "capacity": 9,
+   "kanepeli": true,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.64",
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/miso/Hosting-568559238557249296/original/9747906f-409a-4697-bf79-1e11d5be9784.jpeg",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-568559238557249296/original/077c17f4-8c74-4a87-bbcc-4fb398a81d0b.jpeg",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-568559238557249296/original/4216aa2f-3c12-4eaa-9ff9-254efa7df4ff.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": null,
+    "30.12-01.01": null,
+    "01.01-03.01": {
+     "tutar": 806,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "24 saat ücretsiz iptal, sonrası iade yok",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    }
+   },
+   "tresorCarMin": 6.3,
+   "tresorCarKm": 3.4,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "KANEPELİ: 6. kişi kanepe/çekyatta yatar. Apart-otel dairesi (Numa). Yalnız 01.01–03.01 penceresinde göründü. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:1761050126833735364",
+   "platform": "airbnb",
+   "platformId": "1761050126833735364",
+   "url": "https://www.airbnb.com/rooms/1761050126833735364",
+   "title": "Parkside Family Residence | 130 m² | Kids Room",
+   "hostName": "Alexander",
+   "address": null,
+   "coords": {
+    "lat": 52.5462,
+    "lon": 13.3765,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Mitte (Parkside)",
+   "kind": "daire",
+   "m2": 130.0,
+   "bedrooms": 3,
+   "baths": 1.5,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 king bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 king bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "2 bunk beds"
+     ]
+    }
+   ],
+   "separateBeds": 6,
+   "couches": 0,
+   "capacity": 8,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "5.0",
+   "reviewCount": 15,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1761050126833735364/original/c2ffe18e-6a37-44ae-b6f3-40a9e673b23d.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1761050126833735364/original/8700f684-399b-46a1-8b46-6a0c8d282043.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1761050126833735364/original/8df3b173-d947-4d09-8cc6-89221a67837b.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": null,
+    "30.12-01.01": null,
+    "01.01-03.01": {
+     "tutar": 812,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "2 Aralık 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    }
+   },
+   "tresorCarMin": 12.5,
+   "tresorCarKm": 6.1,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "4 gece penceresinde yalnız 3 gecelik sonuç çıktı; 01.01–03.01 müsait. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:881100962020102125",
+   "platform": "airbnb",
+   "platformId": "881100962020102125",
+   "url": "https://www.airbnb.com/rooms/881100962020102125",
+   "title": "Flattering Berlin 18",
+   "hostName": "Flattering",
+   "address": null,
+   "coords": {
+    "lat": 52.55013,
+    "lon": 13.36721,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Wedding",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 1.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 double bed",
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "1 sofa bed"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 1,
+   "capacity": 9,
+   "kanepeli": true,
+   "registrationNumber": "01/Z/NA/014603-22",
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "4.34",
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-881100962020102125/original/bdeb9e77-942b-4c1c-8f1e-692e43acddad.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-881100962020102125/original/4b031d89-f8c0-4695-b878-f52f6b6bea06.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-881100962020102125/original/3109ea65-3fba-4262-b35c-3fd0af042345.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": null,
+    "30.12-01.01": null,
+    "01.01-03.01": {
+     "tutar": 488,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": "2 Aralık 2026 öncesi ücretsiz iptal",
+     "kaynak": "airbnb",
+     "kurNotu": null
+    }
+   },
+   "tresorCarMin": 16.0,
+   "tresorCarKm": 7.6,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [
+    {
+     "platform": "fewo-direkt (Holidu üzerinden)",
+     "ilanNo": "holidu:58793228",
+     "url": "https://www.holidu.de/d/58793228"
+    }
+   ],
+   "olasiMukerrer": null,
+   "notes": "KANEPELİ: 6. kişi kanepe/çekyatta yatar. Puan 4.34. Yalnız 01.01–03.01 penceresinde göründü. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı."
+  },
+  {
+   "key": "airbnb:1054854328388540881",
+   "platform": "airbnb",
+   "platformId": "1054854328388540881",
+   "url": "https://www.airbnb.com/rooms/1054854328388540881",
+   "title": "Luxury Villa, 10 Rooms, 9 Bathrooms, Swimming Pool!",
+   "hostName": "Ingrid",
+   "address": null,
+   "coords": {
+    "lat": 52.393,
+    "lon": 13.2847,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)"
+   },
+   "district": "Teltow",
+   "kind": "villa",
+   "m2": null,
+   "bedrooms": 9,
+   "baths": 7.0,
+   "beds": [
+    {
+     "oda": "Living area",
+     "yataklar": [
+      "6 queen beds",
+      "4 single beds",
+      "3 sofa beds",
+      "1 crib"
+     ]
+    }
+   ],
+   "separateBeds": 10,
+   "couches": 3,
+   "capacity": 16,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": null,
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/miso/Hosting-1054854328388540881/original/6f665095-e967-44d4-9f83-54f065781089.jpeg",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-1054854328388540881/original/019cc3d7-1454-48d4-9c2f-c2809140e1ff.jpeg",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-1054854328388540881/original/a75ffc5f-3d09-4ed0-8d9c-ac6ce41c2e44.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 17110,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": null,
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 33.2,
+   "tresorCarKm": 20.4,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Butik apart-villanın tamamı (6 daire, 8–9 yatak odası); 21 kişiye kadar. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı."
+  },
+  {
+   "key": "airbnb:1305081869431363843",
+   "platform": "airbnb",
+   "platformId": "1305081869431363843",
+   "url": "https://www.airbnb.com/rooms/1305081869431363843",
+   "title": "Stil Haus Bungalow",
+   "hostName": "Denis",
+   "address": "Korkedamm 18, 12524 Berlin",
+   "coords": {
+    "lat": 52.425242,
+    "lon": 13.5341714,
+    "accuracy": "adres",
+    "accuracyNote": "adres (ilan \"Listing address\") Nominatim ile geokodlandı"
+   },
+   "district": "Treptow-Köpenick (Korkedamm, Grünau yakını)",
+   "kind": "villa",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 2.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "3 king beds",
+      "2 couches"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 queen bed",
+      "1 couch"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 queen bed"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "2 couches"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 5,
+   "capacity": 6,
+   "kanepeli": true,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "3.67",
+   "reviewCount": null,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/6b96cc12-7dd2-435a-a6c1-043840df13f5.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/a1ec2e7f-c5c7-47df-afc1-ac80c4903da6.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1305081869431363843/original/cdeb0db7-af0e-483d-874c-adba22a69ec8.jpeg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1200,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": null,
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "30.12-01.01": {
+     "tutar": 673,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": null,
+     "kaynak": "airbnb",
+     "kurNotu": null
+    },
+    "01.01-03.01": {
+     "tutar": 673,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 2,
+     "vergiUcretDahil": "hizmet bedeli dahil; konaklama vergisi doğrulanmadı",
+     "iptal": null,
+     "kaynak": "airbnb",
+     "kurNotu": null
+    }
+   },
+   "tresorCarMin": 19.2,
+   "tresorCarKm": 14.4,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "KANEPELİ: 6. kişi kanepe/çekyatta yatar. Bahçeli müstakil ev; puan 3.67 (az yorum). 5 gerçek yatak + kanepeler. Airbnb ilan sayfasında 6 yetişkin için gösterilen toplam; hizmet bedeli dahil, Berlin konaklama vergisinin (City Tax) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: ilanda Berlin Registriernummer görülmedi."
+  },
+  {
+   "key": "booking:triumph-haus-mit-3-schlafzimmer",
+   "platform": "booking",
+   "platformId": "triumph-haus-mit-3-schlafzimmer",
+   "url": "https://www.booking.com/hotel/de/triumph-haus-mit-3-schlafzimmer.html",
+   "title": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+   "hostName": null,
+   "address": "Kienitzer Straße 56, 15834 Rangsdorf",
+   "coords": {
+    "lat": 52.2996,
+    "lon": 13.453,
+    "accuracy": "adres",
+    "accuracyNote": "Booking harita konumu (data-atlas-latlng); adresle tutarlı"
+   },
+   "district": "Rangsdorf (Teltow-Fläming)",
+   "kind": "villa",
+   "m2": 140,
+   "bedrooms": 3,
+   "baths": null,
+   "beds": [
+    {
+     "oda": "Yatak Odası 1",
+     "yataklar": [
+      "2 tek kişilik yatak"
+     ]
+    },
+    {
+     "oda": "Yatak Odası 2",
+     "yataklar": [
+      "2 tek kişilik yatak"
+     ]
+    },
+    {
+     "oda": "Yatak Odası 3",
+     "yataklar": [
+      "2 tek kişilik yatak"
+     ]
+    }
+   ],
+   "separateBeds": 6,
+   "couches": 0,
+   "capacity": null,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": null,
+   "reviewCount": null,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/485990991.jpg",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/485992698.jpg",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/485992477.jpg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1998,
+     "paraBirimi": "EUR",
+     "tutarTRY": 111809,
+     "gece": 4,
+     "vergiUcretDahil": "vergi ve ücretler dahil",
+     "iptal": "İade edilmez (online ön ödeme)",
+     "kaynak": "booking",
+     "kurNotu": "EUR karşılığı TCMB 06.11.2026 efektif olmayan döviz satış kuru 55.9609 ile; Booking TR hesabında fiyatı yalnız TL gösterdi"
+    },
+    "30.12-01.01": {
+     "tutar": 799,
+     "paraBirimi": "EUR",
+     "tutarTRY": 44724,
+     "gece": 2,
+     "vergiUcretDahil": "vergi ve ücretler dahil",
+     "iptal": "İade edilmez (online ön ödeme)",
+     "kaynak": "booking",
+     "kurNotu": "EUR karşılığı TCMB 06.11.2026 efektif olmayan döviz satış kuru 55.9609 ile; Booking TR hesabında fiyatı yalnız TL gösterdi"
+    },
+    "01.01-03.01": {
+     "tutar": 799,
+     "paraBirimi": "EUR",
+     "tutarTRY": 44724,
+     "gece": 2,
+     "vergiUcretDahil": "vergi ve ücretler dahil",
+     "iptal": "İade edilmez (online ön ödeme)",
+     "kaynak": "booking",
+     "kurNotu": "EUR karşılığı TCMB 06.11.2026 efektif olmayan döviz satış kuru 55.9609 ile; Booking TR hesabında fiyatı yalnız TL gösterdi"
+    }
+   },
+   "tresorCarMin": 31.6,
+   "tresorCarKm": 34.5,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Tatil evi kompleksinde 3 yatak odalı ev; 2 banyo."
+  },
+  {
+   "key": "booking:ferienhaus-berlin-6-pax",
+   "platform": "booking",
+   "platformId": "ferienhaus-berlin-6-pax",
+   "url": "https://www.booking.com/hotel/de/ferienhaus-berlin-6-pax.html",
+   "title": "Ferienhaus Berlin 6 Pax",
+   "hostName": null,
+   "address": "Teltower Straße 56 (Ferienhaus FH5), 15831 Blankenfelde-Mahlow",
+   "coords": {
+    "lat": 52.3642,
+    "lon": 13.3747,
+    "accuracy": "adres",
+    "accuracyNote": "Booking harita konumu (data-atlas-latlng); adresle tutarlı"
+   },
+   "district": "Blankenfelde-Mahlow",
+   "kind": "villa",
+   "m2": 85,
+   "bedrooms": 4,
+   "baths": null,
+   "beds": [
+    {
+     "oda": "Yatak Odası 1",
+     "yataklar": [
+      "1 tek kişilik yatak"
+     ]
+    },
+    {
+     "oda": "Yatak Odası 2",
+     "yataklar": [
+      "2 tek kişilik yatak"
+     ]
+    },
+    {
+     "oda": "Yatak Odası 3",
+     "yataklar": [
+      "2 tek kişilik yatak"
+     ]
+    },
+    {
+     "oda": "Yatak Odası 4",
+     "yataklar": [
+      "1 tek kişilik yatak"
+     ]
+    }
+   ],
+   "separateBeds": 6,
+   "couches": 0,
+   "capacity": null,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": null,
+   "reviewCount": null,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/929479761.jpg",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/929480040.jpg",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/929480044.jpg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1594,
+     "paraBirimi": "EUR",
+     "tutarTRY": 89224,
+     "gece": 4,
+     "vergiUcretDahil": "83.913 TL + 5.311 TL vergi/ücret; toplam yazıldı",
+     "iptal": "İade edilmez (online ön ödeme)",
+     "kaynak": "booking",
+     "kurNotu": "EUR karşılığı TCMB 06.11.2026 efektif olmayan döviz satış kuru 55.9609 ile; Booking TR hesabında fiyatı yalnız TL gösterdi"
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 34.0,
+   "tresorCarKm": 28.9,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Tatil evi (4 yatak odası). 2 gecelik pencerelerde oda çıkmadı (muhtemelen asgari konaklama)."
+  },
+  {
+   "key": "booking:im-grund-22-c",
+   "platform": "booking",
+   "platformId": "im-grund-22-c",
+   "url": "https://www.booking.com/hotel/de/im-grund-22-c.html",
+   "title": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+   "hostName": null,
+   "address": "Im Grund 22-22d, 15366 Hoppegarten",
+   "coords": {
+    "lat": 52.5169,
+    "lon": 13.6549,
+    "accuracy": "adres",
+    "accuracyNote": "Booking harita konumu (data-atlas-latlng); adresle tutarlı"
+   },
+   "district": "Hoppegarten (Birkenstein)",
+   "kind": "daire",
+   "m2": 110,
+   "bedrooms": 3,
+   "baths": null,
+   "beds": [
+    {
+     "oda": "Yatak Odası 1",
+     "yataklar": [
+      "1 tek kişilik",
+      "1 çift kişilik"
+     ]
+    },
+    {
+     "oda": "Yatak Odası 2",
+     "yataklar": [
+      "1 tek kişilik",
+      "1 çift kişilik"
+     ]
+    },
+    {
+     "oda": "Yatak Odası 3",
+     "yataklar": [
+      "1 çift kişilik",
+      "1 büyük çift kişilik"
+     ]
+    },
+    {
+     "oda": "Oturma odası",
+     "yataklar": [
+      "2 çekyat"
+     ]
+    }
+   ],
+   "separateBeds": 6,
+   "couches": 2,
+   "capacity": null,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": null,
+   "reviewCount": null,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/325119697.jpg",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/325119703.jpg",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/325119706.jpg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1798,
+     "paraBirimi": "EUR",
+     "tutarTRY": 100628,
+     "gece": 4,
+     "vergiUcretDahil": "vergi ve ücretler dahil",
+     "iptal": "23 Aralık 2026 öncesi ücretsiz iptal (01.01–03.01 için 25 Aralık); 21 Aralık’a kadar ödeme yok",
+     "kaynak": "booking",
+     "kurNotu": "EUR karşılığı TCMB 06.11.2026 efektif olmayan döviz satış kuru 55.9609 ile; Booking TR hesabında fiyatı yalnız TL gösterdi"
+    },
+    "30.12-01.01": {
+     "tutar": 899,
+     "paraBirimi": "EUR",
+     "tutarTRY": 50314,
+     "gece": 2,
+     "vergiUcretDahil": "vergi ve ücretler dahil",
+     "iptal": "23 Aralık 2026 öncesi ücretsiz iptal (01.01–03.01 için 25 Aralık); 21 Aralık’a kadar ödeme yok",
+     "kaynak": "booking",
+     "kurNotu": "EUR karşılığı TCMB 06.11.2026 efektif olmayan döviz satış kuru 55.9609 ile; Booking TR hesabında fiyatı yalnız TL gösterdi"
+    },
+    "01.01-03.01": {
+     "tutar": 899,
+     "paraBirimi": "EUR",
+     "tutarTRY": 50314,
+     "gece": 2,
+     "vergiUcretDahil": "vergi ve ücretler dahil",
+     "iptal": "23 Aralık 2026 öncesi ücretsiz iptal (01.01–03.01 için 25 Aralık); 21 Aralık’a kadar ödeme yok",
+     "kaynak": "booking",
+     "kurNotu": "EUR karşılığı TCMB 06.11.2026 efektif olmayan döviz satış kuru 55.9609 ile; Booking TR hesabında fiyatı yalnız TL gösterdi"
+    }
+   },
+   "tresorCarMin": 27.6,
+   "tresorCarKm": 18.3,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Tatil dairesi (müstakil değil). Tresor süresi 27,5 dk: 30 dk sınırına yakın, gündüz trafikte aşabilir."
+  },
+  {
+   "key": "holidu:69492292",
+   "platform": "fewo-direkt (Holidu üzerinden)",
+   "platformId": "holidu:69492292",
+   "url": "https://www.holidu.de/d/69492292",
+   "title": "Steglitz V-große Altbauwohnung, 3 Zimmer, Küche, Bad & Balkon",
+   "hostName": null,
+   "address": null,
+   "coords": {
+    "lat": 52.448185,
+    "lon": 13.343799,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Holidu konumu; Steglitz VI ile aynı nokta (aynı bina)"
+   },
+   "district": "Steglitz",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": null,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "2x Queensize Betten"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1x Queensize Bett",
+      "1x Einzelbett"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "2x Einzelbetten"
+     ]
+    }
+   ],
+   "separateBeds": 6,
+   "couches": 0,
+   "capacity": 9,
+   "kanepeli": false,
+   "registrationNumber": null,
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": null,
+   "reviewCount": null,
+   "photos": [
+    "https://img.holidu.com/images/9358b8b5-38ce-47f5-8916-23f81bb7cba0/l.jpg",
+    "https://img.holidu.com/images/d99343bb-2d35-4298-84bb-3759c4453a5e/l.jpg",
+    "https://img.holidu.com/images/ff6017af-ce9d-428f-9ec6-76a440f860c2/l.jpg"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "tutar": 1328,
+     "paraBirimi": "EUR",
+     "tutarTRY": null,
+     "gece": 4,
+     "vergiUcretDahil": "Holidu \"exact\" toplam; ödeme ekranında doğrulanmadı",
+     "iptal": "15 Aralık 2026’ya kadar ücretsiz iptal (Holidu verisi)",
+     "kaynak": "holidu (FeWo-direkt/Expedia)",
+     "kurNotu": null
+    },
+    "30.12-01.01": null,
+    "01.01-03.01": null
+   },
+   "tresorCarMin": 19.7,
+   "tresorCarKm": 11.1,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); Trafiksiz serbest akış süresi; gündüz trafikte %20–40 uzayabilir",
+   "observedAt": "2026-11-07T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": "airbnb:51080483 veya airbnb:51698367 (Steglitz grup daireleri; yatak dökümü yok) ile aynı daire olabilir",
+   "notes": "Steglitz VI ile aynı ev sahibi/bina; ayrı birim."
+  }
+ ]
+}
