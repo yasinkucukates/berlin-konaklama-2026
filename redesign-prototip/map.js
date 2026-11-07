@@ -237,6 +237,8 @@
     if (!dialog.open) dialog.showModal();
     dialog.scrollTop = 0; content.scrollTop = 0;
     if (window.BerlinCardTabs && tab !== 'overview') window.BerlinCardTabs.reveal(clone);
+    // The list script keeps the address bar on this offer's shareable link.
+    dialog.dispatchEvent(new CustomEvent('card-shown', {detail:{card}}));
   }
   function sourcePropertyKey(card) {
     try {

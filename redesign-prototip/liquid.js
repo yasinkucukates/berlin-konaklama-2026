@@ -873,6 +873,135 @@
     if (img.complete && img.currentSrc && img.naturalWidth === 0) markImageFailure(img);
   });
 
+  // Shareable offer links. One page serves every offer: the address
+  // #ilan=<id>&giris=<giriş>&cikis=<çıkış>&kisi=<6|7> opens that offer's large view.
+  // The same identity (id + dates) is used by the shared favorites.
+  const parseListingHash = (hash = location.hash) => {
+    const raw = String(hash || '').replace(/^#/, '');
+    if (!raw.startsWith('ilan=')) return null;
+    const params = new URLSearchParams(raw);
+    const id = params.get('ilan') || '';
+    if (!/^[A-Za-z0-9-]{1,160}$/.test(id)) return null;
+    const checkIn = params.get('giris') || '', checkOut = params.get('cikis') || '', adults = params.get('kisi') || '';
+    return {id, checkIn: isDay(checkIn) ? checkIn : '', checkOut: isDay(checkOut) ? checkOut : '', adults: /^[67]$/.test(adults) ? adults : ''};
+  };
+  const listingHash = card => '#' + new URLSearchParams({ilan:card.dataset.id, giris:card.dataset.checkIn, cikis:card.dataset.checkOut, kisi:card.dataset.offerAdults === '7' ? '7' : '6'}).toString();
+  const listingUrl = card => {
+    const url = new URL(location.href);
+    url.search = '';
+    // A new address also skips an older cached copy of the page.
+    const release = document.querySelector('meta[name="berlin-release"]')?.getAttribute('content') || '';
+    if (/^[a-f0-9]{16}$/.test(release)) url.searchParams.set('v', release);
+    url.hash = listingHash(card).slice(1);
+    return url.toString();
+  };
+  const findListingCard = target => {
+    const matches = cards.filter(card => card.dataset.id === target.id &&
+      (!target.checkIn || card.dataset.checkIn === target.checkIn) && (!target.checkOut || card.dataset.checkOut === target.checkOut));
+    return matches.find(card => !target.adults || card.dataset.offerAdults === target.adults) || matches[0] || null;
+  };
+  const setAddress = hash => {
+    try { history.replaceState(history.state, '', location.pathname + location.search + hash); } catch (_) { /* file:// or a locked history */ }
+  };
+  let hashBeforeDialog = null, sharedCard = null;
+  if (cardDialog) {
+    // Keep the address bar on the open offer, so the browser's own share menu
+    // also sends this offer. Closing restores the previous plan address.
+    cardDialog.addEventListener('card-shown', event => {
+      const card = event.detail && event.detail.card;
+      if (!card || !card.dataset || !card.dataset.id || !cards.includes(card)) return;
+      if (hashBeforeDialog === null) hashBeforeDialog = parseListingHash() ? '' : location.hash;
+      setAddress(listingHash(card));
+    });
+    cardDialog.addEventListener('close', () => {
+      if (hashBeforeDialog !== null) {
+        const restore = hashBeforeDialog;
+        hashBeforeDialog = null;
+        if (parseListingHash()) setAddress(restore);
+      }
+      const card = sharedCard;
+      sharedCard = null;
+      // After a shared link, show the offer in the list as well.
+      if (card && !card.hidden && card.getClientRects().length) {
+        // A direct jump: the list can be very long, and the dialog was covering it.
+        card.scrollIntoView({block:'center', behavior:'auto'});
+        card.classList.add('is-shared');
+        setTimeout(() => card.classList.remove('is-shared'), 2600);
+      }
+    });
+  }
+  const sharedNotice = message => {
+    if (!resultsContent) return;
+    let notice = resultsContent.querySelector('.shared-missing');
+    if (!notice) {
+      notice = document.createElement('p');
+      notice.className = 'shared-missing';
+      notice.setAttribute('role', 'status');
+      resultsContent.prepend(notice);
+    }
+    notice.textContent = message;
+    notice.hidden = false;
+    setTimeout(() => { notice.hidden = true; }, 12000);
+  };
+  const openListingFromHash = () => {
+    const target = parseListingHash();
+    if (!target) return;
+    const card = findListingCard(target);
+    if (!card) { sharedNotice('Paylaşılan ilan artık listede yok. Güncel seçenekler aşağıda.'); return; }
+    if (target.adults && guestFilter && guestFilter.value !== target.adults) {
+      guestFilter.value = target.adults;
+      guestFilter.dispatchEvent(new Event('change', {bubbles:true}));
+    }
+    const opener = card.querySelector('.card-open-main');
+    if (!opener) return;
+    sharedCard = card;
+    opener.click();
+  };
+  window.addEventListener('hashchange', openListingFromHash);
+  // The map script opens the large view; it is registered after this script.
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => setTimeout(openListingFromHash, 0), {once:true});
+  else setTimeout(openListingFromHash, 0);
+  const shareFeedback = (button, message) => {
+    const control = button.closest('.favorite-control') || button.parentElement;
+    let note = control.querySelector('.share-feedback');
+    if (!note) {
+      note = document.createElement('span');
+      note.className = 'share-feedback';
+      note.setAttribute('role', 'status');
+      note.setAttribute('aria-live', 'polite');
+      button.after(note);
+    }
+    note.textContent = message;
+    note.hidden = false;
+    clearTimeout(note.timer);
+    note.timer = setTimeout(() => { note.hidden = true; }, 2600);
+  };
+  root.addEventListener('click', async event => {
+    const button = event.target.closest('.share-button');
+    if (!button || !root.contains(button)) return;
+    const card = button.closest('.stay-card');
+    if (!card || !card.dataset.id) return;
+    event.preventDefault();
+    const url = listingUrl(card);
+    const name = card.querySelector('.card-title h3, .card-title h4')?.textContent.trim() || 'Berlin konaklaması';
+    const dates = card.querySelector('.card-kicker')?.textContent.trim() || '';
+    const priceNode = card.querySelector('.amount strong')?.cloneNode(true);
+    priceNode?.querySelectorAll('.price-qualifier').forEach(node => node.remove());
+    const text = [name, dates, priceNode?.textContent.trim() || ''].filter(Boolean).join(' · ');
+    // Phones get the system share sheet (WhatsApp, Messages); computers copy the link.
+    if (typeof navigator.share === 'function' && window.matchMedia('(pointer: coarse)').matches) {
+      try { await navigator.share({title:name, text, url}); return; }
+      catch (error) { if (error && error.name === 'AbortError') return; }
+    }
+    try {
+      if (!navigator.clipboard || typeof navigator.clipboard.writeText !== 'function') throw new Error('clipboard unavailable');
+      await navigator.clipboard.writeText(url);
+      shareFeedback(button, 'Bağlantı kopyalandı');
+    } catch (_) {
+      window.prompt('Bu ilanın bağlantısını kopyalayın:', url);
+    }
+  });
+
   const dialog = byId('lightbox');
   if (!dialog || typeof dialog.showModal !== 'function') return;
   root.classList.add('gallery-modal');

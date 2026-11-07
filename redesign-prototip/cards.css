@@ -90,6 +90,24 @@ body{background:
 .stay-card .favorite-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
 .stay-card .favorite-unavailable{margin-top:6px;border-radius:8px;background:rgba(255,255,255,.8);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
 
+/* Share: a second round glass button under the heart. It needs JavaScript. */
+.stay-card .share-button{display:none}
+.js .stay-card .share-button{position:relative;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;min-height:40px;
+  margin-top:8px;padding:0;border:0;border-radius:50%;background:transparent;color:#4d3731;pointer-events:auto;cursor:pointer}
+.js .stay-card .share-button::before{content:"";position:absolute;z-index:-1;inset:0;border-radius:50%;background:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.9);
+  box-shadow:0 4px 14px rgba(30,20,12,.18);backdrop-filter:blur(14px) saturate(180%);-webkit-backdrop-filter:blur(14px) saturate(180%)}
+.js .stay-card .share-button:hover::before{background:rgba(255,255,255,.92)}
+.js .stay-card .share-button:focus-visible{outline:2px solid #8e463e;outline-offset:2px}
+.stay-card .share-button .i{width:18px;height:18px}
+.stay-card .share-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+/* Shown beside the share button, clear of the photo arrows below it. */
+.stay-card .share-feedback{position:absolute;top:56px;right:48px;padding:5px 9px;border-radius:8px;background:rgba(255,255,255,.95);color:#2f5b3d;font:650 11px/1.3 var(--sans);
+  box-shadow:0 2px 8px rgba(35,27,21,.18);white-space:nowrap}
+.stay-card .share-feedback[hidden]{display:none}
+.groups .stay-card.is-shared{outline:3px solid rgba(154,92,70,.8);outline-offset:3px}
+.shared-missing{margin:0 0 12px;padding:10px 14px;border:1px solid #e3cfc2;border-radius:12px;background:#fff8f1;color:#6b3f30;font:650 13px/1.4 var(--sans)}
+.shared-missing[hidden]{display:none}
+
 /* ---------- Title and price ---------- */
 .stay-card .card-head{order:1;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:start;padding:14px 16px 2px}
 .stay-card .card-title>.offer-party{display:none}
@@ -292,7 +310,7 @@ body{background:
 }
 @media(prefers-reduced-motion:reduce){.stay-card,.fact-tile,.fact-tile::after{transition:none}.groups .stay-card:hover{transform:none}.unavailable-stamp,.stay-card[data-availability] .media-flags .availability-status::before,.availability-summary .sum-ok::before{animation:none}}
 @media(prefers-reduced-transparency:reduce){
-  .stay-card,.card-dialog,.media-flag,.media-flags .availability-status,.stay-card .favorite-button::before,.js .card-more .detail-tabs{backdrop-filter:none;-webkit-backdrop-filter:none}
+  .stay-card,.card-dialog,.media-flag,.media-flags .availability-status,.stay-card .favorite-button::before,.js .stay-card .share-button::before,.js .card-more .detail-tabs{backdrop-filter:none;-webkit-backdrop-filter:none}
   .stay-card{background:#fffdfa}.media-flag,.media-flags .availability-status{background:#fff}.card-dialog{background:#f7f3ed}
 }
 @supports not ((backdrop-filter:blur(2px)) or (-webkit-backdrop-filter:blur(2px))){.stay-card{background:#fffdfa}.media-flag{background:#fff}}
