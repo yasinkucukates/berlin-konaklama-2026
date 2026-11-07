@@ -24,6 +24,24 @@ Tarayıcıda `http://localhost:8000/` adresini açın. `index.html`, bu dalda de
 
 Özgün yerel araştırma dosyalarına ait mutlak yol önekleri bu Git kopyasında `./` olarak göreli hale getirildi. Bazı tarihsel kanıt dosyaları Git kopyasına alınmamıştır; bunlar yerel araştırma klasöründedir.
 
+## Canlıya yayın
+
+7 Kasım 2026'da kullanıcının açık onayıyla bu daldaki filtreli arayüz `main` dalına, yani GitHub Pages'e alındı. `main` yalnız yayın dosyalarını tutar: `index.html` ve günlük müsaitlik için `availability-status.json` (eski `availability-status.js/.css` dosyaları yeni sayfada kullanılmaz). Sonraki her canlı güncelleme de kullanıcının açık onayını ister.
+
+Canlı sayfa şöyle derlenir; `--live` önizleme yazılarını kaldırır ve gerçek ortak favori servisini zorunlu kılar:
+
+```sh
+git fetch origin main
+git show origin/main:availability-status.json > /tmp/availability-status.json
+python3 redesign-prototip/build_combined.py --live \
+  --favorites-endpoint "$(git show origin/main:index.html | grep -o 'https://script.google.com/macros/s/[A-Za-z0-9_-]*/exec' | head -1)" \
+  --availability-file /tmp/availability-status.json --output /tmp/index.html
+```
+
+Ardından yalnız `/tmp/index.html`, güncel `main` üzerinde `index.html` olarak işlenir; `main` dalına bu daldaki kaynak klasörler taşınmaz. Yayından önce canlıdaki her kartın `data-id`, `data-check-in`, `data-check-out` üçlüsünün yeni sayfada bulunduğu kontrol edilir; ortak favoriler bu üçlüyle tutulur. Bir ilan kaldırılırsa ona verilmiş beğeniler sayfada görünmez olur.
+
+Günlük müsaitlik: Canlı sayfa açılışta yanındaki `availability-status.json` dosyasını önbelleksiz okur ve kartları ona göre günceller. Günlük kontrolün canlıya yansıması için `main` dalında yalnız bu dosyanın güncellenmesi yeterlidir; `index.html` yeniden üretilmez. Bilgisayardaki eski canlı üretici artık kullanılmamalıdır; o üretici `index.html` dosyasını eski görünümle değiştirir. Yeni ilan veya arayüz değişikliği önce bu dalda yapılır, sonra onayla canlıya derlenir.
+
 ## Eşitleme ve sınırlar
 
 Bu dal, 7 Kasım 2026 yerel prototipinin GitHub çalışma kopyasıdır. Bilgisayardaki eski önizleme ve günlük kontrol kaynağı `Projects/Skills-ve-MCPler/denemeler/berlin-konaklama-arama` altında kalır; bu iki kopya otomatik eşitlenmez. Değişiklikleri taşımadan önce iki taraftaki en son sürümü ve ortak beğenilerin korunmasını kontrol edin. Yeni bulunan ilanlar, kullanıcı seçmeden prototipe veya canlı siteye eklenmez. Fiyat ve müsaitlik değişebilir; kişi kapasitesi tek başına fiyat veya müsaitlik kanıtı değildir.

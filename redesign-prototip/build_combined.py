@@ -88,7 +88,12 @@ def main() -> None:
     parser.add_argument('--output', type=Path, default=HERE / 'preview.html', help='Combined HTML output path')
     parser.add_argument('--favorites-endpoint', help='Verified Apps Script web-app endpoint; no group token')
     parser.add_argument('--availability-file', type=Path, default=HERE / 'availability-status.json')
+    parser.add_argument('--live', action='store_true',
+                        help='Canlı sürüm: önizleme yazıları çıkar, gerçek ortak favoriler zorunlu, '
+                             'sayfa açılışta yanındaki availability-status.json dosyasını okur')
     args = parser.parse_args()
+    if args.live and not args.favorites_endpoint:
+        parser.error('--live için --favorites-endpoint gerekli; canlı sitede deneme favorisi kullanılmaz')
     liquid_script = (HERE / 'liquid.js').read_text(encoding='utf-8')
     map_script = (HERE / 'map.js').read_text(encoding='utf-8')
     css = (HERE / 'liquid.css').read_text(encoding='utf-8')
@@ -174,7 +179,11 @@ def main() -> None:
             raise ValueError('Müsaitlik kaydı tekrarlanıyor')
         keys.add(key)
     status_json = json.dumps(availability, ensure_ascii=False).replace('<', '\\u003c')
-    prototype_controls = '''<div class="prototype-strip"><b>ÖNİZLEME</b><span>Bu sürüm canlı siteden ayrıdır. Filtreler ve müsaitlik görünümü deneme içindir.</span></div>
+    preview_strip = '' if args.live else '''<div class="prototype-strip"><b>ÖNİZLEME</b><span>Bu sürüm canlı siteden ayrıdır. Filtreler ve müsaitlik görünümü deneme içindir.</span></div>'''
+    # The live page explains the grey, crossed-out card; the preview shows a sample.
+    status_legend = ('<b>Gri ve Çarpılı Kart</b><small>Son günlük kontrolde bu tarihler müsait değildi.</small>' if args.live
+                     else '<b>Bu Tarihlerde Müsait Değil</b><small>Örnek görünüm: Bir ilanın gerçek durumu değildir.</small>')
+    prototype_controls = preview_strip + '''
     <button type="button" class="mobile-filter-toggle" aria-expanded="false" aria-controls="prototype-filters">☷ Filtreler <span class="active-filter-count"></span></button><div class="results-layout">
     <aside id="prototype-filters" class="filter-panel" aria-label="Konaklama filtreleri"><div class="filter-panel-heading"><div><b>Filtreler</b><small>Seçtikçe sonuçlar güncellenir</small></div><button type="button" class="filters-clear">Temizle</button></div>''' + f'''
       <div class="plan-filter"><b>Konaklama Planı</b><nav class="group-nav plan-nav-sidebar" aria-label="Konaklama planı">{plan_links}</nav><p class="plan-hint">İlk 2 gece daire, son 2 gece villa/ev. İki ayrı rezervasyon.</p></div>''' + '''
@@ -186,7 +195,7 @@ def main() -> None:
         <label>Yatak Düzeni<select class="filter-beds"><option value="all">Tüm Yatak Düzenleri</option><option value="separate">Herkese Ayrı Yatak</option></select></label>
         <label>Yatak Odası<select class="filter-rooms"><option value="all">Tüm Oda Sayıları</option><option value="2">En Az 2 Oda</option><option value="3">En Az 3 Oda</option><option value="4">En Az 4 Oda</option></select></label>
       </div><p class="filter-explainer">Kapasite, fiyat ve müsaitlik teyidi değildir. Kişi başı tutar gösterilen fiyatın paylaşımıdır. İki duraklı planda fiyat her konaklama için ayrı uygulanır.</p><p class="filter-results" aria-live="polite"></p>
-      <div class="status-example"><span class="status-example-visual" aria-hidden="true">×</span><span><b>Bu Tarihlerde Müsait Değil</b><small>Örnek görünüm: Bir ilanın gerçek durumu değildir.</small></span></div>
+      <div class="status-example"><span class="status-example-visual" aria-hidden="true">×</span><span>''' + status_legend + '''</span></div>
       <button type="button" class="mobile-filter-done">Sonuçları Gör</button></aside><div class="results-content">'''
     marker = '<p class="best-criteria">'
     if combined.count(marker) != 1:
@@ -206,8 +215,12 @@ def main() -> None:
     combined = combined.replace('Kişi başı pay, gösterilen toplamın altıya bölünmesidir.', 'Kişi başı pay, gösterilen toplamın seçilen kişi sayısına bölünmesidir; bu hesap yeni bir fiyat teklifi değildir.')
     combined = combined.replace('Altı kişilik fiyatı ve müsaitliği teyitsiz ilanlarda seçili tarihler için güncel koşullar yeniden kontrol edilmelidir.', 'Seçilen kişi sayısı için fiyat ve müsaitlik teyit edilmemişse güncel koşullar yeniden kontrol edilmelidir.')
     combined = combined.replace('Kaynak gözlemleri: 5 ve 6 Kasım 2026.', 'Önceki kaynak gözlemleri: 5 ve 6 Kasım 2026; son kontroller ilgili kartlarda gösterilir.')
-    page = f'''<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Berlin Konaklamaları | Önizleme</title><style>{css}\n{map_css}\n{controls}\n{gallery_css}\n{cards_css}</style></head><body>
-{icon_sprite()}{combined}<script type="application/json" id="availability-data">{status_json}</script>{favorite_bootstrap}<script>{liquid_script}</script><script>{scoped_map_script(map_script)}</script><script>{gallery_script}</script></body></html>'''
+    title = 'Berlin Konaklamaları | 30 Aralık – 3 Ocak' if args.live else 'Berlin Konaklamaları | Önizleme'
+    # Live: the embedded snapshot shows at once, then the page reads the daily
+    # availability-status.json published next to it, so a daily check needs no rebuild.
+    live_source = ' data-live-src="availability-status.json"' if args.live else ''
+    page = f'''<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title><style>{css}\n{map_css}\n{controls}\n{gallery_css}\n{cards_css}</style></head><body>
+{icon_sprite()}{combined}<script type="application/json" id="availability-data"{live_source}>{status_json}</script>{favorite_bootstrap}<script>{liquid_script}</script><script>{scoped_map_script(map_script)}</script><script>{gallery_script}</script></body></html>'''
     # Hash the full pre-meta document to avoid a circular hash; it changes
     # whenever listings, styles, scripts, or the configured transport change.
     release = hashlib.sha256(page.encode('utf-8')).hexdigest()[:16]

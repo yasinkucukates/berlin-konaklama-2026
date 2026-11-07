@@ -36,6 +36,37 @@
     const suffix = {11:'’da', 12:'’ta', 1:'’ta', 10:'’da', 9:'’da'}[month];
     return suffix ? trDay(iso) + suffix : trDay(iso) + ' tarihinde';
   };
+  // Dated availability. The snapshot embedded at build time shows at once; on the
+  // live site the page then reads the daily availability-status.json published
+  // next to it, so a daily check appears without rebuilding the page.
+  const availabilityNode = document.getElementById('availability-data');
+  const isDay = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value);
+  const isTime = value => typeof value === 'string' && /(?:Z|[+-]\d{2}:\d{2})$/.test(value) && Number.isFinite(Date.parse(value));
+  const usableAvailability = data => {
+    if (!data || data.version !== 1 || !Array.isArray(data.records)) return null;
+    // A malformed record is skipped rather than shown as a status.
+    return data.records.filter(entry => entry && ['card', 'offer'].includes(entry.scope) && typeof entry.id === 'string' && entry.id &&
+      isDay(entry.checkIn) && isDay(entry.checkOut) && [6, 7].includes(entry.adults) && ['available', 'unavailable'].includes(entry.status) &&
+      isTime(entry.checkedAt) && typeof entry.sourceUrl === 'string' && entry.sourceUrl.startsWith('https://'))
+      .map(entry => !('lastAvailableAt' in entry) || (entry.status === 'unavailable' && isTime(entry.lastAvailableAt) &&
+        Date.parse(entry.lastAvailableAt) <= Date.parse(entry.checkedAt)) ? entry : {...entry, lastAvailableAt: undefined});
+  };
+  let embeddedAvailability = [];
+  try { embeddedAvailability = usableAvailability(JSON.parse(availabilityNode?.textContent || '{}')) || []; } catch (_) {}
+  const loadLiveAvailability = () => {
+    const source = availabilityNode?.dataset.liveSrc;
+    if (!source || !/^https?:$/.test(location.protocol) || typeof fetch !== 'function') return;
+    const url = new URL(source, location.href);
+    url.searchParams.set('t', String(Date.now()));
+    fetch(url.href, {cache:'no-store', credentials:'omit'})
+      .then(response => response.ok ? response.json() : null)
+      .then(data => {
+        const records = usableAvailability(data);
+        if (records) document.dispatchEvent(new CustomEvent('berlin-availability', {detail:records}));
+      })
+      .catch(() => {});
+  };
+
   document.addEventListener('click', event => {
     const tab = event.target.closest('.detail-tab');
     if (tab) activateCardTab(tab.closest('.stay-card'), tab.dataset.tab);
@@ -218,8 +249,7 @@
   }
   const filterValues = [capacityFilter, priceFilter, travelFilter, bedsFilter, roomsFilter].filter(Boolean);
   const knownNumber = value => value !== undefined && value !== '' && Number.isFinite(Number(value)) ? Number(value) : null;
-  let availabilityRecords = [];
-  try { availabilityRecords = JSON.parse(document.getElementById('availability-data')?.textContent || '{}').records || []; } catch (_) {}
+  let availabilityRecords = embeddedAvailability;
   let favoriteAnchor = null;
   root.addEventListener('pointerover', event => {
     const detail = event.target.closest('.caution-popover');
@@ -235,6 +265,8 @@
   cards.forEach(card => {
     card.dataset.planGroup = (card.closest('.group')?.id || '').replace(/^p[67]-/, '');
     if (card.closest('.conditional')) card.dataset.conditional = 'true';
+  });
+  const applyCapacityEvidence = card => {
     // Only a dated, source-verified maximum may replace an older capacity.
     const capacityEvidence = availabilityRecords.filter(entry => entry.scope === 'card' && entry.id === card.dataset.id && entry.checkIn === card.dataset.checkIn && entry.checkOut === card.dataset.checkOut && Number.isInteger(entry.maxGuests) && entry.maxGuests > 0 && entry.capacityEvidence && entry.capacitySourceUrl).sort((a, b) => Date.parse(b.checkedAt) - Date.parse(a.checkedAt))[0];
     if (capacityEvidence) {
@@ -248,7 +280,8 @@
         if (warning && Number(row.dataset.sharePeople) <= capacityEvidence.maxGuests) warning.remove();
       });
     }
-  });
+  };
+  cards.forEach(applyCapacityEvidence);
   // Preserve separate offers and favorite identities while displaying a known
   // property only once for each date range.
   const duplicateOffers = new Map();
@@ -693,6 +726,11 @@
     });
   }
   if (sort) { sort.addEventListener('change', applySort); applySort(); }
+  document.addEventListener('berlin-availability', event => {
+    availabilityRecords = event.detail;
+    cards.forEach(applyCapacityEvidence);
+    applyFilters();
+  });
 
   const markImageFailure = img => {
     const anchor = img.closest('a');
@@ -762,6 +800,7 @@
   });
   dialog.addEventListener('close', () => { large.removeAttribute('src'); if (opener) opener.focus(); });
   });
+  loadLiveAvailability();
   if (adapter()) refreshFavorites();
   window.addEventListener('berlin-favorites-transport-ready', refreshFavorites);
   window.addEventListener('focus', () => { if (adapter()) refreshFavorites(); });

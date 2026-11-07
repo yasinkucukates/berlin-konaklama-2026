@@ -6,3 +6,4 @@
 - Varsayılan prototip beğenileri yalnız denemedir. Gerçek ortak favorileri değiştirme veya üretim servisine test oyu gönderme.
 - Kaynak tarihini, yetişkin sayısını, fiyat kapsamını ve konaklama/sağlayıcı kimliğini ayrı koru. Eski gözlemi güncel müsaitlik gibi sunma; kullanıcı seçmeden yeni adayları rehbere ekleme.
 - Kullanıcının yerel günlük kontrolü ve önizlemesi bu Git kopyasıyla otomatik eşitlenmez. Bunlardan veri aktarılacaksa önce her iki tarafın güncel durumunu karşılaştır; kaynak ve kapsamı koru.
+- 7 Kasım 2026: Kullanıcı onayıyla bu dalın arayüzü canlıya alındı. Canlı derleme ve `main` yayın kuralları `README.md` içindeki "Canlıya yayın" bölümündedir. Günlük müsaitlik kontrolü `main` dalında yalnız `availability-status.json` dosyasını günceller; canlı `index.html` dosyasını eski yerel üreticiyle yeniden yazma.
