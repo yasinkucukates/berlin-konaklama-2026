@@ -1,0 +1,2366 @@
+{
+ "aciklama": "Sitede zaten bulunan ilanlar. Yeni adaylar bu kayda göre elenir; reddedilen veya sunulan adaylar da status ile eklenir.",
+ "uretildi": "2026-11-07",
+ "ilanlar": [
+  {
+   "key": "airbnb:1042045413385336860",
+   "siteIds": [
+    "six-airbnb-1042045413385336860-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1042045413385336860",
+   "name": "Sadece Berlin | Reuterplatz Dairesi",
+   "area": "Neukölln, Reuterplatz yakını",
+   "address": null,
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": 12,
+   "rooms": 2,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1062309373682445601",
+   "siteIds": [
+    "1062309373682445601"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1062309373682445601",
+   "name": "Kleine Villa Arensnest",
+   "area": "Wiesenburg/Mark",
+   "address": null,
+   "coords": {
+    "lat": null,
+    "lon": null,
+    "accuracy": "unknown"
+   },
+   "kind": "Tüm kır evi ve özel bahçe",
+   "capacity": 10,
+   "rooms": 3,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-villa-bati.json",
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1101465952016111173",
+   "siteIds": [
+    "six-airbnb-1101465952016111173-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1101465952016111173",
+   "name": "Fischerinsel | 3 Odalı Daire",
+   "area": "Mitte, Fischerinsel",
+   "address": "Scharrenstraße 16A, 10178 Berlin (ilanda açık tescil adresi; giriş kapısı teyit edilmedi)",
+   "coords": {
+    "lat": 52.5128476,
+    "lon": 13.4029332,
+    "accuracy": "Açık tescil adresine dayanan yaklaşık nokta; tam giriş kapısı teyit edilmedi.",
+    "source": "https://www.airbnb.com.tr/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 6,
+   "rooms": 3,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1144871109877188022",
+   "siteIds": [
+    "1144871109877188022",
+    "six-house-1144871109877188022-last"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1144871109877188022",
+   "name": "Biesdorf bahçeli ev",
+   "area": "Berlin, Biesdorf",
+   "address": null,
+   "coords": {
+    "lat": 52.49435,
+    "lon": 13.56474,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Tüm ev",
+   "capacity": 8,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": "1144871109877188022",
+   "sources": [
+    "bolunmus-villa-dogu.json",
+    "six/prepared/bolunmus-six.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1150006272268927007",
+   "siteIds": [
+    "1150006272268927007"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1150006272268927007",
+   "name": "Maybachufer",
+   "area": "Neukölln",
+   "address": null,
+   "coords": {
+    "lat": 52.4903307,
+    "lon": 13.4345716,
+    "accuracy": "address"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": 2,
+   "baths": "1 tam + 1 WC",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1152005761587998986",
+   "siteIds": [
+    "six-airbnb-1152005761587998986-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1152005761587998986",
+   "name": "Stralauer Allee | Üç Yatak Odalı Daire",
+   "area": "Friedrichshain, Stralauer Allee",
+   "address": null,
+   "coords": {
+    "lat": 52.4978,
+    "lon": 13.4641,
+    "accuracy": "Airbnb ilanının yaklaşık harita noktası; kesin kapı adresi değil",
+    "source": "https://www.airbnb.com/rooms/1152005761587998986?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 7,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1166429151300530583",
+   "siteIds": [
+    "1166429151300530583"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1166429151300530583",
+   "name": "HipSpot R3",
+   "area": "Mitte / Tresor",
+   "address": "Rungestraße 12 çevresi, Berlin (yaklaşık)",
+   "coords": {
+    "lat": 52.5123068,
+    "lon": 13.4175919,
+    "accuracy": "address"
+   },
+   "kind": "Daire",
+   "capacity": 8,
+   "rooms": 2,
+   "baths": "1",
+   "samePropertyAs": "1166429151300530583",
+   "sources": [
+    "bolunmus-daire-airbnb.json",
+    "galeri-veri.json",
+    "six/prepared/galeri-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1175489093358086077",
+   "siteIds": [
+    "1175489093358086077"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1175489093358086077",
+   "name": "Family House with Lake Access",
+   "area": "Müggelsee",
+   "address": null,
+   "coords": {
+    "lat": 52.43384,
+    "lon": 13.68607,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Tüm ev",
+   "capacity": 7,
+   "rooms": 2,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1186815887957943578",
+   "siteIds": [
+    "six-airbnb-1186815887957943578-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1186815887957943578",
+   "name": "Samariterstraße | Tasarım Daire",
+   "area": "Friedrichshain, Samariterstraße",
+   "address": null,
+   "coords": {
+    "lat": 52.5144,
+    "lon": 13.4629,
+    "accuracy": "Airbnb ilanının yaklaşık harita noktası; kesin kapı adresi değil",
+    "source": "https://www.airbnb.com/rooms/1186815887957943578?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 8,
+   "rooms": 3,
+   "baths": "1 + ayrı WC",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:12048269",
+   "siteIds": [
+    "12048269"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/12048269",
+   "name": "Penthouse Torstraße",
+   "area": "Mitte",
+   "address": null,
+   "coords": {
+    "lat": 52.53,
+    "lon": 13.4048,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Daire",
+   "capacity": 8,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1216757408450098435",
+   "siteIds": [
+    "1216757408450098435"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1216757408450098435",
+   "name": "Pappelallee 5 yatak odalı daire",
+   "area": "Prenzlauer Berg",
+   "address": null,
+   "coords": {
+    "lat": 52.54611,
+    "lon": 13.41398,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Daire",
+   "capacity": 9,
+   "rooms": 5,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1231775696843779125",
+   "siteIds": [
+    "six-airbnb-1231775696843779125-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1231775696843779125",
+   "name": "Weißensee | Oyuncu Dairesi",
+   "area": "Pankow, Weißensee",
+   "address": null,
+   "coords": {
+    "lat": 52.5488249,
+    "lon": 13.4548392,
+    "accuracy": "İlandaki tescil adresi Berliner Allee 68 için Google adres noktası; tam giriş ayrıca teyit edilmedi.",
+    "source": "https://www.google.com/maps/dir/Berliner+Allee+68,+13088+Berlin/Tresor,+K%C3%B6penicker+Stra%C3%9Fe+70,+10179+Berlin/data=!4m2!4m1!3e0"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 6,
+   "rooms": 2,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:12541792",
+   "siteIds": [
+    "six-airbnb-12541792-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/12541792",
+   "name": "Friedrichshain | Grup Dairesi",
+   "area": "Friedrichshain, Frankfurter Tor",
+   "address": null,
+   "coords": {
+    "lat": 52.5138936,
+    "lon": 13.4478129,
+    "accuracy": "İlandaki tescil adresi Lasdehner Straße 30 için Google adres noktası; tam giriş ayrıca teyit edilmedi.",
+    "source": "https://www.google.com/maps/dir/Lasdehner+Stra%C3%9Fe+30,+10243+Berlin/Tresor,+K%C3%B6penicker+Stra%C3%9Fe+70,+10179+Berlin/data=!4m2!4m1!3e0"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 10,
+   "rooms": 3,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1260209089340243876",
+   "siteIds": [
+    "1260209089340243876"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1260209089340243876",
+   "name": "ALEXA 150 m² tasarım dairesi",
+   "area": "Mitte / Alexanderplatz",
+   "address": null,
+   "coords": {
+    "lat": 52.5251,
+    "lon": 13.4118,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Daire",
+   "capacity": 10,
+   "rooms": 4,
+   "baths": "3",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1352773721511868469",
+   "siteIds": [
+    "1352773721511868469"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1352773721511868469",
+   "name": "Villa içindeki çatı katı dairesi",
+   "area": "RSO tarafı",
+   "address": null,
+   "coords": {
+    "lat": 52.4413,
+    "lon": 13.5053,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Daire",
+   "capacity": 8,
+   "rooms": 6,
+   "baths": "2 duş + 2 WC",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1375933413490647342",
+   "siteIds": [
+    "1375933413490647342"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1375933413490647342",
+   "name": "Manor, Müritz National Park",
+   "area": "Speck / Waren, Mecklenburg Gölleri",
+   "address": null,
+   "coords": {
+    "lat": null,
+    "lon": null,
+    "accuracy": "unknown"
+   },
+   "kind": "Ana malikane ve park",
+   "capacity": 14,
+   "rooms": 12,
+   "baths": "9",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:13868134",
+   "siteIds": [
+    "sweep6-airbnb-13868134-20261230-20270103"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/13868134",
+   "name": "Kreuzkölln | Beş Yatak Odalı Daire",
+   "area": "Kreuzkölln, Berlin",
+   "address": "Hermannstraße 254, 12049 Berlin",
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": 10,
+   "rooms": 5,
+   "baths": "3",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1389128667463860564",
+   "siteIds": [
+    "1389128667463860564"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1389128667463860564",
+   "name": "Berlin Roof & Chill",
+   "area": "Friedrichshain",
+   "address": null,
+   "coords": {
+    "lat": 52.51851,
+    "lon": 13.45518,
+    "accuracy": "listing_approx"
+   },
+   "kind": "İki katlı çatı loftu",
+   "capacity": 13,
+   "rooms": 3,
+   "baths": "2 banyo; WC sayısı çelişkili",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1406503358873925054",
+   "siteIds": [
+    "sweep6-airbnb-1406503358873925054-20261230-20270103"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1406503358873925054",
+   "name": "Merkezde 180 m² Çatı Katı",
+   "area": "Berlin, yaklaşık konum",
+   "address": "Kesin adres rezervasyon sonrasında bildirilir",
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": 10,
+   "rooms": 3,
+   "baths": "2,5",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1410131905882850182",
+   "siteIds": [
+    "1410131905882850182"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1410131905882850182",
+   "name": "Beach House Malchow",
+   "area": "Malchow, Mecklenburg Gölleri",
+   "address": null,
+   "coords": {
+    "lat": null,
+    "lon": null,
+    "accuracy": "unknown"
+   },
+   "kind": "Tüm grup evi; 6 oda ve 2 daireli düzen",
+   "capacity": 16,
+   "rooms": 10,
+   "baths": "8",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1415265646306539034",
+   "siteIds": [
+    "sweep6-airbnb-1415265646306539034-20261230-20270103"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1415265646306539034",
+   "name": "Central Friends Apartment (9)",
+   "area": "Potsdamer Straße 112, 10785 Berlin",
+   "address": "Potsdamer Straße 112, 10785 Berlin",
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": 9,
+   "rooms": 3,
+   "baths": "1 banyo + 1 ayrı WC",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:14314574",
+   "siteIds": [
+    "sweep6-airbnb-14314574-20261230-20270101"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/14314574",
+   "name": "Tarihî Fabrikada 220 m² Çatı Katı",
+   "area": "Stephanstraße 60, 10559 Berlin",
+   "address": "Stephanstraße 60, 10559 Berlin",
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": 8,
+   "rooms": 4,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/bolunmus-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1452938883567081364",
+   "siteIds": [
+    "six-airbnb-1452938883567081364-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1452938883567081364",
+   "name": "Prenzlauer Berg | 90 m² Daire",
+   "area": "Prenzlauer Berg, Berlin",
+   "address": null,
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": 6,
+   "rooms": null,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1461578862659272395",
+   "siteIds": [
+    "six-airbnb-1461578862659272395-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1461578862659272395",
+   "name": "Friedrichshain | Üç Odalı Tasarım Daire",
+   "area": "Friedrichshain, Samariterstraße çevresi",
+   "address": null,
+   "coords": {
+    "lat": 52.5133,
+    "lon": 13.46318,
+    "accuracy": "Airbnb ilanının yaklaşık harita noktası; kesin kapı adresi değil",
+    "source": "https://www.airbnb.com/rooms/1461578862659272395?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 6,
+   "rooms": 3,
+   "baths": "1 + ayrı WC",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1463248924431451294",
+   "siteIds": [
+    "1463248924431451294"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1463248924431451294",
+   "name": "Shelterloft Airpark",
+   "area": "Lärz, Mecklenburg Gölleri",
+   "address": null,
+   "coords": {
+    "lat": null,
+    "lon": null,
+    "accuracy": "unknown"
+   },
+   "kind": "Müstakil, dönüştürülmüş hangar",
+   "capacity": 10,
+   "rooms": 5,
+   "baths": "5,5",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1468719376516749093",
+   "siteIds": [
+    "1468719376516749093",
+    "six-house-1468719376516749093-last"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1468719376516749093",
+   "name": "Ahrensfelde aile evi",
+   "area": "Ahrensfelde",
+   "address": null,
+   "coords": {
+    "lat": 52.5498,
+    "lon": 13.592,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Müstakil tam ev",
+   "capacity": 8,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": "1468719376516749093",
+   "sources": [
+    "bolunmus-villa-dogu.json",
+    "galeri-veri.json",
+    "six/prepared/bolunmus-six.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1472317094515056268",
+   "siteIds": [
+    "six-airbnb-1472317094515056268-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1472317094515056268",
+   "name": "Friedrichshain | 120 m² Daire",
+   "area": "Friedrichshain, Samariterkiez",
+   "address": "Schreinerstraße, Berlin (sokak merkezi; kesin kapı bilinmiyor)",
+   "coords": {
+    "lat": 52.5171065,
+    "lon": 13.4666572,
+    "accuracy": "Schreinerstraße sokak merkezi; evin veya giriş kapısının yeri bilinmiyor.",
+    "source": "https://www.airbnb.com.tr/rooms/1472317094515056268?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 10,
+   "rooms": 3,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:14848661",
+   "siteIds": [
+    "14848661"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/14848661",
+   "name": "Cottage Sanssouci Park",
+   "area": "Potsdam",
+   "address": null,
+   "coords": {
+    "lat": null,
+    "lon": null,
+    "accuracy": "unknown"
+   },
+   "kind": "İlanda tüm ev; münhasırlık çelişkili",
+   "capacity": 12,
+   "rooms": 4,
+   "baths": "4",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-villa-bati.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1506711709322131491",
+   "siteIds": [
+    "six-airbnb-1506711709322131491-first"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1506711709322131491",
+   "name": "Urban Nest | Dört Yatak Odalı Daire",
+   "area": "Friedrichshain, Libauer Straße",
+   "address": null,
+   "coords": {
+    "lat": 52.50964,
+    "lon": 13.45417,
+    "accuracy": "Airbnb ilanının yaklaşık harita noktası; kesin kapı adresi değil",
+    "source": "https://www.airbnb.com/rooms/1506711709322131491?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 8,
+   "rooms": 4,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/bolunmus-six.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1519600838702010375",
+   "siteIds": [
+    "1519600838702010375"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1519600838702010375",
+   "name": "Kurfürstendamm 150 m²",
+   "area": "Charlottenburg / City West",
+   "address": null,
+   "coords": {
+    "lat": 52.50444,
+    "lon": 13.32368,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Daire",
+   "capacity": 12,
+   "rooms": 5,
+   "baths": "2",
+   "samePropertyAs": "1519600838702010375",
+   "sources": [
+    "galeri-veri.json",
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1552331405600484908",
+   "siteIds": [
+    "1552331405600484908"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1552331405600484908",
+   "name": "Ruby & Indigo",
+   "area": "Friedrichshain",
+   "address": null,
+   "coords": {
+    "lat": 52.5115664,
+    "lon": 13.4666417,
+    "accuracy": "address"
+   },
+   "kind": "İki komşu daire",
+   "capacity": 12,
+   "rooms": 4,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1552405041368851207",
+   "siteIds": [
+    "sweep6-airbnb-1552405041368851207-20261230-20270103"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1552405041368851207",
+   "name": "Treptower Park 75 m² Grup Vahası",
+   "area": "Am Treptower Park 17, 12435 Berlin",
+   "address": "Am Treptower Park 17, 12435 Berlin",
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": 6,
+   "rooms": 2,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1559249085935822360",
+   "siteIds": [
+    "sweep6-airbnb-1559249085935822360-20261230-20270101"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1559249085935822360",
+   "name": "Gürtelstraße | Altı Kişilik Daire",
+   "area": "Gürtelstraße 17, 10247 Berlin",
+   "address": "Gürtelstraße 17, 10247 Berlin",
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": 6,
+   "rooms": 1,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/bolunmus-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1562959650909159382",
+   "siteIds": [
+    "1562959650909159382"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1562959650909159382",
+   "name": "Turmvilla",
+   "area": "Werder (Havel)",
+   "address": null,
+   "coords": {
+    "lat": null,
+    "lon": null,
+    "accuracy": "unknown"
+   },
+   "kind": "3 daireli tüm villa; bahçe ortak",
+   "capacity": 10,
+   "rooms": 5,
+   "baths": "3,5",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-villa-bati.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1573761201032292155",
+   "siteIds": [
+    "1573761201032292155",
+    "six-airbnb-1573761201032292155-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1573761201032292155",
+   "name": "Weinberg 130 m² tasarım dairesi",
+   "area": "Mitte / Weinbergpark",
+   "address": "Veteranenstraße 13 çevresi (yaklaşık, giriş noktası teyit edilmedi)",
+   "coords": {
+    "lat": 52.53248,
+    "lon": 13.40342,
+    "accuracy": "listing_approx"
+   },
+   "kind": "İki katlı daire",
+   "capacity": 10,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json",
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1610146635685764854",
+   "siteIds": [
+    "1610146635685764854"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1610146635685764854",
+   "name": "Moabit geniş daire",
+   "area": "Moabit / Spree",
+   "address": null,
+   "coords": {
+    "lat": 52.524,
+    "lon": 13.3506,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Zemin kat daire",
+   "capacity": 10,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1611035619222657901",
+   "siteIds": [
+    "1611035619222657901"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1611035619222657901",
+   "name": "Spreenhagen, 7 tek yataklı sıra ev",
+   "area": "Spreenhagen",
+   "address": null,
+   "coords": {
+    "lat": 52.3404,
+    "lon": 13.87655,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Sıra ev, iki ayrı daire",
+   "capacity": 7,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": "1611035619222657901",
+   "sources": [
+    "galeri-veri.json",
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1641351333944417315",
+   "siteIds": [
+    "1641351333944417315",
+    "six-house-1641351333944417315-last"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1641351333944417315",
+   "name": "Königs Wusterhausen kır evi",
+   "area": "Königs Wusterhausen",
+   "address": null,
+   "coords": {
+    "lat": 52.3008,
+    "lon": 13.6904,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Tüm ev",
+   "capacity": 8,
+   "rooms": 4,
+   "baths": "2",
+   "samePropertyAs": "1641351333944417315",
+   "sources": [
+    "bolunmus-villa-dogu.json",
+    "six/prepared/bolunmus-six.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1656340",
+   "siteIds": [
+    "six-airbnb-1656340-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1656340",
+   "name": "Checkpoint Charlie | Tarihi Daire",
+   "area": "Kreuzberg, Checkpoint Charlie",
+   "address": null,
+   "coords": {
+    "lat": 52.5026,
+    "lon": 13.3914,
+    "accuracy": "Airbnb ilanının yaklaşık harita noktası; kesin kapı adresi değil",
+    "source": "https://www.airbnb.com/rooms/1656340?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 7,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1710064464627076724",
+   "siteIds": [
+    "1710064464627076724"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1710064464627076724",
+   "name": "Haus am Schwanensee",
+   "area": "Teupitz",
+   "address": null,
+   "coords": {
+    "lat": 52.1346,
+    "lon": 13.6093,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Ev ilanı, daire tanımı",
+   "capacity": 10,
+   "rooms": 3,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1754173933020764455",
+   "siteIds": [
+    "1754173933020764455"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1754173933020764455",
+   "name": "Potsdam ve Berlin yakınında 4 odalı ev",
+   "area": "Stahnsdorf",
+   "address": null,
+   "coords": {
+    "lat": 52.37803,
+    "lon": 13.20704,
+    "accuracy": "listing_approx"
+   },
+   "kind": "İlan tüm ev; bahçe ortak",
+   "capacity": 7,
+   "rooms": 4,
+   "baths": "2",
+   "samePropertyAs": "1754173933020764455",
+   "sources": [
+    "galeri-veri.json",
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1755900699204248773",
+   "siteIds": [
+    "six-house-1755900699204248773-last"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1755900699204248773",
+   "name": "Rosengarten Residence",
+   "area": "Schöneiche bei Berlin",
+   "address": null,
+   "coords": {
+    "lat": 52.4623,
+    "lon": 13.7226,
+    "accuracy": "Airbnb yaklaşık ilan noktası; kesin kapı adresi değil",
+    "source": "https://www.airbnb.com/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+   },
+   "kind": "Tüm ev",
+   "capacity": 6,
+   "rooms": 2,
+   "baths": "2",
+   "samePropertyAs": "1755900699204248773",
+   "sources": [
+    "six/prepared/bolunmus-six.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1777706242995862793",
+   "siteIds": [
+    "1777706242995862793",
+    "six-house-1777706242995862793-last"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1777706242995862793",
+   "name": "Dieter'in evi",
+   "area": "Werneuchen",
+   "address": null,
+   "coords": {
+    "lat": 52.5982,
+    "lon": 13.6893,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Tüm ev",
+   "capacity": 7,
+   "rooms": 3,
+   "baths": "1,5",
+   "samePropertyAs": "1777706242995862793",
+   "sources": [
+    "bolunmus-villa-dogu.json",
+    "six/prepared/bolunmus-six.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1800855588199404311",
+   "siteIds": [
+    "1800855588199404311",
+    "six-house-1800855588199404311-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1800855588199404311",
+   "name": "Dahlewitz House",
+   "area": "Blankenfelde-Mahlow",
+   "address": null,
+   "coords": {
+    "lat": 52.3231,
+    "lon": 13.4176,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Müstakil ev",
+   "capacity": 8,
+   "rooms": 4,
+   "baths": "2",
+   "samePropertyAs": "1800855588199404311",
+   "sources": [
+    "galeri-veri.json",
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:1804486533198172905",
+   "siteIds": [
+    "1804486533198172905"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/1804486533198172905",
+   "name": "Elvano Apartments with Garden Flat",
+   "area": "Falkensee",
+   "address": null,
+   "coords": {
+    "lat": 52.5604,
+    "lon": 13.128,
+    "accuracy": "listing_approx"
+   },
+   "kind": "İlan tüm ev; bağımsız yapı durumu belirsiz",
+   "capacity": 7,
+   "rooms": 4,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:19794276",
+   "siteIds": [
+    "six-house-19794276-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/19794276",
+   "name": "Charming House",
+   "area": "Berlin, Lichtenberg çevresi",
+   "address": null,
+   "coords": {
+    "lat": 52.53651,
+    "lon": 13.48261,
+    "accuracy": "Airbnb yaklaşık ilan noktası; kesin kapı adresi değil",
+    "source": "https://www.airbnb.com/rooms/19794276?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03"
+   },
+   "kind": "Tüm ev",
+   "capacity": 10,
+   "rooms": 2,
+   "baths": "2",
+   "samePropertyAs": "19794276",
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:21074683",
+   "siteIds": [
+    "21074683"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/21074683",
+   "name": "Arbio",
+   "area": "Kreuzberg / Bergmannkiez",
+   "address": null,
+   "coords": {
+    "lat": 52.49225,
+    "lon": 13.3902,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:22026440",
+   "siteIds": [
+    "22026440"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/22026440",
+   "name": "Villa an der Stadtgrenze zu Berlin",
+   "area": "Bernau / Panketal",
+   "address": null,
+   "coords": {
+    "lat": 52.66755,
+    "lon": 13.53388,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Müstakil villa",
+   "capacity": 7,
+   "rooms": 2,
+   "baths": "1 tam + 1 WC",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-villa-bati.json",
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:31203800",
+   "siteIds": [
+    "31203800"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/31203800",
+   "name": "Am Bahnhof, ön yarı müstakil ev",
+   "area": "Werneuchen",
+   "address": null,
+   "coords": {
+    "lat": 52.6369,
+    "lon": 13.7372,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Yarı müstakil ev, ön birim",
+   "capacity": 7,
+   "rooms": 4,
+   "baths": "1,5",
+   "samePropertyAs": "31203800",
+   "sources": [
+    "galeri-veri.json",
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:31348853",
+   "siteIds": [
+    "31348853"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/31348853",
+   "name": "Am Bahnhof, teraslı bungalov",
+   "area": "Werneuchen",
+   "address": null,
+   "coords": {
+    "lat": 52.63755,
+    "lon": 13.73772,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Bungalov, ayrı ilan",
+   "capacity": 7,
+   "rooms": 4,
+   "baths": "1,5",
+   "samePropertyAs": "31348853",
+   "sources": [
+    "galeri-veri.json",
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:33234428",
+   "siteIds": [
+    "six-airbnb-33234428-full"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/33234428",
+   "name": "Lasdehner Straße | Friedrichshain Dairesi",
+   "area": "Friedrichshain, Lasdehner Straße",
+   "address": null,
+   "coords": {
+    "lat": 52.5149,
+    "lon": 13.44745,
+    "accuracy": "Airbnb ilanının yaklaşık harita noktası; kesin kapı adresi değil",
+    "source": "https://www.airbnb.com/rooms/33234428?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 6,
+   "rooms": 2,
+   "baths": "1 + ayrı WC",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:4027687",
+   "siteIds": [
+    "sweep6-airbnb-4027687-20261230-20270103"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/4027687",
+   "name": "Kanal Kenarında Geniş Daire",
+   "area": "Planufer 78, 10967 Berlin",
+   "address": "Planufer 78, 10967 Berlin",
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": 8,
+   "rooms": 2,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:43513070",
+   "siteIds": [
+    "43513070"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/43513070",
+   "name": "Sommerhof Granzow",
+   "area": "Mirow / Granzow",
+   "address": null,
+   "coords": {
+    "lat": null,
+    "lon": null,
+    "accuracy": "unknown"
+   },
+   "kind": "Göl yakınında tüm grup evi",
+   "capacity": 16,
+   "rooms": 10,
+   "baths": "5",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-villa-bati.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:45436574",
+   "siteIds": [
+    "45436574"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/45436574",
+   "name": "City Spreeufer",
+   "area": "Friedrichshain",
+   "address": null,
+   "coords": {
+    "lat": 52.5006132,
+    "lon": 13.456237,
+    "accuracy": "address"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": 2,
+   "baths": "1 tam + 1 WC",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:53802915",
+   "siteIds": [
+    "53802915"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/53802915",
+   "name": "120 m² Design Apartment",
+   "area": "Friedrichshain",
+   "address": null,
+   "coords": {
+    "lat": 52.5173,
+    "lon": 13.46256,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Daire",
+   "capacity": 8,
+   "rooms": 3,
+   "baths": "1 tam + 1 WC",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:565270388295704317",
+   "siteIds": [
+    "565270388295704317"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/565270388295704317",
+   "name": "Remise / eski ahırdan dönüştürülmüş ev",
+   "area": "Hoppegarten",
+   "address": null,
+   "coords": {
+    "lat": 52.505,
+    "lon": 13.6629,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Müstakil ev",
+   "capacity": 7,
+   "rooms": 3,
+   "baths": "İlan 3 diyor; kapsamı belirsiz",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:588125307521181982",
+   "siteIds": [
+    "six-airbnb-588125307521181982-first"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/588125307521181982",
+   "name": "Mainzer Straße | İki Banyolu Daire",
+   "area": "Friedrichshain, Mainzer Straße",
+   "address": null,
+   "coords": {
+    "lat": 52.5141,
+    "lon": 13.4626,
+    "accuracy": "Airbnb ilanının yaklaşık harita noktası; kesin kapı adresi değil",
+    "source": "https://www.airbnb.com/rooms/588125307521181982?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 8,
+   "rooms": 2,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/bolunmus-six.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:794976468764992098",
+   "siteIds": [
+    "794976468764992098"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/794976468764992098",
+   "name": "Laura'nın gül bahçesindeki kır evi",
+   "area": "Wendisch Rietz",
+   "address": null,
+   "coords": {
+    "lat": 52.20133,
+    "lon": 14.02604,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Tüm kır evi",
+   "capacity": 8,
+   "rooms": 2,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-villa-dogu.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:873230612368758488",
+   "siteIds": [
+    "873230612368758488"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/873230612368758488",
+   "name": "Mitte 130 m² iki bağlantılı daire",
+   "area": "Mitte / Novalisstraße",
+   "address": null,
+   "coords": {
+    "lat": 52.52873,
+    "lon": 13.38773,
+    "accuracy": "listing_approx"
+   },
+   "kind": "İç kapıyla bağlantılı daire",
+   "capacity": 8,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "airbnb:937599705398085803",
+   "siteIds": [
+    "937599705398085803"
+   ],
+   "platform": "airbnb",
+   "url": "https://airbnb.com/rooms/937599705398085803",
+   "name": "Bahçeli sıra ev, Tierpark yakınında",
+   "area": "Berlin, Lichtenberg",
+   "address": null,
+   "coords": {
+    "lat": 52.5112,
+    "lon": 13.5286,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Sıra ev",
+   "capacity": 8,
+   "rooms": 4,
+   "baths": "1,5",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:apartmenthaus-berlin-mitte-digital-check-in",
+   "siteIds": [
+    "sweep6-booking-1252191308-20261230-20270101"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/apartmenthaus-berlin-mitte-digital-check-in.tr.html",
+   "name": "Apartmenthaus Berlin Mitte | Standart Daire",
+   "area": "Heinrich-Heine-Platz 11, Mitte, 10179 Berlin, Almanya",
+   "address": "Heinrich-Heine-Platz 11, Mitte, 10179 Berlin, Almanya",
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": null,
+   "rooms": 1,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/bolunmus-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:authentisches-landhaus-comfort-housing-dallgow-doberitz",
+   "siteIds": [
+    "landhaus"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/authentisches-landhaus-comfort-housing-dallgow-doberitz.tr.html",
+   "name": "LANDHAUS by Tendo Stay",
+   "area": "Dallgow-Döberitz",
+   "address": null,
+   "coords": {
+    "lat": 52.5378066,
+    "lon": 13.0690643,
+    "accuracy": "address"
+   },
+   "kind": "Müstakil ev",
+   "capacity": 7,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:beautiful-apartment-in-brusseler-kiez",
+   "siteIds": [
+    "brusseler-kiez"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/beautiful-apartment-in-brusseler-kiez.tr.html",
+   "name": "Beautiful Apartment in Brüsseler Kiez",
+   "area": "Wedding / Mitte",
+   "address": null,
+   "coords": {
+    "lat": 52.54832,
+    "lon": 13.34811,
+    "accuracy": "area"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": "3",
+   "baths": "1,5 / 2",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev",
+   "siteIds": [
+    "bolunmus-roof-chill"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.tr.html",
+   "name": "Berlin Roof & Chill",
+   "area": "Friedrichshain",
+   "address": "Rigaer Str. 8, 10247 Berlin",
+   "coords": {
+    "lat": 52.5179128,
+    "lon": 13.4558516,
+    "accuracy": "address"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": 3,
+   "baths": "2 banyo; WC sayısı teyitsiz",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-daire-booking.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:city-apartment-ii-kreuzberg-berlin",
+   "siteIds": [
+    "bolunmus-loftly"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/city-apartment-ii-kreuzberg-berlin.tr.html",
+   "name": "Loftly Kottbusser Damm 68",
+   "area": "Neukölln",
+   "address": "Kottbusser Damm 68, 10967 Berlin",
+   "coords": {
+    "lat": 52.4891356,
+    "lon": 13.4247557,
+    "accuracy": "address"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": 2,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-daire-booking.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:city-center-berlin-rungestr",
+   "siteIds": [
+    "bolunmus-rungestr",
+    "sweep6-booking-1557174404-20261230-20270101",
+    "sweep6-booking-1557174402-20261230-20270101",
+    "sweep6-booking-1557174403-20261230-20270101",
+    "sweep6-booking-1557174406-20261230-20270101",
+    "sweep6-booking-1557174401-20261230-20270101",
+    "sweep6-booking-1557174404-20261230-20270103",
+    "sweep6-booking-1557174402-20261230-20270103",
+    "sweep6-booking-1557174403-20261230-20270103",
+    "sweep6-booking-1557174406-20261230-20270103"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/city-center-berlin-rungestr.tr.html",
+   "name": "City Center Berlin Rungestr | 75 m²",
+   "area": "Mitte",
+   "address": "Rungestraße 10, 10179 Berlin",
+   "coords": {
+    "lat": 52.5123472,
+    "lon": 13.4165575,
+    "accuracy": "address"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": 2,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-daire-booking.json",
+    "six/prepared/bolunmus-sweep-20261106.json",
+    "six/prepared/galeri-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:eastside34",
+   "siteIds": [
+    "six-booking-osthafen-790949501-full"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/eastside34.en-gb.html",
+   "name": "Osthafen I | İki Yatak Odalı Daire",
+   "area": "Friedrichshain, Stralauer Allee",
+   "address": "Stralauer Allee 34, 10245 Berlin",
+   "coords": {
+    "lat": 52.5012556,
+    "lon": 13.4531732,
+    "accuracy": "Booking adresinin OSM 34 numaralı adres noktası; gerçek giriş yeri teyit edilmedi.",
+    "source": "https://www.openstreetmap.org/node/1770361530"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 6,
+   "rooms": 2,
+   "baths": "1 özel banyo",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:freedom-studioapartment-booking",
+   "siteIds": [
+    "sweep6-booking-181193704-20261230-20270101",
+    "sweep6-booking-181193704-20261230-20270103"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/freedom-studioapartment-booking.tr.html",
+   "name": "Freedom Studio Apartments | Three-Bedroom and three-Bathroom Apartment with kitchenette and balcony",
+   "area": "Hermannstraße 55, Neukölln, 12049 Berlin, Almanya",
+   "address": "Hermannstraße 55, Neukölln, 12049 Berlin, Almanya",
+   "coords": null,
+   "kind": "3 ayrı stüdyo daire",
+   "capacity": 12,
+   "rooms": 3,
+   "baths": "3",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/bolunmus-sweep-20261106.json",
+    "six/prepared/galeri-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:grand-central-city-apartments-mitte-museumsinsel",
+   "siteIds": [
+    "grand-central-upper"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html",
+   "name": "Grand Central City Apartments | üst kat",
+   "area": "Mitte",
+   "address": null,
+   "coords": {
+    "lat": 52.5129647,
+    "lon": 13.4032148,
+    "accuracy": "address"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": "3",
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:greatstay-apartment-danzigerstr",
+   "siteIds": [
+    "danziger-loft"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/greatstay-apartment-danzigerstr.tr.html",
+   "name": "The Danziger",
+   "area": "Prenzlauer Berg / Pankow",
+   "address": null,
+   "coords": {
+    "lat": 52.53897,
+    "lon": 13.42198,
+    "accuracy": "area"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": "2 + salon",
+   "baths": "1 tam + WC",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:greatstay-apartment-paul-robeson-str",
+   "siteIds": [
+    "paul-loft"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/greatstay-apartment-paul-robeson-str.tr.html",
+   "name": "The Paul Loft",
+   "area": "Prenzlauer Berg / Pankow",
+   "address": null,
+   "coords": {
+    "lat": 52.552101,
+    "lon": 13.413783,
+    "accuracy": "listing_approx"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": "2 + salon",
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:idyllisches-haus-mitten-in-berlin",
+   "siteIds": [
+    "idyllisches-haus"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/idyllisches-haus-mitten-in-berlin.tr.html",
+   "name": "Idyllisches Haus mitten in Berlin",
+   "area": "Alt-Hohenschönhausen, Lichtenberg",
+   "address": null,
+   "coords": {
+    "lat": 52.5376227,
+    "lon": 13.4822023,
+    "accuracy": "address"
+   },
+   "kind": "Tatil evinin tamamı",
+   "capacity": 15,
+   "rooms": 2,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:lds-1d",
+   "siteIds": [
+    "bolunmus-lds1d"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/lds-1d.tr.html",
+   "name": "LDS-1d",
+   "area": "Halbe, Teurow",
+   "address": null,
+   "coords": {
+    "lat": 52.087922,
+    "lon": 13.7151176,
+    "accuracy": "address"
+   },
+   "kind": "Tatil evinin tamamı",
+   "capacity": 10,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-villa-yerel.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:schoenhouse-berlin-city-street",
+   "siteIds": [
+    "sweep6-booking-850390007-20261230-20270103"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/schoenhouse-berlin-city-street.tr.html",
+   "name": "Schoenhouse City Street | Two-Bedroom Suite With Balcony",
+   "area": "Lottumstraße 28, 10119 Berlin, Almanya",
+   "address": "Lottumstraße 28, 10119 Berlin, Almanya",
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": null,
+   "rooms": 2,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:schonefeld-berlin-large-house-for-max-10-persons-near-tesla",
+   "siteIds": [
+    "schonefeld-tesla"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/schonefeld-berlin-large-house-for-max-10-persons-near-tesla.tr.html",
+   "name": "Schönefeld-Berlin large house near TESLA",
+   "area": "Schönefeld, Karlshof",
+   "address": null,
+   "coords": {
+    "lat": 52.3380231,
+    "lon": 13.5411844,
+    "accuracy": "address"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 10,
+   "rooms": 5,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:spacious-family-home-near-alexanderplatz-and-free-parking",
+   "siteIds": [
+    "bolunmus-alexa"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/spacious-family-home-near-alexanderplatz-and-free-parking.tr.html",
+   "name": "ALEXA Spacious Design Apartment",
+   "area": "Mitte",
+   "address": "Kleine Alexanderstraße 9, 10178 Berlin",
+   "coords": {
+    "lat": 52.5252082,
+    "lon": 13.4118263,
+    "accuracy": "address"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": 4,
+   "baths": "3",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-daire-booking.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:spreeparadies-ort-fur-besondere-anlasse",
+   "siteIds": [
+    "bolunmus-spreeparadies"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/spreeparadies-ort-fur-besondere-anlasse.tr.html",
+   "name": "Spreeparadies",
+   "area": "Neuendorf am See, Unterspreewald",
+   "address": null,
+   "coords": {
+    "lat": 52.1048858,
+    "lon": 13.901155,
+    "accuracy": "address"
+   },
+   "kind": "Tatil evinin tamamı",
+   "capacity": 7,
+   "rooms": 7,
+   "baths": "7",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-villa-yerel.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:torstrasse",
+   "siteIds": [
+    "bolunmus-torstrasse"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/torstrasse.tr.html",
+   "name": "Designer Apartment | Torstraße 129",
+   "area": "Mitte",
+   "address": "Torstraße 129, 10119 Berlin",
+   "coords": {
+    "lat": 52.5297335,
+    "lon": 13.4002657,
+    "accuracy": "address"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": 4,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-daire-booking.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:urban-flats-berlin-berlin6",
+   "siteIds": [
+    "bolunmus-urban-flats",
+    "six-booking-urban-flats-1270649713-full"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html",
+   "name": "URBAN FLATS Berlin | 70 m²",
+   "area": "Mitte",
+   "address": "Große Hamburger Straße 20/21, 10115 Berlin",
+   "coords": {
+    "lat": 52.5242197,
+    "lon": 13.3992948,
+    "accuracy": "address"
+   },
+   "kind": "Daire",
+   "capacity": 7,
+   "rooms": 2,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-daire-booking.json",
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "booking:villa-seeblick-konigs-wusterhausen",
+   "siteIds": [
+    "villa-see61"
+   ],
+   "platform": "booking",
+   "url": "https://booking.com/hotel/de/villa-seeblick-konigs-wusterhausen.tr.html",
+   "name": "Villa See61",
+   "area": "Niederlehme, Königs Wusterhausen",
+   "address": null,
+   "coords": {
+    "lat": 52.345552,
+    "lon": 13.6585176,
+    "accuracy": "address"
+   },
+   "kind": "Villanın tamamı",
+   "capacity": 10,
+   "rooms": 5,
+   "baths": "4",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "fewo-direkt:2714753",
+   "siteIds": [
+    "sweep6-german-p2714753-20261230-20270103"
+   ],
+   "platform": "fewo-direkt",
+   "url": "https://fewo-direkt.de/ferienwohnung-ferienhaus/p2714753",
+   "name": "Tempelhof-Schöneberg | Üç Yatak Odalı Daire",
+   "area": "Tempelhof-Schöneberg, Berlin",
+   "address": "Tempelhof-Schöneberg, Berlin",
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": 12,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/galeri-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "fewo-direkt:5553503",
+   "siteIds": [
+    "sweep6-german-p5553503-20261230-20270101",
+    "sweep6-german-p5553503-20261230-20270103"
+   ],
+   "platform": "fewo-direkt",
+   "url": "https://fewo-direkt.de/ferienwohnung-ferienhaus/p5553503",
+   "name": "Kreuzberg’in Merkezinde Üç Odalı Daire",
+   "area": "Wrangelstraße, Kreuzberg, Berlin",
+   "address": "Wrangelstraße, Kreuzberg, Berlin",
+   "coords": null,
+   "kind": "Dairenin tamamı",
+   "capacity": 6,
+   "rooms": 3,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "six/prepared/bolunmus-sweep-20261106.json",
+    "six/prepared/galeri-sweep-20261106.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "holidu:56239528",
+   "siteIds": [
+    "six-holidu-56239528-full"
+   ],
+   "platform": "holidu",
+   "url": "https://holidu.com/d/56239528",
+   "name": "Small-residence | Lichterfelde Dairesi",
+   "area": "Steglitz-Zehlendorf, Lichterfelde",
+   "address": null,
+   "coords": {
+    "lat": 52.4170837,
+    "lon": 13.2790096,
+    "accuracy": "Booking'deki Störstraße 9 adresinin OSM Nominatim bina eşleşmesi; rota için kullanıldı.",
+    "source": "https://www.booking.com/hotel/de/small-residence.de.html"
+   },
+   "kind": "Dairenin tamamı",
+   "capacity": 6,
+   "rooms": 2,
+   "baths": "1 özel banyo",
+   "samePropertyAs": "1757631337826107623",
+   "sources": [
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "holidu:61640526",
+   "siteIds": [
+    "spree-loft-moabit"
+   ],
+   "platform": "holidu",
+   "url": "https://holidu.de/d/61640526",
+   "name": "200qm Loft an der Spree",
+   "area": "Moabit, Berlin",
+   "address": null,
+   "coords": {
+    "lat": null,
+    "lon": null,
+    "accuracy": "unknown"
+   },
+   "kind": "Loft dairenin tamamı",
+   "capacity": 20,
+   "rooms": 3,
+   "baths": "2",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "holidu:65364918",
+   "siteIds": [
+    "bolunmus-ottenhain"
+   ],
+   "platform": "holidu",
+   "url": "https://holidu.de/d/65364918",
+   "name": "Landvilla Ottenhain",
+   "area": "Frohburg, Leipzig yakınında",
+   "address": null,
+   "coords": {
+    "lat": null,
+    "lon": null,
+    "accuracy": "unknown"
+   },
+   "kind": "Villa ve loftun tamamı",
+   "capacity": 8,
+   "rooms": 4,
+   "baths": "3",
+   "samePropertyAs": null,
+   "sources": [
+    "bolunmus-villa-yerel.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "skiplagged.com:3558878",
+   "siteIds": [
+    "yeni-wilde-2-daire"
+   ],
+   "platform": "skiplagged.com",
+   "url": "https://skiplagged.com/hotel/3558878/wilde-aparthotels-berlin-checkpoint-charlie-berlin-germany/2026-12-30/2027-01-03",
+   "name": "Wilde Checkpoint Charlie, iki daire",
+   "area": "Mitte, Zimmerstraße 91",
+   "address": null,
+   "coords": {
+    "lat": 52.50776,
+    "lon": 13.38784,
+    "accuracy": "address"
+   },
+   "kind": "Aynı tesiste iki daire",
+   "capacity": 8,
+   "rooms": 2,
+   "baths": "2, her dairede 1",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "skiplagged.com:744972",
+   "siteIds": [
+    "yeni-arabel-suite"
+   ],
+   "platform": "skiplagged.com",
+   "url": "https://skiplagged.com/hotel/744972/arabel-design-apartments-berlin-germany/2026-12-30/2027-01-03",
+   "name": "Arabel Design Apartments, Three-Bedroom Suite",
+   "area": "Tiergarten, Potsdamer Straße 89",
+   "address": null,
+   "coords": {
+    "lat": 52.5017466,
+    "lon": 13.364899,
+    "accuracy": "address"
+   },
+   "kind": "Tek daire / üç yatak odalı süit",
+   "capacity": 8,
+   "rooms": 3,
+   "baths": "En az 1; ek banyo kaydı var",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "skiplagged.com:7675980",
+   "siteIds": [
+    "yeni-locke-2-family"
+   ],
+   "platform": "skiplagged.com",
+   "url": "https://skiplagged.com/hotel/7675980/locke-at-east-side-gallery-berlin-germany/2026-12-30/2027-01-03",
+   "name": "Locke East Side Gallery, iki Family Apartment",
+   "area": "Friedrichshain, Mühlenstraße 61–63",
+   "address": null,
+   "coords": {
+    "lat": 52.50697,
+    "lon": 13.43709,
+    "accuracy": "address"
+   },
+   "kind": "Aynı tesiste iki daire",
+   "capacity": 8,
+   "rooms": 2,
+   "baths": "2, her dairede 1",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "skiplagged.com:8912209",
+   "siteIds": [
+    "yeni-charlottenburg-uc-odali"
+   ],
+   "platform": "skiplagged.com",
+   "url": "https://skiplagged.com/hotel/8912209/traumhafte-wohnung-mitten-in-charlottenburg-berlin-germany/2026-12-30/2027-01-03",
+   "name": "Traumhafte Wohnung mitten in Charlottenburg",
+   "area": "Charlottenburg, Bleibtreustraße 12",
+   "address": null,
+   "coords": {
+    "lat": 52.50443,
+    "lon": 13.31966,
+    "accuracy": "address"
+   },
+   "kind": "Tek daire / üç yatak odası",
+   "capacity": 8,
+   "rooms": 3,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "skiplagged.com:9485872",
+   "siteIds": [
+    "yeni-kreuzberg-freiligrath"
+   ],
+   "platform": "skiplagged.com",
+   "url": "https://skiplagged.com/hotel/9485872/im-herzen-von-kreuzberg---perfekt-gelegen-fur-bis-zu-8-personen-berlin-germany/2026-12-30/2027-01-03",
+   "name": "Im Herzen von Kreuzberg",
+   "area": "Kreuzberg, Freiligrathstraße 3",
+   "address": null,
+   "coords": {
+    "lat": 52.49096,
+    "lon": 13.40879,
+    "accuracy": "address"
+   },
+   "kind": "Tek daire / bir yatak odası",
+   "capacity": 8,
+   "rooms": 1,
+   "baths": "1",
+   "samePropertyAs": null,
+   "sources": [
+    "galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "travanto:809908",
+   "siteIds": [
+    "six-travanto-809908-last",
+    "six-travanto-809908-full"
+   ],
+   "platform": "travanto",
+   "url": "https://travanto.de/ferienhaus/sc/berlin/809908/ferienhaus-ferienhaus-13-erle-berlin.php",
+   "name": "Rübezahl | 13 Erle Saunalı Ev",
+   "area": "Köpenick, Müggelsee",
+   "address": null,
+   "coords": {
+    "lat": 52.42603,
+    "lon": 13.62888,
+    "accuracy": "Ferienhausdorf Rübezahl için yaklaşık alan noktası; 145069 numaralı evin kapısı veya tam konumu teyit edilmedi.",
+    "source": "https://mapcarta.com/de/W309688637"
+   },
+   "kind": "Tatil evinin tamamı",
+   "capacity": 6,
+   "rooms": "2 · 3. oda teyitsiz",
+   "baths": "1 · kaynak çelişkili",
+   "samePropertyAs": "travanto-809908",
+   "sources": [
+    "six/prepared/bolunmus-travanto.json",
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "travanto:809910",
+   "siteIds": [
+    "six-travanto-809910-last",
+    "six-travanto-809910-full"
+   ],
+   "platform": "travanto",
+   "url": "https://travanto.de/ferienhaus/sc/berlin/809910/ferienhaus-ferienhaus-15-zeder-berlin.php",
+   "name": "Rübezahl | 15 Zeder Saunalı Ev",
+   "area": "Köpenick, Müggelsee",
+   "address": null,
+   "coords": {
+    "lat": 52.42603,
+    "lon": 13.62888,
+    "accuracy": "Ferienhausdorf Rübezahl için yaklaşık alan noktası; 145069 numaralı evin kapısı veya tam konumu teyit edilmedi.",
+    "source": "https://mapcarta.com/de/W309688637"
+   },
+   "kind": "Tatil evinin tamamı",
+   "capacity": 6,
+   "rooms": "2 · 3. oda teyitsiz",
+   "baths": "1 · kaynak çelişkili",
+   "samePropertyAs": "travanto-809910",
+   "sources": [
+    "six/prepared/bolunmus-travanto.json",
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "travanto:809914",
+   "siteIds": [
+    "six-travanto-809914-last",
+    "six-travanto-809914-full"
+   ],
+   "platform": "travanto",
+   "url": "https://travanto.de/ferienhaus/sc/berlin/809914/ferienhaus-ferienhaus-20-mohn-berlin.php",
+   "name": "Rübezahl | 20 Mohn Saunalı Ev",
+   "area": "Köpenick, Müggelsee",
+   "address": null,
+   "coords": {
+    "lat": 52.42603,
+    "lon": 13.62888,
+    "accuracy": "Ferienhausdorf Rübezahl için yaklaşık alan noktası; 145069 numaralı evin kapısı veya tam konumu teyit edilmedi.",
+    "source": "https://mapcarta.com/de/W309688637"
+   },
+   "kind": "Tatil evinin tamamı",
+   "capacity": 6,
+   "rooms": "2 · 3. oda teyitsiz",
+   "baths": "1 · kaynak çelişkili",
+   "samePropertyAs": "travanto-809914",
+   "sources": [
+    "six/prepared/bolunmus-travanto.json",
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  },
+  {
+   "key": "vrbo:5130239",
+   "siteIds": [
+    "six-vrbo-145069-last",
+    "six-vrbo-145069-full"
+   ],
+   "platform": "vrbo",
+   "url": "https://vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239",
+   "name": "Rübezahl  |  Saunalı Tatil Evi 145069",
+   "area": "Köpenick, Müggelsee",
+   "address": null,
+   "coords": {
+    "lat": 52.42603,
+    "lon": 13.62888,
+    "accuracy": "Ferienhausdorf Rübezahl için yaklaşık alan noktası; 145069 numaralı evin kapısı veya tam konumu teyit edilmedi.",
+    "source": "https://mapcarta.com/de/W309688637"
+   },
+   "kind": "Tatil evinin tamamı",
+   "capacity": 6,
+   "rooms": 2,
+   "baths": "1 tam + ayrı WC",
+   "samePropertyAs": "vrbo-5130239",
+   "sources": [
+    "six/prepared/bolunmus-six.json",
+    "six/prepared/galeri-veri.json"
+   ],
+   "status": "sitede"
+  }
+ ]
+}
