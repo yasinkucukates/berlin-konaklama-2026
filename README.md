@@ -16,6 +16,8 @@ Tarayıcıda `http://localhost:8000/` adresini açın. `index.html`, bu dalda de
 ## Kaynaklar
 
 - `redesign-prototip/`: arayüz, harita, galeri, üreticiler, kurallar ve fiyat/yatak/konum verileri.
+- `redesign-prototip/cards.css`: standart boylu, liquid glass kart katmanı. Kartta yalnız fotoğraf, fiyat, kişi başı pay, yatak, Tresor/RSO süresi, oda ve en önemli uyarı görünür; diğer bilgiler kartın `.card-more` bölümünde durur ve büyük görünümde sekmelerle (Özet, Yataklar, Ulaşım, Fiyat, Notlar, Kaynaklar) açılır. JavaScript yoksa tüm bölümler kartta sırayla görünür.
+- `redesign-prototip/vendor/lucide/`: kartlardaki ikonlar (Lucide, ISC lisansı). Üretici bunları sayfaya bir kez gömer; ağ erişimi gerekmez.
 - `six/prepared/`, kökteki `galeri-veri.json` ve `bolunmus-*.json`: üreticinin kullandığı tarihli ilan verileri.
 - `redesign-prototip/availability-status.json`: kaynak, tarih, kişi ve sağlayıcı bazında doğrulanmış en son gözlemler. 7 Kasım verileri tüm ilanların kontrol edildiği anlamına gelmez.
 - `ortak-favoriler/transport.js`: gerçek ortak favori bağlantı kodu. Varsayılan prototip yalnız oturum içi deneme favorisi kullanır; gerçek beğenileri okumaz veya değiştirmez.

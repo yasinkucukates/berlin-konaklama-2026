@@ -90,7 +90,7 @@ def merge(seven,six):
   for section in cautious:
    for card in [n for n in section.walk() if n.has('stay-card')]:
     card.raw=card.raw.replace('class="stay-card"','class="stay-card conditional-card" data-conditional="true"')
-    if not any(n.has('caution-popover') for n in card.walk()):raise ValueError('Koşullu kartta kaynaklı dikkat açıklaması eksik')
+    if not any(n.has('caution-list') for n in card.walk()):raise ValueError('Koşullu kartta kaynaklı dikkat açıklaması eksik')
     grid.children.append(card)
    container.children.remove(section)
  # Keep the same default order when JavaScript is unavailable. Sort only the

@@ -1,6 +1,46 @@
 (() => {
   'use strict';
 
+  // Large-view tabs. Without JavaScript every panel remains visible in order.
+  const activateCardTab = (card, name = 'overview', reveal = false) => {
+    const more = card && card.querySelector('.card-more');
+    if (!more) return;
+    const tabs = Array.from(more.querySelectorAll('.detail-tab'));
+    if (!tabs.some(tab => tab.dataset.tab === name)) name = 'overview';
+    tabs.forEach(tab => {
+      const selected = tab.dataset.tab === name;
+      tab.setAttribute('aria-selected', String(selected));
+      tab.tabIndex = selected ? 0 : -1;
+    });
+    more.querySelectorAll('.detail-panel').forEach(panel => { panel.hidden = panel.dataset.panel !== name; });
+    more.dataset.activeTab = name;
+    card.querySelectorAll('.fact-tile, .card-alert').forEach(tile => tile.classList.toggle('is-current', tile.dataset.tab === name && name !== 'overview'));
+    if (reveal) revealCardTabs(card);
+  };
+  const revealCardTabs = card => {
+    const tabs = card && card.querySelector('.detail-tabs');
+    if (!tabs || !tabs.getClientRects().length) return;
+    // Only scroll when the tabs sit in the lower part of the view (phones).
+    if (tabs.getBoundingClientRect().top < window.innerHeight * 0.45) return;
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    tabs.scrollIntoView({block:'start', behavior:reduced ? 'auto' : 'smooth'});
+  };
+  window.BerlinCardTabs = {activate:activateCardTab, reveal:revealCardTabs};
+  document.addEventListener('click', event => {
+    const tab = event.target.closest('.detail-tab');
+    if (tab) activateCardTab(tab.closest('.stay-card'), tab.dataset.tab);
+  });
+  document.addEventListener('keydown', event => {
+    const tab = event.target.closest && event.target.closest('.detail-tab');
+    if (!tab || !['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+    const tabs = Array.from(tab.parentElement.querySelectorAll('.detail-tab'));
+    const at = tabs.indexOf(tab);
+    const next = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : (at + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
+    event.preventDefault();
+    activateCardTab(tab.closest('.stay-card'), tabs[next].dataset.tab);
+    tabs[next].focus();
+  });
+
   // Optional shared backend adapter. list() returns [{id, checkIn, checkOut}];
   // add(offer) and remove(offer) must atomically update just that offer. No
   // client-side cache is used as a substitute for the shared collection.
@@ -182,6 +222,7 @@
       const capacityFact = Array.from(card.querySelectorAll('.facts span')).find(span => span.textContent.includes('İlan Kapasitesi'));
       const capacityNumber = capacityFact?.querySelector('b');
       if (capacityNumber) capacityNumber.textContent = String(capacityEvidence.maxGuests);
+      card.querySelectorAll('[data-capacity-value]').forEach(node => { node.textContent = String(capacityEvidence.maxGuests); });
       card.querySelectorAll('tr[data-share-people]').forEach(row => {
         const warning = row.querySelector('.share-limit');
         if (warning && Number(row.dataset.sharePeople) <= capacityEvidence.maxGuests) warning.remove();
@@ -359,12 +400,23 @@
       card.dataset.availability = visibleStatus?.status || 'unknown';
       if (statusNode) {
         statusNode.hidden = !visibleStatus;
+        // The photo chip stays short; the full dated observation is in the summary tab.
+        const overview = card.querySelector('.detail-panel[data-panel="overview"]');
+        let full = overview?.querySelector('.availability-full');
         if (visibleStatus) {
           const day = new Intl.DateTimeFormat('tr-TR', {day:'numeric', month:'long'}).format(new Date(visibleStatus.checkedAt));
-          statusNode.textContent = `${visibleStatus.status === 'unavailable' ? 'Bu Tarihlerde Müsait Değil' : 'Kaynakta Müsait Göründü'} · ${visibleStatus.adults} Kişi · ${day}`;
-          if (typeof visibleStatus.displayPrice === 'string' && visibleStatus.displayPrice) statusNode.textContent += ` · ${visibleStatus.displayPrice}`;
-          if (visibleStatus.lastAttempt?.result === 'unknown') statusNode.textContent += ' · Son kontrol doğrulanamadı';
-        }
+          let text = `${visibleStatus.status === 'unavailable' ? 'Bu Tarihlerde Müsait Değil' : 'Kaynakta Müsait Göründü'} · ${visibleStatus.adults} Kişi · ${day}`;
+          if (typeof visibleStatus.displayPrice === 'string' && visibleStatus.displayPrice) text += ` · ${visibleStatus.displayPrice}`;
+          if (visibleStatus.lastAttempt?.result === 'unknown') text += ' · Son kontrol doğrulanamadı';
+          statusNode.textContent = `${visibleStatus.status === 'unavailable' ? 'Müsait değil' : 'Müsait göründü'} · ${visibleStatus.adults} kişi · ${day}`;
+          statusNode.title = text;
+          statusNode.setAttribute('aria-label', text);
+          if (overview) {
+            if (!full) { full = document.createElement('p'); full.className = 'availability-full'; overview.querySelector('.panel-title')?.after(full); }
+            full.textContent = text;
+            full.dataset.status = visibleStatus.status;
+          }
+        } else if (full) full.remove();
       }
       card.querySelectorAll('.ruebezahl-table tr[data-source-id]').forEach(row => {
         const offer = availabilityRecords.find(entry => entry.scope === 'offer' && entry.id === row.dataset.sourceId && entry.checkIn === card.dataset.checkIn && entry.checkOut === card.dataset.checkOut && entry.adults === party);
@@ -482,7 +534,7 @@
       const vote=favorites.metadata.get(key)||{count:0};
       card.dataset.votes=String(vote.count);
       card.classList.toggle('liked-two',vote.count===2);card.classList.toggle('liked-many',vote.count>=3);
-      let badge=card.querySelector('.vote-badge');if(!badge){badge=document.createElement('span');badge.className='vote-badge';card.querySelector('.card-title').prepend(badge);}
+      let badge=card.querySelector('.vote-badge');if(!badge){badge=document.createElement('span');badge.className='vote-badge';(card.querySelector('.media-flags')||card.querySelector('.card-title')).prepend(badge);}
       badge.textContent=vote.count?`${vote.count} Beğeni`:vote.legacy?'Önceki Ortak Favori':'';badge.hidden=!badge.textContent;
       const name = card.querySelector('.card-title h3, .card-title h4')?.textContent || 'Konaklama';
       const dates = card.querySelector('.card-kicker')?.textContent || '';

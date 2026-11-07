@@ -87,6 +87,11 @@ def esc(value):
     return html.escape(text, quote=True)
 
 
+def icon(name):
+    """Reference a Lucide symbol embedded once by build_combined.py."""
+    return f'<svg class="i" aria-hidden="true" focusable="false"><use href="#i-{name}"></use></svg>'
+
+
 def safe_url(value):
     if not isinstance(value, str):
         return ''
@@ -1023,18 +1028,13 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
     amount_eur = offer_eur(row, price_record)
     premium = ((nights == 4 and amount_eur is not None and amount_eur > PREMIUM_THRESHOLD_EUR)
                or bool(row.get('_pairPremiumOnly')))
-    premium_label = 'Pahalı · 4.000 € üzeri' if nights == 4 else 'Pahalı plan · 4.000 € üzeri'
-    premium_badge = f'<span class="premium-badge">{premium_label}</span>' if premium else ''
     bed_text = bed_badge_label(room_record, preferred_beds)
-    bed_badge = f'<span class="bed-badge{" bed-priority" if preferred_beds is not None and preferred_beds >= 6 and not best_candidate else ""}">{esc(bed_text)}</span>'
-    candidate_badge = '<span class="candidate-badge">Koşullu aday · Vergili toplamı kontrol edin</span>' if best_candidate else ''
     candidate_note = '<p class="candidate-note">Gösterilen tutara vergi ve ek ücretlerin dahil olup olmadığı kesin değil. Nihai toplamı rezervasyondan önce kontrol edin.</p>' if best_candidate else ''
     alternative = None
     if nights == 4 and classify(row, audit) == 'full_house':
         alternative = BEST_HOUSE_ALTERNATIVES.get(str(row.get('id')))
     elif nights == 4 and audit.get('category') == 'apartment':
         alternative = BEST_APARTMENT_ALTERNATIVES.get(str(row.get('id')))
-    alternative_badge = '<span class="candidate-badge best-alternative-badge">Teyit Gerektiren Alternatif</span>' if alternative else ''
     alternative_note = f'<p class="best-alternative-why"><b>Alternatif:</b> {esc(alternative[1])}</p>' if alternative else ''
     layout, layout_source, original_layout, layout_certainty = bed_layout(row, bed_breakdowns)
     layout_prefix = 'Kaynak açıklaması: ' if original_layout else ''
@@ -1087,10 +1087,14 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
         caution_reasons.append(visible_note(availability))
     if has_display_warnings:
         caution_reasons = ['Yatak, fiyat ve kullanım koşulları aşağıdaki notlarda açıklanır.']
-    caution_html = ''
-    if audit.get('group') == 'conditional':
-        notes = ''.join(f'<li>{esc(note)}</li>' for note in dict.fromkeys(caution_reasons))
-        caution_html = f'<details class="caution-popover"><summary class="caution-badge">Dikkat Gerektiren</summary><div class="caution-content"><ul>{notes}</ul></div></details>'
+    caution_list = ''
+    caution_unique = list(dict.fromkeys(caution_reasons)) if audit.get('group') == 'conditional' else []
+    generic_caution = audit.get('group') == 'conditional' and not caution_unique
+    if generic_caution:
+        caution_unique = ['Notlardaki koşulları rezervasyondan önce kontrol edin.']
+    if caution_unique:
+        notes = ''.join(f'<li>{esc(note)}</li>' for note in caution_unique)
+        caution_list = f'<div class="caution-list"><b>Dikkat Gerektiren Noktalar</b><ul>{notes}</ul></div>'
     budget_html = ''
     if nights == 4 and amount_eur is not None:
         _, currency = source_price(row, price_record)
@@ -1103,7 +1107,6 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
     room_label = 'Stüdyo' if is_three_studios else 'Yatak Odası'
     baths = row.get('baths') if row.get('baths') not in (None, '') else 'Teyitsiz'
     route_fields = [('RSO', 'rsoCar', 'rsoTransit'), ('Tresor', 'tresorCar', 'tresorTransit')]
-    routes = ''.join(f'''<div class="route"><strong class="route-title">{esc(label)}</strong><div class="route-lines"><div><small>Taksi / Araç</small><b>{esc(route_value(row, route, car, car + 'Min'))}</b></div><div><small>Toplu / Yürüme</small><b>{esc(route_value(row, route, transit, transit + 'Min'))}</b></div></div></div>''' for label, car, transit in route_fields)
     route_observations = {
         '1166429151300530583': 'RSO ve Tresor süreleri 5 Kasım gündüz Google Haritalar gözlemidir; güncel trafik ve yılbaşı koşulları farklı olabilir.',
         '13868134': 'Tresor araç süresi önceki Google Haritalar gözlemidir; bu çalışmada yeniden ölçülmedi. Güncel trafik ve yılbaşı koşulları farklı olabilir.',
@@ -1126,15 +1129,6 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
         linked_detail('Oda dağılımı kaynağı', room_record.get('source') if room_record else None),
         linked_detail('Ayrı yatak kaynağı', row.get('premiumBedProof', {}).get('source') if premium_beds_verified(row) else None),
         extra_links(row),
-    ])
-    details = ''.join([
-        facts_table('İlan', [('İlandaki Ad', row.get('_raw_name'))]),
-        facts_table('Yataklar', [(room_label, rooms), ('Yatak Düzeni', layout if not room_record else None)]),
-        facts_table('Olanaklar', [('İlan bilgisi', row.get('features')), ('Havuz / kış', row.get('poolWinter'))]),
-        facts_table('Fiyat', [('Gösterilen Toplam', row.get('price')), ('Vergi ve Ücret', price_status), ('Depozito', budget.get('depositText')), ('Diğer Koşullar', public_price_conditions(row.get('priceNote')))]),
-        facts_table('Giriş ve Çıkış', [('Giriş', date_tr(row['checkIn']) + (' · ' + str(row['checkInTime']) if row.get('checkInTime') else '')), ('Çıkış', date_tr(row['checkOut']) + (' · ' + str(row['checkOutTime']) if row.get('checkOutTime') else ''))]),
-        route_table,
-        f'<details class="evidence"><summary>Kaynak ve Belirsizlik</summary>{evidence}</details>',
     ])
     capacity = row.get('capacity')
     if isinstance(capacity, str) and capacity.strip().isdigit():
@@ -1162,11 +1156,9 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
         data += f' data-map-accuracy="{esc(point.get("accuracy") or "unknown")}"'
         maps_query = f'{coords[0]},{coords[1]}'
         point_label = 'Yaklaşık bölge · bina teyitsiz' if point.get('accuracy') == 'area' else 'Yaklaşık konum'
-        map_action = f'<button class="map-show" type="button">Haritada Göster</button><span class="map-hint">{point_label}</span>'
         maps_label = 'Yaklaşık Konumu Google Haritalar’da Aç ↗'
     else:
         maps_query = f"{row.get('name', '')} {row.get('area', '')}"
-        map_action = '<span class="map-hint">Koordinat teyit edilmedi</span>'
         maps_label = 'Haritada İsimle Ara ↗'
     maps_url = 'https://www.google.com/maps/search/?api=1&query=' + quote(maps_query, safe=',')
     title_tag = 'h4' if row['_origin'] == 'split' else 'h3'
@@ -1183,36 +1175,153 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
     new_listing = source_file in ('new-search.json', 'new-search-ek.json', 'wellness-new.json', 'galeri-sweep-20261106.json')
     refreshed_price = source_file == 'refreshed-search.json'
     fresh_text = 'Yeni Eklenen' if new_listing else 'Fiyat Güncellendi' if refreshed_price else ''
-    fresh_badge = f'<span class="fresh-badge {"fresh-new" if new_listing else "fresh-updated"}">{esc(fresh_text)}</span>' if fresh_text else ''
-    mobile_fresh = f'<span class="mobile-fresh {"mobile-new" if new_listing else "mobile-updated"}">{esc(fresh_text)}</span>' if fresh_text else ''
-    mobile_premium = f'<span class="mobile-premium">{"Pahalı" if nights == 4 else "Pahalı plan"}</span>' if premium else ''
-    mobile_title = f'<div class="mobile-card-title" aria-hidden="true">{mobile_fresh}{mobile_premium}<strong>{esc(row.get("name", "Konaklama"))}</strong></div>'
     shared_gallery = ''
     if row.get('sourceId') in {'travanto-809908', 'travanto-809910', 'travanto-809914'}:
         shared_gallery = '<p class="shared-gallery-warning"><b>Fotoğraf Notu:</b> 13 Erle, 15 Zeder ve 20 Mohn ilanlarında aynı 24 fotoğraf kullanılıyor. Görsellerin bu eve ait olduğu ayrı ayrı doğrulanmadı.</p>'
     exception_warning = ('<p class="ruebezahl-caution"><b>Özel istisna:</b> Tresor’a araçla yaklaşık 37 dk. Bu, 30 ila 35 dk sınırının üzerindedir; süre ve yılbaşı trafiği değişebilir.</p>'
                          if ruebezahl_exception(row) else '')
-    exception_badge = '<span class="caution-badge">Özel istisna · Tresor 37 dk</span>' if ruebezahl_exception(row) else ''
     travel_mins = route.get('tresorCarMin')
     far_house = (classify(row, audit) in ('full_house', 'split_house')
                  and isinstance(travel_mins, (int, float)) and not isinstance(travel_mins, bool)
                  and travel_mins > 35 and not ruebezahl_exception(row))
-    distance_badge = f'<span class="distance-badge">Daha Uzak · Tresor {esc(int(travel_mins))} dk</span>' if far_house else ''
     resort_note = '<p class="resort-summary">Aynı tesiste 4 numaralı ev var. Evlerin fiyatları ve kaynakları aşağıdaki karşılaştırmada.</p>' if ruebezahl_exception(row) else ''
     premium_data = ' data-premium="true"' if premium else ''
-    return f'''<article class="stay-card" id="konaklama-{card_index}" data-order="{card_index}" data-id="{esc(row['id'])}" data-check-in="{esc(row['checkIn'])}" data-check-out="{esc(row['checkOut'])}" data-category="{esc(audit.get('category') or '')}" data-new="{str(new_listing).lower()}" data-price-refreshed="{str(refreshed_price).lower()}"{premium_data}{data}>
-      <div class="card-head"><div class="card-title">{fresh_badge}{premium_badge}{exception_badge}{distance_badge}{caution_html}{candidate_badge}{alternative_badge}{bed_badge}<p class="availability-status" hidden></p><p class="card-kicker">{esc(date_label)} · {nights} Gece</p><{title_tag}>{esc(row.get('name', 'Konaklama'))}</{title_tag}><p class="area">{esc(row.get('kind') or 'Tür Teyitsiz')} · {esc(location_text)}</p>{resort_note}<p class="party-quote-note" hidden></p><button type="button" class="card-open card-open-desktop" aria-label="{esc(row.get('name', 'Konaklama'))} Ayrıntılarını Aç">Ayrıntıları Aç</button></div><div class="amount"><strong>{esc(row.get('price') or 'Fiyat Teyitsiz')}</strong>{converted_html}<small>{quote_label}</small>{share_html}</div></div>
-      {quote_warning_html}
-      <div class="card-media">{photos_html(row)}{mobile_title}<div class="favorite-control"><button type="button" class="favorite-button" disabled aria-pressed="false" aria-label="Ortak favoriler bağlanmadı"><span class="favorite-heart" aria-hidden="true">♡</span><span class="favorite-label">Kaydet</span></button><span class="favorite-unavailable">Ortak liste bağlı değil</span></div></div>
-      <div class="card-body"><button type="button" class="card-open card-open-mobile" aria-label="{esc(row.get('name', 'Konaklama'))} Ayrıntılarını Aç">Ayrıntıları Aç</button>{exception_warning}{shared_gallery}{candidate_note}{alternative_note}{budget_html}{booking_note}<p class="privacy-note">{esc(privacy)}</p><div class="note-block">{note_html}</div>
-      <div class="facts"><span><b>{esc(rooms)}</b> {esc(room_label)}</span><span><b>{esc(baths)}</b> Banyo</span><span><b>{esc(cap)}</b> İlan Kapasitesi</span></div>
-      {bed_layout_html}
-      <div class="routes">{routes}</div>
-      {route_observation_html}
-      {ruebezahl_comparison(row)}
-      {booking_html(alternate, property_qualifies)}
-      <details class="detail"><summary>Yataklar, Olanaklar ve Kaynak Ayrıntıları</summary>{details}</details>
-      <div class="card-links"><a class="listing" href="{esc(listing)}" target="_blank" rel="noopener noreferrer">İlanı ve Koşulları Aç ↗</a><a class="photo-source" href="{esc(listing)}" target="_blank" rel="noopener noreferrer">Fotoğraf Yüklenmediyse İlanda Aç ↗</a></div><div class="map-actions">{map_action}<a href="{esc(maps_url)}" target="_blank" rel="noopener noreferrer">{maps_label}</a></div></div></article>'''
+    # ---- Compact card: the first glance carries only decision-critical facts.
+    # Everything else stays in the document and opens in the large view tabs.
+    name = row.get('name', 'Konaklama')
+    tresor_car = route_value(row, route, 'tresorCar', 'tresorCarMin')
+    tresor_transit = route_value(row, route, 'tresorTransit', 'tresorTransitMin')
+    rso_car = route_value(row, route, 'rsoCar', 'rsoCarMin')
+    rso_transit = route_value(row, route, 'rsoTransit', 'rsoTransitMin')
+    bed_value = bed_text
+    bed_sub = 'Oda oda düzeni gör'
+    if bed_value.endswith(' · teyit gerekli'):
+        bed_value, bed_sub = bed_value[:-len(' · teyit gerekli')], 'Teyit gerekli · düzeni gör'
+    bed_value = bed_value.replace(' · Türleri aşağıda', '')
+    if bed_value == 'Yatak türleri aşağıda':
+        bed_value, bed_sub = 'Yatak sayısı teyitsiz', 'Kaynaktaki düzeni gör'
+    bed_state = (' is-good' if preferred_beds is not None and preferred_beds >= 6 and not best_candidate
+                 else ' is-warn' if preferred_beds is None or preferred_beds < 6 else '')
+    room_unit = 'stüdyo' if is_three_studios else 'oda'
+    room_value = ' · '.join(part for part in (
+        f'{rooms} {room_unit}' if rooms != 'Teyitsiz' else 'Oda teyitsiz',
+        f'{baths} banyo' if baths != 'Teyitsiz' else '') if part)
+
+    def fact_tile(tab, icon_name, label, value, sub, state=''):
+        aria = f'{label}: {value}. {re.sub(r"<[^>]+>", "", sub)}. Ayrıntıları aç'
+        return (f'<button type="button" class="card-open fact-tile{state}" data-tab="{tab}" aria-label="{esc(aria)}">'
+                f'<span class="fact-icon">{icon(icon_name)}</span><span class="fact-text"><small>{esc(label)}</small>'
+                f'<b>{esc(value)}</b><span class="fact-sub">{sub}</span></span></button>')
+
+    tiles = ''.join([
+        fact_tile('beds', 'bed-double', 'Yataklar', bed_value, esc(bed_sub), bed_state),
+        fact_tile('route', 'car-taxi-front', 'Tresor’a', tresor_car, esc(f'Taksi · toplu {tresor_transit}'),
+                  ' is-warn' if far_house or ruebezahl_exception(row) else ''),
+        fact_tile('route', 'disc-3', 'RSO’ya', rso_car, esc(f'Taksi · toplu {rso_transit}')),
+        fact_tile('overview', 'door-open', 'Odalar', room_value,
+                  f'Kapasite <span data-capacity-value>{esc(cap)}</span> kişi'),
+    ])
+
+    # The single most important caution is visible; all notes are one tap away.
+    # A caution already listed at the top of the notes is not repeated below it.
+    for repeated in caution_unique:
+        note_html = note_html.replace(f'<p><b>Not:</b> {esc(repeated)}</p>', '')
+    notes_panel_parts = [caution_list, exception_warning, shared_gallery, candidate_note,
+                         alternative_note, f'<div class="note-block">{note_html}</div>' if note_html else '']
+    notes_inner = ''.join(part for part in notes_panel_parts if part)
+    note_count = len(re.findall(r'<(?:li|p)\b', notes_inner))
+    alert_kind, alert_text = 'ok', privacy
+    if ruebezahl_exception(row):
+        alert_kind, alert_text = 'warn', 'Özel istisna: Tresor’a araçla yaklaşık 37 dk.'
+    elif best_candidate:
+        alert_kind, alert_text = 'warn', 'Vergili toplam kesin değil; rezervasyondan önce kontrol edin.'
+    elif caution_unique and not generic_caution:
+        alert_kind, alert_text = 'warn', caution_unique[0]
+    elif ADULTS == 7:
+        alert_kind, alert_text = 'warn', 'Önceki 7 kişilik teklif; fiyat ve müsaitlik yeniden kontrol edilmeli.'
+    elif far_house:
+        alert_kind, alert_text = 'warn', f'Daha uzak: Tresor’a araçla yaklaşık {int(travel_mins)} dk.'
+    elif generic_caution:
+        alert_kind, alert_text = 'warn', caution_unique[0]
+    elif 'teyit' in privacy:
+        alert_kind = 'warn'
+    alert_icon = 'triangle-alert' if alert_kind == 'warn' else 'shield-check'
+    count_label = f'{note_count} not' if note_count else 'Notlar'
+    alert_html = (f'<button type="button" class="card-open card-alert alert-{alert_kind}" data-tab="notes" '
+                  f'aria-label="{esc(alert_text)} Tüm notları aç ({note_count})">{icon(alert_icon)}'
+                  f'<span class="alert-text">{esc(alert_text)}</span><span class="alert-count">{esc(count_label)}</span></button>')
+
+    flag_texts = []
+    if fresh_text:
+        flag_texts.append((f'flag-{"new" if new_listing else "updated"}', 'Yeni' if new_listing else 'Fiyat Güncellendi'))
+    if premium:
+        flag_texts.append(('flag-premium', '4.000 € Üzeri'))
+    if ruebezahl_exception(row):
+        flag_texts.append(('flag-warn', 'Özel İstisna'))
+    elif far_house:
+        flag_texts.append(('flag-warn', f'Daha Uzak · {int(travel_mins)} dk'))
+    if best_offer:
+        flag_texts.append(('flag-best', 'En Uygun'))
+    elif best_candidate:
+        flag_texts.append(('flag-warn', 'Koşullu Aday'))
+    elif caution_unique:
+        flag_texts.append(('flag-warn', 'Dikkat'))
+    flags = ''.join(f'<span class="media-flag {cls}">{esc(text)}</span>' for cls, text in flag_texts)
+    if alternative:
+        flags += '<span class="media-flag flag-warn best-alternative-badge">Alternatif</span>'
+
+    map_button = (f'<button class="map-show icon-action" type="button" aria-label="{esc(name)}: Haritada göster">{icon("map-pin")}<span>Harita</span></button>'
+                  if coords else '')
+    map_note = (f'<p class="map-hint-line">{icon("map-pin")} {esc(point_label)} · <a href="{esc(maps_url)}" target="_blank" rel="noopener noreferrer">{esc(maps_label)}</a></p>'
+                if coords else f'<p class="map-hint-line">{icon("map-pin")} Koordinat teyit edilmedi · <a href="{esc(maps_url)}" target="_blank" rel="noopener noreferrer">{esc(maps_label)}</a></p>')
+    address_line = f'<p class="route-address"><b>Konum:</b> {esc(location_text)}</p>'
+
+    # Keep the amount on one line; its qualifier stays inside the same element.
+    price_text = str(row.get('price') or 'Fiyat Teyitsiz')
+    price_split = re.match(r'^(.*?\d[\d.,]*\s*(?:€|TL|\$|USD|EUR)?)(\s*(?:\(|\+|;|·).*)$', price_text)
+    price_main = esc(price_split[1] if price_split else price_text)
+    price_qualifier = f'<span class="price-qualifier">{esc(price_split[2])}</span>' if price_split else ''
+    short_month = {12: 'Ara', 1: 'Oca'}
+    short_dates = ' → '.join(f"{int(value[8:10])} {short_month.get(int(value[5:7]), date_tr(value).split()[1][:3])}"
+                             for value in (row['checkIn'], row['checkOut']))
+    tab_defs = [('overview', 'Özet'), ('beds', 'Yataklar'), ('route', 'Ulaşım'), ('price', 'Fiyat'),
+                ('notes', f'Notlar{f" · {note_count}" if note_count else ""}'), ('sources', 'Kaynaklar')]
+    tabs = ''.join(f'<button type="button" role="tab" class="detail-tab" data-tab="{key_}" aria-selected="{str(key_ == "overview").lower()}">{esc(label)}</button>'
+                   for key_, label in tab_defs)
+    titles = dict(tab_defs)
+
+    def panel(key_, inner):
+        return (f'<section class="detail-panel{" card-body" if key_ == "overview" else ""}" role="tabpanel" data-panel="{key_}" aria-label="{esc(titles[key_])}">'
+                f'<h4 class="panel-title">{esc(titles[key_])}</h4>{inner}</section>')
+
+    overview_inner = (f'{resort_note}{alternative_note}<p class="privacy-note">{icon("shield-check")} {esc(privacy)}</p>'
+                      f'<div class="facts"><span><b>{esc(rooms)}</b> {esc(room_label)}</span><span><b>{esc(baths)}</b> Banyo</span><span><b>{esc(cap)}</b> İlan Kapasitesi</span></div>'
+                      f'<dl class="overview-list"><div><dt>Yataklar</dt><dd>{esc(bed_text)}</dd></div>'
+                      f'<div><dt>Tresor’a</dt><dd>Taksi {esc(tresor_car)} · Toplu {esc(tresor_transit)}</dd></div>'
+                      f'<div><dt>RSO’ya</dt><dd>Taksi {esc(rso_car)} · Toplu {esc(rso_transit)}</dd></div>'
+                      f'<div><dt>Fiyat kapsamı</dt><dd>{esc(tax_note(budget))}</dd></div></dl>{budget_html}{booking_note}')
+    beds_inner = bed_layout_html + facts_table('Yataklar', [(room_label, rooms), ('Yatak Düzeni', layout if not room_record else None)])
+    route_inner = route_table + route_observation_html + address_line + map_note
+    price_inner = (quote_warning_html + budget_html + candidate_note + booking_note
+                   + facts_table('Fiyat', [('Gösterilen Toplam', row.get('price')), ('Vergi ve Ücret', price_status), ('Depozito', budget.get('depositText')), ('Diğer Koşullar', public_price_conditions(row.get('priceNote')))])
+                   + ruebezahl_comparison(row) + booking_html(alternate, property_qualifies))
+    notes_body = notes_inner or '<p class="empty-note">Bu teklif için ek not yok.</p>'
+    sources_inner = (facts_table('İlan', [('İlandaki Ad', row.get('_raw_name'))])
+                     + facts_table('Olanaklar', [('İlan bilgisi', row.get('features')), ('Havuz / kış', row.get('poolWinter'))])
+                     + facts_table('Giriş ve Çıkış', [('Giriş', date_tr(row['checkIn']) + (' · ' + str(row['checkInTime']) if row.get('checkInTime') else '')), ('Çıkış', date_tr(row['checkOut']) + (' · ' + str(row['checkOutTime']) if row.get('checkOutTime') else ''))])
+                     + f'<details class="evidence" open><summary>Kaynak ve Belirsizlik</summary>{evidence}</details>'
+                     + f'<div class="card-links"><a class="photo-source" href="{esc(listing)}" target="_blank" rel="noopener noreferrer">Fotoğraf Yüklenmediyse İlanda Aç ↗</a></div>')
+    more = (f'<div class="card-more"><div class="detail-tabs" role="tablist" aria-label="{esc(name)} ayrıntıları">{tabs}</div>'
+            + panel('overview', overview_inner) + panel('beds', beds_inner) + panel('route', route_inner)
+            + panel('price', price_inner) + panel('notes', notes_body) + panel('sources', sources_inner) + '</div>')
+
+    return f'''<article class="stay-card" id="konaklama-{card_index}" data-order="{card_index}" data-id="{esc(row['id'])}" data-check-in="{esc(row['checkIn'])}" data-check-out="{esc(row['checkOut'])}" data-category="{esc(audit.get('category') or '')}" data-new="{str(new_listing).lower()}" data-price-refreshed="{str(refreshed_price).lower()}" data-note-count="{note_count}"{premium_data}{data}>
+      <div class="card-media">{photos_html(row)}<div class="media-flags"><p class="availability-status" hidden></p>{flags}</div><p class="party-quote-note" hidden></p><div class="favorite-control"><button type="button" class="favorite-button" disabled aria-pressed="false" aria-label="Ortak favoriler bağlanmadı"><span class="favorite-heart" aria-hidden="true">♡</span><span class="favorite-label">Kaydet</span></button><span class="favorite-unavailable">Ortak liste bağlı değil</span></div></div>
+      <div class="card-head"><div class="card-title"><p class="card-kicker" title="{esc(date_label)}">{icon('calendar-days')} {esc(short_dates)} · {nights} Gece</p><{title_tag} title="{esc(name)}">{esc(name)}</{title_tag}><p class="area" title="{esc(row.get('kind') or 'Tür Teyitsiz')} · {esc(location_text)}">{esc(row.get('kind') or 'Tür Teyitsiz')} · {esc(location_text)}</p></div><div class="amount"><strong>{price_main}{price_qualifier}</strong>{converted_html}<small class="quote-label">{quote_label}</small>{share_html}</div></div>
+      <div class="fact-tiles">{tiles}</div>
+      {alert_html}
+      <div class="card-actions"><button type="button" class="card-open card-open-main" data-tab="overview" aria-label="{esc(name)} Ayrıntılarını Aç">{icon('maximize-2')}<span>Tüm Ayrıntılar</span></button>{map_button}<a class="listing icon-action" href="{esc(listing)}" target="_blank" rel="noopener noreferrer" aria-label="{esc(name)}: İlanı ve koşulları aç">{icon('square-arrow-out-up-right')}<span>İlan</span></a></div>
+      {more}</article>'''
 
 
 def main():

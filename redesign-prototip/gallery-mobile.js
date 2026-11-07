@@ -1,7 +1,9 @@
 /* Load after liquid.js. It augments the existing galleries and their dialog. */
 (() => {
   'use strict';
-  const mobile = window.matchMedia('(max-width: 639px), (orientation: landscape) and (pointer: coarse) and (max-width: 950px) and (max-height: 500px)');
+  // Cards use a single-photo carousel at every width so that each card keeps
+  // a standard height; only the current and next photos are requested.
+  const mobile = window.matchMedia('all');
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   const initialized = new WeakSet();
   const galleryStates = new WeakMap();

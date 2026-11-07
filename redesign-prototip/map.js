@@ -228,12 +228,13 @@
     }
     return window.L.divIcon({className, html:wrap.innerHTML, iconSize:[44,44], iconAnchor:[22-horizontalOffset,44], popupAnchor:[-horizontalOffset,-38]});
   }
-  function showCard(card, marker, returnOffers = null) {
+  function showCard(card, marker, returnOffers = null, tab = 'overview') {
     if (!dialog || typeof dialog.showModal !== 'function') {
       const enclosing = card.closest('details');
       if (enclosing) enclosing.open = true;
-      const nativeDetails = card.querySelector('.detail');
-      if (nativeDetails) nativeDetails.open = true;
+      // Without a modal dialog the compact card expands in place.
+      card.classList.add('is-expanded');
+      if (window.BerlinCardTabs) window.BerlinCardTabs.activate(card, tab);
       card.scrollIntoView({behavior:scrollBehavior(),block:'start'});
       card.setAttribute('tabindex','-1'); card.focus({preventScroll:true});
       return;
@@ -246,9 +247,8 @@
     clone.hidden = false;
     clone.querySelectorAll('[id]').forEach(el => el.removeAttribute('id'));
     clone.querySelectorAll('.map-show').forEach(el => el.remove());
-    clone.querySelectorAll('.card-open').forEach(el => el.remove());
-    const notes = hasNotes(card) ? clone.querySelector('.note-block') : null;
-    if (notes) notes.remove();
+    // Summary tiles stay in the large view and switch its tabs instead.
+    clone.querySelectorAll('.card-open-main').forEach(el => el.remove());
     clone.querySelectorAll('.photo-grid img').forEach(img => {
       const fail = () => {
         const link = img.closest('a'), listing = clone.querySelector('.listing');
@@ -261,14 +261,16 @@
     });
     dialog.querySelector('#card-dialog-title').textContent = titleFor(card);
     const content = dialog.querySelector('#card-dialog-content');
-    if (notes) { notes.classList.add('dialog-notes'); content.replaceChildren(notes, clone); }
-    else content.replaceChildren(clone);
+    content.replaceChildren(clone);
+    if (window.BerlinCardTabs) window.BerlinCardTabs.activate(clone, tab);
     if (returnOffers) {
       const back = document.createElement('button'); back.type = 'button'; back.className = 'map-offers-back';
       back.textContent = '← Aynı Konumdaki Teklifler';
       back.addEventListener('click', () => showOfferPicker(returnOffers, marker)); content.prepend(back);
     }
     if (!dialog.open) dialog.showModal();
+    dialog.scrollTop = 0; content.scrollTop = 0;
+    if (window.BerlinCardTabs && tab !== 'overview') window.BerlinCardTabs.reveal(clone);
   }
   function sourcePropertyKey(card) {
     try {
@@ -642,7 +644,11 @@
     const detailButton = event.target.closest('.card-open');
     if (detailButton) {
       const card = detailButton.closest('.stay-card');
-      if (card) showCard(card, {getElement: () => detailButton});
+      if (card && dialog && dialog.contains(card)) {
+        if (window.BerlinCardTabs) window.BerlinCardTabs.activate(card, detailButton.dataset.tab, true);
+        return;
+      }
+      if (card) showCard(card, {getElement: () => detailButton}, null, detailButton.dataset.tab || 'overview');
       return;
     }
     const button = event.target.closest('.map-show');

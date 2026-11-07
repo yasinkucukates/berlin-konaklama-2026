@@ -41,6 +41,21 @@ def scoped_map_script(script: str) -> str:
     return script[:-len(end)] + '  });\n' + end
 
 
+def icon_sprite() -> str:
+    """Embed the vendored Lucide icons once; cards reference them with <use>."""
+    symbols = []
+    for path in sorted((HERE / 'vendor' / 'lucide').glob('*.svg')):
+        source = path.read_text(encoding='utf-8')
+        match = re.search(r'<svg\b[^>]*>(.*)</svg>', source, flags=re.S)
+        if not match or '<script' in source.lower():
+            raise ValueError(f'Unexpected icon file: {path.name}')
+        inner = ' '.join(match[1].split())
+        symbols.append(f'<symbol id="i-{path.stem}" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+                       f'stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{inner}</symbol>')
+    return ('<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" '
+            'aria-hidden="true" focusable="false">' + ''.join(symbols) + '</svg>')
+
+
 def view_body(page: str, adults: int, liquid_script: str, map_script: str) -> str:
     prefix = f'p{adults}-'
     opening = '<div data-berlin-view data-id-prefix="">'
@@ -80,8 +95,9 @@ def main() -> None:
     map_css = (HERE / 'map.css').read_text(encoding='utf-8')
     gallery_css = (HERE / 'gallery-mobile.css').read_text(encoding='utf-8')
     gallery_script = (HERE / 'gallery-mobile.js').read_text(encoding='utf-8')
+    cards_css = (HERE / 'cards.css').read_text(encoding='utf-8')
     map_css = map_css.replace('#map-canvas', '.map-canvas').replace('#card-dialog-content', '.card-dialog-content')
-    if '</script' in (liquid_script + map_script + gallery_script).lower() or '</style' in (css + map_css + gallery_css).lower():
+    if '</script' in (liquid_script + map_script + gallery_script).lower() or '</style' in (css + map_css + gallery_css + cards_css).lower():
         raise ValueError('Asset cannot be embedded safely')
     favorite_bootstrap = ''
     if args.favorites_endpoint:
@@ -185,8 +201,8 @@ def main() -> None:
     combined = combined.replace('Kişi başı pay, gösterilen toplamın altıya bölünmesidir.', 'Kişi başı pay, gösterilen toplamın seçilen kişi sayısına bölünmesidir; bu hesap yeni bir fiyat teklifi değildir.')
     combined = combined.replace('Altı kişilik fiyatı ve müsaitliği teyitsiz ilanlarda seçili tarihler için güncel koşullar yeniden kontrol edilmelidir.', 'Seçilen kişi sayısı için fiyat ve müsaitlik teyit edilmemişse güncel koşullar yeniden kontrol edilmelidir.')
     combined = combined.replace('Kaynak gözlemleri: 5 ve 6 Kasım 2026.', 'Önceki kaynak gözlemleri: 5 ve 6 Kasım 2026; son kontroller ilgili kartlarda gösterilir.')
-    page = f'''<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Berlin Konaklamaları | Önizleme</title><style>{css}\n{map_css}\n{controls}\n{gallery_css}</style></head><body>
-{combined}<script type="application/json" id="availability-data">{status_json}</script>{favorite_bootstrap}<script>{liquid_script}</script><script>{scoped_map_script(map_script)}</script><script>{gallery_script}</script></body></html>'''
+    page = f'''<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Berlin Konaklamaları | Önizleme</title><style>{css}\n{map_css}\n{controls}\n{gallery_css}\n{cards_css}</style></head><body>
+{icon_sprite()}{combined}<script type="application/json" id="availability-data">{status_json}</script>{favorite_bootstrap}<script>{liquid_script}</script><script>{scoped_map_script(map_script)}</script><script>{gallery_script}</script></body></html>'''
     # Hash the full pre-meta document to avoid a circular hash; it changes
     # whenever listings, styles, scripts, or the configured transport change.
     release = hashlib.sha256(page.encode('utf-8')).hexdigest()[:16]
