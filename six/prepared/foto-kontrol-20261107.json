@@ -1,0 +1,593 @@
+{
+  "observedAt": "2026-11-07",
+  "page": "https://yasinkucukates.github.io/berlin-konaklama-2026/?v=341e7592999b489f",
+  "method": "article.stay-card (conditional-card dahil) içindeki img.holidu.com, a0.muscache.com, media.vrbo.com, cf.bstatic.com adresleri; &amp; çözüldü; curl -r 0-1023 -e https://yasinkucukates.github.io/ -A 'Mozilla/5.0 (Macintosh)', en çok 8 paralel; başarılı = 200/206 ve image/*",
+  "cardCount": 110,
+  "cardsWithPhotos": 110,
+  "testedUrls": 2671,
+  "failedUrls": 55,
+  "failedCards": 3,
+  "statusSummary": {
+    "206 image/jpeg": 2594,
+    "401 text/html;charset=iso-8859-1": 55,
+    "206 image/avif": 21,
+    "0 ": 1
+  },
+  "failures": [
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119697.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119703.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119706.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119719.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119726.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119728.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119741.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119745.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119750.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/325119763.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/399131190.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/407204167.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/407204198.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485990991.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485991070.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485991141.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485991307.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485991329.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992007.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992009.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992237.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992295.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992302.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992452.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992456.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992475.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992477.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992481.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992498.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992506.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992516.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992544.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992557.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992573.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992590.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992599.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992617.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992619.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992698.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992883.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992936.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992948.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992959.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485992962.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/485993013.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienwohnungen Im Grund 22, 22a, 22c Birkenstein",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/503889411.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/506536685.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/730031249.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Triumph Ferienhäuser & Apartments – Haus mit 3 Schlafzimmer",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/923925810.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-ferienhaus-berlin-6-pax-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienhaus Berlin 6 Pax",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/929479761.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-ferienhaus-berlin-6-pax-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienhaus Berlin 6 Pax",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/929480040.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-ferienhaus-berlin-6-pax-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienhaus Berlin 6 Pax",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/929480044.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-ferienhaus-berlin-6-pax-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienhaus Berlin 6 Pax",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/929480047.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-ferienhaus-berlin-6-pax-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienhaus Berlin 6 Pax",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/929489695.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    },
+    {
+      "cardId": "sweep7-booking-ferienhaus-berlin-6-pax-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Ferienhaus Berlin 6 Pax",
+      "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/929489699.jpg",
+      "status": 401,
+      "contentType": "text/html;charset=iso-8859-1"
+    }
+  ],
+  "transientFailures": [
+    {
+      "cardId": "six-house-1800855588199404311-full",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "6",
+      "name": "Dahlewitz Evi",
+      "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/da384daf-beae-4cf6-ad40-5a312693a3b8.jpeg?im_w=1440",
+      "status": 0,
+      "contentType": "",
+      "retry": "3 yeniden deneme: 206 image/jpeg"
+    },
+    {
+      "cardId": "1800855588199404311",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": "7",
+      "name": "Dahlewitz Evi",
+      "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1800855588199404311/original/da384daf-beae-4cf6-ad40-5a312693a3b8.jpeg?im_w=1440",
+      "status": 0,
+      "contentType": "",
+      "retry": "3 yeniden deneme: 206 image/jpeg"
+    }
+  ],
+  "note": "İlk geçişte 1 adres bağlantı hatası (kod 0) verdi; yeniden denemede açıldı, transientFailures altında. Kalan 55 hata, imzasız (?k= yok) kaydedilmiş 3 Booking kartının adresleri; imzalı karşılıkları booking-imzali-foto-20261107.json içinde."
+}
