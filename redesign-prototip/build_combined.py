@@ -164,6 +164,11 @@ def main() -> None:
         timestamp = datetime.fromisoformat(record['checkedAt'])
         if timestamp.tzinfo is None or urlsplit(record.get('sourceUrl', '')).scheme != 'https':
             raise ValueError('Müsaitlik kaydında saat dilimi veya HTTPS kaynak eksik')
+        if 'lastAvailableAt' in record:
+            # Optional: the last dated check that still found the offer available.
+            previous = datetime.fromisoformat(record['lastAvailableAt'])
+            if record['status'] != 'unavailable' or previous.tzinfo is None or previous > timestamp:
+                raise ValueError('lastAvailableAt yalnız müsait olmayan kayıtta, saat dilimli ve kontrol zamanından önce olmalı')
         key = tuple(record[k] for k in ('scope', 'id', 'checkIn', 'checkOut', 'adults'))
         if key in keys:
             raise ValueError('Müsaitlik kaydı tekrarlanıyor')

@@ -250,6 +250,7 @@ body{background:
 .stamp-x .i{width:19px;height:19px;stroke-width:2.6}
 .unavailable-stamp b{font:800 14px/1.2 var(--sans);letter-spacing:.01em}
 .unavailable-stamp small{font:600 11px/1.25 var(--sans);opacity:.85}
+.stamp-history{white-space:nowrap;padding:3px 10px;border-radius:999px;background:rgba(255,255,255,.16);font:700 11.5px/1.3 var(--sans)}
 .stay-card[data-availability="unavailable"] .media-flag,.stay-card[data-availability="unavailable"] .party-quote-note{display:none}
 .stay-card[data-availability="unavailable"] .card-head,.stay-card[data-availability="unavailable"] .fact-tiles,.stay-card[data-availability="unavailable"] .card-alert{opacity:.5;filter:grayscale(.9);transition:opacity .2s ease}
 .stay-card[data-availability="unavailable"]:hover .card-head,.stay-card[data-availability="unavailable"]:hover .fact-tiles,.stay-card[data-availability="unavailable"]:hover .card-alert,
@@ -277,7 +278,7 @@ body{background:
 
 /* ---------- Small screens ---------- */
 @media(max-width:639px){
-  .unavailable-stamp{min-width:0;padding:10px 16px}.unavailable-stamp b{font-size:13px;white-space:nowrap}.unavailable-stamp small{white-space:nowrap}
+  .unavailable-stamp{min-width:0;padding:10px 16px}.unavailable-stamp b{font-size:13px;white-space:nowrap}.unavailable-stamp small,.stamp-history{white-space:nowrap}
   .results-content .card-grid,.card-grid{grid-template-columns:minmax(0,1fr);gap:20px}
   .stay-card .card-media{aspect-ratio:4/3}
   .stay-card .card-head{padding:13px 14px 2px}

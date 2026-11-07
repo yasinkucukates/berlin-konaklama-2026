@@ -26,6 +26,16 @@
     tabs.scrollIntoView({block:'start', behavior:reduced ? 'auto' : 'smooth'});
   };
   window.BerlinCardTabs = {activate:activateCardTab, reveal:revealCardTabs};
+  // Daily checks are recorded in Turkey time; show them the same way everywhere.
+  const zone = {timeZone:'Europe/Istanbul'};
+  const trDay = iso => new Intl.DateTimeFormat('tr-TR', {day:'numeric', month:'long', ...zone}).format(new Date(iso));
+  const trDayTime = iso => new Intl.DateTimeFormat('tr-TR', {day:'numeric', month:'long', hour:'2-digit', minute:'2-digit', ...zone}).format(new Date(iso));
+  const trDayAt = iso => {
+    // Locative suffix for the months of this trip's checks: Kasım’da, Aralık’ta, Ocak’ta.
+    const month = Number(new Intl.DateTimeFormat('en', {month:'numeric', ...zone}).format(new Date(iso)));
+    const suffix = {11:'’da', 12:'’ta', 1:'’ta', 10:'’da', 9:'’da'}[month];
+    return suffix ? trDay(iso) + suffix : trDay(iso) + ' tarihinde';
+  };
   document.addEventListener('click', event => {
     const tab = event.target.closest('.detail-tab');
     if (tab) activateCardTab(tab.closest('.stay-card'), tab.dataset.tab);
@@ -414,8 +424,10 @@
         const overview = card.querySelector('.detail-panel[data-panel="overview"]');
         let full = overview?.querySelector('.availability-full');
         if (visibleStatus) {
-          const day = new Intl.DateTimeFormat('tr-TR', {day:'numeric', month:'long'}).format(new Date(visibleStatus.checkedAt));
+          const day = trDay(visibleStatus.checkedAt);
           let text = `${visibleStatus.status === 'unavailable' ? 'Bu Tarihlerde Müsait Değil' : 'Kaynakta Müsait Göründü'} · ${visibleStatus.adults} Kişi · ${day}`;
+          const wasAvailable = visibleStatus.status === 'unavailable' && Number.isFinite(Date.parse(visibleStatus.lastAvailableAt || ''));
+          if (wasAvailable) text = `${trDayAt(visibleStatus.lastAvailableAt)} ${visibleStatus.adults} kişi için müsait görünüyordu. ${trDayTime(visibleStatus.checkedAt)} kontrolünde bu tarihler artık müsait değil; ilan başkası tarafından kiralanmış ya da takvimi kapatılmış olabilir.`;
           if (typeof visibleStatus.displayPrice === 'string' && visibleStatus.displayPrice) text += ` · ${visibleStatus.displayPrice}`;
           if (visibleStatus.lastAttempt?.result === 'unknown') text += ' · Son kontrol doğrulanamadı';
           statusNode.textContent = `${visibleStatus.status === 'unavailable' ? 'Müsait değil' : 'Müsait göründü'} · ${visibleStatus.adults} kişi · ${day}`;
@@ -435,11 +447,15 @@
           stamp = document.createElement('div');
           stamp.className = 'unavailable-stamp';
           stamp.setAttribute('aria-hidden', 'true');
-          stamp.innerHTML = '<span class="stamp-x"><svg class="i"><use href="#i-x"></use></svg></span><b>Bu tarihlerde müsait değil</b><small></small>';
+          stamp.innerHTML = '<span class="stamp-x"><svg class="i"><use href="#i-x"></use></svg></span><b>Bu tarihler artık müsait değil</b><span class="stamp-history" hidden></span><small></small>';
           card.querySelector('.card-media')?.append(stamp);
         }
-        const checked = new Intl.DateTimeFormat('tr-TR', {day:'numeric', month:'long', hour:'2-digit', minute:'2-digit', timeZone:'Europe/Istanbul'}).format(new Date(visibleStatus.checkedAt));
-        stamp.querySelector('small').textContent = `${visibleStatus.adults} kişi · Son kontrol ${checked}`;
+        // "It was available on X and closed by Y" only when the data records X.
+        const history = stamp.querySelector('.stamp-history');
+        const lastAvailable = visibleStatus.lastAvailableAt;
+        history.hidden = !Number.isFinite(Date.parse(lastAvailable || ''));
+        if (!history.hidden) history.textContent = `${trDayAt(lastAvailable)} müsaitti, ${trDayAt(visibleStatus.checkedAt)} kapandı`;
+        stamp.querySelector('small').textContent = `${visibleStatus.adults} kişi · Son kontrol ${trDayTime(visibleStatus.checkedAt)}`;
       } else if (stamp) stamp.remove();
       card.querySelectorAll('.ruebezahl-table tr[data-source-id]').forEach(row => {
         const offer = availabilityRecords.find(entry => entry.scope === 'offer' && entry.id === row.dataset.sourceId && entry.checkIn === card.dataset.checkIn && entry.checkOut === card.dataset.checkOut && entry.adults === party);
