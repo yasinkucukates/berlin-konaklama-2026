@@ -87,16 +87,15 @@
   },
   "53802915": {
     "normalBeds": 3,
-    "source": "https://www.airbnb.com/rooms/53802915"
+    "source": "https://www.airbnb.com/rooms/53802915?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
   },
   "1150006272268927007": {
     "normalBeds": 3,
-    "source": "https://www.airbnb.com/rooms/1150006272268927007"
+    "source": "https://www.airbnb.com/rooms/1150006272268927007?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
   },
   "1611035619222657901": {
-    "normalBeds": 6,
-    "source": "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-    "note": "Airbnb oda kartları 2 + 2 + 3 tek yatak bildiriyor; üçüncü odadaki üçüncü yatak fotoğrafta netleşmediği için altı yataklık alt sınır kullanıldı."
+    "normalBeds": 7,
+    "source": "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR"
   },
   "sweep6-airbnb-1552405041368851207-20261230-20270103": {
     "normalBeds": 6,
@@ -327,5 +326,89 @@
     "normalBeds": 6,
     "source": "https://www.holidu.de/d/69492292?checkin=2026-12-30&checkout=2027-01-03&adults=6",
     "note": "Ayrı gerçek yatak sayısı; çift kişilik yatak bir, ranza iki, çekyat/kanepe sıfır sayıldı."
+  },
+  "grand-central-upper": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7"
+  },
+  "six-airbnb-1656340-full": {
+    "normalBeds": 6,
+    "source": "https://www.airbnb.com/rooms/1656340?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  },
+  "12048269": {
+    "normalBeds": 3,
+    "source": "https://www.airbnb.com/rooms/12048269?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  },
+  "1552331405600484908": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/1552331405600484908?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  },
+  "six-booking-osthafen-790949501-full": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/eastside34.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6"
+  },
+  "45436574": {
+    "normalBeds": 4,
+    "source": "https://www.airbnb.com/rooms/45436574?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  },
+  "yeni-kreuzberg-freiligrath": {
+    "normalBeds": 3,
+    "source": "https://www.booking.com/hotel/de/im-herzen-von-kreuzberg-perfekt-gelegen-fur-bis-zu-8-personen.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7"
+  },
+  "yeni-arabel-suite": {
+    "normalBeds": 4,
+    "source": "https://www.booking.com/hotel/de/arabel-design-apartments.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7"
+  },
+  "six-airbnb-1452938883567081364-full": {
+    "normalBeds": 6,
+    "source": "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  },
+  "yeni-charlottenburg-uc-odali": {
+    "normalBeds": 3,
+    "source": "https://www.booking.com/hotel/de/traumhafte-wohnung-mitten-in-charlottenburg.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7"
+  },
+  "1519600838702010375": {
+    "normalBeds": 8,
+    "source": "https://www.airbnb.com/rooms/1519600838702010375?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  },
+  "1468719376516749093": {
+    "normalBeds": 4,
+    "source": "https://www.airbnb.com/rooms/1468719376516749093?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  },
+  "six-house-1468719376516749093-last": {
+    "normalBeds": 4,
+    "source": "https://www.airbnb.com/rooms/1468719376516749093?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  },
+  "six-airbnb-1506711709322131491-first": {
+    "normalBeds": 4,
+    "source": "https://www.airbnb.com/rooms/1506711709322131491?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR"
+  },
+  "bolunmus-torstrasse": {
+    "normalBeds": 4,
+    "source": "https://www.booking.com/hotel/de/torstrasse.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7"
+  },
+  "six-airbnb-588125307521181982-first": {
+    "normalBeds": 4,
+    "source": "https://www.airbnb.com/rooms/588125307521181982?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR"
+  },
+  "six-house-1641351333944417315-last": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+  },
+  "1641351333944417315": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+  },
+  "six-house-1755900699204248773-last": {
+    "normalBeds": 3,
+    "source": "https://www.airbnb.com/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+  },
+  "1452938883567081364": {
+    "normalBeds": 6,
+    "source": "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  },
+  "1755900699204248773": {
+    "normalBeds": 3,
+    "source": "https://www.airbnb.com/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
   }
 }

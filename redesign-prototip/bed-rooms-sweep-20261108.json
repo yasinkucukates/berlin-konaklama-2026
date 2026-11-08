@@ -1,0 +1,166 @@
+{
+  "45436574": {
+    "source": "https://www.airbnb.com/rooms/45436574?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 king çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "3 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
+  },
+  "yeni-kreuzberg-freiligrath": {
+    "source": "https://www.booking.com/hotel/de/im-herzen-von-kreuzberg-perfekt-gelegen-fur-bis-zu-8-personen.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "3 queen çift kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
+  },
+  "yeni-arabel-suite": {
+    "source": "https://www.booking.com/hotel/de/arabel-design-apartments.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 tek kişilik yatak, 1 king çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 king çift kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 king çift kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "2 çekyat"
+      }
+    ],
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
+  },
+  "six-airbnb-1452938883567081364-full": {
+    "source": "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak, 1 kanepe (yatak sayılmadı)"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "4 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 kanepe (yatak sayılmadı)"
+      }
+    ],
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
+  },
+  "yeni-charlottenburg-uc-odali": {
+    "source": "https://www.booking.com/hotel/de/traumhafte-wohnung-mitten-in-charlottenburg.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 king çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 king çift kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 king çift kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
+  },
+  "six-airbnb-1506711709322131491-first": {
+    "source": "https://www.airbnb.com/rooms/1506711709322131491?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 king çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 king çift kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 king çift kişilik yatak"
+      },
+      {
+        "name": "4. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      }
+    ],
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
+  },
+  "bolunmus-torstrasse": {
+    "source": "https://www.booking.com/hotel/de/torstrasse.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çekyat, 1 queen çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 queen çift kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 queen çift kişilik yatak"
+      },
+      {
+        "name": "4. Yatak Odası",
+        "beds": "1 queen çift kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
+  },
+  "six-airbnb-588125307521181982-first": {
+    "source": "https://www.airbnb.com/rooms/588125307521181982?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çift kişilik yatak, 1 tek kişilik yatak, 1 çekyat"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak, 1 tek kişilik yatak, 1 çekyat"
+      }
+    ],
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
+  }
+}

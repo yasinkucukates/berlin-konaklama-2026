@@ -30,10 +30,10 @@
     "certainty": "Airbnb oda kartları ve açıklaması 5 tek normal yatak ile 2 ayrı çekyat bildiriyor. Açıklamaya göre tek yataklar 100×200 cm, çekyatlar 110×200 cm; tek yatakların birleştirilebildiği de söyleniyor. Fotoğraflarda yatak odaları ve birleşik görünen tekler var; çekyatlar normal yatak sayısına dahil değildir. Bağlantı 7 yetişkinli önceki tekliftir."
   },
   "1519600838702010375": {
-    "summary": "İlanda 3 çift + 5 tek + 1 çekyat (odalar: 1 çift + çekyat; 1 çift + 1 tek; 1 çift; 2 tek; 2 tek).",
+    "summary": "3 çift + 5 tek kişilik yatak + 1 çekyat (2 king, 1 queen).",
     "source": "https://www.airbnb.com/rooms/1519600838702010375?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-    "normalBeds": null,
-    "certainty": "İlan oda kartları bu dağılımı bildiriyor. Fotoğraf turunda 4. ve 5. odadaki ikili tek yataklar bitişik ve ortak bazalı gibi görünüyor; gerçekten ayrılıp ayrı kullanılabildikleri fotoğraftan teyit edilemedi. Sekiz bağımsız yatak kesinleştirilmedi."
+    "normalBeds": 8,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
   },
   "1754173933020764455": {
     "summary": "İlanda 1 çift + 5 tek + 1 çekyat (odalar: 1 çift; 2 tek + çekyat; 2 tek; 1 tek).",
@@ -42,16 +42,16 @@
     "certainty": "Airbnb oda kartları 1 king ve 5 tek bildiriyor. İkinci ve üçüncü oda fotoğraflarında tekler bitişik, geniş yatak gibi duruyor; ayrı kullanıma açılabilirlik teyitsiz. Altı bağımsız normal yatak kesinleştirilmedi."
   },
   "1611035619222657901": {
-    "summary": "İlanda 7 tek yatak (odalar: 2 + 2 + 3); üçüncü odanın sayısı fotoğrafta teyitsiz.",
-    "source": "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-    "normalBeds": 6,
-    "certainty": "İlan oda kartları 2 + 2 + 3 tek diyor. Fotoğraf turunda ilk iki odada ikişer, üçüncü odanın iki görselinde yalnızca iki yatak görüldü. Üçüncü yatağın bulunması veya fotoğraf dışında olması doğrulanamadı. Fotoğraf ve oda kartlarında altı tek yatak için 2 + 2 + en az 2 alt sınırı korunur; yedinci yatak teyitsizdir."
+    "summary": "7 tek kişilik yatak.",
+    "source": "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+    "normalBeds": 7,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
   },
   "1452938883567081364": {
-    "summary": "İlanda 6 tek yatak (2 + 4); iki büyük yatağın tekli olarak ayrılarak hazırlanması teyit edilmeli.",
+    "summary": "6 tek kişilik yatak.",
     "source": "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6",
-    "normalBeds": null,
-    "certainty": "Airbnb oda kartlarında 2 + 4 tek var; ikinci odanın fotoğraf açıklaması iki büyük yatağın ayrılabildiğini söylüyor. Kaynak fotoğraflarında birleşik yatak düzeni görülüyor. Birinci uyku alanı salon ile ikinci oda arasında; bağımsız kapalı oda mahremiyeti ayrıca teyit edilmeli."
+    "normalBeds": 6,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
   },
   "1042045413385336860": {
     "summary": "1 küçük çift + 4 tek + 3 çekyat (oda 1: çift + çekyat; oda 2: 4 tek; salon: 2 çekyat).",
@@ -96,10 +96,10 @@
     "certainty": "05.11.2026 Airbnb oda kartları birinci odada dört tek, ikinci odada bir queen yatak bildiriyor. Kaynak fotoğraflarında dört ayrı tek yatak ve diğer odada bir çift yatak görünüyor. Açıklama salonda ayrıca iki kişilik uyku kanepesi olduğunu söylüyor; çekyat normal yatak sayısına dahil edilmedi."
   },
   "six-airbnb-1656340-full": {
-    "summary": "İlanda 1 çift + 5 tek yatak; üçüncü odadaki üçüncü tek fotoğrafla teyitsiz. Salonda 1 kanepe.",
-    "source": "https://www.airbnb.com/rooms/1656340",
-    "normalBeds": null,
-    "certainty": "05.11.2026 Airbnb oda kartları 1 king, 2 tek ve 3 tek bildiriyor. Üçüncü odanın birden fazla fotoğrafında iki tek yatak görünüyor; iki fotoğrafın açıklaması da bu odada iki tek yatak diyor. Üçüncü tek yatağın fotoğraf dışında olup olmadığı bilinmiyor. Salondaki kanepe oda kartında çekyat olarak tanımlanmıyor."
+    "summary": "1 çift + 5 tek kişilik yatak (1 king).",
+    "source": "https://www.airbnb.com/rooms/1656340?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 6,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
   },
   "six-airbnb-33234428-full": {
     "summary": "Oda kartlarında 3 çift yatak (2 + 1); ilanın toplamındaki dördüncü yatağın türü ve yeri belirsiz.",
@@ -114,27 +114,123 @@
     "certainty": "05.11.2026 Airbnb açıklaması ve üç oda kartı her odada bir çift bazalı yatak bildiriyor. Kaynak galerisinde farklı duvar tablolarıyla ayırt edilebilen üç çift yatak görünümü var. Salon fotoğrafındaki kanepe çekyat olarak listelenmediği için ayrıca uyku yüzeyi sayılmadı."
   },
   "six-booking-osthafen-790949501-full": {
-    "summary": "Booking beyanı: 4 tek + 1 çift ve 1 çekyat (oda 1: 2 tek + 1 çift; oda 2: 2 tek; salon: çekyat).",
-    "source": "https://www.booking.com/hotel/de/eastside34.en-gb.html#room_790949501",
-    "normalBeds": null,
-    "certainty": "05.11.2026 Booking'de seçili iki yatak odalı daire 790949501 için oda dağılımı doğrudan okundu. Tesisin oda galerisi incelendi; bazı yataklar geniş veya bitişik hazırlanmış görünüyor ve fotoğraflar dört tekin ayrı hazırlanabilirliğini kesin göstermiyor. Beş bağımsız normal yatak bu nedenle görsel olarak kesinleştirilmedi."
+    "summary": "1 çift + 4 tek kişilik yatak + 1 çekyat.",
+    "source": "https://www.booking.com/hotel/de/eastside34.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6",
+    "normalBeds": 5,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi. Booking oda adlarını ayrı göstermedi; sıra ilan özetindeki 2 yatak odası ve oturma odasına göre yazıldı."
   },
   "53802915": {
-    "summary": "3 çift yatak + 1 çekyat (odalar: 1 + 1 + 1 çift; salon: çekyat).",
-    "source": "https://www.airbnb.com/rooms/53802915",
+    "summary": "3 çift kişilik yatak + 1 çekyat (2 king, 1 queen).",
+    "source": "https://www.airbnb.com/rooms/53802915?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
     "normalBeds": 3,
-    "certainty": "05.11.2026 Airbnb oda kartları iki king ve bir queen yatak, açıklama ayrıca 160×200 cm çekyat bildiriyor. Galeride üç farklı yatak odası ve açılmış çekyat görünümü var. Bir fotoğraf açıklaması dört yatak odası dese de ilan üst bilgisi üç yatak odası, açıklama ise çekyat alanı dahil dört ayrı oda bildiriyor; dördüncü normal yatak çıkarımı yapılmadı."
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
   },
   "12048269": {
-    "summary": "İlanda 3 çift yatak; iki ek misafir için 1 kanepe belirtilmiş, çekyat niteliği teyitsiz.",
-    "source": "https://www.airbnb.com/rooms/12048269",
-    "normalBeds": null,
-    "certainty": "05.11.2026 Airbnb oda kartları üç odada birer queen bildiriyor; metin iki queen ve bir çift diyor. Kaynak planında üç yatak odası gösterilse de fotoğraflarda bütün yatak odaları güvenilir biçimde eşleştirilemiyor. Açıklama salondaki kanepeyi iki ek misafir için sunuyor; açılıp çekyata dönüşmesi açıkça doğrulanmadı."
+    "summary": "3 çift kişilik yatak + 1 çekyat (3 queen).",
+    "source": "https://www.airbnb.com/rooms/12048269?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "normalBeds": 3,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi. Not: ilan açıklaması '2 queen ve 1 double' diyor; oda kartları üç queen gösteriyor. Toplam üç çift yatak ve bir çekyat iki kaynakta da aynı."
   },
   "1150006272268927007": {
-    "summary": "2 çift + 1 tek yatak ve 1 çekyat (bir çift salonla açık alanda; diğer alanda 1 çift + 1 tek).",
-    "source": "https://www.airbnb.com/rooms/1150006272268927007",
+    "summary": "2 çift + 1 tek kişilik yatak + 1 çekyat (1 queen).",
+    "source": "https://www.airbnb.com/rooms/1150006272268927007?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
     "normalBeds": 3,
-    "certainty": "05.11.2026 Airbnb oda kartları bir queen, bir çift, bir tek ve salonda bir çekyat bildiriyor. Kaynak fotoğrafları bir çift yatağın salon ve mutfakla açık bağlantılı alanda, diğer çift ile tekin farklı alanda olduğunu gösteriyor. Açıklama da queen yatağı salonda konumluyor; ilk alanı bağımsız kapalı yatak odası saymayın. Çekyatın açık hâli ve iki yetişkin için ölçüsü fotoğraftan teyit edilmedi."
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "grand-central-upper": {
+    "summary": "3 çift + 2 tek kişilik yatak + 1 çekyat (3 queen).",
+    "source": "https://www.booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7",
+    "normalBeds": 5,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "1552331405600484908": {
+    "summary": "5 çift kişilik yatak + 2 çekyat (3 queen).",
+    "source": "https://www.airbnb.com/rooms/1552331405600484908?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "normalBeds": 5,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "45436574": {
+    "summary": "1 çift + 3 tek kişilik yatak + 1 çekyat (1 king).",
+    "source": "https://www.airbnb.com/rooms/45436574?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "normalBeds": 4,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "yeni-kreuzberg-freiligrath": {
+    "summary": "3 çift kişilik yatak + 1 çekyat (3 queen).",
+    "source": "https://www.booking.com/hotel/de/im-herzen-von-kreuzberg-perfekt-gelegen-fur-bis-zu-8-personen.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7",
+    "normalBeds": 3,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "yeni-arabel-suite": {
+    "summary": "3 çift + 1 tek kişilik yatak + 2 çekyat (3 king).",
+    "source": "https://www.booking.com/hotel/de/arabel-design-apartments.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7",
+    "normalBeds": 4,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "six-airbnb-1452938883567081364-full": {
+    "summary": "6 tek kişilik yatak.",
+    "source": "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+    "normalBeds": 6,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "yeni-charlottenburg-uc-odali": {
+    "summary": "3 çift kişilik yatak + 1 çekyat (3 king).",
+    "source": "https://www.booking.com/hotel/de/traumhafte-wohnung-mitten-in-charlottenburg.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7",
+    "normalBeds": 3,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "1468719376516749093": {
+    "summary": "3 çift + 1 tek kişilik yatak + 1 çekyat (2 king, 1 queen).",
+    "source": "https://www.airbnb.com/rooms/1468719376516749093?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "normalBeds": 4,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "six-house-1468719376516749093-last": {
+    "summary": "3 çift + 1 tek kişilik yatak + 1 çekyat (2 king, 1 queen).",
+    "source": "https://www.airbnb.com/rooms/1468719376516749093?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+    "normalBeds": 4,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "six-airbnb-1506711709322131491-first": {
+    "summary": "4 çift kişilik yatak (3 king).",
+    "source": "https://www.airbnb.com/rooms/1506711709322131491?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR",
+    "normalBeds": 4,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "bolunmus-torstrasse": {
+    "summary": "4 çift kişilik yatak + 2 çekyat (4 queen).",
+    "source": "https://www.booking.com/hotel/de/torstrasse.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7",
+    "normalBeds": 4,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "six-airbnb-588125307521181982-first": {
+    "summary": "2 çift + 2 tek kişilik yatak + 2 çekyat.",
+    "source": "https://www.airbnb.com/rooms/588125307521181982?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR",
+    "normalBeds": 4,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "six-house-1641351333944417315-last": {
+    "summary": "3 çift + 2 tek kişilik yatak (1 king, 1 queen).",
+    "source": "https://www.airbnb.com/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+    "normalBeds": 5,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "1641351333944417315": {
+    "summary": "3 çift + 2 tek kişilik yatak (1 king, 1 queen).",
+    "source": "https://www.airbnb.com/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+    "normalBeds": 5,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "six-house-1755900699204248773-last": {
+    "summary": "1 çift + 2 tek kişilik yatak + 1 çekyat (1 king).",
+    "source": "https://www.airbnb.com/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+    "normalBeds": 3,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "1755900699204248773": {
+    "summary": "1 çift + 2 tek kişilik yatak + 1 çekyat (1 king).",
+    "source": "https://www.airbnb.com/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+    "normalBeds": 3,
+    "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
   }
 }

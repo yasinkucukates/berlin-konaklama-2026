@@ -72,35 +72,35 @@
     "status": "fotoğraflı"
   },
   "1552331405600484908": {
-    "source": "https://www.airbnb.com/rooms/1552331405600484908",
+    "source": "https://www.airbnb.com/rooms/1552331405600484908?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
     "rooms": [
       {
-        "name": "1. Uyku Alanı",
-        "beds": "1 çift kişilik katlanır yatak; 1. salon kartıyla aynı yatak olabilir"
+        "name": "1. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
       },
       {
-        "name": "2. Uyku Alanı",
+        "name": "2. Yatak Odası",
         "beds": "1 queen çift kişilik yatak"
       },
       {
-        "name": "3. Uyku Alanı",
+        "name": "3. Yatak Odası",
         "beds": "1 queen çift kişilik yatak"
       },
       {
-        "name": "4. Uyku Alanı",
+        "name": "4. Yatak Odası",
         "beds": "1 queen çift kişilik yatak"
       },
       {
-        "name": "1. Salon",
-        "beds": "1 çift kişilik yatak ve 1 çekyat; çift yatak 1. uyku alanı ile aynı olabilir"
+        "name": "Oturma Odası 1",
+        "beds": "1 çift kişilik yatak, 1 çekyat"
       },
       {
-        "name": "2. Salon",
+        "name": "Oturma Odası 2",
         "beds": "1 çekyat"
       }
     ],
-    "note": "Airbnb oda kartları ve yatak, niş, katlanır yatak ile çekyat fotoğrafları incelendi. Açıklama iki komşu dairede toplam 4 çift yatak ve 2 çekyat diyor; oda kartlarında 1. uyku alanı ve 1. salondaki çift yatağın iki kez listelenmiş olması mümkün. Beş ayrı çift yatak olduğu sonucuna varılmamalı. Bazı alanlar kapılı veya sürgülü uyku nişidir.",
-    "status": "belirsiz"
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
   },
   "873230612368758488": {
     "source": "https://www.airbnb.com/rooms/873230612368758488",
@@ -153,23 +153,23 @@
     "status": "fotoğraflı"
   },
   "grand-central-upper": {
-    "source": "https://www.booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1",
+    "source": "https://www.booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7",
     "rooms": [
       {
-        "name": "1. Yatak Odası (sıra teyitsiz)",
-        "beds": "Üst katı listeleyen diğer kaynağa göre 1 büyük çift kişilik yatak ve 1 çekyat"
+        "name": "1. Yatak Odası",
+        "beds": "1 tek kişilik yatak, 1 queen çift kişilik yatak"
       },
       {
-        "name": "2. Yatak Odası (sıra teyitsiz)",
-        "beds": "Üst katı listeleyen diğer kaynağa göre 1 büyük çift kişilik ve 1 tek kişilik yatak"
+        "name": "2. Yatak Odası",
+        "beds": "1 tek kişilik yatak, 1 queen çift kişilik yatak"
       },
       {
-        "name": "3. Yatak Odası (sıra teyitsiz)",
-        "beds": "Üst katı listeleyen diğer kaynağa göre 1 büyük çift kişilik ve 1 tek kişilik yatak"
+        "name": "3. Yatak Odası",
+        "beds": "1 çekyat, 1 queen çift kişilik yatak"
       }
     ],
-    "note": "135 m² üst kat birimini listeleyen https://www.berlin-hotel.pl/grand-central-city-apartments/bcuhlt/en/ bu sırayı veriyor. Önceki Booking proje kaydı ise 1 ve 2. odalarda tek + çift, 3. odada çift + çekyat gösteriyor. Toplam yatak türleri aynı, oda sırası çelişkili. İki oda fotoğrafı incelendi; üçüncü oda ve numaralar fotoğraftan doğrulanamadı. Booking sayfası bu kontrolde açılamadı.",
-    "status": "belirsiz"
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
   },
   "danziger-loft": {
     "source": "https://www.booking.com/hotel/de/greatstay-apartment-danzigerstr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1",

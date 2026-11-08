@@ -35,7 +35,7 @@ BED_AUDIT = HERE / 'bed-audit.json'
 BED_BREAKDOWNS = HERE / 'bed-breakdowns.json'
 BED_ROOM_FILES = (HERE / 'bed-rooms.json', HERE / 'bed-rooms-extra-houses.json',
                   HERE / 'bed-rooms-extra-apts.json', HERE / 'bed-rooms-sweep-20261106.json',
-                  HERE / 'bed-rooms-sweep-20261107.json')
+                  HERE / 'bed-rooms-sweep-20261107.json', HERE / 'bed-rooms-sweep-20261108.json')
 # English/German room and bed words copied from listing pages (7 Nov sweep).
 FOREIGN_BED_TEXT = re.compile(r'\b(?:bed|beds|bedroom|living room|sofa bed|bunk|couch|couches|crib|mattress|mattresses|single|double'
                               r'|Bett|Betten|Einzelbett\w*|Doppelbett\w*|Schlafzimmer|Wohnzimmer|Queensize|Schlafsofa)\b', re.I)

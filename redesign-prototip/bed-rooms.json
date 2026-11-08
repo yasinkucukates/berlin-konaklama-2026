@@ -107,15 +107,15 @@
     "rooms": [
       {
         "name": "1. Yatak Odası",
-        "beds": "1 çift kişilik yatak, 1 çekyat"
+        "beds": "1 king çift kişilik yatak, 1 çekyat"
       },
       {
         "name": "2. Yatak Odası",
-        "beds": "1 çift kişilik yatak, 1 tek kişilik yatak"
+        "beds": "1 king çift kişilik yatak, 1 tek kişilik yatak"
       },
       {
         "name": "3. Yatak Odası",
-        "beds": "1 çift kişilik yatak"
+        "beds": "1 queen çift kişilik yatak"
       },
       {
         "name": "4. Yatak Odası",
@@ -126,8 +126,8 @@
         "beds": "2 tek kişilik yatak"
       }
     ],
-    "note": "Dağılım ilan oda kartlarına göre. 4. ve 5. odada teklerin ayrı kullanılabilirliği fotoğraflardan teyit edilemedi.",
-    "status": "belirsiz"
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
   },
   "1754173933020764455": {
     "source": "https://www.airbnb.com/rooms/1754173933020764455?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
@@ -153,7 +153,7 @@
     "status": "belirsiz"
   },
   "1611035619222657901": {
-    "source": "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "source": "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
     "rooms": [
       {
         "name": "1. Yatak Odası",
@@ -165,26 +165,30 @@
       },
       {
         "name": "3. Yatak Odası",
-        "beds": "En az 2 tek kişilik yatak; ilanda 3 tek yatak"
+        "beds": "3 tek kişilik yatak"
       }
     ],
-    "note": "Üçüncü odanın incelenen iki fotoğrafında yalnızca 2 yatak görülüyor; üçüncü yatağın varlığı veya fotoğraf dışında kalıp kalmadığı doğrulanmadı.",
-    "status": "belirsiz"
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
   },
   "1452938883567081364": {
     "source": "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6",
     "rooms": [
       {
         "name": "1. Yatak Odası",
-        "beds": "2 tek kişilik yatak, 1 kanepe, 1 bebek karyolası"
+        "beds": "2 tek kişilik yatak, 1 kanepe (yatak sayılmadı)"
       },
       {
         "name": "2. Yatak Odası",
-        "beds": "4 tek kişilik yatak, 1 bebek karyolası"
+        "beds": "4 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 kanepe (yatak sayılmadı)"
       }
     ],
-    "note": "İkinci odada iki büyük yatağın tekli olarak ayrılması ilanda belirtiliyor ancak ayrıca teyit edilmeli. İlk alan salon ile ikinci oda arasında; kapalı oda mahremiyeti teyitsiz. Kanepe çekyat olarak belirtilmiyor.",
-    "status": "belirsiz"
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
   },
   "1042045413385336860": {
     "source": "https://www.airbnb.com.tr/rooms/1042045413385336860?check_in=2026-12-30&check_out=2027-01-03&adults=6",
@@ -332,11 +336,11 @@
     "status": "ilan"
   },
   "six-airbnb-1656340-full": {
-    "source": "https://www.airbnb.com/rooms/1656340",
+    "source": "https://www.airbnb.com/rooms/1656340?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
     "rooms": [
       {
         "name": "1. Yatak Odası",
-        "beds": "1 çift kişilik yatak"
+        "beds": "1 king çift kişilik yatak"
       },
       {
         "name": "2. Yatak Odası",
@@ -344,15 +348,15 @@
       },
       {
         "name": "3. Yatak Odası",
-        "beds": "En az 2 tek kişilik yatak; ilanda 3 tek yatak"
+        "beds": "3 tek kişilik yatak"
       },
       {
-        "name": "Salon",
-        "beds": "1 kanepe"
+        "name": "Oturma Odası",
+        "beds": "1 kanepe (yatak sayılmadı)"
       }
     ],
-    "note": "Üçüncü oda kartı 3 tek yatak, fotoğraf açıklamaları ise 2 tek yatak diyor; üçüncü yatak teyitsiz. Salon kanepesi çekyat olarak tanımlanmıyor.",
-    "status": "belirsiz"
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
   },
   "six-airbnb-33234428-full": {
     "source": "https://www.airbnb.com/rooms/33234428",
@@ -393,7 +397,7 @@
     "status": "fotoğraflı"
   },
   "six-booking-osthafen-790949501-full": {
-    "source": "https://www.booking.com/hotel/de/eastside34.en-gb.html#room_790949501",
+    "source": "https://www.booking.com/hotel/de/eastside34.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6",
     "rooms": [
       {
         "name": "1. Yatak Odası",
@@ -404,76 +408,76 @@
         "beds": "2 tek kişilik yatak"
       },
       {
-        "name": "Salon",
+        "name": "Oturma Odası",
         "beds": "1 çekyat"
       }
     ],
-    "note": "Booking 790949501 numaralı dairenin oda beyanı. Fotoğraflar dört tek yatağın ayrı hazırlanabilirliğini kesin göstermiyor.",
-    "status": "belirsiz"
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi. Booking oda adlarını ayrı göstermedi; sıra ilan özetindeki 2 yatak odası ve oturma odasına göre yazıldı.",
+    "status": "ilan"
   },
   "53802915": {
-    "source": "https://www.airbnb.com/rooms/53802915",
+    "source": "https://www.airbnb.com/rooms/53802915?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
     "rooms": [
       {
         "name": "1. Yatak Odası",
-        "beds": "1 çift kişilik yatak"
+        "beds": "1 king çift kişilik yatak"
       },
       {
         "name": "2. Yatak Odası",
-        "beds": "1 çift kişilik yatak"
+        "beds": "1 king çift kişilik yatak"
       },
       {
         "name": "3. Yatak Odası",
-        "beds": "1 çift kişilik yatak"
+        "beds": "1 queen çift kişilik yatak"
       },
       {
-        "name": "Salon / dördüncü uyku alanı",
+        "name": "Oturma Odası",
         "beds": "1 çekyat"
       }
     ],
-    "note": "İlan 3 yatak odası ve ayrı bir çekyat alanı bildiriyor. Bir fotoğraf açıklamasında 4 yatak odası yazıyor; dördüncü normal yatak teyitli değil.",
-    "status": "belirsiz"
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
   },
   "12048269": {
-    "source": "https://www.airbnb.com/rooms/12048269",
+    "source": "https://www.airbnb.com/rooms/12048269?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
     "rooms": [
       {
         "name": "1. Yatak Odası",
-        "beds": "1 çift kişilik yatak"
+        "beds": "1 queen çift kişilik yatak"
       },
       {
         "name": "2. Yatak Odası",
-        "beds": "1 çift kişilik yatak"
+        "beds": "1 queen çift kişilik yatak"
       },
       {
         "name": "3. Yatak Odası",
-        "beds": "1 çift kişilik yatak"
+        "beds": "1 queen çift kişilik yatak"
       },
       {
-        "name": "Salon",
-        "beds": "1 kanepe"
+        "name": "Oturma Odası",
+        "beds": "1 çekyat"
       }
     ],
-    "note": "Kanepe iki ek misafir için belirtiliyor; çekyat olarak açıldığı teyit edilmedi. Fotoğraflarda bütün yatak odaları güvenilir biçimde eşleştirilemedi.",
-    "status": "belirsiz"
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi. Not: ilan açıklaması '2 queen ve 1 double' diyor; oda kartları üç queen gösteriyor. Toplam üç çift yatak ve bir çekyat iki kaynakta da aynı.",
+    "status": "ilan"
   },
   "1150006272268927007": {
-    "source": "https://www.airbnb.com/rooms/1150006272268927007",
+    "source": "https://www.airbnb.com/rooms/1150006272268927007?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
     "rooms": [
       {
-        "name": "1. Yatak Odası (salona açık)",
-        "beds": "1 çift kişilik yatak"
+        "name": "1. Yatak Odası",
+        "beds": "1 queen çift kişilik yatak"
       },
       {
         "name": "2. Yatak Odası",
         "beds": "1 çift kişilik yatak, 1 tek kişilik yatak"
       },
       {
-        "name": "Salon",
+        "name": "Oturma Odası",
         "beds": "1 çekyat"
       }
     ],
-    "note": "Birinci yatak salon ve mutfakla açık bağlantılı alanda; bağımsız kapalı oda olarak değerlendirilmemeli. Çekyatın açık hâli ve ölçüsü teyitsiz.",
-    "status": "belirsiz"
+    "note": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi.",
+    "status": "ilan"
   }
 }
