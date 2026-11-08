@@ -14,7 +14,12 @@
       "displayPrice": "Airbnb 1.927 €; vergi ve ek ücret kapsamı teyitsiz",
       "maxGuests": 6,
       "capacityEvidence": "Yedi yetişkin seçildiğinde ilan en fazla altı misafir kabul ettiğini gösteriyor.",
-      "capacitySourceUrl": "https://www.airbnb.com/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR"
+      "capacitySourceUrl": "https://www.airbnb.com/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-08T07:10:57.000Z",
+        "reason": "8 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
+      }
     },
     {
       "scope": "card",
@@ -53,7 +58,12 @@
       "checkedAt": "2026-11-07T10:09:00+03:00",
       "sourceUrl": "https://www.airbnb.com/rooms/1389128667463860564?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
       "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 7 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 3000 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 3.000 €; vergi ve ek ücret kapsamı teyitsiz"
+      "displayPrice": "Airbnb 3.000 €; vergi ve ek ücret kapsamı teyitsiz",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-08T07:10:57.000Z",
+        "reason": "8 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
+      }
     },
     {
       "scope": "card",
@@ -263,7 +273,12 @@
       "displayPrice": "Vrbo 1.603 €; vergi ve ücretler dahil, depozito ayrı",
       "maxGuests": 6,
       "capacityEvidence": "Vrbo, yedi misafirin konaklama kapasitesini aştığını açıkça gösteriyor.",
-      "capacitySourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2027-01-01&endDate=2027-01-03&adults=7"
+      "capacitySourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2027-01-01&endDate=2027-01-03&adults=7",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-08T07:10:57.000Z",
+        "reason": "8 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
+      }
     },
     {
       "scope": "offer",
@@ -275,7 +290,12 @@
       "checkedAt": "2026-11-07T10:09:00+03:00",
       "sourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2027-01-01&endDate=2027-01-03&adults=6",
       "evidence": "Vrbo seçili 2027-01-01–2027-01-03 ve 6 yetişkin için tarihlerin müsait olduğunu, vergi ve ücretler dahil 1603 € gösterdi. 300 € depozito ayrıca belirtiliyor. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Vrbo 1.603 €; vergi ve ücretler dahil, depozito ayrı"
+      "displayPrice": "Vrbo 1.603 €; vergi ve ücretler dahil, depozito ayrı",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-08T07:10:57.000Z",
+        "reason": "8 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
+      }
     },
     {
       "scope": "card",
@@ -302,7 +322,12 @@
       "displayPrice": "Booking ≈ 136.787 TL; görünen vergi ve ücretler dahil",
       "maxGuests": 7,
       "capacityEvidence": "Booking seçili 70 m² birimde azami kişi sayısını 7 gösterdi. 2 odada üçer tek yatak ve oturma odasında bir çekyat listeleniyor.",
-      "capacitySourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1#room_1270649713"
+      "capacitySourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1#room_1270649713",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-08T07:10:57.000Z",
+        "reason": "8 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
+      }
     },
     {
       "scope": "card",
@@ -423,6 +448,30 @@
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1#room_1557174404",
       "evidence": "Booking birim 1557174404 için 6 yetişkin seçiliyken oda teklifi ve vergilerle yaklaşık 70719 TL gösterdi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
       "displayPrice": "Booking ≈ 70.719 TL; görünen vergi ve ücretler dahil"
+    },
+    {
+      "scope": "card",
+      "id": "12048269",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-08T06:56:20Z",
+      "sourceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-çatı-katı-torstr-3-yatak-odası-2-banyo-150-m2-4-8-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44145350%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6",
+      "evidence": "8 Kasım 09.56–09.58 İstanbul saatleri arasında Trivago, seçili tarih ve 6 yetişkin için başlığı, 150 m², üç oda ve iki banyosu Airbnb 12048269 ile eşleşen ilanda Airbnb teklifini 2.839 € gösterdi. Airbnb rezervasyon ekranına doğrudan erişilemedi; vergi ve son ödeme koşulları teyitsiz.",
+      "displayPrice": "Trivago · Airbnb 2.839 €; vergi ve ek ücret kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "12048269",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-08T06:56:20Z",
+      "sourceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-çatı-katı-torstr-3-yatak-odası-2-banyo-150-m2-4-8-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44145350%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-7",
+      "evidence": "8 Kasım 09.56–09.58 İstanbul saatleri arasında Trivago, seçili tarih ve 7 yetişkin için başlığı, 150 m², üç oda ve iki banyosu Airbnb 12048269 ile eşleşen ilanda Airbnb teklifini 2.995 € gösterdi. Airbnb rezervasyon ekranına doğrudan erişilemedi; vergi ve son ödeme koşulları teyitsiz.",
+      "displayPrice": "Trivago · Airbnb 2.995 €; vergi ve ek ücret kapsamı teyitsiz"
     }
   ]
 }
