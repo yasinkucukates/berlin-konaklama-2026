@@ -17,8 +17,8 @@
       "capacitySourceUrl": "https://www.airbnb.com/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-08T07:10:57.000Z",
-        "reason": "8 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
+        "at": "2026-11-09T07:09:12Z",
+        "reason": "9 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
       }
     },
     {
@@ -61,8 +61,8 @@
       "displayPrice": "Airbnb 3.000 €; vergi ve ek ücret kapsamı teyitsiz",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-08T07:10:57.000Z",
-        "reason": "8 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
+        "at": "2026-11-09T07:09:12Z",
+        "reason": "9 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
       }
     },
     {
@@ -276,8 +276,8 @@
       "capacitySourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2027-01-01&endDate=2027-01-03&adults=7",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-08T07:10:57.000Z",
-        "reason": "8 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
+        "at": "2026-11-09T07:09:12Z",
+        "reason": "9 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
       }
     },
     {
@@ -293,8 +293,8 @@
       "displayPrice": "Vrbo 1.603 €; vergi ve ücretler dahil, depozito ayrı",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-08T07:10:57.000Z",
-        "reason": "8 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
+        "at": "2026-11-09T07:09:12Z",
+        "reason": "9 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
       }
     },
     {
@@ -325,8 +325,8 @@
       "capacitySourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1#room_1270649713",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-08T07:10:57.000Z",
-        "reason": "8 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
+        "at": "2026-11-09T07:09:12Z",
+        "reason": "9 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
       }
     },
     {
@@ -472,6 +472,58 @@
       "sourceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-çatı-katı-torstr-3-yatak-odası-2-banyo-150-m2-4-8-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44145350%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-7",
       "evidence": "8 Kasım 09.56–09.58 İstanbul saatleri arasında Trivago, seçili tarih ve 7 yetişkin için başlığı, 150 m², üç oda ve iki banyosu Airbnb 12048269 ile eşleşen ilanda Airbnb teklifini 2.995 € gösterdi. Airbnb rezervasyon ekranına doğrudan erişilemedi; vergi ve son ödeme koşulları teyitsiz.",
       "displayPrice": "Trivago · Airbnb 2.995 €; vergi ve ek ücret kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "1216757408450098435",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-09T07:09:12Z",
+      "sourceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-gruplar-için-balkonlu-geniş-5-yatak-odalı-daire-berlin?cip=234716015&currencyCode=EUR&search=100-44123842%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=V11RjcYzYcNGpKBOmIp5sQ2DLM5SkqKnho5HUzha3I6Z%2FbAhrJ54LfJFEokTLbgnnI72YvSEdeYXobcBTVLjtiDbyssmzXMiVyksCFsDD%2BH%2BL%2BKK%2Fhytffn18fA08wATtgmdg8dTBrnhkvlHuBmMauxxXptvfgGZHi0PRgQLBrZxk87V1fhpV%2BY%3D&cdsOrigin=DEAL_ON_DEALFINDER",
+      "evidence": "9 Kasım kontrolünde Trivago, başlığı ve konumu Airbnb 1216757408450098435 ile eşleşen ilanda 6 yetişkin ve seçili tarihler için Airbnb üzerinden 1.883 € teklif gösterdi. Doğrudan rezervasyon ekranı ve vergi kapsamı teyit edilemedi.",
+      "displayPrice": "Trivago · Airbnb 1.883 €; vergi ve ek ücretler teyitsiz"
+    },
+    {
+      "scope": "offer",
+      "id": "airbnb-45962465",
+      "parentCardId": "danziger-loft",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-09T07:09:12Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/45962465?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidenceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-thedanziger-2-yatak-odası-120-m-büyük-oturma-odası-4-7-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44006614%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=xAQud3NntB0VDiDCsfHI4wEoznEn0Eo88TPmXZ9wRiDQ0pBqxjgFGCyS4i6iedqbvtV9oFA2dvVF77DmpYyNMZj2qcNC1jFNfVuOySBZVeftDGoPtBR5SZS5XYCecoFxmjR2LQFG4fgpRWexEqJhrPW034wO3yM9KcwHnEBQsAmNtHXVzpLNCfc%3D&cdsOrigin=DEAL_ON_DEALFINDER",
+      "evidence": "9 Kasım kontrolünde Trivago, The Danziger için 6 yetişkin ve seçili tarihlerde Airbnb üzerinden 2.536 € teklif gösterdi. Airbnb ilanındaki 120 m², iki oda, üç çift kişilik yatak ve çekyat mevcut karttaki birimle eşleşiyor. Doğrudan rezervasyon ekranı ve vergi kapsamı teyit edilemedi.",
+      "displayPrice": "Trivago · Airbnb 2.536 €; vergi ve ek ücretler teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "1216757408450098435",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-09T07:09:12Z",
+      "sourceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-gruplar-için-balkonlu-geniş-5-yatak-odalı-daire-berlin?cip=234716015&currencyCode=EUR&search=100-44123842%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-7&cds=tqZrdN1YzlK4MYTxOdPgGBI897CWEcqiBzBDe%2FKaIU5tyPYLjeZioHIyRLGbblo0n2AT1t2Vq0E3wYSSVn6qQ2Fbbr8u3ngAW0H2hACioh7QJB822reDhXUi%2Bh%2Bs8DLYn0NJ%2BfEqlIPEdSSj81vnydj4fBFYZ3SehNRWobM%2Bn7KDB%2B0tfNQD&cdsOrigin=DEAL_ON_DEALFINDER",
+      "evidence": "9 Kasım kontrolünde Trivago, başlığı ve konumu Airbnb 1216757408450098435 ile eşleşen ilanda 7 yetişkin ve seçili tarihler için Airbnb üzerinden 1.935 € teklif gösterdi. Doğrudan rezervasyon ekranı ve vergi kapsamı teyit edilemedi.",
+      "displayPrice": "Trivago · Airbnb 1.935 €; vergi ve ek ücretler teyitsiz"
+    },
+    {
+      "scope": "offer",
+      "id": "airbnb-45962465",
+      "parentCardId": "danziger-loft",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-09T07:09:12Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/45962465?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidenceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-thedanziger-2-yatak-odası-120-m-büyük-oturma-odası-4-7-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44006614%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-7&cds=D9jaQ%2FS8VBMn9fJ1x5Ob%2FG%2B4SfgwebYctYjesUR2SgiDpswSva1z%2FkXQ7qxPwEF1N%2B8qCoUdgb%2BMVAuq5ZGRh0jSH76psZwnkTrVgrIUEd7Gew4qc%2FEPln9U6hKb9Qb4SkBlR5BQF7fDe%2BcLDMEn70mMS%2FaJ%2FwdTvqM2bBadzP1T02nS6%2BjcPQ%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER",
+      "evidence": "9 Kasım kontrolünde Trivago, The Danziger için 7 yetişkin ve seçili tarihlerde Airbnb üzerinden 2.668 € teklif gösterdi. Airbnb ilanındaki 120 m², iki oda, üç çift kişilik yatak ve çekyat mevcut karttaki birimle eşleşiyor. Doğrudan rezervasyon ekranı ve vergi kapsamı teyit edilemedi.",
+      "displayPrice": "Trivago · Airbnb 2.668 €; vergi ve ek ücretler teyitsiz"
     }
   ]
 }
