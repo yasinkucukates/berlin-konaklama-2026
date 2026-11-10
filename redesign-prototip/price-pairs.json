@@ -1138,6 +1138,40 @@
       "depositText": null,
       "sourceFile": "bolunmus-villa-yerel.json",
       "sourceUrl": "https://www.holidu.de/d/65364918?checkin=2027-01-01&checkout=2027-01-03&adults=7"
+    },
+    {
+      "id": "35666163",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "numericTry": null,
+      "numericEur": 1131,
+      "numericUsd": null,
+      "taxStatus": "unknown",
+      "priceConfidence": "search",
+      "sourcePriceText": "1.131 €",
+      "sourcePriceStatus": "Dört gece; vergi kapsamı teyit edilmeli",
+      "sourcePriceNote": "25 Aralık öncesi ücretsiz iptal.",
+      "depositText": null,
+      "sourceFile": "galeri-sweep-20261110.json",
+      "sourceUrl": "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR"
+    },
+    {
+      "id": "1740651283805171847",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "numericTry": null,
+      "numericEur": 2191,
+      "numericUsd": null,
+      "taxStatus": "unknown",
+      "priceConfidence": "search",
+      "sourcePriceText": "2.191 €",
+      "sourcePriceStatus": "Dört gece; vergi kapsamı teyit edilmeli",
+      "sourcePriceNote": "30 Kasım öncesi ücretsiz iptal.",
+      "depositText": null,
+      "sourceFile": "galeri-sweep-20261110.json",
+      "sourceUrl": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR"
     }
   ],
   "pairs": [

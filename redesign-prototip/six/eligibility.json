@@ -1114,6 +1114,32 @@
       "source": "https://www.holidu.de/d/69492292?checkin=2026-12-30&checkout=2027-01-03&adults=6",
       "maxAdults": 9,
       "ui7Eligible": null
+    },
+    {
+      "id": "35666163",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "eligible": true,
+      "privacy": "entire_private",
+      "category": "apartment",
+      "group": "recommended",
+      "reason": "Airbnb dairenin tamamını ve içindeki özel banyoları bildiriyor.",
+      "source": "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "maxAdults": 8,
+      "ui7Eligible": true
+    },
+    {
+      "id": "1740651283805171847",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "eligible": true,
+      "privacy": "entire_private",
+      "category": "apartment",
+      "group": "recommended",
+      "reason": "Airbnb dairenin tamamını ve içindeki özel banyoları bildiriyor.",
+      "source": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "maxAdults": 8,
+      "ui7Eligible": true
     }
   ],
   "validation": {

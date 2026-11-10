@@ -51,15 +51,9 @@
       .map(entry => !('lastAvailableAt' in entry) || (entry.status === 'unavailable' && isTime(entry.lastAvailableAt) &&
         Date.parse(entry.lastAvailableAt) <= Date.parse(entry.checkedAt)) ? entry : {...entry, lastAvailableAt: undefined});
   };
-  // Whole homes are rented as a unit (7 Kasım kullanıcı kararı): a dated result
-  // for 6 or 7 people applies to the other count too. The one exception is a
-  // seven-person "unavailable", which can mean only that 7 exceeds capacity.
-  const partyRecord = (records, match, party) => {
-    const own = records.find(entry => match(entry) && entry.adults === party);
-    if (own) return own;
-    const other = records.find(entry => match(entry) && entry.adults !== party);
-    return other && !(party === 6 && other.status === 'unavailable') ? other : undefined;
-  };
+  // A dated result is evidence only for the number of adults actually checked.
+  const partyRecord = (records, match, party) =>
+    records.find(entry => match(entry) && entry.adults === party);
   let embeddedAvailability = [];
   try { embeddedAvailability = usableAvailability(JSON.parse(availabilityNode?.textContent || '{}')) || []; } catch (_) {}
   const loadLiveAvailability = () => {

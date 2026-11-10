@@ -1017,6 +1017,26 @@
       "accuracy": "approximate",
       "source": "https://www.google.com/maps/dir/52.448185%2C13.343799/Tresor,+K%C3%B6penicker+Str.+70,+10179+Berlin/data=!3e0",
       "note": "Holidu konumu; Steglitz VI ile aynı nokta (aynı bina)"
+    },
+    {
+      "id": "35666163",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5193048,
+      "lon": 13.5260114,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "note": "İlan adresine dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "1740651283805171847",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4998869,
+      "lon": 13.3203317,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "note": "İlan adresine dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
     }
   ]
 }

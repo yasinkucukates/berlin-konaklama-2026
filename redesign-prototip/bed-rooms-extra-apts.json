@@ -189,5 +189,47 @@
     ],
     "note": "110 m² birim için Booking arama kaydı ve https://www.agoda.com/greatstay-apartment-danzigerstr/hotel/berlin-de.html üç çift yatak ve bir çekyat listeliyor. Booking üç yatak odası diyor; işletmeci açıklaması iki ayrı yatak odası ve yataklı salon bildiriyor. Görülen fotoğraflar salon ve bir yatak odasını gösteriyor; çekyatın hangi alanda olduğu ile diğer oda sırası bağımsız doğrulanmadı. Uyku grupları ayrı oda sayısı olarak alınmamalı. Booking sayfası bu kontrolde doğrulama engeline takıldı.",
     "status": "belirsiz"
+  },
+  "35666163": {
+    "source": "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 tek kişilik yatak ve 1 ranza (2 ayrı yatış yeri)"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "Airbnb oda kartları ve fotoğraf turundaki oda etiketleri incelendi.",
+    "status": "fotoğraflı"
+  },
+  "1740651283805171847": {
+    "source": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 king çift kişilik yatak ve 1 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 king çift kişilik yatak ve 1 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 king çift kişilik yatak"
+      }
+    ],
+    "note": "Airbnb oda kartları ve fotoğraf turundaki oda etiketleri incelendi.",
+    "status": "fotoğraflı"
   }
 }

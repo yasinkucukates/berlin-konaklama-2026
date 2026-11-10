@@ -720,6 +720,30 @@
       "tresorTransitMin": null,
       "routeQuality": "Ulaşım doğrulanmadı",
       "notes": "Kaynak: bolunmus-villa-yerel.json. Kaynak ulaşım metni: İlan tam adresi göstermiyor; ev sahibi Berlin için yaklaşık 2,5 saat diyor. RSO ve Tresor için ayrı rota hesaplanmadı. Kaynak alanlar | RSO araç: Doğrulanmadı | Tresor araç: Doğrulanmadı | RSO toplu: Doğrulanmadı | Tresor toplu: Doğrulanmadı."
+    },
+    {
+      "id": "35666163",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "rsoCarMin": 16,
+      "tresorCarMin": 16,
+      "tresorRangeUpperMin": null,
+      "rsoTransitMin": null,
+      "tresorTransitMin": null,
+      "routeQuality": "OSRM trafiksiz araç hesabı",
+      "notes": "İlan adresinden OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.5260114,52.5193048;13.3203317,52.4998869;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1&destinations=2;3&annotations=duration,distance"
+    },
+    {
+      "id": "1740651283805171847",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "rsoCarMin": 22,
+      "tresorCarMin": 14,
+      "tresorRangeUpperMin": null,
+      "rsoTransitMin": null,
+      "tresorTransitMin": null,
+      "routeQuality": "OSRM trafiksiz araç hesabı",
+      "notes": "İlan adresinden OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.5260114,52.5193048;13.3203317,52.4998869;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1&destinations=2;3&annotations=duration,distance"
     }
   ]
 }
