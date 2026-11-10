@@ -384,6 +384,7 @@
   const travelFilter = root.querySelector('.filter-travel');
   const bedsFilter = root.querySelector('.filter-beds');
   const roomsFilter = root.querySelector('.filter-rooms');
+  const availabilityFilter = root.querySelector('.filter-availability');
   const filterPanel = root.querySelector('.filter-panel');
   const mobileFilterButton = root.querySelector('.mobile-filter-toggle');
   const filterResults = root.querySelector('.filter-results');
@@ -394,8 +395,16 @@
     availabilitySummary.className = 'availability-summary';
     availabilitySummary.setAttribute('role', 'status');
     availabilitySummary.hidden = true;
-    availabilitySummary.innerHTML = '<b class="sum-date"></b><span class="sum-ok"></span><span class="sum-no"></span><span class="sum-rest"></span>';
+    availabilitySummary.innerHTML = '<b class="sum-date"></b><button type="button" class="sum-ok" data-choice="available" aria-pressed="false"></button><button type="button" class="sum-no" data-choice="unavailable" aria-pressed="false"></button><button type="button" class="sum-missed" data-choice="missed" aria-pressed="false" title="Önce müsait görünüp sonraki kontrolde kapanan ilanlar"></button><span class="sum-rest"></span>';
     resultsContent.prepend(availabilitySummary);
+    // Each count opens that group at once; pressing it again shows all again.
+    availabilitySummary.addEventListener('click', event => {
+      const button = event.target.closest('button[data-choice]');
+      const select = root.querySelector('.filter-availability');
+      if (!button || !select) return;
+      select.value = select.value === button.dataset.choice ? 'all' : button.dataset.choice;
+      applyFilters(); if (sort) applySort();
+    });
   }
   // Open filters are named above the results, each with its own remove button.
   let activeFilterBar = null;
@@ -407,7 +416,7 @@
     activeFilterBar.hidden = true;
     resultsContent.prepend(activeFilterBar);
   }
-  const filterValues = [capacityFilter, priceFilter, travelFilter, bedsFilter, roomsFilter].filter(Boolean);
+  const filterValues = [capacityFilter, priceFilter, travelFilter, bedsFilter, roomsFilter, availabilityFilter].filter(Boolean);
   const knownNumber = value => value !== undefined && value !== '' && Number.isFinite(Number(value)) ? Number(value) : null;
   let availabilityRecords = embeddedAvailability;
   let favoriteAnchor = null;
@@ -588,11 +597,9 @@
       const bedsMatch = !bedsFilter || bedsFilter.value === 'all' || (beds !== null && beds >= party);
       const roomMatch = !roomsFilter || roomsFilter.value === 'all' || (rooms !== null && rooms >= Number(roomsFilter.value));
       const generalMatch = favoriteMatch && newMatch && guestMatch && priceMatch && travelMatch && bedsMatch && roomMatch;
-      card.dataset.generalMatch = String(generalMatch);
       const bestMatch = ((card.dataset.bestEligible === 'true' || card.dataset.bestCandidate === 'true') && (party === 6 || (beds !== null && beds >= party))) ||
         (activeBest === 'best-apartment' && card.dataset.planGroup === 'full-daire' && card.dataset.bestAlternative === 'true') ||
         (showHouseAlternatives && card.dataset.planGroup === 'full-villa' && card.dataset.bestAlternative === 'true');
-      card.hidden = !generalMatch || (activeBest !== '' && !bestMatch);
       const sameStay = entry => entry.checkIn === card.dataset.checkIn && entry.checkOut === card.dataset.checkOut;
       const status = partyRecord(availabilityRecords, entry => entry.scope === 'card' && entry.id === card.dataset.id && sameStay(entry), party);
       const offerRows = Array.from(card.querySelectorAll('.ruebezahl-table tr[data-source-id]'));
@@ -611,6 +618,16 @@
       }
       const statusNode = card.querySelector('.availability-status');
       card.dataset.availability = visibleStatus?.status || 'unknown';
+      // "Missed": a dated check found it available, a later one found it closed.
+      card.dataset.missed = String(visibleStatus?.status === 'unavailable' && Number.isFinite(Date.parse(visibleStatus.lastAvailableAt || '')));
+      const availabilityChoice = availabilityFilter?.value || 'all';
+      const availabilityMatch = availabilityChoice === 'all' ||
+        (availabilityChoice === 'available' && card.dataset.availability === 'available') ||
+        (availabilityChoice === 'hide-unavailable' && card.dataset.availability !== 'unavailable') ||
+        (availabilityChoice === 'unavailable' && card.dataset.availability === 'unavailable') ||
+        (availabilityChoice === 'missed' && card.dataset.missed === 'true');
+      card.dataset.generalMatch = String(generalMatch && availabilityMatch);
+      card.hidden = !(generalMatch && availabilityMatch) || (activeBest !== '' && !bestMatch);
       if (statusNode) {
         statusNode.hidden = !visibleStatus;
         // The photo chip stays short; the full dated observation is in the summary tab.
@@ -710,6 +727,7 @@
       const shown = cards.filter(card => !card.hidden && (favoritesOnly || !card.closest('.group')?.hidden));
       const available = shown.filter(card => card.dataset.availability === 'available').length;
       const unavailable = shown.filter(card => card.dataset.availability === 'unavailable').length;
+      const missed = shown.filter(card => card.dataset.missed === 'true').length;
       const latest = availabilityRecords.map(entry => Date.parse(entry.checkedAt)).filter(Number.isFinite).sort((a, b) => b - a)[0];
       availabilitySummary.hidden = !latest || !(available || unavailable);
       if (!availabilitySummary.hidden) {
@@ -719,6 +737,13 @@
         const no = availabilitySummary.querySelector('.sum-no');
         ok.hidden = !available; ok.textContent = `${available} ilan müsait göründü`;
         no.hidden = !unavailable; no.textContent = `${unavailable} ilan artık müsait değil`;
+        const lost = availabilitySummary.querySelector('.sum-missed');
+        lost.hidden = !missed; lost.textContent = `${missed} ilan kaçırıldı`;
+        availabilitySummary.querySelectorAll('button[data-choice]').forEach(button => {
+          const pressed = availabilityFilter?.value === button.dataset.choice;
+          button.setAttribute('aria-pressed', String(pressed));
+          button.setAttribute('aria-label', `${button.textContent}: ${pressed ? 'tüm ilanlara dön' : 'yalnız bunları göster'}`);
+        });
         availabilitySummary.querySelector('.sum-rest').textContent = shown.length - available - unavailable
           ? `${shown.length - available - unavailable} ilan bu kontrolde doğrulanmadı. Fiyatlar ve müsaitlik değişebilir.`
           : 'Fiyatlar ve müsaitlik değişebilir.';

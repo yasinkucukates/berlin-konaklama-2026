@@ -288,6 +288,12 @@ body{background:
 .availability-summary .sum-ok{background:rgba(232,246,237,.9);color:#1f5c3b}
 .availability-summary .sum-no{background:rgba(52,46,42,.82);color:#fff}
 .availability-summary .sum-no::before{content:"✕";font-size:11px}
+.availability-summary :where(button[data-choice]){border:0;font:inherit;font-weight:750;cursor:pointer;transition:box-shadow .15s}
+.availability-summary .sum-missed{display:inline-flex;align-items:center;gap:7px;padding:3px 10px;border-radius:999px;font-weight:750;background:#fff;color:#2b2622;border:1px solid rgba(52,46,42,.55)}
+.availability-summary .sum-missed::before{content:"↺";font-size:12px}
+.availability-summary button[data-choice]:hover{box-shadow:0 0 0 2px rgba(52,46,42,.18)}
+.availability-summary button[data-choice]:focus-visible{outline:2px solid #8a4f3c;outline-offset:2px}
+.availability-summary button[aria-pressed="true"]{box-shadow:0 0 0 2px #8a4f3c}
 .availability-summary .sum-rest{flex-basis:100%;color:#7a7067;font-size:11px}
 @media(min-width:900px){.availability-summary .sum-rest{flex-basis:auto}}
 
