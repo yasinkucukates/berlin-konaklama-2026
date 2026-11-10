@@ -8,18 +8,14 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 1927 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 1.927 €; vergi ve ek ücret kapsamı teyitsiz",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 1.927 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 1.927 €; vergi kapsamı teyitsiz",
       "maxGuests": 6,
       "capacityEvidence": "Yedi yetişkin seçildiğinde ilan en fazla altı misafir kabul ettiğini gösteriyor.",
       "capacitySourceUrl": "https://www.airbnb.com/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "lastAttempt": {
-        "result": "unknown",
-        "at": "2026-11-09T07:09:12Z",
-        "reason": "9 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
-      }
+      "maxAdults": 6
     },
     {
       "scope": "card",
@@ -28,13 +24,14 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/1552405041368851207?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 1474 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 1.474 €; vergi ve ek ücret kapsamı teyitsiz",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 1.476 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 1.476 €; vergi kapsamı teyitsiz",
       "maxGuests": 6,
       "capacityEvidence": "Yedi yetişkin seçildiğinde ilan en fazla altı misafir kabul ettiğini gösteriyor.",
-      "capacitySourceUrl": "https://www.airbnb.com/rooms/1552405041368851207?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR"
+      "capacitySourceUrl": "https://www.airbnb.com/rooms/1552405041368851207?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "maxAdults": 6
     },
     {
       "scope": "card",
@@ -43,10 +40,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/1389128667463860564?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 2760 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 2.760 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 2.760 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 2.760 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -55,15 +52,10 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/1389128667463860564?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 7 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 3000 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 3.000 €; vergi ve ek ücret kapsamı teyitsiz",
-      "lastAttempt": {
-        "result": "unknown",
-        "at": "2026-11-09T07:09:12Z",
-        "reason": "9 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
-      }
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 3.000 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 3.000 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -72,10 +64,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/1166429151300530583?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 2412 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 2.412 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 2.412 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 2.412 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -84,10 +76,10 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/1166429151300530583?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 7 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 2412 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 2.412 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 2.412 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 2.412 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -95,11 +87,14 @@
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
       "adults": 6,
-      "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "status": "unavailable",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/1656340?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 2305 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 2.305 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb, 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken “Bu tarihler uygun değil” gösterdi. Bunun rezervasyon veya takvim kapatma nedeni ayrıca bilinmiyor. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "lastAvailableAt": "2026-11-07T10:09:00+03:00",
+      "lastAvailableEvidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 2305 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
+      "lastAvailableSourceUrl": "https://www.airbnb.com/rooms/1656340?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "lastAvailablePrice": "Airbnb 2.305 €; vergi ve ek ücret kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -111,7 +106,12 @@
       "checkedAt": "2026-11-07T10:09:00+03:00",
       "sourceUrl": "https://www.airbnb.com/rooms/1656340?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
       "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 7 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 2585 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 2.585 €; vergi ve ek ücret kapsamı teyitsiz"
+      "displayPrice": "Airbnb 2.585 €; vergi ve ek ücret kapsamı teyitsiz",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-10T07:00:22Z",
+        "reason": "Airbnb 7 misafirle bu tarihleri uygun göstermiyor; ilan açıklamasındaki en fazla 6 yetişkin sınırı önceki yedi yetişkin kaydıyla çelişiyor. Önceki durum korunuyor."
+      }
     },
     {
       "scope": "card",
@@ -119,11 +119,14 @@
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
       "adults": 6,
-      "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "status": "unavailable",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/1573761201032292155?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 3345 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 3.345 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb, 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken “Bu tarihler uygun değil” gösterdi. Bunun rezervasyon veya takvim kapatma nedeni ayrıca bilinmiyor. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "lastAvailableAt": "2026-11-07T10:09:00+03:00",
+      "lastAvailableEvidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 3345 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
+      "lastAvailableSourceUrl": "https://www.airbnb.com/rooms/1573761201032292155?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "lastAvailablePrice": "Airbnb 3.345 €; vergi ve ek ücret kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -131,11 +134,14 @@
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
       "adults": 7,
-      "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "status": "unavailable",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/1573761201032292155?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 7 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 3345 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 3.345 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb, 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken “Bu tarihler uygun değil” gösterdi. Bunun rezervasyon veya takvim kapatma nedeni ayrıca bilinmiyor. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "lastAvailableAt": "2026-11-07T10:09:00+03:00",
+      "lastAvailableEvidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 7 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 3345 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
+      "lastAvailableSourceUrl": "https://www.airbnb.com/rooms/1573761201032292155?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "lastAvailablePrice": "Airbnb 3.345 €; vergi ve ek ücret kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -144,10 +150,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/1472317094515056268?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 2898 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 2.898 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 2.898 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 2.898 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -156,10 +162,10 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/1472317094515056268?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 7 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 2898 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 2.898 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 2.898 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 2.898 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -167,11 +173,14 @@
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
       "adults": 6,
-      "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "status": "unavailable",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/4027687?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 1934 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 1.934 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb, 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken “Bu tarihler uygun değil” gösterdi. Bunun rezervasyon veya takvim kapatma nedeni ayrıca bilinmiyor. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "lastAvailableAt": "2026-11-07T10:09:00+03:00",
+      "lastAvailableEvidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 1934 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
+      "lastAvailableSourceUrl": "https://www.airbnb.com/rooms/4027687?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "lastAvailablePrice": "Airbnb 1.934 €; vergi ve ek ücret kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -179,11 +188,14 @@
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
       "adults": 7,
-      "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "status": "unavailable",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/4027687?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 7 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 2074 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 2.074 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb, 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken “Bu tarihler uygun değil” gösterdi. Bunun rezervasyon veya takvim kapatma nedeni ayrıca bilinmiyor. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "lastAvailableAt": "2026-11-07T10:09:00+03:00",
+      "lastAvailableEvidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 7 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 2074 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
+      "lastAvailableSourceUrl": "https://www.airbnb.com/rooms/4027687?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "lastAvailablePrice": "Airbnb 2.074 €; vergi ve ek ücret kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -192,10 +204,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/19794276?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 1706 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 1.706 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 1.672 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 1.672 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -204,10 +216,10 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/19794276?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-03, 7 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 1811 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 1.811 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 1.777 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 1.777 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -216,10 +228,10 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/588125307521181982?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-01, 6 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 1063 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 1.063 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-01 çıkış ve 6 misafir seçiliyken 1.115 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 1.115 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -228,10 +240,10 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/588125307521181982?check_in=2026-12-30&check_out=2027-01-01&adults=7&currency=EUR",
-      "evidence": "Airbnb sayfasında seçili 2026-12-30–2027-01-01, 7 misafir ve rezervasyona devam seçeneği görüntülendi; toplam 1087 € gösterildi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Airbnb 1.087 €; vergi ve ek ücret kapsamı teyitsiz"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-01 çıkış ve 7 misafir seçiliyken 1.139 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 1.139 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -240,10 +252,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2026-12-30&endDate=2027-01-03&adults=6",
-      "evidence": "Vrbo seçili 2026-12-30–2027-01-03 ve 6 yetişkin için tarihlerin müsait olduğunu, vergi ve ücretler dahil 3101 € gösterdi. 300 € depozito ayrıca belirtiliyor. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Vrbo 3.101 €; vergi ve ücretler dahil, depozito ayrı",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Vrbo 2026-12-30–2027-01-03 ve 6 misafir için 3.101 € ve rezervasyona devam seçeneği gösterdi. İlana göre 300 € depozito ayrıca; vergi kapsamı yeniden doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Vrbo 3.101 €; depozito ayrı, vergi kapsamı teyitsiz",
       "maxGuests": 6,
       "capacityEvidence": "Vrbo, yedi misafirin konaklama kapasitesini aştığını açıkça gösteriyor.",
       "capacitySourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2026-12-30&endDate=2027-01-03&adults=7"
@@ -255,10 +267,11 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2026-12-30&endDate=2027-01-03&adults=6",
-      "evidence": "Vrbo seçili 2026-12-30–2027-01-03 ve 6 yetişkin için tarihlerin müsait olduğunu, vergi ve ücretler dahil 3101 € gösterdi. 300 € depozito ayrıca belirtiliyor. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Vrbo 3.101 €; vergi ve ücretler dahil, depozito ayrı"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Vrbo 2026-12-30–2027-01-03 ve 6 misafir için 3.101 € ve rezervasyona devam seçeneği gösterdi. İlana göre 300 € depozito ayrıca; vergi kapsamı yeniden doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Vrbo 3.101 €; depozito ayrı, vergi kapsamı teyitsiz",
+      "parentCardId": "six-vrbo-145069-full"
     },
     {
       "scope": "card",
@@ -267,18 +280,13 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2027-01-01&endDate=2027-01-03&adults=6",
-      "evidence": "Vrbo seçili 2027-01-01–2027-01-03 ve 6 yetişkin için tarihlerin müsait olduğunu, vergi ve ücretler dahil 1603 € gösterdi. 300 € depozito ayrıca belirtiliyor. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Vrbo 1.603 €; vergi ve ücretler dahil, depozito ayrı",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Vrbo 2027-01-01–2027-01-03 ve 6 misafir için 1.603 € ve rezervasyona devam seçeneği gösterdi. İlana göre 300 € depozito ayrıca; vergi kapsamı yeniden doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Vrbo 1.603 €; depozito ayrı, vergi kapsamı teyitsiz",
       "maxGuests": 6,
       "capacityEvidence": "Vrbo, yedi misafirin konaklama kapasitesini aştığını açıkça gösteriyor.",
-      "capacitySourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2027-01-01&endDate=2027-01-03&adults=7",
-      "lastAttempt": {
-        "result": "unknown",
-        "at": "2026-11-09T07:09:12Z",
-        "reason": "9 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
-      }
+      "capacitySourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2027-01-01&endDate=2027-01-03&adults=7"
     },
     {
       "scope": "offer",
@@ -287,15 +295,11 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2027-01-01&endDate=2027-01-03&adults=6",
-      "evidence": "Vrbo seçili 2027-01-01–2027-01-03 ve 6 yetişkin için tarihlerin müsait olduğunu, vergi ve ücretler dahil 1603 € gösterdi. 300 € depozito ayrıca belirtiliyor. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Vrbo 1.603 €; vergi ve ücretler dahil, depozito ayrı",
-      "lastAttempt": {
-        "result": "unknown",
-        "at": "2026-11-09T07:09:12Z",
-        "reason": "9 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
-      }
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Vrbo 2027-01-01–2027-01-03 ve 6 misafir için 1.603 € ve rezervasyona devam seçeneği gösterdi. İlana göre 300 € depozito ayrıca; vergi kapsamı yeniden doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Vrbo 1.603 €; depozito ayrı, vergi kapsamı teyitsiz",
+      "parentCardId": "six-vrbo-145069-last"
     },
     {
       "scope": "card",
@@ -304,10 +308,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1#room_1270649713",
-      "evidence": "Booking seçili daire için 6 yetişkinde 133.433 TL ve 3.354 TL vergi/ücret gösterdi; birim için rezervasyon seçeneği görüntülendi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Booking ≈ 136.787 TL; görünen vergi ve ücretler dahil"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-03, 6 yetişkin aramasında 1270649713 birimi için 134.089 TL + 3.371 TL vergi ve ücret gösterdi; toplam 137.460 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 137.460 TL, vergi ve ücretler dahil; i̇ade edilmez."
     },
     {
       "scope": "card",
@@ -316,18 +320,13 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1#room_1270649713",
-      "evidence": "Booking seçili daire için 7 yetişkinde 133.433 TL ve 3.354 TL vergi/ücret gösterdi; birim için rezervasyon seçeneği görüntülendi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Booking ≈ 136.787 TL; görünen vergi ve ücretler dahil",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-03, 7 yetişkin aramasında 1270649713 birimi için 134.089 TL + 3.371 TL vergi ve ücret gösterdi; toplam 137.460 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 137.460 TL, vergi ve ücretler dahil; i̇ade edilmez.",
       "maxGuests": 7,
       "capacityEvidence": "Booking seçili 70 m² birimde azami kişi sayısını 7 gösterdi. 2 odada üçer tek yatak ve oturma odasında bir çekyat listeleniyor.",
-      "capacitySourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1#room_1270649713",
-      "lastAttempt": {
-        "result": "unknown",
-        "at": "2026-11-09T07:09:12Z",
-        "reason": "9 Kasım kontrolünde kaynak sayfasına erişilemedi; önceki doğrulanmış durum korunuyor."
-      }
+      "capacitySourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1#room_1270649713"
     },
     {
       "scope": "card",
@@ -336,10 +335,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1#room_1557174403",
-      "evidence": "Booking birim 1557174403 için 6 yetişkin seçiliyken oda teklifi ve vergilerle yaklaşık 119172 TL gösterdi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Booking ≈ 119.172 TL; görünen vergi ve ücretler dahil"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-03, 6 yetişkin aramasında 1557174403 birimi için 116.948 TL + 2.809 TL vergi ve ücret gösterdi; toplam 119.757 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 119.757 TL, vergi ve ücretler dahil; i̇ade edilmez."
     },
     {
       "scope": "card",
@@ -348,10 +347,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1#room_1557174404",
-      "evidence": "Booking birim 1557174404 için 6 yetişkin seçiliyken oda teklifi ve vergilerle yaklaşık 122945 TL gösterdi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Booking ≈ 122.945 TL; görünen vergi ve ücretler dahil"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-03, 6 yetişkin aramasında 1557174404 birimi için 120.741 TL + 2.809 TL vergi ve ücret gösterdi; toplam 123.550 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 123.550 TL, vergi ve ücretler dahil; i̇ade edilmez."
     },
     {
       "scope": "card",
@@ -360,10 +359,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1#room_1557174402",
-      "evidence": "Booking birim 1557174402 için 6 yetişkin seçiliyken oda teklifi ve vergilerle yaklaşık 136128 TL gösterdi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Booking ≈ 136.128 TL; görünen vergi ve ücretler dahil"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-03, 6 yetişkin aramasında 1557174402 birimi için 133.988 TL + 2.809 TL vergi ve ücret gösterdi; toplam 136.797 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 136.797 TL, vergi ve ücretler dahil; i̇ade edilmez."
     },
     {
       "scope": "card",
@@ -372,10 +371,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1#room_1557174406",
-      "evidence": "Booking birim 1557174406 için 6 yetişkin seçiliyken oda teklifi ve vergilerle yaklaşık 136228 TL gösterdi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Booking ≈ 136.228 TL; görünen vergi ve ücretler dahil"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-03, 6 yetişkin aramasında 1557174406 birimi için 134.089 TL + 2.809 TL vergi ve ücret gösterdi; toplam 136.898 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 136.898 TL, vergi ve ücretler dahil; i̇ade edilmez."
     },
     {
       "scope": "card",
@@ -384,10 +383,10 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1#room_1557174402",
-      "evidence": "Booking birim 1557174402 için 6 yetişkin seçiliyken oda teklifi ve vergilerle yaklaşık 68204 TL gösterdi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Booking ≈ 68.204 TL; görünen vergi ve ücretler dahil"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 6 yetişkin aramasında 1557174402 birimi için 62.443 TL + 2.809 TL vergi ve ücret gösterdi; toplam 65.252 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 65.252 TL, vergi ve ücretler dahil; i̇ade edilmez."
     },
     {
       "scope": "card",
@@ -396,10 +395,10 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1#room_1557174403",
-      "evidence": "Booking birim 1557174403 için 6 yetişkin seçiliyken oda teklifi ve vergilerle yaklaşık 68204 TL gösterdi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Booking ≈ 68.204 TL; görünen vergi ve ücretler dahil"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 6 yetişkin aramasında 1557174403 birimi için 62.443 TL + 2.809 TL vergi ve ücret gösterdi; toplam 65.252 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 65.252 TL, vergi ve ücretler dahil; i̇ade edilmez."
     },
     {
       "scope": "card",
@@ -408,10 +407,10 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1#room_1557174406",
-      "evidence": "Booking birim 1557174406 için 6 yetişkin seçiliyken oda teklifi ve vergilerle yaklaşık 69512 TL gösterdi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Booking ≈ 69.512 TL; görünen vergi ve ücretler dahil"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 6 yetişkin aramasında 1557174406 birimi için 63.692 TL + 2.809 TL vergi ve ücret gösterdi; toplam 66.501 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 66.501 TL, vergi ve ücretler dahil; i̇ade edilmez."
     },
     {
       "scope": "card",
@@ -420,10 +419,10 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1#room_1557174401",
-      "evidence": "Booking birim 1557174401 için 6 yetişkin seçiliyken oda teklifi ve vergilerle yaklaşık 69512 TL gösterdi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Booking ≈ 69.512 TL; görünen vergi ve ücretler dahil"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 6 yetişkin aramasında 1557174401 birimi için 63.692 TL + 2.809 TL vergi ve ücret gösterdi; toplam 66.501 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 66.501 TL, vergi ve ücretler dahil; i̇ade edilmez."
     },
     {
       "scope": "card",
@@ -432,10 +431,10 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1#room_1557174401",
-      "evidence": "Booking birim 1557174401 için 7 yetişkin seçiliyken oda teklifi ve vergilerle yaklaşık 69512 TL gösterdi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Booking ≈ 69.512 TL; görünen vergi ve ücretler dahil"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 7 yetişkin aramasında 1557174401 birimi için 63.692 TL + 2.809 TL vergi ve ücret gösterdi; toplam 66.501 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 66.501 TL, vergi ve ücretler dahil; i̇ade edilmez."
     },
     {
       "scope": "card",
@@ -444,10 +443,10 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-07T10:09:00+03:00",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1#room_1557174404",
-      "evidence": "Booking birim 1557174404 için 6 yetişkin seçiliyken oda teklifi ve vergilerle yaklaşık 70719 TL gösterdi. Kontrol 7 Kasım 10.09-10.27 İstanbul aralığında yapıldı; kayıt saati bu aralığın başlangıcıdır.",
-      "displayPrice": "Booking ≈ 70.719 TL; görünen vergi ve ücretler dahil"
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 6 yetişkin aramasında 1557174404 birimi için 64.845 TL + 2.809 TL vergi ve ücret gösterdi; toplam 67.654 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 67.654 TL, vergi ve ücretler dahil; i̇ade edilmez."
     },
     {
       "scope": "card",
@@ -456,10 +455,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-08T06:56:20Z",
-      "sourceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-çatı-katı-torstr-3-yatak-odası-2-banyo-150-m2-4-8-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44145350%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6",
-      "evidence": "8 Kasım 09.56–09.58 İstanbul saatleri arasında Trivago, seçili tarih ve 6 yetişkin için başlığı, 150 m², üç oda ve iki banyosu Airbnb 12048269 ile eşleşen ilanda Airbnb teklifini 2.839 € gösterdi. Airbnb rezervasyon ekranına doğrudan erişilemedi; vergi ve son ödeme koşulları teyitsiz.",
-      "displayPrice": "Trivago · Airbnb 2.839 €; vergi ve ek ücret kapsamı teyitsiz"
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/12048269?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 2.865 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 2.865 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -468,10 +467,10 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-08T06:56:20Z",
-      "sourceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-çatı-katı-torstr-3-yatak-odası-2-banyo-150-m2-4-8-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44145350%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-7",
-      "evidence": "8 Kasım 09.56–09.58 İstanbul saatleri arasında Trivago, seçili tarih ve 7 yetişkin için başlığı, 150 m², üç oda ve iki banyosu Airbnb 12048269 ile eşleşen ilanda Airbnb teklifini 2.995 € gösterdi. Airbnb rezervasyon ekranına doğrudan erişilemedi; vergi ve son ödeme koşulları teyitsiz.",
-      "displayPrice": "Trivago · Airbnb 2.995 €; vergi ve ek ücret kapsamı teyitsiz"
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/12048269?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 3.021 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 3.021 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -480,10 +479,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-09T07:09:12Z",
-      "sourceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-gruplar-için-balkonlu-geniş-5-yatak-odalı-daire-berlin?cip=234716015&currencyCode=EUR&search=100-44123842%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=V11RjcYzYcNGpKBOmIp5sQ2DLM5SkqKnho5HUzha3I6Z%2FbAhrJ54LfJFEokTLbgnnI72YvSEdeYXobcBTVLjtiDbyssmzXMiVyksCFsDD%2BH%2BL%2BKK%2Fhytffn18fA08wATtgmdg8dTBrnhkvlHuBmMauxxXptvfgGZHi0PRgQLBrZxk87V1fhpV%2BY%3D&cdsOrigin=DEAL_ON_DEALFINDER",
-      "evidence": "9 Kasım kontrolünde Trivago, başlığı ve konumu Airbnb 1216757408450098435 ile eşleşen ilanda 6 yetişkin ve seçili tarihler için Airbnb üzerinden 1.883 € teklif gösterdi. Doğrudan rezervasyon ekranı ve vergi kapsamı teyit edilemedi.",
-      "displayPrice": "Trivago · Airbnb 1.883 €; vergi ve ek ücretler teyitsiz"
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1216757408450098435?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 1.685 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 1.685 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "offer",
@@ -493,11 +492,11 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-09T07:09:12Z",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/45962465?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidenceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-thedanziger-2-yatak-odası-120-m-büyük-oturma-odası-4-7-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44006614%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=xAQud3NntB0VDiDCsfHI4wEoznEn0Eo88TPmXZ9wRiDQ0pBqxjgFGCyS4i6iedqbvtV9oFA2dvVF77DmpYyNMZj2qcNC1jFNfVuOySBZVeftDGoPtBR5SZS5XYCecoFxmjR2LQFG4fgpRWexEqJhrPW034wO3yM9KcwHnEBQsAmNtHXVzpLNCfc%3D&cdsOrigin=DEAL_ON_DEALFINDER",
-      "evidence": "9 Kasım kontrolünde Trivago, The Danziger için 6 yetişkin ve seçili tarihlerde Airbnb üzerinden 2.536 € teklif gösterdi. Airbnb ilanındaki 120 m², iki oda, üç çift kişilik yatak ve çekyat mevcut karttaki birimle eşleşiyor. Doğrudan rezervasyon ekranı ve vergi kapsamı teyit edilemedi.",
-      "displayPrice": "Trivago · Airbnb 2.536 €; vergi ve ek ücretler teyitsiz"
+      "evidenceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-thedanziger-2-yatak-odası-120-m-büyük-oturma-odası-4-7-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44006614%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=MpA05y3gTlNEWf464iX6pOJQPTKr7TCzV4zynn9m%2B%2BfZ0AqwOku7Y1umi%2FcWLjRoHXjfX%2FRHVuAvjm6UPdvY1YkeoF3CV2YG0nFNoeDmgSVhtN%2F%2BNkNMKV4GTvXKGQNeUJ8lCIMO95JTnwoG2dOu6YnJhRbYHgQUO4VGSZigc5m7ni85Ac8%3D&cdsOrigin=DEAL_ON_DEALFINDER",
+      "evidence": "10 Kasım Trivago araması seçili tarihler ve 6 yetişkin için eşleşen The Danziger Airbnb teklifini 2.534 € gösterdi; doğrudan ödeme ve vergi kapsamı teyit edilmedi. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Trivago · Airbnb 2.534 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "card",
@@ -506,10 +505,10 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-09T07:09:12Z",
-      "sourceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-gruplar-için-balkonlu-geniş-5-yatak-odalı-daire-berlin?cip=234716015&currencyCode=EUR&search=100-44123842%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-7&cds=tqZrdN1YzlK4MYTxOdPgGBI897CWEcqiBzBDe%2FKaIU5tyPYLjeZioHIyRLGbblo0n2AT1t2Vq0E3wYSSVn6qQ2Fbbr8u3ngAW0H2hACioh7QJB822reDhXUi%2Bh%2Bs8DLYn0NJ%2BfEqlIPEdSSj81vnydj4fBFYZ3SehNRWobM%2Bn7KDB%2B0tfNQD&cdsOrigin=DEAL_ON_DEALFINDER",
-      "evidence": "9 Kasım kontrolünde Trivago, başlığı ve konumu Airbnb 1216757408450098435 ile eşleşen ilanda 7 yetişkin ve seçili tarihler için Airbnb üzerinden 1.935 € teklif gösterdi. Doğrudan rezervasyon ekranı ve vergi kapsamı teyit edilemedi.",
-      "displayPrice": "Trivago · Airbnb 1.935 €; vergi ve ek ücretler teyitsiz"
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1216757408450098435?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 1.733 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 1.733 €; vergi kapsamı teyitsiz"
     },
     {
       "scope": "offer",
@@ -519,11 +518,284 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-09T07:09:12Z",
+      "checkedAt": "2026-11-10T07:00:22Z",
       "sourceUrl": "https://www.airbnb.com/rooms/45962465?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidenceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-thedanziger-2-yatak-odası-120-m-büyük-oturma-odası-4-7-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44006614%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-7&cds=D9jaQ%2FS8VBMn9fJ1x5Ob%2FG%2B4SfgwebYctYjesUR2SgiDpswSva1z%2FkXQ7qxPwEF1N%2B8qCoUdgb%2BMVAuq5ZGRh0jSH76psZwnkTrVgrIUEd7Gew4qc%2FEPln9U6hKb9Qb4SkBlR5BQF7fDe%2BcLDMEn70mMS%2FaJ%2FwdTvqM2bBadzP1T02nS6%2BjcPQ%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER",
-      "evidence": "9 Kasım kontrolünde Trivago, The Danziger için 7 yetişkin ve seçili tarihlerde Airbnb üzerinden 2.668 € teklif gösterdi. Airbnb ilanındaki 120 m², iki oda, üç çift kişilik yatak ve çekyat mevcut karttaki birimle eşleşiyor. Doğrudan rezervasyon ekranı ve vergi kapsamı teyit edilemedi.",
-      "displayPrice": "Trivago · Airbnb 2.668 €; vergi ve ek ücretler teyitsiz"
+      "evidenceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-thedanziger-2-yatak-odası-120-m-büyük-oturma-odası-4-7-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44006614%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-7&cds=NHp4jdYYC8fUPALFL3tszMSzw2%2B4xzmo%2By2i%2FMyt1SUdFlWDVp7Pcp2EZaTQj1DmmX13%2FfCSvqnPyGUAzsqEOwZymFWCSVe%2FBKWMPzWKdcf3IHSPmrbQNxR8sDoVeXdWqW1f9b2iQkpVmvUE5yn19W1SoJta4LYieJHKaqAbVNdDoIn2p4oBiQ%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER",
+      "evidence": "10 Kasım Trivago araması seçili tarihler ve 7 yetişkin için eşleşen The Danziger Airbnb teklifini 2.666 € gösterdi; doğrudan ödeme ve vergi kapsamı teyit edilmedi. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Trivago · Airbnb 2.666 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "six-house-1468719376516749093-last",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1468719376516749093?check_in=2027-01-01&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 980 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 980 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "six-house-1468719376516749093-last",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1468719376516749093?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 1.060 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 1.060 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "1468719376516749093",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1468719376516749093?check_in=2027-01-01&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 980 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 980 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "1468719376516749093",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1468719376516749093?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 1.060 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 1.060 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "six-house-1777706242995862793-last",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1777706242995862793?check_in=2027-01-01&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 576 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 576 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "six-house-1777706242995862793-last",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1777706242995862793?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 696 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 696 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "1777706242995862793",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1777706242995862793?check_in=2027-01-01&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 576 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 576 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "1777706242995862793",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1777706242995862793?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 696 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 696 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "six-house-1641351333944417315-last",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1641351333944417315?check_in=2027-01-01&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 845 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 845 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "six-house-1641351333944417315-last",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1641351333944417315?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 943 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 943 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "1641351333944417315",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1641351333944417315?check_in=2027-01-01&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 845 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 845 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "1641351333944417315",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1641351333944417315?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 943 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 943 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "22026440",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/22026440?check_in=2027-01-01&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 901 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 901 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "22026440",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/22026440?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken 1.005 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 1.005 €; vergi kapsamı teyitsiz"
+    },
+    {
+      "scope": "card",
+      "id": "six-house-1755900699204248773-last",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1755900699204248773?check_in=2027-01-01&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb ilanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken 347 € tutar ile rezervasyona devam seçeneği gösterildi. Vergi kapsamı son ödeme adımında ayrıca doğrulanmadı. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Airbnb 347 €; vergi kapsamı teyitsiz",
+      "maxAdults": 6
+    },
+    {
+      "scope": "card",
+      "id": "six-house-1144871109877188022-last",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "unavailable",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1144871109877188022?check_in=2027-01-01&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb, 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken “Bu tarihler uygun değil” gösterdi. Bunun rezervasyon veya takvim kapatma nedeni ayrıca bilinmiyor. Kayıt zamanı kontrol aralığının başlangıcıdır."
+    },
+    {
+      "scope": "card",
+      "id": "six-house-1144871109877188022-last",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "unavailable",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1144871109877188022?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb, 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken “Bu tarihler uygun değil” gösterdi. Bunun rezervasyon veya takvim kapatma nedeni ayrıca bilinmiyor. Kayıt zamanı kontrol aralığının başlangıcıdır."
+    },
+    {
+      "scope": "card",
+      "id": "1144871109877188022",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "unavailable",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1144871109877188022?check_in=2027-01-01&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb, 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir seçiliyken “Bu tarihler uygun değil” gösterdi. Bunun rezervasyon veya takvim kapatma nedeni ayrıca bilinmiyor. Kayıt zamanı kontrol aralığının başlangıcıdır."
+    },
+    {
+      "scope": "card",
+      "id": "1144871109877188022",
+      "checkIn": "2027-01-01",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "unavailable",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1144871109877188022?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatleri arasında Airbnb, 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir seçiliyken “Bu tarihler uygun değil” gösterdi. Bunun rezervasyon veya takvim kapatma nedeni ayrıca bilinmiyor. Kayıt zamanı kontrol aralığının başlangıcıdır."
+    },
+    {
+      "scope": "card",
+      "id": "bolunmus-urban-flats",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-01",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1#room_1270649713",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 6 yetişkin aramasında 1270649713 birimi için 67.044 TL + 3.371 TL vergi ve ücret gösterdi; toplam 70.415 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 70.415 TL, vergi ve ücretler dahil; i̇ade edilmez."
+    },
+    {
+      "scope": "card",
+      "id": "bolunmus-urban-flats",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-01",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1#room_1270649713",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 7 yetişkin aramasında 1270649713 birimi için 67.044 TL + 3.371 TL vergi ve ücret gösterdi; toplam 70.415 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 70.415 TL, vergi ve ücretler dahil; i̇ade edilmez."
+    },
+    {
+      "scope": "card",
+      "id": "bolunmus-roof-chill",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-01",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1#room_1387722001",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 6 yetişkin aramasında 1387722001 birimi için 64.606 TL + 21.910 TL vergi ve ücret gösterdi; toplam 86.516 TL. 16 Aralık öncesi ücretsiz iptal. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 86.516 TL, vergi ve ücretler dahil; 16 aralık öncesi ücretsiz iptal."
+    },
+    {
+      "scope": "card",
+      "id": "bolunmus-roof-chill",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-01",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T07:00:22Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1#room_1387722001",
+      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 7 yetişkin aramasında 1387722001 birimi için 70.224 TL + 21.910 TL vergi ve ücret gösterdi; toplam 92.134 TL. 16 Aralık öncesi ücretsiz iptal. Kayıt zamanı kontrol aralığının başlangıcıdır.",
+      "displayPrice": "Booking 92.134 TL, vergi ve ücretler dahil; 16 aralık öncesi ücretsiz iptal."
     }
   ]
 }
