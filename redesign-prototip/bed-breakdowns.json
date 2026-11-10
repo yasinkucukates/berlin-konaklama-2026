@@ -232,5 +232,17 @@
     "source": "https://www.airbnb.com/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
     "normalBeds": 3,
     "certainty": "08.11.2026: Kaynak sayfa Mac'ten açıldı; Kimi K3.1 Pro ve Opus aynı kanıtı birbirinden habersiz inceleyip aynı oda oda dökümüne vardı. Kullanıcı kararıyla kesin kabul edildi."
+  },
+  "35666163": {
+    "summary": "5 tek kişilik yatak ve 2 kişilik ranza; salonda ayrıca 1 çekyat.",
+    "source": "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 7,
+    "certainty": "Airbnb oda kartları ve fotoğraf turu incelendi."
+  },
+  "1740651283805171847": {
+    "summary": "3 çift kişilik ve 2 tek kişilik yatak. Altı kişide en az iki kişi bir çift kişilik yatağı paylaşır.",
+    "source": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 5,
+    "certainty": "Airbnb oda kartları ve fotoğraf turu incelendi."
   }
 }

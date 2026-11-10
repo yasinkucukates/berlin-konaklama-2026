@@ -1008,6 +1008,30 @@
       "tresorTransitMin": null,
       "routeQuality": "OSRM trafiksiz; Holidu konumu; Steglitz VI ile aynı nokta (aynı bina)",
       "notes": "OSRM araç rotası, trafiksiz serbest akış (11.6 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Holidu konumu; Steglitz VI ile aynı nokta (aynı bina). Kaynak: https://router.project-osrm.org/route/v1/driving/13.343799,52.448185;13.419484,52.5106807?overview=false RSO kaynağı: https://router.project-osrm.org/route/v1/driving/13.343799,52.448185;13.50548,52.45989?overview=false"
+    },
+    {
+      "id": "35666163",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "rsoCarMin": 16,
+      "tresorCarMin": 16,
+      "tresorRangeUpperMin": null,
+      "rsoTransitMin": null,
+      "tresorTransitMin": null,
+      "routeQuality": "OSRM trafiksiz araç hesabı",
+      "notes": "İlan adresinden OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.5260114,52.5193048;13.3203317,52.4998869;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1&destinations=2;3&annotations=duration,distance"
+    },
+    {
+      "id": "1740651283805171847",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "rsoCarMin": 22,
+      "tresorCarMin": 14,
+      "tresorRangeUpperMin": null,
+      "rsoTransitMin": null,
+      "tresorTransitMin": null,
+      "routeQuality": "OSRM trafiksiz araç hesabı",
+      "notes": "İlan adresinden OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.5260114,52.5193048;13.3203317,52.4998869;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1&destinations=2;3&annotations=duration,distance"
     }
   ]
 }

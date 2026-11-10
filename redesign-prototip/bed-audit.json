@@ -410,5 +410,13 @@
   "1755900699204248773": {
     "normalBeds": 3,
     "source": "https://www.airbnb.com/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+  },
+  "35666163": {
+    "normalBeds": 7,
+    "source": "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  },
+  "1740651283805171847": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
   }
 }

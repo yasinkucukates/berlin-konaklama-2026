@@ -1,0 +1,395 @@
+[
+  {
+    "id": "35666163",
+    "sourceId": "35666163",
+    "name": "TRIO | Üç Odalı Daire",
+    "area": "Marzahn",
+    "address": "Zur Alten Börse 57, 12681 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 8,
+    "maxAdults": 8,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "5 tek kişilik yatak ve 2 kişilik ranza; salonda ayrıca 1 çekyat.",
+    "features": "66 m², üç yatak odası, iki banyo ve mutfak. Airbnb 4,64 / 5 (47 değerlendirme).",
+    "price": "1.131 €",
+    "priceEUR": 1131,
+    "priceApproximate": false,
+    "priceStatus": "Dört gecelik kaynak fiyatı; vergi kapsamı teyit edilmeli",
+    "priceClass": "search",
+    "priceNote": "10.11.2026 Airbnb ekranında 6 kişi için 1.131 € gösterildi. 25 Aralık öncesi ücretsiz iptal. Nihai vergi ve ek ücretleri rezervasyon öncesi kontrol edin.",
+    "availabilityNote": "10.11.2026 tarihinde seçili dört gece ve 6 misafir için fiyat gösterildi; müsaitlik değişebilir.",
+    "rsoCar": "16 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "16 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.5260114,52.5193048;13.3203317,52.4998869;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1&destinations=2;3&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "sourceURL": "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/82da1d24-b609-4709-b69c-b13908735c4b.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/4552828c-4588-4173-b70f-fbf8e8409a9a.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/29c2fd44-67c6-4859-bf16-395e385f1259.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 4",
+        "https://a0.muscache.com/im/pictures/847633b2-80d6-481a-ab8e-1f85bd82c623.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 5",
+        "https://a0.muscache.com/im/pictures/751ba03e-6174-45c9-8e89-374f503ef388.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 6",
+        "https://a0.muscache.com/im/pictures/61cc98a0-895c-4bff-8d6c-315266a2d85a.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 7",
+        "https://a0.muscache.com/im/pictures/3d6b9cf6-ef58-44af-a555-8e059f422ee6.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 8",
+        "https://a0.muscache.com/im/pictures/e55bf670-2388-4b99-87cb-e18c68da092e.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 9",
+        "https://a0.muscache.com/im/pictures/3f796949-a19d-40ab-ace6-27445f1dc7f3.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/ff6ab2d0-270c-4d64-848c-efb5e22248c1.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 11",
+        "https://a0.muscache.com/im/pictures/31ecfc53-0ce6-4892-980c-979d5032b020.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 12",
+        "https://a0.muscache.com/im/pictures/924b48fc-af1e-4da0-8e6b-bfce3200137d.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 13",
+        "https://a0.muscache.com/im/pictures/1d23aae0-f6db-4312-87f5-b492890c0911.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 14",
+        "https://a0.muscache.com/im/pictures/6e5ee9e5-d258-49d9-a2ee-1f2f23cc723b.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 15",
+        "https://a0.muscache.com/im/pictures/f5b0d80a-603a-46c6-9208-f4eacb8a8e18.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 16",
+        "https://a0.muscache.com/im/pictures/9ba03b1d-cc82-4e00-a220-d8ee381e8fdc.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 17",
+        "https://a0.muscache.com/im/pictures/782818e2-e490-4f94-9e25-d6f153419009.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 18",
+        "https://a0.muscache.com/im/pictures/e6de6a38-cd0a-46eb-89bd-ae1059e672c3.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 19",
+        "https://a0.muscache.com/im/pictures/e16db0ab-3c85-48cc-9394-5715ffaf23c1.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 20",
+        "https://a0.muscache.com/im/pictures/ef32232c-20f5-4b8b-9357-40e906eda23e.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 21",
+        "https://a0.muscache.com/im/pictures/9179fa7e-decf-46eb-a65e-3f2fe02c0d5d.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 22",
+        "https://a0.muscache.com/im/pictures/0550f5be-be56-4d26-8a1e-c7f24e79213e.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 23",
+        "https://a0.muscache.com/im/pictures/0baf9b19-a344-4920-bf4c-1b29cf247c6e.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 24",
+        "https://a0.muscache.com/im/pictures/f5ca31bd-70ee-4a94-af92-7d8ac3dd6816.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 25",
+        "https://a0.muscache.com/im/pictures/33cf346c-d140-4dc8-8165-b6ea4c02f46b.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 26",
+        "https://a0.muscache.com/im/pictures/920ea18a-c260-4ffc-bbe1-d27873b7fc0a.jpg?im_w=1440"
+      ]
+    ],
+    "photoNote": "Airbnb ilanının fotoğraf turundaki görseller.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Airbnb dairenin tamamını gösteriyor.",
+      "source": "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-10",
+    "_sourceFile": "galeri-sweep-20261110.json"
+  },
+  {
+    "id": "1740651283805171847",
+    "sourceId": "1740651283805171847",
+    "name": "Prime Living | Kurfürstendamm",
+    "area": "Charlottenburg, Kurfürstendamm",
+    "address": "Lietzenburger Straße 94, 10719 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 8,
+    "maxAdults": 8,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "3 çift kişilik ve 2 tek kişilik yatak. Altı kişide en az iki kişi bir çift kişilik yatağı paylaşır.",
+    "features": "135 m², üç yatak odası, iki banyo ve balkon. Airbnb 4,93 / 5 (15 değerlendirme).",
+    "price": "2.191 €",
+    "priceEUR": 2191,
+    "priceApproximate": false,
+    "priceStatus": "Dört gecelik kaynak fiyatı; vergi kapsamı teyit edilmeli",
+    "priceClass": "search",
+    "priceNote": "10.11.2026 Airbnb ekranında 6 kişi için 2.191 € gösterildi. 30 Kasım öncesi ücretsiz iptal. Nihai vergi ve ek ücretleri rezervasyon öncesi kontrol edin. Aynı dairenin Booking.com teklifi 6 kişi için 2.056 € + 494 € vergi ve ücret gösterdi; 16 Aralık öncesi ücretsiz iptal.",
+    "availabilityNote": "10.11.2026 tarihinde seçili dört gece ve 6 misafir için fiyat gösterildi; müsaitlik değişebilir.",
+    "rsoCar": "22 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "14 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.5260114,52.5193048;13.3203317,52.4998869;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1&destinations=2;3&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "sourceURL": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/ae2fc111-a9c3-435d-a193-154c3442faba.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/9891e59f-721b-4e24-a786-7ff37b9b51f5.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/6d77e717-f9e2-41f9-9006-dd133b858937.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 4",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/f8d19884-0771-4470-ae6f-b00127b5bda0.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 5",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/d7ac89fb-1652-4b77-bb25-07f892423884.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 6",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/ec5bbf25-5bc0-483d-b0fd-fc6474c696c9.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 7",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/67a3193a-047f-44b4-b174-e7db8916cd91.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 8",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/2798dd3e-91c8-4913-9755-81a487eb6991.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 9",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/44faa1ed-0abb-442c-be1c-0573ed7b48ed.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/0e76799b-bbdf-4112-9b05-27a7f401ed8d.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 11",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/1b92c71c-c9fb-44fa-b6f9-aa6e0c10f670.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 12",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/ac6383c2-50b6-4636-91fc-86aaf77a4697.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 13",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/bd9b3c3b-3004-49df-b890-a43ff1ce2db9.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 14",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/7a72a986-0281-4866-a350-2b70b508ec41.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 15",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/5f105a83-dfa2-4b0b-8181-64a291937b70.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 16",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/baf3abed-d78d-4f1a-aae5-e56aa54b00a4.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 17",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/114fd042-b18a-457a-9f57-50b0edc64918.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 18",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/25ef9b56-53f6-461f-9752-e604e23dda47.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 19",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/02ddc2cd-ae4b-4e07-8360-9a175e09994d.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 20",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/a2454315-fd7e-46cb-9f03-252531b663e3.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 21",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/5d181b08-c828-4094-ac0d-fe2237e398c1.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 22",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/3ebd4f37-1226-4e42-99f4-c172837269dd.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 23",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/f4992bb2-3cb4-4d99-bdd5-d629e3584f1e.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 24",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/b90b59bc-2531-424d-98ca-6f2b5ce68f23.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 25",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/90996912-ebe6-4fb8-aa4c-b1d103f0dcff.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 26",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/0f331417-c8eb-48ae-b6ac-73138ab7b929.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 27",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/3ae95fd6-5530-4788-a766-e47d0e0d8dad.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 28",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/b02c2e62-7fd7-4eed-99b7-64f4a78570e5.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 29",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/319572cc-dc15-4906-905e-3e31242e6291.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 30",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/78467567-c5c1-4293-9f03-a0f191d7304a.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 31",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/19f655a3-a857-4c46-9cb2-22ea7dd44ed4.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 32",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/cb31023b-fc21-4ae5-a920-97d4c63e1d53.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 33",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/6b85cdde-038d-4263-91b0-6809ac38b402.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 34",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/16f3bf86-895b-4105-9ccf-704d19567338.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 35",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/790f7711-5771-47e8-929f-2c8c55a83ccc.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 36",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/2d361048-a0af-41d8-a69a-c50dd936c51e.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 37",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/be2efc85-7d36-425f-9a30-ffa3b44757e4.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 38",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/aec1988e-6eb2-4fe5-abc4-0497e373443e.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 39",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/2f0cc310-2969-4782-930a-b060f059e2fe.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 40",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/6cbf3c74-8495-4bee-be05-dc522456447b.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 41",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/0148fcb6-6183-4932-b7c1-ea0b5997065f.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 42",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/8e4c1681-c263-4470-b17b-41b0073b4f69.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 43",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/d61623fe-3281-47c2-9bcb-c5fb82b4e4f9.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 44",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/38cb744f-b949-44d8-a4fc-3cd7b3851117.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 45",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/508706df-21e3-448e-b97c-d202211461de.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 46",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/f116c26d-4c25-483c-92f0-cf19cdd50616.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 47",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/44487efd-a4ff-40bc-ae04-1f80e1c6cd21.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 48",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/31f5acba-568e-4532-acd0-0a02360fe3bb.jpeg?im_w=1440"
+      ]
+    ],
+    "photoNote": "Airbnb ilanının fotoğraf turundaki görseller.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Airbnb dairenin tamamını gösteriyor.",
+      "source": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-10",
+    "_sourceFile": "galeri-sweep-20261110.json",
+    "sourceLinks": [
+      "https://www.booking.com/hotel/de/grand-living-berlin-kurfurstendamm.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1675633402"
+    ]
+  }
+]

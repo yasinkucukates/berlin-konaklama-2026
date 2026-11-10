@@ -838,6 +838,26 @@
       "accuracy": "unknown",
       "source": "https://www.holidu.de/d/65364918?checkin=2027-01-01&checkout=2027-01-03&adults=7",
       "note": "İlanla eşleşen güvenilir koordinat bulunamadı."
+    },
+    {
+      "id": "35666163",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5193048,
+      "lon": 13.5260114,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "note": "İlan adresine dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "1740651283805171847",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4998869,
+      "lon": 13.3203317,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "note": "İlan adresine dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
     }
   ]
 }

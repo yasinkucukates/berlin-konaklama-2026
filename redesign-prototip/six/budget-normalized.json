@@ -1452,6 +1452,40 @@
       "sourceFile": "galeri-sweep-20261107.json",
       "sourcePriceText": "1.328 €",
       "notes": " İptal: 15 Aralık 2026’ya kadar ücretsiz iptal (Holidu verisi)"
+    },
+    {
+      "id": "35666163",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "amountEUR": 1131,
+      "currencyBasis": "native",
+      "band": "within",
+      "taxKnown": false,
+      "taxReserveFlag": true,
+      "sourceTaxStatus": "unknown",
+      "depositFlag": false,
+      "depositText": null,
+      "componentOnly": false,
+      "sourceFile": "galeri-sweep-20261110.json",
+      "sourcePriceText": "1.131 €",
+      "notes": "Tarihli Airbnb fiyatı; nihai vergi ve ek ücret kapsamı kontrol edilmeli."
+    },
+    {
+      "id": "1740651283805171847",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "amountEUR": 2191,
+      "currencyBasis": "native",
+      "band": "within",
+      "taxKnown": false,
+      "taxReserveFlag": true,
+      "sourceTaxStatus": "unknown",
+      "depositFlag": false,
+      "depositText": null,
+      "componentOnly": false,
+      "sourceFile": "galeri-sweep-20261110.json",
+      "sourcePriceText": "2.191 €",
+      "notes": "Tarihli Airbnb fiyatı; nihai vergi ve ek ücret kapsamı kontrol edilmeli."
     }
   ],
   "pairs": [

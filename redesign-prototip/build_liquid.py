@@ -249,6 +249,7 @@ def bed_badge_label(record, verified_count):
     if not record:
         return fallback
     counts = {'tek': 0, 'çift': 0}
+    bunks = 0
     sofas = 0
     minimum = False
     for room in record['rooms']:
@@ -261,17 +262,24 @@ def bed_badge_label(record, verified_count):
             text = text.split(';', 1)[0]
         for match in re.finditer(r'\b(\d+)\s+(?:(?:king|queen|büyük|küçük)\s+)?(tek|çift)\s+kişilik\b', text):
             counts[match.group(2)] += int(match.group(1))
+        for match in re.finditer(r'\b(\d+)\s+ranza\b', text):
+            bunks += int(match.group(1))
         for match in re.finditer(r'\b(\d+)\s+çekyat\b', text):
             sofas += int(match.group(1))
-    total = sum(counts.values())
+    # A standard bunk has two separate sleeping places; the sofa stays separate.
+    total = sum(counts.values()) + 2 * bunks
     if not total or (verified_count is not None and total != verified_count):
         return fallback
     if counts['tek'] and counts['çift']:
         label = f"{counts['çift']} çift + {counts['tek']} tek kişilik yatak"
     elif counts['çift']:
         label = f"{counts['çift']} çift kişilik yatak"
-    else:
+    elif counts['tek']:
         label = f"{counts['tek']} tek kişilik yatak"
+    else:
+        label = ''
+    if bunks:
+        label += (' + ' if label else '') + f'{bunks} ranza'
     label = ('En az ' if minimum else '') + label
     label += f' + {sofas} çekyat' if sofas else ''
     return label + (' · teyit gerekli' if record.get('status') == 'belirsiz' else '')
@@ -1230,7 +1238,7 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
     quote_warning = ''
     quote_warning_html = f'<div class="offer-warning">{quote_warning}</div>' if quote_warning else ''
     source_file = row.get('_sourceFile') if ADULTS == 6 else ''
-    new_listing = source_file in ('new-search.json', 'new-search-ek.json', 'wellness-new.json', 'galeri-sweep-20261106.json', 'galeri-sweep-20261107.json')
+    new_listing = source_file in ('new-search.json', 'new-search-ek.json', 'wellness-new.json') or source_file.startswith('galeri-sweep-')
     refreshed_price = source_file == 'refreshed-search.json'
     fresh_text = 'Yeni Eklenen' if new_listing else 'Fiyat Güncellendi' if refreshed_price else ''
     shared_gallery = ''
