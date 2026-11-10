@@ -72,7 +72,7 @@
     fullButton.setAttribute('aria-label', on ? 'Tam ekrandan çık' : 'Haritayı tam ekran aç');
   };
   setFullLabel(false);
-  let nativeFull = false;
+  let nativeFull = false, refitOnResize = false, resizeTimer;
   function setFull(on) {
     if (panel.classList.contains('is-full') === on) return;
     panel.classList.toggle('is-full', on);
@@ -84,8 +84,10 @@
       nativeFull = false;
       if (document.fullscreenElement === panel) document.exitFullscreen().catch(() => {});
     }
-    // The larger frame shows more: fit every stay again unless a card is open.
-    if (map) setTimeout(() => { map.invalidateSize(); if (preview.hidden) fitPoints(); scheduleLayout(); }, 120);
+    // The frame's new size arrives later (the browser's full screen is
+    // asynchronous); the size observer below refits every stay once it does.
+    refitOnResize = true;
+    if (map) requestAnimationFrame(() => { map.invalidateSize(); scheduleLayout(); });
   }
   fullButton.addEventListener('click', () => setFull(!panel.classList.contains('is-full')));
   panel.addEventListener('fullscreenchange', () => {
@@ -728,6 +730,18 @@
       return wrap;
     }});
     map.addControl(new FullControl());
+    // Whatever changes the frame's size (full screen, window, phone rotation),
+    // the map and its tile canvas follow it.
+    if (window.ResizeObserver) new ResizeObserver(() => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        if (!map || !canvas.clientWidth || !canvas.clientHeight) return;
+        map.invalidateSize({pan:false});
+        if (refitOnResize && preview.hidden) fitPoints();
+        refitOnResize = false;
+        scheduleLayout();
+      }, 60);
+    }).observe(canvas);
     map.on('moveend zoomend resize', scheduleLayout);
     scheduleLayout();
     map.on('click', clearSelection);
