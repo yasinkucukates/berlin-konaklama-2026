@@ -225,6 +225,8 @@ def main() -> None:
     # whenever listings, styles, scripts, or the configured transport change.
     release = hashlib.sha256(page.encode('utf-8')).hexdigest()[:16]
     page = page.replace('<meta charset="utf-8">', f'<meta charset="utf-8"><meta name="berlin-release" content="{release}">', 1)
+    # A visible version mark: tells which copy a phone actually opened.
+    page = page.replace('</body></html>', f'<p class="release-mark">Sürüm {release[:8]}</p></body></html>', 1)
     args.output.write_text(page, encoding='utf-8')
     print('Combined bytes:', len(page.encode('utf-8')), 'output:', args.output)
 

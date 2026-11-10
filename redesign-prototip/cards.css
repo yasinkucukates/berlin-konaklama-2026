@@ -337,3 +337,10 @@ body{background:
 .active-filters-note{flex-basis:100%;margin:0;color:#6f3e2f;font:650 12px/1.4 var(--sans)}
 .filter-fields select.is-active{border-color:var(--terracotta);background-color:#fff7f2;color:var(--terracotta-deep);font-weight:750;box-shadow:0 0 0 1px var(--terracotta)}
 @media(max-width:639px){.active-filters{padding:8px 10px;margin-bottom:10px}.filter-chip,.filter-chips-clear{min-height:36px}}
+
+/* iPhone: every frosted-glass (backdrop-filter) element is a separate GPU
+   layer. Hundreds of them on cards, badges and photo buttons made iOS close
+   the tab. Cards keep the same colours, just without the live blur; the few
+   bars and dialogs keep it. */
+.stay-card,.stay-card *,.availability-status,.media-flag,.favorite-unavailable,.unavailable-stamp,.gm-control,.gm-counter{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+.release-mark{margin:28px auto 18px;text-align:center;color:#9a8f85;font:600 10px/1.4 var(--sans)}
