@@ -298,13 +298,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-10T07:00:22Z",
-      "sourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1#room_1270649713",
-      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-03, 7 yetişkin aramasında 1270649713 birimi için 134.089 TL + 3.371 TL vergi ve ücret gösterdi; toplam 137.460 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
-      "displayPrice": "Booking 137.460 TL, vergi ve ücretler dahil; i̇ade edilmez.",
-      "maxGuests": 7,
-      "capacityEvidence": "Booking seçili 70 m² birimde azami kişi sayısını 7 gösterdi. 2 odada üçer tek yatak ve oturma odasında bir çekyat listeleniyor.",
-      "capacitySourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1#room_1270649713"
+      "checkedAt": "2026-11-10T18:13:26.768Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1&selected_currency=USD#room_1270649713",
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 1270649713 numaralı eşleşen birimi seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -401,10 +397,9 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-10T07:00:22Z",
-      "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1#room_1557174401",
-      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 7 yetişkin aramasında 1557174401 birimi için 63.692 TL + 2.809 TL vergi ve ücret gösterdi; toplam 66.501 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
-      "displayPrice": "Booking 66.501 TL, vergi ve ücretler dahil; i̇ade edilmez."
+      "checkedAt": "2026-11-10T18:13:55.860Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174401",
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 1557174401 numaralı eşleşen birimi seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -743,10 +738,9 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-10T07:00:22Z",
+      "checkedAt": "2026-11-10T18:13:50.084Z",
       "sourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1#room_1270649713",
-      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 7 yetişkin aramasında 1270649713 birimi için 67.044 TL + 3.371 TL vergi ve ücret gösterdi; toplam 70.415 TL. İade edilmez. Kayıt zamanı kontrol aralığının başlangıcıdır.",
-      "displayPrice": "Booking 70.415 TL, vergi ve ücretler dahil; i̇ade edilmez."
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 1270649713 numaralı eşleşen birimi seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -766,10 +760,9 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-10T07:00:22Z",
+      "checkedAt": "2026-11-10T18:14:05.137Z",
       "sourceUrl": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1#room_1387722001",
-      "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 7 yetişkin aramasında 1387722001 birimi için 70.224 TL + 21.910 TL vergi ve ücret gösterdi; toplam 92.134 TL. 16 Aralık öncesi ücretsiz iptal. Kayıt zamanı kontrol aralığının başlangıcıdır.",
-      "displayPrice": "Booking 92.134 TL, vergi ve ücretler dahil; 16 aralık öncesi ücretsiz iptal."
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 1387722001 numaralı eşleşen birimi seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -2156,6 +2149,176 @@
       "sourceUrl": "https://skiplagged.com/hotel/8912209/traumhafte-wohnung-mitten-in-charlottenburg-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=6",
       "evidence": "Skiplagged canlı oda sorgusunda 6 yetişkin, 1 birim ve seçilen tarihler için Three-Bedroom Apartment teklifi görüldü; sorgu 17:56 ile 18:07 UTC arasında yapıldı.",
       "displayPrice": "Skiplagged $2464.72 toplam; kaynaktaki vergi kapsamını kontrol edin."
+    },
+    {
+      "scope": "card",
+      "id": "sweep6-booking-181193704-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:13:02.651Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/freedom-studioapartment-booking.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR#room_181193704",
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 181193704 numaralı eşleşen birimi seçilebilir gösterdi."
+    },
+    {
+      "scope": "card",
+      "id": "sweep7-booking-im-grund-22-c-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:13:06.615Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/im-grund-22-c.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1#room_715143503",
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 715143503 numaralı eşleşen birimi seçilebilir gösterdi."
+    },
+    {
+      "scope": "card",
+      "id": "grand-central-upper",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:13:12.737Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1#room_1315188502",
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 1315188502 numaralı eşleşen birimi seçilebilir gösterdi."
+    },
+    {
+      "scope": "card",
+      "id": "danziger-loft",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:13:15.388Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/greatstay-apartment-danzigerstr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1#room_169367802",
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 169367802 numaralı eşleşen birimi seçilebilir gösterdi."
+    },
+    {
+      "scope": "card",
+      "id": "paul-loft",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:13:20.300Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/greatstay-apartment-paul-robeson-str.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1#room_169367701",
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 169367701 numaralı eşleşen birimi seçilebilir gösterdi."
+    },
+    {
+      "scope": "card",
+      "id": "idyllisches-haus",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:13:47.069Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/idyllisches-haus-mitten-in-berlin.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0#room_254387201",
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 254387201 numaralı eşleşen birimi seçilebilir gösterdi."
+    },
+    {
+      "scope": "card",
+      "id": "sweep6-booking-181193704-20261230-20270101",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-01",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:13:52.707Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/freedom-studioapartment-booking.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR#room_181193704",
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 181193704 numaralı eşleşen birimi seçilebilir gösterdi."
+    },
+    {
+      "scope": "card",
+      "id": "bolunmus-alexa",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-01",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:14:01.594Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/spacious-family-home-near-alexanderplatz-and-free-parking.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1#room_1300661303",
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 1300661303 numaralı eşleşen birimi seçilebilir gösterdi."
+    },
+    {
+      "scope": "card",
+      "id": "sweep6-german-p2714753-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:15:15.101Z",
+      "sourceUrl": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p2714753?startDate=2026-12-30&endDate=2027-01-03&adults=7",
+      "evidence": "Kaynak, 2026-12-30–2027-01-03 ve 7 yetişkin için rezervasyon seçeneğini gösterdi."
+    },
+    {
+      "scope": "card",
+      "id": "sweep7-holidu-69492292-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:16:13.899Z",
+      "sourceUrl": "https://www.holidu.de/d/69492292?adults=7&checkin=2026-12-30&checkout=2027-01-03",
+      "evidence": "Kaynak, 2026-12-30–2027-01-03 ve 7 yetişkin için rezervasyon seçeneğini gösterdi."
+    },
+    {
+      "scope": "card",
+      "id": "yeni-locke-2-family",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:15:32Z",
+      "sourceUrl": "https://skiplagged.com/hotel/7675980/locke-at-east-side-gallery-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=7",
+      "evidence": "Skiplagged canlı oda sorgusunda 7 yetişkin, 2 birim ve seçilen tarihler için Family Apartment teklifi görüldü; sorgu 18:15 UTC sonrasında yapıldı.",
+      "displayPrice": "Skiplagged $2778.78 toplam; ücret kapsamını kaynakta kontrol edin."
+    },
+    {
+      "scope": "card",
+      "id": "yeni-wilde-2-daire",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:15:32Z",
+      "sourceUrl": "https://skiplagged.com/hotel/3558878/wilde-aparthotels-berlin-checkpoint-charlie-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=7",
+      "evidence": "Skiplagged canlı oda sorgusunda 7 yetişkin, 2 birim ve seçilen tarihler için One Bedroom Apartment teklifi görüldü; sorgu 18:15 UTC sonrasında yapıldı.",
+      "displayPrice": "Skiplagged $2599.64 toplam; ücret kapsamını kaynakta kontrol edin."
+    },
+    {
+      "scope": "card",
+      "id": "yeni-kreuzberg-freiligrath",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:15:32Z",
+      "sourceUrl": "https://skiplagged.com/hotel/9485872/im-herzen-von-kreuzberg---perfekt-gelegen-fur-bis-zu-8-personen-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
+      "evidence": "Skiplagged canlı oda sorgusunda 7 yetişkin, 1 birim ve seçilen tarihler için One-Bedroom Apartment teklifi görüldü; sorgu 18:15 UTC sonrasında yapıldı.",
+      "displayPrice": "Skiplagged $1642.24 toplam; ücret kapsamını kaynakta kontrol edin."
+    },
+    {
+      "scope": "card",
+      "id": "yeni-arabel-suite",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:15:32Z",
+      "sourceUrl": "https://skiplagged.com/hotel/744972/arabel-design-apartments-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
+      "evidence": "Skiplagged canlı oda sorgusunda 7 yetişkin, 1 birim ve seçilen tarihler için Three-Bedroom Suite teklifi görüldü; sorgu 18:15 UTC sonrasında yapıldı.",
+      "displayPrice": "Skiplagged $3160.87 toplam; ücret kapsamını kaynakta kontrol edin."
+    },
+    {
+      "scope": "card",
+      "id": "yeni-charlottenburg-uc-odali",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T18:15:32Z",
+      "sourceUrl": "https://skiplagged.com/hotel/8912209/traumhafte-wohnung-mitten-in-charlottenburg-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
+      "evidence": "Skiplagged canlı oda sorgusunda 7 yetişkin, 1 birim ve seçilen tarihler için Three-Bedroom Apartment teklifi görüldü; sorgu 18:15 UTC sonrasında yapıldı.",
+      "displayPrice": "Skiplagged $2554.32 toplam; ücret kapsamını kaynakta kontrol edin."
     }
   ]
 }
