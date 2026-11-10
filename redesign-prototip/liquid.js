@@ -400,11 +400,12 @@
   const cards = Array.from(root.querySelectorAll('.stay-card'));
   const groups = Array.from(root.querySelectorAll('.group'));
   const guestFilter = root.querySelector('.filter-guests');
-  const capacityFilter = root.querySelector('.filter-capacity');
   const priceFilter = root.querySelector('.filter-price');
   const travelFilter = root.querySelector('.filter-travel');
-  const bedsFilter = root.querySelector('.filter-beds');
-  const roomsFilter = root.querySelector('.filter-rooms');
+  // Checkbox groups: any ticked box within a group matches; features must all match.
+  const checkGroups = Array.from(root.querySelectorAll('.check-filter'));
+  const checkInputs = checkGroups.flatMap(group => Array.from(group.querySelectorAll('input[type="checkbox"]')));
+  const checkedValues = key => checkInputs.filter(input => input.checked && input.closest('.check-filter')?.dataset.filter === key).map(input => input.value);
   const availabilityFilter = root.querySelector('.filter-availability');
   const filterPanel = root.querySelector('.filter-panel');
   const mobileFilterButton = root.querySelector('.mobile-filter-toggle');
@@ -437,7 +438,7 @@
     activeFilterBar.hidden = true;
     resultsContent.prepend(activeFilterBar);
   }
-  const filterValues = [capacityFilter, priceFilter, travelFilter, bedsFilter, roomsFilter, availabilityFilter].filter(Boolean);
+  const filterValues = [priceFilter, travelFilter, availabilityFilter].filter(Boolean);
   const knownNumber = value => value !== undefined && value !== '' && Number.isFinite(Number(value)) ? Number(value) : null;
   let availabilityRecords = embeddedAvailability;
   let favoriteAnchor = null;
@@ -606,7 +607,8 @@
     favoritesSection.hidden=!favoritesOnly;
     newSection.hidden=!newOnly || favoritesOnly;
     const party = guestFilter?.value === '7' ? 7 : 6;
-    const hasExtraFilters = filterValues.some(control => control.value !== 'all');
+    const hasExtraFilters = filterValues.some(control => control.value !== 'all') || checkInputs.some(input => input.checked);
+    const capacityChoice = checkedValues('capacity'), roomChoice = checkedValues('rooms'), bathChoice = checkedValues('baths'), featureChoice = checkedValues('features');
     const filtering = favoritesOnly || activeBest !== '' || newOnly || hasExtraFilters;
     root.querySelectorAll('tr[data-share-people]').forEach(row => { row.hidden = Number(row.dataset.sharePeople) !== party; });
     const houseHasBest = cards.some(card => card.dataset.planGroup === 'full-villa' && (card.dataset.bestEligible === 'true' || card.dataset.bestCandidate === 'true') && (party === 6 || knownNumber(card.dataset.normalBeds) >= party));
@@ -619,13 +621,18 @@
       const travel = knownNumber(card.dataset.tresorCarMin);
       const beds = knownNumber(card.dataset.normalBeds);
       const rooms = knownNumber(card.dataset.rooms);
-      const guestMatch = !capacityFilter || capacityFilter.value === 'all' ||
-        (capacity !== null && (capacityFilter.value === '6' ? capacity === 6 : capacity >= 7));
+      const baths = knownNumber(card.dataset.baths);
+      const guestMatch = !capacityChoice.length ||
+        (capacity !== null && capacityChoice.some(value => value === '6' ? capacity === 6 : capacity >= 7));
       const priceMatch = !priceFilter || priceFilter.value === 'all' || (price !== null && price <= Number(priceFilter.value));
       const travelMatch = !travelFilter || travelFilter.value === 'all' || (travel !== null && travel <= Number(travelFilter.value));
-      const bedsMatch = !bedsFilter || bedsFilter.value === 'all' || (beds !== null && beds >= party);
-      const roomMatch = !roomsFilter || roomsFilter.value === 'all' || (rooms !== null && rooms >= Number(roomsFilter.value));
-      const generalMatch = favoriteMatch && newMatch && guestMatch && priceMatch && travelMatch && bedsMatch && roomMatch;
+      const roomMatch = !roomChoice.length || (rooms !== null && roomChoice.some(value => value === '5' ? rooms >= 5 : rooms === Number(value)));
+      // Unknown or contradictory bath counts are never guessed into a number.
+      const bathMatch = !bathChoice.length || bathChoice.some(value => value === 'unknown' ? baths === null : baths !== null && (value === '3' ? baths >= 3 : baths === Number(value)));
+      const featureMatch = (!featureChoice.includes('separate-beds') || (beds !== null && beds >= party)) &&
+        (!featureChoice.includes('separate-wc') || card.dataset.separateWc === 'true') &&
+        (!featureChoice.includes('sauna') || card.dataset.sauna === 'true');
+      const generalMatch = favoriteMatch && newMatch && guestMatch && priceMatch && travelMatch && roomMatch && bathMatch && featureMatch;
       const bestMatch = ((card.dataset.bestEligible === 'true' || card.dataset.bestCandidate === 'true') && (party === 6 || (beds !== null && beds >= party))) ||
         (activeBest === 'best-apartment' && card.dataset.planGroup === 'full-daire' && card.dataset.bestAlternative === 'true') ||
         (showHouseAlternatives && card.dataset.planGroup === 'full-villa' && card.dataset.bestAlternative === 'true');
@@ -809,7 +816,7 @@
       const visibleCount = cards.filter(card => !card.hidden && (favoritesOnly || !card.closest('.group')?.hidden)).length;
       filterResults.textContent = hasExtraFilters ? `${visibleCount} seçenek gösteriliyor` : '';
     }
-    const filterCount = filterValues.filter(control => control.value !== 'all').length;
+    const filterCount = filterValues.filter(control => control.value !== 'all').length + checkInputs.filter(input => input.checked).length;
     const mobileCount = mobileFilterButton?.querySelector('.active-filter-count');
     if (mobileCount) mobileCount.textContent = filterCount ? `(${filterCount})` : '';
     renderActiveFilters();
@@ -821,6 +828,12 @@
       const name = (control.closest('label')?.firstChild?.textContent || '').trim();
       const value = control.selectedOptions[0]?.textContent.trim() || control.value;
       return {text:name ? `${name}: ${value}` : value, clear:() => { control.value = 'all'; }};
+    });
+    checkGroups.forEach(group => group.classList.toggle('is-active', !!group.querySelector('input:checked')));
+    checkInputs.filter(input => input.checked).forEach(input => {
+      const name = input.closest('.check-filter')?.querySelector('legend')?.textContent.trim() || '';
+      const value = input.dataset.chip || input.closest('label')?.textContent.trim() || input.value;
+      chips.push({text:name === 'Özellikler' ? value : `${name}: ${value}`, clear:() => { input.checked = false; }});
     });
     if (activeBest) chips.unshift({text:activeBest === 'best-house' ? 'En Uygun Villa' : 'En Uygun Daire', clear:() => selectPlan(selectedGroup?.id || allPlanId)});
     if (newOnly) chips.unshift({text:'Son Eklenenler', clear:() => setNewOnly(false)});
@@ -867,8 +880,10 @@
   }
   filterValues.forEach(control => control.addEventListener('change', () => { applyFilters(); if (sort) applySort(); }));
   guestFilter?.addEventListener('change', () => { applyFilters(); if (sort) applySort(); });
+  checkInputs.forEach(input => input.addEventListener('change', () => { applyFilters(); if (sort) applySort(); }));
   root.querySelector('.filters-clear')?.addEventListener('click', () => {
     filterValues.forEach(control => { control.value = 'all'; });
+    checkInputs.forEach(input => { input.checked = false; });
     if (guestFilter) guestFilter.value = '6';
     favoritesOnly = false; favoriteFilter?.setAttribute('aria-pressed', 'false');
     setNewOnly(false); selectPlan(allPlanId);

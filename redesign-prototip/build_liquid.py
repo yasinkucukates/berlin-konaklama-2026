@@ -83,6 +83,24 @@ RUEBEZAHL_EXCEPTION_KEYS = {
 # to show them again as their own cards, under their original dated IDs.
 
 
+
+def bath_facts(value):
+    """Full bathrooms and a separate WC, only where the listing text is unambiguous.
+
+    A half bath (1,5) or an extra WC is not a full bathroom. Contradictory or
+    vague source text stays unknown instead of being guessed.
+    """
+    text = str(value if value is not None else '').strip()
+    if not text or re.search(r'^Teyitsiz|kaynak çelişkili|belirsiz|^En az', text, re.I):
+        return None, False
+    match = re.match(r'(\d+)(?:[.,](\d))?', text)
+    if not match:
+        return None, False
+    full = int(match.group(1))
+    separate_wc = bool(match.group(2) and match.group(2) != '0') or bool(
+        re.search(r'ayrı WC|tam \+ (?:1 )?WC|\+ 1 WC', text, re.I))
+    return (full if full > 0 else None), separate_wc
+
 def read_json(path: Path):
     return json.loads(path.read_text(encoding='utf-8'))
 
@@ -1233,9 +1251,10 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
         room_count = int(room_count.strip())
     if not isinstance(room_count, int) or isinstance(room_count, bool) or room_count < 1:
         room_count = None
+    bath_full, bath_wc = bath_facts(row.get('baths'))
     sauna_listed = (ruebezahl_exception(row) or str(row.get('id') or '') == '1175489093358086077'
                     or (winter_wellness_verified(row) and row['winterWellnessProof']['kind'] == 'sauna'))
-    data = f' data-capacity="{esc(capacity if capacity is not None else "")}" data-rooms="{esc(room_count if room_count is not None else "")}" data-sauna="{str(sauna_listed).lower()}" data-offer-adults="{ADULTS}" data-price-eur="{esc(amount_eur if amount_eur is not None else "")}" data-normal-beds="{esc(preferred_beds if preferred_beds is not None else "")}" data-best-eligible="{str(best_offer).lower()}" data-best-candidate="{str(best_candidate).lower()}" data-best-alternative="{str(bool(alternative)).lower()}" data-alternative-rank="{alternative[0] if alternative else 99}" data-best-basis="{best_basis}" data-best-price-label="{esc(best_price_label)}"'
+    data = f' data-capacity="{esc(capacity if capacity is not None else "")}" data-rooms="{esc(room_count if room_count is not None else "")}" data-sauna="{str(sauna_listed).lower()}" data-baths="{bath_full if bath_full is not None else ''}" data-separate-wc="{str(bath_wc).lower()}" data-offer-adults="{ADULTS}" data-price-eur="{esc(amount_eur if amount_eur is not None else "")}" data-normal-beds="{esc(preferred_beds if preferred_beds is not None else "")}" data-best-eligible="{str(best_offer).lower()}" data-best-candidate="{str(best_candidate).lower()}" data-best-alternative="{str(bool(alternative)).lower()}" data-alternative-rank="{alternative[0] if alternative else 99}" data-best-basis="{best_basis}" data-best-price-label="{esc(best_price_label)}"'
     for field in ('rsoCarMin', 'tresorCarMin', 'rsoTransitMin', 'tresorTransitMin'):
         val = route.get(field)
         if isinstance(val, (int, float)) and not isinstance(val, bool) and math.isfinite(val) and val >= 0:
