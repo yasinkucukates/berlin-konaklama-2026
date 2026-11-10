@@ -796,6 +796,54 @@
       "sourceUrl": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1#room_1387722001",
       "evidence": "10 Kasım 10.00–10.31 İstanbul saatlerinde Booking.com, 2026-12-30–2027-01-01, 7 yetişkin aramasında 1387722001 birimi için 70.224 TL + 21.910 TL vergi ve ücret gösterdi; toplam 92.134 TL. 16 Aralık öncesi ücretsiz iptal. Kayıt zamanı kontrol aralığının başlangıcıdır.",
       "displayPrice": "Booking 92.134 TL, vergi ve ücretler dahil; 16 aralık öncesi ücretsiz iptal."
+    },
+    {
+      "scope": "card",
+      "id": "35666163",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-10T17:30:10Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "Airbnb rezervasyon alanı 30 Aralık 2026–3 Ocak 2027 için 6 yetişkin seçiliyken 1.131 € toplam ve rezervasyon düğmesi gösterdi. Vergi kapsamı ayrı teyit edilmedi.",
+      "displayPrice": "Airbnb 1.131 €; vergi kapsamı ayrıca doğrulanmalı."
+    },
+    {
+      "scope": "card",
+      "id": "35666163",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T17:30:14Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "Airbnb rezervasyon alanı 30 Aralık 2026–3 Ocak 2027 için 7 yetişkin seçiliyken 1.131 € toplam ve rezervasyon düğmesi gösterdi. Vergi kapsamı ayrı teyit edilmedi.",
+      "displayPrice": "Airbnb 1.131 €; vergi kapsamı ayrıca doğrulanmalı."
+    },
+    {
+      "scope": "card",
+      "id": "1740651283805171847",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-10T17:30:04Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "Airbnb rezervasyon alanı 30 Aralık 2026–3 Ocak 2027 için 6 yetişkin seçiliyken 2.191 € toplam ve rezervasyon düğmesi gösterdi. Vergi kapsamı ayrı teyit edilmedi.",
+      "displayPrice": "Airbnb 2.191 €; vergi kapsamı ayrıca doğrulanmalı."
+    },
+    {
+      "scope": "card",
+      "id": "1740651283805171847",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-10T17:30:07Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "Airbnb rezervasyon alanı 30 Aralık 2026–3 Ocak 2027 için 7 yetişkin seçiliyken 2.191 € toplam ve rezervasyon düğmesi gösterdi. Vergi kapsamı ayrı teyit edilmedi.",
+      "displayPrice": "Airbnb 2.191 €; vergi kapsamı ayrıca doğrulanmalı."
     }
   ]
 }
