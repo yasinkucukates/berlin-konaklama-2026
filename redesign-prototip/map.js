@@ -30,7 +30,7 @@
   let markers = new Map();
   let clubMarkers = new Map(), clubNames = new Map(), namePane;
   let stayPins = [], lastSignature = '', favoritesOnly = false, layoutQueued = false;
-  let selectedKeys = null, selectionTimer = null, previewOffer = null;
+  let selectedKeys = null, selectionTimer = null, previewOffer = null, listShown = null;
   const scrollBehavior = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
   const clubCenter = [52.52, 13.405];
   const markStatus = (message) => { status.textContent = message; };
@@ -60,6 +60,41 @@
   favoriteToggle.append(svgIcon('heart'), document.createTextNode(' Yalnız Favoriler '));
   const favoriteCount = document.createElement('span'); favoriteCount.className = 'map-favorites-count'; favoriteToggle.append(favoriteCount);
   if (mapControls) mapControls.prepend(favoriteToggle);
+  // Full screen: the browser's own full screen where it exists (desktop),
+  // otherwise the panel simply covers the page. Lives in the map's corner.
+  const fullButton = document.createElement('button');
+  fullButton.type = 'button'; fullButton.className = 'map-full-toggle'; fullButton.setAttribute('aria-pressed', 'false');
+  const fullText = document.createElement('span');
+  const setFullLabel = on => {
+    fullButton.replaceChildren(svgIcon(on ? 'minimize-2' : 'maximize-2'), fullText);
+    fullText.textContent = on ? 'Küçült' : 'Tam ekran';
+    fullButton.setAttribute('aria-pressed', String(on));
+    fullButton.setAttribute('aria-label', on ? 'Tam ekrandan çık' : 'Haritayı tam ekran aç');
+  };
+  setFullLabel(false);
+  let nativeFull = false;
+  function setFull(on) {
+    if (panel.classList.contains('is-full') === on) return;
+    panel.classList.toggle('is-full', on);
+    document.documentElement.classList.toggle('map-full-open', on);
+    setFullLabel(on);
+    if (on && !mapIsModal && panel.requestFullscreen) {
+      panel.requestFullscreen().then(() => { nativeFull = true; }).catch(() => { nativeFull = false; });
+    } else if (!on && nativeFull) {
+      nativeFull = false;
+      if (document.fullscreenElement === panel) document.exitFullscreen().catch(() => {});
+    }
+    // The larger frame shows more: fit every stay again unless a card is open.
+    if (map) setTimeout(() => { map.invalidateSize(); if (preview.hidden) fitPoints(); scheduleLayout(); }, 120);
+  }
+  fullButton.addEventListener('click', () => setFull(!panel.classList.contains('is-full')));
+  panel.addEventListener('fullscreenchange', () => {
+    if (!document.fullscreenElement && nativeFull) { nativeFull = false; setFull(false); }
+    if (map) requestAnimationFrame(() => { map.invalidateSize(); scheduleLayout(); });
+  });
+  window.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && panel.classList.contains('is-full') && !nativeFull && !mapIsModal && !(dialog && dialog.open)) setFull(false);
+  });
   function clearSelection() {
     clearTimeout(selectionTimer); selectionTimer = null;
     canvas.querySelectorAll('.map-pin.selected').forEach(el => el.classList.remove('selected', 'pin-pulse'));
@@ -181,16 +216,22 @@
     if (Number.isFinite(eur) && eur > 0) return `${head && head.dataset.fxCurrency !== 'EUR' ? '≈' : ''}${whole.format(Math.round(eur))} €`;
     return 'Fiyat ?';
   };
+  // A label always says how many offers it stands for ("4 ilan"), so several
+  // offers at one point or grouped nearby are visible without a tap.
+  function fillLabel(pill, cards, label) {
+    pill.replaceChildren();
+    const votes = cards.reduce((sum, card) => sum + Number(card.dataset.votes || 0), 0);
+    if (votes) { pill.append(svgIcon('heart')); const v = document.createElement('b'); v.className = 'pin-votes'; v.textContent = String(votes); pill.append(v); }
+    const price = document.createElement('span'); price.className = 'pin-price'; price.textContent = label; pill.append(price);
+    if (cards.length > 1) { const count = document.createElement('span'); count.className = 'pin-count'; count.textContent = `${cards.length} ilan`; pill.append(count); }
+  }
   function stayIcon(samePoint, label, className) {
     const wrap = document.createElement('span');
     const pill = document.createElement('span'); pill.className = 'pin-label';
-    const votes = samePoint.reduce((sum, card) => sum + Number(card.dataset.votes || 0), 0);
-    if (votes) { pill.append(svgIcon('heart')); const v = document.createElement('b'); v.className = 'pin-votes'; v.textContent = String(votes); pill.append(v); }
-    const price = document.createElement('span'); price.className = 'pin-price'; price.textContent = label; pill.append(price);
-    if (samePoint.length > 1) { const count = document.createElement('span'); count.className = 'pin-count'; count.textContent = `+${samePoint.length - 1}`; pill.append(count); }
+    fillLabel(pill, samePoint, label);
     const dot = document.createElement('span'); dot.className = 'pin-shape';
     wrap.append(dot, pill);
-    return window.L.divIcon({className, html:wrap.innerHTML, iconSize:[14,14], iconAnchor:[7,7]});
+    return window.L.divIcon({className:`${className}${samePoint.length > 1 ? ' multi' : ''}`, html:wrap.innerHTML, iconSize:[14,14], iconAnchor:[7,7]});
   }
   function clubIcon(name, className) {
     const wrap = document.createElement('span');
@@ -267,7 +308,7 @@
     const copy = strong.cloneNode(true); copy.querySelectorAll('.price-qualifier').forEach(el => el.remove());
     return copy.textContent.trim();
   }
-  function previewSingle(card, samePoint, marker) {
+  function previewSingle(card, samePoint, marker, area = false) {
     previewOffer = card;
     const content = [];
     const close = document.createElement('button'); close.type = 'button'; close.className = 'map-preview-close';
@@ -281,8 +322,8 @@
     const body = document.createElement('div'); body.className = 'map-preview-body';
     if (samePoint.length > 1) {
       const back = document.createElement('button'); back.type = 'button'; back.className = 'map-preview-back';
-      back.textContent = `← Bu konumdaki ${samePoint.length} teklif`;
-      back.addEventListener('click', () => previewList(samePoint, marker));
+      back.textContent = `← Bu ${area ? 'bölgedeki' : 'konumdaki'} ${samePoint.length} teklif`;
+      back.addEventListener('click', () => previewList(samePoint, marker, area));
       body.append(back);
     }
     const kicker = document.createElement('p'); kicker.className = 'map-preview-kicker'; kicker.textContent = textOf(card, '.card-kicker');
@@ -330,13 +371,26 @@
     preview.replaceChildren(...content, media, body, actions);
     preview.hidden = false;
   }
-  function previewList(samePoint, marker) {
-    previewOffer = null;
+  function previewList(samePoint, marker, area = false) {
+    previewOffer = null; listShown = {marker, area, count:samePoint.length};
     const close = document.createElement('button'); close.type = 'button'; close.className = 'map-preview-close';
     close.setAttribute('aria-label', 'Kartı kapat'); close.append(svgIcon('x')); close.addEventListener('click', clearSelection);
     const body = document.createElement('div'); body.className = 'map-preview-body';
-    const heading = document.createElement('h3'); heading.textContent = `Bu konumda ${samePoint.length} teklif`;
-    const note = document.createElement('p'); note.className = 'map-preview-kicker'; note.textContent = 'Aynı yaklaşık noktayı kullanan teklifler; kapı konumları ayrıca doğrulanmadı.';
+    const heading = document.createElement('h3'); heading.textContent = `Bu ${area ? 'bölgede' : 'konumda'} ${samePoint.length} teklif`;
+    const note = document.createElement('p'); note.className = 'map-preview-kicker';
+    note.textContent = area
+      ? 'Birbirine yakın teklifler bu ölçekte tek etikette toplandı; yakınlaştırınca ayrılırlar.'
+      : 'Aynı yaklaşık noktayı kullanan teklifler; kapı konumları ayrıca doğrulanmadı.';
+    let zoomButton = null;
+    if (area) {
+      const zoom = zoomButton = document.createElement('button'); zoom.type = 'button'; zoom.className = 'map-preview-back map-preview-zoom';
+      zoom.textContent = 'Bu bölgeye yakınlaştır →';
+      zoom.addEventListener('click', () => {
+        const points = samePoint.map(card => [Number(card.dataset.lat), Number(card.dataset.lon)]);
+        clearSelection();
+        map.fitBounds(window.L.latLngBounds(points), {padding:[70, 70], maxZoom:16});
+      });
+    }
     const list = document.createElement('div'); list.className = 'map-preview-list';
     samePoint.slice().sort((a, b) => Number(isFavorite(b)) - Number(isFavorite(a)) || a.dataset.checkIn.localeCompare(b.dataset.checkIn) || Number(a.dataset.priceEur) - Number(b.dataset.priceEur)).forEach(card => {
       const row = document.createElement('button'); row.type = 'button'; row.className = 'map-preview-row';
@@ -346,22 +400,22 @@
       const amount = document.createElement('strong'); amount.textContent = headPrice(card);
       if (isFavorite(card)) { const heart = document.createElement('span'); heart.className = 'row-heart'; heart.append(svgIcon('heart'), document.createTextNode(card.dataset.votes)); name.prepend(heart); }
       row.append(name, amount, date);
-      row.addEventListener('click', () => previewSingle(card, samePoint, marker));
+      row.addEventListener('click', () => previewSingle(card, samePoint, marker, area));
       list.append(row);
     });
-    body.append(heading, note, list);
+    body.append(heading, note, ...(zoomButton ? [zoomButton] : []), list);
     preview.classList.remove('is-unavailable'); preview.classList.add('is-list');
     preview.setAttribute('aria-label', `${samePoint.length} teklif · seçili konum`);
     preview.replaceChildren(close, body);
     preview.hidden = false;
   }
-  function selectPoint(samePoint, marker, card = null) {
+  function selectPoint(samePoint, marker, card = null, area = false) {
     canvas.querySelectorAll('.map-pin.selected').forEach(el => el.classList.remove('selected'));
     marker.getElement()?.classList.add('selected');
     marker.setZIndexOffset(3000);
     selectedKeys = samePoint.map(offerKey);
-    if (card || samePoint.length === 1) previewSingle(card || samePoint[0], samePoint, marker);
-    else previewList(samePoint, marker);
+    if (card || samePoint.length === 1) previewSingle(card || samePoint[0], samePoint, marker, area);
+    else previewList(samePoint, marker, area);
     requestAnimationFrame(() => revealPin(marker));
     scheduleLayout();
   }
@@ -413,7 +467,9 @@
       const markerClass = `map-pin${favorite ? ' favorite' : ''}${unavailable ? ' unavailable' : ''}`;
       const rank = priority(samePoint) + (unavailable ? 2 : 0);
       const marker = window.L.marker([lat,lon], {icon:stayIcon(samePoint, label, markerClass), title:accessibleName, keyboard:true, zIndexOffset:(5 - rank) * 200, riseOnHover:true});
-      const open = () => selectPoint(samePoint, marker);
+      const pin = {marker, samePoint, rank, label, accessibleName, price:Number(card.dataset.priceEur) || Infinity, group:null};
+      // While nearby pins share this label, a tap lists all of their offers.
+      const open = () => pin.group ? selectPoint(pin.group, marker, null, true) : selectPoint(samePoint, marker);
       marker.on('click', open);
       marker.on('add', () => {
         const element = marker.getElement();
@@ -429,7 +485,7 @@
         });
       });
       marker.addTo(markerLayer); samePoint.forEach(item => markers.set(item, marker));
-      stayPins.push({marker, samePoint, rank, price:Number(card.dataset.priceEur) || Infinity});
+      stayPins.push(pin);
       if (keep && samePoint.some(c => keep.includes(offerKey(c)))) restored = {samePoint, marker};
     });
     if (restored) {
@@ -454,10 +510,24 @@
     favoriteCount.textContent = `(${total})`;
     favoriteToggle.setAttribute('aria-pressed', String(favoritesOnly));
   }
-  // One labelling pass for the whole map. Labels are placed in order of
-  // importance and never cover another label, a club disc or a stay dot. A
-  // stay label that does not fit keeps its dot; a club name that does not fit
-  // waits for zoom. Hovering or focusing a marker always shows its name.
+  // Label one stay without grouping (its own offers and price).
+  function ownLabel(pin) {
+    const el = pin.marker.getElement(), label = el?.querySelector('.pin-label');
+    if (!el || !label) return;
+    if (pin.group) {
+      fillLabel(label, pin.samePoint, pin.label);
+      el.classList.toggle('multi', pin.samePoint.length > 1);
+      el.classList.toggle('favorite', pin.samePoint.some(isFavorite));
+      el.classList.toggle('unavailable', pin.samePoint.every(c => c.dataset.availability === 'unavailable'));
+      el.setAttribute('aria-label', pin.accessibleName);
+      pin.group = null;
+    }
+  }
+  // One labelling pass for the whole map. Nothing is dropped: every stay in
+  // view either gets its own price label or joins the nearest label, which
+  // then counts all of its offers ("5 ilan") and lists them on tap. Labels
+  // never cover another label, a stay dot or Tresor/RSO. Club names are
+  // placed afterwards where room is left; hovering a club shows its name.
   function layoutLabels() {
     if (!map || canvas.hidden) return;
     // Markers glide during a zoom animation; measure where they stop.
@@ -469,20 +539,102 @@
     const box = (left, top, width, height) => ({left, top, right:left + width, bottom:top + height});
     const placed = Array.from(canvas.querySelectorAll('.leaflet-control')).map(el => el.getBoundingClientRect());
     if (!preview.hidden) placed.push(preview.getBoundingClientRect());
+    const anchors = [];
+    clubMarkers.forEach(marker => {
+      const el = marker.getElement();
+      if (el?.classList.contains('anchor')) { const disc = el.querySelector('.pin-shape'); if (disc) anchors.push(disc.getBoundingClientRect()); }
+    });
     const marks = [];
-    const items = [];
+    const pins = [];
     stayPins.forEach(pin => {
+      ownLabel(pin);
       const el = pin.marker.getElement(), label = el?.querySelector('.pin-label'), dot = el?.querySelector('.pin-shape');
       if (!el || !label || !dot) return;
-      el.classList.remove('compact', 'below', 'right', 'left');
+      el.classList.remove('compact', 'below', 'right', 'left', 'grouped-away');
       const dotRect = dot.getBoundingClientRect();
       if (!hit(dotRect, bounds, 0)) { el.classList.add('compact'); return; }
       const selected = el.classList.contains('selected');
-      const favorite = pin.samePoint.some(isFavorite);
-      const order = selected ? 0 : favorite ? 2 : pin.rank >= 4 ? 5 : 4;
-      marks.push({el, rect:dotRect, level:selected ? 0 : favorite ? 1 : order});
-      items.push({kind:'stay', el, label, mark:dotRect, order, block:order, price:pin.price});
+      const order = selected ? 0 : pin.samePoint.some(isFavorite) ? 2 : pin.rank >= 4 ? 5 : 4;
+      pins.push({pin, el, label, dot:dotRect, order});
     });
+    pins.sort((a, b) => a.order - b.order || a.pin.price - b.pin.price);
+    const groups = [];
+    const sidesFor = (m, size) => {
+      const w = size.width, h = size.height, cy = (m.top + m.bottom) / 2, gap = m.top - size.bottom;
+      return [['', box(size.left, size.top, w, h)], ['below', box(size.left, m.bottom + gap, w, h)],
+        ['right', box(m.right + gap, cy - h / 2, w, h)], ['left', box(m.left - gap - w, cy - h / 2, w, h)]];
+    };
+    const free = (rect, self) => inside(rect) && !placed.some(other => hit(rect, other)) && !anchors.some(a => hit(rect, a, 1)) &&
+      !groups.some(g => hit(rect, g.rect) || (g !== self && hit(rect, g.dot, 1)));
+    const center = r => [(r.left + r.right) / 2, (r.top + r.bottom) / 2];
+    const nearest = item => {
+      const [x, y] = center(item.dot);
+      return groups.reduce((best, g) => {
+        const [gx, gy] = center(g.dot), d = Math.hypot(gx - x, gy - y);
+        return !best || d < best.d ? {g, d} : best;
+      }, null)?.g;
+    };
+    pins.forEach(item => {
+      // A dot under an existing label or next to another dot joins that label.
+      const under = item.order === 0 ? null : groups.find(g => hit(item.dot, g.rect, 2) || hit(item.dot, g.dot, 3));
+      if (under) { under.members.push(item); return; }
+      const choice = sidesFor(item.dot, item.label.getBoundingClientRect()).find(([, rect]) => free(rect, null));
+      if (choice) { groups.push({lead:item, members:[item], side:choice[0], rect:choice[1], dot:item.dot}); return; }
+      const near = item.order === 0 ? null : nearest(item);
+      if (near) near.members.push(item);
+      else groups.push({lead:item, members:[item], side:'', rect:item.label.getBoundingClientRect(), dot:item.dot});
+    });
+    // Write each group's label. The count makes a label wider; if it then
+    // fits on no side, the whole group joins its nearest neighbour instead.
+    const fits = (rect, g) => inside(rect) && !placed.some(o => hit(rect, o)) && !anchors.some(a => hit(rect, a, 1)) &&
+      !groups.some(o => o !== g && (hit(rect, o.rect) || hit(rect, o.dot, 1)));
+    const render = g => {
+      const {el, label, pin} = g.lead;
+      if (g.members.length < 2) return true;
+      const cards = g.members.flatMap(m => m.pin.samePoint);
+      cards.sort((a, b) => Number(a.dataset.availability === 'unavailable') - Number(b.dataset.availability === 'unavailable') || Number(a.dataset.priceEur || Infinity) - Number(b.dataset.priceEur || Infinity));
+      pin.group = cards;
+      fillLabel(label, cards, pin.samePoint.includes(cards[0]) ? pin.label : priceOf(cards[0]));
+      const favorite = cards.some(isFavorite), unavailable = cards.every(c => c.dataset.availability === 'unavailable');
+      el.classList.add('multi'); el.classList.toggle('favorite', favorite); el.classList.toggle('unavailable', unavailable);
+      const votes = cards.reduce((sum, c) => sum + Number(c.dataset.votes || 0), 0);
+      el.setAttribute('aria-label', `Bu bölgede ${cards.length} teklif · en düşük ${priceOf(cards[0])}${votes ? ` · ${votes} beğeni` : ''} · teklifleri göster`);
+      g.members.forEach(m => { m.el.classList.toggle('grouped-away', m !== g.lead); });
+      const sides = sidesFor(g.dot, label.getBoundingClientRect());
+      const current = sides.find(([side]) => side === g.side);
+      const better = fits(current[1], g) ? current : sides.find(([, rect]) => fits(rect, g));
+      if (better) { g.side = better[0]; g.rect = better[1]; return true; }
+      g.side = current[0]; g.rect = current[1];
+      return false;
+    };
+    for (let pass = 0; pass < 8; pass++) {
+      let changed = false;
+      for (const g of groups.slice()) {
+        if (!groups.includes(g) || render(g) || g.lead.order === 0) continue;
+        const others = groups.filter(o => o !== g);
+        if (!others.length) continue;
+        const [x, y] = center(g.dot);
+        const target = others.reduce((best, o) => { const [ox, oy] = center(o.dot), d = Math.hypot(ox - x, oy - y); return !best || d < best.d ? {o, d} : best; }, null).o;
+        target.members.push(...g.members);
+        groups.splice(groups.indexOf(g), 1);
+        ownLabel(g.lead.pin);
+        changed = true;
+      }
+      if (!changed) break;
+    }
+    groups.forEach(g => { if (g.side) g.lead.el.classList.add(g.side); });
+    // An open list follows its label: if the label now counts more or fewer
+    // offers (the card itself takes room on the map), list the same offers.
+    if (listShown?.area && !preview.hidden && preview.classList.contains('is-list')) {
+      const shown = groups.find(g => g.lead.pin.marker === listShown.marker)?.lead.pin;
+      const cards = shown ? (shown.group || shown.samePoint) : null;
+      if (cards && cards.length !== listShown.count) {
+        selectedKeys = cards.map(offerKey);
+        if (cards.length > 1) previewList(cards, listShown.marker, Boolean(shown.group)); else previewSingle(cards[0], cards, listShown.marker);
+      }
+    }
+    groups.forEach(g => { placed.push(g.rect); marks.push({el:g.lead.el, rect:g.dot, level:0}); });
+    const items = [];
     clubMarkers.forEach((marker, index) => {
       const el = marker.getElement(), label = clubNames.get(index), disc = el?.querySelector('.pin-shape');
       if (!el || !label || !disc) return;
@@ -491,29 +643,17 @@
       if (!hit(discRect, bounds, 0)) return;
       const anchor = el.classList.contains('anchor');
       marks.push({el, rect:discRect, level:0});
-      items.push({kind:'club', el, label, mark:discRect, order:anchor ? 1 : 3, block:anchor ? 1 : 4, price:0});
+      items.push({el, label, mark:discRect, order:anchor ? 1 : 3});
     });
-    // Stay dots sit above club discs; club names sit above both. Tresor/RSO
-    // and favourite labels may cover ordinary dots, price labels may cover
-    // booked dots, and nothing covers a favourite or the chosen pin.
-    const free = (rect, item) => inside(rect) && !placed.some(other => hit(rect, other)) &&
-      !marks.some(mark => mark.el !== item.el && mark.level <= item.block && hit(rect, mark.rect, 1));
-    items.sort((a, b) => a.order - b.order || a.price - b.price).forEach(item => {
+    const freeName = (rect, item) => inside(rect) && !placed.some(other => hit(rect, other)) &&
+      !marks.some(mark => mark.el !== item.el && hit(rect, mark.rect, 1));
+    items.sort((a, b) => a.order - b.order).forEach(item => {
       const size = item.label.getBoundingClientRect();
       const m = item.mark, cx = (m.left + m.right) / 2, cy = (m.top + m.bottom) / 2, w = size.width, h = size.height;
-      if (item.kind === 'stay') {
-        const gap = m.top - size.bottom;
-        const sides = [['', size], ['below', box(size.left, m.bottom + gap, w, h)], ['right', box(m.right + gap, cy - h / 2, w, h)], ['left', box(m.left - gap - w, cy - h / 2, w, h)]];
-        const choice = sides.find(([, rect]) => free(rect, item));
-        if (choice) { if (choice[0]) item.el.classList.add(choice[0]); placed.push(choice[1]); }
-        else if (item.order === 0) placed.push(size);
-        else item.el.classList.add('compact');
-        return;
-      }
       const gap = 5;
       const choice = [box(cx - w / 2, m.top - gap - h, w, h), box(m.right + gap, cy - h / 2, w, h), box(cx - w / 2, m.bottom + gap, w, h), box(m.left - gap - w, cy - h / 2, w, h),
         box(m.right - 4, m.top - h - 2, w, h), box(m.left - w + 4, m.top - h - 2, w, h), box(m.right - 4, m.bottom + 2, w, h), box(m.left - w + 4, m.bottom + 2, w, h)]
-        .find(rect => free(rect, item));
+        .find(rect => freeName(rect, item));
       if (!choice) return;
       const origin = namePane.getBoundingClientRect();
       Object.assign(item.label.style, {left:`${choice.left - origin.left}px`, top:`${choice.top - origin.top}px`});
@@ -524,7 +664,11 @@
   function scheduleLayout() {
     if (layoutQueued) return;
     layoutQueued = true;
-    requestAnimationFrame(() => { layoutQueued = false; layoutLabels(); });
+    requestAnimationFrame(() => {
+      layoutQueued = false;
+      canvas.classList.add('is-measuring');
+      try { layoutLabels(); } finally { requestAnimationFrame(() => canvas.classList.remove('is-measuring')); }
+    });
   }
   function createMap() {
     map = window.L.map(canvas, {scrollWheelZoom:true, touchZoom:true, dragging:true, minZoom:1, maxZoom:19}).setView(clubCenter, 10);
@@ -577,6 +721,13 @@
       name.addEventListener('click', event => { event.stopPropagation(); marker.openPopup(); });
       namePane.append(name); clubNames.set(String(index), name);
     });
+    const FullControl = window.L.Control.extend({options:{position:'topleft'}, onAdd() {
+      const wrap = window.L.DomUtil.create('div', 'leaflet-bar map-full-control');
+      wrap.append(fullButton);
+      window.L.DomEvent.disableClickPropagation(wrap);
+      return wrap;
+    }});
+    map.addControl(new FullControl());
     map.on('moveend zoomend resize', scheduleLayout);
     scheduleLayout();
     map.on('click', clearSelection);
@@ -596,7 +747,7 @@
       const lat = Number(club.lat), lon = Number(club.lon);
       if (Number.isFinite(lat) && Number.isFinite(lon)) coordinates.push([lat,lon]);
     });
-    const padding = window.matchMedia('(max-width:639px)').matches ? [80,60] : [36,36];
+    const padding = window.matchMedia('(max-width:639px)').matches ? [80,60] : [50,50];
     if (coordinates.length) map.fitBounds(window.L.latLngBounds(coordinates), {padding,maxZoom:clubsOnly ? 13 : 12});
   }
   function openMapPanel() {
@@ -607,6 +758,7 @@
     mapIsModal = modal;
   }
   function hideMap() {
+    setFull(false);
     clearSelection();
     if (panel.open) panel.close();
     panel.hidden = true; mapIsModal = false;
@@ -642,10 +794,10 @@
       return false;
     }
   }
-  mapButton.addEventListener('click', async () => { mapOpener = mapButton; setMapGroup(currentPageGroup()); if (await showMap(false)) requestAnimationFrame(() => fitPoints(true)); });
+  mapButton.addEventListener('click', async () => { mapOpener = mapButton; setMapGroup(currentPageGroup()); if (await showMap(false)) requestAnimationFrame(() => fitPoints()); });
   listButton.addEventListener('click', hideMap);
   if (mapClose) mapClose.addEventListener('click', hideMap);
-  panel.addEventListener('cancel', event => { event.preventDefault(); hideMap(); });
+  panel.addEventListener('cancel', event => { event.preventDefault(); if (panel.classList.contains('is-full')) setFull(false); else hideMap(); });
   window.addEventListener('resize', () => { if (!panel.hidden) { openMapPanel(); if (map) requestAnimationFrame(() => map.invalidateSize()); } });
   group.addEventListener('change', () => { updatePlanLabel(); clearSelection(); draw(true); fitPoints(); });
   if (resetBest) resetBest.addEventListener('click', () => { setMapGroup('hepsi'); draw(true); fitPoints(); });

@@ -85,13 +85,20 @@
 .map-pin.right:hover .pin-label,.map-pin.left:hover .pin-label{transform:translateY(-50%) scale(1.04)}
 .map-pin .pin-votes{margin-right:1px;padding-right:5px;border-right:1px solid color-mix(in srgb,currentColor 40%,transparent);font-weight:800}
 .map-pin .pin-price{letter-spacing:-.01em}
-.map-pin .pin-count{display:inline-grid;place-items:center;min-width:20px;height:16px;margin-right:-4px;padding:0 4px;border-radius:999px;background:rgba(43,39,35,.09);font:800 10px/1 var(--sans)}
+.map-pin .pin-count{display:inline-grid;place-items:center;height:17px;margin-right:-4px;padding:0 6px;border-radius:999px;background:#2b2723;color:#fff;font:800 10.5px/1 var(--sans);white-space:nowrap}
+/* Several offers behind one label: a second card peeks out behind it. */
+.map-pin.multi .pin-label{box-shadow:0 0 0 1px rgba(43,39,35,.14),0 1px 4px rgba(43,39,35,.22),3px -3px 0 -1px #fff,3px -3px 0 0 rgba(43,39,35,.22)}
+/* Labels are measured while the layout pass runs; no animation then. */
+.map-canvas.is-measuring .pin-label{transition:none!important}
+.map-pin.multi .pin-shape{inset:0;box-shadow:0 0 0 2px #fff,0 0 0 3.5px rgba(43,39,35,.45),0 1px 4px rgba(0,0,0,.35)}
+.map-pin.grouped-away{visibility:hidden;pointer-events:none}
 .map-pin:hover .pin-label{transform:translateX(-50%) translateY(-1px) scale(1.04)}
 
 .map-pin.favorite .pin-shape{background:var(--terracotta,#87503d)}
 .map-pin.favorite .pin-label{background:var(--terracotta,#87503d);color:#fff;box-shadow:0 0 0 1px rgba(111,62,47,.6),0 2px 8px rgba(111,62,47,.4)}
 .map-pin.favorite .pin-label .i{fill:currentColor}
-.map-pin.favorite .pin-count{background:rgba(255,255,255,.22)}
+.map-pin.favorite .pin-count{background:#fff;color:var(--terracotta-deep,#6f3e2f)}
+.map-pin.multi.favorite .pin-label{box-shadow:0 0 0 1px rgba(111,62,47,.6),0 2px 8px rgba(111,62,47,.4),3px -3px 0 -1px #fff,3px -3px 0 0 rgba(111,62,47,.55)}
 
 .map-pin.unavailable .pin-shape{background:#9a948d}
 .map-pin.unavailable .pin-label{background:#ebe8e3;color:#8a847d;box-shadow:0 0 0 1px rgba(43,39,35,.1),0 1px 3px rgba(43,39,35,.12)}
@@ -101,7 +108,8 @@
 .map-pin.selected .pin-shape{background:#2b2723;box-shadow:0 0 0 3px #fff,0 0 0 5px rgba(43,39,35,.35)}
 .map-pin.selected .pin-label{background:#2b2723;color:#fff;box-shadow:0 4px 14px rgba(0,0,0,.35)}
 .map-pin.selected .pin-price{text-decoration:none}
-.map-pin.selected .pin-count{background:rgba(255,255,255,.2)}
+.map-pin.selected .pin-count{background:#fff;color:#2b2723}
+.map-pin.unavailable:not(.selected) .pin-count{background:#8a847d}
 
 /* A label that would cover another one keeps only its dot until zoomed in. */
 .map-pin.compact .pin-label{display:none}
@@ -206,6 +214,20 @@
 .dialog-notes{padding:10px 13px;margin-bottom:10px;border-left:3px solid #b26c18;background:#fbf4e9;border-radius:0 8px 8px 0}
 .dialog-notes p{margin:6px 0;font-size:12px;line-height:1.45}
 
+/* ---------- Full screen ---------- */
+.map-full-control.leaflet-bar{border:0;box-shadow:0 1px 4px rgba(43,39,35,.18);border-radius:10px;overflow:hidden}
+.map-full-toggle{display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 11px;border:0;background:#fff;color:#2b2723;font:750 12px/1 var(--sans);cursor:pointer}
+.map-full-toggle:hover{background:#f6f2ec}
+.map-full-toggle .i{width:15px;height:15px}
+.map-full-toggle:focus-visible{outline:3px solid #175b71;outline-offset:2px}
+html.map-full-open{overflow:hidden}
+.map-panel.is-full{position:fixed;inset:0;z-index:1000;display:flex;flex-direction:column;width:100%;max-width:none;height:100dvh;max-height:100dvh;
+  margin:0;padding:12px 16px;border:0;border-radius:0;overflow:hidden;background:#f4f0ea;backdrop-filter:none;-webkit-backdrop-filter:none}
+.map-panel.is-full .map-frame{flex:1 1 auto;min-height:0}
+.map-panel.is-full .map-canvas{height:100%;min-height:0}
+.map-panel.is-full .map-help{display:none}
+.map-panel.is-full .map-notice{margin-top:6px}
+
 /* ---------- Tablet ---------- */
 @media(max-width:760px){
   .map-heading{display:block}.map-controls{margin-top:10px}.map-panel{padding:14px}.map-canvas{height:440px}
@@ -244,6 +266,13 @@
   .map-preview-actions>*{min-height:40px;padding:0 9px}
   .map-preview-close{top:6px;right:6px}
   .leaflet-bar a,.leaflet-touch .leaflet-bar a{width:40px;height:40px;line-height:40px}
+  .map-full-toggle{width:40px;height:40px;justify-content:center;padding:0}
+  .map-full-toggle span{display:none}
+  .map-panel.is-full{padding:8px}
+  .map-panel.is-full .map-heading>div:first-child,.map-panel.is-full .map-legend{display:none}
+  .map-panel.is-full .map-heading{grid-template-columns:minmax(0,1fr) auto}
+  .map-panel.is-full .map-controls{grid-column:1;grid-row:1}
+  .map-panel.is-full .map-frame{border-radius:12px}
   .js .card-open-desktop{display:none}.js .card-open-mobile{display:inline-flex;align-items:center}
   .card-dialog{position:fixed;inset:auto 0 0;margin:0;width:100%;max-height:90dvh;border-radius:18px 18px 0 0}
   .lightbox-stage img{object-fit:contain}
