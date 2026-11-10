@@ -73,7 +73,16 @@
       }
       const media = grid.closest('.card-media');
       const card = grid.closest('.stay-card');
-      const links = Array.from(grid.querySelectorAll('a[data-photo-url]'));
+      let links = Array.from(grid.querySelectorAll('a[data-photo-url]'));
+      const total = () => grid.dataset.more ? Math.max(links.length, Number(grid.dataset.total) || links.length) : links.length;
+      // The rest of the photos become links when the carousel nears them.
+      // Another script (the large gallery) may have added the links already.
+      const syncLinks = () => { if (grid.childElementCount !== links.length) links = Array.from(grid.querySelectorAll('a[data-photo-url]')); };
+      const expandNear = i => {
+        if (!grid.dataset.more || i < links.length - 2 || !window.BerlinExpandPhotos) return;
+        window.BerlinExpandPhotos(grid);
+        links = Array.from(grid.querySelectorAll('a[data-photo-url]'));
+      };
       if (!media || !card || !links.length) return;
       initialized.add(grid);
       activeGrids.add(grid);
@@ -91,7 +100,7 @@
       if (open) {
         frame.appendChild(open);
         open.textContent = 'Fotoğraflar';
-        open.setAttribute('aria-label', `${title}: ${links.length} fotoğrafı aç`);
+        open.setAttribute('aria-label', `${title}: ${total()} fotoğrafı aç`);
         if (!dialog || typeof dialog.showModal !== 'function') open.hidden = true;
       }
       grid.setAttribute('role', 'group');
@@ -133,14 +142,16 @@
         }, timeoutMs);
       }
       function update() {
+        syncLinks();
         const width = grid.clientWidth;
         const nextIndex = mobile.matches && width ? Math.max(0, Math.min(links.length - 1, Math.round(grid.scrollLeft / width))) : 0;
         const changed = nextIndex !== index;
         index = nextIndex;
-        counter.textContent = `${index + 1} / ${links.length}`;
+        expandNear(index);
+        counter.textContent = `${index + 1} / ${total()}`;
         previous.disabled = index <= 0;
-        next.disabled = index >= links.length - 1;
-        controls.hidden = links.length < 2;
+        next.disabled = index >= total() - 1;
+        controls.hidden = total() < 2;
         links.forEach((link, i) => {
           if (mobile.matches) link.tabIndex = i === index ? 0 : -1;
           else link.removeAttribute('tabindex');
@@ -148,11 +159,12 @@
         if (mobile.matches) { ensure(index); ensure(index + 1); }
         if (changed) {
           clearTimeout(liveTimer);
-          liveTimer = setTimeout(() => { announcement.textContent = `Fotoğraf ${index + 1} / ${links.length}`; }, 180);
+          liveTimer = setTimeout(() => { announcement.textContent = `Fotoğraf ${index + 1} / ${total()}`; }, 180);
         }
         checkImage();
       }
       function go(target, smooth = true) {
+        expandNear(target);
         const destination = Math.max(0, Math.min(links.length - 1, target));
         ensure(destination);
         ensure(destination + 1);
@@ -163,6 +175,7 @@
         if (!smooth || reduced.matches) update();
       }
       function refreshMode() {
+        syncLinks();
         links.forEach((link, i) => {
           const img = link.querySelector('img');
           if (!img) return;
@@ -280,6 +293,8 @@
     dialog.addEventListener('close', () => {
       settle(); gesture = null;
       if (!mobile.matches || !openedGrid?.isConnected) { openedGrid = null; return; }
+      window.BerlinExpandPhotos?.(openedGrid);
+      galleryStates.get(openedGrid)?.refreshMode();
       const links = Array.from(openedGrid.querySelectorAll('a[data-photo-url]'));
       const selected = links.findIndex(link => link.dataset.photoUrl === source.href);
       const state = galleryStates.get(openedGrid);

@@ -1,5 +1,32 @@
 (() => {
   'use strict';
+  // Photos after the fifth are stored on the grid as data (data-more) and
+  // turned into links only when a gallery needs them. Images get no src here:
+  // the card carousel loads them as it approaches, the large gallery uses the
+  // original address (data-photo-url).
+  window.BerlinExpandPhotos = window.BerlinExpandPhotos || (grid => {
+    if (!grid || !grid.dataset.more) return false;
+    let more = [];
+    try { more = JSON.parse(grid.dataset.more); } catch (_) { more = []; }
+    delete grid.dataset.more;
+    const title = grid.closest('.stay-card')?.querySelector('.card-title h3, .card-title h4')?.textContent.trim() || 'Konaklama';
+    const fragment = document.createDocumentFragment();
+    more.forEach(item => {
+      if (!Array.isArray(item)) return;
+      const [label, url, thumb] = item.map(value => String(value || ''));
+      if (!/^https:\/\//.test(url)) return;
+      const link = document.createElement('a');
+      link.className = 'extra-photo'; link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      link.dataset.photoUrl = url; link.dataset.label = label;
+      link.setAttribute('aria-label', `${title}: ${label} Fotoğrafını Aç`);
+      const img = document.createElement('img');
+      img.alt = `${title}: ${label}`; img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
+      img.dataset.gmSrc = /^https:\/\//.test(thumb) ? thumb : url;
+      link.append(img); fragment.append(link);
+    });
+    grid.append(fragment);
+    return true;
+  });
 
   // Large-view tabs. Without JavaScript every panel remains visible in order.
   const activateCardTab = (card, name = 'overview', reveal = false) => {
@@ -1150,6 +1177,7 @@
   large.addEventListener('error', () => { large.hidden = true; imageError.hidden = false; });
   function openGallery(anchor, origin) {
     opener = origin;
+    window.BerlinExpandPhotos(anchor.closest('.photo-grid'));
     const anchors = Array.from(anchor.closest('.photo-grid').querySelectorAll('a'));
     index = anchors.indexOf(anchor);
     galleryTitle = anchor.closest('.stay-card').querySelector('.card-title h3, .card-title h4').textContent;

@@ -590,13 +590,21 @@ def photos_html(row):
     thumbs = max(1, min(4, len(images) - 1))
     cls = f'photo-grid photo-count-{min(5, len(images))}' + (' single' if len(images) == 1 else '')
     tags = []
+    more = []
     for i, (label, url) in enumerate(images):
+        if i >= 5:
+            # Photos after the fifth wait as data and become links only when the
+            # gallery reaches them; thousands of hidden links made the page too
+            # heavy for phones.
+            more.append([str(label), url, thumb_url(url)])
+            continue
         alt = f"{row.get('name', 'Konaklama')}: {label}"
-        cls_extra = ' class="extra-photo"' if i >= 5 else ''
+        cls_extra = ''
         tags.append(f'<a{cls_extra} href="{esc(url)}" target="_blank" rel="noopener noreferrer" data-photo-url="{esc(url)}" data-label="{esc(label)}" aria-label="{esc(alt)} Fotoğrafını Aç"><img src="{esc(thumb_url(url))}" alt="{esc(alt)}" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a>')
     listing = safe_url(row.get('link'))
     action = f'<div class="photo-actions"><button class="gallery-open" type="button">Fotoğrafları Aç ({len(images)})</button><a class="gallery-all" href="{esc(listing)}" target="_blank" rel="noopener noreferrer">Tüm Fotoğrafları İlanda Gör ↗</a></div>' if listing else ''
-    return f'<div class="{cls}" style="--thumb-count:{thumbs}">{"".join(tags)}</div>{action}'
+    more_attr = f' data-total="{len(images)}" data-more="{esc(json.dumps(more, ensure_ascii=False, separators=(",", ":")))}"' if more else ''
+    return f'<div class="{cls}" style="--thumb-count:{thumbs}"{more_attr}>{"".join(tags)}</div>{action}'
 
 
 def detail_item(label, value):
