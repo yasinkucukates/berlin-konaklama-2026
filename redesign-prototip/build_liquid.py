@@ -1258,11 +1258,21 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
     share_html = share_table(share_amount, share_currency, row.get('capacity'), nights, approximate=bool(row.get('priceApproximate')), max_adults=audit.get('maxAdults'))
     quote_label = (f'Vrbo · {nights} Gece · 6 Yetişkin' if ruebezahl_exception(row)
                    else f'{nights} Gece · {ADULTS} Yetişkin')
-    # Whole-home rentals: a quote for 7 people is the price for 6 as well (7 Kasım kullanıcı kararı).
+    # The source quote belongs to its stated party size; the UI warns if the
+    # selected party differs and no matching quote was recorded.
     quote_warning = ''
     quote_warning_html = f'<div class="offer-warning">{quote_warning}</div>' if quote_warning else ''
-    source_file = row.get('_sourceFile') if ADULTS == 6 else ''
-    new_listing = source_file in ('new-search.json', 'new-search-ek.json', 'wellness-new.json') or source_file.startswith('galeri-sweep-')
+    source_file = str(row.get('_sourceFile') or '')
+    new_listing = bool(row.get('addedAt')) or source_file in ('new-search.json', 'new-search-ek.json', 'wellness-new.json') or source_file.startswith('galeri-sweep-')
+    # An explicit insertion time is preferred. Older sweeps only recorded the
+    # search day; keep that precision instead of inventing a time of day.
+    added_at = str(row.get('addedAt') or '')
+    if not added_at:
+        sweep_day = re.match(r'galeri-sweep-(\d{4})(\d{2})(\d{2})', source_file)
+        if sweep_day:
+            added_at = '-'.join(sweep_day.groups())
+    if added_at and not re.fullmatch(r'\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2}))?', added_at):
+        raise ValueError(f"Geçersiz eklenme tarihi: {row.get('id')}")
     refreshed_price = source_file == 'refreshed-search.json'
     fresh_text = 'Yeni Eklenen' if new_listing else 'Fiyat Güncellendi' if refreshed_price else ''
     shared_gallery = ''
@@ -1403,10 +1413,25 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
             + panel('overview', overview_inner) + panel('beds', beds_inner) + panel('route', route_inner)
             + panel('price', price_inner) + panel('notes', notes_body) + panel('sources', sources_inner) + '</div>')
 
-    return f'''<article class="stay-card" id="konaklama-{card_index}" data-order="{card_index}" data-id="{esc(row['id'])}" data-check-in="{esc(row['checkIn'])}" data-check-out="{esc(row['checkOut'])}" data-category="{esc(audit.get('category') or '')}" data-new="{str(new_listing).lower()}" data-price-refreshed="{str(refreshed_price).lower()}" data-note-count="{note_count}"{premium_data}{data}>
+    related_html = ''
+    for offer in row.get('relatedStays', []):
+        url6, url7 = safe_url(offer.get('url6')), safe_url(offer.get('url7'))
+        if not (url6 and url7 and offer.get('id') and offer.get('price6') and offer.get('price7')):
+            raise ValueError(f"İlişkili konaklama teklifi eksik: {row.get('id')}")
+        related_html += (f'<div class="related-stay-offer" data-source-id="{esc(offer["id"])}" '
+                         f'data-price-six="{esc(offer["price6"])}" data-price-seven="{esc(offer["price7"])}" '
+                         f'data-price-checked-at="{esc(offer.get("priceCheckedAt") or "")}" '
+                         f'data-url-six="{esc(url6)}" data-url-seven="{esc(url7)}">'
+                         f'<b>{esc(offer.get("title") or "Aynı tesiste seçenek")}</b>'
+                         f'<span>{esc(offer.get("description") or "")}</span>'
+                         f'<span class="related-stay-price">{esc(offer["price6"])} · 6 kişi</span>'
+                         f'<span class="related-stay-status"></span>'
+                         f'<a class="related-stay-link" href="{esc(url6)}" target="_blank" rel="noopener noreferrer">Tek daire ilanını ve fotoğraflarını aç ↗</a></div>')
+
+    return f'''<article class="stay-card" id="konaklama-{card_index}" data-order="{card_index}" data-id="{esc(row['id'])}" data-check-in="{esc(row['checkIn'])}" data-check-out="{esc(row['checkOut'])}" data-category="{esc(audit.get('category') or '')}" data-new="{str(new_listing).lower()}" data-added-at="{esc(added_at)}" data-price-refreshed="{str(refreshed_price).lower()}" data-note-count="{note_count}"{premium_data}{data}>
       <div class="card-media">{photos_html(row)}<div class="media-flags"><p class="availability-status" hidden></p>{flags}</div><p class="party-quote-note" hidden></p><div class="favorite-control"><button type="button" class="favorite-button" disabled aria-pressed="false" aria-label="Ortak favoriler bağlanmadı"><span class="favorite-heart" aria-hidden="true">♡</span><span class="favorite-label">Kaydet</span></button><button type="button" class="share-button" aria-label="{esc(name)}: bağlantısını paylaş" title="Bu ilanın bağlantısını paylaş">{icon('share-2')}<span class="share-label">Paylaş</span></button><span class="favorite-unavailable">Ortak liste bağlı değil</span></div></div>
       <div class="card-head"><div class="card-title"><p class="card-kicker" title="{esc(date_label)}">{icon('calendar-days')} {esc(short_dates)} · {nights} Gece</p><{title_tag} title="{esc(name)}">{esc(name)}</{title_tag}><p class="area" title="{esc(row.get('kind') or 'Tür Teyitsiz')} · {esc(location_text)}">{esc(row.get('kind') or 'Tür Teyitsiz')} · {esc(location_text)}</p></div><div class="amount"><strong>{price_main}{price_qualifier}</strong>{converted}<small class="quote-label">{quote_label}</small>{share_html}</div></div>
-      <div class="fact-tiles">{tiles}</div>
+      {related_html}<div class="fact-tiles">{tiles}</div>
       {alert_html}
       <div class="card-actions"><button type="button" class="card-open card-open-main" data-tab="overview" aria-label="{esc(name)} Ayrıntılarını Aç">{icon('maximize-2')}<span>Tüm Ayrıntılar</span></button>{map_button}<a class="listing icon-action" href="{esc(listing)}" target="_blank" rel="noopener noreferrer" aria-label="{esc(name)}: İlanı ve koşulları aç">{icon('square-arrow-out-up-right')}<span>İlan</span></a></div>
       {more}</article>'''
@@ -1694,7 +1719,7 @@ def main():
 <div class="subsection"><div class="subheading"><h3>1 Ocak → 3 Ocak · 2 Gece Villa / Özel Ev</h3></div><p class="subnote">1 Ocak çıkışı ile sonraki giriş arasındaki süre ve transfer her eşleşmede ayrıca kontrol edilmeli.</p>{rendered['split_house']}</div></div>{pair_html}</section>
 <section class="group" id="full-daire"><div class="best-apartment-intro" hidden><b>En Uygun Daireler ve Teyit Gerektiren Adaylar</b><p>Önce koşulları doğrulanan seçenekler, ardından yatak veya toplam fiyatı ayrıca kontrol edilmesi gereken adaylar gösterilir.</p></div><div class="best-empty empty" hidden><p>En uygun ölçütlerini kaynaklarla doğrulayan dört gecelik daire bulunamadı.</p><button type="button" class="best-reset">Tüm Daireleri Gör</button></div><div class="section-heading"><div><h2>Daire</h2><p>30 Aralık → 3 Ocak · dört gece özel daire veya ilanda açıkça belirtilen özel daire düzeni.</p><p class="group-mobile">30 Ara → 3 Oca · 4 Gece</p></div><span class="group-count">{count_label(('full_apartment',))}</span></div><p class="empty search-empty" hidden>Bu filtrelerle eşleşen seçenek yok.</p>{rendered['full_apartment']}</section>
 <section class="group" id="full-villa"><div class="best-alternatives-intro" hidden><b>Koşullara En Yakın Villalar ve Evler</b><p>20 dakika ve altı ayrı yatak şartlarını birlikte doğrulayan villa bulunamadı. Aşağıdaki alternatiflerin farklarını her kartta belirttik.</p></div><div class="best-empty empty" hidden><p>En uygun ölçütlerini kaynaklarla doğrulayan dört gecelik villa bulunamadı.</p><button type="button" class="best-reset">Tüm Villaları Gör</button></div><div class="section-heading"><div><h2>Villa</h2><p>30 Aralık → 3 Ocak · dört gece villa veya tamamı kiralanan özel ev. Gerçek yapı türü kartta yazılıdır.</p><p class="group-mobile">30 Ara → 3 Oca · 4 Gece</p><button type="button" class="show-split-houses">1–3 Ocak · İki Gecelik Evleri Gör ↗</button></div><span class="group-count">{count_label(('full_house',))}</span></div><p class="empty search-empty" hidden>Bu filtrelerle eşleşen seçenek yok.</p>{rendered['full_house']}</section></div>
-<footer class="footer"><p id="kur"><span class="fx-rate-long">5 Kasım 2026 tarihli ECB referans kurları: 1 € = 56,1729 TL; 1 € = 1,1224 USD.</span> Sayfa her açılışta günün ECB kurunu alır; alınamazsa son bilinen kur kullanılır. Referans kurlar banka veya tahsilat kuru değildir. <a href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html" target="_blank" rel="noopener noreferrer">ECB Kur Kaynağı ↗</a></p><p>Kaynak gözlemleri: 5 ve 6 Kasım 2026. Fiyat, vergiler, iptal ve kullanılabilirlik ilan ekranında yeniden kontrol edilmeli. Rezervasyon yapılmadı.</p><p>Araç süreleri taksi beklemesini ve yılbaşı trafiğini içermez; çoğu trafiksiz rota tahminidir. Toplu taşıma süreleri kaynakta belirtilen örneklerdir, yılbaşı tarifesi ve dönüş ayrıca kontrol edilmeli. {ADULTS} kişi için birden fazla araç gerekebilir.</p><p>Kişi başı pay, gösterilen toplamın altıya bölünmesidir. Ev ve daireler bütün olarak kiralandığı için gösterilen fiyat 6 ve 7 kişi için aynıdır. İlan kapasitesini aşan kişi ancak ev sahibinin açık onayıyla kalabilir; gösterilen matematiksel pay kabul anlamına gelmez.</p><p>Fotoğraflar ilan sağlayıcılarından yüklenir. Tarayıcı kaynak görseli engellerse karttaki ilan bağlantısını kullanın.</p></footer></main>
+<footer class="footer"><p id="kur"><span class="fx-rate-long">5 Kasım 2026 tarihli ECB referans kurları: 1 € = 56,1729 TL; 1 € = 1,1224 USD.</span> Sayfa her açılışta günün ECB kurunu alır; alınamazsa son bilinen kur kullanılır. Referans kurlar banka veya tahsilat kuru değildir. <a href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html" target="_blank" rel="noopener noreferrer">ECB Kur Kaynağı ↗</a></p><p>Kaynak gözlemleri: 5 ve 6 Kasım 2026. Fiyat, vergiler, iptal ve kullanılabilirlik ilan ekranında yeniden kontrol edilmeli. Rezervasyon yapılmadı.</p><p>Araç süreleri taksi beklemesini ve yılbaşı trafiğini içermez; çoğu trafiksiz rota tahminidir. Toplu taşıma süreleri kaynakta belirtilen örneklerdir, yılbaşı tarifesi ve dönüş ayrıca kontrol edilmeli. {ADULTS} kişi için birden fazla araç gerekebilir.</p><p>Kişi başı pay, gösterilen toplamın altıya bölünmesidir. Gösterilen teklifin kişi sayısı kartta belirtilir; farklı kişi sayısında fiyat ve müsaitlik değişebilir. İlan kapasitesini aşan kişi ancak ev sahibinin açık onayıyla kalabilir; gösterilen matematiksel pay kabul anlamına gelmez.</p><p>Fotoğraflar ilan sağlayıcılarından yüklenir. Tarayıcı kaynak görseli engellerse karttaki ilan bağlantısını kullanın.</p></footer></main>
 <dialog id="lightbox" class="lightbox" aria-labelledby="lightbox-title"><div class="lightbox-header"><strong id="lightbox-title">Fotoğraf</strong><button type="button" data-close aria-label="Fotoğrafı Kapat">✕</button></div><div class="lightbox-stage"><img alt="" referrerpolicy="no-referrer"><p class="lightbox-error" hidden>Fotoğraf yüklenemedi. Alttaki kaynak bağlantısını kullanın.</p></div><div class="lightbox-controls"><button type="button" data-step="-1" aria-label="Önceki Fotoğraf">←</button><div class="lightbox-caption"><span id="lightbox-caption" aria-live="polite"></span><a id="lightbox-source" target="_blank" rel="noopener noreferrer">Kaynak Görseli Aç ↗</a></div><button type="button" data-step="1" aria-label="Sonraki Fotoğraf">→</button></div></dialog>
 <dialog id="card-dialog" class="card-dialog" aria-labelledby="card-dialog-title"><div class="card-dialog-head"><strong id="card-dialog-title">Konaklama Ayrıntıları</strong><button type="button" id="card-dialog-close" aria-label="Konaklama Kartını Kapat">✕</button></div><div id="card-dialog-content" class="card-dialog-content"></div></dialog>
 <script type="application/json" id="map-clubs">{clubs_json}</script></div><script>{script}</script><script>{map_script}</script></body></html>'''

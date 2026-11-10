@@ -402,11 +402,11 @@
       "id": "1610146635685764854",
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
-      "lat": 52.524,
-      "lon": 13.3506,
+      "lat": 52.5240305,
+      "lon": 13.3506015,
       "accuracy": "listing_approx",
-      "source": "ilk-tarama.json#/search1/20/coordinates",
-      "note": "Airbnb ilan noktası yaklaşık; kapı adresi değil."
+      "source": "https://www.airbnb.com/rooms/1610146635685764854?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "note": "İlan adresine dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
     },
     {
       "id": "1611035619222657901",
@@ -857,6 +857,36 @@
       "lon": 13.3203317,
       "accuracy": "listing_approx",
       "source": "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "note": "İlan adresine dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "six-booking-1242731801-full",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5143,
+      "lon": 13.46101,
+      "accuracy": "listing_approx",
+      "source": "https://www.booking.com/hotel/de/120sqm-amp-5-room-luxury-apartment-with-garden.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&no_rooms=1#room_1242731801",
+      "note": "İlan adresine dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "20671210",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5193048,
+      "lon": 13.5260114,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/20671210?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "note": "İlan adresine dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "1383517943466250521",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5249988,
+      "lon": 13.3198276,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/1383517943466250521?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
       "note": "İlan adresine dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
     }
   ]

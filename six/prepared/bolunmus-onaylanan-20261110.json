@@ -1,0 +1,119 @@
+[
+  {
+    "id": "six-booking-954475401-first",
+    "sourceId": "booking-954475401",
+    "name": "Rostocker Straße | Üç Yatak Odalı Daire",
+    "area": "Moabit",
+    "address": "Rostocker Straße 39, 10553 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "split-apartment",
+    "capacity": 6,
+    "maxAdults": 6,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "5 çift kişilik yatak; salonda ayrıca 1 çekyat.",
+    "features": "110 m², 3 yatak odası ve 2 banyo. Yalnızca 30 Aralık–1 Ocak tarihli ilk konaklama.",
+    "price": "1.251 €",
+    "priceEUR": 1251,
+    "priceApproximate": false,
+    "priceStatus": "2 gecelik kaynak fiyatı; vergi ve ek ücretleri kontrol edin",
+    "priceClass": "search",
+    "priceNote": "İki gecelik teklif; ilave ücretler uygulanabilir. 250 € iade edilebilir depozito var.",
+    "availabilityNote": "2026-11-10 tarihinde 2 gece ve 6 kişi için rezervasyon seçeneği görüldü.",
+    "rsoCar": "30 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "17 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "link": "https://www.booking.com/hotel/de/super-zentral-super-schoner-altbau-im-herzen-von-berlin-fur-bis-zu-12-personen.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&no_rooms=1#room_954475401",
+    "sourceURL": "https://www.booking.com/hotel/de/super-zentral-super-schoner-altbau-im-herzen-von-berlin-fur-bis-zu-12-personen.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&no_rooms=1#room_954475401",
+    "photos": [
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir oturma alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982784.jpg?k=a7c89a688b7ddb4259069b7aa6fb1edad2dd6f890e553149e8c6e3402e6c2d5b&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde mutfak veya mini mutfak",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982986.jpg?k=fdca0d8964f94e628691d00a26f41ced523ebc47a0a1e69b72e0226fa1901f41&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir oturma alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982915.jpg?k=83906be480a51895776358c4a548dd680c13012562b0d1d1690518de6d7a7ff8&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982921.jpg?k=c0e5b9daa66d6d552de1ddff97f63584c3c2712c8c9c903dca552e76c73ee72a&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982874.jpg?k=89b36badd883f398c501e1f4e156f676b534ea334383f4405d5c1c11a976f2c4&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde mutfak veya mini mutfak",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423983002.jpg?k=3bbf1dc6ccd27e6ee63d3093b01130a373989cb7c8400c59515635e8f828db83&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir televizyon ve/veya eğlence merkezi",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982884.jpg?k=5d6f30741261bfe0f4e948e0e57cb6b97ccd78ae8ba8bacc270176aa9d99e10a&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir oturma alanı +9 fotoğraf",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982942.jpg?k=4968e3fb4d1e6c60a4e6a578e6d17d943f1b7479029ff00ec0c011db9b71b29f&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982996.jpg?k=be61bca75a33b56e0084745b005de4bdc956973e2a48be58534f3b77b14d0466&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982890.jpg?k=2fda1c0faffb6938b2db1c897699b4c3d080eca3017f7706f2ff811118721c88&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982898.jpg?k=f7659eca9dd9be59a0f8fa17574c38acd006e45a79582b52629648cf4ee82771&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir oturma alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982904.jpg?k=4b4324d17a05dd67b98650573dc05dd8f40b9164bccb586aaa6e0df62ac85adb&o="
+      ],
+      [
+        "Berlin'deki Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisine ait fotoğraf galerisinden bir görsel",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982930.jpg?k=6e41c75357308fe111de995e85edcd6973cb9e0643e442e8ce615c51a8e1a802&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982947.jpg?k=533bffeb4ebf740a1c2f3081611f622d28d53426a06ffc0599812ef21c00bfd5&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982960.jpg?k=6db75fb33ef4c21225f90ab50a11bc4ee7ca88702c49cd8f18a4fe2378b04b21&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982969.jpg?k=f60fdf54ccee7d167c1543f5ea918c5fe639a315cf21d8416d5d2621c88de61a&o="
+      ],
+      [
+        "Super Zentral super schöner Altbau in Moabit Rostockerstraße im Herzen von Berlin für bis zu 6 Personen tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/423982978.jpg?k=853c4ddab6ed495023c65c09a404028c5dd359b1b0602ca5d65b0ee726cb8a7d&o="
+      ]
+    ],
+    "photoNote": "Kaynak ilan galerisindeki erişilebilen görseller.",
+    "platform": "Booking",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-01",
+    "nights": 2,
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Kaynak dairenin tamamını ve özel banyoyu gösteriyor.",
+      "source": "https://www.booking.com/hotel/de/super-zentral-super-schoner-altbau-im-herzen-von-berlin-fur-bis-zu-12-personen.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&no_rooms=1#room_954475401"
+    },
+    "checkedAt": "2026-11-10",
+    "addedAt": "2026-11-10T20:53:36Z",
+    "_sourceFile": "galeri-sweep-20261110-yeni.json",
+    "showStandalone": true
+  }
+]

@@ -485,7 +485,8 @@
     // Group only these exact listing identities, not merely nearby addresses.
     const knownBooking = card.dataset.id === 'idyllisches-haus' && /(^|\.)booking\.com$/i.test(url.hostname) && /\/idyllisches-haus-mitten-in-berlin\./.test(url.pathname);
     const knownAirbnb = card.dataset.id === 'six-house-19794276-full' && match && match[1] === '19794276';
-    const identity = knownBooking || knownAirbnb ? 'confirmed-mittelstrasse-11' : match && 'airbnb-' + match[1];
+    const exactBooking = /(^|\.)booking\.com$/i.test(url.hostname) && /\/hotel\//.test(url.pathname) && card.dataset.id;
+    const identity = knownBooking || knownAirbnb ? 'confirmed-mittelstrasse-11' : match ? 'airbnb-' + match[1] : exactBooking ? 'booking-' + card.dataset.id : null;
     if (!identity) return;
     const key = [identity, card.dataset.planGroup, card.dataset.checkIn, card.dataset.checkOut].join('|');
     if (!duplicateOffers.has(key)) duplicateOffers.set(key, []);
@@ -497,7 +498,7 @@
     const seven = offers.find(card => card.dataset.offerAdults === '7');
     if (!six || !seven) return;
     const makeRelated = (target, other) => {
-      const body = target.querySelector('.card-body');
+      const body = target.querySelector('.card-body') || target.querySelector('.detail-panel[data-panel="overview"]') || target.querySelector('.card-head');
       if (!body) return null;
       const row = document.createElement('div'); row.className = 'related-quote'; row.hidden = true;
       const text = document.createElement('span');
@@ -525,6 +526,10 @@
   const homes=new Map(cards.map(card=>[card,card.parentElement]));
   const favoritesSection=document.createElement('section');favoritesSection.className='group group-favorites';favoritesSection.hidden=true;favoritesSection.innerHTML='<div class=section-heading><h2>Ortak Favoriler</h2><p>Seçili sıralama ve beğeniler kullanılır. Aynı tarayıcıdan bir beğeni sayılır; isim gösterilmez.</p></div><div class=card-grid></div>';root.querySelector('.groups').prepend(favoritesSection);
   const favoriteGrid=favoritesSection.querySelector('.card-grid');
+  // New listings share one grid so recency remains correct across plans and
+  // across the two legs of a split stay, not just within each old section.
+  const newSection=document.createElement('section');newSection.className='group group-new';newSection.hidden=true;newSection.innerHTML='<div class="section-heading"><h2>Son Eklenenler</h2><p>En yeni ilanlar önce gösterilir.</p></div><div class="card-grid"></div>';root.querySelector('.groups').prepend(newSection);
+  const newGrid=newSection.querySelector('.card-grid');
   const groupLinks = Array.from(root.querySelectorAll('.group-nav a'));
   const bestButtons = Array.from(root.querySelectorAll('.best-choice'));
   const allPlanId = 'hepsi';
@@ -583,6 +588,7 @@
     favoritesOnly = false; favoriteFilter?.setAttribute('aria-pressed','false');
     setNewOnly(!newOnly);
     applyFilters();
+    if(sort)applySort();
   });
   root.querySelectorAll('.best-reset').forEach(button => button.addEventListener('click', () => {
     favoritesOnly = false; favoriteFilter?.setAttribute('aria-pressed','false');
@@ -596,7 +602,9 @@
   }));
   function applyFilters() {
     if (!favoritesOnly) for(const [card,home] of homes)if(card.parentElement===favoriteGrid)home.append(card);
+    for(const [card,home] of homes)if(card.parentElement===newGrid)home.append(card);
     favoritesSection.hidden=!favoritesOnly;
+    newSection.hidden=!newOnly || favoritesOnly;
     const party = guestFilter?.value === '7' ? 7 : 6;
     const hasExtraFilters = filterValues.some(control => control.value !== 'all');
     const filtering = favoritesOnly || activeBest !== '' || newOnly || hasExtraFilters;
@@ -626,13 +634,29 @@
       const offerRows = Array.from(card.querySelectorAll('.ruebezahl-table tr[data-source-id]'));
       const offerStatus = row => partyRecord(availabilityRecords, entry => entry.scope === 'offer' && entry.id === row.dataset.sourceId && sameStay(entry), party);
       const allOffersUnavailable = offerRows.length > 0 && offerRows.every(row => offerStatus(row)?.status === 'unavailable');
+      const relatedStays = Array.from(card.querySelectorAll('.related-stay-offer'));
+      const relatedStatus = offer => partyRecord(availabilityRecords, entry => entry.scope === 'offer' && entry.parentCardId === card.dataset.id && entry.id === offer.dataset.sourceId && sameStay(entry), party);
+      relatedStays.forEach(offer => {
+        const state = relatedStatus(offer);
+        offer.dataset.availability = state?.status || 'unknown';
+        const priceDate = Date.parse(offer.dataset.priceCheckedAt || '');
+        const priceLabel = Number.isFinite(priceDate) ? `${trDay(offer.dataset.priceCheckedAt)} fiyatı` : 'Kaynak fiyatı';
+        offer.querySelector('.related-stay-price').textContent = `${priceLabel}: ${party === 7 ? offer.dataset.priceSeven : offer.dataset.priceSix} · ${party} kişi`;
+        offer.querySelector('.related-stay-link').href = party === 7 ? offer.dataset.urlSeven : offer.dataset.urlSix;
+        offer.querySelector('.related-stay-status').textContent = state ? `${state.status === 'available' ? 'Müsait göründü' : 'Bu tarihlerde müsait değil'} · ${trDay(state.checkedAt)}` : 'Müsaitlik doğrulanmadı';
+      });
       // One provider's sold-out result cannot make a multi-offer property sold out.
-      const visibleStatus = status?.status === 'unavailable' && offerRows.length && !allOffersUnavailable ? null : status;
+      const hasUsableRelated = relatedStays.some(offer => relatedStatus(offer)?.status !== 'unavailable');
+      const packageOnlyUnavailable = status?.status === 'unavailable' && hasUsableRelated;
+      const visibleStatus = status?.status === 'unavailable' && ((offerRows.length && !allOffersUnavailable) || hasUsableRelated) ? null : status;
       const quoteNote = card.querySelector('.party-quote-note');
       if (quoteNote) {
         const selected = Number(guestFilter?.value || 6);
         const notes = [];
-        // The price is the same for 6 or 7 people; only the listing's capacity can limit the group.
+        // A price or availability observed for one party size does not prove
+        // that the same total or availability applies to the other party.
+        const quoteAdults = Number(card.dataset.offerAdults);
+        if (quoteAdults && quoteAdults !== selected) notes.push(`Fiyat ${quoteAdults} kişilik; ${selected} kişi için fiyat ve müsaitliği kontrol edin.`);
         if (capacity !== null && capacity < selected) notes.push(`İlan kapasitesi ${capacity} kişi; ${selected}. kişi için ev sahibi onayı gerekir.`);
         quoteNote.hidden = notes.length === 0;
         quoteNote.textContent = notes.join(' ');
@@ -669,6 +693,11 @@
             full.textContent = text;
             full.dataset.status = visibleStatus.status;
           }
+        } else if (packageOnlyUnavailable) {
+          statusNode.hidden = false;
+          statusNode.textContent = 'Ana teklif müsait değil';
+          statusNode.title = `Ana teklif ${trDay(status.checkedAt)} tarihinde müsait değildi; diğer seçeneğin durumu ayrıca gösterilir.`;
+          if (full) full.remove();
         } else if (full) full.remove();
       }
       // Unavailable offers stay listed: greyed, crossed out and dated.
@@ -738,6 +767,12 @@
       });
     });
     if(favoritesOnly){groups.forEach(g=>g.hidden=true);cards.filter(c=>!c.hidden && c.parentElement!==favoriteGrid).forEach(c=>favoriteGrid.append(c));}
+    else if(newOnly){
+      const matchPlan = c => !selectedGroup || homes.get(c)?.closest('.group') === selectedGroup;
+      cards.filter(c=>!c.hidden && matchPlan(c)).forEach(c=>newGrid.append(c));
+      groups.forEach(g=>g.hidden=true);
+      if(sort)applySort();
+    }
     else {groups.forEach(g=>g.hidden=Boolean(selectedGroup) && g!==selectedGroup);}
     if (newStatus && newOnly) {
       const visibleNew = cards.filter(card => !card.hidden && !card.closest('.group')?.hidden).length;
@@ -962,6 +997,12 @@
       const existing = Array.from(grid.children).filter(node => node.classList.contains('stay-card'));
       const children = existing.slice();
       children.sort((a, b) => {
+        if(newOnly && !favoritesOnly){
+          const added = card => { const time=Date.parse(card.dataset.addedAt || ''); return Number.isFinite(time) ? time : -Infinity; };
+          const x=added(a), y=added(b);
+          if(x!==y)return x>y?-1:1;
+          return Number(a.dataset.order)-Number(b.dataset.order);
+        }
         // Votes lead in favorites; ties keep the selected sort's existing rules.
         if(favoritesOnly || sort.value==='votes'){const diff=Number(b.dataset.votes||0)-Number(a.dataset.votes||0);if(diff)return diff;}
         if (sort.value === 'best-priority') {

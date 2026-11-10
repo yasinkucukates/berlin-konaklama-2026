@@ -251,10 +251,11 @@
       "checkOut": "2027-01-03",
       "rsoCarMin": 25,
       "tresorCarMin": 11,
-      "rsoTransitMin": 52,
-      "tresorTransitMin": 30,
-      "routeQuality": "Yaklaşık konum; araç tahmini ve toplu taşıma önizlemesi",
-      "notes": "Kaynak: galeri-veri.json. Kaynak ulaşım metni: Araç: yaklaşık ilan konumundan OSRM, trafik ve bekleme hariç. Toplu taşıma: 31 Aralık 22.00 örnek BVG/VBB önizlemesi; RSO: S9, 22:04–22:56, 22 dk yürüyüş; TRESOR: S9, 22:04–22:34, 19 dk yürüyüş. 13 Aralık tarife değişikliği uyarısı var, yolculuk öncesi yeniden kontrol edilmeli. Kaynak alanlar | RSO araç: 25 dk | Tresor araç: 11 dk | RSO toplu: 52 dk | Tresor toplu: 30 dk."
+      "rsoTransitMin": null,
+      "tresorTransitMin": null,
+      "routeQuality": "OSRM trafiksiz araç hesabı",
+      "notes": "Yaklaşık adresten OSRM trafiksiz rota; trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance",
+      "tresorRangeUpperMin": null
     },
     {
       "id": "1611035619222657901",
@@ -744,6 +745,42 @@
       "tresorTransitMin": null,
       "routeQuality": "OSRM trafiksiz araç hesabı",
       "notes": "İlan adresinden OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.5260114,52.5193048;13.3203317,52.4998869;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1&destinations=2;3&annotations=duration,distance"
+    },
+    {
+      "id": "six-booking-1242731801-full",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "rsoCarMin": 16,
+      "tresorCarMin": 8,
+      "tresorRangeUpperMin": null,
+      "rsoTransitMin": null,
+      "tresorTransitMin": null,
+      "routeQuality": "OSRM trafiksiz araç hesabı",
+      "notes": "Yaklaşık adresten OSRM trafiksiz rota; trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance"
+    },
+    {
+      "id": "20671210",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "rsoCarMin": 16,
+      "tresorCarMin": 16,
+      "tresorRangeUpperMin": null,
+      "rsoTransitMin": null,
+      "tresorTransitMin": null,
+      "routeQuality": "OSRM trafiksiz araç hesabı",
+      "notes": "Yaklaşık adresten OSRM trafiksiz rota; trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance"
+    },
+    {
+      "id": "1383517943466250521",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "rsoCarMin": 29,
+      "tresorCarMin": 16,
+      "tresorRangeUpperMin": null,
+      "rsoTransitMin": null,
+      "tresorTransitMin": null,
+      "routeQuality": "OSRM trafiksiz araç hesabı",
+      "notes": "Yaklaşık adresten OSRM trafiksiz rota; trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance"
     }
   ]
 }

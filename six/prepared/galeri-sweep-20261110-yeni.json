@@ -1,0 +1,1091 @@
+[
+  {
+    "id": "six-booking-951491101-full",
+    "sourceId": "booking-951491101",
+    "name": "Herthastraße | Üç Yatak Odalı Daire",
+    "area": "Pankow",
+    "address": "Herthastraße 4, 13189 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 6,
+    "maxAdults": 6,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "6 çift kişilik yatak; her odada 2 yatak.",
+    "features": "140 m², 3 yatak odası, 2 banyo. Booking oda dökümü her odada iki büyük çift kişilik yatak gösteriyor.",
+    "price": "2.613 €",
+    "priceEUR": 2613,
+    "priceApproximate": false,
+    "priceStatus": "4 gecelik kaynak fiyatı; vergi ve ek ücretleri kontrol edin",
+    "priceClass": "search",
+    "priceNote": "Gösterilen fiyata ilave ücretler uygulanabilir. İade edilebilir 250 € depozito var.",
+    "availabilityNote": "2026-11-10 tarihinde 4 gece ve 6 kişi için rezervasyon seçeneği görüldü.",
+    "rsoCar": "23 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "10 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "link": "https://www.booking.com/hotel/de/sonnig-und-helle-wohnung-alexanderplatz-in-15min-zu-erreichen-sehr-schon-und-gro.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1#room_951491101",
+    "sourceURL": "https://www.booking.com/hotel/de/sonnig-und-helle-wohnung-alexanderplatz-in-15min-zu-erreichen-sehr-schon-und-gro.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1#room_951491101",
+    "photos": [
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir televizyon ve/veya eğlence merkezi",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302795.jpg?k=7cb01aeb2677ba0b56a8c769e77af3ffef10c08480ef389fe83c056ca7bc9669&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde mutfak veya mini mutfak",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302947.jpg?k=7ddae004d85a52179857736b66af5f51df31c7de270a5c8e4216507062b0d382&o="
+      ],
+      [
+        "Dairenin bulunduğu bina",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302960.jpg?k=610ffd14b11d3a6074e452d4affa6dc3f766c2613fc065e0e17413aa6bf855de&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir oturma alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302939.jpg?k=6f74a1c1327d96a891cf24f1b401fb4b65b970dbb2ae93103428aa9654724df9&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302945.jpg?k=ebd72db9e484348234a74ea79c76d5aa482c54b84bbc94c2967782ae6832b72f&o="
+      ],
+      [
+        "Berlin'deki Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisine ait fotoğraf galerisinden bir görsel",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302924.jpg?k=93545f4e88b73f7552fdc3e6786fab0ad8f5649652b06482ff22e82a9e24cb27&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302944.jpg?k=6b72bc17017858135519bb63765ab871a1f5ea03ad7f728f7f7c772abb7fd12c&o="
+      ],
+      [
+        "Berlin'deki Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisine ait fotoğraf galerisinden bir görsel +15 fotoğraf",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302942.jpg?k=2626bb094bcf02246b2ec710dbcc4d0d351653c787305c5723db8dcef3ad0f93&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir televizyon ve/veya eğlence merkezi",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302940.jpg?k=fc4515b880901aa629b1f2e70d4c09caae55e387777b9388a4f53968259b6c30&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302949.jpg?k=1301f53bf9f649740621cb0e6a028a853a94d40c31f57b2f3087776b7afb8cb5&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302932.jpg?k=276039c3e40e915f255f022c1449593fef5d2d9a3364933520519b95d3524170&o="
+      ],
+      [
+        "Berlin'deki Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisine ait fotoğraf galerisinden bir görsel",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302927.jpg?k=b4d25af448cb3b0bc54be61a6133d0844e0867e9e544108b64f2f8cb3dc13923&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302928.jpg?k=812e83d84f08b124abad3d4fc26fc7042c97c75f25d06d3e0445a61ecefb4c18&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302956.jpg?k=ae49891f706ea727b07e03990cc6b95178c7adec4babac2bb19d0707b3bd48bf&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302923.jpg?k=739fe62dfc50f0463d95a1a209ea6e38414c165792b38c0d5f31b09bcb8bc250&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302933.jpg?k=afd0ea842c63af989b366743640322b1e9d8c4b05624d8f26006efd8547ce47d&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302936.jpg?k=18ad47feb41cf6771acbc6c5abe8819ac9927e75d33f09b5358cfb3305114817&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302948.jpg?k=98d32fa81c9455753383ddc086a8d59893352db426368c57eb282386b16ec304&o="
+      ],
+      [
+        "Berlin'deki Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisine ait fotoğraf galerisinden bir görsel",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302955.jpg?k=18f3274614c17c54193b37ba57fdd85f0cbeb32e0db4d1c2c7a2ce8464ff4b26&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde mutfak veya mini mutfak",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302929.jpg?k=ad771adceaf7cedbeba32ac0afa4e69d6ee0cc2a0d6a7262a04cda74e4048954&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde içecekler",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302950.jpg?k=369837ee92fc056535813cadcb93a057011475f58b6df8d166464c4a95f426ea&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir oturma alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302853.jpg?k=a5488a10f0411f471dff417fcda856bac31650992465e74ae3c2fcb396a05c3c&o="
+      ],
+      [
+        "Sonnig & Helle Wohnung Alexanderplatz in 15min zu erreichen, Herthastraße sehr schön und groß für Gruppen geeignet tesisinde bir oturma alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422302941.jpg?k=89db04dec721dabd097f5d6e53b5c35bba6e1338a3a3d9b8ab9ee8b495a1fc43&o="
+      ]
+    ],
+    "photoNote": "Kaynak ilan galerisindeki erişilebilen görseller.",
+    "platform": "Booking",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Kaynak dairenin tamamını ve özel banyoyu gösteriyor.",
+      "source": "https://www.booking.com/hotel/de/sonnig-und-helle-wohnung-alexanderplatz-in-15min-zu-erreichen-sehr-schon-und-gro.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1#room_951491101"
+    },
+    "checkedAt": "2026-11-10",
+    "addedAt": "2026-11-10T20:53:36Z",
+    "_sourceFile": "galeri-sweep-20261110-yeni.json",
+    "showStandalone": false
+  },
+  {
+    "id": "1610146635685764854",
+    "sourceId": "1610146635685764854",
+    "name": "TMS1 | Moabit Üç Odalı Daire",
+    "area": "Moabit",
+    "address": "Thomasiusstraße 1, 10557 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 10,
+    "maxAdults": 10,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "2 çift kişilik yatak ve 2 ranza (4 yatış yeri); salonda çekyat.",
+    "features": "3 yatak odası ve 2 banyo. Üçüncü odadaki 2 ranzanın yetişkinler için ölçüsü ilanda belirtilmemiş.",
+    "price": "2.928 €",
+    "priceEUR": 2928,
+    "priceApproximate": false,
+    "priceStatus": "4 gecelik kaynak fiyatı; vergi ve ek ücretleri kontrol edin",
+    "priceClass": "search",
+    "priceNote": "Ranzaların yetişkinlere uygunluğu ve ölçüsü teyitsiz. 7 kişi için farklı bir araçta 3.421,26 € toplam görülmüştü; Airbnb ödeme özetiyle karşılaştırın.",
+    "availabilityNote": "2026-11-10 tarihinde 4 gece ve 6 kişi için rezervasyon seçeneği görüldü.",
+    "rsoCar": "25 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "11 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1610146635685764854?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "sourceURL": "https://www.airbnb.com/rooms/1610146635685764854?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/4bfa071d-ab0a-4b83-9800-1bb9a0ea9b96.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/71d9c035-b124-44a8-a4ab-5f0a276d537d.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 4",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/f71b84ad-87c1-444e-a062-669592db477c.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 5",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/90d68756-2dc0-45ae-a114-9007cad332ba.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 6",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/5e52494a-96f5-4e2e-81e3-af19d804e113.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 7",
+        "https://a0.muscache.com/im/pictures/user/User/original/354d88e6-7f5d-49ea-b77d-96aff97198d2.jpeg?im_w=1440"
+      ],
+      [
+        "1. yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/c55b01d8-9e10-41b9-ae5c-8bb9703c583c.jpeg?im_w=1440"
+      ],
+      [
+        "Oturma odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/14ea6d62-ec46-4a0d-9652-e14e4ddcb111.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/481a6680-46b2-4c94-91e9-d7917d97b660.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 11",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/8ab51c28-bc4b-464e-8e54-f391fc36f132.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 12",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/daec3fc7-115b-4539-aae3-940993711838.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 13",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b0d9a4f0-26d1-4d4d-a269-4884338ab168.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 14",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/1d5a4065-220e-4d80-b44f-019dd4a0ae68.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 15",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/65e4ab99-d873-45c7-95a4-cd0c55a2314f.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 16",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/c6373272-edcf-4f5c-a215-78ae3d706e92.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 17",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b0dbbf5c-02a9-4781-a3ad-cf6953beccdc.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 18",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/9a063063-76d9-401e-b8e7-8992e32a38f7.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 19",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/a8dea71f-05c2-4d73-9d0e-a3396018e53e.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 20",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/a7a26df4-8856-48d5-b386-16513a5b3e7e.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 21",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/9f879307-769f-4249-9236-3a09b6bc1888.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 22",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/06e4c029-0756-467d-88ca-d5ca8ff1f96a.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 23",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/ffce57bf-20fa-409a-b468-8d18d9af6c9d.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 24",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/3f195a8d-7c77-4e62-b5a3-09ffec1829c4.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 25",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/54f7b675-8fc8-46f0-9bcc-954cd249990d.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 26",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/43907c31-5b6b-4c89-8d8d-348b1315707d.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 27",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/5b3565ed-7130-47d1-99c4-b074b6925aca.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 28",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/e4825d73-7cfd-4576-9d88-d301a4362042.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 29",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/1308d72c-8536-44b8-9799-c019815694c5.jpeg?im_w=1440"
+      ]
+    ],
+    "photoNote": "Kaynak ilan galerisindeki erişilebilen görseller.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Kaynak dairenin tamamını ve özel banyoyu gösteriyor.",
+      "source": "https://www.airbnb.com/rooms/1610146635685764854?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-10",
+    "addedAt": "2026-11-10T20:53:36Z",
+    "_sourceFile": "galeri-sweep-20261110-yeni.json",
+    "showStandalone": false
+  },
+  {
+    "id": "six-booking-1242731801-full",
+    "sourceId": "booking-1242731801",
+    "name": "Kreutzigerstraße | Dört Yatak Odalı Daire",
+    "area": "Friedrichshain",
+    "address": "Kreutzigerstraße 27, 10247 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 7,
+    "maxAdults": 7,
+    "rooms": 4,
+    "baths": "2",
+    "beds": "5 çift ve 2 tek kişilik yatak; ayrıca çekyat.",
+    "features": "4 yatak odası ve 2 banyo. Başlıkta 120 m², oda açıklamasında 180 m² yazıyor.",
+    "price": "3.987 €",
+    "priceEUR": 3987,
+    "priceApproximate": false,
+    "priceStatus": "4 gecelik kaynak fiyatı; vergi ve ek ücretleri kontrol edin",
+    "priceClass": "search",
+    "priceNote": "Gösterilen fiyata ilave ücretler uygulanabilir. Metrekare bilgisi kaynakta çelişkili.",
+    "availabilityNote": "2026-11-10 tarihinde 4 gece ve 6 kişi için rezervasyon seçeneği görüldü.",
+    "rsoCar": "16 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "8 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "link": "https://www.booking.com/hotel/de/120sqm-amp-5-room-luxury-apartment-with-garden.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1#room_1242731801",
+    "sourceURL": "https://www.booking.com/hotel/de/120sqm-amp-5-room-luxury-apartment-with-garden.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1#room_1242731801",
+    "photos": [
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir televizyon ve/veya eğlence merkezi",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578296359.jpg?k=a665c9a70ac1f9afe68cf79e64ebfc0bb732fd37cd23dbd5531d9269aae416bb&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298525.jpg?k=bdb3f7c2cd34b097b97fa26aa423597a7be126f09cbfad6269c3820adcc609ce&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir televizyon ve/veya eğlence merkezi",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578296480.jpg?k=5995f777fae6b9fbafc9dc043f20ca4e722f7d0feca3bf7d14c3a5d08751be86&o="
+      ],
+      [
+        "Berlin'deki 120sqm 4bedrooms luxury apartment with 2 bathrooms tesisine ait fotoğraf galerisinden bir görsel",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578295599.jpg?k=8be046cbfb031af512a2edba41110b768b5eb09eb95d66314dbb1f22d1153e2b&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298248.jpg?k=3060016a74c101e138967ba10e6bc1e79f27ed8c737eec0ff2baafc1f6951870&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298574.jpg?k=f7144ad33ecbf51ccbd167c5ddc79287f7982e79b5a3ef701335abd5a4b45e3b&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde mutfak veya mini mutfak",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298581.jpg?k=15ab2e2ecbb0a0c58f9acfc7efd9744000d01f333e171a9878c0cd4d8c851a25&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir oturma alanı +33 fotoğraf",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578295672.jpg?k=5c1241dbf60d1b18bd414118258cdf1ad5d84bc273876437e9a1015cdbe2d54a&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298667.jpg?k=4b79195b18420c75c76bb65a1fb628f91380b76ce0e53e33d0adb79627ba0cc9&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde mutfak veya mini mutfak",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298367.jpg?k=30565ad585d39f1c4e26c69935cd6742971826edff81c8029f5884ac24f76e19&o="
+      ],
+      [
+        "Berlin'deki 120sqm 4bedrooms luxury apartment with 2 bathrooms tesisine ait fotoğraf galerisinden bir görsel",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578295296.jpg?k=699b3d9c5558db7207cec2f9a8e613238613bc2b1c076d1974b13f7078ed7bd2&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir oturma alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578295120.jpg?k=6d966a54a99edea44b10601d990ce9fa279879c87ec4f4177780af3933290037&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir oturma alanı",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578295696.jpg?k=a8a3a127be2d4bb465f7e7e83920edab247a40b8103200bf8910b6a5ab17238c&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578297033.jpg?k=062074f56e5003b64ee034c83810b76b2e70c6f91c14a9891f40ea533e56bb20&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578296941.jpg?k=f3e784dd0bbfd97f3912e2a7d90caf1cd055f8012c5d8362c9950a54d295d01a&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578297271.jpg?k=de19707388282a81622970240fd7ab66e01984d783c3dee911732c2b5a761602&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578297186.jpg?k=6c559411b278058f01f1f7bcdc581b1ce27ec26670643320a602b8d403047acd&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578297355.jpg?k=9113c02451950105c8a95840f3854510e32100fee635e5b0e0663fc4309c0276&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578297342.jpg?k=7ff4f48c7aac633fccc9b210b265d42e6d2f74d6b4f63904e069e5fb7fa84399&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578297300.jpg?k=4fe45dbd5ee18837ad63fbdba69c6c3a84ecfbc48ccf5fcc15e64dcfeea8a33a&o="
+      ],
+      [
+        "Berlin'deki 120sqm 4bedrooms luxury apartment with 2 bathrooms tesisine ait fotoğraf galerisinden bir görsel",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578297674.jpg?k=f2e980a66f6c15cdc52dc58b88d1559eee0393aa2a2421f9d0e287973fc27bff&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578297958.jpg?k=22a014e64693bd05bfd36fad6c34ed5c6ba889db96776e0fd7df48fe30d2e28c&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298015.jpg?k=41effdfc5ebaa6ca907c9e6578d215356150d77472b9c073abe824ccf7f7b860&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578297918.jpg?k=912547a533f5ce4d95072b0e04aeb93786ba08b8d14f497bfcf0183ff8c96713&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578297781.jpg?k=06a8b87e1efc1f4e83b07270d376265322d37412c49bdfe80ae3dd52a59fb8f8&o="
+      ],
+      [
+        "Berlin'deki 120sqm 4bedrooms luxury apartment with 2 bathrooms tesisine ait fotoğraf galerisinden bir görsel",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298006.jpg?k=a630df4d1a6991277f9d855ff946d7714f831cbef0b4011bc0f4432ef6614005&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578297981.jpg?k=915278bc3ca7012b4a69507bce07af1397451aec19f2e905be6089f89d015e96&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298104.jpg?k=efe51290283870089217f8938b78423e30abf6231d9ac369bbbe170e183b4f10&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298289.jpg?k=c221cae49bf5d5cf059ca80196144b340d00da50136672f15cc78b1289abda6e&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298276.jpg?k=98e280c6e8fe171dda6b1a51dc6e86e3b6f272c225e17e9c615f7cc79773de03&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298389.jpg?k=a1d7387683ec1aec614585a2ec7bb37305ed37b2f510f9fe50f6595bc99ded50&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir odada yatak veya yataklar",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298246.jpg?k=7732f67d6e848259ab018fb1e16033b3b4f95de5642d58f7da5b0052a68e1eae&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde mutfak veya mini mutfak",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298406.jpg?k=1581a67b90ee2c3d779615a3c3c1c0324896bd0b4baecd231432c4f9fcf3ed29&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde mutfak veya mini mutfak",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298402.jpg?k=88c0b30cc7d9ea6ea9cfaf9628b3dff75c6516200ae2cd5dc8a6cb0e7cbee043&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde mutfak veya mini mutfak",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298548.jpg?k=362b2d6a77eb7f3d29b275da15d4edbb452ed9e46d02926e0ab3810cd5d0f3de&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298570.jpg?k=c228fe76afaad5c4ffad71f1e0938ae301a89da9a5490824842d4efc1811d288&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298650.jpg?k=82d58094d760e93bf591140d7440a583ee5c43ecc53b8db6153af269e0866beb&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298653.jpg?k=1756d41ae70aa8bac4839dea407e61b23a4ce48409171f2c8c5c844a986fb25f&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298665.jpg?k=fe68b1f1e1872a15440a9f64ac379a07c840513a94b99215af0b469367aeebc1&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298669.jpg?k=0c24fb7ca6fb65b1c2f6a99fe3afbd38d29ea7aba7a520caced7f897068547c2&o="
+      ],
+      [
+        "120sqm 4bedrooms luxury apartment with 2 bathrooms tesisinde bir banyo",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578298674.jpg?k=e3f97d94f665f8d43ba34a6c0c76e041e4f5b2ae668bf4c2855e79335f6b723c&o="
+      ]
+    ],
+    "photoNote": "Kaynak ilan galerisindeki erişilebilen görseller.",
+    "platform": "Booking",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Kaynak dairenin tamamını ve özel banyoyu gösteriyor.",
+      "source": "https://www.booking.com/hotel/de/120sqm-amp-5-room-luxury-apartment-with-garden.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1#room_1242731801"
+    },
+    "checkedAt": "2026-11-10",
+    "addedAt": "2026-11-10T20:53:36Z",
+    "_sourceFile": "galeri-sweep-20261110-yeni.json",
+    "showStandalone": false,
+    "premiumBedProof": {
+      "verified": true,
+      "independentBeds": 7,
+      "source": "https://www.booking.com/hotel/de/120sqm-amp-5-room-luxury-apartment-with-garden.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1#room_1242731801",
+      "note": "Beş çift kişilik yatak ve iki tek kişilik yatak, yedi ayrı yatak olarak sayıldı."
+    }
+  },
+  {
+    "id": "20671210",
+    "sourceId": "20671210",
+    "name": "TRIO | İki Yatak Odalı Superior Daire",
+    "area": "Marzahn",
+    "address": "Zur Alten Börse 57, 12681 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 7,
+    "maxAdults": 7,
+    "rooms": 2,
+    "baths": "1,5 veya 2",
+    "beds": "2 tek yatak ve ikinci odada 2 ranza veya 1 ranza ile 1 tek yatak; ayrıca çekyat.",
+    "features": "53 m². Mevcut üç yatak odalı TRIO ile aynı tesiste farklı daire tipi.",
+    "price": "983 €",
+    "priceEUR": 983,
+    "priceApproximate": false,
+    "priceStatus": "4 gecelik kaynak fiyatı; vergi ve ek ücretleri kontrol edin",
+    "priceClass": "search",
+    "priceNote": "İkinci odadaki ranza düzeni daireye göre değişebilir; bir düzende altıncı kişinin çekyatta yatması gerekir. Banyo düzeni de değişebilir.",
+    "availabilityNote": "2026-11-10 tarihinde 4 gece ve 6 kişi için rezervasyon seçeneği görüldü.",
+    "rsoCar": "16 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "16 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/20671210?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "sourceURL": "https://www.airbnb.com/rooms/20671210?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "Tüm fotoğrafları göster",
+        "https://a0.muscache.com/im/pictures/4f664909-46bc-4eb2-8ccd-f05546cd24b9.jpg?im_w=1440"
+      ],
+      [
+        "Tüm fotoğrafları göster",
+        "https://a0.muscache.com/im/pictures/30c2498a-48c8-4d1e-91b6-76e79f352e72.jpg?im_w=1440"
+      ],
+      [
+        "Tüm fotoğrafları göster",
+        "https://a0.muscache.com/im/pictures/c3cbd2e7-7c7c-47ec-bd96-56b1dc8bfb3b.jpg?im_w=1440"
+      ],
+      [
+        "Tüm fotoğrafları göster",
+        "https://a0.muscache.com/im/pictures/62145179-3588-4f9f-b133-acccfdc5d91b.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 5",
+        "https://a0.muscache.com/im/pictures/user/9cadab95-f916-48f3-9474-3056be332554.jpg?im_w=1440"
+      ],
+      [
+        "2. yatak odası",
+        "https://a0.muscache.com/im/pictures/ad36ee04-1b43-43cb-8a0b-7b601af15a66.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 7",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/1d5a4065-220e-4d80-b44f-019dd4a0ae68.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 8",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b0d9a4f0-26d1-4d4d-a269-4884338ab168.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 9",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/481a6680-46b2-4c94-91e9-d7917d97b660.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/7910538f-8700-4f69-be73-977b98562f4d.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 11",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b0dbbf5c-02a9-4781-a3ad-cf6953beccdc.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 12",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/8ab51c28-bc4b-464e-8e54-f391fc36f132.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 13",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/9a063063-76d9-401e-b8e7-8992e32a38f7.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 14",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/befe29c5-d938-4046-a6bb-a79e3ac5656d.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 15",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b5957392-bf60-4304-8666-c030859eebf7.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 16",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/65e4ab99-d873-45c7-95a4-cd0c55a2314f.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 17",
+        "https://a0.muscache.com/im/pictures/458effc0-ec39-4f7f-8399-a388ca4e53da.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 18",
+        "https://a0.muscache.com/im/pictures/73e5f109-0973-45a3-80a0-0d57df4765f3.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 19",
+        "https://a0.muscache.com/im/pictures/952a4de9-52af-404f-a796-7ac5bc0f36d1.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 20",
+        "https://a0.muscache.com/im/pictures/fdb606bb-8e8d-4b5a-81ca-ed85a6b27f73.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 21",
+        "https://a0.muscache.com/im/pictures/acd22ab4-a8d7-45d9-9c1a-90bffb9fde94.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 22",
+        "https://a0.muscache.com/im/pictures/35290c2f-2d7d-4457-8627-fcafc5e65c08.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 23",
+        "https://a0.muscache.com/im/pictures/3d1c328a-fa5b-4e5d-9670-8420d70d38e8.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 24",
+        "https://a0.muscache.com/im/pictures/1b7da5e2-5e02-4358-a11d-e52aa105cceb.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 25",
+        "https://a0.muscache.com/im/pictures/beb5e4b4-d609-4deb-9b69-cf550a24449a.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 26",
+        "https://a0.muscache.com/im/pictures/5d074c05-d423-462d-a5df-67fb85581a62.jpg?im_w=1440"
+      ]
+    ],
+    "photoNote": "Kaynak ilan galerisindeki erişilebilen görseller.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Kaynak dairenin tamamını ve özel banyoyu gösteriyor.",
+      "source": "https://www.airbnb.com/rooms/20671210?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-10",
+    "addedAt": "2026-11-10T20:53:36Z",
+    "_sourceFile": "galeri-sweep-20261110-yeni.json",
+    "showStandalone": false
+  },
+  {
+    "id": "1532802572102238291",
+    "sourceId": "1532802572102238291",
+    "name": "fairAPART | Prenzlauer Berg",
+    "area": "Prenzlauer Berg",
+    "address": "Naugarder Straße 44, 10409 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 6,
+    "maxAdults": 6,
+    "rooms": 2,
+    "baths": "1",
+    "beds": "5 tek kişilik yatak ve salonda 1 çekyat.",
+    "features": "50 m², 2 yatak odası, 1 banyo. Altıncı kişi salondaki çekyatta yatar.",
+    "price": "1.772 €",
+    "priceEUR": 1772,
+    "priceApproximate": false,
+    "priceStatus": "4 gecelik kaynak fiyatı; vergi ve ek ücretleri kontrol edin",
+    "priceClass": "search",
+    "priceNote": "Altıncı kişi için çekyat kullanılması gerekir.",
+    "availabilityNote": "2026-11-10 tarihinde 4 gece ve 6 kişi için rezervasyon seçeneği görüldü.",
+    "rsoCar": "21 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "8 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1532802572102238291?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "sourceURL": "https://www.airbnb.com/rooms/1532802572102238291?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/81be3e5d-0b2a-4f69-a93f-326e59cb2682.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/f3d2913b-dfb1-483c-ad0d-0468a0bee321.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/57392b9e-04e8-403b-b54c-ddc80a25fb78.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 4",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/3c438441-9b3c-4909-addc-340273517142.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 5",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/aa8b0f07-283c-4e95-9752-bebf5dbacc2a.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 6",
+        "https://a0.muscache.com/im/pictures/user/User-431550058/original/9790e885-58f3-44f5-88cc-7ff01c4ac62f.jpeg?im_w=1440"
+      ],
+      [
+        "2 adet konforlu tek kişilik yaylı yatak, klima ve optimum karartma için elektrikli panjur bulunan aydınlık yatak odası. Depolama alanı/dolap, komodin ve temiz nevresim takımları ve havlular mevcut.",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/511400e1-005b-4771-8641-8bea3ca9ca7b.jpeg?im_w=1440"
+      ],
+      [
+        "3 adet konforlu bazalı yatağa sahip geniş yatak odası – ayrı ayrı ayarlanabilir veya çift kişilik yatak haline getirilebilir. Klima, odayı karartmak için elektrikli panjurlar ve rahat bir TV izleme deneyimi için 50 inç akıllı TV. Temiz çarşaf ve havlular dahil.",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/5aae53f7-e83d-4bcf-b575-4695a3e5a9bb.jpeg?im_w=1440"
+      ],
+      [
+        "Kırmızı çekyatlı rahat oturma/yemek alanı, 6 kişilik yemek masası ve açık, tam donanımlı mutfak (indüksiyon ocak, fırın, mikrodalga fırın). Konfor için modern sarkıt lambalar ve klima.",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/79f05f8d-51f0-4b2c-adf5-2ef39162b1c5.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/e924ac5e-e76d-4992-bf8f-46cf8380a5eb.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 11",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/8df8123f-2e0d-474f-99cf-dca7bd9f075a.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 12",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/03dc5604-df04-4e12-8092-acec0f42eb98.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 13",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/2087b263-a3c5-4391-a914-75889db843d8.jpeg?im_w=1440"
+      ]
+    ],
+    "photoNote": "Kaynak ilan galerisindeki erişilebilen görseller.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Kaynak dairenin tamamını ve özel banyoyu gösteriyor.",
+      "source": "https://www.airbnb.com/rooms/1532802572102238291?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-10",
+    "addedAt": "2026-11-10T20:53:36Z",
+    "_sourceFile": "galeri-sweep-20261110-yeni.json",
+    "showStandalone": false
+  },
+  {
+    "id": "1383517943466250521",
+    "sourceId": "1383517943466250521",
+    "name": "Moabit | Spree Loft",
+    "area": "Moabit",
+    "address": "Kaiserin-Augusta-Allee 101, 10553 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 16,
+    "maxAdults": 16,
+    "rooms": 3,
+    "baths": "2,5",
+    "beds": "2 çift kişilik yatak ve 6 ranza; ayrıca çekyatlar.",
+    "features": "200 m², Spree kıyısında 3 yatak odalı loft.",
+    "price": "2.471 €",
+    "priceEUR": 2471,
+    "priceApproximate": false,
+    "priceStatus": "4 gecelik kaynak fiyatı; vergi ve ek ücretleri kontrol edin",
+    "priceClass": "search",
+    "priceNote": "Üçüncü odadaki ranzalar kaynakta gençlere daha uygun olarak anlatılıyor; yetişkinler için ölçüleri teyitsiz.",
+    "availabilityNote": "2026-11-10 tarihinde 4 gece ve 6 kişi için rezervasyon seçeneği görüldü.",
+    "rsoCar": "29 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "16 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1383517943466250521?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "sourceURL": "https://www.airbnb.com/rooms/1383517943466250521?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/3928628a-fe6a-46cd-9c79-3f9b0c68b45c.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/7c89ae99-d27c-4b7d-b221-6d2acf606baf.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/1a4b0be3-ef21-4bae-bfa4-cc38548d6284.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 4",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/9f3c9fa2-bdb9-4943-b219-cbc2cb78aee9.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 5",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/256ca19e-0c59-4137-a9c7-96ebf7b7fcae.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 6",
+        "https://a0.muscache.com/im/pictures/user/2cc22a76-c580-4523-a00b-e33883e5acd0.jpg?im_w=1440"
+      ],
+      [
+        "1. yatak odası",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/2914ed91-759c-47d4-921e-f110380ac410.jpeg?im_w=1440"
+      ],
+      [
+        "2. yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/d5453a87-4917-4a64-8c40-5b5e58749e1b.jpeg?im_w=1440"
+      ],
+      [
+        "3. yatak odası",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/4e195568-773f-47fd-a947-e198f5353ebc.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/8ab51c28-bc4b-464e-8e54-f391fc36f132.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 11",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/c1ebe817-e327-4dd9-b172-d88ebaf38d11.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 12",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/16826b98-38d0-4424-9b11-20b0155d522a.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 13",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/481a6680-46b2-4c94-91e9-d7917d97b660.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 14",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/4ba37ca8-96c3-4f0a-a30b-4affdaf3364d.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 15",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b5957392-bf60-4304-8666-c030859eebf7.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 16",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/c6373272-edcf-4f5c-a215-78ae3d706e92.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 17",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/16838f5c-a288-420b-bb3a-7ee70278d723.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 18",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/befe29c5-d938-4046-a6bb-a79e3ac5656d.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 19",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/1d5a4065-220e-4d80-b44f-019dd4a0ae68.png?im_w=1440"
+      ],
+      [
+        "Coralie",
+        "https://a0.muscache.com/im/pictures/user/49dfc2d9-5b6a-4272-a9fc-d2ef751cc1c9.jpg?im_w=1440"
+      ],
+      [
+        "Esther",
+        "https://a0.muscache.com/im/pictures/user/User/original/949b4c15-81fd-4d8f-8de6-5f566974d4a1.jpeg?im_w=1440"
+      ],
+      [
+        "Emily",
+        "https://a0.muscache.com/im/pictures/user/fd845291-bcfd-411b-b3f2-43cd16fcb1be.jpg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 23",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/8767912c-28d7-4519-8d70-72b41506723c.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 24",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/7bc46e75-ef5d-4369-a3e7-64242b515b5b.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 25",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/38aeef4b-c544-4978-a67a-9cbcdee0bb77.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 26",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/42b3e312-dc65-4a22-8df7-b4d774845e27.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 27",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/7c12170e-8068-4bed-ba48-31b8f14a522e.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 28",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/183baf0a-274d-45bf-9cd7-5577ec57d5d5.jpeg?im_w=1440"
+      ]
+    ],
+    "photoNote": "Kaynak ilan galerisindeki erişilebilen görseller.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Kaynak dairenin tamamını ve özel banyoyu gösteriyor.",
+      "source": "https://www.airbnb.com/rooms/1383517943466250521?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-10",
+    "addedAt": "2026-11-10T20:53:36Z",
+    "_sourceFile": "galeri-sweep-20261110-yeni.json",
+    "showStandalone": false
+  },
+  {
+    "id": "1107298370548666445",
+    "sourceId": "1107298370548666445",
+    "name": "Schöneberg | 6 Tek Yataklı Daire",
+    "area": "Schöneberg",
+    "address": "Hauptstraße 113, 10827 Berlin",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 6,
+    "maxAdults": 6,
+    "rooms": 1,
+    "baths": "1",
+    "beds": "6 tek kişilik yatak: yatak odasında 2, oturma odasında 4.",
+    "features": "Ev sahibi sıra dışı ve erotik dekoru, binanın gürültülü olabileceğini ve binada yetişkinlere yönelik işletme bulunduğunu belirtiyor.",
+    "price": "1.100 €",
+    "priceEUR": 1100,
+    "priceApproximate": false,
+    "priceStatus": "4 gecelik kaynak fiyatı; vergi ve ek ücretleri kontrol edin",
+    "priceClass": "search",
+    "priceNote": "Ev sahibine göre %7,5 şehir vergisi ayrıca tahsil edilir. Bina ve dekor bilgilerini inceleyin.",
+    "availabilityNote": "2026-11-10 tarihinde 4 gece ve 6 kişi için rezervasyon seçeneği görüldü.",
+    "rsoCar": "18 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "14 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "OSRM trafiksiz araç rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com/rooms/1107298370548666445?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "sourceURL": "https://www.airbnb.com/rooms/1107298370548666445?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1107298370548666445/original/f44ae5a6-8925-43af-9e42-6c9f11dad1b1.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/71594224-e510-420a-800b-7c988ea46f22.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1107298370548666445/original/fe0e864e-31d2-412c-b120-0236a0868c7d.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 4",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1107298370548666445/original/ec89c961-71fc-466c-8d98-5597fda21632.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 5",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/200cdf2f-8ab5-42b8-957d-f2aaea416859.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 6",
+        "https://a0.muscache.com/im/pictures/user/User-563965124/original/ed147400-0393-4f15-b5f2-07f1b3159f95.jpeg?im_w=1440"
+      ],
+      [
+        "Oturma odası",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1107298370548666445/original/1bd0925b-9cff-491d-b106-f8636d96275b.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 8",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b0dbbf5c-02a9-4781-a3ad-cf6953beccdc.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 9",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b5957392-bf60-4304-8666-c030859eebf7.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 10",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b0d9a4f0-26d1-4d4d-a269-4884338ab168.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 11",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/c1ebe817-e327-4dd9-b172-d88ebaf38d11.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 12",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/8ab51c28-bc4b-464e-8e54-f391fc36f132.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 13",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/1d5a4065-220e-4d80-b44f-019dd4a0ae68.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 14",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/481a6680-46b2-4c94-91e9-d7917d97b660.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 15",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/a189c291-f179-4cf5-912e-5949e419e182.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 16",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/9a063063-76d9-401e-b8e7-8992e32a38f7.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 17",
+        "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/aa73c8e3-75cd-4130-8a7f-df014c5d5e61.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 18",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/f211d050-f8ab-4cfc-99eb-2adf581cdab7.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 19",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1107298370548666445/original/53099c1c-90c0-401f-bd1c-2f7da8b645ef.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 20",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/ffb36110-acbd-412d-8321-ef9c257b8b0a.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 21",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1107298370548666445/original/d907c660-4bfd-4fb1-9393-33137c8ae92e.jpeg?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 22",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/66e67e92-61f2-4521-8fca-f8019b682daa.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 23",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/f2df8548-8709-42df-bca5-47ca817ddfb1.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 24",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/62671592-8980-4891-b7cc-2f22782e6432.png?im_w=1440"
+      ],
+      [
+        "İlan fotoğrafı 25",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/055c65bb-739f-4626-bae0-7e62565ba840.jpeg?im_w=1440"
+      ]
+    ],
+    "photoNote": "Kaynak ilan galerisindeki erişilebilen görseller.",
+    "platform": "Airbnb",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Kaynak dairenin tamamını ve özel banyoyu gösteriyor.",
+      "source": "https://www.airbnb.com/rooms/1107298370548666445?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    "checkedAt": "2026-11-10",
+    "addedAt": "2026-11-10T20:53:36Z",
+    "_sourceFile": "galeri-sweep-20261110-yeni.json",
+    "showStandalone": false,
+    "displayWarnings": [
+      "Ev sahibine göre %7,5 şehir vergisi ayrıca ödenir.",
+      "İlanda erotik dekor ve binada yetişkinlere yönelik işletme belirtildi; bina gürültülü olabilir."
+    ]
+  }
+]

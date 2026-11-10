@@ -457,7 +457,104 @@
     },
     "checkedAt": "2026-11-07",
     "_sourceFile": "galeri-sweep-20261107.json",
-    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json"
+    "evidenceFile": "./aday-arama/adaylar-2026-11-07.json",
+    "addedAt": "2026-11-10T20:53:36Z",
+    "relatedStays": [
+      {
+        "id": "airbnb-1429537620167870553",
+        "title": "Görli | Tek Daire",
+        "description": "Bu ilandaki üç daireden biri ayrı kiralanabiliyor. Bir odada üst katta 5 yatış yeri, altta 2 tek kişilik yatak var.",
+        "checkIn": "2026-12-30",
+        "checkOut": "2027-01-03",
+        "price6": "1.231 €",
+        "price7": "1.319 €",
+        "url6": "https://www.airbnb.com/rooms/1429537620167870553?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+        "url7": "https://www.airbnb.com/rooms/1429537620167870553?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+        "photos": [
+          [
+            "İlan fotoğrafı 1",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1429537620167870553/original/3d6b92d3-098d-47ff-90fc-adcd872e12c4.jpeg?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 2",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1429537620167870553/original/0909b907-ea8e-4950-9a4f-8fcef35574b7.jpeg?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 3",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1429537620167870553/original/ec0d2e45-2fd1-4e0f-af19-e267256c91fd.jpeg?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 4",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1429537620167870553/original/635d530c-94ea-4280-8fe4-bd844aac17ae.jpeg?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 5",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1429537620167870553/original/38abd260-685a-4f0d-a4cf-b6ee27bd9c45.jpeg?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 6",
+            "https://a0.muscache.com/im/pictures/user/e86e36e4-638f-48e9-abf8-566908f11bd3.jpg?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 7",
+            "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/481a6680-46b2-4c94-91e9-d7917d97b660.png?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 8",
+            "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b5957392-bf60-4304-8666-c030859eebf7.png?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 9",
+            "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/05b44f2b-179d-415c-b2ef-c0d7e49f8d13.png?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 10",
+            "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/9a063063-76d9-401e-b8e7-8992e32a38f7.png?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 11",
+            "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b0dbbf5c-02a9-4781-a3ad-cf6953beccdc.png?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 12",
+            "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/65e4ab99-d873-45c7-95a4-cd0c55a2314f.png?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 13",
+            "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/a189c291-f179-4cf5-912e-5949e419e182.png?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 14",
+            "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/0fac3584-3372-4300-bf9f-03f557ff1fc2.png?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 15",
+            "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/8ab51c28-bc4b-464e-8e54-f391fc36f132.png?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 16",
+            "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/54fa55e5-61bf-439b-8d74-6336696e618d.png?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 17",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1429537620167870553/original/f7a0a74f-5d19-4cf7-86db-5165983c4e3b.jpeg?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 18",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1429537620167870553/original/3d20bb7c-ef84-4b57-8882-310660c96057.jpeg?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 19",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQyOTUzNzYyMDE2Nzg3MDU1Mw==/original/f3a2a5f9-7861-4dfa-895d-4252ea62c481.jpeg?im_w=1440"
+          ],
+          [
+            "İlan fotoğrafı 20",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1429537620167870553/original/765d719c-682f-4a56-b335-a287cb49af40.jpeg?im_w=1440"
+          ]
+        ],
+        "priceCheckedAt": "2026-11-10"
+      }
+    ]
   },
   {
     "id": "sweep7-airbnb-1268121761753625501-20261230-20270103",
