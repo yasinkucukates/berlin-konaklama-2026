@@ -556,6 +556,22 @@ def load_photo_overrides():
     return overrides
 
 
+def thumb_url(url: str) -> str:
+    """Smaller copy of a photo for the card tiles; the gallery keeps the original.
+
+    Full-size originals (1440-1920 px) on every tile made the page use so much
+    memory that Chrome closed the tab. Only providers with a known size switch
+    are changed; the page falls back to the original if a copy fails.
+    """
+    parsed = urlsplit(url)
+    if parsed.hostname == 'a0.muscache.com':
+        query = re.sub(r'(^|&)im_w=\d+', r'\1im_w=960', parsed.query) if 'im_w=' in parsed.query else (parsed.query + '&' if parsed.query else '') + 'im_w=960'
+        return parsed._replace(query=query).geturl()
+    if parsed.hostname == 'cf.bstatic.com' and '/max1920x1080/' in parsed.path:
+        return parsed._replace(path=parsed.path.replace('/max1920x1080/', '/max1024x768/')).geturl()
+    return url
+
+
 def photos_html(row):
     images = []
     for photo in row.get('photos', []):
@@ -577,7 +593,7 @@ def photos_html(row):
     for i, (label, url) in enumerate(images):
         alt = f"{row.get('name', 'Konaklama')}: {label}"
         cls_extra = ' class="extra-photo"' if i >= 5 else ''
-        tags.append(f'<a{cls_extra} href="{esc(url)}" target="_blank" rel="noopener noreferrer" data-photo-url="{esc(url)}" data-label="{esc(label)}" aria-label="{esc(alt)} Fotoğrafını Aç"><img src="{esc(url)}" alt="{esc(alt)}" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a>')
+        tags.append(f'<a{cls_extra} href="{esc(url)}" target="_blank" rel="noopener noreferrer" data-photo-url="{esc(url)}" data-label="{esc(label)}" aria-label="{esc(alt)} Fotoğrafını Aç"><img src="{esc(thumb_url(url))}" alt="{esc(alt)}" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a>')
     listing = safe_url(row.get('link'))
     action = f'<div class="photo-actions"><button class="gallery-open" type="button">Fotoğrafları Aç ({len(images)})</button><a class="gallery-all" href="{esc(listing)}" target="_blank" rel="noopener noreferrer">Tüm Fotoğrafları İlanda Gör ↗</a></div>' if listing else ''
     return f'<div class="{cls}" style="--thumb-count:{thumbs}">{"".join(tags)}</div>{action}'

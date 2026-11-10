@@ -966,6 +966,13 @@
   // Lira-priced offers change their euro value with the day's rate.
   document.addEventListener('berlin-fx', () => { applyFilters(); if (sort) applySort(); });
 
+  // Card tiles load a smaller copy; if that copy fails, try the original once.
+  const useOriginal = img => {
+    const full = img.closest('a')?.dataset.photoUrl;
+    if (!full || img.getAttribute('src') === full) return false;
+    img.src = full;
+    return true;
+  };
   const markImageFailure = img => {
     const anchor = img.closest('a');
     const listing = img.closest('.stay-card').querySelector('.listing');
@@ -977,10 +984,13 @@
     }
   };
   root.addEventListener('error', event => {
-    if (event.target instanceof HTMLImageElement && event.target.matches('.photo-grid img')) markImageFailure(event.target);
+    if (!(event.target instanceof HTMLImageElement) || !event.target.matches('.photo-grid img')) return;
+    // A failed small copy is not a failed photo: retry the original quietly.
+    if (useOriginal(event.target)) { event.stopPropagation(); return; }
+    markImageFailure(event.target);
   }, true);
   root.querySelectorAll('.photo-grid img').forEach(img => {
-    if (img.complete && img.currentSrc && img.naturalWidth === 0) markImageFailure(img);
+    if (img.complete && img.currentSrc && img.naturalWidth === 0 && !useOriginal(img)) markImageFailure(img);
   });
 
   // Shareable offer links. One page serves every offer: the address

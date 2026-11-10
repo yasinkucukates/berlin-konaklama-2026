@@ -265,6 +265,8 @@
     clone.querySelectorAll('.card-open-main').forEach(el => el.remove());
     clone.querySelectorAll('.photo-grid img').forEach(img => {
       const fail = () => {
+        const full = img.closest('a')?.dataset.photoUrl;
+        if (full && img.getAttribute('src') !== full) { img.src = full; return; }
         const link = img.closest('a'), listing = clone.querySelector('.listing');
         if (!link || !listing) return;
         link.classList.add('photo-failed'); link.href = listing.href;
