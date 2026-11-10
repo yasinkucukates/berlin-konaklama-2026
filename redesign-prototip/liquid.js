@@ -395,8 +395,16 @@
     availabilitySummary.className = 'availability-summary';
     availabilitySummary.setAttribute('role', 'status');
     availabilitySummary.hidden = true;
-    availabilitySummary.innerHTML = '<b class="sum-date"></b><span class="sum-ok"></span><span class="sum-no"></span><span class="sum-rest"></span>';
+    availabilitySummary.innerHTML = '<b class="sum-date"></b><button type="button" class="sum-ok" data-choice="available" aria-pressed="false"></button><button type="button" class="sum-no" data-choice="unavailable" aria-pressed="false"></button><button type="button" class="sum-missed" data-choice="missed" aria-pressed="false" title="Önce müsait görünüp sonraki kontrolde kapanan ilanlar"></button><span class="sum-rest"></span>';
     resultsContent.prepend(availabilitySummary);
+    // Each count opens that group at once; pressing it again shows all again.
+    availabilitySummary.addEventListener('click', event => {
+      const button = event.target.closest('button[data-choice]');
+      const select = root.querySelector('.filter-availability');
+      if (!button || !select) return;
+      select.value = select.value === button.dataset.choice ? 'all' : button.dataset.choice;
+      applyFilters(); if (sort) applySort();
+    });
   }
   // Open filters are named above the results, each with its own remove button.
   let activeFilterBar = null;
@@ -728,7 +736,14 @@
         const ok = availabilitySummary.querySelector('.sum-ok');
         const no = availabilitySummary.querySelector('.sum-no');
         ok.hidden = !available; ok.textContent = `${available} ilan müsait göründü`;
-        no.hidden = !unavailable; no.textContent = `${unavailable} ilan artık müsait değil${missed ? ` · ${missed} kaçırıldı` : ''}`;
+        no.hidden = !unavailable; no.textContent = `${unavailable} ilan artık müsait değil`;
+        const lost = availabilitySummary.querySelector('.sum-missed');
+        lost.hidden = !missed; lost.textContent = `${missed} ilan kaçırıldı`;
+        availabilitySummary.querySelectorAll('button[data-choice]').forEach(button => {
+          const pressed = availabilityFilter?.value === button.dataset.choice;
+          button.setAttribute('aria-pressed', String(pressed));
+          button.setAttribute('aria-label', `${button.textContent}: ${pressed ? 'tüm ilanlara dön' : 'yalnız bunları göster'}`);
+        });
         availabilitySummary.querySelector('.sum-rest').textContent = shown.length - available - unavailable
           ? `${shown.length - available - unavailable} ilan bu kontrolde doğrulanmadı. Fiyatlar ve müsaitlik değişebilir.`
           : 'Fiyatlar ve müsaitlik değişebilir.';
