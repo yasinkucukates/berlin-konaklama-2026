@@ -630,8 +630,7 @@
       // Unknown or contradictory bath counts are never guessed into a number.
       const bathMatch = !bathChoice.length || bathChoice.some(value => value === 'unknown' ? baths === null : baths !== null && (value === '3' ? baths >= 3 : baths === Number(value)));
       const featureMatch = (!featureChoice.includes('separate-beds') || (beds !== null && beds >= party)) &&
-        (!featureChoice.includes('separate-wc') || card.dataset.separateWc === 'true') &&
-        (!featureChoice.includes('sauna') || card.dataset.sauna === 'true');
+        (!featureChoice.includes('separate-wc') || card.dataset.separateWc === 'true');
       const generalMatch = favoriteMatch && newMatch && guestMatch && priceMatch && travelMatch && roomMatch && bathMatch && featureMatch;
       const bestMatch = ((card.dataset.bestEligible === 'true' || card.dataset.bestCandidate === 'true') && (party === 6 || (beds !== null && beds >= party))) ||
         (activeBest === 'best-apartment' && card.dataset.planGroup === 'full-daire' && card.dataset.bestAlternative === 'true') ||
