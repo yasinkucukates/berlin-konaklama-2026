@@ -1,0 +1,2462 @@
+{
+ "olusturuldu": "2026-11-11",
+ "kur": "TCMB 11.11.2026 efektif/döviz satış 1 EUR = 55,9810 TL",
+ "kriterler": "GOREV.md B bölümü: 30.12.2026–03.01.2027, 6 yetişkin, daire/evin tamamı, Tresor ve RSO araçla ≤20 dk (OSRM trafiksiz), toplam ≤180.000 TL (ideal ≤150.000)",
+ "siteler": {
+  "abs": {
+   "airbnb.com": "Arama sayfaları curl ile (data-deferred-state JSON), ilan sayfaları playwright-cli -s=abs ile. 30.12.2026–03.01.2027, 6 yetişkin, evin tamamı. Sorgular: Berlin 3+ yatak odası (137 ilan, 8 sayfa), Berlin 2+ oda & 6+ yatak, Berlin 6+ yatak, Friedrichshain/Kreuzberg/Treptow-Köpenick/Neukölln/Lichtenberg 2+ oda, Tresor–RSO kuşağı (lat 52.44–52.53, lng 13.38–13.56) 3x3 harita karosu (5+ yatak ve 2+ oda). Toplam 504 benzersiz ilan kartı; bilinen anahtarlar çıkınca fiyat ≤3.215 €, ≥2 oda, ≥5 yatak ve OSRM ≤20/20 dk süzgecinden 27 ilan geçti; 22 ilan sayfası incelendi. Bot kontrolü/CAPTCHA olmadı. Not: playwright ile arama sayfası çok yavaştı (~1 dk/sayfa), curl hızlı ve aynı veriyi verdi."
+  },
+  "bks": {
+   "booking.com": "ERİŞİM SORUNU. playwright-cli (Chromium ve Chrome kanalı) ile arama sonuç sayfası her denemede '0 müsait tesis' döndü; tarihli/6 kişilik URL'ler /city/de/berlin sayfasına yönlendirilip tarih parametreleri silindi; arayüzden tarih seçip aramak da aynı sonucu verdi. Otel sayfaları da (eastside34, luxoise) tarih parametresi silinerek, oda tablosu olmadan açıldı. Sayfa üst bandında Türkiye kaynaklı erişim kısıtı uyarısı görüldü ('only possible for our customers in Turkey to book international properties...'); h.priceline.com (Booking altyapısı) da booking.com'a yönlendi. WebFetch ile de boş içerik. Booking'den aday çıkarılamadı; IP/ülke kaynaklı kısıt olası, VPN vb. ile aşma denenmedi.",
+   "expedia.com": "ERİŞİM SORUNU: 'Bot or Not?' insan doğrulama sayfası; zorlanmadı.",
+   "hotels.com": "ERİŞİM SORUNU: ERR_HTTP2_PROTOCOL_ERROR / site açılmadı (ebookers.de de hotels.com'a yönlenip açılmadı).",
+   "vrbo.com": "ERİŞİM SORUNU: 'Bot or Not?' doğrulama sayfası; zorlanmadı.",
+   "fewo-direkt.de": "ERİŞİM SORUNU: 'Bot oder Mensch?' doğrulama sayfası; zorlanmadı.",
+   "agoda.com": "Ek deneme (Booking Holdings): arama 'Aramanızı tamamlarken bir sorun oluştu' hatası verdi; sonuç yok.",
+   "primeflats.de (direkt işletme)": "15 dairenin tamamı listelendi. 6 kişiye ayrı yatak veren tek birim Apartment Puder (Treptow, Puderstraße 1; 5 çift + 2 tek yatak, 12 kişi); 30.12.2026 takvimde 'nicht verfügbar' (devre dışı). Diğerleri yatak sayısı yetersiz (ör. Ebers 2 çift+2 tek = 4 kişi) veya Wedding/Schöneberg (mesafe dışı). Aday yok.",
+   "plumguide.com (seçkin platform)": "Berlin, min. 3 yatak odası, 6 misafir: 14 ev. Doğu bölgelerdekiler (Work It Out-Friedrichshain; Blonde Venus, Touch of Warhol, Café Electric-Neukölln) ile On Balance, Key Lime Pie, Hot Chocolate yatak dökümleri incelendi: hepsi en çok 4 kişiye ayrı yatak (3 çift yatak veya 2 çift+2 tek, bazen +1 çekyat). Yapısal olarak kriter tutmuyor; tarihli fiyat sorgusu yapılmadı. Aday yok.",
+   "web aramaları (direkt işletme bulmak için)": "Friedrichshain/Kreuzberg/Treptow 3 yatak odalı, 6 tek yatak sunan Impressum'lu doğrudan işletme sitesi bulunamadı; sonuçlar hep platform/agregatör (ferienhausmiete, holidu, ferienwohnungen.de, wunderflats, blueground). Luxoise Apartments (Gärtnerstr. 32, Friedrichshain; 3 yatak odalı daireler) yalnız Booking/Priceline üzerinden; kendi sitesi bulunamadı, Booking erişilemediği için doğrulanamadı."
+  },
+  "hds": {
+   "holidu.de": "Erişim sorunu: headless tarayıcıya bot-modu SSR veriyor (istemci JS yüklenmiyor); arama ve ilan sayfasında tarih/6 kişi fiyatı yüklenmiyor, liste tarihsiz genel sonuç (kartlar adults=2). Tarayıcı kimliğini (UA) değiştirme izin sistemince 'bot kontrolü aşma' sayılıp reddedildi; zorlanmadı. traum-ferienwohnungen.holidu.de beyaz etiketi de aynı.",
+   "hometogo.de": "Erişim sorunu: Cloudflare doğrulama sayfası, zorlanmadı.",
+   "e-domizil.de": "Erişim sorunu: Cloudflare doğrulama sayfası, zorlanmadı.",
+   "casamundo.de": "Erişim sorunu: Cloudflare doğrulama sayfası, zorlanmadı.",
+   "belvilla.de": "Arama URL'leri (bölge/latlng/q) 'Seite nicht verfügbar'; arayüzde Berlin önerisi gelmedi. Sonuç alınamadı (Belvilla Berlin şehir içi stoğu zaten çok sınırlı).",
+   "traum-ferienwohnungen.de": "Berlin /6-personen/ergebnisse 30.12-03.01: 9 sonuç (4 kendi ilanı + Holidu kutusu). 93211, 507820, 14544, 18051 ilan sayfaları incelendi; 7/8/10 kişi filtresi alt küme. 1 aday (93211). Holidu kutusundaki 2 ilan (Enzian/Hibiskus, Mariendorf) bilinen mülk.",
+   "ferienhausmiete.de": "Berlin r339 (160 ilan, çoğu Umland) ve semt sayfaları (Lichtenberg, Neukölln, Friedrichshain-Kreuzberg, Karlshorst; Mitte/Treptow-Köpenick boş döndü) tarandı; URL tarih/kişi filtresi çalışmıyor. 6+ kişilik şehir içi 7 ilan incelendi: yatak düzeni veya müstakil ev + en az 5 gece nedeniyle hiçbiri uygun değil.",
+   "travanto.de": "Berlin'de yalnız 3 ilan (2-4 kişilik); 6 kişiye uygun yok.",
+   "plumguide.com": "Berlin, 30.12-03.01, 6 misafir: tam eşleşme yok (3+ yatak odası filtresiyle ve filtresiz 0 müsait).",
+   "google.com/travel (Ferienunterkünfte)": "Berlin, 30.12-03.01, 6 kişi: 2.175 sonuç; ilk ~4 sayfa Berlin, sonra harita Almanya geneline kayıyor. 18 kartın sağlayıcısı tek tek okundu: çoğunluk Booking.com; ayrıca Vrbo/Expedia (bot engeli), e-domizil/Casamundo/HomeToGo (Cloudflare), bluepillow, mooeve, rent-your-freedom, bamboo-helios, Arbio. 6+ yataklı Berlin kartları incelendi; Arbio Bergmannkiez bilinen airbnb:21074683 ile aynı mülk. 'Familienfreundliche Ferienwohnung | Stadtblick' (3 yatak odası, 6 yatak, ~10.381 TL/gece) yalnız HomeToGo grubu sitelerinde, Cloudflare nedeniyle doğrulanamadı; 'Staycation Residence - Three-Bedroom Apartment' (8 yatak) yalnız Vrbo/Expedia'da, bot engeli nedeniyle doğrulanamadı.",
+   "expedia.de": "Erişim sorunu: 'Bot oder Mensch?' sayfası, zorlanmadı."
+  },
+  "bkp": {
+   "booking.com": "Claude masaüstü yerleşik tarayıcı paneli (kendi sekmesi tab-1). Arama: Berlin + Friedrichshain/Kreuzberg/Neukölln/Treptow/Lichtenberg/Rummelsburg/Karlshorst/Schöneweide/Plänterwald/Mitte; filtreler Apartments (ht_id=201) + Entire place (privacy_type=3) + 3+ yatak odası, ayrıca 3+ yatak odasız apartman ve holiday home taramaları; sıralamalar price, distance, review_score_and_price, bayesian_review_score, price_from_high_to_low, upsort_bh. Berlin genelinde 140-147 sonuç (3+ YO), 288 (tüm entire apartment); her sorguda ilk 25 kart okunabildi (sayfa içi 'load more'/offset çalışmadı, bu yüzden çok sayıda sıralama + semt sorgusuyla kapsam genişletildi; bazı kartlar görülmemiş olabilir). Tarih/6 yetişkin fiyatları sorunsuz göründü, bot kontrolü çıkmadı. ~20 ilan sayfası oda tablosuyla incelendi; 10 aday."
+  }
+ },
+ "adaylar": [
+  {
+   "key": "airbnb:1034836316144652017",
+   "platform": "airbnb",
+   "platformId": "1034836316144652017",
+   "url": "https://www.airbnb.com/rooms/1034836316144652017",
+   "kaynakSite": "airbnb.com",
+   "title": "Old building apartment in Neukölln near Tempelhofer Feld",
+   "baslikTR": "Neukölln | Tempelhofer Feld Yanı 2 Odalı Daire",
+   "hostName": "Ferhat Leon",
+   "hostLegal": "Ferhat Leon Uzuner  ",
+   "address": "Flughafenstra\\u00dfe 48, Vorderhaus 3.OG, 12053, Berlin, Deutschland",
+   "coords": {
+    "lat": 52.4811,
+    "lon": 13.4262,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb harita konumu; adres ilanın Registration Details alanından"
+   },
+   "district": "Neukölln (Flughafenkiez)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 2,
+   "baths": 1.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 queen bed",
+      "1 sofa bed",
+      "1 bunk bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 queen bed",
+      "1 single bed"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 1,
+   "capacity": 6,
+   "kapasite7": false,
+   "kanepeli": true,
+   "registrationNumber": "yok",
+   "registrationDetails": "First name and Last name: Ferhat Leon Uzuner  |  Contact address: Lobeckstra\\u00dfe 19 , 10969, Berlin, Deutschland  | Listing address: Flughafenstra\\u00dfe 48, Vorderhaus 3.OG, 12053, Berlin, Deutschland",
+   "checkInTime": "3:00 PM - 11:00 PM",
+   "checkOutTime": "11:00 AM",
+   "rating": "4.77",
+   "reviewCount": 109,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/7f673651-eec7-4f76-bc8e-270e0d5729a4.jpg",
+    "https://a0.muscache.com/im/pictures/3d79e16e-bb3d-442d-ba7a-9b4343ab994a.jpg",
+    "https://a0.muscache.com/im/pictures/c74ff4da-bc8a-4f0d-853b-3f5d549c4926.jpg"
+   ],
+   "photosGallery": [
+    "https://a0.muscache.com/im/pictures/7f673651-eec7-4f76-bc8e-270e0d5729a4.jpg",
+    "https://a0.muscache.com/im/pictures/3d79e16e-bb3d-442d-ba7a-9b4343ab994a.jpg",
+    "https://a0.muscache.com/im/pictures/c74ff4da-bc8a-4f0d-853b-3f5d549c4926.jpg",
+    "https://a0.muscache.com/im/pictures/370dda27-ee98-484f-a331-5da4fa16f2b9.jpg",
+    "https://a0.muscache.com/im/pictures/c052530e-a928-4774-b818-d85c771e0cb6.jpg",
+    "https://a0.muscache.com/im/pictures/563a0d70-7d5f-4664-8309-1b2cb211f6f7.jpg",
+    "https://a0.muscache.com/im/pictures/3e26b719-0b53-49e6-85cf-efb88d91c4c2.jpg",
+    "https://a0.muscache.com/im/pictures/ca78ea99-0eb8-4d98-a6eb-20ec14cc3180.jpg",
+    "https://a0.muscache.com/im/pictures/61bba4ac-ffc4-4471-aacb-17280c398e37.jpg",
+    "https://a0.muscache.com/im/pictures/c4f8ea64-41f8-4478-b2c0-c92b710b6211.jpg",
+    "https://a0.muscache.com/im/pictures/d4144e0d-e0f2-40e6-9e7c-10fea5c61004.jpg",
+    "https://a0.muscache.com/im/pictures/cea39f2d-3d86-47fa-876e-553e5c84a137.jpg",
+    "https://a0.muscache.com/im/pictures/560ed2fb-7acc-4352-ba89-7bd0f08cc303.jpg",
+    "https://a0.muscache.com/im/pictures/eb8836b9-9539-4f9c-a519-71827ef5ace1.jpg",
+    "https://a0.muscache.com/im/pictures/2ca88a31-797f-44e2-ac28-534b7cc62c57.jpg",
+    "https://a0.muscache.com/im/pictures/973db154-524e-4b15-afca-25b86b5eb2d8.jpg",
+    "https://a0.muscache.com/im/pictures/a727f7b5-7859-434d-8c51-cbacc6f833c8.jpg",
+    "https://a0.muscache.com/im/pictures/fd0834be-0d81-4d33-8d4c-af691f97f931.jpg",
+    "https://a0.muscache.com/im/pictures/3d232316-b89f-4f1b-b880-c091a30757c1.jpg",
+    "https://a0.muscache.com/im/pictures/266f133c-4d4c-4daa-a28b-411a9818a7ce.jpg"
+   ],
+   "prices": {
+    "2026-12-30/2027-01-03": {
+     "tutar": 1202.0,
+     "paraBirimi": "EUR",
+     "tutarTRY": 67289,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli + temizlik dahil (Airbnb \"Prices include all fees\"); City Tax kalemi gösterilmedi, dahil olup olmadığı doğrulanmadı",
+     "iptal": "Free cancellation before December 16. Cancel before December 23 for a partial refund.",
+     "kaynak": "airbnb ilan sayfası (Reserve butonu aktif)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "iptal": "Free cancellation before December 16. Cancel before December 23 for a partial refund.",
+   "totalEur": 1202.0,
+   "totalTry": 67289,
+   "perPersonTry": 11215,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 7.7,
+   "tresorCarKm": 3.8,
+   "rsoCarMin": 12.7,
+   "rsoCarKm": 6.9,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi",
+   "alt15dk": true,
+   "observedAt": "2026-11-11T19:45+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Yatak 1: queen + ranza (2 kişi) + çekyat; Yatak 2: queen + tek kişilik. 5 ayrı yatak + 1 çekyat; 6. kişi çekyatta. Fiyat: Airbnb ilan sayfasında 30.12.2026–03.01.2027, 6 yetişkin için \"Prices include all fees\" toplamı (hizmet bedeli ve temizlik dahil); fiyat dökümünde vergi kalemi görünmedi, Berlin konaklama vergisinin (City Tax %7,5) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: 17 haneli Berlin Registriernummer ilanda yok (Airbnb \"Registration Details\" alanında yalnız ev sahibi/işletme ve adres bilgisi var)."
+  },
+  {
+   "key": "booking:cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking",
+   "platform": "booking",
+   "platformId": "cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking",
+   "url": "https://www.booking.com/hotel/de/cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking.html",
+   "title": "Cosy Three BR Two BTH plus AC plus Self CheckIn plus Street Parking",
+   "baslikTR": "Neukölln (Reuterkiez) | 3 Odalı Daire, 6 Ayrı Yatak",
+   "hostName": "Booking: profesyonel işletme (dijital check-in sistemi, 7/24 destek)",
+   "address": "Richardstraße 6, 12043 Berlin (Neukölln)",
+   "coords": {
+    "lat": 52.4782219,
+    "lon": 13.4387198,
+    "accuracy": "adres",
+    "accuracyNote": "Booking sayfasındaki data-atlas-latlng (tesis koordinatı)"
+   },
+   "district": "Neukölln",
+   "kind": "daire",
+   "m2": 78,
+   "bedrooms": 3,
+   "baths": 2,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "3 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 6,
+   "couches": 0,
+   "capacity": 6,
+   "kanepeli": false,
+   "registrationNumber": "yok",
+   "checkInTime": "16:00'dan itibaren",
+   "checkOutTime": null,
+   "rating": "6.9",
+   "reviewCount": 72,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454420.jpg?k=5cb4bf987b47d2143f27f5843cb5102a53e8612bf43325a38ef87759cdbbdd7e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454421.jpg?k=00d3c5eb549bcc63a275fe00e18538b425d2fdcbcba0b2899308131166a5949a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454427.jpg?k=13e82d5560b9c6222cef7efd69d095a4b0506ce71ea32701409719f879a134ee"
+   ],
+   "photosGallery": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454420.jpg?k=5cb4bf987b47d2143f27f5843cb5102a53e8612bf43325a38ef87759cdbbdd7e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454421.jpg?k=00d3c5eb549bcc63a275fe00e18538b425d2fdcbcba0b2899308131166a5949a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454427.jpg?k=13e82d5560b9c6222cef7efd69d095a4b0506ce71ea32701409719f879a134ee",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454430.jpg?k=d433d79e89353cfdcd1ed5924722ecc2dfb02c610c2e29b1281b1c66033f1c0d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454431.jpg?k=85fd76c1a0252cb948f70c585e68e9134e94019c64478574caa3fefa673a09a6",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454434.jpg?k=270ac90d7f5d0133a43309d8360efbebe3363145b7a1e39d0ebead1a6b4f630d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454435.jpg?k=ac42d598114bcb5a321f600c26786dc2b1ec4bf91c198008c217fb3e3930a969",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454436.jpg?k=98cab51c962c78fc58f7d24e6d5d6bc4e747e1050014d8723fb66a260268d29f",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454439.jpg?k=6ce29bca0dd484b6b7ecdb92b0e9be1e463339afd9ddf20901ea580274406721",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454440.jpg?k=307725ba8f7fc9070c92099bd176c4b277e124cecfa5895c1c3ee752cb612b7e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454441.jpg?k=37cdbcc169a920f73c42661151e3b78c4244b6f408af93d09dc6035e6eb52159",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454442.jpg?k=6f25fe39ef0b6476e5a3ce315f64cce90f689b0730250c3d576d7754d19ba37a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454444.jpg?k=523006caf32e730efbc6b39082e943b03f7bab6b865ae7ce678061a3acb749a2",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454447.jpg?k=67218c4462f236699ee057e5f94a9bc70a0bc43c6a456b9902ae547c42587d12",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454448.jpg?k=046fb6e1d851ffe69b5d0f5ebbd1f37a74ff01fc8940a9acf8fb372989fe2da8",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454450.jpg?k=6fd6ae77610dec0e74c72ef69b24faeaa526c68d7e56f8fc750ce65ba986b63d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454457.jpg?k=7d8b2ecc426410fa8e1b725ccf39d6d769322c68a5b0546ce87fa0b653299db3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535821082.jpg?k=62337db233dea197d66f986eba36961fd53b318a21a21b77113c6d18730e9edc"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "birim": "Apartment (3 yatak odası)",
+     "tutar": 1505,
+     "paraBirimi": "EUR",
+     "tutarTRY": 84251,
+     "gece": 4,
+     "vergiUcretDahil": "€1.297 + €208 hariç vergi/ücret (7% KDV €90,79 + temizlik €20 + City Tax); toplam €1.505",
+     "iptal": "İadesiz (non-refundable), online ödeme",
+     "kaynak": "booking.com (Claude yerleşik tarayıcı paneli, 6 yetişkin, 1 oda, EUR)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL",
+     "alternatifTarife": {
+      "tutar": 1847,
+      "aciklama": "€1.596 + €251; 23.12.2026 öncesi ücretsiz iptal"
+     }
+    }
+   },
+   "totalEur": 1505,
+   "totalTry": 84251,
+   "perPersonTry": 14042,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 10.5,
+   "rsoCarMin": 11.0,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi; gündüz trafikte %20-40 uzayabilir",
+   "alt15dk": true,
+   "kaynakSite": "booking.com",
+   "iptal": "İadesiz (non-refundable), online ödeme",
+   "observedAt": "2026-11-11T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "3 tek yatak oturma odasında (ayrı yatak, kanepe değil). Ücretsiz iptalli tarife: €1.596 + €251 = €1.847 (23 Aralık 2026 öncesi ücretsiz iptal, 21 Aralık'a kadar ödeme yok). Gürültü/hareket sensörü var, kredi kartı depozitosu alınabilir. 72 yorum, 6.9. Registriernummer görülmedi."
+  },
+  {
+   "key": "booking:city-apartment-spreeufer",
+   "platform": "booking",
+   "platformId": "city-apartment-spreeufer",
+   "url": "https://www.booking.com/hotel/de/city-apartment-spreeufer.html",
+   "title": "City-Apartment Spreeufer im Herzen Berlins",
+   "baslikTR": "Friedrichshain (Ostkreuz/Spree) | 2 Odalı Daire, 5 Yatak + Çekyat",
+   "hostName": "Booking'de işletme adı: City-Apartment Spreeufer",
+   "address": "Modersohnstraße 77 (zemin kat), 10245 Berlin (Friedrichshain)",
+   "coords": {
+    "lat": 52.5007375,
+    "lon": 13.4558139,
+    "accuracy": "adres",
+    "accuracyNote": "Booking sayfasındaki data-atlas-latlng (tesis koordinatı)"
+   },
+   "district": "Friedrichshain",
+   "kind": "daire",
+   "m2": 90,
+   "bedrooms": 2,
+   "baths": 1,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "1 sofa bed"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 1,
+   "capacity": 6,
+   "kanepeli": true,
+   "registrationNumber": "yok",
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "8.1",
+   "reviewCount": 60,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842729.jpg?k=df785d51f279d75bb5ac83a47de04fcd84e8a6a80ee81a377020c1602a420a23",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842769.jpg?k=c17faa87eaefee9cc559ede9854a0ff491dc28ced57a4fffaee03e63f8456ed7",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842831.jpg?k=c7788ca2f741d3c4f7b6e854632a4eaaedb6e7319ee37267a3ecce623f179af6"
+   ],
+   "photosGallery": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842729.jpg?k=df785d51f279d75bb5ac83a47de04fcd84e8a6a80ee81a377020c1602a420a23",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842769.jpg?k=c17faa87eaefee9cc559ede9854a0ff491dc28ced57a4fffaee03e63f8456ed7",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842831.jpg?k=c7788ca2f741d3c4f7b6e854632a4eaaedb6e7319ee37267a3ecce623f179af6",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842839.jpg?k=fc1895acf3383521d6892be01b3565fcd8226226596e1a91073971e0157baa7d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842842.jpg?k=36c102df45209fd2701c356b8f1b68cd640c57358b335d55ebd1d4e640f8c6a0",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842872.jpg?k=6471dd6cf918dd63b735416d76135cbececd955c0d86249b98c422dd00a971c1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842877.jpg?k=d45aa698f0aadc735d9590f8f4bdcb757bd3867395f898466fe5a993a96ee937",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842878.jpg?k=9087499c668748b84276bd8722eaf2933dfd7fe54d9f4535d5e71cb44a06f5b6",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842885.jpg?k=498c05eba5e9a8006d79cdc0afd5da7bc446239ffdd6688f7e5db89b9f4059e5",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842888.jpg?k=e971bedbe242c50fa917baa191d5b5f57f3802ce8040923ba2b4739e00862ca2",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842895.jpg?k=ee9ff1d65b501a2ad8c13730030cae221290a1a626935db1ac5a67ce2678366e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842898.jpg?k=d9c155b8c30a7285284e16f4a14b9628df7148349f579a682e654629832f2e18",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842914.jpg?k=0f16452848908057e19bc97345f3ba7c8a0b99f4a7ead1d1bd225aa33e642739",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842919.jpg?k=91f41fcf522d1554eca749cf74d33124025ccce65011d8e5bcd0332472eae47e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842925.jpg?k=05869c81bee21b15351c69f7ea7ba05a26927550743d06f7e76a278b9dc3d513",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842932.jpg?k=fc3f11296758060e83267a42228bd10effc78ff42924555dd02f47fcec9d2e64",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848843707.jpg?k=825ae1b57fd0adc910383ee9965ebd975017cffe84bcd5d423c3ed322f7f3ac8"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "birim": "Apartment (2 yatak odası)",
+     "tutar": 1706,
+     "paraBirimi": "EUR",
+     "tutarTRY": 95504,
+     "gece": 4,
+     "vergiUcretDahil": "€1.566 (KDV ve City Tax dahil) + €140 temizlik (hariç) = €1.706",
+     "iptal": "İadesiz, online ödeme",
+     "kaynak": "booking.com (Claude yerleşik tarayıcı paneli, 6 yetişkin, 1 oda, EUR)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL",
+     "alternatifTarife": {
+      "tutar": 1863,
+      "aciklama": "€1.723 + €140; 25.12.2026 öncesi ücretsiz iptal"
+     }
+    }
+   },
+   "totalEur": 1706,
+   "totalTry": 95504,
+   "perPersonTry": 15917,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 5.5,
+   "rsoCarMin": 12.0,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi; gündüz trafikte %20-40 uzayabilir",
+   "alt15dk": true,
+   "kaynakSite": "booking.com",
+   "iptal": "İadesiz, online ödeme",
+   "observedAt": "2026-11-11T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "KANEPELİ: 5 tek yatak + oturma odasında 1 çekyat. Ücretsiz iptalli tarife €1.723 + €140 = €1.863 (25.12.2026 öncesi). Zemin kat, ücretsiz otopark. 60 yorum, 8.1. Registriernummer görülmedi."
+  },
+  {
+   "key": "traum-ferienwohnungen:93211",
+   "platform": "traum-ferienwohnungen",
+   "platformId": "93211",
+   "url": "https://www.traum-ferienwohnungen.de/93211/",
+   "kaynakSite": "traum-ferienwohnungen.de",
+   "title": "Apartment Max",
+   "baslikTR": "Lichtenberg | 5 Yatak Odalı 200 m² Daire",
+   "hostName": "Herr Jan Babenschneider (özel ev sahibi)",
+   "address": "Maximilianstraße 16, 10317 Berlin (Lichtenberg)",
+   "coords": {
+    "lat": 52.50366,
+    "lon": 13.49141,
+    "accuracy": "adres",
+    "accuracyNote": "İlanın schema.org geo alanı; adres açık (hideExactPosition=false)"
+   },
+   "district": "Lichtenberg",
+   "kind": "daire",
+   "m2": 200,
+   "bedrooms": 5,
+   "baths": 2,
+   "beds": [
+    {
+     "oda": "Schlafzimmer 1",
+     "yataklar": [
+      "1 Doppelbett 180x200",
+      "1 Einzelbett 90x200"
+     ]
+    },
+    {
+     "oda": "Schlafzimmer 2",
+     "yataklar": [
+      "1 Doppelbett 180x200",
+      "1 Einzelbett 90x200"
+     ]
+    },
+    {
+     "oda": "Schlafzimmer 3",
+     "yataklar": [
+      "1 Doppelbett 180x200"
+     ]
+    },
+    {
+     "oda": "Schlafzimmer 4",
+     "yataklar": [
+      "1 Doppelbett 180x200"
+     ]
+    },
+    {
+     "oda": "Schlafzimmer 5",
+     "yataklar": [
+      "1 Doppelbett 180x200"
+     ]
+    },
+    {
+     "oda": "Wohnzimmer",
+     "yataklar": [
+      "Schlafsofa"
+     ]
+    }
+   ],
+   "separateBeds": 7,
+   "couches": 1,
+   "capacity": 13,
+   "kanepeli": false,
+   "registrationNumber": "yok",
+   "checkInTime": "15:00'ten itibaren (sayfa metni; veri alanında 16:00)",
+   "checkOutTime": "10:00'a kadar",
+   "rating": "5.0",
+   "reviewCount": 1,
+   "photos": [
+    "https://images.traum-ferienwohnungen.de/93211/1704194/46/wohnbereich.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704197/46/kueche.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704195/46/schlafzimmer-1.jpg"
+   ],
+   "photosGallery": [
+    "https://images.traum-ferienwohnungen.de/93211/1704194/46/wohnbereich.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704197/46/kueche.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704195/46/schlafzimmer-1.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704198/46/schlafzimmer-2.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704199/46/schlafzimmer-3.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704201/46/schlafzimmer-4.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704200/46/bad-1.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704218/46/flur.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704213/46/brandenburger-tor.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704211/46/eastside-gallerie.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704212/46/alexanderplatz.jpg",
+    "https://images.traum-ferienwohnungen.de/93211/1704210/46/tierpark-berlin.jpg"
+   ],
+   "iptal": "Varıştan 28 gün öncesine kadar ücretsiz; 27-7 gün arası %50; son 6 gün iade yok. İptal ev sahibine doğrudan bildirilir.",
+   "prices": {
+    "2026-12-30/2027-01-03": {
+     "tutar": 2195.0,
+     "paraBirimi": "EUR",
+     "tutarTRY": 122878.29,
+     "gece": 4,
+     "kisi": 6,
+     "neDahil": "Final temizlik dahil ('In diesem Preis sind die Kosten für Endreinigung enthalten'). Platform hizmet bedeli yok (doğrudan ev sahibi). Berlin Übernachtungsteuer (City Tax, yüzde 7,5) fiyatta belirtilmemiş, büyük olasılıkla ayrıca: yaklaşık 164.62 EUR. Tüketime bağlı ek giderler (verbrauchsabhängige Nebenkosten) çıkabileceği uyarısı var.",
+     "vergiUcretDahil": "Temizlik dahil; City Tax dahil değil/doğrulanmadı",
+     "iptal": "28 gün öncesine kadar ücretsiz; 27-7 gün %50; 6 gün kala iade yok",
+     "rezervasyonTipi": "Unverbindlich anfragen / Buchung nach Bestätigung (talep + ev sahibi onayı; anlık rezervasyon değil)",
+     "odeme": "Rezervasyonda 200 € kapora, kalan ev sahibiyle mutabakatla; nakit, havale (Überweisung) veya PayPal. Platform ödeme koruması yok.",
+     "kaynak": "traum-ferienwohnungen.de ilan sayfası, ?arrival=2026-12-30&departure=2027-01-03&persons=6 -> '2.195,00 € · 6 Gäste/4 Nächte · Verfügbar'",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "totalEur": 2195.0,
+   "totalTry": 122878.29,
+   "perPersonTry": 20480,
+   "totalEurCityTaxDahilTahmini": 2359.62,
+   "totalTryCityTaxDahilTahmini": 132093.89,
+   "butceIdeal": true,
+   "alt15dk": true,
+   "tresorCarMin": 12.1,
+   "tresorCarKm": 6.5,
+   "rsoCarMin": 11.9,
+   "rsoCarKm": 7.1,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili), trafiksiz serbest akış; gündüz trafikte %20-40 uzayabilir",
+   "observedAt": "2026-11-11T20:20+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Bilinen listede Maximilianstraße / 93211 / 'Apartment Max' eşleşmesi yok. Güçlü yönler: 7 ayrı yatak (5 çift + 2 tek), 2 banyo, 2025'te yenilenmiş, iki hedefe de ~12 dk. Riskler: tek ve eski (2015) yorum; anlık rezervasyon yok, talep usulü; ödeme doğrudan ev sahibine (havale/PayPal/nakit), platform ödeme koruması yok; Berlin Registriernummer ilanda görülmedi (UYARI). Rezervasyondan önce kayıt numarası ve City Tax sorulmalı; alıcı korumalı PayPal tercih edilmeli.",
+   "uyari": "Platform ödeme koruması yok: talep usulü, ödeme doğrudan ev sahibine (havale/PayPal/nakit, 200 € kapora). Tek yorum (2015). Görev kuralındaki 'doğrudan havale' riski nedeniyle dikkat.",
+   "guvenilirlikRiski": true
+  },
+  {
+   "key": "airbnb:53796458",
+   "platform": "airbnb",
+   "platformId": "53796458",
+   "url": "https://www.airbnb.com/rooms/53796458",
+   "kaynakSite": "airbnb.com",
+   "title": "Choice Berlin",
+   "baslikTR": "Neukölln | \"Choice Berlin\" 2 Odalı Grup Dairesi",
+   "hostName": "Bülent",
+   "hostLegal": null,
+   "address": null,
+   "coords": {
+    "lat": 52.48513,
+    "lon": 13.42791,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb harita konumu; adres ilanın Registration Details alanından"
+   },
+   "district": "Neukölln (kuzey, Reuterkiez)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 2,
+   "baths": 1.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "4 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 double bed",
+      "1 sofa bed"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "2 sofa beds"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 3,
+   "capacity": 12,
+   "kapasite7": true,
+   "kanepeli": true,
+   "registrationNumber": "yok",
+   "registrationDetails": "08/Z/ZA/003202-15",
+   "checkInTime": "3:00 PM - 12:00 AM",
+   "checkOutTime": "11:00 AM",
+   "rating": "4.3",
+   "reviewCount": 57,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/7f58d39d-b169-42b7-9ad4-157f8d05b009.jpg",
+    "https://a0.muscache.com/im/pictures/91e95cb8-e7ea-4f89-9631-d6838aff3724.jpg",
+    "https://a0.muscache.com/im/pictures/38e158d8-a9fb-4328-95f7-6d407ba86027.jpg"
+   ],
+   "photosGallery": [
+    "https://a0.muscache.com/im/pictures/7f58d39d-b169-42b7-9ad4-157f8d05b009.jpg",
+    "https://a0.muscache.com/im/pictures/91e95cb8-e7ea-4f89-9631-d6838aff3724.jpg",
+    "https://a0.muscache.com/im/pictures/38e158d8-a9fb-4328-95f7-6d407ba86027.jpg",
+    "https://a0.muscache.com/im/pictures/5fb51a23-6f5e-4697-af1e-c2f4b5dc22b0.jpg",
+    "https://a0.muscache.com/im/pictures/dc8b42d7-6e8f-41cf-a823-2a83a854bd1e.jpg",
+    "https://a0.muscache.com/im/pictures/9afe3e18-4136-4d49-869f-20560ac1f0a5.jpg",
+    "https://a0.muscache.com/im/pictures/7f14c811-3190-4d30-bfb4-90e934da6ba5.jpg",
+    "https://a0.muscache.com/im/pictures/5a598793-a773-4d72-a052-f95bdc14c274.jpg",
+    "https://a0.muscache.com/im/pictures/b3e839ee-111b-4519-b187-0273f7690939.jpg",
+    "https://a0.muscache.com/im/pictures/dbc79113-cdc1-4b3a-a4e1-85f4c676850f.jpg",
+    "https://a0.muscache.com/im/pictures/2f425a6b-eba5-41f3-8ed3-1fed892cd0f7.jpg",
+    "https://a0.muscache.com/im/pictures/84a14411-dce6-4075-a179-e9c908744e58.jpg",
+    "https://a0.muscache.com/im/pictures/72a0ceb9-45e9-4a28-82a2-a6c747c53536.jpg",
+    "https://a0.muscache.com/im/pictures/c486b86c-665c-4fbd-b193-d4f494d5aaab.jpg",
+    "https://a0.muscache.com/im/pictures/246e0e0a-dcc4-4908-b78d-8c543d285543.jpg",
+    "https://a0.muscache.com/im/pictures/b2c6e99a-e15c-47da-af39-156fa9ed7296.jpg",
+    "https://a0.muscache.com/im/pictures/674717d4-f1fe-423c-8a5e-57568abb7a2b.jpg",
+    "https://a0.muscache.com/im/pictures/1d3220cb-7940-4e84-a07f-6f782fd559ca.jpg",
+    "https://a0.muscache.com/im/pictures/c2a5b18a-28ba-4dc1-afff-324f09023bfb.jpg",
+    "https://a0.muscache.com/im/pictures/f92f85b1-9df9-48b4-bb57-936736aa049c.jpg",
+    "https://a0.muscache.com/im/pictures/15218e9e-e950-4282-8ca0-7e4d48eb28e4.jpg",
+    "https://a0.muscache.com/im/pictures/8f11c89c-67b7-4bea-b400-49301cfb81a3.jpg",
+    "https://a0.muscache.com/im/pictures/b67c39c3-599c-42b4-bad8-28ff5d67afc5.jpg",
+    "https://a0.muscache.com/im/pictures/6525198a-3314-487a-8b65-4a5b1136b846.jpg",
+    "https://a0.muscache.com/im/pictures/8a5ffc53-219c-4a34-b4fe-6b1eee1e911a.jpg",
+    "https://a0.muscache.com/im/pictures/b25d975f-dc30-482b-a5bd-b7625748f1e9.jpg",
+    "https://a0.muscache.com/im/pictures/49bcc3a1-3dfc-43a3-a4fb-4a7005b95590.jpg",
+    "https://a0.muscache.com/im/pictures/bbef368f-8df4-4240-b0a5-dee9d8dc2b6e.jpg",
+    "https://a0.muscache.com/im/pictures/a6f6b84f-431b-458d-9931-e53952e6fe38.jpg",
+    "https://a0.muscache.com/im/pictures/0f7b1943-5591-4ab7-9fac-faa595c691ee.jpg",
+    "https://a0.muscache.com/im/pictures/df9533b2-1af2-446c-b75e-a56baf43be70.jpg",
+    "https://a0.muscache.com/im/pictures/40a89294-978c-4501-8a14-d0b60369ec76.jpg",
+    "https://a0.muscache.com/im/pictures/c1e17445-b71c-4294-9f39-6772a756c9cb.jpg",
+    "https://a0.muscache.com/im/pictures/47347e0b-263e-4827-b5ef-4c504e3af600.jpg",
+    "https://a0.muscache.com/im/pictures/b980e75e-31b9-4e91-909e-f0d052699d0a.jpg",
+    "https://a0.muscache.com/im/pictures/f0103fdd-ef7d-4342-a0e1-ff0fa655534d.jpg",
+    "https://a0.muscache.com/im/pictures/f4a9356f-93af-4d36-a07e-132b1afc4df9.jpg"
+   ],
+   "prices": {
+    "2026-12-30/2027-01-03": {
+     "tutar": 2208.0,
+     "paraBirimi": "EUR",
+     "tutarTRY": 123606,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli + temizlik dahil (Airbnb \"Prices include all fees\"); City Tax kalemi gösterilmedi, dahil olup olmadığı doğrulanmadı",
+     "iptal": "Free cancellation for 24 hours. After that, the reservation is non-refundable.",
+     "kaynak": "airbnb ilan sayfası (Reserve butonu aktif)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "iptal": "Free cancellation for 24 hours. After that, the reservation is non-refundable.",
+   "totalEur": 2208.0,
+   "totalTry": 123606,
+   "perPersonTry": 20601,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 7.1,
+   "tresorCarKm": 3.5,
+   "rsoCarMin": 13.0,
+   "rsoCarKm": 7.0,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi",
+   "alt15dk": true,
+   "observedAt": "2026-11-11T19:50+03:00",
+   "samePropertyAs": [
+    "booking:choice-berlin-wohnung-fur-bis-zu-12-personen"
+   ],
+   "olasiMukerrer": [
+    "booking:fantastic-berlin"
+   ],
+   "notes": "Yatak 1: 4 tek; Yatak 2: çift kişilik + çekyat; salon: 2 çekyat. 5 yatak + çekyat. İlanda eski biçim izin no 08/Z/ZA/003202-15 var (17 haneli değil). İptal: yalnız 24 saat ücretsiz, sonra iadesiz. Fiyat: Airbnb ilan sayfasında 30.12.2026–03.01.2027, 6 yetişkin için \"Prices include all fees\" toplamı (hizmet bedeli ve temizlik dahil); fiyat dökümünde vergi kalemi görünmedi, Berlin konaklama vergisinin (City Tax %7,5) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: 17 haneli Berlin Registriernummer ilanda yok (Airbnb \"Registration Details\" alanında yalnız ev sahibi/işletme ve adres bilgisi var).",
+   "uyari": "Booking'deki 'Choice Berlin' (Reuterstr. 70) ile aynı ilan (Booking'de 5.9 puan). 'Just Berlin' (booking:fantastic-berlin, Reuterstr. 71) aynı işletmenin bitişik ikiz birimi; ayrı daire olduğu için ikisi de listede."
+  },
+  {
+   "key": "booking:stilvolle-6-zimmer-ferienwohnung-mit-2-badern",
+   "platform": "booking",
+   "platformId": "stilvolle-6-zimmer-ferienwohnung-mit-2-badern",
+   "url": "https://www.booking.com/hotel/de/stilvolle-6-zimmer-ferienwohnung-mit-2-badern.html",
+   "title": "Stilvolle 6 Zimmer Ferienwohnung mit 2 Bädern",
+   "baslikTR": "Neukölln | 6 Odalı Daire, 12 Tek Yatak",
+   "hostName": "Booking'de işletme adı: Stilvolle 6 Zimmer Ferienwohnung",
+   "address": "Silbersteinstraße 10, 12051 Berlin (Neukölln)",
+   "coords": {
+    "lat": 52.46755076617041,
+    "lon": 13.440575383024624,
+    "accuracy": "adres",
+    "accuracyNote": "Booking sayfasındaki data-atlas-latlng (tesis koordinatı)"
+   },
+   "district": "Neukölln",
+   "kind": "daire",
+   "m2": 135,
+   "bedrooms": 6,
+   "baths": 2,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 4",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 5",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 6",
+     "yataklar": [
+      "3 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 12,
+   "couches": 0,
+   "capacity": 12,
+   "kanepeli": false,
+   "registrationNumber": "yok",
+   "checkInTime": "15:00-22:00",
+   "checkOutTime": null,
+   "rating": "6.5",
+   "reviewCount": 2,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271071.jpg?k=f9ddf017d5d2899c0a1761bc19806c626e8eb8ac24af18bfcce936e74e10642e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271129.jpg?k=7b88d6df0952166a215ea3326fad3f58381af561b6ff4c56b86550dd61dfb61e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271164.jpg?k=c077988d6626ccc67d30e410cea2315097159ed361c4afbf40a32aecb4e5cddf"
+   ],
+   "photosGallery": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271071.jpg?k=f9ddf017d5d2899c0a1761bc19806c626e8eb8ac24af18bfcce936e74e10642e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271129.jpg?k=7b88d6df0952166a215ea3326fad3f58381af561b6ff4c56b86550dd61dfb61e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271164.jpg?k=c077988d6626ccc67d30e410cea2315097159ed361c4afbf40a32aecb4e5cddf",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271181.jpg?k=a69c50eba3c416f57bdef672c94f99960f41d41facf3ecc50da7f4cdeff85016",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271194.jpg?k=1ca10266c99e74e487dec4f1945e16a90eb8eb3a1f99c8b7721b0cbdc432e043",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271211.jpg?k=c47255d7cebebff987cc854431c7af79edb73874f248dbc18b5c41ba7d143d1a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271231.jpg?k=94168b729a386c7dfb390ad09d383e4130a90b0ba41156854b76763573b3641d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271265.jpg?k=b19ed49a8fded4f24839154f8e688a7b5e329efb78529502eae39b5dcb361c92",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271311.jpg?k=e4983f4c3799f47ecdd3b1e49ea61b8f9390a4b2a64084088db04c0a2848fbb9",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271369.jpg?k=96287596041b93a15ca9d6b15c750ba979af64ea386db5ac7db8dee627e38510",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271388.jpg?k=7148815956db716bb7f90a84c4b4d498074618275590bb2b3bea48c6ec32288d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271391.jpg?k=221f254977e8ac7128a855b3cf31722fd43753807f4f4d9a61c65db6c894a65c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271419.jpg?k=50f5eec0cf522908918b4f2b691021a3500762fea15e3af722ab002c95e6247c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271439.jpg?k=7dc9d9081c45193cac4e5c9fe8efd771d2be8cea9a5934fc2eea59bb31ad32f1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271451.jpg?k=38fd1dcd00429103cbf07eee89fc21fd933e71f9092e8d5a890158dad97508cc",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271463.jpg?k=248b306d784d319c1be87e0b062b71873d6ece9dba35cb1a9a59b21a2e04911c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271474.jpg?k=c8b944af667756b20bdd114f5086184d78ae9164e04dde75aa0077357b39f27e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271515.jpg?k=1a9bd48213a87be0a3330d8631bb190ed723a91633c0020e74a87d6c620aae9e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271613.jpg?k=c3eaa586f236701ab6a47738e81f9f7bbc8cfa6cef0172f506d463cc5a021e1a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271672.jpg?k=76ffbad7d272adc1ac89c56ec0c637974b42dbe04df8b592e548ef37578e5541",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271729.jpg?k=78e1ae17cb5f90e3ba841dc7dcecf2076863fee3d7d59478ebc4d59d025f8248",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271767.jpg?k=cc4c46e38f89aa7992e0cce53bb37938d4d1277d75e0d0b0d2c9b149e93a79a6",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271808.jpg?k=8cad3bdb2e4bbfb93d66aa6efbff04e1a0ac3ce8db159f40ff41df9614713a26",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271837.jpg?k=cba0bd70fbe5b885444d438dfb595d016e3cb869d6b59381df59a6e979a84aca"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "birim": "Apartment (6 yatak odası)",
+     "tutar": 2310,
+     "paraBirimi": "EUR",
+     "tutarTRY": 129316,
+     "gece": 4,
+     "vergiUcretDahil": "€2.145 (7% KDV ve City Tax dahil) + €165 temizlik (hariç) = €2.310",
+     "iptal": "İadesiz, online ödeme",
+     "kaynak": "booking.com (Claude yerleşik tarayıcı paneli, 6 yetişkin, 1 oda, EUR)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL",
+     "alternatifTarife": {
+      "tutar": 2548,
+      "aciklama": "€2.383 + €165; 29.12.2026 öncesi ücretsiz iptal"
+     }
+    }
+   },
+   "totalEur": 2310,
+   "totalTry": 129316,
+   "perPersonTry": 21553,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 11.4,
+   "rsoCarMin": 9.2,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi; gündüz trafikte %20-40 uzayabilir",
+   "alt15dk": true,
+   "kaynakSite": "booking.com",
+   "iptal": "İadesiz, online ödeme",
+   "observedAt": "2026-11-11T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Ücretsiz iptalli tarife: €2.383 + €165 = €2.548 (29.12.2026 öncesi ücretsiz iptal, 27.12'ye kadar ödeme yok). Zemin kat, ayrı giriş. Yalnız 2 yorum (6.5). Registriernummer görülmedi."
+  },
+  {
+   "key": "booking:britzer-tor",
+   "platform": "booking",
+   "platformId": "britzer-tor",
+   "url": "https://www.booking.com/hotel/de/britzer-tor.html",
+   "title": "Hotel Bohemia – Two-Bedroom Apartment with Balcony",
+   "baslikTR": "Neukölln (Karl-Marx-Str.) | Otel Bünyesinde 2 Odalı Daire, 7 Tek Yatak",
+   "hostName": "Hotel Bohemia (resepsiyonlu otel işletmesi)",
+   "address": "Karl-Marx-Straße 262, 12057 Berlin (Neukölln)",
+   "coords": {
+    "lat": 52.46551682958359,
+    "lon": 13.442158699035645,
+    "accuracy": "adres",
+    "accuracyNote": "Booking sayfasındaki data-atlas-latlng (tesis koordinatı)"
+   },
+   "district": "Neukölln",
+   "kind": "daire",
+   "m2": 90,
+   "bedrooms": 2,
+   "baths": 2,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "4 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 7,
+   "couches": 0,
+   "capacity": 6,
+   "kanepeli": false,
+   "registrationNumber": "yok",
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "8.0",
+   "reviewCount": 1353,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118350.jpg?k=45ffc2168f5e4d1f3f76a42e21e8b4a74b3751ddd92d658c59c275acc0242c36",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118355.jpg?k=aa5c0f8e69f49139d4f8ebede1ac8ae65dd5190814093be458cd36095f4f0cd3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118379.jpg?k=6183256a31105fb3571625b5dcc95f676571846ded7882570b791be9b9a57c90"
+   ],
+   "photosGallery": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118350.jpg?k=45ffc2168f5e4d1f3f76a42e21e8b4a74b3751ddd92d658c59c275acc0242c36",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118355.jpg?k=aa5c0f8e69f49139d4f8ebede1ac8ae65dd5190814093be458cd36095f4f0cd3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118379.jpg?k=6183256a31105fb3571625b5dcc95f676571846ded7882570b791be9b9a57c90",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118382.jpg?k=5aa74e44e5410a9a9f657c41690045678d73a61f50c3bcaef4b94cc0c193861a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118400.jpg?k=2e6215fb32c4fee31d640c485a233358aa22d832fc6dee2a53d001ebcbd51b12",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118405.jpg?k=9d86831cff6a9ffa8c6fa52010c495e8d1982d64c376dda4288e5e04d042bca3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118408.jpg?k=e22c79c7e2e9254467dfb4329becc015f3e9496e013c79ebcb4e406ef32a29e5",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118413.jpg?k=e1af22f466e8c0c3d2a38d8b065af40904b11fab37aa640fd25190855f923b30",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118415.jpg?k=a085e7d11b968f7c99202349b57366b10941fc81aae52aa435f188d560594b7f",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118418.jpg?k=27b75c9d6564a8b8ee8d9c459b9606699507696502672099c4612229ec207fd9",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118420.jpg?k=ca67ca8398aad83327f559e6810aec77d0e39125338403f343b8eb6f3a552ba5",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118422.jpg?k=a9c8d9839f433ffa4612e4ad0021d05a69307f78dabb600cf27061d01dc1c6dd",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118423.jpg?k=660316cd1ea5ea9e38de6d782db47186bc99de575faed24f9053381d0123661f",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118425.jpg?k=56a0e46a4bf17b5a7a40e63ffc0aa6d39cf6070c97b1c0e0bd34a1a503eb2643",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118427.jpg?k=7f5476ef0122d9863e0734294d0c10b83c962450198f5bf487b9b7dd2557702a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118472.jpg?k=c17e29b032ffe2da49e7ca3facd86803b521e69a5d6a0a96349056a690a8fbc9",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118475.jpg?k=334c625bab2458fe0bda73848c397aff4e7bb99466ac884b9f5e6f6c620a3060",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118481.jpg?k=0420991dcae4cd3f23dca3dd163d8d48e7e1d4833c24a4603eb7797c90d296b1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118482.jpg?k=3cdd434791b2183bd9ea1ca8768fd0133e5599bf1cb151c6ece8013916b3bc3e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118484.jpg?k=2d31942b0ad100a3ec9b6dee4fadd0b2105542c92746e5a36e4daeca175620de",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118497.jpg?k=9f14d61e89a3be2bdba1937f965cd67894487a9d6b63b4cd8437f17ebc0e5fe0",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118501.jpg?k=8072ef37e10b272afe8e99deb6467829fa96260b7e67d2f0673e72b8a07e193d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269781207.jpg?k=a8bd45f4fb22014ff911152889b012407221e428eb1814553714b55be0961610",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269781208.jpg?k=305faca7cb727dc4d22249c6246efaf34b08fcd397a38d1ed5d3578aec2efe9f",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269781210.jpg?k=95473d304ad240862d19c38a28ffdb3f15ae21e866724b16ecb47b2fc4bb9ae6",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959291.jpg?k=309e5f548ecad76f1da2e2209dc7d16c5043e0d7a34bffdf458b01c1e5e06084",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959292.jpg?k=99ff7efb89e2148a53b7e9caf3369a992a54afd62ebde454fa7c593dcf12db3a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959293.jpg?k=45a886c49a59240ecee13833a7a34e3f0a1a763e9192e9e01500ec2e68742cb3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959294.jpg?k=9b454d9c879209ff85740aefc33cd15ecaba4815263639b03ef872ca8aeb6cfc",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959296.jpg?k=3d8912a17fe932570d8f4efe734a9e7b0112031b345b80c18cdde157be9976f4",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959297.jpg?k=277b54bf41b0b7dd098bd5f13526b1ea71ce24bb0322d5b08dacd2c8064cf011",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959302.jpg?k=1395838606914a0aebd1c5697f357f4d17a764f3e8d9add3c4880f3a3e08de61",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959304.jpg?k=c36bdab105aca301dc234159252e33b7942b4127c8f3ab1184f5119f0908da0a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959305.jpg?k=81160f68ae83b988834d118e902b6fb1f5235e41f4893c8b4aea089d3a0bc105",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959306.jpg?k=932d52014685873d395934cdfcfd2fc53b55ab13e52db3e40dadd550d12d3bf1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/421354038.jpg?k=e8666b9f4d43acbddf227a2b164ba322565a8d4a99424f3753c026b4ee504ef8",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/445442822.jpg?k=28c7dfddb2d842bacd65f759c82a6182759c485184af7b1aabede41fae74d7e8",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/445442823.jpg?k=52604793c449757a1e7a3ae6f876f845ffa12c78e7647dff89f964aba03734a5",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/511829806.jpg?k=10f552fc327011805f74e9593a0a22624f1444aad8906075c0d4e9c809b3188b",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/511829807.jpg?k=17690495b43527f8bdebcb4769244aeb3e92e335b29ba2282efa972db5674398",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/733906998.jpg?k=080037d9899141e519e2a048caa17683611cf7fbff087534f880e093df5cffe3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/733907027.jpg?k=1f5b31ee3577da86508ca01d71fa5fa6ebd89bfa40664a64a29d49cfb6b0d5a1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/733907036.jpg?k=dda06968008f8521b0ddec43933c03adf70e27e5e9e10a67dfb2e14f1018e37c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/733907037.jpg?k=ddc7b55ae93e8df51a1d5ce84a7e34a77651f769fc201316bd0129fb3c849fc9",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/733907039.jpg?k=54980304972a673c320219bbabf8298641058a9b2f684bdf61e4889580a59888",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/733907467.jpg?k=fc1314664a27ab3ac256a9ae415bbb32fefc857e53e91db8b60a52431ce18a17"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "birim": "Two-Bedroom Apartment with Balcony",
+     "tutar": 2347,
+     "paraBirimi": "EUR",
+     "tutarTRY": 131387,
+     "gece": 4,
+     "vergiUcretDahil": "Vergi ve ücretler dahil (7% KDV, 7,5% City Tax dahil); kahvaltı kişi başı €15 ayrıca",
+     "iptal": "İadesiz (tarih değişikliği esnekliği var), online ödeme",
+     "kaynak": "booking.com (Claude yerleşik tarayıcı paneli, 6 yetişkin, 1 oda, EUR)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL",
+     "alternatifTarife": {
+      "tutar": 2582,
+      "aciklama": "Ücretsiz iptal 23.12.2026 öncesi"
+     }
+    }
+   },
+   "totalEur": 2347,
+   "totalTry": 131387,
+   "perPersonTry": 21898,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 11.1,
+   "rsoCarMin": 9.4,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi; gündüz trafikte %20-40 uzayabilir",
+   "alt15dk": true,
+   "kaynakSite": "booking.com",
+   "iptal": "İadesiz (tarih değişikliği esnekliği var), online ödeme",
+   "observedAt": "2026-11-11T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Otel içinde tek birim 'entire apartment' (2 yatak odası, 2 banyo, balkon, yüksek kat, 'We have 1 left'). 7 tek yatak. Ücretsiz iptalli tarife €2.582 (23.12.2026 öncesi). Kahvaltı dahil tarifeler €2.779/€3.057. 1.353 yorum, 8.0. Kayıt no: otel işletmesi, Registriernummer görülmedi."
+  },
+  {
+   "key": "booking:fantastic-berlin",
+   "platform": "booking",
+   "platformId": "fantastic-berlin",
+   "url": "https://www.booking.com/hotel/de/fantastic-berlin.html",
+   "title": "Just Berlin",
+   "baslikTR": "Neukölln (Reuterkiez) | 2 Odalı Daire, 5 Yatak + Çekyat",
+   "hostName": "Booking'de işletme adı: Just Berlin",
+   "address": "Reuterstraße 71, 12043 Berlin (Neukölln)",
+   "coords": {
+    "lat": 52.4856978,
+    "lon": 13.428699,
+    "accuracy": "adres",
+    "accuracyNote": "Booking sayfasındaki data-atlas-latlng (tesis koordinatı)"
+   },
+   "district": "Neukölln",
+   "kind": "daire",
+   "m2": 65,
+   "bedrooms": 2,
+   "baths": 1,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "4 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 double bed",
+      "1 sofa bed"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "2 sofa beds"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 3,
+   "capacity": 6,
+   "kanepeli": true,
+   "registrationNumber": "yok",
+   "checkInTime": null,
+   "checkOutTime": null,
+   "rating": "8.0",
+   "reviewCount": 26,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512480679.jpg?k=b10c141c2b546426d16ea0ecf2e3ae3651e2de226e03ec8cdb233f8453d82b9b",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512480787.jpg?k=b0a7799595548c243e93350de0085863a01609dbfa1f961ba516b27916c4fba3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512480895.jpg?k=48eaec967f7f910cd9f3b7b61757ad1c6044460f91aebf8afe5f5f486332b772"
+   ],
+   "photosGallery": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512480679.jpg?k=b10c141c2b546426d16ea0ecf2e3ae3651e2de226e03ec8cdb233f8453d82b9b",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512480787.jpg?k=b0a7799595548c243e93350de0085863a01609dbfa1f961ba516b27916c4fba3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512480895.jpg?k=48eaec967f7f910cd9f3b7b61757ad1c6044460f91aebf8afe5f5f486332b772",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481145.jpg?k=0eebbdd8423981ecf5319844e678567ea42133c69dc9fda968306d01909b810f",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481218.jpg?k=a80ad9a5a1a07123c7a17c52514fe2ec5590677d0d942c87a0c9fb31b724b142",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481321.jpg?k=a808b4db0d165eabae3aa5701a709576f810a1a7db869c6b027bf1b8f04a6d41",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481388.jpg?k=9fc187cf971398e4aba9b1e5fc25b7ba32bcf8144f7cdf38ce8e2a62ea7f21f1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481452.jpg?k=a7bde6a539099a3aac94d79610d91f907fb94b9c3912bb11940aed530c184f67",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481544.jpg?k=19712e7ec4b29f9a2234dded545602e514baf5734b7a599b636bb6cc70e89767",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481629.jpg?k=72c5b572d8f57f8a97629a5f85b5d566a5aa38ad7935e4effb9dc27820c0fe8c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481774.jpg?k=dd89c8535edf3b84e0d47b7d533e2d425514b0add97c841c56839888bc8e44c5",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481898.jpg?k=be5bafd00bcb48ed1e3c560042ed361a1666b81f0d2d51d24a2d9289e6f3df77",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512482009.jpg?k=ee6f28e305d660e75d4cc21340a36151bcc31f5d3139e35e1190d10ad570eea2",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512482271.jpg?k=225de1d17c3dc51b9d984de9051822f39f8f06b79402c91b36d4273f3aac04c3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512482577.jpg?k=73a9137244bf7d8372bebbc21598852cf31771325c8e35488d22cb8d5e48f3c2",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483046.jpg?k=c86983132363bcb1bf018f3641025f4a6bcd34c62c172a4b1f5a2fa8a650d934",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483086.jpg?k=31240dfcbff36b66febb2b67e20163a6bd19183d2bc8645337ee438f76f8110e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483447.jpg?k=bed960ca1a5779dba705bc931f0357eb96d27a41a62c46eacc6ecf3642629347",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483589.jpg?k=25b30ab37dd3fa49fa80d4fa8602738189c637bc23263a98c93b2490ac729a66",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483679.jpg?k=36ac5779af98c7aa36b65972f758984e55405744b15bc1eae65ddc41b723a3b3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483757.jpg?k=219f7da4263efb443a7198563f313e0a281a64c018834ce7aa5da7e48e82a592",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483873.jpg?k=4464f645ff3f759ea879db418da66a708a022223506504dec5a0291d61442ce2",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483921.jpg?k=a76bb990d5a639eb64f4f0d5d551f99167a8671b893f5a999e30324bdcc95b06",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484045.jpg?k=0a6cc1c3e185107c9778f61b4e984d55c7027fdd44f6a845113d6e9bb56cbc0d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484166.jpg?k=f02f92e0ee6c572f588e904e7e389f3d5db5da77d2c20170bc7faa235f9b9cc6",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484315.jpg?k=8861a91eda11ce46c0ec15632ca269783ed3ea2997f1505d34205f556eafb06d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484498.jpg?k=4914d916053331c347cd02030cfa493b37b1ae0edfdaa1008bbde2ab474ff954",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484691.jpg?k=09482f597e46f89b860cd642db1e8b1f5af0fc413874f0072700addab25d9068",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484773.jpg?k=b28061d8948c41ed6774d0923586abbd72734fabb91282c4f18ea77cb0e585fd",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484894.jpg?k=ea80b3240571e28753982698acb1ecb55d51791868212bca51ecac50778fe9c4",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484954.jpg?k=dd233e3c2ec7e063ed36e3f7bce2f655f46d7146fdb0f0678626344852887990",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512485047.jpg?k=2d7c169f176da071fc9f5174ace4bc6591bbdc31c04e91a73695d9bddb4736b6",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512485197.jpg?k=ab42b83847815895271e3bdbefc4a5c3c8ad381a4367d307d7513a2afc27bfb1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512485461.jpg?k=7ebbdaebc65b28bc8251733f6d282306906666d2101fc90a21819adfaf194997",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512485704.jpg?k=9a17ca40ee522eb4627ed6991cfeff6b60e460f20e415fb736569a08c8022d41",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512485913.jpg?k=d43386e1740e8537538ef746ca0b8d68284f16290928baf722cce8a1b4e2d193",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512486055.jpg?k=5dd70ad262ce81a24ced2d961b8d2eaee7dc3b82e6e1860bd4ab250997077d72",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512486216.jpg?k=56d13173469b468e488148209dafc5be2f031cf1f5133eb850461948959bcac8",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512486329.jpg?k=46893dcc5fa388189d5ada15118535615bae587ee39e439d1503d93a9b454ad9"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "birim": "Two-Bedroom Apartment",
+     "tutar": 2351,
+     "paraBirimi": "EUR",
+     "tutarTRY": 131611,
+     "gece": 4,
+     "vergiUcretDahil": "€2.296 (7% KDV ve 7,5% City Tax dahil) + €55 temizlik (hariç) = €2.351",
+     "iptal": "İadesiz, online ödeme",
+     "kaynak": "booking.com (Claude yerleşik tarayıcı paneli, 6 yetişkin, 1 oda, EUR)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "totalEur": 2351,
+   "totalTry": 131611,
+   "perPersonTry": 21935,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 7.1,
+   "rsoCarMin": 12.9,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi; gündüz trafikte %20-40 uzayabilir",
+   "alt15dk": true,
+   "kaynakSite": "booking.com",
+   "iptal": "İadesiz, online ödeme",
+   "observedAt": "2026-11-11T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": [
+    "airbnb:53796458"
+   ],
+   "notes": "KANEPELİ: 4 tek + 1 çift yatak = 5 ayrı yatak; 6. kişi çekyatta. 4 tek yatak aynı odada, 65 m² ve tek banyo: 6 kişi için sıkışık. Aynı işletmenin yan binada (Reuterstr. 70) 'Choice Berlin' birimi aynı düzende €2.322 + €55 (5.9 puan). 26 yorum, 8.0. Hasar politikası €500'e kadar. Registriernummer görülmedi.",
+   "uyari": "Choice Berlin (airbnb:53796458) ile aynı işletmenin bitişik ikiz birimi (ayrı daire)."
+  },
+  {
+   "key": "booking:petersburger-strasse-kleines-apartment-mit-kuche-und-bad",
+   "platform": "booking",
+   "platformId": "petersburger-strasse-kleines-apartment-mit-kuche-und-bad",
+   "url": "https://www.booking.com/hotel/de/petersburger-strasse-kleines-apartment-mit-kuche-und-bad.html",
+   "title": "Friedrichshain Apartmenthaus – Three-Bedroom Apartment - High Floor",
+   "baslikTR": "Friedrichshain | 3 Odalı Daire, 8 Ayrı Yatak",
+   "hostName": "Friedrichshain Apartmenthaus (Booking'de işletme adı)",
+   "address": "Petersburger Straße 29 IV, 10249 Berlin (Friedrichshain)",
+   "coords": {
+    "lat": 52.5238523,
+    "lon": 13.4498547,
+    "accuracy": "adres",
+    "accuracyNote": "Booking sayfasındaki data-atlas-latlng (tesis koordinatı)"
+   },
+   "district": "Friedrichshain",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 1,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 single bed",
+      "1 double bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "2 single beds",
+      "1 double bed"
+     ]
+    }
+   ],
+   "separateBeds": 8,
+   "couches": 0,
+   "capacity": 6,
+   "kanepeli": false,
+   "registrationNumber": "yok",
+   "checkInTime": "15:00-22:00",
+   "checkOutTime": "11:00'e kadar",
+   "rating": "6.5",
+   "reviewCount": 4,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872264963.jpg?k=9e0fb756c1cff34fcc0b71de281e1e97f32914b832b803e139fccc892144a381",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266799.jpg?k=720581bce420c4876ee2f30f8b6b7feb579e6bef953dcac0fc9f824a2d099b29",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266804.jpg?k=d92b14d70c5d3bd7335ac859f3f8d3066b5334ad465c859357c27d25552a8cc0"
+   ],
+   "photosGallery": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872264963.jpg?k=9e0fb756c1cff34fcc0b71de281e1e97f32914b832b803e139fccc892144a381",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266799.jpg?k=720581bce420c4876ee2f30f8b6b7feb579e6bef953dcac0fc9f824a2d099b29",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266804.jpg?k=d92b14d70c5d3bd7335ac859f3f8d3066b5334ad465c859357c27d25552a8cc0",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266811.jpg?k=8b1cdb5800c64955274ba63ae6d2b9d51f59ba78d0c489d0f498e0d508e667d4",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266814.jpg?k=817efcd2e1e518dbf57fb3154422bd449dbaa908951d20fa664705c6712b45b5",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266818.jpg?k=f326e6ffbd61ecddb48afdc7269bc91cc867d3efd154186a71c7db22329d3165",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266822.jpg?k=637e96955adb856cc9a6a892cd09fd8a68e5ca8f584008fd871244059a686dfd",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266828.jpg?k=045b44ff80a288686bed0b365f6eb2a5305bc1f70363dbc9bbc39ca93211aca8",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266840.jpg?k=e8d82ea7ba39a0af515cccaee343e2fe2f2415d5037ddec3949256b447ef8545",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266846.jpg?k=5d5355af1258e69d3bfff91b85977928e6a4b2aa424a1e9990c9e8888569425f",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266852.jpg?k=eda79446a415394739fdc895f0bf307c06d56cad7e30580e1df025e32cc71dca",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266857.jpg?k=fc983f2714818d2aa00ab3aaa01e0f0975ecd0a1245f0f08e7930f8bf1e3f3f4",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266866.jpg?k=60fdf5ca50c1959672179887a24143471613f4df7e2bcaa0df3b8f3325c788c8",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508587.jpg?k=7c5ba5b24d7c6f8c919acb4fb0d1708b04d7ae7d5aa3894be9ab1490944512fd",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508591.jpg?k=e936eb841e6bb8dccc0a90b0be219c5c7d54b0ee25a8ecd4553685eabc7bf65e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508595.jpg?k=7926664096cf9f7d5b09e0bb8b4090bcc3310d7e111d5414f0a296a3a0021bae",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508597.jpg?k=19a4bac7024242a6d8f07c7ad706020f6436b865cf53bacc41104690e7d224f1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508603.jpg?k=4481579cd314de71e2dba97e143db63f4d128fa4117e823fc676d3b02caf7f26",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508610.jpg?k=a29a24330eeebdb89ca947e836fefa9bc7c76bcdf66766ae075e206837035547",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508613.jpg?k=41fef9bebc945e6999b27f713e3bdf69c89bb81329b175ba68a8993a3722f012",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508619.jpg?k=0dd3795f8ff3633ee5fd10d340bbe6ca0396c79ec9f66eb27bee892bba00543b",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508623.jpg?k=c8d74268241d216443be85d5e8f30a4749d768e846736b2ab35c99409a5ae861",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508628.jpg?k=9f4c92ad8aea588901b68a9764badf79dc7fabcfc3e0d356292db4d3dddda5b3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508631.jpg?k=329bc17fa02a96658bcdd7f89da12399aa733ae7130c31ac9a2542607cbf1efc",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508637.jpg?k=1429b09de7fae6539176061a03a5471d3ec353c221bc28c51ac2328c85a6192b",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508643.jpg?k=4a66d1a31183845f26e775cf5e9945c72e32536cb8674b703730881d0f05d830",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886510990.jpg?k=655b96872d17e5751720f4223afe657443f07baba6e0c4d5f4607279320f0d62",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886510994.jpg?k=5fe7253e38c535109edbf24f71e2f1b43cb0c3b0005b20b891d2373caf9a1df8",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511000.jpg?k=1a0021ef4c50703636eb4f6f18e797361fa9311b8fc8ee0292c8c98bc8497677",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511008.jpg?k=a08c4f954f99cdc8fe519e5d72092edc392d2c19315ba59bf2e3a33aae332f7d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511020.jpg?k=078625dc01ba0409686e18c340ec732009d1e2c56a508fff70222ba601471c09",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511025.jpg?k=705c58b7ccf2d0c23cea50a7c36b816ad5081e8fff50b305193b5ef193812bf6",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511034.jpg?k=31ca8bc28a279bf89b0df2038d826a7f87c2583f31fa48d47373c8c6c61c3e9d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511041.jpg?k=b6431c3b3736c30d02172b545ca4daf6303deb34da76d4bc3fd74423b1a3efe7",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511053.jpg?k=5da644baf9075cf16184b10c6e2099096cfc31bdbbb63c3e2652521c6393f1c1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511062.jpg?k=7d0566adaf674024fd0cde43d97931e341dc019078f3b4619f60f338af64f3f0",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511074.jpg?k=78843ffc6d32a7805bc8285f93d4bedd0450795c40601517ccb3892380710773",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511084.jpg?k=1c463092c90cdb84f1a5819bbebf81abcd24e469674cc4f38871f3815476806f",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818684.jpg?k=3963bad9a2f2e0ee9825593112b7e74ab798d82360a6ebfc7e47ae11145348a4",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818691.jpg?k=f765b846dcfee899e5b2c95d585d0149cce86ed2ff697143d0f4ee09295fb8db",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818701.jpg?k=7cbfac92884cc80ae592b76778255108b9dc00e5920312f510b56c3e7e7f327a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818717.jpg?k=02a44f887b7f5bcbe7dc5e91e30b0288b0dfd80416d0b5087f96dff859202654",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818724.jpg?k=eca881e3904d67a7ec26668eb9a2faea85b783806f8103217afd2db334387a89",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818733.jpg?k=de9fae262a9a8b1d6abb145d178f3e7a67451aeefa528fba35533bfbaf31d044",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818739.jpg?k=9af0e0ff46a98404af4456c18b5cbdc76af283ee82b7727b06958d1c3eee43ca",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818746.jpg?k=4cf6e2df01d6d2639052d0b187a43ff1c4b786bb9d8c871dd272d9854282e727",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818755.jpg?k=c45c02b79e170ceb65960d04056bf5d70adf8422be0990d9f8fb29958a0c07e4",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818762.jpg?k=b0eeab2c13355eabddb357e95ac4183516d6a1fe385113ab8195ac58018f9af3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818768.jpg?k=e29d0f44d58ba1fe70ca298b5121dbbed884c3fb66af89c3db63c3955fb26127",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818775.jpg?k=bbec93b9b79f38f5628d7bf12b289163a9f0ebeeee96e7f916c67fe2433142fd",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818788.jpg?k=4ed95caa1e6a2fa82209525d111d36f2ba2b41a757bbad6b4b7a436fe3afad02",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671380.jpg?k=733d454152ed8cbe5caa1b473e2ba3708b9dbf6bf12d9e293943c59eaf64fe1c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671385.jpg?k=f5aae80c90f6c91b94075bc90bae26359a2e6ab7c5d4bb2243f55818fd1ea579",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671386.jpg?k=06c6212156515514d8235017b0b0dc44f2fb17518397abcdcfcefec63b2417f2",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671392.jpg?k=59c01064a36c3b1c881e349c0c80d1e5729095c446fe6b84ac3cbdc22e807d91",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671394.jpg?k=1c7e1fea42bd25ce8cb0ed2dde1f198200f91ff52e67a7b142931dd545115886",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671396.jpg?k=a8207401fcd0e184c66b70e862ca99bc6344911ed8c3f0ddb9c5fb848b0540bf",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671399.jpg?k=4fc9f5b52c84225326e389451f5bb479c266d5eb0faec8e4ab4b0cfb5c805d6e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671400.jpg?k=8dd19d725f3008e044dbc216be0cdbde434c5fd42fa043ed77beb1f74401ebeb",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671403.jpg?k=6307bbfa4eb5eb8cc6281812c011831b8cab9bf64497c5ff8adf428f55f6fbfa",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671406.jpg?k=2b7e3bbd447246c50b2dfa65c3645460117df995e05815b89666f477884b8148",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671410.jpg?k=b7846a5fa65b2cba76e762d9d913b62498cb8792a5ea74fd276ba3fcb76a0c8e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671416.jpg?k=725117fc65584bf831f325334a1766c39f62c006236eb9aeb389e8265f66da24",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671418.jpg?k=2d33e954ea5e1f4307ceec69dc32bb9b9380079719974c011baec0d35966ae90",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340574.jpg?k=8faca14fe3b45d6edb9205a7bfa0d1d9b1ae9e5d05f006349c8f31d49688a48a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340579.jpg?k=7b37bb830aa8b8f6f4b695889e6e9dde7e45dc5108d6b17d401f47bf928a2cbc",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340584.jpg?k=36281f3c81c1f0805fbe6480ea0fa6de8e25ef2d70be747896491bbb436a8c88",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340591.jpg?k=a6db24f7bfd874820b3196a26835e663c60ef180829624092855a9f608dbd531",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340593.jpg?k=bb1ed7282ee96c10a1e4e084c45a26d520554c386ef763726b3f514710934a29",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340595.jpg?k=0389035100c531953544d922559fed4a064581e9bbd72ea84a74adc5bb5a7cd8",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340598.jpg?k=263cfc95f0a027122a87c984d8719ce6c019e9dcc0ce7452c392d2a7659f3bca",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340601.jpg?k=9d1871071d09388d0b4e7d9f6420221e8072ee1f571a20cc0af41820042de0b2",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340604.jpg?k=68c95daf6e13d44cc0ba3fcf4349f2e49f2e7a011458991cdc461537ceeb9d5f",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340609.jpg?k=dd4ef0c9a0d8a671bc5673bec1a6c9663f6919592798cfdfcd1bb6110b5f38f4",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340613.jpg?k=94e8a5a15d58c738fbf357c006ade33b97b9c80cbf7fbc420eb44a95743d6757",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340617.jpg?k=fbb1958ce55cfd09df8b6490efd166ef1d86135accb2a8f7b87221f8f2a591dd",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340620.jpg?k=37846f3adbb4fa74d9237788188bbb3e1295c6066a78707d4391a75e47ae8de0",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340624.jpg?k=df275943cf1a858bf559d208ed4eface07fbbd0d6afd85a64716ab0d98ff5a63"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "birim": "Three-Bedroom Apartment - High Floor",
+     "tutar": 1052,
+     "paraBirimi": "EUR",
+     "tutarTRY": 58892,
+     "gece": 4,
+     "vergiUcretDahil": "€972 konaklama (7% KDV ve 7,5% City Tax dahil, ~€66,66) + €80 temizlik ücreti (hariç kalem, toplama eklendi)",
+     "iptal": "16 Aralık 2026 öncesi ücretsiz iptal; ödeme 'Pay the property before arrival' (tesise varıştan önce)",
+     "kaynak": "booking.com (Claude yerleşik tarayıcı paneli, 6 yetişkin, 1 oda, EUR)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "totalEur": 1052,
+   "totalTry": 58892,
+   "perPersonTry": 9815,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 5.9,
+   "rsoCarMin": 16.7,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi; gündüz trafikte %20-40 uzayabilir",
+   "alt15dk": false,
+   "kaynakSite": "booking.com",
+   "iptal": "16 Aralık 2026 öncesi ücretsiz iptal; ödeme 'Pay the property before arrival' (tesise varıştan önce)",
+   "observedAt": "2026-11-11T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Booking oda tablosunda 'Three-Bedroom Apartment - High Floor' birimi 6 yetişkin için €972 + €80; yatak dökümü 6 tek + 2 çift = 8 ayrı yatak. Aynı tesiste Duplex (5 yatak) ve Balkonlu (5 yatak) birimler 6 kişiye ayrı yatak VERMİYOR; doğru birim seçilmeli. UYARI: yalnız 4 yorum (6.5), kabul edilen ödeme yöntemi sayfada yalnız 'Cash'; ödeme doğrudan tesise yapılıyor; galeri binadaki tüm birimleri kapsıyor. m² verilmemiş. Registriernummer görülmedi.",
+   "uyari": "6 ayrı yatağı yalnız 'Three-Bedroom Apartment - High Floor' birimi veriyor. 4 yorum (6,5); ödeme tesise, kabul edilen yöntem nakit."
+  },
+  {
+   "key": "booking:trio-apartment-berlin-lichtenberg",
+   "platform": "booking",
+   "platformId": "trio-apartment-berlin-lichtenberg",
+   "url": "https://www.booking.com/hotel/de/trio-apartment-berlin-lichtenberg.html",
+   "title": "TRIO Apartment Hotel Berlin – Superior Apartment Plus",
+   "baslikTR": "Marzahn (Lichtenberg sınırı) | Aparthotel 3 Odalı Daire, 7 Yatak",
+   "hostName": "TRIO Apartment Hotel Berlin (aparthotel işletmesi)",
+   "address": "Zur Alten Börse 57, 12681 Berlin (Marzahn-Hellersdorf)",
+   "coords": {
+    "lat": 52.5192627925238,
+    "lon": 13.5264191828034,
+    "accuracy": "adres",
+    "accuracyNote": "Booking sayfasındaki data-atlas-latlng (tesis koordinatı)"
+   },
+   "district": "Marzahn-Hellersdorf (Lichtenberg sınırı)",
+   "kind": "daire",
+   "m2": 66,
+   "bedrooms": 3,
+   "baths": 2,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 single bed",
+      "1 bunk bed"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "1 sofa bed"
+     ]
+    }
+   ],
+   "separateBeds": 7,
+   "couches": 1,
+   "capacity": 6,
+   "kanepeli": false,
+   "registrationNumber": "yok",
+   "checkInTime": "15:00-23:00 (check-in makinesi)",
+   "checkOutTime": null,
+   "rating": "7.8",
+   "reviewCount": 391,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/97436814.jpg?k=4d8defb2489d0406cbfd57bd90d264f90efa4fd9256e035d1b2d2e7c9a3f7b7c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102948166.jpg?k=c08e4893c42b5cc10f133deb5ca796c58f4b01544350cd07782b780be3624f1d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102948195.jpg?k=165fcf2cd947b64416b5dc279f9ebba6c8da02b891103da8f17bb882dd838384"
+   ],
+   "photosGallery": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/97436814.jpg?k=4d8defb2489d0406cbfd57bd90d264f90efa4fd9256e035d1b2d2e7c9a3f7b7c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102948166.jpg?k=c08e4893c42b5cc10f133deb5ca796c58f4b01544350cd07782b780be3624f1d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102948195.jpg?k=165fcf2cd947b64416b5dc279f9ebba6c8da02b891103da8f17bb882dd838384",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102948208.jpg?k=08ba1c8d7139869effd0ed4f64aca72dc484ee003455b6ac4c0466f62b23593a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102948240.jpg?k=a4f414b3f1bab5fb5f694341d129830d013b3ed01f43862fdf9bdcee3f03ed0c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102948247.jpg?k=0f31abf0f6a6806629f8bf7ae9328077623767c08f432e4fefafbae6c45d6c63",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102949467.jpg?k=7c2febc88ce294a76c482a09277460a44d32e9ff84bb9de1d32bd6dae18ad6d2",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102949474.jpg?k=9b6f7daadd92b9274a5ad5a53b1123d193d0f873dc6b684173d7e83037aae99e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102949529.jpg?k=e37e9aa4e70bf64686a36dc70832f09ef8281508312d62391b701aadfe3769f3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102950254.jpg?k=6cae866073878ebd367fb8a506a54625805e5782bef55846a64a0a4e5aeb9166",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102951296.jpg?k=8e4bdd2baffb1981a5d4a62ac1504e12fc6bc3dfe5f687940d33712bc270a83a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102951304.jpg?k=6d9187e07fbfc9bbe8c648e8f1095a068ae6e149f0f1ec18f1e11b7e4f55a0f8",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/105516177.jpg?k=45e43d51c9710af4be9bea9228646327f6f5628e1bbb7baf02fdb2c97f420d93",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/115593368.jpg?k=e1df68d9316de79d16ab440d321864051136232edb620fbac8709d68649f34ad",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/115593371.jpg?k=477677bb53413813090e1b057f961d7b8b678ded3ecdb2f002148f36314dce23",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/115593372.jpg?k=64d9a0f342b21af4b363fc7609fee0407258d51d6585a265b3ea2e8f951cc62b",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/115593376.jpg?k=a5580e5726c89fd23d5db8e6cf8c665f65633d1e1ee0279a8ef49ab55ceaa07c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765120.jpg?k=270871ec46e1cbcb05540a4f8915fe97e512cb65fefa9dce4c8bbf23d8677e87",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765121.jpg?k=05321ba738a019de45f02eb684e969e87a2753805a67e22b7a8c05044e96767d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765125.jpg?k=3c75b687b95103476145fc3f0eb48dc8cb2f7b5fd62d5083c7328a1f21e966ec",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765129.jpg?k=e7467d42639df1a9692541f702ccfab62d4464b7ed990dc53f9a0fea4303dd31",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765132.jpg?k=9da15e8e82654a17eb979a37c61b4db56e27be6e4ae8e08372d8851a8446d622",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765135.jpg?k=6f42813813799e2895b59ab947900c8eae59667d244d9da56675793cb70f2fc6",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765672.jpg?k=1beb5eed225f3da534ebba21f9dd2e3240d3d42c2a02e1e9653648140cc068f9",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765866.jpg?k=36024e7759f6eb15cab7681b1e7a1d6bf3f939e3cb3775df407eac061a1da2f9",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765872.jpg?k=b105bf1380e9512b90a974b1b3efd3cdb6df60e73ce6fd3737e23b29abe963ce",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187824918.jpg?k=d2c5f3bdd79908e2476b6e595fe526afff937e9418fc6d69ff804d7505283709",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/191518103.jpg?k=49dbbf3d54e8cf187298fe3476bd1f61527fd3b71b496e7b5f4c993f669e303a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/201759718.jpg?k=0c126de63559912e5132ab00979b7fb58156ebffa1abb112569f53904861f2c1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/201759782.jpg?k=6ed016739d755a65d8a9ef5082fe87b78a67c99345380227f69f420000257b8c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/201759785.jpg?k=b27a0f28662e909c1bd77eaa1d8d63372b17b24293d9f0537b0919a48d735e60",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/201760499.jpg?k=46fb029e052f4064b9d66ceaf091728c7b367976a29ee4bb2242f340628d65ba",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/279580995.jpg?k=68f10715d16e3d422b8e40b3cc620c6570c707c85c316c8fc35e61831bcf6657",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/279580999.jpg?k=85f7e37f35ed327e8c6612a7e2f96f6841f57a1233334b14137357b0ea811be9"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "birim": "Superior Apartment Plus",
+     "tutar": 1250,
+     "paraBirimi": "EUR",
+     "tutarTRY": 69976,
+     "gece": 4,
+     "vergiUcretDahil": "Vergi ve ücretler dahil (7% KDV, 7,5% City Tax, son temizlik dahil)",
+     "iptal": "İadesiz (tarih değişikliği esnekliği var), online ödeme",
+     "kaynak": "booking.com (Claude yerleşik tarayıcı paneli, 6 yetişkin, 1 oda, EUR)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL",
+     "alternatifTarife": {
+      "tutar": 1372,
+      "aciklama": "Ücretsiz iptal 27.12.2026 öncesi"
+     }
+    }
+   },
+   "totalEur": 1250,
+   "totalTry": 69976,
+   "perPersonTry": 11663,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 15.7,
+   "rsoCarMin": 15.6,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi; gündüz trafikte %20-40 uzayabilir",
+   "alt15dk": false,
+   "kaynakSite": "booking.com",
+   "iptal": "İadesiz (tarih değişikliği esnekliği var), online ödeme",
+   "observedAt": "2026-11-11T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Ayrı yatak sayımı: 5 tek + 1 ranza (2 yatak) = 7; ranza üst yatağı yetişkin için konfor sorunu olabilir. Ücretsiz iptalli tarife €1.372 (27.12.2026 öncesi). Daha ucuz 'Superior Apartment' (2 yatak odası: 2 ranza + 2 tek, €1.000) 6 yatak verir ama 4'ü ranza. 391 yorum, 7.8. Registriernummer görülmedi.",
+   "uyari": "Bir yatak ranza; üst yatak yetişkin için rahatsız olabilir. Marzahn, bölge listesi dışında ama süre kriterini tutuyor."
+  },
+  {
+   "key": "airbnb:1333910684186106416",
+   "platform": "airbnb",
+   "platformId": "1333910684186106416",
+   "url": "https://www.airbnb.com/rooms/1333910684186106416",
+   "kaynakSite": "airbnb.com",
+   "title": "Fantastic 2 Bedroom Apartment",
+   "baslikTR": "Niederschöneweide | RSO Yakını 2 Odalı Daire",
+   "hostName": "Flo",
+   "hostLegal": "Homaris West GmbH  ",
+   "address": "Br\\u00fcckenstr. 1, 12439, Berlin, Germany",
+   "coords": {
+    "lat": 52.4565,
+    "lon": 13.5103,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb harita konumu; adres ilanın Registration Details alanından"
+   },
+   "district": "Niederschöneweide",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 2,
+   "baths": 1.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "1 single bed",
+      "1 sofa bed"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 1,
+   "capacity": 7,
+   "kapasite7": true,
+   "kanepeli": true,
+   "registrationNumber": "yok",
+   "registrationDetails": "Legal entity name and Legal form: Homaris West GmbH  | Legal representatives or Trade register number: HRB 223264 B  |  Entity address: Brunnenstr. 4, 10119, Berlin, Germany  | Listing address: Br\\u00fcckenstr. 1, 12439, Berlin, Germany",
+   "checkInTime": "4:00 PM",
+   "checkOutTime": "10:00 AM",
+   "rating": "4.34",
+   "reviewCount": 307,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/aeda9138-8bda-47c4-b63c-c4e3363fedb5.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/8536ab54-02b3-455b-a7c0-767671a9bb42.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/dfca07c5-e2c0-43e4-b72e-0bd53fe8dd3d.jpeg"
+   ],
+   "photosGallery": [
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/aeda9138-8bda-47c4-b63c-c4e3363fedb5.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/8536ab54-02b3-455b-a7c0-767671a9bb42.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/dfca07c5-e2c0-43e4-b72e-0bd53fe8dd3d.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/ab3feb7f-a245-40b0-82a5-2e12d9ee589a.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/be272f57-d41e-433e-9e74-36d67802e0e7.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/98329e46-fe30-4b3f-b793-66ad74281ba9.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/1dbfe561-2b9e-4602-ac74-b4cc3bea419e.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/f849f75d-8225-466b-9a77-89f1d767c86b.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/a4bda027-dd6e-486b-80d8-39c562aff68a.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/c39c598f-e1fe-4dcc-a4f5-ba3d5730bddb.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/d459e380-bd2f-4327-bad5-c69dd5a6680b.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/2cbe9e6f-88e1-4d8c-9d31-f302727e7bb7.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/a2b77416-4386-49ac-a376-37bb5feeadf7.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/085c3281-0b42-443c-8f6b-546953c24cbb.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/bf032b19-ff16-4b9e-be89-d0c356c561dc.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/c6bf8421-efa5-463c-8966-237f4e3a2c8e.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/fdcc0f96-90bd-474e-a8a0-e6c0b1bbe5ca.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/48a43502-d844-4e39-a96e-c7ab54873af6.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/593dea88-6a21-4c9d-9b08-a19121cc5b94.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/a7ca468c-3035-47e3-b33d-1094e7c0722b.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/8db42fc8-3a85-4219-9e0b-48985c9c615d.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/e6607aad-b00d-463b-b753-a5d08e770a54.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/e3934fbc-4d40-4e2e-9e03-efd949b061ea.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/58b22a7b-2b0e-4d5f-859f-34fa7425adb1.jpeg",
+    "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/15b5f80b-3841-4b36-8731-c6de2df80424.jpeg"
+   ],
+   "prices": {
+    "2026-12-30/2027-01-03": {
+     "tutar": 1472.0,
+     "paraBirimi": "EUR",
+     "tutarTRY": 82404,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli + temizlik dahil (Airbnb \"Prices include all fees\"); City Tax kalemi gösterilmedi, dahil olup olmadığı doğrulanmadı",
+     "iptal": "Free cancellation before December 29. Cancel before check-in on December 30 for a partial refund.",
+     "kaynak": "airbnb ilan sayfası (Reserve butonu aktif)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "iptal": "Free cancellation before December 29. Cancel before check-in on December 30 for a partial refund.",
+   "totalEur": 1472.0,
+   "totalTry": 82404,
+   "perPersonTry": 13734,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 15.0,
+   "tresorCarKm": 9.0,
+   "rsoCarMin": 0.9,
+   "rsoCarKm": 0.5,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi",
+   "alt15dk": false,
+   "observedAt": "2026-11-11T19:46+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Yatak 1 ve 2: ikişer tek kişilik; salon: 1 tek kişilik + 1 çekyat. RSO.Berlin'e yürüme mesafesi (~1 km). Tresor 15,0 dk (sınırda). Fiyat: Airbnb ilan sayfasında 30.12.2026–03.01.2027, 6 yetişkin için \"Prices include all fees\" toplamı (hizmet bedeli ve temizlik dahil); fiyat dökümünde vergi kalemi görünmedi, Berlin konaklama vergisinin (City Tax %7,5) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: 17 haneli Berlin Registriernummer ilanda yok (Airbnb \"Registration Details\" alanında yalnız ev sahibi/işletme ve adres bilgisi var)."
+  },
+  {
+   "key": "booking:modern-accommodation-neukoln",
+   "platform": "booking",
+   "platformId": "modern-accommodation-neukoln",
+   "url": "https://www.booking.com/hotel/de/modern-accommodation-neukoln.html",
+   "title": "Moderne Unterkunft Neukölln",
+   "baslikTR": "Neukölln (Schillerkiez) | 3 Odalı Daire, 9 Tek Yatak",
+   "hostName": "Booking'de işletme adı: Moderne Unterkunft Neukölln",
+   "address": "Schillerpromenade 7, 12049 Berlin (Neukölln) [Booking'de posta kodu 10551 yazıyor]",
+   "coords": {
+    "lat": 52.4765084383829,
+    "lon": 13.4219787128975,
+    "accuracy": "adres",
+    "accuracyNote": "Booking sayfasındaki data-atlas-latlng (tesis koordinatı)"
+   },
+   "district": "Neukölln",
+   "kind": "daire",
+   "m2": 120,
+   "bedrooms": 3,
+   "baths": 2,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "4 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 9,
+   "couches": 0,
+   "capacity": 6,
+   "kanepeli": false,
+   "registrationNumber": "yok",
+   "checkInTime": "15:00-22:00",
+   "checkOutTime": null,
+   "rating": "7.5",
+   "reviewCount": 4,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/694112422.jpg?k=1e0307489536842fb766b9df91ac3f29c4d7b0dfe47cf1bc915f638869a204c7",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042037.jpg?k=ec19716fa8ff6b0214fb6e7d043e998c1de91f6c18be7cd65f09bff66ef0dc52",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042061.jpg?k=142dca3df562aebec46be7bcc026759172a36f64dc21c50834177a66e08af5cf"
+   ],
+   "photosGallery": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/694112422.jpg?k=1e0307489536842fb766b9df91ac3f29c4d7b0dfe47cf1bc915f638869a204c7",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042037.jpg?k=ec19716fa8ff6b0214fb6e7d043e998c1de91f6c18be7cd65f09bff66ef0dc52",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042061.jpg?k=142dca3df562aebec46be7bcc026759172a36f64dc21c50834177a66e08af5cf",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042075.jpg?k=1eba49fc372b470fcec25107b0b9b9cabb8025031fda34a019913177e6ec9629",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042118.jpg?k=74bdb282424116fbf23a3d49da9dcbd677386e83ce4563cbde76b7aacdb470a7",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042127.jpg?k=5775ec82b0ec47944eccfa1512a62afc632fb2857e9a09ead10b30de3102c227",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042402.jpg?k=00c21f31875e25bd92b3813a482165fc4bae201c8948207dd8adc3121ed83e40",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042422.jpg?k=df7d8213e8adb69b6b540a5f8c14da0d4d5cb5a5c1fe72a6ffb9b558c9d108be",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042490.jpg?k=791996431478732d9b76e3a62510941694f5ed66640b7fadd55e0a7cf7412b5a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042527.jpg?k=1b69c120b85d3554241955fbf3259b0dd1323686c6cc8b57273cbc63085459f9",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042551.jpg?k=5cf5c8a33528c9c6adcff22ec8d460182353733136528248175156743044442f",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042565.jpg?k=523b6abc1b3002e680d7b4aded75741744a296b2b603fe0d004bd8acad4d2132",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042577.jpg?k=5871dd518d524578be7154b781762e5e1d7adb9d5ff668aa7236b60b393d508d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042613.jpg?k=31d54a0cedcf847ad78985ce66f4db1f21030744bb20673df520940bc4dca518",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042632.jpg?k=91877a114f60558f1deef3a7ab00a1ffb20aa6555cd4a063da9a5c20a2fc5109",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042654.jpg?k=b48c8ccb9d77d5b3768fc79862d45249fc0ca6fc4130280f764539b0f2c7fb2a"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "birim": "Three-Bedroom Apartment",
+     "tutar": 1632,
+     "paraBirimi": "EUR",
+     "tutarTRY": 91361,
+     "gece": 4,
+     "vergiUcretDahil": "€1.497 (7% KDV ve City Tax dahil) + €135 temizlik (hariç) = €1.632",
+     "iptal": "İadesiz, online ödeme",
+     "kaynak": "booking.com (Claude yerleşik tarayıcı paneli, 6 yetişkin, 1 oda, EUR)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "totalEur": 1632,
+   "totalTry": 91361,
+   "perPersonTry": 15227,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 10.7,
+   "rsoCarMin": 15.5,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi; gündüz trafikte %20-40 uzayabilir",
+   "alt15dk": false,
+   "kaynakSite": "booking.com",
+   "iptal": "İadesiz, online ödeme",
+   "observedAt": "2026-11-11T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "9 tek yatak, 2 banyo, zemin kat, ayrı giriş. Yalnız iadesiz tarife görüldü. 4 yorum (7.5). Hasar politikası €300'e kadar. Registriernummer görülmedi."
+  },
+  {
+   "key": "airbnb:1591873645675719304",
+   "platform": "airbnb",
+   "platformId": "1591873645675719304",
+   "url": "https://www.airbnb.com/rooms/1591873645675719304",
+   "kaynakSite": "airbnb.com",
+   "title": "BIG cozy Apartment for BIG Groups City Center",
+   "baslikTR": "Schöneberg | 4 Odalı Büyük Grup Dairesi",
+   "hostName": "Eugen",
+   "hostLegal": "Berlin-Stay GmbH  ",
+   "address": "Hauptstra\\u00dfe 113, 10827, Berlin, Deutschland",
+   "coords": {
+    "lat": 52.48068139009875,
+    "lon": 13.348421478076082,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb harita konumu; adres ilanın Registration Details alanından"
+   },
+   "district": "Schöneberg",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 4,
+   "baths": 2.0,
+   "beds": [],
+   "separateBeds": null,
+   "couches": null,
+   "capacity": 14,
+   "kapasite7": true,
+   "kanepeli": false,
+   "registrationNumber": "yok",
+   "registrationDetails": "Legal entity name and Legal form: Berlin-Stay GmbH  | Legal representatives or Trade register number: HRB197418B  |  Entity address: Torstrasse 156, 10115, Berlin, Deutschland  | Listing address: Hauptstra\\u00dfe 113, 10827, Berlin, Deutschland",
+   "checkInTime": "3:00 PM",
+   "checkOutTime": "11:00 AM",
+   "rating": "3.38",
+   "reviewCount": 8,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/7f854cb3-3312-45b7-9e89-8862f1be480e.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/69780b16-af6b-4508-968d-ead67cd39528.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/d56e5408-0f00-412f-bff0-77e0744853ea.jpeg"
+   ],
+   "photosGallery": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/7f854cb3-3312-45b7-9e89-8862f1be480e.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/69780b16-af6b-4508-968d-ead67cd39528.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/d56e5408-0f00-412f-bff0-77e0744853ea.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/12c9e321-0751-4bb6-8402-6a505326e6b8.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/fc31f25a-c900-48d9-96b5-f941e1de1e0e.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/47a59617-a887-4355-98a6-7ec6eea43cde.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/237d9dab-0d03-46c2-bd6a-7ebef5752177.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/60be14a4-5739-4ed9-a383-8c0f96c675ef.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/24f89645-2c41-4c47-b38c-755242e1714c.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/4828926d-5a5d-410e-8019-35fd2b6d44e1.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/558fc94b-7eb1-4d99-bc0b-115616c31356.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/91053ef2-c187-44a6-9c5e-1ecaef4c7461.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/ef85dc5c-dd75-428b-92e4-196b4ad751b8.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/fa499624-e67a-4367-814a-57024a784d50.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/4a4d3fd9-aea1-49fa-8f31-1bec9348c1b5.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/c5b2be34-4e27-4cef-8c2a-185901a205fb.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/c5deacd6-9838-4d1a-b733-72db3d75fb56.jpeg"
+   ],
+   "prices": {
+    "2026-12-30/2027-01-03": {
+     "tutar": 1699.0,
+     "paraBirimi": "EUR",
+     "tutarTRY": 95112,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli + temizlik dahil (Airbnb \"Prices include all fees\"); City Tax kalemi gösterilmedi, dahil olup olmadığı doğrulanmadı",
+     "iptal": "Free cancellation before November 30. Cancel before December 23 for a partial refund.",
+     "kaynak": "airbnb ilan sayfası (Reserve butonu aktif)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "iptal": "Free cancellation before November 30. Cancel before December 23 for a partial refund.",
+   "totalEur": 1699.0,
+   "totalTry": 95112,
+   "perPersonTry": 15852,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 14.6,
+   "tresorCarKm": 7.5,
+   "rsoCarMin": 18.6,
+   "rsoCarKm": 13.4,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi",
+   "alt15dk": false,
+   "observedAt": "2026-11-11T19:46+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "İlanda \"Nerede uyuyacaksınız\" bölümü yok; özet 4 yatak odası · 9 yatak, açıklamada yataklar çift/tek olarak birleştirilebilir. 6 ayrı yatak olası ama oda dökümü doğrulanamadı. Puan düşük: 3,38 (8 yorum). Fiyat: Airbnb ilan sayfasında 30.12.2026–03.01.2027, 6 yetişkin için \"Prices include all fees\" toplamı (hizmet bedeli ve temizlik dahil); fiyat dökümünde vergi kalemi görünmedi, Berlin konaklama vergisinin (City Tax %7,5) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: 17 haneli Berlin Registriernummer ilanda yok (Airbnb \"Registration Details\" alanında yalnız ev sahibi/işletme ve adres bilgisi var).",
+   "uyari": "Yatak dökümü ilanda yok; özet '4 yatak odası, 9 yatak' diyor, 6 ayrı yatak oda oda DOĞRULANMADI. Puan 3,38 (8 yorum).",
+   "yatakDogrulandi": false
+  },
+  {
+   "key": "booking:attic-apartment-in-villa",
+   "platform": "booking",
+   "platformId": "attic-apartment-in-villa",
+   "url": "https://www.booking.com/hotel/de/attic-apartment-in-villa.html",
+   "title": "Attic apartment in villa!",
+   "baslikTR": "Adlershof/Johannisthal | Çatı Katı Daire, 8 Tek Yatak",
+   "hostName": "Booking'de işletme adı: Attic apartment in villa!",
+   "address": "Winckelmannstraße 52 (2. OG), 12487 Berlin (Treptow-Köpenick)",
+   "coords": {
+    "lat": 52.441271220533,
+    "lon": 13.5053078711945,
+    "accuracy": "adres",
+    "accuracyNote": "Booking sayfasındaki data-atlas-latlng (tesis koordinatı)"
+   },
+   "district": "Treptow-Köpenick (Johannisthal/Adlershof)",
+   "kind": "daire",
+   "m2": 110,
+   "bedrooms": 6,
+   "baths": 4,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 4",
+     "yataklar": [
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 5",
+     "yataklar": [
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 6",
+     "yataklar": [
+      "2 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 8,
+   "couches": 0,
+   "capacity": 6,
+   "kanepeli": false,
+   "registrationNumber": "Booking lisans no: DEU110000000959130000002647 (17 haneli Berlin Registriernummer biçiminde değil)",
+   "checkInTime": "16:00'dan itibaren",
+   "checkOutTime": null,
+   "rating": null,
+   "reviewCount": 0,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594526.jpg?k=a06354355de3fcfd366f11ec7f6a944042b7f76a5d6b55e1fd23896b1f8e0a91",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594971.jpg?k=e7cf0e1619d29df6f97c00275ba08a43e377ab4ddf0404d6324dfb7fb8ad966c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594979.jpg?k=555dd83064b576ff4ce38950894b4eea0f5b084c038a5437f9f6c6fa0cbe980a"
+   ],
+   "photosGallery": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594526.jpg?k=a06354355de3fcfd366f11ec7f6a944042b7f76a5d6b55e1fd23896b1f8e0a91",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594971.jpg?k=e7cf0e1619d29df6f97c00275ba08a43e377ab4ddf0404d6324dfb7fb8ad966c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594979.jpg?k=555dd83064b576ff4ce38950894b4eea0f5b084c038a5437f9f6c6fa0cbe980a",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594990.jpg?k=9f12900a77a542072a60284359006dbb3ecb9e599aea81b4b2581e828964a171",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594999.jpg?k=fe0bc1818a01927f9f4fc1b3923a2ac1df2bc9f55d4ca7725f34ce096ad48338",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595004.jpg?k=e10f1f8cb0f85b679bbf41718dbde15f6c4c9dd9976ab6f439be6222951ddb1c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595010.jpg?k=5c99f8bb645e1640a858735d1ad9a9b14b645c27161b524708ca641ad8fcb892",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595013.jpg?k=94047ca9d95563a145e0dee1d8a3835d8ff7d5b4940ecd710bb00bf6e4938c7c",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595016.jpg?k=39cdbe91a191df6cee34f57601ec02e8bed03ecb42ecee3a0eae33d0c2ba5218",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595021.jpg?k=aa72085fd508a799228e095ea8008eed9c234c51f0294241e6a0ce70614229d0",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595028.jpg?k=34d987d43ff88242148ad98cbd2ffa76bab756e56f0460d334bb0c5a896fa6ae",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595036.jpg?k=4524ff555d77d51b303ab0d5ad50e0f02f76954297f0e2ac1da5b87b79ed6892",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595042.jpg?k=277cbeedf11dd68079cf719af1af081c2298988fd632f218e8301392effb3f95",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595049.jpg?k=2525d67e49373853aae0ea096a63aa5420fb31cf0f67a9f7cb7cbbd13906d522",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595057.jpg?k=570c5d61211a1fb60615d45c3edf6fb936e05b3301ea4e2900e7b472a55019e7",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595063.jpg?k=adeb849425fcb3fc43a0d9aa2cfb5863ca96512221a68e90820c58ed6bcedff4"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "birim": "Apartment (6 yatak odası, 4 banyo)",
+     "tutar": 1724,
+     "paraBirimi": "EUR",
+     "tutarTRY": 96511,
+     "gece": 4,
+     "vergiUcretDahil": "Vergi ve ücretler dahil (7% KDV, 7,5% City Tax dahil)",
+     "iptal": "16 Aralık 2026 öncesi ücretsiz iptal; 14 Aralık'a kadar ödeme yok",
+     "kaynak": "booking.com (Claude yerleşik tarayıcı paneli, 6 yetişkin, 1 oda, EUR)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "totalEur": 1724,
+   "totalTry": 96511,
+   "perPersonTry": 16085,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 16.9,
+   "rsoCarMin": 4.5,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi; gündüz trafikte %20-40 uzayabilir",
+   "alt15dk": false,
+   "kaynakSite": "booking.com",
+   "iptal": "16 Aralık 2026 öncesi ücretsiz iptal; 14 Aralık'a kadar ödeme yok",
+   "observedAt": "2026-11-11T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Villa içinde çatı katı DAİRE (müstakil ev kiralaması değil); açıklamada 'shared kitchen' ifadesi geçiyor, oda tablosunda 'Entire apartment' ve 'Private kitchen' yazıyor; mutfak paylaşımı rezervasyon öncesi teyit edilmeli. Henüz yorum yok. RSO'ya çok yakın (4,5 dk), Tresor 16,9 dk.",
+   "uyari": "Tabloda 'Entire apartment, private kitchen', açıklamada 'shared kitchen' geçiyor; mutfak paylaşımı rezervasyondan önce sorulmalı. Henüz yorum yok."
+  },
+  {
+   "key": "airbnb:32453158",
+   "platform": "airbnb",
+   "platformId": "32453158",
+   "url": "https://www.airbnb.com/rooms/32453158",
+   "kaynakSite": "airbnb.com",
+   "title": "Apartment \"Calla\"",
+   "baslikTR": "Mariendorf | \"Calla\" 2 Odalı Daire",
+   "hostName": "Tim",
+   "hostLegal": "PRIME Service GmbH  ",
+   "address": "Mariendorfer Damm 47, 12109, Berlin, Deutschland",
+   "coords": {
+    "lat": 52.4485,
+    "lon": 13.3854,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb harita konumu; adres ilanın Registration Details alanından"
+   },
+   "district": "Mariendorf (Tempelhof)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 2,
+   "baths": 1.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 queen bed",
+      "1 single bed",
+      "1 sofa bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "3 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 1,
+   "capacity": 9,
+   "kapasite7": true,
+   "kanepeli": true,
+   "registrationNumber": "yok",
+   "registrationDetails": "Legal entity name and Legal form: PRIME Service GmbH  | Legal representatives or Trade register number: HRB 37328 P  |  Entity address: F\\u00f6hrenweg 1, 15831, Blankenfelde-Mahlow, Deutschland  | Listing address: Mariendorfer Damm 47, 12109, Berlin, Deutschland",
+   "checkInTime": "3:00 PM",
+   "checkOutTime": "11:00 AM",
+   "rating": "4.18",
+   "reviewCount": 33,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/511fa543-fdc4-4960-9d75-fec3e682aed3.jpg",
+    "https://a0.muscache.com/im/pictures/79dff7f1-6ba1-48e9-8345-532b84c50ef7.jpg",
+    "https://a0.muscache.com/im/pictures/791be34d-2703-438d-b486-1746a3a8e615.jpg"
+   ],
+   "photosGallery": [
+    "https://a0.muscache.com/im/pictures/511fa543-fdc4-4960-9d75-fec3e682aed3.jpg",
+    "https://a0.muscache.com/im/pictures/79dff7f1-6ba1-48e9-8345-532b84c50ef7.jpg",
+    "https://a0.muscache.com/im/pictures/791be34d-2703-438d-b486-1746a3a8e615.jpg",
+    "https://a0.muscache.com/im/pictures/c37dc7d8-e415-4f10-8ce0-a02508eddaed.jpg",
+    "https://a0.muscache.com/im/pictures/b60a5f04-4a1a-4ead-91c8-1630bf5c32ed.jpg",
+    "https://a0.muscache.com/im/pictures/0cb83144-e9fd-4cda-a85b-3350e1406b7a.jpg",
+    "https://a0.muscache.com/im/pictures/e71fd878-f076-45cc-b2ac-d19dc1355283.jpg",
+    "https://a0.muscache.com/im/pictures/b3a9d504-4ea4-4a87-ad59-616afb15e6bb.jpg",
+    "https://a0.muscache.com/im/pictures/d6577c27-db56-4886-900a-e6289a80138d.jpg",
+    "https://a0.muscache.com/im/pictures/14d6cebc-c586-4257-a658-53258f21de8c.jpg",
+    "https://a0.muscache.com/im/pictures/af74f777-9ff6-4020-a2c6-cfb4b4393f87.jpg",
+    "https://a0.muscache.com/im/pictures/c1bec158-8821-43ba-9eb1-7bf5c4395430.jpg",
+    "https://a0.muscache.com/im/pictures/982c26bd-f644-4e38-81ab-6364efc9dd37.jpg",
+    "https://a0.muscache.com/im/pictures/646ff35b-000e-4a27-8fa5-130d22e3d1f6.jpg",
+    "https://a0.muscache.com/im/pictures/b2e7874c-5aae-4c37-b689-4a355ba9716c.jpg",
+    "https://a0.muscache.com/im/pictures/ad65b838-8812-45c1-8ea2-8b7f71b10f6f.jpg",
+    "https://a0.muscache.com/im/pictures/a6098e3e-e7ed-4b10-9414-a79264c104cc.jpg",
+    "https://a0.muscache.com/im/pictures/517d6a38-00fa-4b61-88a1-2a9391cd1a35.jpg"
+   ],
+   "prices": {
+    "2026-12-30/2027-01-03": {
+     "tutar": 1839.0,
+     "paraBirimi": "EUR",
+     "tutarTRY": 102949,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli + temizlik dahil (Airbnb \"Prices include all fees\"); City Tax kalemi gösterilmedi, dahil olup olmadığı doğrulanmadı",
+     "iptal": "Free cancellation before November 30. Cancel before December 23 for a partial refund.",
+     "kaynak": "airbnb ilan sayfası (Reserve butonu aktif)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "iptal": "Free cancellation before November 30. Cancel before December 23 for a partial refund.",
+   "totalEur": 1839.0,
+   "totalTry": 102949,
+   "perPersonTry": 17158,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 14.6,
+   "tresorCarKm": 8.4,
+   "rsoCarMin": 16.0,
+   "rsoCarKm": 11.3,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi",
+   "alt15dk": false,
+   "observedAt": "2026-11-11T19:47+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": [
+    "airbnb:32453210",
+    "airbnb:31701521"
+   ],
+   "notes": "Yatak 1: queen + tek + çekyat; Yatak 2: 3 tek. 5 yatak + 1 çekyat. Aynı binada (Mariendorfer Damm 47, PRIME Service GmbH) bilinen \"Freesie\" (airbnb:32453210) ve \"Enzian\" (airbnb:31701521) daireleri var; bu farklı bir daire. Fiyat: Airbnb ilan sayfasında 30.12.2026–03.01.2027, 6 yetişkin için \"Prices include all fees\" toplamı (hizmet bedeli ve temizlik dahil); fiyat dökümünde vergi kalemi görünmedi, Berlin konaklama vergisinin (City Tax %7,5) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: 17 haneli Berlin Registriernummer ilanda yok (Airbnb \"Registration Details\" alanında yalnız ev sahibi/işletme ve adres bilgisi var).",
+   "uyari": "Sitedeki Freesie (airbnb:32453210) ve Enzian (airbnb:31701521) ile aynı bina ve işletme (Mariendorfer Damm 47); daire farklı. Mariendorf bölge listesi dışında ama süre kriterini tutuyor."
+  },
+  {
+   "key": "airbnb:32453154",
+   "platform": "airbnb",
+   "platformId": "32453154",
+   "url": "https://www.airbnb.com/rooms/32453154",
+   "kaynakSite": "airbnb.com",
+   "title": "Apartment \"Ochidee\"",
+   "baslikTR": "Mariendorf | \"Orchidee\" 2 Odalı Daire",
+   "hostName": "Tim",
+   "hostLegal": "PRIME Service GmbH  ",
+   "address": "Mariendorfer Damm 47, 12109, Berlin, Deutschland",
+   "coords": {
+    "lat": 52.4485,
+    "lon": 13.3854,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb harita konumu; adres ilanın Registration Details alanından"
+   },
+   "district": "Mariendorf (Tempelhof)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 2,
+   "baths": 1.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 queen bed",
+      "1 single bed",
+      "1 sofa bed"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "1 sofa bed"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 2,
+   "capacity": 9,
+   "kapasite7": true,
+   "kanepeli": true,
+   "registrationNumber": "yok",
+   "registrationDetails": "Legal entity name and Legal form: PRIME Service GmbH  | Legal representatives or Trade register number: HRB 37328 P  |  Entity address: F\\u00f6hrenweg 1, 15831, Blankenfelde-Mahlow, Deutschland  | Listing address: Mariendorfer Damm 47, 12109, Berlin, Deutschland",
+   "checkInTime": "3:00 PM",
+   "checkOutTime": "11:00 AM",
+   "rating": "4.41",
+   "reviewCount": 22,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/12e2a130-1c6c-4ee8-80e1-f707ad714447.jpg",
+    "https://a0.muscache.com/im/pictures/a5375cb6-792b-4c5c-84c7-6dca1e574ced.jpg",
+    "https://a0.muscache.com/im/pictures/968c70f7-a3f4-4bf0-bf50-a2db2d0be5f1.jpg"
+   ],
+   "photosGallery": [
+    "https://a0.muscache.com/im/pictures/12e2a130-1c6c-4ee8-80e1-f707ad714447.jpg",
+    "https://a0.muscache.com/im/pictures/a5375cb6-792b-4c5c-84c7-6dca1e574ced.jpg",
+    "https://a0.muscache.com/im/pictures/968c70f7-a3f4-4bf0-bf50-a2db2d0be5f1.jpg",
+    "https://a0.muscache.com/im/pictures/e4bc68ce-5923-4b50-b746-878ff64ad56b.jpg",
+    "https://a0.muscache.com/im/pictures/c5c89672-cb4b-4cb7-9713-252281e62094.jpg",
+    "https://a0.muscache.com/im/pictures/ab300534-a581-4f75-bbf8-da2c65c05142.jpg",
+    "https://a0.muscache.com/im/pictures/cfc5710d-189e-417a-af40-37ee72c5230d.jpg",
+    "https://a0.muscache.com/im/pictures/5a704171-4423-4613-ba06-a74ce07448a8.jpg",
+    "https://a0.muscache.com/im/pictures/28379f05-0a2c-4751-a3bb-9915a76fa86b.jpg",
+    "https://a0.muscache.com/im/pictures/a6ec9057-00d2-4356-8912-ddde19969f39.jpg",
+    "https://a0.muscache.com/im/pictures/921f5d1a-9178-4f0b-a051-d524e41f399f.jpg",
+    "https://a0.muscache.com/im/pictures/f928e896-e20d-4d75-b989-76caa2c41aa6.jpg",
+    "https://a0.muscache.com/im/pictures/acbac448-a12b-4bc6-9be8-bc935ae44597.jpg",
+    "https://a0.muscache.com/im/pictures/f7a54607-3ef7-4e28-a7cd-5530aefce08b.jpg",
+    "https://a0.muscache.com/im/pictures/965fa7da-4e1f-43c1-9ba1-d33b0c1d2e31.jpg",
+    "https://a0.muscache.com/im/pictures/eefc776e-2928-4cd0-805a-04cead619d9e.jpg",
+    "https://a0.muscache.com/im/pictures/82fc6064-4c12-4cc8-80e1-3498457b8c74.jpg",
+    "https://a0.muscache.com/im/pictures/b2bffc91-d964-4264-ad42-555f96394bcb.jpg"
+   ],
+   "prices": {
+    "2026-12-30/2027-01-03": {
+     "tutar": 1839.0,
+     "paraBirimi": "EUR",
+     "tutarTRY": 102949,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli + temizlik dahil (Airbnb \"Prices include all fees\"); City Tax kalemi gösterilmedi, dahil olup olmadığı doğrulanmadı",
+     "iptal": "Free cancellation before November 30. Cancel before December 23 for a partial refund.",
+     "kaynak": "airbnb ilan sayfası (Reserve butonu aktif)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "iptal": "Free cancellation before November 30. Cancel before December 23 for a partial refund.",
+   "totalEur": 1839.0,
+   "totalTry": 102949,
+   "perPersonTry": 17158,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 14.6,
+   "tresorCarKm": 8.4,
+   "rsoCarMin": 16.0,
+   "rsoCarKm": 11.3,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi",
+   "alt15dk": false,
+   "observedAt": "2026-11-11T19:49+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": [
+    "airbnb:32453210",
+    "airbnb:31701521"
+   ],
+   "notes": "Yatak 1: 3 tek; Yatak 2: queen + tek + çekyat; salon: çekyat. 5 yatak + çekyat (6. kişi çekyatta). Aynı bina/işletme: Calla, Hibiskus, bilinen Freesie ve Enzian. Fiyat: Airbnb ilan sayfasında 30.12.2026–03.01.2027, 6 yetişkin için \"Prices include all fees\" toplamı (hizmet bedeli ve temizlik dahil); fiyat dökümünde vergi kalemi görünmedi, Berlin konaklama vergisinin (City Tax %7,5) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: 17 haneli Berlin Registriernummer ilanda yok (Airbnb \"Registration Details\" alanında yalnız ev sahibi/işletme ve adres bilgisi var).",
+   "uyari": "Sitedeki Freesie (airbnb:32453210) ve Enzian (airbnb:31701521) ile aynı bina ve işletme (Mariendorfer Damm 47); daire farklı. Mariendorf bölge listesi dışında ama süre kriterini tutuyor."
+  },
+  {
+   "key": "airbnb:14381251",
+   "platform": "airbnb",
+   "platformId": "14381251",
+   "url": "https://www.airbnb.com/rooms/14381251",
+   "kaynakSite": "airbnb.com",
+   "title": "120m² New MyGold Apt. | 2 Baths • Balcony • 8 Pers",
+   "baslikTR": "Schöneberg | 120 m² Balkonlu 2 Banyolu Daire",
+   "hostName": "Dilo-Apartments",
+   "hostLegal": null,
+   "address": null,
+   "coords": {
+    "lat": 52.48004,
+    "lon": 13.34429,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb harita konumu; adres ilanın Registration Details alanından"
+   },
+   "district": "Schöneberg",
+   "kind": "daire",
+   "m2": 120,
+   "bedrooms": 2,
+   "baths": 2.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 queen bed",
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 king bed",
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "1 sofa bed"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 1,
+   "capacity": 8,
+   "kapasite7": true,
+   "kanepeli": true,
+   "registrationNumber": "yok",
+   "registrationDetails": "DEU11000000071663000002647",
+   "checkInTime": "3:00 PM - 11:00 PM",
+   "checkOutTime": "10:00 AM",
+   "rating": "4.7",
+   "reviewCount": 166,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/c1fa26d1-3da8-4826-a8cf-63a61eeafc70.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/448d19d7-fa9c-47ac-b3ab-d3fd14aef163.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/2d446f47-fc40-4ded-882c-6a84816d9905.jpeg"
+   ],
+   "photosGallery": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/c1fa26d1-3da8-4826-a8cf-63a61eeafc70.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/448d19d7-fa9c-47ac-b3ab-d3fd14aef163.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/2d446f47-fc40-4ded-882c-6a84816d9905.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/b5453942-4807-45ae-a3f1-7ce7d5a4ea7f.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/8dfe953d-4029-49f1-8271-c3685dac3bf9.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/3fd518ba-ad52-4e82-9e84-a0a7a28575fb.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/45cd81df-99a9-4a24-96bc-f78a6f2857f8.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/e1d1c894-3fc8-4162-a915-b021f554cabb.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/525e242c-424c-49c9-98cf-7f9b54913648.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/a0a53860-3d26-4c59-952e-f73e6488a35e.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/804b68b3-9756-4d55-9d91-82eb8ce3e80e.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/ef1da7c1-10f4-4666-b420-084ca64b8654.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/3d801733-5c06-4a5e-8724-ce1c0dc1be26.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/39c1f8b6-d1a0-40f5-aa04-5adc36c1b722.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/e85ded29-5925-4770-8945-188a5733d9af.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/8b5d7c89-2eca-442d-9294-df07587eb46a.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/2b13fc38-e7ba-453d-974e-17af9091a25d.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/a0a3f44d-32b1-4dea-b284-4599ae2accbb.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/427d60cc-31e8-405f-a5a5-d46e7082dd78.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/774e31bc-fd40-4375-81b7-74231922fb09.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/9f7b04dc-e4a3-4144-a42c-2bd1963c8e5d.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/3d683c27-3758-4d36-9982-a08c60ab88f9.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/618f646e-0e62-4a81-8851-3ac4b47edb1c.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/27c65d29-462d-48cb-9517-decba4e457c8.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/cab589be-58fe-4630-9ccb-d18dca7a2d82.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/c1ea4caf-3107-4369-8be3-57c338024cfc.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/485a81d3-5af8-4c41-935d-0107c4caed67.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/7807919d-32c0-4fe6-aa32-4bca66fe9abc.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/65a3f267-053c-4d5d-8e39-4f3d7dd45762.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/19aac15e-0ecd-4165-831f-8b0469902269.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/8d03acab-0394-4259-a101-6ef684edf2e4.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/ee1c22e0-913c-4fae-bdfa-ad8bd58c8370.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/46623f87-6b68-479d-9058-718b952a8944.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/cf94c479-147d-4616-9c68-48d917ac55ec.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/9d9439c2-8b20-44f9-8fbf-821487a88695.jpeg",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-14381251/original/053a7494-3896-40b5-86fa-f86ae7aa129a.png"
+   ],
+   "prices": {
+    "2026-12-30/2027-01-03": {
+     "tutar": 1967.0,
+     "paraBirimi": "EUR",
+     "tutarTRY": 110115,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli + temizlik dahil (Airbnb \"Prices include all fees\"); City Tax kalemi gösterilmedi, dahil olup olmadığı doğrulanmadı",
+     "iptal": "Free cancellation for 24 hours. After that, the reservation is non-refundable.",
+     "kaynak": "airbnb ilan sayfası (Reserve butonu aktif)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "iptal": "Free cancellation for 24 hours. After that, the reservation is non-refundable.",
+   "totalEur": 1967.0,
+   "totalTry": 110115,
+   "perPersonTry": 18352,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 14.2,
+   "tresorCarKm": 8.0,
+   "rsoCarMin": 16.6,
+   "rsoCarKm": 13.5,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi",
+   "alt15dk": false,
+   "observedAt": "2026-11-11T19:49+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "Yatak 1: queen + tek; Yatak 2: king + 2 tek; salon: çekyat. 5 yatak + 1 çekyat. İptal: yalnız 24 saat ücretsiz, sonra iadesiz. Fiyat: Airbnb ilan sayfasında 30.12.2026–03.01.2027, 6 yetişkin için \"Prices include all fees\" toplamı (hizmet bedeli ve temizlik dahil); fiyat dökümünde vergi kalemi görünmedi, Berlin konaklama vergisinin (City Tax %7,5) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: 17 haneli Berlin Registriernummer ilanda yok (Airbnb \"Registration Details\" alanında yalnız ev sahibi/işletme ve adres bilgisi var)."
+  },
+  {
+   "key": "booking:gneisenau",
+   "platform": "booking",
+   "platformId": "gneisenau",
+   "url": "https://www.booking.com/hotel/de/gneisenau.html",
+   "title": "Arbio I Cosy Spacious Apartment in Kreuzburg",
+   "baslikTR": "Kreuzberg | 3 Odalı Daire (Arbio), 5 Yatak + Çekyat",
+   "hostName": "Arbio (profesyonel işletmeci, Booking 'Managed by Arbio')",
+   "address": "Gneisenaustraße 113 (Souterrain), 10961 Berlin (Kreuzberg)",
+   "coords": {
+    "lat": 52.492794782949,
+    "lon": 13.388997249893,
+    "accuracy": "adres",
+    "accuracyNote": "Booking sayfasındaki data-atlas-latlng (tesis koordinatı)"
+   },
+   "district": "Kreuzberg",
+   "kind": "daire",
+   "m2": 115,
+   "bedrooms": 3,
+   "baths": 2,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "2 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "1 single bed"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "2 sofa beds"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 2,
+   "capacity": 6,
+   "kanepeli": true,
+   "registrationNumber": "yok",
+   "checkInTime": "15:00'dan itibaren",
+   "checkOutTime": null,
+   "rating": "7.6",
+   "reviewCount": 41,
+   "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959755.jpg?k=9ebc9e997cb984abb041da2a6b06f176355b890bbb0ae10d07a1b590f0804660",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959756.jpg?k=fc0894399c0967fe4a5f0ff6d7a1cb94167b56d6a580904378341b6c353ef5cb",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959759.jpg?k=96102f69df78f6e191116efaca461a4c39393a0ac41117fe7cf396b8e7b99c0d"
+   ],
+   "photosGallery": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959755.jpg?k=9ebc9e997cb984abb041da2a6b06f176355b890bbb0ae10d07a1b590f0804660",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959756.jpg?k=fc0894399c0967fe4a5f0ff6d7a1cb94167b56d6a580904378341b6c353ef5cb",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959759.jpg?k=96102f69df78f6e191116efaca461a4c39393a0ac41117fe7cf396b8e7b99c0d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959761.jpg?k=ad8adcca02245f6bf7984bb65c622519bddbc730b056ceb0cef5a8b9bb06b933",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959763.jpg?k=5f6a86e01d7d66b76c652b00187ec4184a9a1dc158901536389d05be43a53b9b",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959764.jpg?k=addf16adeeb7c92214168749270ed2c2a7bf60966827b545712edf47a178f3ca",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959812.jpg?k=889ef47f153fbfa7f4374c9d7867db4c6bd4e00f9d510f1305af9a4baab99599",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959824.jpg?k=56e1355bfb474e09e4a6610b9f9478e7500242d1c890060600cee7e9273fb627",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959825.jpg?k=17b4bd7a47479be17beed0bcf2abb45b1b86eddad9b801997c5a749604b7c509",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959831.jpg?k=b1e684bf29211f8755d296602effbf37dc7a207dc2e6680a887ee81c6ea49559",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959842.jpg?k=569ef44e33255e6872d7e024bc2c92f7c33e2106fc3dc3652db3b2a12ef3e080",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959844.jpg?k=ea566d44521abdd16cdd827a202f608f5c39039ccf6f86112b0510b4c941b3f8",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959849.jpg?k=e6596b3f95df465d8d39a72958dd3da1ca8ed3645998ba259dcce5b809d1656e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959852.jpg?k=c2eb93bd22ea90916c6666fb13f888170a2eed5c1f8071b106bcb72331ba2e31",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959853.jpg?k=3c0633f5a2e86678f7351b7bdd4cbafc4838cbb62b60b3b10f35bd2b3ffacf27",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959854.jpg?k=d2b27fa70dcb6210fdd79aa8b26190d53a798126c3ba91996e8926fbe2e026ed",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959855.jpg?k=304fd1792a960037970a843258043ba0e59f62a6c017001ce5e574e16437e18d",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959856.jpg?k=e6149fa9988dc23f0689c5d48ccefc29bbb641b3e6000534dca3dc0ee149b9f8",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959859.jpg?k=360e602d5bf0d10c0a95ce887f1780f636b6e9cc9a19e152c3504d2c3e9169a2",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959862.jpg?k=5ad0ce917181d4b31abe230f5b91ef3c0e4e9e1bd7b744412e1038eac7dcb7e3",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959864.jpg?k=2a2de537d37cd1c05630490d20c1496175fe16d6dc4a6c545a2eec51a9d006f4",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959865.jpg?k=4960cc437082608a716a5cfc454db67ec63f06268ecb70eaed659b9f7901d803",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959866.jpg?k=287f573ab085a2c00f89e90b0b45693dbdcae8a574ecbef6a60a3fc9f468b347",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959869.jpg?k=b3badd26d95c66f420b29a185b0ebb3e73c6885188c51697c06b16eda90b8ea1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959870.jpg?k=06dd6687813993c6b36bae9b89526342b4c37d467be1ca0a989068f37ef7e49f",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959872.jpg?k=3d5ec7e192090846822ef2b5b1236702f232a17d9a537d3c6c8779092549761b",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959876.jpg?k=6e0231af1179ef471fd40f280f8cf9b923934207be0c0b83d157a6edcdfd6d6f",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959877.jpg?k=e432345abd5ee86b2d6d785f704279a356988025a0a2daf6b3f16d862eab6b07",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959878.jpg?k=1e59d146d0f7286871bdf2ad7efc8289106fd35fdc27db07540e2c7d6f3a4ec8",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959884.jpg?k=37f26282bef32ab85aa82dd370ff6fe2ba661ce459bce76e9d22f382b9d639fa",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959887.jpg?k=435c6a90812a96d15007db730bd385821fbc3bdfaabe223e181ffa75291d74b5",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959888.jpg?k=e79c35e7af195eaaf7877c8a332740c44a25382fcd0721ecd21c121d8a3119d7",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959890.jpg?k=d41bb937c47abd3f045edf5353578ac6076f6c66cac07c29fccd2cad21e57033",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959894.jpg?k=301cb7d2413529b30aaf0bae7d000320503d3d25105a5fa33ea06d7583b189bf",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959898.jpg?k=d91f5bb9e7c91d1b95e07f76063aa1f11be9be9e5a7e2bbcdd1123c275c31500",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959902.jpg?k=1cac3345ac0ae9279e65dbe240e50017ec384eeccbd8e03f7dec9b62e43fc21b",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959907.jpg?k=a696a5a4bfa7bff07aed6dcf700b54bff5338e7a1069a246e0c61b8fb4107d98",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959914.jpg?k=467c184f7832ceed12c84fa241200eb83335280000f8d4cca682ec899cac7c18",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959918.jpg?k=354b66e75a543319256ffad5664ca632edb1556d497de4a59a0f92315394e317",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959924.jpg?k=8c96efb88526336c544eccf511c59650e456c906e82f9dd751e160a821e7621f",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959926.jpg?k=5405e092ff2b154f18252c7a21bccc44e72c4b0e9d07d52d5c01fd6ed0fce34e",
+    "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403960739.jpg?k=ba64ec6a0d7f32e9178449ba7b4c4c89ed31e9c839fc70a9a0ea57518a832870"
+   ],
+   "prices": {
+    "30.12-03.01": {
+     "birim": "Three-Bedroom Apartment",
+     "tutar": 2307,
+     "paraBirimi": "EUR",
+     "tutarTRY": 129148,
+     "gece": 4,
+     "vergiUcretDahil": "€2.157 + €150 temizlik (hariç) = €2.307; City Tax 'hesaplanamaz/hariç' (tesiste ayrıca alınır, ~%7,5 ≈ €160 tahmini, toplama EKLENMEDİ)",
+     "iptal": "İadesiz, ödeme tesise varış öncesi",
+     "kaynak": "booking.com (Claude yerleşik tarayıcı paneli, 6 yetişkin, 1 oda, EUR)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL",
+     "alternatifTarife": {
+      "tutar": 2514,
+      "aciklama": "€2.364 + €150 temizlik + City Tax ayrıca; 25.12.2026 öncesi ücretsiz iptal"
+     }
+    }
+   },
+   "totalEur": 2307,
+   "totalTry": 129148,
+   "perPersonTry": 21525,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 6.1,
+   "rsoCarMin": 17.6,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi; gündüz trafikte %20-40 uzayabilir",
+   "alt15dk": false,
+   "kaynakSite": "booking.com",
+   "iptal": "İadesiz, ödeme tesise varış öncesi",
+   "observedAt": "2026-11-11T20:30+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": null,
+   "notes": "KANEPELİ: 5 tek yatak + oturma odasında 2 çekyat; 6. kişi çekyatta. İLAVE ÜCRET: City Tax fiyata dahil değil ve tutarı gösterilmiyor. Ücretsiz iptalli tarife €2.364 + €150 (25.12.2026 öncesi ücretsiz iptal). Bodrum katı (Souterrain). 41 yorum, 7.6. Registriernummer görülmedi.",
+   "uyari": "City Tax fiyata dahil değil, tutarı gösterilmiyor (tahmini ~160 €, toplama eklenmedi)."
+  },
+  {
+   "key": "airbnb:31500359",
+   "platform": "airbnb",
+   "platformId": "31500359",
+   "url": "https://www.airbnb.com/rooms/31500359",
+   "kaynakSite": "airbnb.com",
+   "title": "Apartment \"Hibiskus\"",
+   "baslikTR": "Mariendorf | \"Hibiskus\" 3 Odalı Grup Dairesi",
+   "hostName": "Tim",
+   "hostLegal": "PRIME Service GmbH  ",
+   "address": "Mariendorfer Damm 47, 12109, Berlin, Deutschland",
+   "coords": {
+    "lat": 52.4485,
+    "lon": 13.3854,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb harita konumu; adres ilanın Registration Details alanından"
+   },
+   "district": "Mariendorf (Tempelhof)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 3,
+   "baths": 2.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "3 single beds"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "1 king bed",
+      "3 single beds",
+      "1 sofa bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 3",
+     "yataklar": [
+      "3 single beds"
+     ]
+    }
+   ],
+   "separateBeds": 10,
+   "couches": 1,
+   "capacity": 14,
+   "kapasite7": true,
+   "kanepeli": false,
+   "registrationNumber": "yok",
+   "registrationDetails": "Legal entity name and Legal form: PRIME Service GmbH  | Legal representatives or Trade register number: HRB 37328 P  |  Entity address: F\\u00f6hrenweg 1, 15831, Blankenfelde-Mahlow, Deutschland  | Listing address: Mariendorfer Damm 47, 12109, Berlin, Deutschland",
+   "checkInTime": "3:00 PM",
+   "checkOutTime": "11:00 AM",
+   "rating": "4.39",
+   "reviewCount": 36,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/ce6f3f33-c985-4bf3-8630-834018cd258d.jpg",
+    "https://a0.muscache.com/im/pictures/b1d409b1-ef34-4909-9198-1f2e296aff02.jpg",
+    "https://a0.muscache.com/im/pictures/ead6002b-837e-4854-9fc1-8912590e2c4d.jpg"
+   ],
+   "photosGallery": [
+    "https://a0.muscache.com/im/pictures/ce6f3f33-c985-4bf3-8630-834018cd258d.jpg",
+    "https://a0.muscache.com/im/pictures/b1d409b1-ef34-4909-9198-1f2e296aff02.jpg",
+    "https://a0.muscache.com/im/pictures/ead6002b-837e-4854-9fc1-8912590e2c4d.jpg",
+    "https://a0.muscache.com/im/pictures/86b7eb2a-8429-4cbd-ac10-899e3c45883b.jpg",
+    "https://a0.muscache.com/im/pictures/91e5c524-6010-462e-b56f-db0ff97fdb4c.jpg",
+    "https://a0.muscache.com/im/pictures/c4ce6d2a-e7a7-40fc-b06c-121c438d356c.jpg",
+    "https://a0.muscache.com/im/pictures/78861a62-f176-482d-8aa8-f5943a8e7e69.jpg",
+    "https://a0.muscache.com/im/pictures/f7a6f1d8-1b69-40ce-8d73-5c8823b36aac.jpg",
+    "https://a0.muscache.com/im/pictures/33aa8351-806a-4d4d-bdf1-f146268e0ed1.jpg",
+    "https://a0.muscache.com/im/pictures/4c922cbd-78d9-4353-b64e-f63675312352.jpg",
+    "https://a0.muscache.com/im/pictures/35f5b06a-44c7-47b4-bbe9-0451b6849b61.jpg",
+    "https://a0.muscache.com/im/pictures/d42dca04-319b-4dcd-a070-5939a32bffcc.jpg",
+    "https://a0.muscache.com/im/pictures/3eec5a94-46e5-454a-a8e3-197ca026bccd.jpg",
+    "https://a0.muscache.com/im/pictures/dab62689-3446-43f1-a5bb-9a4222b71221.jpg",
+    "https://a0.muscache.com/im/pictures/29c7901c-efdd-4ecc-884b-a166302e5524.jpg",
+    "https://a0.muscache.com/im/pictures/57949673-bca6-42b2-8d0d-261040bd68f4.jpg",
+    "https://a0.muscache.com/im/pictures/95e10b23-2b67-4a3d-83b3-19fca15c6392.jpg",
+    "https://a0.muscache.com/im/pictures/cd7ba896-8f73-40d7-b405-9c426c13045b.jpg",
+    "https://a0.muscache.com/im/pictures/8af99ab9-3cbd-45df-b4be-da29359b212b.jpg",
+    "https://a0.muscache.com/im/pictures/160952bf-500d-4f3b-8cbf-e03722a1819e.jpg",
+    "https://a0.muscache.com/im/pictures/78f1eb59-ddad-44e7-83f4-18417d4d63b3.jpg",
+    "https://a0.muscache.com/im/pictures/bf68ef0a-5515-4111-95bb-9d962ad8a178.jpg",
+    "https://a0.muscache.com/im/pictures/bf9b349d-c06f-47e6-87ae-047914ef221f.jpg",
+    "https://a0.muscache.com/im/pictures/c4117bc1-e904-4124-91cb-86756bbd3e42.jpg",
+    "https://a0.muscache.com/im/pictures/0ed44c09-6fad-4a42-9da3-d566c7e066d4.jpg"
+   ],
+   "prices": {
+    "2026-12-30/2027-01-03": {
+     "tutar": 2364.0,
+     "paraBirimi": "EUR",
+     "tutarTRY": 132339,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli + temizlik dahil (Airbnb \"Prices include all fees\"); City Tax kalemi gösterilmedi, dahil olup olmadığı doğrulanmadı",
+     "iptal": "Free cancellation before November 30. Cancel before December 23 for a partial refund.",
+     "kaynak": "airbnb ilan sayfası (Reserve butonu aktif)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "iptal": "Free cancellation before November 30. Cancel before December 23 for a partial refund.",
+   "totalEur": 2364.0,
+   "totalTry": 132339,
+   "perPersonTry": 22056,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 14.6,
+   "tresorCarKm": 8.4,
+   "rsoCarMin": 16.0,
+   "rsoCarKm": 11.3,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi",
+   "alt15dk": false,
+   "observedAt": "2026-11-11T19:50+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": [
+    "airbnb:32453210",
+    "airbnb:31701521"
+   ],
+   "notes": "Yatak 1: 3 tek; Yatak 2: king + 3 tek + çekyat; Yatak 3: 3 tek. 10 ayrı yatak, kanepe gerekmez. Aynı bina/işletme: bilinen Freesie (airbnb:32453210) ve Enzian (airbnb:31701521). Fiyat: Airbnb ilan sayfasında 30.12.2026–03.01.2027, 6 yetişkin için \"Prices include all fees\" toplamı (hizmet bedeli ve temizlik dahil); fiyat dökümünde vergi kalemi görünmedi, Berlin konaklama vergisinin (City Tax %7,5) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: 17 haneli Berlin Registriernummer ilanda yok (Airbnb \"Registration Details\" alanında yalnız ev sahibi/işletme ve adres bilgisi var).",
+   "uyari": "Sitedeki Freesie (airbnb:32453210) ve Enzian (airbnb:31701521) ile aynı bina ve işletme (Mariendorfer Damm 47); daire farklı. Mariendorf bölge listesi dışında ama süre kriterini tutuyor."
+  },
+  {
+   "key": "airbnb:1036200996605773806",
+   "platform": "airbnb",
+   "platformId": "1036200996605773806",
+   "url": "https://www.airbnb.com/rooms/1036200996605773806",
+   "kaynakSite": "airbnb.com",
+   "title": "City Center Berlin Mitte BR1 \"URBAN FLATS Berlin\"",
+   "baslikTR": "Mitte | Jannowitzbrücke \"Urban Flats\" 2 Odalı Daire",
+   "hostName": "Douglas",
+   "hostLegal": "Urban Flats Berlin  ",
+   "address": "Br\\u00fcckenstra\\u00dfe 11, 10179, Berlin, Deutschland",
+   "coords": {
+    "lat": 52.51332,
+    "lon": 13.4179,
+    "accuracy": "ilan-yaklasik",
+    "accuracyNote": "Airbnb harita konumu; adres ilanın Registration Details alanından"
+   },
+   "district": "Mitte (Jannowitzbrücke)",
+   "kind": "daire",
+   "m2": null,
+   "bedrooms": 2,
+   "baths": 1.0,
+   "beds": [
+    {
+     "oda": "Bedroom 1",
+     "yataklar": [
+      "1 king bed"
+     ]
+    },
+    {
+     "oda": "Bedroom 2",
+     "yataklar": [
+      "4 single beds"
+     ]
+    },
+    {
+     "oda": "Living room",
+     "yataklar": [
+      "1 couch"
+     ]
+    }
+   ],
+   "separateBeds": 5,
+   "couches": 1,
+   "capacity": 6,
+   "kapasite7": false,
+   "kanepeli": true,
+   "registrationNumber": "yok",
+   "registrationDetails": "First name and Last name: Urban Flats Berlin  |  Contact address: Ringbahnstr.2-14, 12051, Berlin, Deutschland  | Listing address: Br\\u00fcckenstra\\u00dfe 11, 10179, Berlin, Deutschland",
+   "checkInTime": "3:00 PM",
+   "checkOutTime": "11:00 AM",
+   "rating": "4.85",
+   "reviewCount": 123,
+   "photos": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/da4d4f26-c868-434d-bad7-5957cf8ff6ef.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/ed7b88a0-8531-486a-b33e-cbaf4e4a8b4f.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/5e0e971e-a07a-421a-8678-a23ac2e89230.png"
+   ],
+   "photosGallery": [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/da4d4f26-c868-434d-bad7-5957cf8ff6ef.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/ed7b88a0-8531-486a-b33e-cbaf4e4a8b4f.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/5e0e971e-a07a-421a-8678-a23ac2e89230.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/8eeca6a6-f1e1-46e3-8567-3fde1e2b8003.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/d70980ad-d98a-4771-8991-18beac76c716.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/8c18d976-2870-4e09-ac49-b783b3a09bea.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/0da89c6d-1371-40b5-9b6a-b8571fabeca8.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/a2d53dfa-ec3d-440e-ac76-6668833672c9.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/1c9df528-eed3-454b-9f34-511865444443.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/2252fe5b-b94a-46f8-a784-94ad5d012a20.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/4a441cad-8fd1-4602-9105-3bc7631cdce9.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/fbd9fd7e-6229-43bd-a7d2-5d90af5be038.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/3be47076-2ef2-47e0-9c2d-d021eb359b6a.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/b275ae09-5e0d-4f97-a6ff-d1b093b55ee3.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/e8045d4c-b443-4b03-baac-a2f4a36efe53.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/bb4a4a90-76c4-4018-971d-94575fa1da15.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/80257e06-4222-4698-8048-1d1e40e709d5.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/a24c582f-5c2a-4b1f-bbdd-0d5fbf509ba9.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/50134f92-9d30-4355-8b6b-5964875c70c2.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/8fc4074b-506f-4056-9bf3-75d8f9f48ef8.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/2f7c854b-3a5d-43fc-b8a4-e596758167f8.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/2c64da1b-8120-495d-b6df-a29d6c7963f4.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/ff3b1da3-73a5-4529-b76a-e5b9b01272a1.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/14a560d3-a561-40c3-a222-aa6ecac6964a.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/9696dd64-c633-4dd8-a6be-d8cf90709cf4.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/d63ee9ec-f33a-47ca-939d-4954318e6eb1.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/e3f4b5de-2d2f-452d-a50a-e7b0707a0106.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/ab7c3152-dcf9-40e4-90e4-4426cfb6ef48.png",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/5226f8f2-f35d-4974-a125-3ebe743bf883.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/9d98d3b5-d556-4b0e-8342-3c6d3c008e15.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/85052aa6-e032-41fc-a462-5ea665e514d0.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/5437893f-10eb-44c0-8da7-380fae7c2b76.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/e6a7c7e4-7113-49c3-a50f-0b42fe8ee370.jpeg",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/cec0aae1-6fd0-460f-9dac-c2c9e374d961.jpeg"
+   ],
+   "prices": {
+    "2026-12-30/2027-01-03": {
+     "tutar": 2669.0,
+     "paraBirimi": "EUR",
+     "tutarTRY": 149413,
+     "gece": 4,
+     "vergiUcretDahil": "hizmet bedeli + temizlik dahil (Airbnb \"Prices include all fees\"); City Tax kalemi gösterilmedi, dahil olup olmadığı doğrulanmadı",
+     "iptal": "Free cancellation before December 25. Cancel before check-in on December 30 for a partial refund.",
+     "kaynak": "airbnb ilan sayfası (Reserve butonu aktif)",
+     "kurNotu": "TCMB 11.11.2026 efektif satış 1 EUR = 55,9810 TL"
+    }
+   },
+   "iptal": "Free cancellation before December 25. Cancel before check-in on December 30 for a partial refund.",
+   "totalEur": 2669.0,
+   "totalTry": 149413,
+   "perPersonTry": 24902,
+   "butceIdeal": true,
+   "butceUygun": true,
+   "tresorCarMin": 1.1,
+   "tresorCarKm": 0.5,
+   "rsoCarMin": 15.1,
+   "rsoCarKm": 8.9,
+   "tresorCarSource": "OSRM (router.project-osrm.org, araç profili); trafiksiz serbest akış süresi",
+   "alt15dk": false,
+   "observedAt": "2026-11-11T19:50+03:00",
+   "samePropertyAs": [],
+   "olasiMukerrer": [
+    "airbnb:1114502347195595546"
+   ],
+   "notes": "Yatak 1: king; Yatak 2: 4 tek; salon: 1 kanepe (\"couch\", çekyat değil olabilir). 5 yatak + kanepe. Tresor'a ~1 km. Urban Flats işletmesinin bilinen diğer daireleri (Große Hamburger Str.) elenmişti; bu farklı adres. Fiyat: Airbnb ilan sayfasında 30.12.2026–03.01.2027, 6 yetişkin için \"Prices include all fees\" toplamı (hizmet bedeli ve temizlik dahil); fiyat dökümünde vergi kalemi görünmedi, Berlin konaklama vergisinin (City Tax %7,5) dahil olup olmadığı ödeme ekranında doğrulanmadı. Uyarı: 17 haneli Berlin Registriernummer ilanda yok (Airbnb \"Registration Details\" alanında yalnız ev sahibi/işletme ve adres bilgisi var).",
+   "uyari": "6. kişi için 'couch' yazıyor; çekyat olmayabilir."
+  }
+ ]
+}

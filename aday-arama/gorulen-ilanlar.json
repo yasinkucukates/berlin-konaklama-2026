@@ -1,6 +1,6 @@
 {
  "aciklama": "Sitede zaten bulunan ilanlar. Yeni adaylar bu kayda göre elenir; reddedilen veya sunulan adaylar da status ile eklenir.",
- "uretildi": "2026-11-07",
+ "uretildi": "2026-11-11",
  "ilanlar": [
   {
    "key": "airbnb:1042045413385336860",
@@ -5121,6 +5121,499 @@
    "status": "elendi",
    "elemeNedeni": "Otel (Hotel Passion), evin tamamı değil",
    "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "airbnb:1034836316144652017",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1034836316144652017",
+   "name": "Old building apartment in Neukölln near Tempelhofer Feld",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking.html",
+   "name": "Cosy Three BR Two BTH plus AC plus Self CheckIn plus Street Parking",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:city-apartment-spreeufer",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/city-apartment-spreeufer.html",
+   "name": "City-Apartment Spreeufer im Herzen Berlins",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "traum-ferienwohnungen:93211",
+   "platform": "traum-ferienwohnungen",
+   "url": "https://www.traum-ferienwohnungen.de/93211/",
+   "name": "Apartment Max",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:53796458",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/53796458",
+   "name": "Choice Berlin",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:stilvolle-6-zimmer-ferienwohnung-mit-2-badern",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/stilvolle-6-zimmer-ferienwohnung-mit-2-badern.html",
+   "name": "Stilvolle 6 Zimmer Ferienwohnung mit 2 Bädern",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:britzer-tor",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/britzer-tor.html",
+   "name": "Hotel Bohemia – Two-Bedroom Apartment with Balcony",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:fantastic-berlin",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/fantastic-berlin.html",
+   "name": "Just Berlin",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:petersburger-strasse-kleines-apartment-mit-kuche-und-bad",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/petersburger-strasse-kleines-apartment-mit-kuche-und-bad.html",
+   "name": "Friedrichshain Apartmenthaus – Three-Bedroom Apartment - High Floor",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:trio-apartment-berlin-lichtenberg",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/trio-apartment-berlin-lichtenberg.html",
+   "name": "TRIO Apartment Hotel Berlin – Superior Apartment Plus",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:1333910684186106416",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1333910684186106416",
+   "name": "Fantastic 2 Bedroom Apartment",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:modern-accommodation-neukoln",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/modern-accommodation-neukoln.html",
+   "name": "Moderne Unterkunft Neukölln",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:1591873645675719304",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1591873645675719304",
+   "name": "BIG cozy Apartment for BIG Groups City Center",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:attic-apartment-in-villa",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/attic-apartment-in-villa.html",
+   "name": "Attic apartment in villa!",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:32453158",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/32453158",
+   "name": "Apartment \"Calla\"",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:32453154",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/32453154",
+   "name": "Apartment \"Ochidee\"",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:14381251",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/14381251",
+   "name": "120m² New MyGold Apt. | 2 Baths • Balcony • 8 Pers",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:gneisenau",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/gneisenau.html",
+   "name": "Arbio I Cosy Spacious Apartment in Kreuzburg",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:31500359",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/31500359",
+   "name": "Apartment \"Hibiskus\"",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:1036200996605773806",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1036200996605773806",
+   "name": "City Center Berlin Mitte BR1 \"URBAN FLATS Berlin\"",
+   "status": "aday-sunuldu",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:27018647",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/27018647",
+   "name": "Mooeve Boxi - Apartment for 6 pax (Boxhagener Str. 53, Friedrichshain)",
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı: 1 çift + 2 tek + 2 çekyat → 3 yatak (6 kişi için ≥5 yatak + en çok 1 çekyat gerekir). €1.064.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:27018634",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/27018634",
+   "name": "Mooeve Boxi - Apartment with balcony for 7 pax (Boxhagener Str. 53)",
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı: 1 çift + 3 tek = 4 yatak, çekyat yok. €1.196.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:27018620",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/27018620",
+   "name": "Mooeve Boxi 01 - Urban Apartment with patio (Boxhagener Str. 53)",
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı: 1 çift + 3 tek + 2 çekyat → 4 yatak; 2 kişi çekyata düşer. €1.222.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:1119427122487104073",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1119427122487104073",
+   "name": "3-room Apartment / Treptower Park (Puderstr. 24)",
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı: queen + 3 tek + 1 çekyat → 4 yatak + çekyat = 5 kişi. €1.761.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:1186272166891222141",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1186272166891222141",
+   "name": "Spacious Apartment in Schillerkiez - 3BR (Weisestr. 36)",
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı: 2 tek + king + tek + çekyat → 4 yatak + çekyat = 5 kişi. €1.824.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:39264252",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/39264252",
+   "name": "Berlin Life (Neukölln)",
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı: 3 çift kişilik + 3 çekyat → 3 yatak. €1.992.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:1380562857404511890",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1380562857404511890",
+   "name": "Kreuzberg Bergmannkiez 10 guests (Mittenwalder Str. 13)",
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı: 2 king + 1 king + 2 çekyat → 3 yatak. €2.847.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:1069319700158091488",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1069319700158091488",
+   "name": "City Center Berlin Mitte BR3 \"URBAN FLATS\" (Brückenstr. 11)",
+   "status": "elendi",
+   "elemeNedeni": "Yatak kuralı: king + 4 tek = 5 yatak, çekyat/kanepe yok (6. kişiye yer yok). €2.337.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:1314479300500930603",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1314479300500930603",
+   "name": "Top floor Apartment direkt am Alexanderplatz",
+   "status": "elendi",
+   "elemeNedeni": "Yatak düzeni doğrulanamadı: \"Nerede uyuyacaksınız\" yok; açıklamada çift yatak + ayrı yer yatakları (mattress) + 2 tek → 2 kişi yer yatağında. €1.836.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:790332563293452190",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/790332563293452190",
+   "name": "Friedrichsh. - Amazing apartment in the roof (Petersburger Str. 29)",
+   "status": "elendi",
+   "elemeNedeni": "Yatak dökümü yok (özet 5 yatak / 8 kişi); 6 ayrı yatak doğrulanamadı. €1.381. Ayrıca 4,06 puan.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:859161778738278993",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/859161778738278993",
+   "name": "In the middle of the neighborhood (Ebertystr. 21, Friedrichshain)",
+   "status": "elendi",
+   "elemeNedeni": "Yatak dökümü yok (özet 5 yatak); 6. kişi için çekyat olup olmadığı doğrulanamadı. €1.397.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:31165067",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/31165067",
+   "name": "2 Apartments next to each other for big groups (Görlitzer Str. 38, Kreuzberg)",
+   "status": "elendi",
+   "elemeNedeni": "Aynı mülk: airbnb:31297828 (Aynı adres (Görlitzer Str. 38) ve aynı kat/işletme; bilinen \"3 Apartments | 18 People\" ilanının 2 dairelik alt kümesi gibi görünüyor. Kendi başına kriteri tutuyor: 4 tek + 2 ranza = 8 yatak, €1.942, Tresor 6,1 / RSO 13,1 dk, iptal 24 saat ücretsiz sonra kısmi.)",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:1727666125855857205",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1727666125855857205",
+   "name": "Freedom Studio Apartment Studio 2 und Studio 3 (Hermannstr. 55, Neukölln)",
+   "status": "elendi",
+   "elemeNedeni": "Aynı mülk: airbnb:1727650304700546371 (Aynı adres ve işletme (Freedom Studio Apartments, Hermannstraße 55); bilinen Freedom Apartment ve booking:freedom-studioapartment-booking ile aynı bina, stüdyo birleşimi. Kendi başına: king+tek, çift+4 tek = 7 yatak, €1.996, yorum yok.)",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "airbnb:1652372640317276574",
+   "platform": "airbnb",
+   "url": "https://www.airbnb.com/rooms/1652372640317276574",
+   "name": "Boxi Jungle House unique in Friedrichshain",
+   "status": "elendi",
+   "elemeNedeni": "Aynı mülk: booking:boxi-jungle-house-unique-in-friedrichshain-3br (Aynı özel ad (\"Boxi Jungle House\") ve 3 yatak odası; bilinen Booking ilanının Airbnb karşılığı. Kart özeti 3 yatak (€1.872), ilan sayfası açılmadı.)",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "primeflats:apartment-puder",
+   "platform": "primeflats",
+   "url": "https://primeflats.de/apartment-puder/",
+   "name": "Apartment Puder (Treptow, Puderstraße 1, 140 m², 4 YO, 5 çift + 2 tek yatak)",
+   "status": "elendi",
+   "elemeNedeni": "30.12.2026 giriş tarihi takvimde müsait değil (nicht verfügbar); tarih+6 yetişkin fiyatı görülemedi.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "plumguide:50504",
+   "platform": "plumguide",
+   "url": "https://www.plumguide.com/homes/50504/work-it-out",
+   "name": "Work It Out (Friedrichshain/Samariterkiez, 120 m², 3 YO)",
+   "status": "elendi",
+   "elemeNedeni": "Yatak dökümü: king + çift + king + 1 tek kişilik çekyat = en çok 3 kişiye ayrı yatak + 1 çekyat; 6 kişiye ayrı yatak yok.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "plumguide:17796",
+   "platform": "plumguide",
+   "url": "https://www.plumguide.com/homes/17796/blonde-venus",
+   "name": "Blonde Venus (Neukölln, 3 YO)",
+   "status": "elendi",
+   "elemeNedeni": "king + 2 tek + king = en çok 4 kişiye ayrı yatak.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "plumguide:17798",
+   "platform": "plumguide",
+   "url": "https://www.plumguide.com/homes/17798/touch-of-warhol",
+   "name": "Touch of Warhol (Neukölln, 3 YO)",
+   "status": "elendi",
+   "elemeNedeni": "king + king + 2 tek = en çok 4 kişiye ayrı yatak.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "plumguide:17797",
+   "platform": "plumguide",
+   "url": "https://www.plumguide.com/homes/17797/cafe-electric",
+   "name": "Café Electric (Neukölln, 3 YO)",
+   "status": "elendi",
+   "elemeNedeni": "çift + çift + 2 tek = en çok 4 kişiye ayrı yatak.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "traum-ferienwohnungen:507820",
+   "platform": "traum-ferienwohnungen",
+   "url": "https://www.traum-ferienwohnungen.de/villa/507820/",
+   "name": "Villa Harmony (Neukölln, Baumschulenstraße 49)",
+   "status": "elendi",
+   "elemeNedeni": "Villa/müstakil; 3 yatak odasında 3 çift kişilik yatak + kanepe (6 ayrı yatak yok); adres tutarsız (posta kodu 21179 Hamburg, ülke 'Alemania'), yorumsuz.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "traum-ferienwohnungen:14544",
+   "platform": "traum-ferienwohnungen",
+   "url": "https://www.traum-ferienwohnungen.de/ferienwohnung/14544/",
+   "name": "Ferienwohnung im Historischen Zentrum (Mitte, Planckstraße 20)",
+   "status": "elendi",
+   "elemeNedeni": "3 çift + 1 tek yatak + çekyat: 4 ayrı yatak + kanepe; 6 kişiye ayrı yatak yok (aynı mülk ferienhausmiete.de 21263).",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "traum-ferienwohnungen:18051",
+   "platform": "traum-ferienwohnungen",
+   "url": "https://www.traum-ferienwohnungen.de/18051/",
+   "name": "Ferienzimmer Hotel Rotdorn (Charlottenburg)",
+   "status": "elendi",
+   "elemeNedeni": "Otel/pansiyon odaları, evin tamamı değil; fiyat 'auf Anfrage'; Charlottenburg uzak.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "ferienhausmiete:57074",
+   "platform": "ferienhausmiete.de",
+   "url": "https://www.ferienhausmiete.de/57074.htm",
+   "name": "Ferienwohnung Familie Böckmann (Friedrichshain)",
+   "status": "elendi",
+   "elemeNedeni": "1 çift + 2 tek yatak + çift kişilik çekyat: 3 ayrı yatak, 2 kişi kanepeye düşüyor.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "ferienhausmiete:50549",
+   "platform": "ferienhausmiete.de",
+   "url": "https://www.ferienhausmiete.de/50549.htm",
+   "name": "Ferienhaus am Schlosspark (Biesdorf)",
+   "status": "elendi",
+   "elemeNedeni": "Müstakil bahçeli ev; en az 5 gece şartı; tarihli fiyat gösterilmiyor; yalnız havale. (6 ayrı yatak var, OSRM 16,6/16,5 dk.)",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "ferienhausmiete:58046",
+   "platform": "ferienhausmiete.de",
+   "url": "https://www.ferienhausmiete.de/58046.htm",
+   "name": "Ferienhaus Beethovenstraße (Biesdorf)",
+   "status": "elendi",
+   "elemeNedeni": "Müstakil ev; 3 çift kişilik yatak = 3 ayrı yatak.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "ferienhausmiete:1161",
+   "platform": "ferienhausmiete.de",
+   "url": "https://www.ferienhausmiete.de/1161.htm",
+   "name": "BERLIN ZENTRUM 3 ZIMMER WOHNUNG (Mitte)",
+   "status": "elendi",
+   "elemeNedeni": "3 çift kişilik yatak = 3 ayrı yatak.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "ferienhausmiete:1162",
+   "platform": "ferienhausmiete.de",
+   "url": "https://www.ferienhausmiete.de/1162.htm",
+   "name": "BERLIN GRUPPENUNTERKUNFT ZENTRUM (Mitte)",
+   "status": "elendi",
+   "elemeNedeni": "3 çift kişilik yatak = 3 ayrı yatak.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "arbio:112904",
+   "platform": "arbio",
+   "url": "https://guest.arbio.com/stays/Arbio-I-Cosy-Spacious-Apart-in-Bergmannkiez-lst-39f9ab1bf756",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Aynı mülk: airbnb:21074683 (Aynı işletme (Arbio), aynı semt (Bergmannkiez/Kreuzberg), aynı yatak dökümü (5 tek + 2 çekyat), 3 yatak odası/2 banyo. Not: Google Travel bu mülkü Arbio doğrudan sitesinde 30.12-03.01, 6 kişi için total=117.801,25 + taxes=8.360,55 olarak yönlendirdi (URL'de currency=EUR yazıyor ama tutar TRY ölçeğinde; Google kartı 33.019 TL/gece). Airbnb'deki 139.736 TL + vergiye göre doğrudan rezervasyon daha ucuz olabilir; Arbio sayfası tarihi otomatik uygulamadığı için fiyat sayfada doğrulanamadı, birleştirmede kontrol edilmeli.)",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "holidu:55460987",
+   "platform": "holidu",
+   "url": "https://traum-ferienwohnungen.holidu.de/s/Berlin?includeOfferIds=55460987",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Aynı mülk: airbnb:31701521 ('Appartement Enzian', Berlin, 3 yatak odası; bilinen Mariendorf 'Enzian' dairesi (Traum-FeWo içindeki Holidu kutusu: 2.665 € / 4 gece / 12 kişi).)",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:luxoise",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/luxoise.html",
+   "name": "Luxoise Apartments (Gärtnerstr. 32, Friedrichshain)",
+   "status": "elendi",
+   "elemeNedeni": "Müsait birimler: Superior Three-Bedroom (3 large double = 3 kişiye ayrı yatak, €2.268 iadeli) ve Superior Two-Bedroom (2 large double + 1 çekyat). 6 kişiye ayrı yatak vermiyor.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:helios-berlin-apartments",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/helios-berlin-apartments.html",
+   "name": "Helios Berlin Apartments (Stralauer Allee 17A)",
+   "status": "elendi",
+   "elemeNedeni": "Three-Bedroom Apartment: 3 large double bed = 3 ayrı yatak; 6 kişiye ayrı yatak yok.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:nice-apartment-in-berlin7-berlin",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/nice-apartment-in-berlin7-berlin.html",
+   "name": "Nice apartment in Berlin77 (Große Seestr. 3d, Weißensee)",
+   "status": "elendi",
+   "elemeNedeni": "RSO.Berlin'e araçla 25,0 dk (>20); ayrıca 3.9 puan.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:el-gigante",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/el-gigante.html",
+   "name": "El Gigante (Kreuzberg, 9 YO, 9 yatak)",
+   "status": "elendi",
+   "elemeNedeni": "Arama kartında €3.632 + €69 = €3.701 (≈207.000 TL) > 180.000 TL bütçe.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:choice-berlin-wohnung-fur-bis-zu-12-personen",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/choice-berlin-wohnung-fur-bis-zu-12-personen.html",
+   "name": "Choice Berlin (Reuterstr. 70)",
+   "status": "elendi",
+   "elemeNedeni": "Kriteri tutuyor (5 yatak + çekyat, €2.322 + €55) ama 'Just Berlin' (Reuterstr. 71) ile aynı işletme/aynı düzen ikiz birim ve 5.9 puan; ayrı aday sayılmadı, Just Berlin notunda anıldı.",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:central-3-rooms-in-frankfurter-tor",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/central-3-rooms-in-frankfurter-tor.html",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Aynı mülk: airbnb:33234428 (six-airbnb-33234428-full, 'Lasdehner Straße | Friedrichshain Dairesi') (Booking adresi Lasdehner Straße 30 (52.51392,13.44787); bilinen Airbnb ilanı aynı sokak, ~120 m. (Booking: 3 YO, 9 tek + çekyat, €2.400 + €75 iadesiz, 5.7 puan.))",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:modernes-zuhause-im-zentrum-von-schoneberg-berlin",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/modernes-zuhause-im-zentrum-von-schoneberg-berlin.html",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Aynı mülk: airbnb:1389672541037596818 (sweep7, 'Schöneberg | Modern Daire') (Monumentenstr. 4 (52.48808,13.36546) ile bilinen ilan koordinatı ~120 m; ikisi de 3 YO, 2 banyo, 7 yatak; başlık 'Modern(es Zuhause)'. (Booking: 7 tek yatak, €1.162 + €130, ücretsiz iptal 29.12'ye kadar; RSO 20,0 dk.))",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "key": "booking:6p-apt-zentral-amp-ruhig-familien-amp-gruppenfreundlich-parklage-parkplatze",
+   "platform": "booking",
+   "url": "https://www.booking.com/hotel/de/6p-apt-zentral-amp-ruhig-familien-amp-gruppenfreundlich-parklage-parkplatze.html",
+   "name": null,
+   "status": "elendi",
+   "elemeNedeni": "Aynı mülk: airbnb:1552405041368851207 (sweep6, 'Treptower Park 75 m² Grup Vahası') (Am Treptower Park 17; koordinat birebir aynı (52.4894606,13.4603153), 75 m², 2 YO, 6 tek yatak. (Booking: €1.434 + €60.))",
+   "firstSeen": "2026-11-11"
   }
  ]
 }
