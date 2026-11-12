@@ -1011,14 +1011,17 @@
       const existing = Array.from(grid.children).filter(node => node.classList.contains('stay-card'));
       const children = existing.slice();
       children.sort((a, b) => {
-        if(newOnly && !favoritesOnly){
+        // Newest addedAt first; undated (original) cards follow in build order.
+        const byAdded = () => {
           const added = card => { const time=Date.parse(card.dataset.addedAt || ''); return Number.isFinite(time) ? time : -Infinity; };
           const x=added(a), y=added(b);
           if(x!==y)return x>y?-1:1;
           return Number(a.dataset.order)-Number(b.dataset.order);
-        }
+        };
+        if(newOnly && !favoritesOnly) return byAdded();
         // Votes lead in favorites; ties keep the selected sort's existing rules.
         if(favoritesOnly || sort.value==='votes'){const diff=Number(b.dataset.votes||0)-Number(a.dataset.votes||0);if(diff)return diff;}
+        if (sort.value === 'recent') return byAdded();
         if (sort.value === 'best-priority') {
           const best = card => card.dataset.bestEligible === 'true' && (guestFilter?.value !== '7' || number(card, 'normalBeds') >= 7) ? 0 : card.dataset.bestCandidate === 'true' && (guestFilter?.value !== '7' || number(card, 'normalBeds') >= 7) ? 1 : 2;
           const diff = best(a) - best(b); if (diff) return diff;
