@@ -25,3 +25,6 @@ main'e, canlı siteye, Apps Script'e dokunma (yayını bulut tarafı yapacak; fa
 
 ## Sonuç
 Kısa özet: kaç aday müsait/eklendi, hangileri dolu, galeri sayıları, yeni data-id listesi, commit kimliği.
+
+## Ek (12.11 19:52): galeriye ilan dışı görsel girmesin
+Başka bir işte 10–11 Kasım Airbnb kartlarına "alakasız ikon ve semboller" girdi (Yasin şikâyet etti). Elenecek desenler: `a0.muscache.com/im/pictures/user/...` (ev sahibi/yorumcu profil fotoğrafı) ve `a0.muscache.com/im/pictures/AirbnbPlatformAssets/...` (Review-AI ikonları); Booking'de logo/harita/avatar görselleri de alınmaz. Sayfadaki tüm img'leri toplama; ilanın tam fotoğraf turundan (Airbnb "Tüm fotoğrafları göster" / photo tour, Booking galeri) al. `verified-full-galleries.json` ve `galeri-sweep-20261110-yeni.json` dosyalarında mevcut kayıtları değiştirme (başka dal düzeltiyor); yalnız yeni kayıt ekle.
