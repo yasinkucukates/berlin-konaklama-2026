@@ -403,5 +403,402 @@
     ],
     "note": "İki gecelik teklif; ilave ücretler uygulanabilir. 250 € iade edilebilir depozito var.",
     "status": "ilan"
+  },
+  "sweep12-airbnb-1034836316144652017-20261230-20270103": {
+    "source": "https://www.airbnb.com/rooms/1034836316144652017?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 queen çift kişilik yatak, 1 çekyat, 1 ranza"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 queen çift kişilik yatak, 1 tek kişilik yatak"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. 1 kişi kanepede yatar: 5 ayrı yatak (biri ranza) + çekyat; ranza ve çekyatın yetişkine uygunluğu teyitsiz.",
+    "status": "ilan"
+  },
+  "sweep12-traum-ferienwohnungen-93211-20261230-20270103": {
+    "source": "https://www.traum-ferienwohnungen.de/93211/?arrival=2026-12-30&departure=2027-01-03&persons=6",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çift kişilik yatak (180x200), 1 tek kişilik yatak (90x200)"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak (180x200), 1 tek kişilik yatak (90x200)"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 çift kişilik yatak (180x200)"
+      },
+      {
+        "name": "4. Yatak Odası",
+        "beds": "1 çift kişilik yatak (180x200)"
+      },
+      {
+        "name": "5. Yatak Odası",
+        "beds": "1 çift kişilik yatak (180x200)"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. Platform koruması yok: ödeme doğrudan ev sahibine havale (PayPal/nakit de kabul), 200 € kapora; rezervasyon talep usulü, ev sahibinin onayını ve koşulları teyit edin.",
+    "status": "ilan"
+  },
+  "sweep12-airbnb-53796458-20261230-20270103": {
+    "source": "https://www.airbnb.com/rooms/53796458?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "4 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak, 1 çekyat"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "2 çekyat"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. 1 kişi kanepede yatar: 5 ayrı yatak + çekyat; yetişkine uygunluğu teyitsiz. Choice Berlin (Airbnb) ve Just Berlin (Booking) aynı işletmenin bitişik iki dairesi (Reuterstraße 70 ve 71); ayrı daire olduklarını teyit edin.",
+    "status": "ilan"
+  },
+  "sweep12-airbnb-1333910684186106416-20261230-20270103": {
+    "source": "https://www.airbnb.com/rooms/1333910684186106416?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 tek kişilik yatak, 1 çekyat"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. 1 kişi kanepede yatar: 5 ayrı yatak + çekyat; yetişkine uygunluğu teyitsiz.",
+    "status": "ilan"
+  },
+  "sweep12-airbnb-32453158-20261230-20270103": {
+    "source": "https://www.airbnb.com/rooms/32453158?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 queen çift kişilik yatak, 1 tek kişilik yatak, 1 çekyat"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "3 tek kişilik yatak"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. 1 kişi kanepede yatar: 5 ayrı yatak + çekyat; yetişkine uygunluğu teyitsiz. Sitedeki Freesie/Enzian ile aynı bina ve işletme (Mariendorfer Damm 47), farklı daire; aynı daireyi iki kez saymamak için daire adını teyit edin.",
+    "status": "ilan"
+  },
+  "sweep12-airbnb-32453154-20261230-20270103": {
+    "source": "https://www.airbnb.com/rooms/32453154?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "3 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 queen çift kişilik yatak, 1 tek kişilik yatak, 1 çekyat"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. 1 kişi kanepede yatar: 5 ayrı yatak + çekyat; yetişkine uygunluğu teyitsiz. Sitedeki Freesie/Enzian ile aynı bina ve işletme (Mariendorfer Damm 47), farklı daire; aynı daireyi iki kez saymamak için daire adını teyit edin.",
+    "status": "ilan"
+  },
+  "sweep12-airbnb-14381251-20261230-20270103": {
+    "source": "https://www.airbnb.com/rooms/14381251?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 queen çift kişilik yatak, 1 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 king çift kişilik yatak, 2 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. 1 kişi kanepede yatar: 5 ayrı yatak + çekyat; yetişkine uygunluğu teyitsiz.",
+    "status": "ilan"
+  },
+  "sweep12-airbnb-31500359-20261230-20270103": {
+    "source": "https://www.airbnb.com/rooms/31500359?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "3 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 king çift kişilik yatak, 3 tek kişilik yatak, 1 çekyat"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "3 tek kişilik yatak"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. Sitedeki Freesie/Enzian ile aynı bina ve işletme (Mariendorfer Damm 47), farklı daire; aynı daireyi iki kez saymamak için daire adını teyit edin.",
+    "status": "ilan"
+  },
+  "sweep12-airbnb-1036200996605773806-20261230-20270103": {
+    "source": "https://www.airbnb.com/rooms/1036200996605773806?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 king çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "4 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 kanepe (yatak sayılmadı)"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. 1 kişi kanepede yatar: 5 ayrı yatak + salonda kanepe; ilanda 'couch' yazıyor, çekyat olmayabilir, teyit edin.",
+    "status": "ilan"
+  },
+  "sweep12-booking-cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "3 tek kişilik yatak"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı.",
+    "status": "ilan"
+  },
+  "sweep12-booking-city-apartment-spreeufer-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/city-apartment-spreeufer.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "3 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. 1 kişi kanepede yatar: 5 ayrı yatak + çekyat; yetişkine uygunluğu teyitsiz.",
+    "status": "ilan"
+  },
+  "sweep12-booking-stilvolle-6-zimmer-ferienwohnung-mit-2-badern-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/stilvolle-6-zimmer-ferienwohnung-mit-2-badern.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "4. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "5. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "6. Yatak Odası",
+        "beds": "3 tek kişilik yatak"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı.",
+    "status": "ilan"
+  },
+  "sweep12-booking-britzer-tor-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/britzer-tor.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "3 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "4 tek kişilik yatak"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı.",
+    "status": "ilan"
+  },
+  "sweep12-booking-fantastic-berlin-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/fantastic-berlin.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "4 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak, 1 çekyat"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "2 çekyat"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. 1 kişi kanepede yatar: 5 ayrı yatak + çekyat; yetişkine uygunluğu teyitsiz. Choice Berlin (Airbnb) ve Just Berlin (Booking) aynı işletmenin bitişik iki dairesi (Reuterstraße 70 ve 71); ayrı daire olduklarını teyit edin.",
+    "status": "ilan"
+  },
+  "sweep12-booking-petersburger-strasse-kleines-apartment-mit-kuche-und-bad-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/petersburger-strasse-kleines-apartment-mit-kuche-und-bad.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "3 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 tek kişilik yatak, 1 çift kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "2 tek kişilik yatak, 1 çift kişilik yatak"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. Yalnız nakit ödeme (tesise varıştan önce) ve yalnız 4 yorum (6,5); ödeme koşulunu tesisle teyit edin. 6 ayrı yatak yalnız 'Three-Bedroom Apartment - High Floor' biriminde; rezervasyonda bu birimi seçtiğinizi teyit edin.",
+    "status": "ilan"
+  },
+  "sweep12-booking-trio-apartment-berlin-lichtenberg-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/trio-apartment-berlin-lichtenberg.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 tek kişilik yatak, 1 ranza"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "1 çekyat"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. Yataklardan biri ranza; üst yatak yetişkin için rahatsız olabilir.",
+    "status": "ilan"
+  },
+  "sweep12-booking-modern-accommodation-neukoln-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/modern-accommodation-neukoln.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "3 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "4 tek kişilik yatak"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı.",
+    "status": "ilan"
+  },
+  "sweep12-booking-attic-apartment-in-villa-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/attic-apartment-in-villa.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "4. Yatak Odası",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "5. Yatak Odası",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "6. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. Mutfak özel mi ortak mı çelişkili: oda tablosunda özel mutfak, açıklamada ortak mutfak yazıyor; rezervasyondan önce sorun.",
+    "status": "ilan"
+  },
+  "sweep12-booking-gneisenau-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/gneisenau.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 tek kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "2 çekyat"
+      }
+    ],
+    "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. 1 kişi kanepede yatar: 5 ayrı yatak + çekyat; yetişkine uygunluğu teyitsiz.",
+    "status": "ilan"
   }
 }

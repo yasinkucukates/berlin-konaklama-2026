@@ -1117,6 +1117,206 @@
       "accuracy": "listing_approx",
       "source": "https://www.booking.com/hotel/de/super-zentral-super-schoner-altbau-im-herzen-von-berlin-fur-bis-zu-12-personen.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&no_rooms=1#room_954475401",
       "note": "İlan adresine dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-airbnb-1034836316144652017-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4811,
+      "lon": 13.4262,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/1034836316144652017?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "note": "İlan haritasına dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-traum-ferienwohnungen-93211-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.50366,
+      "lon": 13.49141,
+      "accuracy": "address",
+      "source": "https://www.traum-ferienwohnungen.de/93211/?arrival=2026-12-30&departure=2027-01-03&persons=6",
+      "note": "Sağlayıcının tesis koordinatı; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-airbnb-53796458-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.48513,
+      "lon": 13.42791,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/53796458?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "note": "İlan haritasına dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-airbnb-1333910684186106416-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4565,
+      "lon": 13.5103,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/1333910684186106416?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "note": "İlan haritasına dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-airbnb-1591873645675719304-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.48068139009875,
+      "lon": 13.348421478076082,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/1591873645675719304?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "note": "İlan haritasına dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-airbnb-32453158-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4485,
+      "lon": 13.3854,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/32453158?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "note": "İlan haritasına dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-airbnb-32453154-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4485,
+      "lon": 13.3854,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/32453154?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "note": "İlan haritasına dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-airbnb-14381251-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.48004,
+      "lon": 13.34429,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/14381251?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "note": "İlan haritasına dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-airbnb-31500359-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4485,
+      "lon": 13.3854,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/31500359?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "note": "İlan haritasına dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-airbnb-1036200996605773806-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.51332,
+      "lon": 13.4179,
+      "accuracy": "listing_approx",
+      "source": "https://www.airbnb.com/rooms/1036200996605773806?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "note": "İlan haritasına dayanan yaklaşık nokta; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-booking-cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4782219,
+      "lon": 13.4387198,
+      "accuracy": "address",
+      "source": "https://www.booking.com/hotel/de/cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "note": "Sağlayıcının tesis koordinatı; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-booking-city-apartment-spreeufer-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5007375,
+      "lon": 13.4558139,
+      "accuracy": "address",
+      "source": "https://www.booking.com/hotel/de/city-apartment-spreeufer.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "note": "Sağlayıcının tesis koordinatı; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-booking-stilvolle-6-zimmer-ferienwohnung-mit-2-badern-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.46755076617041,
+      "lon": 13.440575383024624,
+      "accuracy": "address",
+      "source": "https://www.booking.com/hotel/de/stilvolle-6-zimmer-ferienwohnung-mit-2-badern.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "note": "Sağlayıcının tesis koordinatı; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-booking-britzer-tor-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.46551682958359,
+      "lon": 13.442158699035645,
+      "accuracy": "address",
+      "source": "https://www.booking.com/hotel/de/britzer-tor.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "note": "Sağlayıcının tesis koordinatı; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-booking-fantastic-berlin-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4856978,
+      "lon": 13.428699,
+      "accuracy": "address",
+      "source": "https://www.booking.com/hotel/de/fantastic-berlin.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "note": "Sağlayıcının tesis koordinatı; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-booking-petersburger-strasse-kleines-apartment-mit-kuche-und-bad-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5238523,
+      "lon": 13.4498547,
+      "accuracy": "address",
+      "source": "https://www.booking.com/hotel/de/petersburger-strasse-kleines-apartment-mit-kuche-und-bad.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "note": "Sağlayıcının tesis koordinatı; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-booking-trio-apartment-berlin-lichtenberg-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.5192627925238,
+      "lon": 13.5264191828034,
+      "accuracy": "address",
+      "source": "https://www.booking.com/hotel/de/trio-apartment-berlin-lichtenberg.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "note": "Sağlayıcının tesis koordinatı; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-booking-modern-accommodation-neukoln-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.4765084383829,
+      "lon": 13.4219787128975,
+      "accuracy": "address",
+      "source": "https://www.booking.com/hotel/de/modern-accommodation-neukoln.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "note": "Sağlayıcının tesis koordinatı; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-booking-attic-apartment-in-villa-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.441271220533,
+      "lon": 13.5053078711945,
+      "accuracy": "address",
+      "source": "https://www.booking.com/hotel/de/attic-apartment-in-villa.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "note": "Sağlayıcının tesis koordinatı; giriş yeri ayrıca doğrulanmalı."
+    },
+    {
+      "id": "sweep12-booking-gneisenau-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "lat": 52.492794782949,
+      "lon": 13.388997249893,
+      "accuracy": "address",
+      "source": "https://www.booking.com/hotel/de/gneisenau.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "note": "Sağlayıcının tesis koordinatı; giriş yeri ayrıca doğrulanmalı."
     }
   ]
 }

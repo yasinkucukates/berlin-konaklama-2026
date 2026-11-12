@@ -1,6 +1,6 @@
 {
   "note": "12 Kasım 2026 gözle kontrol: ilan fotoğrafı olmayan görseller. Ev/daire içi, dışı, binası, bahçesi, pencereden manzarası ve kat planı ilan fotoğrafı sayılır; bunlar listede yok. Üretici bu adresleri her karttan çıkarır.",
-  "count": 103,
+  "count": 123,
   "photos": [
     {
       "card": "1352773721511868469",
@@ -360,6 +360,106 @@
     {
       "card": "six-vrbo-145069-full",
       "url": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/da9c256c.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+      "reason": "şehir simgesi veya mahalle tanıtım karesi, ilanın kendisi değil"
+    },
+    {
+      "card": "sweep12-airbnb-1333910684186106416-20261230-20270103",
+      "url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/ab3feb7f-a245-40b0-82a5-2e12d9ee589a.jpeg?im_w=1440",
+      "reason": "metin/bilgi/reklam kartı, simge veya tarihî görsel"
+    },
+    {
+      "card": "sweep12-airbnb-14381251-20261230-20270103",
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/8d03acab-0394-4259-a101-6ef684edf2e4.jpeg?im_w=1440",
+      "reason": "metin/bilgi/reklam kartı, simge veya tarihî görsel"
+    },
+    {
+      "card": "sweep12-airbnb-14381251-20261230-20270103",
+      "url": "https://a0.muscache.com/im/pictures/miso/Hosting-14381251/original/053a7494-3896-40b5-86fa-f86ae7aa129a.png?im_w=1440",
+      "reason": "metin/bilgi/reklam kartı, simge veya tarihî görsel"
+    },
+    {
+      "card": "sweep12-airbnb-31500359-20261230-20270103",
+      "url": "https://a0.muscache.com/im/pictures/0ed44c09-6fad-4a42-9da3-d566c7e066d4.jpg?im_w=1440",
+      "reason": "şehir simgesi veya mahalle tanıtım karesi, ilanın kendisi değil"
+    },
+    {
+      "card": "sweep12-airbnb-31500359-20261230-20270103",
+      "url": "https://a0.muscache.com/im/pictures/33aa8351-806a-4d4d-bdf1-f146268e0ed1.jpg?im_w=1440",
+      "reason": "şehir simgesi veya mahalle tanıtım karesi, ilanın kendisi değil"
+    },
+    {
+      "card": "sweep12-airbnb-31500359-20261230-20270103",
+      "url": "https://a0.muscache.com/im/pictures/95e10b23-2b67-4a3d-83b3-19fca15c6392.jpg?im_w=1440",
+      "reason": "şehir simgesi veya mahalle tanıtım karesi, ilanın kendisi değil"
+    },
+    {
+      "card": "sweep12-airbnb-31500359-20261230-20270103",
+      "url": "https://a0.muscache.com/im/pictures/c4117bc1-e904-4124-91cb-86756bbd3e42.jpg?im_w=1440",
+      "reason": "şehir simgesi veya mahalle tanıtım karesi, ilanın kendisi değil"
+    },
+    {
+      "card": "sweep12-airbnb-53796458-20261230-20270103",
+      "url": "https://a0.muscache.com/im/pictures/f4a9356f-93af-4d36-a07e-132b1afc4df9.jpg?im_w=1440",
+      "reason": "stok ürün görseli (kahve kapsülü)"
+    },
+    {
+      "card": "sweep12-booking-britzer-tor-20261230-20270103",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/445442822.jpg?k=28c7dfddb2d842bacd65f759c82a6182759c485184af7b1aabede41fae74d7e8&o=",
+      "reason": "yemek/kahvaltı yakın çekimi, konaklamanın kendisi değil"
+    },
+    {
+      "card": "sweep12-booking-britzer-tor-20261230-20270103",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/445442823.jpg?k=52604793c449757a1e7a3ae6f876f845ffa12c78e7647dff89f964aba03734a5&o=",
+      "reason": "yemek/kahvaltı yakın çekimi, konaklamanın kendisi değil"
+    },
+    {
+      "card": "sweep12-booking-britzer-tor-20261230-20270103",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/511829807.jpg?k=17690495b43527f8bdebcb4769244aeb3e92e335b29ba2282efa972db5674398&o=",
+      "reason": "yemek/kahvaltı yakın çekimi, konaklamanın kendisi değil"
+    },
+    {
+      "card": "sweep12-booking-britzer-tor-20261230-20270103",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/733906998.jpg?k=080037d9899141e519e2a048caa17683611cf7fbff087534f880e093df5cffe3&o=",
+      "reason": "yemek/kahvaltı yakın çekimi, konaklamanın kendisi değil"
+    },
+    {
+      "card": "sweep12-booking-britzer-tor-20261230-20270103",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/733907027.jpg?k=1f5b31ee3577da86508ca01d71fa5fa6ebd89bfa40664a64a29d49cfb6b0d5a1&o=",
+      "reason": "yemek/kahvaltı yakın çekimi, konaklamanın kendisi değil"
+    },
+    {
+      "card": "sweep12-booking-britzer-tor-20261230-20270103",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/733907036.jpg?k=dda06968008f8521b0ddec43933c03adf70e27e5e9e10a67dfb2e14f1018e37c&o=",
+      "reason": "yemek/kahvaltı yakın çekimi, konaklamanın kendisi değil"
+    },
+    {
+      "card": "sweep12-booking-britzer-tor-20261230-20270103",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/733907037.jpg?k=ddc7b55ae93e8df51a1d5ce84a7e34a77651f769fc201316bd0129fb3c849fc9&o=",
+      "reason": "yemek/kahvaltı yakın çekimi, konaklamanın kendisi değil"
+    },
+    {
+      "card": "sweep12-booking-britzer-tor-20261230-20270103",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/733907039.jpg?k=54980304972a673c320219bbabf8298641058a9b2f684bdf61e4889580a59888&o=",
+      "reason": "yemek/kahvaltı yakın çekimi, konaklamanın kendisi değil"
+    },
+    {
+      "card": "sweep12-booking-britzer-tor-20261230-20270103",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/733907467.jpg?k=fc1314664a27ab3ac256a9ae415bbb32fefc857e53e91db8b60a52431ce18a17&o=",
+      "reason": "yemek/kahvaltı yakın çekimi, konaklamanın kendisi değil"
+    },
+    {
+      "card": "sweep12-booking-city-apartment-spreeufer-20261230-20270103",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842769.jpg?k=c17faa87eaefee9cc559ede9854a0ff491dc28ced57a4fffaee03e63f8456ed7&o=",
+      "reason": "şehir simgesi veya mahalle tanıtım karesi, ilanın kendisi değil"
+    },
+    {
+      "card": "sweep12-booking-city-apartment-spreeufer-20261230-20270103",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848843707.jpg?k=825ae1b57fd0adc910383ee9965ebd975017cffe84bcd5d423c3ed322f7f3ac8&o=",
+      "reason": "şehir simgesi veya mahalle tanıtım karesi, ilanın kendisi değil"
+    },
+    {
+      "card": "sweep12-booking-gneisenau-20261230-20270103",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403960739.jpg?k=ba64ec6a0d7f32e9178449ba7b4c4c89ed31e9c839fc70a9a0ea57518a832870&o=",
       "reason": "şehir simgesi veya mahalle tanıtım karesi, ilanın kendisi değil"
     },
     {

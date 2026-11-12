@@ -292,5 +292,124 @@
     "source": "https://www.booking.com/hotel/de/super-zentral-super-schoner-altbau-im-herzen-von-berlin-fur-bis-zu-12-personen.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&no_rooms=1#room_954475401",
     "normalBeds": 5,
     "certainty": "Kaynak ilanındaki oda kartları esas alındı; ranza ve üst kat belirsizlikleri ayrıca belirtildi."
+  },
+  "sweep12-airbnb-1034836316144652017-20261230-20270103": {
+    "summary": "2 çift + 1 tek kişilik yatak ve 1 ranza (5 ayrı yatak); yatak odasında 1 çekyat. 1 kişi kanepede yatar.",
+    "source": "https://www.airbnb.com/rooms/1034836316144652017?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 5,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-traum-ferienwohnungen-93211-20261230-20270103": {
+    "summary": "5 çift + 2 tek kişilik yatak (7 ayrı yatak); oturma odasında 1 çekyat.",
+    "source": "https://www.traum-ferienwohnungen.de/93211/?arrival=2026-12-30&departure=2027-01-03&persons=6",
+    "normalBeds": 7,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-airbnb-53796458-20261230-20270103": {
+    "summary": "1 çift + 4 tek kişilik yatak (5 ayrı yatak); oturma odasında 3 çekyat. 1 kişi kanepede yatar.",
+    "source": "https://www.airbnb.com/rooms/53796458?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 5,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-airbnb-1333910684186106416-20261230-20270103": {
+    "summary": "5 tek kişilik yatak (5 ayrı yatak); oturma odasında 1 çekyat. 1 kişi kanepede yatar.",
+    "source": "https://www.airbnb.com/rooms/1333910684186106416?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 5,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-airbnb-1591873645675719304-20261230-20270103": {
+    "summary": "İlan özeti 4 yatak odası ve 9 yatak bildiriyor; oda oda yatak dökümü ilanda yok, 6 ayrı yatak doğrulanmadı.",
+    "source": "https://www.airbnb.com/rooms/1591873645675719304?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "certainty": "İlanda oda oda yatak dökümü yok; yatak sayısı doğrulanmadı."
+  },
+  "sweep12-airbnb-32453158-20261230-20270103": {
+    "summary": "1 çift + 4 tek kişilik yatak (5 ayrı yatak); yatak odasında 1 çekyat. 1 kişi kanepede yatar.",
+    "source": "https://www.airbnb.com/rooms/32453158?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 5,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-airbnb-32453154-20261230-20270103": {
+    "summary": "1 çift + 4 tek kişilik yatak (5 ayrı yatak); oturma odasında 2 çekyat. 1 kişi kanepede yatar.",
+    "source": "https://www.airbnb.com/rooms/32453154?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 5,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-airbnb-14381251-20261230-20270103": {
+    "summary": "2 çift + 3 tek kişilik yatak (5 ayrı yatak); oturma odasında 1 çekyat. 1 kişi kanepede yatar.",
+    "source": "https://www.airbnb.com/rooms/14381251?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 5,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-airbnb-31500359-20261230-20270103": {
+    "summary": "1 çift + 9 tek kişilik yatak (10 ayrı yatak); yatak odasında 1 çekyat.",
+    "source": "https://www.airbnb.com/rooms/31500359?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 10,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-airbnb-1036200996605773806-20261230-20270103": {
+    "summary": "1 çift + 4 tek kişilik yatak (5 ayrı yatak); oturma odasında 1 kanepe (çekyat olmayabilir). 1 kişi kanepede yatar.",
+    "source": "https://www.airbnb.com/rooms/1036200996605773806?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 5,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-booking-cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking-20261230-20270103": {
+    "summary": "3 çift + 3 tek kişilik yatak (6 ayrı yatak).",
+    "source": "https://www.booking.com/hotel/de/cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "normalBeds": 6,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-booking-city-apartment-spreeufer-20261230-20270103": {
+    "summary": "5 tek kişilik yatak (5 ayrı yatak); oturma odasında 1 çekyat. 1 kişi kanepede yatar.",
+    "source": "https://www.booking.com/hotel/de/city-apartment-spreeufer.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "normalBeds": 5,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-booking-stilvolle-6-zimmer-ferienwohnung-mit-2-badern-20261230-20270103": {
+    "summary": "12 tek kişilik yatak (12 ayrı yatak).",
+    "source": "https://www.booking.com/hotel/de/stilvolle-6-zimmer-ferienwohnung-mit-2-badern.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "normalBeds": 12,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-booking-britzer-tor-20261230-20270103": {
+    "summary": "7 tek kişilik yatak (7 ayrı yatak).",
+    "source": "https://www.booking.com/hotel/de/britzer-tor.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "normalBeds": 7,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-booking-fantastic-berlin-20261230-20270103": {
+    "summary": "1 çift + 4 tek kişilik yatak (5 ayrı yatak); oturma odasında 3 çekyat. 1 kişi kanepede yatar.",
+    "source": "https://www.booking.com/hotel/de/fantastic-berlin.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "normalBeds": 5,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-booking-petersburger-strasse-kleines-apartment-mit-kuche-und-bad-20261230-20270103": {
+    "summary": "2 çift + 6 tek kişilik yatak (8 ayrı yatak).",
+    "source": "https://www.booking.com/hotel/de/petersburger-strasse-kleines-apartment-mit-kuche-und-bad.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "normalBeds": 8,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-booking-trio-apartment-berlin-lichtenberg-20261230-20270103": {
+    "summary": "5 tek kişilik yatak ve 1 ranza (7 ayrı yatak); oturma odasında 1 çekyat.",
+    "source": "https://www.booking.com/hotel/de/trio-apartment-berlin-lichtenberg.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "normalBeds": 7,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-booking-modern-accommodation-neukoln-20261230-20270103": {
+    "summary": "9 tek kişilik yatak (9 ayrı yatak).",
+    "source": "https://www.booking.com/hotel/de/modern-accommodation-neukoln.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "normalBeds": 9,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-booking-attic-apartment-in-villa-20261230-20270103": {
+    "summary": "8 tek kişilik yatak (8 ayrı yatak).",
+    "source": "https://www.booking.com/hotel/de/attic-apartment-in-villa.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "normalBeds": 8,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep12-booking-gneisenau-20261230-20270103": {
+    "summary": "5 tek kişilik yatak (5 ayrı yatak); oturma odasında 2 çekyat. 1 kişi kanepede yatar.",
+    "source": "https://www.booking.com/hotel/de/gneisenau.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "normalBeds": 5,
+    "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
   }
 }

@@ -1,0 +1,3907 @@
+[
+ {
+  "id": "six-airbnb-1101465952016111173-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Fischerinsel | 3 Odalı Daire",
+  "category": "apartment",
+  "priceEur": "1927.0",
+  "offerAdults": "6",
+  "rsoCarMin": "17",
+  "tresorCarMin": "9",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=6",
+   "https://www.booking.com/hotel/de/great-central-city-apartments-mitte-museumsinsel-berlin.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:48",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-airbnb-1656340-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Checkpoint Charlie | Tarihi Daire",
+  "category": "apartment",
+  "priceEur": "2305.0",
+  "offerAdults": "6",
+  "rsoCarMin": "20",
+  "tresorCarMin": "6",
+  "links": [
+   "https://www.airbnb.com/rooms/1656340?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "unavailable",
+    "2026-11-10T17:48",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-07T10:09",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-31297828-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Kreuzberg | Aynı Katta Üç Daire, 18 Kişilik",
+  "category": "apartment",
+  "priceEur": "2976",
+  "offerAdults": "6",
+  "rsoCarMin": "14",
+  "tresorCarMin": "7",
+  "links": [
+   "https://www.airbnb.com/rooms/31297828",
+   "https://www.airbnb.com/rooms/1429537620167870553?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+   "https://www.airbnb.com/rooms/31297828?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [
+   "airbnb-1429537620167870553"
+  ],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:48",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:49",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-airbnb-12541792-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Friedrichshain | Grup Dairesi",
+  "category": "apartment",
+  "priceEur": "2904.0",
+  "offerAdults": "6",
+  "rsoCarMin": "26",
+  "tresorCarMin": "11",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/12541792?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:49",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:49",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-airbnb-1552405041368851207-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Treptower Park 75 m² Grup Vahası",
+  "category": "apartment",
+  "priceEur": "1457",
+  "offerAdults": "6",
+  "rsoCarMin": "9",
+  "tresorCarMin": "15",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/1552405041368851207?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:49",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-32453210-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Mariendorf | “Freesie” Dairesi",
+  "category": "apartment",
+  "priceEur": "2364",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "15",
+  "links": [
+   "https://www.airbnb.com/rooms/32453210",
+   "https://www.airbnb.com/rooms/32453210?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:49",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:49",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1519600838702010375",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Kurfürstendamm, 150 m² Daire",
+  "category": "apartment",
+  "priceEur": "2738.4",
+  "offerAdults": "6",
+  "rsoCarMin": "24",
+  "tresorCarMin": "15",
+  "links": [
+   "https://www.airbnb.com/rooms/1519600838702010375?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+   "https://www.airbnb.com/rooms/1519600838702010375?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:49",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:49",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "35666163",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "TRIO | Üç Odalı Daire",
+  "category": "apartment",
+  "priceEur": "1131",
+  "offerAdults": "7",
+  "rsoCarMin": "16",
+  "tresorCarMin": "16",
+  "links": [
+   "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+   "https://www.airbnb.com/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:49",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-31701521-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Mariendorf | “Enzian” Dairesi",
+  "category": "apartment",
+  "priceEur": "2364",
+  "offerAdults": "6",
+  "rsoCarMin": "18",
+  "tresorCarMin": "16",
+  "links": [
+   "https://www.airbnb.com/rooms/31701521",
+   "https://www.airbnb.com/rooms/31701521?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-1805168581752936023-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Steglitz VI | Gruplar İçin Daire",
+  "category": "apartment",
+  "priceEur": "996",
+  "offerAdults": "6",
+  "rsoCarMin": "21",
+  "tresorCarMin": "19",
+  "links": [
+   "https://www.airbnb.com/rooms/1805168581752936023",
+   "https://www.airbnb.com/rooms/1805168581752936023?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "unavailable",
+    "2026-11-10T17:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-1268121761753625501-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Kreuzberg | 13 Kişilik Geniş Daire",
+  "category": "apartment",
+  "priceEur": "3632",
+  "offerAdults": "6",
+  "rsoCarMin": "17",
+  "tresorCarMin": "6",
+  "links": [
+   "https://www.airbnb.com/rooms/1268121761753625501",
+   "https://www.airbnb.com/rooms/1268121761753625501?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-booking-1242731801-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Kreutzigerstraße | Dört Yatak Odalı Daire",
+  "category": "apartment",
+  "priceEur": "3987",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "8",
+  "links": [
+   "https://www.booking.com/hotel/de/120sqm-amp-5-room-luxury-apartment-with-garden.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T20:43",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T20:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-1727650304700546371-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Neukölln | Grup ve Aileler İçin Freedom Dairesi",
+  "category": "apartment",
+  "priceEur": "1996",
+  "offerAdults": "6",
+  "rsoCarMin": "14",
+  "tresorCarMin": "9",
+  "links": [
+   "https://www.airbnb.com/rooms/1727650304700546371",
+   "https://www.airbnb.com/rooms/1727650304700546371?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-1765241459359399223-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Mitte | Merkezi 120 m² Tasarım Loft",
+  "category": "apartment",
+  "priceEur": "3704",
+  "offerAdults": "6",
+  "rsoCarMin": "22",
+  "tresorCarMin": "9",
+  "links": [
+   "https://www.airbnb.com/rooms/1765241459359399223",
+   "https://www.airbnb.com/rooms/1765241459359399223?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:54",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-booking-951491101-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Herthastraße | Üç Yatak Odalı Daire",
+  "category": "apartment",
+  "priceEur": "2613",
+  "offerAdults": "6",
+  "rsoCarMin": "23",
+  "tresorCarMin": "10",
+  "links": [
+   "https://www.booking.com/hotel/de/sonnig-und-helle-wohnung-alexanderplatz-in-15min-zu-erreichen-sehr-schon-und-gro.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T20:42",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-40216009-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "La Corniche Apartments | Ringbahnstraße Dairesi",
+  "category": "apartment",
+  "priceEur": "1187",
+  "offerAdults": "6",
+  "rsoCarMin": "13",
+  "tresorCarMin": "11",
+  "links": [
+   "https://www.airbnb.com/rooms/40216009",
+   "https://www.airbnb.com/rooms/40216009?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "unavailable",
+    "2026-11-10T17:50",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "unavailable",
+    "2026-11-10T17:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-airbnb-1452938883567081364-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Prenzlauer Berg | 90 m² Daire",
+  "category": "apartment",
+  "priceEur": "1495.0",
+  "offerAdults": "6",
+  "rsoCarMin": "25",
+  "tresorCarMin": "11",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-34301098-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "La Corniche Apartments | R3EGL Dairesi",
+  "category": "apartment",
+  "priceEur": "1053",
+  "offerAdults": "6",
+  "rsoCarMin": "13",
+  "tresorCarMin": "12",
+  "links": [
+   "https://www.airbnb.com/rooms/34301098",
+   "https://www.airbnb.com/rooms/34301098?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-1510142980699078825-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Wilmersdorf | Emser Straße’de Modern Daire",
+  "category": "apartment",
+  "priceEur": "1093",
+  "offerAdults": "6",
+  "rsoCarMin": "12",
+  "tresorCarMin": "12",
+  "links": [
+   "https://www.airbnb.com/rooms/1510142980699078825",
+   "https://www.airbnb.com/rooms/1510142980699078825?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-1389672541037596818-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Schöneberg | Modern Daire",
+  "category": "apartment",
+  "priceEur": "1264",
+  "offerAdults": "6",
+  "rsoCarMin": "19",
+  "tresorCarMin": "12",
+  "links": [
+   "https://www.airbnb.com/rooms/1389672541037596818",
+   "https://www.airbnb.com/rooms/1389672541037596818?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-38533401-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "La Corniche Apartments | Premium Daire",
+  "category": "apartment",
+  "priceEur": "1908",
+  "offerAdults": "6",
+  "rsoCarMin": "14",
+  "tresorCarMin": "12",
+  "links": [
+   "https://www.airbnb.com/rooms/38533401",
+   "https://www.airbnb.com/rooms/38533401?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-airbnb-13868134-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Kreuzkölln | Beş Yatak Odalı Daire",
+  "category": "apartment",
+  "priceEur": "4464",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "12",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/13868134?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:50",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1107298370548666445",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Schöneberg | 6 Tek Yataklı Daire",
+  "category": "apartment",
+  "priceEur": "1100",
+  "offerAdults": "6",
+  "rsoCarMin": "18",
+  "tresorCarMin": "14",
+  "links": [
+   "https://www.airbnb.com/rooms/1107298370548666445?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T20:43",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-1066700616308697452-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Charlottenburg | Merkezi Konumda Çok Geniş Loft",
+  "category": "apartment",
+  "priceEur": "5978",
+  "offerAdults": "6",
+  "rsoCarMin": "23",
+  "tresorCarMin": "14",
+  "links": [
+   "https://www.airbnb.com/rooms/1066700616308697452",
+   "https://www.airbnb.com/rooms/1066700616308697452?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:54",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-german-p2714753-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Tempelhof-Schöneberg | Üç Yatak Odalı Daire",
+  "category": "apartment",
+  "priceEur": "1915",
+  "offerAdults": "6",
+  "rsoCarMin": "16.1",
+  "tresorCarMin": "14.6",
+  "links": [
+   "https://media.vrbo.com/lodging/28000000/27770000/27761800/27761800/69a3a04c.jpg",
+   "https://media.vrbo.com/lodging/28000000/27770000/27761800/27761800/f2464d06.jpg",
+   "https://media.vrbo.com/lodging/28000000/27770000/27761800/27761800/72704d4b.jpg",
+   "https://media.vrbo.com/lodging/28000000/27770000/27761800/27761800/a31bf24c.jpg",
+   "https://media.vrbo.com/lodging/28000000/27770000/27761800/27761800/e0e9c6d4.jpg",
+   "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p2714753?startDate=2026-12-30&endDate=2027-01-03&adults=6"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T18:01",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:15",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-181193704-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Freedom Studio Apartments | Üç Stüdyo",
+  "category": "multiunit",
+  "priceEur": "2146",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "15",
+  "links": [
+   "https://www.booking.com/hotel/de/freedom-studioapartment-booking.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:13",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-942782300690662568-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Wilmersdorf | Exil DeLuxe Dairesi",
+  "category": "apartment",
+  "priceEur": "2442",
+  "offerAdults": "6",
+  "rsoCarMin": "24",
+  "tresorCarMin": "17",
+  "links": [
+   "https://www.airbnb.com/rooms/942782300690662568",
+   "https://www.airbnb.com/rooms/942782300690662568?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-holidu-69492292-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Steglitz V | Balkonlu Büyük Eski Yapı Dairesi",
+  "category": "apartment",
+  "priceEur": "1328",
+  "offerAdults": "6",
+  "rsoCarMin": "20",
+  "tresorCarMin": "19",
+  "links": [
+   "https://img.holidu.com/images/9358b8b5-38ce-47f5-8916-23f81bb7cba0/l.jpg",
+   "https://img.holidu.com/images/d99343bb-2d35-4298-84bb-3759c4453a5e/l.jpg",
+   "https://img.holidu.com/images/ff6017af-ce9d-428f-9ec6-76a440f860c2/l.jpg",
+   "https://img.holidu.com/images/56972d2a-69e3-40c1-a476-c6754442aade/l.jpg",
+   "https://img.holidu.com/images/01fa0cb9-0200-4290-9598-a1fd9fb1acc5/l.jpg",
+   "https://www.holidu.de/d/69492292",
+   "https://www.holidu.de/d/69492292?checkin=2026-12-30&checkout=2027-01-03&adults=6"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T18:04",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:16",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-airbnb-1573761201032292155-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Weinberg | Tasarım Dairesi",
+  "category": "apartment",
+  "priceEur": "3357.0",
+  "offerAdults": "6",
+  "rsoCarMin": "21",
+  "tresorCarMin": "20",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/1573761201032292155?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "unavailable",
+    "2026-11-10T17:51",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "unavailable",
+    "2026-11-10T17:51",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-airbnb-1406503358873925054-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Merkezde 180 m² Çatı Katı",
+  "category": "apartment",
+  "priceEur": "5366",
+  "offerAdults": "6",
+  "rsoCarMin": "41",
+  "tresorCarMin": "22",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/1406503358873925054?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-booking-im-grund-22-c-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Birkenstein | Im Grund 22, Üç Yatak Odalı Ev",
+  "category": "apartment",
+  "priceEur": "1791.397631242111409594306151",
+  "offerAdults": "6",
+  "rsoCarMin": "28",
+  "tresorCarMin": "28",
+  "links": [
+   "https://www.booking.com/hotel/de/im-grund-22-c.html",
+   "https://www.booking.com/hotel/de/im-grund-22-c.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:13",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-1557174403-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "City Center Berlin Rungestr | 117 m² Deluxe Daire",
+  "category": "apartment",
+  "priceEur": "2132",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "2",
+  "links": [
+   "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+   "https://www.trivago.com.tr/tr/lm/konaklama-hizmeti-verilen-apart-daire-city-center-berlin-rungestr?cip=234716015&currencyCode=EUR&search=100-53643286%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=URhTltCh3CiTp9fzAXU%2FyGDV56M5n3%2BB8OaKzNUii3Iw4yVg1KGuJZw1wizUIkXl%2Fzy%2F82WWiLjFjmcScMwxfHq%2B0dDEn%2FLz3u1fffmD60T6mkdGvZfg2siF3HBpjpxSpU6kplFqZC4LffnFKUsYKyi0%2B7rRkfH6cvwKv8zHF217a7i2eCt2ygQlvcpPF8Pqiw%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-1557174404-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "City Center Berlin Rungestr | 60 m² Daire",
+  "category": "apartment",
+  "priceEur": "2199",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "2",
+  "links": [
+   "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+   "https://www.trivago.com.tr/tr/lm/konaklama-hizmeti-verilen-apart-daire-city-center-berlin-rungestr?cip=234716015&currencyCode=EUR&search=100-53643286%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=URhTltCh3CiTp9fzAXU%2FyGDV56M5n3%2BB8OaKzNUii3Iw4yVg1KGuJZw1wizUIkXl%2Fzy%2F82WWiLjFjmcScMwxfHq%2B0dDEn%2FLz3u1fffmD60T6mkdGvZfg2siF3HBpjpxSpU6kplFqZC4LffnFKUsYKyi0%2B7rRkfH6cvwKv8zHF217a7i2eCt2ygQlvcpPF8Pqiw%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1166429151300530583",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "HipSpot R3",
+  "category": "apartment",
+  "priceEur": "2412",
+  "offerAdults": "6",
+  "rsoCarMin": "25",
+  "tresorCarMin": "2",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/1166429151300530583?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+   "https://www.airbnb.com/rooms/1166429151300530583"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-1557174402-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "City Center Berlin Rungestr | 146 m² Daire",
+  "category": "apartment",
+  "priceEur": "2435",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "2",
+  "links": [
+   "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+   "https://www.trivago.com.tr/tr/lm/konaklama-hizmeti-verilen-apart-daire-city-center-berlin-rungestr?cip=234716015&currencyCode=EUR&search=100-53643286%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=URhTltCh3CiTp9fzAXU%2FyGDV56M5n3%2BB8OaKzNUii3Iw4yVg1KGuJZw1wizUIkXl%2Fzy%2F82WWiLjFjmcScMwxfHq%2B0dDEn%2FLz3u1fffmD60T6mkdGvZfg2siF3HBpjpxSpU6kplFqZC4LffnFKUsYKyi0%2B7rRkfH6cvwKv8zHF217a7i2eCt2ygQlvcpPF8Pqiw%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-1557174406-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "City Center Berlin Rungestr | 75 m² Balkonlu Daire",
+  "category": "apartment",
+  "priceEur": "2437",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "2",
+  "links": [
+   "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+   "https://www.trivago.com.tr/tr/lm/konaklama-hizmeti-verilen-apart-daire-city-center-berlin-rungestr?cip=234716015&currencyCode=EUR&search=100-53643286%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=URhTltCh3CiTp9fzAXU%2FyGDV56M5n3%2BB8OaKzNUii3Iw4yVg1KGuJZw1wizUIkXl%2Fzy%2F82WWiLjFjmcScMwxfHq%2B0dDEn%2FLz3u1fffmD60T6mkdGvZfg2siF3HBpjpxSpU6kplFqZC4LffnFKUsYKyi0%2B7rRkfH6cvwKv8zHF217a7i2eCt2ygQlvcpPF8Pqiw%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-german-p5553503-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Kreuzberg’in Merkezinde Üç Odalı Daire",
+  "category": "apartment",
+  "priceEur": "1642",
+  "offerAdults": "6",
+  "rsoCarMin": "13.2",
+  "tresorCarMin": "2.8",
+  "links": [
+   "https://media.vrbo.com/lodging/110000000/109890000/109882400/109882333/528b1b2f.jpg",
+   "https://media.vrbo.com/lodging/110000000/109890000/109882400/109882333/e7484b45.jpg",
+   "https://media.vrbo.com/lodging/110000000/109890000/109882400/109882333/2cd5d8ad.jpg",
+   "https://media.vrbo.com/lodging/110000000/109890000/109882400/109882333/17645e9f.jpg",
+   "https://media.vrbo.com/lodging/110000000/109890000/109882400/109882333/1ef77499.jpg",
+   "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p5553503?startDate=2026-12-30&endDate=2027-01-03&adults=6"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T18:01",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "yeni-locke-2-family",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Locke East Side Gallery, İki Aile Dairesi",
+  "category": "multiunit",
+  "priceEur": "2447.529146616962983929973350",
+  "offerAdults": "7",
+  "rsoCarMin": "14",
+  "tresorCarMin": "3",
+  "links": [
+   "https://skiplagged.com/hotel/7675980/locke-at-east-side-gallery-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=7",
+   "https://www.expedia.com/Berlin-Hotels-Locke-At-East-Side-Gallery.h78208919.Hotel-Information",
+   "https://www.airbnb.com/rooms/852135921732135707"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:56",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:15",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "grand-central-upper",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Grand Central City Apartments, Üst Kat",
+  "category": "apartment",
+  "priceEur": "2926.802782124476393421026865",
+  "offerAdults": "7",
+  "rsoCarMin": "17",
+  "tresorCarMin": "3",
+  "links": [
+   "https://www.booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1",
+   "https://www.booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:13",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "yeni-wilde-2-daire",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Wilde Checkpoint Charlie, İki Daire",
+  "category": "multiunit",
+  "priceEur": "2641.620069464101016682421595",
+  "offerAdults": "7",
+  "rsoCarMin": "19",
+  "tresorCarMin": "5",
+  "links": [
+   "https://skiplagged.com/hotel/3558878/wilde-aparthotels-berlin-checkpoint-charlie-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=7",
+   "https://www.apartmentservice.de/en/serviced-apartments/berlin/wilde-aparthotels-berlin-checkpoint-charlie-1772",
+   "https://www.expedia.com/Berlin-Hotels-Wilde-Aparthotels-By-Staycity-Berlin.h39627881.Hotel-Information"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:56",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:15",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-airbnb-33234428-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Lasdehner Straße | Friedrichshain Dairesi",
+  "category": "apartment",
+  "priceEur": "1596.13",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "6",
+  "links": [
+   "https://www.airbnb.com/rooms/33234428?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+   "https://www.airbnb.com/rooms/33234428"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:54",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-airbnb-1152005761587998986-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Stralauer Allee | Üç Yatak Odalı Daire",
+  "category": "apartment",
+  "priceEur": "2578.8",
+  "offerAdults": "6",
+  "rsoCarMin": "11",
+  "tresorCarMin": "6",
+  "links": [
+   "https://www.airbnb.com/rooms/1152005761587998986?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+   "https://www.airbnb.com/rooms/1152005761587998986"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "unavailable",
+    "2026-11-10T17:51",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "unavailable",
+    "2026-11-10T17:51",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-1363888262051860529-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Prenzlauer Berg | Geniş Aile Dairesi",
+  "category": "apartment",
+  "priceEur": "2192",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "7",
+  "links": [
+   "https://www.airbnb.com/rooms/1363888262051860529",
+   "https://www.airbnb.com/rooms/1363888262051860529?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "53802915",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "120 m² Tasarım Dairesi",
+  "category": "apartment",
+  "priceEur": "2485.163130263881693841692346",
+  "offerAdults": "7",
+  "rsoCarMin": "17",
+  "tresorCarMin": "7",
+  "links": [
+   "https://www.airbnb.com/rooms/53802915?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "danziger-loft",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "The Danziger",
+  "category": "apartment",
+  "priceEur": "2905.030717659227136216930228",
+  "offerAdults": "7",
+  "rsoCarMin": "21",
+  "tresorCarMin": "7",
+  "links": [
+   "https://www.booking.com/hotel/de/greatstay-apartment-danzigerstr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:13",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1389128667463860564",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Berlin Roof & Chill",
+  "category": "apartment",
+  "priceEur": "3000.0",
+  "offerAdults": "7",
+  "rsoCarMin": "16",
+  "tresorCarMin": "7",
+  "links": [
+   "https://www.airbnb.com/rooms/1389128667463860564?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+   "https://www.airbnb.com/rooms/1389128667463860564"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "12048269",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Torstraße Penthouse Dairesi",
+  "category": "apartment",
+  "priceEur": "3082.667086798082349317909526",
+  "offerAdults": "7",
+  "rsoCarMin": "21",
+  "tresorCarMin": "7",
+  "links": [
+   "https://www.airbnb.com/rooms/12048269?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:51",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1150006272268927007",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Maybachufer Dairesi",
+  "category": "apartment",
+  "priceEur": "1250.682090474232236541107901",
+  "offerAdults": "7",
+  "rsoCarMin": "14",
+  "tresorCarMin": "8",
+  "links": [
+   "https://www.airbnb.com/rooms/1150006272268927007?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "unavailable",
+    "2026-11-10T17:51",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "unavailable",
+    "2026-11-10T17:51",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1532802572102238291",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "fairAPART | Prenzlauer Berg",
+  "category": "apartment",
+  "priceEur": "1772",
+  "offerAdults": "6",
+  "rsoCarMin": "21",
+  "tresorCarMin": "8",
+  "links": [
+   "https://www.airbnb.com/rooms/1532802572102238291?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T20:42",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1552331405600484908",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Ruby & Indigo Daireleri",
+  "category": "multiunit",
+  "priceEur": "2115.817947800451819293645156",
+  "offerAdults": "7",
+  "rsoCarMin": "15",
+  "tresorCarMin": "8",
+  "links": [
+   "https://www.airbnb.com/rooms/1552331405600484908?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "unavailable",
+    "2026-11-10T17:51",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "unavailable",
+    "2026-11-10T17:51",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-airbnb-1186815887957943578-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Samariterstraße | Tasarım Daire",
+  "category": "apartment",
+  "priceEur": "2793.8",
+  "offerAdults": "6",
+  "rsoCarMin": "17",
+  "tresorCarMin": "8",
+  "links": [
+   "https://www.airbnb.com/rooms/1186815887957943578?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+   "https://www.airbnb.com/rooms/1186815887957943578"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-airbnb-1461578862659272395-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Friedrichshain | Üç Odalı Tasarım Daire",
+  "category": "apartment",
+  "priceEur": "2793.8",
+  "offerAdults": "6",
+  "rsoCarMin": "17",
+  "tresorCarMin": "8",
+  "links": [
+   "https://www.airbnb.com/rooms/1461578862659272395?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+   "https://www.airbnb.com/rooms/1461578862659272395"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-booking-osthafen-790949501-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Osthafen I | İki Yatak Odalı Daire",
+  "category": "apartment",
+  "priceEur": "1042.409123307198859586600143",
+  "offerAdults": "6",
+  "rsoCarMin": "13",
+  "tresorCarMin": "9",
+  "links": [
+   "https://www.booking.com/hotel/de/eastside34.en-gb.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=USD",
+   "https://www.booking.com/hotel/de/eastside34.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "unavailable",
+    "2026-11-10T17:59",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "45436574",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "City Spreeufer Dairesi",
+  "category": "apartment",
+  "priceEur": "1564.854048838496855245144901",
+  "offerAdults": "7",
+  "rsoCarMin": "17",
+  "tresorCarMin": "9",
+  "links": [
+   "https://www.airbnb.com/rooms/45436574?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "yeni-kreuzberg-freiligrath",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Kreuzberg’in Kalbinde Daire",
+  "category": "apartment",
+  "priceEur": "1725.976583014229281379455218",
+  "offerAdults": "7",
+  "rsoCarMin": "17",
+  "tresorCarMin": "9",
+  "links": [
+   "https://skiplagged.com/hotel/9485872/im-herzen-von-kreuzberg---perfekt-gelegen-fur-bis-zu-8-personen-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
+   "https://www.booking.com/hotel/de/im-herzen-von-kreuzberg-perfekt-gelegen-fur-bis-zu-8-personen.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7",
+   "https://www.booking.com/hotel/de/im-herzen-von-kreuzberg-perfekt-gelegen-fur-bis-zu-8-personen.de.html"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:56",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:15",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-airbnb-4027687-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Kanal Kenarında Geniş Daire",
+  "category": "apartment",
+  "priceEur": "1934",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "9",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/4027687?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "unavailable",
+    "2026-11-10T17:52",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "unavailable",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "yeni-arabel-suite",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Arabel Design Apartments, Üç Yatak Odalı Süit",
+  "category": "apartment",
+  "priceEur": "2419.990244406110419793174289",
+  "offerAdults": "7",
+  "rsoCarMin": "23",
+  "tresorCarMin": "9",
+  "links": [
+   "https://skiplagged.com/hotel/744972/arabel-design-apartments-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
+   "https://www.booking.com/hotel/de/arabel-design-apartments.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7",
+   "https://www.booking.com/hotel/de/arabel-design-apartments.html",
+   "https://www.expedia.com/Berlin-Hotels-Arabel-Design-Apartments-Berlin.h9059756.Hotel-Information"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:56",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:15",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "873230612368758488",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Mitte, 130 m² Birbirine Bağlı İki Daire",
+  "category": "multiunit",
+  "priceEur": "3112.48",
+  "offerAdults": "7",
+  "rsoCarMin": "23",
+  "tresorCarMin": "9",
+  "links": [
+   "https://www.airbnb.com/rooms/873230612368758488?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+   "https://www.airbnb.com/rooms/873230612368758488"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:54",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-1174576099912827244-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Weißensee | Teraslı 170 m² Seçkin Loft",
+  "category": "apartment",
+  "priceEur": "1584",
+  "offerAdults": "6",
+  "rsoCarMin": "24",
+  "tresorCarMin": "10",
+  "links": [
+   "https://www.airbnb.com/rooms/1174576099912827244",
+   "https://www.airbnb.com/rooms/1174576099912827244?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "unavailable",
+    "2026-11-10T17:52",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "unavailable",
+    "2026-11-10T17:52",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1216757408450098435",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Pappelallee, Beş Yatak Odalı Daire",
+  "category": "apartment",
+  "priceEur": "2034.23",
+  "offerAdults": "7",
+  "rsoCarMin": "23",
+  "tresorCarMin": "10",
+  "links": [
+   "https://www.airbnb.com/rooms/1216757408450098435?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+   "https://www.airbnb.com/rooms/1216757408450098435"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "paul-loft",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "The Paul Loft",
+  "category": "apartment",
+  "priceEur": "2421.861787445547586113588581",
+  "offerAdults": "7",
+  "rsoCarMin": "24",
+  "tresorCarMin": "10",
+  "links": [
+   "https://www.booking.com/hotel/de/greatstay-apartment-paul-robeson-str.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:13",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1610146635685764854",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "TMS1 | Moabit Üç Odalı Daire",
+  "category": "apartment",
+  "priceEur": "2928",
+  "offerAdults": "6",
+  "rsoCarMin": "25",
+  "tresorCarMin": "11",
+  "links": [
+   "https://www.airbnb.com/rooms/1610146635685764854?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T20:40",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T20:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-850390007-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Schoenhouse City Street | Balkonlu İki Yatak Odalı Süit",
+  "category": "apartment",
+  "priceEur": "2046",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "12",
+  "links": [
+   "https://www.booking.com/hotel/de/schoenhouse-berlin-city-street.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "21074683",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Arbio",
+  "category": "apartment",
+  "priceEur": "2786.125694062439361329039448",
+  "offerAdults": "7",
+  "rsoCarMin": "24",
+  "tresorCarMin": "12",
+  "links": [
+   "https://www.airbnb.com/rooms/21074683?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+   "https://www.airbnb.com/rooms/21074683"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-51513538-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Weißensee | Üç Yatak Odalı Şehir Dairesi",
+  "category": "apartment",
+  "priceEur": "1638",
+  "offerAdults": "6",
+  "rsoCarMin": "23",
+  "tresorCarMin": "13",
+  "links": [
+   "https://www.airbnb.com/rooms/51513538",
+   "https://www.airbnb.com/rooms/51513538?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-airbnb-1472317094515056268-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Friedrichshain | 120 m² Daire",
+  "category": "apartment",
+  "priceEur": "2898.0",
+  "offerAdults": "6",
+  "rsoCarMin": "18",
+  "tresorCarMin": "13",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/1472317094515056268?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-airbnb-1415265646306539034-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Central Friends | Potsdamer Straße Dairesi",
+  "category": "apartment",
+  "priceEur": "1678",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "14",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/1415265646306539034?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
+   "https://mapcarta.com/N3837626622"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1740651283805171847",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Prime Living | Kurfürstendamm",
+  "category": "apartment",
+  "priceEur": "2191",
+  "offerAdults": "7",
+  "rsoCarMin": "22",
+  "tresorCarMin": "14",
+  "links": [
+   "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+   "https://www.airbnb.com/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+   "https://www.booking.com/hotel/de/grand-living-berlin-kurfurstendamm.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "yeni-charlottenburg-uc-odali",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Charlottenburg’un Merkezinde Daire",
+  "category": "apartment",
+  "priceEur": "2107.032928689813059322199851",
+  "offerAdults": "7",
+  "rsoCarMin": "23",
+  "tresorCarMin": "15",
+  "links": [
+   "https://skiplagged.com/hotel/8912209/traumhafte-wohnung-mitten-in-charlottenburg-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
+   "https://www.booking.com/hotel/de/traumhafte-wohnung-mitten-in-charlottenburg.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7",
+   "https://www.agoda.com/en-sg/traumhafte-wohnung-mitten-in-charlottenburg/hotel/berlin-de.html",
+   "https://www.booking.com/hotel/de/traumhafte-wohnung-mitten-in-charlottenburg.de.html"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:56",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:15",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "20671210",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "TRIO | İki Yatak Odalı Superior Daire",
+  "category": "apartment",
+  "priceEur": "983",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "16",
+  "links": [
+   "https://www.airbnb.com/rooms/20671210?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T20:41",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T20:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-airbnb-1042045413385336860-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Sadece Berlin | Reuterplatz Dairesi",
+  "category": "apartment",
+  "priceEur": "2266.72",
+  "offerAdults": "6",
+  "rsoCarMin": "19",
+  "tresorCarMin": "16",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/1042045413385336860?check_in=2026-12-30&check_out=2027-01-03&adults=6"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:52",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:04",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1383517943466250521",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Moabit | Spree Loft",
+  "category": "apartment",
+  "priceEur": "2471",
+  "offerAdults": "6",
+  "rsoCarMin": "29",
+  "tresorCarMin": "16",
+  "links": [
+   "https://www.airbnb.com/rooms/1383517943466250521?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T20:42",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T20:50",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-booking-urban-flats-1270649713-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "URBAN FLATS | 70 m² İki Yatak Odalı Daire",
+  "category": "apartment",
+  "priceEur": "2448.325017818959372772630078",
+  "offerAdults": "6",
+  "rsoCarMin": "20",
+  "tresorCarMin": "18",
+  "links": [
+   "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=USD",
+   "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:13",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-holidu-56239528-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Small-residence | Lichterfelde Dairesi",
+  "category": "apartment",
+  "priceEur": "1459.0",
+  "offerAdults": "6",
+  "rsoCarMin": "28",
+  "tresorCarMin": "26",
+  "links": [
+   "https://img.holidu.com/images/0b234fc2-0c10-4228-907d-2b9dbe5f9e48/l.avif",
+   "https://img.holidu.com/images/6d072dfb-76c4-462d-aca4-f0d1ee10b7bd/l.avif",
+   "https://img.holidu.com/images/cca82da6-9c55-4bc4-bb66-0ab1e76f19d3/l.avif",
+   "https://img.holidu.com/images/6b4a9fa9-8bbb-4c62-be3a-b19d74c1e5cc/l.avif",
+   "https://img.holidu.com/images/7689e7d7-5ae0-4a83-8252-4331e267f955/l.avif",
+   "https://www.holidu.com/d/56239528?checkin=2026-12-30&checkout=2027-01-03&adults=6&exactPrice=t&currency=EUR",
+   "https://www.booking.com/hotel/de/small-residence.de.html",
+   "https://www.airbnb.com/rooms/1757631337826107623"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T18:03",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1352773721511868469",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Villa İçindeki Çatı Katı Dairesi",
+  "category": "apartment",
+  "priceEur": "1512.558546914971454206565800",
+  "offerAdults": "7",
+  "rsoCarMin": "10",
+  "tresorCarMin": "26",
+  "links": [
+   "https://www.airbnb.com/rooms/1352773721511868469?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:53",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:04",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Rangsdorf | Triumph Tatil Evleri, Üç Yatak Odalı Ev",
+  "category": "private_house",
+  "priceEur": "1990.443790511082746306492989",
+  "offerAdults": "6",
+  "rsoCarMin": "24",
+  "tresorCarMin": "31",
+  "links": [
+   "https://www.booking.com/hotel/de/triumph-haus-mit-3-schlafzimmer.html",
+   "https://www.booking.com/hotel/de/triumph-haus-mit-3-schlafzimmer.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-booking-ferienhaus-berlin-6-pax-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Blankenfelde-Mahlow | 6 Kişilik Tatil Evi",
+  "category": "private_house",
+  "priceEur": "1588.381586138511631053408316",
+  "offerAdults": "6",
+  "rsoCarMin": "26",
+  "tresorCarMin": "33",
+  "links": [
+   "https://www.booking.com/hotel/de/ferienhaus-berlin-6-pax.html",
+   "https://www.booking.com/hotel/de/ferienhaus-berlin-6-pax.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-house-19794276-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Lichtenberg Civarında Şirin Ev",
+  "category": "private_house",
+  "priceEur": "1659.45",
+  "offerAdults": "6",
+  "rsoCarMin": "21",
+  "tresorCarMin": "10",
+  "links": [
+   "https://www.airbnb.com/rooms/19794276?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03",
+   "https://www.airbnb.com/rooms/19794276"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:55",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:04",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "idyllisches-haus",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Berlin’in Ortasında Huzurlu Ev",
+  "category": "private_house",
+  "priceEur": "1782.977200749827763921748744",
+  "offerAdults": "7",
+  "rsoCarMin": "21",
+  "tresorCarMin": "10",
+  "links": [
+   "https://www.booking.com/hotel/de/idyllisches-haus-mitten-in-berlin.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0",
+   "https://www.booking.com/hotel/de/idyllisches-haus-mitten-in-berlin.tr.html"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:13",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "937599705398085803",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Tierpark Yakınında Bahçeli Sıra Ev",
+  "category": "private_house",
+  "priceEur": "1887.0",
+  "offerAdults": "7",
+  "rsoCarMin": "15",
+  "tresorCarMin": "15",
+  "links": [
+   "https://www.airbnb.com/rooms/937599705398085803?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+   "https://www.airbnb.com/rooms/937599705398085803"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "unavailable",
+    "2026-11-10T17:53",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "unavailable",
+    "2026-11-10T18:04",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep7-airbnb-1305081869431363843-20261230-20270103",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Stil Haus | Bungalov",
+  "category": "private_house",
+  "priceEur": "1200",
+  "offerAdults": "6",
+  "rsoCarMin": "10",
+  "tresorCarMin": "19",
+  "links": [
+   "https://www.airbnb.com/rooms/1305081869431363843",
+   "https://www.airbnb.com/rooms/1305081869431363843?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:53",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1468719376516749093",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Ahrensfelde Aile Evi",
+  "category": "private_house",
+  "priceEur": "2000.0",
+  "offerAdults": "7",
+  "rsoCarMin": "25",
+  "tresorCarMin": "24",
+  "links": [
+   "https://www.airbnb.com/rooms/1468719376516749093?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:54",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:04",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "565270388295704317",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Remise, Eski Ahırdan Dönüştürülmüş Ev",
+  "category": "private_house",
+  "priceEur": "3005.600387375407002308942568",
+  "offerAdults": "7",
+  "rsoCarMin": "25",
+  "tresorCarMin": "26",
+  "links": [
+   "https://www.airbnb.com/rooms/565270388295704317?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+   "https://www.airbnb.com/rooms/565270388295704317"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:53",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:04",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1611035619222657901",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Spreenhagen, Yedi Tek Yataklı Sıra Ev",
+  "category": "multiunit",
+  "priceEur": "980.0",
+  "offerAdults": "7",
+  "rsoCarMin": "37",
+  "tresorCarMin": "45",
+  "links": [
+   "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:53",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:04",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-house-1800855588199404311-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Dahlewitz Evi",
+  "category": "private_house",
+  "priceEur": "1060.6",
+  "offerAdults": "6",
+  "rsoCarMin": "29",
+  "tresorCarMin": "37",
+  "links": [
+   "https://www.airbnb.com/rooms/1800855588199404311?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03",
+   "https://www.airbnb.com/rooms/1800855588199404311"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:55",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:04",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1800855588199404311",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Dahlewitz Evi",
+  "category": "private_house",
+  "priceEur": "1157.601263242595628853059037",
+  "offerAdults": "7",
+  "rsoCarMin": "29",
+  "tresorCarMin": "37",
+  "links": [
+   "https://www.airbnb.com/rooms/1800855588199404311?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+   "https://www.airbnb.com/rooms/1800855588199404311"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:55",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:04",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-travanto-809908-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Rübezahl | 13 Erle Saunalı Ev",
+  "category": "private_house",
+  "priceEur": "1659.62",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "37",
+  "links": [
+   "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-0.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-8.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-13.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-15.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-18.jpg",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809908/ferienhaus-ferienhaus-13-erle-berlin.php",
+   "https://mapcarta.com/de/W309688637"
+  ],
+  "sourceIds": [],
+  "availability": []
+ },
+ {
+  "id": "six-travanto-809910-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Rübezahl | 15 Zeder Saunalı Ev",
+  "category": "private_house",
+  "priceEur": "1682.36",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "37",
+  "links": [
+   "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-0.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-8.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-13.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-15.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-18.jpg",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809910/ferienhaus-ferienhaus-15-zeder-berlin.php",
+   "https://mapcarta.com/de/W309688637"
+  ],
+  "sourceIds": [],
+  "availability": []
+ },
+ {
+  "id": "six-travanto-809914-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Rübezahl | 20 Mohn Saunalı Ev",
+  "category": "private_house",
+  "priceEur": "1705.11",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "37",
+  "links": [
+   "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-0.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-8.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-13.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-15.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-18.jpg",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809914/ferienhaus-ferienhaus-20-mohn-berlin.php",
+   "https://mapcarta.com/de/W309688637"
+  ],
+  "sourceIds": [],
+  "availability": []
+ },
+ {
+  "id": "22026440",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Berlin Sınırındaki Villa",
+  "category": "villa",
+  "priceEur": "1939.8",
+  "offerAdults": "7",
+  "rsoCarMin": "46",
+  "tresorCarMin": "37",
+  "links": [
+   "https://www.airbnb.com/rooms/22026440?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+   "https://www.airbnb.com/rooms/22026440"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:53",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-vrbo-145069-full",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Rübezahl | 145069 · Özel Saunalı Ev",
+  "category": "private_house",
+  "priceEur": "3101.0",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "37",
+  "links": [
+   "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/3ed5942c.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+   "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/061da9de.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+   "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/22078afd.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+   "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/b5e8de13.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+   "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/9cb61575.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+   "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2026-12-30&endDate=2027-01-03&adults=6",
+   "https://www.vrbo.com/en-gb/p5130239",
+   "https://fewo.de/unterkunft/ferienhaus-mistel-140-145069/",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809908/ferienhaus-ferienhaus-13-erle-berlin.php",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809910/ferienhaus-ferienhaus-15-zeder-berlin.php",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809913/ferienhaus-ferienhaus-19-mistel-berlin.php",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809914/ferienhaus-ferienhaus-20-mohn-berlin.php",
+   "https://ruebezahl-berlin.de/wp-content/uploads/2018/06/ferienhaus-berlin-erholung-2019-2020.pdf",
+   "https://reservation.one.dirs21.de/ruebezahl-berlinde/result?range=2027-01-01,2027-01-03&sets=%5B%7B%22uuid%22%3A%224e0220b7-4f39-4f25-bba0-3e020c863bb8%22%2C%22occupancy%22%3A%7B%22adultCount%22%3A6%2C%22children%22%3A%5B%5D%7D%7D%5D&los=2",
+   "https://mapcarta.com/de/W309688637",
+   "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239"
+  ],
+  "sourceIds": [
+   "travanto-809908",
+   "travanto-809910",
+   "travanto-809913",
+   "travanto-809914",
+   "vrbo-5130239"
+  ],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T18:02",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1175489093358086077",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-03",
+  "title": "Göl Erişimli Aile Evi",
+  "category": "private_house",
+  "priceEur": "2402.528443430907074407766022",
+  "offerAdults": "7",
+  "rsoCarMin": "27",
+  "tresorCarMin": "40",
+  "links": [
+   "https://www.airbnb.com/rooms/1175489093358086077?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY",
+   "https://www.airbnb.com/rooms/1175489093358086077"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:53",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "bolunmus-urban-flats",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1253.843045311885268519161375",
+  "offerAdults": "7",
+  "rsoCarMin": "20",
+  "tresorCarMin": "6",
+  "links": [
+   "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1",
+   "https://urbanflatsberlin.de/locations",
+   "https://v6.bvg.transport.rest/journeys?from.latitude=52.5242197&from.longitude=13.3992948&from.address=Gro%C3%9Fe+Hamburger+Stra%C3%9Fe+21+Berlin&to.latitude=52.45991&to.longitude=13.50534&to.address=Schnellerstra%C3%9Fe+137%2C+Berlin&departure=2026-12-31T22%3A00%3A00%2B01%3A00&results=1&language=en",
+   "https://v6.bvg.transport.rest/journeys?from.latitude=52.5242197&from.longitude=13.3992948&from.address=Gro%C3%9Fe+Hamburger+Stra%C3%9Fe+21+Berlin&to.latitude=52.51068&to.longitude=13.41948&to.address=K%C3%B6penicker+Stra%C3%9Fe+70%2C+Berlin&departure=2026-12-31T22%3A00%3A00%2B01%3A00&results=1&language=en"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-01",
+    7,
+    "available",
+    "2026-11-10T18:13",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-181193704-20261230-20270101",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "multiunit",
+  "priceEur": "1073",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "15",
+  "links": [
+   "https://www.booking.com/hotel/de/freedom-studioapartment-booking.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-01",
+    7,
+    "available",
+    "2026-11-10T18:13",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-1557174402-20261230-20270101",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1220",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "2",
+  "links": [
+   "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+   "https://www.trivago.com.tr/tr/lm/konaklama-hizmeti-verilen-apart-daire-city-center-berlin-rungestr?cip=234716015&currencyCode=EUR&search=100-53643286%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=URhTltCh3CiTp9fzAXU%2FyGDV56M5n3%2BB8OaKzNUii3Iw4yVg1KGuJZw1wizUIkXl%2Fzy%2F82WWiLjFjmcScMwxfHq%2B0dDEn%2FLz3u1fffmD60T6mkdGvZfg2siF3HBpjpxSpU6kplFqZC4LffnFKUsYKyi0%2B7rRkfH6cvwKv8zHF217a7i2eCt2ygQlvcpPF8Pqiw%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-1557174403-20261230-20270101",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1220",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "2",
+  "links": [
+   "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+   "https://www.trivago.com.tr/tr/lm/konaklama-hizmeti-verilen-apart-daire-city-center-berlin-rungestr?cip=234716015&currencyCode=EUR&search=100-53643286%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=URhTltCh3CiTp9fzAXU%2FyGDV56M5n3%2BB8OaKzNUii3Iw4yVg1KGuJZw1wizUIkXl%2Fzy%2F82WWiLjFjmcScMwxfHq%2B0dDEn%2FLz3u1fffmD60T6mkdGvZfg2siF3HBpjpxSpU6kplFqZC4LffnFKUsYKyi0%2B7rRkfH6cvwKv8zHF217a7i2eCt2ygQlvcpPF8Pqiw%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-1557174406-20261230-20270101",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1243",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "2",
+  "links": [
+   "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+   "https://www.trivago.com.tr/tr/lm/konaklama-hizmeti-verilen-apart-daire-city-center-berlin-rungestr?cip=234716015&currencyCode=EUR&search=100-53643286%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=URhTltCh3CiTp9fzAXU%2FyGDV56M5n3%2BB8OaKzNUii3Iw4yVg1KGuJZw1wizUIkXl%2Fzy%2F82WWiLjFjmcScMwxfHq%2B0dDEn%2FLz3u1fffmD60T6mkdGvZfg2siF3HBpjpxSpU6kplFqZC4LffnFKUsYKyi0%2B7rRkfH6cvwKv8zHF217a7i2eCt2ygQlvcpPF8Pqiw%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-1557174401-20261230-20270101",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1243",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "2",
+  "links": [
+   "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+   "https://www.trivago.com.tr/tr/lm/konaklama-hizmeti-verilen-apart-daire-city-center-berlin-rungestr?cip=234716015&currencyCode=EUR&search=100-53643286%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=URhTltCh3CiTp9fzAXU%2FyGDV56M5n3%2BB8OaKzNUii3Iw4yVg1KGuJZw1wizUIkXl%2Fzy%2F82WWiLjFjmcScMwxfHq%2B0dDEn%2FLz3u1fffmD60T6mkdGvZfg2siF3HBpjpxSpU6kplFqZC4LffnFKUsYKyi0%2B7rRkfH6cvwKv8zHF217a7i2eCt2ygQlvcpPF8Pqiw%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-01",
+    7,
+    "available",
+    "2026-11-10T18:13",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-1557174404-20261230-20270101",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1265",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "2",
+  "links": [
+   "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+   "https://www.trivago.com.tr/tr/lm/konaklama-hizmeti-verilen-apart-daire-city-center-berlin-rungestr?cip=234716015&currencyCode=EUR&search=100-53643286%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=URhTltCh3CiTp9fzAXU%2FyGDV56M5n3%2BB8OaKzNUii3Iw4yVg1KGuJZw1wizUIkXl%2Fzy%2F82WWiLjFjmcScMwxfHq%2B0dDEn%2FLz3u1fffmD60T6mkdGvZfg2siF3HBpjpxSpU6kplFqZC4LffnFKUsYKyi0%2B7rRkfH6cvwKv8zHF217a7i2eCt2ygQlvcpPF8Pqiw%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:58",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1166429151300530583",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1391.203765516823948914868202",
+  "offerAdults": "7",
+  "rsoCarMin": "25",
+  "tresorCarMin": "2",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/1166429151300530583?check_in=2026-12-30&check_out=2027-01-01&adults=7&currency=TRY",
+   "https://www.airbnb.com/rooms/1166429151300530583"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:53",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-01",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-german-p5553503-20261230-20270101",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "984",
+  "offerAdults": "6",
+  "rsoCarMin": "13.2",
+  "tresorCarMin": "2.8",
+  "links": [
+   "https://media.vrbo.com/lodging/110000000/109890000/109882400/109882333/528b1b2f.jpg",
+   "https://media.vrbo.com/lodging/110000000/109890000/109882400/109882333/e7484b45.jpg",
+   "https://media.vrbo.com/lodging/110000000/109890000/109882400/109882333/2cd5d8ad.jpg",
+   "https://media.vrbo.com/lodging/110000000/109890000/109882400/109882333/17645e9f.jpg",
+   "https://media.vrbo.com/lodging/110000000/109890000/109882400/109882333/1ef77499.jpg",
+   "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p5553503?startDate=2026-12-30&endDate=2027-01-01&adults=6&chkin=2026-12-30&chkout=2027-01-01&searchId=09dca08b-5bab-4e9a-a315-d4de9a0142b2"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T18:02",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-booking-1252191308-20261230-20270101",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "590",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "4",
+  "links": [
+   "https://www.booking.com/hotel/de/apartmenthaus-berlin-mitte-digital-check-in.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+   "https://www.trivago.com.tr/tr/lm/konaklama-hizmeti-verilen-apart-daire-apartmenthaus-berlin-mitte?cip=234716015&currencyCode=EUR&search=100-26568698%3B300-255%3Bdr-20261230-20270101%3Bdrs-40%3Brc-1-6&cds=8YeX4iqDMRQZZlTkYH%2FA8DxitsiUJT0n%2FhQLxkKQfmOAtFcBhy5ZdXxGlwoBfeBaUBJZ23P0EnOiKoa7xWuPSwHrFvnRHeVg2LJI9M7uN%2F6yeZTWOTjgf7H4QPPZEPahA7rZ58VgnhnRlYnt9fpwuDpc5kwj0cH24byFfaxgT37UbiQpIfgobz7G6tEYCf9Jfk0%3D&cdsOrigin=DEAL_ON_DEALFINDER"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:59",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "bolunmus-alexa",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "3218.633896416243419869723657",
+  "offerAdults": "7",
+  "rsoCarMin": "19",
+  "tresorCarMin": "5",
+  "links": [
+   "https://www.booking.com/hotel/de/spacious-family-home-near-alexanderplatz-and-free-parking.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1",
+   "https://www.airbnb.com/rooms/1260209089340243876"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:59",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-01",
+    7,
+    "available",
+    "2026-11-10T18:14",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-airbnb-1506711709322131491-first",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1464.68",
+  "offerAdults": "6",
+  "rsoCarMin": "15",
+  "tresorCarMin": "7",
+  "links": [
+   "https://www.airbnb.com/rooms/1506711709322131491?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:53",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-01",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "bolunmus-roof-chill",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1640.577573883491861734039012",
+  "offerAdults": "7",
+  "rsoCarMin": "16",
+  "tresorCarMin": "7",
+  "links": [
+   "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1",
+   "https://www.airbnb.com/rooms/1389128667463860564"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:59",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-01",
+    7,
+    "available",
+    "2026-11-10T18:14",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "bolunmus-torstrasse",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1644.529657539489682747374624",
+  "offerAdults": "7",
+  "rsoCarMin": "20",
+  "tresorCarMin": "7",
+  "links": [
+   "https://www.booking.com/hotel/de/torstrasse.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1",
+   "https://www.booking.com/hotel/de/torstrasse.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7",
+   "https://www.booking.com/hotel/de/torstrasse.tr.html",
+   "https://v6.bvg.transport.rest/journeys?from.latitude=52.5297335&from.longitude=13.4002657&from.address=Torstra%C3%9Fe+129+Berlin&to.latitude=52.45991&to.longitude=13.50534&to.address=Schnellerstra%C3%9Fe+137%2C+Berlin&departure=2026-12-31T22%3A00%3A00%2B01%3A00&results=1&language=en",
+   "https://v6.bvg.transport.rest/journeys?from.latitude=52.5297335&from.longitude=13.4002657&from.address=Torstra%C3%9Fe+129+Berlin&to.latitude=52.51068&to.longitude=13.41948&to.address=K%C3%B6penicker+Stra%C3%9Fe+70%2C+Berlin&departure=2026-12-31T22%3A00%3A00%2B01%3A00&results=1&language=en"
+  ],
+  "sourceIds": [],
+  "availability": []
+ },
+ {
+  "id": "six-airbnb-588125307521181982-first",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1201.85",
+  "offerAdults": "6",
+  "rsoCarMin": "17",
+  "tresorCarMin": "8",
+  "links": [
+   "https://www.airbnb.com/rooms/588125307521181982?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:53",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-01",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-airbnb-1559249085935822360-20261230-20270101",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "628",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "16",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/1559249085935822360?adults=6&check_in=2026-12-30&check_out=2027-01-01&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:53",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-booking-954475401-first",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1251",
+  "offerAdults": "6",
+  "rsoCarMin": "30",
+  "tresorCarMin": "17",
+  "links": [
+   "https://www.booking.com/hotel/de/super-zentral-super-schoner-altbau-im-herzen-von-berlin-fur-bis-zu-12-personen.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&no_rooms=1"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T20:44",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "sweep6-airbnb-14314574-20261230-20270101",
+  "checkIn": "2026-12-30",
+  "checkOut": "2027-01-01",
+  "title": "",
+  "category": "apartment",
+  "priceEur": "1489",
+  "offerAdults": "6",
+  "rsoCarMin": null,
+  "tresorCarMin": "24",
+  "links": [
+   "https://www.airbnb.com.tr/rooms/14314574?adults=6&check_in=2026-12-30&check_out=2027-01-01&currency=EUR"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2026-12-30",
+    "2027-01-01",
+    6,
+    "available",
+    "2026-11-10T17:53",
+    "card"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-01",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-house-1144871109877188022-last",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "729.3",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "21",
+  "links": [
+   "https://www.airbnb.com/rooms/1144871109877188022?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+   "https://www.airbnb.com/rooms/1144871109877188022"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2027-01-01",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:55",
+    "card"
+   ],
+   [
+    "2027-01-01",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1144871109877188022",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "827.5159374004190632849648140",
+  "offerAdults": "7",
+  "rsoCarMin": "16",
+  "tresorCarMin": "21",
+  "links": [
+   "https://www.airbnb.com/rooms/1144871109877188022?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=TRY",
+   "https://www.airbnb.com/rooms/1144871109877188022"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2027-01-01",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:55",
+    "card"
+   ],
+   [
+    "2027-01-01",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-house-1468719376516749093-last",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "980.0",
+  "offerAdults": "6",
+  "rsoCarMin": "25",
+  "tresorCarMin": "24",
+  "links": [
+   "https://www.airbnb.com/rooms/1468719376516749093?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+   "https://www.airbnb.com/rooms/1468719376516749093?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2027-01-01",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:56",
+    "card"
+   ],
+   [
+    "2027-01-01",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1468719376516749093",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "1060.917987143266592965647136",
+  "offerAdults": "7",
+  "rsoCarMin": "25",
+  "tresorCarMin": "24",
+  "links": [
+   "https://www.airbnb.com/rooms/1468719376516749093?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=TRY",
+   "https://www.airbnb.com/rooms/1468719376516749093?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=TRY"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2027-01-01",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:56",
+    "card"
+   ],
+   [
+    "2027-01-01",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-house-1777706242995862793-last",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "576.0",
+  "offerAdults": "6",
+  "rsoCarMin": "41",
+  "tresorCarMin": "36",
+  "links": [
+   "https://www.airbnb.com/rooms/1777706242995862793?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
+   "https://www.airbnb.com/rooms/1777706242995862793"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2027-01-01",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:55",
+    "card"
+   ],
+   [
+    "2027-01-01",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1777706242995862793",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "696.6170519948231264542154669",
+  "offerAdults": "7",
+  "rsoCarMin": "41",
+  "tresorCarMin": "36",
+  "links": [
+   "https://www.airbnb.com/rooms/1777706242995862793?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=TRY",
+   "https://www.airbnb.com/rooms/1777706242995862793"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2027-01-01",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:55",
+    "card"
+   ],
+   [
+    "2027-01-01",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-house-1641351333944417315-last",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "845.0",
+  "offerAdults": "6",
+  "rsoCarMin": "28",
+  "tresorCarMin": "36",
+  "links": [
+   "https://www.airbnb.com/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2027-01-01",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:55",
+    "card"
+   ],
+   [
+    "2027-01-01",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "1641351333944417315",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "943.8166802853333190915904288",
+  "offerAdults": "7",
+  "rsoCarMin": "28",
+  "tresorCarMin": "36",
+  "links": [
+   "https://www.airbnb.com/rooms/1641351333944417315?check_in=2027-01-01&check_out=2027-01-03&adults=7&currency=TRY",
+   "https://www.airbnb.com/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2027-01-01",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:55",
+    "card"
+   ],
+   [
+    "2027-01-01",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-travanto-809908-last",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "892.64",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "37",
+  "links": [
+   "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-0.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-8.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-13.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-15.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/08/809908-18.jpg",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809908/ferienhaus-ferienhaus-13-erle-berlin.php",
+   "https://mapcarta.com/de/W309688637"
+  ],
+  "sourceIds": [],
+  "availability": []
+ },
+ {
+  "id": "six-travanto-809910-last",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "892.64",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "37",
+  "links": [
+   "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-0.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-8.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-13.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-15.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/10/809910-18.jpg",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809910/ferienhaus-ferienhaus-15-zeder-berlin.php",
+   "https://mapcarta.com/de/W309688637"
+  ],
+  "sourceIds": [],
+  "availability": []
+ },
+ {
+  "id": "six-travanto-809914-last",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "892.64",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "37",
+  "links": [
+   "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-0.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-8.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-13.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-15.jpg",
+   "https://imgs.travanto.de/hq/1600x1200/secra/14/809914-18.jpg",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809914/ferienhaus-ferienhaus-20-mohn-berlin.php",
+   "https://mapcarta.com/de/W309688637"
+  ],
+  "sourceIds": [],
+  "availability": []
+ },
+ {
+  "id": "22026440",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "villa",
+  "priceEur": "1004.4",
+  "offerAdults": "7",
+  "rsoCarMin": "46",
+  "tresorCarMin": "37",
+  "links": [
+   "https://www.airbnb.com/rooms/22026440?adults=7&check_in=2027-01-01&check_out=2027-01-03&currency=EUR",
+   "https://www.airbnb.com/rooms/22026440"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2027-01-01",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:53",
+    "card"
+   ],
+   [
+    "2027-01-01",
+    "2027-01-03",
+    7,
+    "available",
+    "2026-11-10T18:05",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-vrbo-145069-last",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "1603.0",
+  "offerAdults": "6",
+  "rsoCarMin": "16",
+  "tresorCarMin": "37",
+  "links": [
+   "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/3ed5942c.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+   "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/061da9de.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+   "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/22078afd.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+   "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/b5e8de13.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+   "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/9cb61575.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+   "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2027-01-01&endDate=2027-01-03&adults=6",
+   "https://www.vrbo.com/en-gb/p5130239",
+   "https://fewo.de/unterkunft/ferienhaus-mistel-140-145069/",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809908/ferienhaus-ferienhaus-13-erle-berlin.php",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809910/ferienhaus-ferienhaus-15-zeder-berlin.php",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809913/ferienhaus-ferienhaus-19-mistel-berlin.php",
+   "https://www.travanto.de/ferienhaus/sc/berlin/809914/ferienhaus-ferienhaus-20-mohn-berlin.php",
+   "https://ruebezahl-berlin.de/wp-content/uploads/2018/06/ferienhaus-berlin-erholung-2019-2020.pdf",
+   "https://reservation.one.dirs21.de/ruebezahl-berlinde/result?range=2027-01-01,2027-01-03&sets=%5B%7B%22uuid%22%3A%224e0220b7-4f39-4f25-bba0-3e020c863bb8%22%2C%22occupancy%22%3A%7B%22adultCount%22%3A6%2C%22children%22%3A%5B%5D%7D%7D%5D&los=2",
+   "https://mapcarta.com/de/W309688637",
+   "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239"
+  ],
+  "sourceIds": [
+   "travanto-809908",
+   "travanto-809910",
+   "travanto-809913",
+   "travanto-809914",
+   "vrbo-5130239"
+  ],
+  "availability": [
+   [
+    "2027-01-01",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T18:02",
+    "card"
+   ]
+  ]
+ },
+ {
+  "id": "six-house-1755900699204248773-last",
+  "checkIn": "2027-01-01",
+  "checkOut": "2027-01-03",
+  "title": "",
+  "category": "private_house",
+  "priceEur": "341.0",
+  "offerAdults": "6",
+  "rsoCarMin": "29",
+  "tresorCarMin": "38",
+  "links": [
+   "https://www.airbnb.com/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03"
+  ],
+  "sourceIds": [],
+  "availability": [
+   [
+    "2027-01-01",
+    "2027-01-03",
+    6,
+    "available",
+    "2026-11-10T17:55",
+    "card"
+   ]
+  ]
+ }
+]

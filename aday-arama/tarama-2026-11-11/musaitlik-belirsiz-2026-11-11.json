@@ -1,0 +1,160 @@
+{
+ "version": 1,
+ "aciklama": "11.11.2026 müsaitlik kontrolünde erişilemeyen veya sonucu belirsiz kalan bağlantılar. Bunlar müsait değil sayılmadı.",
+ "kartDuzeyindeBelirsiz": [
+  {
+   "cardId": "six-travanto-809908-full",
+   "neden": "Kontrol edilebilir sağlayıcı bağlantısında kesin sonuç alınamadı",
+   "ayrintilar": [
+    {
+     "cardId": "six-travanto-809908-full",
+     "sourceUrl": "https://www.travanto.de/ferienhaus/sc/berlin/809908/ferienhaus-ferienhaus-13-erle-berlin.php",
+     "neden": "Travanto ilan URL'si 302 ile ana sayfaya (https://www.travanto.de/) yönleniyor (curl ve tarayıcı); travanto.de/berlin/ sayfasında yalnız 3 Berlin ilanı var, Rübezahl evleri listelenmiyor. İlan kaldırılmış görünüyor; tarih/6 kişi sonucu alınamadı.",
+     "at": "2026-11-11T19:48:51+03:00"
+    }
+   ]
+  },
+  {
+   "cardId": "six-travanto-809910-full",
+   "neden": "Kontrol edilebilir sağlayıcı bağlantısında kesin sonuç alınamadı",
+   "ayrintilar": [
+    {
+     "cardId": "six-travanto-809910-full",
+     "sourceUrl": "https://www.travanto.de/ferienhaus/sc/berlin/809910/ferienhaus-ferienhaus-15-zeder-berlin.php",
+     "neden": "Travanto ilan URL'si 302 ile ana sayfaya (https://www.travanto.de/) yönleniyor (curl ve tarayıcı); travanto.de/berlin/ sayfasında yalnız 3 Berlin ilanı var, Rübezahl evleri listelenmiyor. İlan kaldırılmış görünüyor; tarih/6 kişi sonucu alınamadı.",
+     "at": "2026-11-11T19:48:51+03:00"
+    }
+   ]
+  },
+  {
+   "cardId": "six-travanto-809914-full",
+   "neden": "Kontrol edilebilir sağlayıcı bağlantısında kesin sonuç alınamadı",
+   "ayrintilar": [
+    {
+     "cardId": "six-travanto-809914-full",
+     "sourceUrl": "https://www.travanto.de/ferienhaus/sc/berlin/809914/ferienhaus-ferienhaus-20-mohn-berlin.php",
+     "neden": "Travanto ilan URL'si 302 ile ana sayfaya (https://www.travanto.de/) yönleniyor (curl ve tarayıcı); travanto.de/berlin/ sayfasında yalnız 3 Berlin ilanı var, Rübezahl evleri listelenmiyor. İlan kaldırılmış görünüyor; tarih/6 kişi sonucu alınamadı. Ek bilgi (kanıt sayılmadı): aynı ev FEWO.de'de (https://fewo.de/unterkunft/ferienhaus-mohn-140-145070/) 30.12–03.01, 6 Gäste için 'verfügbar', €1.742,58 insgesamt.",
+     "at": "2026-11-11T19:48:51+03:00"
+    }
+   ]
+  }
+ ],
+ "baglantiDuzeyindeBelirsiz": [
+  {
+   "cardId": "six-travanto-809908-full",
+   "sourceUrl": "https://www.travanto.de/ferienhaus/sc/berlin/809908/ferienhaus-ferienhaus-13-erle-berlin.php",
+   "neden": "Travanto ilan URL'si 302 ile ana sayfaya (https://www.travanto.de/) yönleniyor (curl ve tarayıcı); travanto.de/berlin/ sayfasında yalnız 3 Berlin ilanı var, Rübezahl evleri listelenmiyor. İlan kaldırılmış görünüyor; tarih/6 kişi sonucu alınamadı.",
+   "at": "2026-11-11T19:48:51+03:00",
+   "kartDurumuKesin": false
+  },
+  {
+   "cardId": "six-travanto-809910-full",
+   "sourceUrl": "https://www.travanto.de/ferienhaus/sc/berlin/809910/ferienhaus-ferienhaus-15-zeder-berlin.php",
+   "neden": "Travanto ilan URL'si 302 ile ana sayfaya (https://www.travanto.de/) yönleniyor (curl ve tarayıcı); travanto.de/berlin/ sayfasında yalnız 3 Berlin ilanı var, Rübezahl evleri listelenmiyor. İlan kaldırılmış görünüyor; tarih/6 kişi sonucu alınamadı.",
+   "at": "2026-11-11T19:48:51+03:00",
+   "kartDurumuKesin": false
+  },
+  {
+   "cardId": "six-travanto-809914-full",
+   "sourceUrl": "https://www.travanto.de/ferienhaus/sc/berlin/809914/ferienhaus-ferienhaus-20-mohn-berlin.php",
+   "neden": "Travanto ilan URL'si 302 ile ana sayfaya (https://www.travanto.de/) yönleniyor (curl ve tarayıcı); travanto.de/berlin/ sayfasında yalnız 3 Berlin ilanı var, Rübezahl evleri listelenmiyor. İlan kaldırılmış görünüyor; tarih/6 kişi sonucu alınamadı. Ek bilgi (kanıt sayılmadı): aynı ev FEWO.de'de (https://fewo.de/unterkunft/ferienhaus-mohn-140-145070/) 30.12–03.01, 6 Gäste için 'verfügbar', €1.742,58 insgesamt.",
+   "at": "2026-11-11T19:48:51+03:00",
+   "kartDurumuKesin": false
+  },
+  {
+   "cardId": "six-vrbo-145069-full",
+   "sourceId": "travanto-809908",
+   "sourceUrl": "https://www.travanto.de/ferienhaus/sc/berlin/809908/ferienhaus-ferienhaus-13-erle-berlin.php",
+   "neden": "Travanto ilan URL'si 302 ile ana sayfaya (https://www.travanto.de/) yönleniyor (curl ve tarayıcı); travanto.de/berlin/ sayfasında yalnız 3 Berlin ilanı var, Rübezahl evleri listelenmiyor. İlan kaldırılmış görünüyor; tarih/6 kişi sonucu alınamadı.",
+   "at": "2026-11-11T19:48:51+03:00",
+   "kartDurumuKesin": true
+  },
+  {
+   "cardId": "six-vrbo-145069-full",
+   "sourceId": "travanto-809910",
+   "sourceUrl": "https://www.travanto.de/ferienhaus/sc/berlin/809910/ferienhaus-ferienhaus-15-zeder-berlin.php",
+   "neden": "Travanto ilan URL'si 302 ile ana sayfaya (https://www.travanto.de/) yönleniyor (curl ve tarayıcı); travanto.de/berlin/ sayfasında yalnız 3 Berlin ilanı var, Rübezahl evleri listelenmiyor. İlan kaldırılmış görünüyor; tarih/6 kişi sonucu alınamadı.",
+   "at": "2026-11-11T19:48:51+03:00",
+   "kartDurumuKesin": true
+  },
+  {
+   "cardId": "six-vrbo-145069-full",
+   "sourceId": "travanto-809913",
+   "sourceUrl": "https://www.travanto.de/ferienhaus/sc/berlin/809913/ferienhaus-ferienhaus-19-mistel-berlin.php",
+   "neden": "Travanto ilan URL'si 302 ile ana sayfaya (https://www.travanto.de/) yönleniyor (curl ve tarayıcı); travanto.de/berlin/ sayfasında yalnız 3 Berlin ilanı var, Rübezahl evleri listelenmiyor. İlan kaldırılmış görünüyor; tarih/6 kişi sonucu alınamadı. Ek bilgi: aynı ev (19 Mistel) FEWO.de'de müsait, ayrı kayıt olarak eklendi.",
+   "at": "2026-11-11T19:48:51+03:00",
+   "kartDurumuKesin": true
+  },
+  {
+   "cardId": "six-vrbo-145069-full",
+   "sourceId": "travanto-809914",
+   "sourceUrl": "https://www.travanto.de/ferienhaus/sc/berlin/809914/ferienhaus-ferienhaus-20-mohn-berlin.php",
+   "neden": "Travanto ilan URL'si 302 ile ana sayfaya (https://www.travanto.de/) yönleniyor (curl ve tarayıcı); travanto.de/berlin/ sayfasında yalnız 3 Berlin ilanı var, Rübezahl evleri listelenmiyor. İlan kaldırılmış görünüyor; tarih/6 kişi sonucu alınamadı. Ek bilgi (kanıt sayılmadı): aynı ev FEWO.de'de (https://fewo.de/unterkunft/ferienhaus-mohn-140-145070/) 30.12–03.01, 6 Gäste için 'verfügbar', €1.742,58 insgesamt.",
+   "at": "2026-11-11T19:48:51+03:00",
+   "kartDurumuKesin": true
+  },
+  {
+   "cardId": "six-vrbo-145069-full",
+   "sourceUrl": "https://ruebezahl-berlin.de/wp-content/uploads/2018/06/ferienhaus-berlin-erholung-2019-2020.pdf",
+   "neden": "2019-2020 tarihli fiyat listesi PDF'i; müsaitlik veya 2026/27 fiyatı içermez, rezervasyon arayüzü değil.",
+   "at": "2026-11-11T19:53:31+03:00",
+   "kartDurumuKesin": true
+  },
+  {
+   "cardId": "yeni-wilde-2-daire",
+   "sourceUrl": "https://www.apartmentservice.de/en/serviced-apartments/berlin/wilde-aparthotels-berlin-checkpoint-charlie-1772",
+   "neden": "Sayfa yalnız asgari fiyat tablosu (One-Bedroom Apartment max 4 kişi, 1 gece €175'ten) ve 'Request offer' formu sunuyor; tarih bazlı müsaitlik sorgusu yok, form gönderilmedi.",
+   "at": "2026-11-11T19:57:02+03:00",
+   "kartDurumuKesin": true
+  },
+  {
+   "cardId": "yeni-locke-2-family",
+   "sourceUrl": "https://skiplagged.com/hotel/7675980/locke-at-east-side-gallery-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=7",
+   "neden": "Skiplagged meta/aracı sayfası; rezervasyon Skiplagged'in kendi akışında, yönlendirdiği asıl sağlayıcı sayfada açıklanmıyor, bu yüzden kanıt sayılmadı. Bağlantı 7 yetişkinliydi; 6 yetişkinle açıldı. Skiplagged gözlemi: 2 oda/6 yetişkin: Deluxe Studio-Twin ve Family Apartment Reserve ile listeleniyor (Family Apartment iadesiz TRY 125.678,95 toplam).",
+   "at": "2026-11-11T19:58:53+03:00",
+   "kartDurumuKesin": true
+  },
+  {
+   "cardId": "yeni-wilde-2-daire",
+   "sourceUrl": "https://skiplagged.com/hotel/3558878/wilde-aparthotels-berlin-checkpoint-charlie-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=7",
+   "neden": "Skiplagged meta/aracı sayfası; rezervasyon Skiplagged'in kendi akışında, yönlendirdiği asıl sağlayıcı sayfada açıklanmıyor, bu yüzden kanıt sayılmadı. Bağlantı 7 yetişkinliydi; 6 yetişkinle açıldı. Skiplagged gözlemi: 2 oda/6 yetişkin: One Bedroom Apartment ve Apartment with Balcony Reserve ile (iadesiz TRY 130.164,72 toplam).",
+   "at": "2026-11-11T19:58:53+03:00",
+   "kartDurumuKesin": true
+  },
+  {
+   "cardId": "yeni-kreuzberg-freiligrath",
+   "sourceUrl": "https://skiplagged.com/hotel/9485872/im-herzen-von-kreuzberg---perfekt-gelegen-fur-bis-zu-8-personen-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
+   "neden": "Skiplagged meta/aracı sayfası; rezervasyon Skiplagged'in kendi akışında, yönlendirdiği asıl sağlayıcı sayfada açıklanmıyor, bu yüzden kanıt sayılmadı. Bağlantı 7 yetişkinliydi; 6 yetişkinle açıldı. Skiplagged gözlemi: 1 oda/6 yetişkin: 'No rooms are available for this date range.' (Booking.com aynı tarihlerde müsait.)",
+   "at": "2026-11-11T19:58:53+03:00",
+   "kartDurumuKesin": true
+  },
+  {
+   "cardId": "yeni-arabel-suite",
+   "sourceUrl": "https://skiplagged.com/hotel/744972/arabel-design-apartments-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
+   "neden": "Skiplagged meta/aracı sayfası; rezervasyon Skiplagged'in kendi akışında, yönlendirdiği asıl sağlayıcı sayfada açıklanmıyor, bu yüzden kanıt sayılmadı. Bağlantı 7 yetişkinliydi; 6 yetişkinle açıldı. Skiplagged gözlemi: 1 oda/6 yetişkin: Suite (Sleeps 8) Reserve ile, iadesiz TRY 134.313,94 toplam (yerinde ödenecek TRY 1.401,49 ücret dahil).",
+   "at": "2026-11-11T19:58:53+03:00",
+   "kartDurumuKesin": true
+  },
+  {
+   "cardId": "yeni-charlottenburg-uc-odali",
+   "sourceUrl": "https://skiplagged.com/hotel/8912209/traumhafte-wohnung-mitten-in-charlottenburg-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
+   "neden": "Skiplagged meta/aracı sayfası; rezervasyon Skiplagged'in kendi akışında, yönlendirdiği asıl sağlayıcı sayfada açıklanmıyor, bu yüzden kanıt sayılmadı. Bağlantı 7 yetişkinliydi; 6 yetişkinle açıldı. Skiplagged gözlemi: 1 oda/6 yetişkin: Three-Bedroom Standard Apartment (Sleeps 6) Reserve ile, iadesiz TRY 120.674,78 toplam (yerinde ödenecek TRY 4.484,77 ücret dahil).",
+   "at": "2026-11-11T19:58:53+03:00",
+   "kartDurumuKesin": true
+  },
+  {
+   "cardId": "yeni-locke-2-family",
+   "sourceUrl": "https://www.airbnb.com/rooms/852135921732135707?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+   "neden": "Airbnb ilanı (852135921732135707) tek aile dairesi, 'Maksimum misafir sayısı: 4'; kart iki daireyi kapsadığı için kart durumuna kanıt sayılmadı. Kişi başı ayrı yatak 2 birimde ayrıca doğrulanmalı.",
+   "at": "2026-11-11T19:42:28+03:00",
+   "kartDurumuKesin": true
+  },
+  {
+   "cardId": "six-vrbo-145069-full",
+   "sourceUrl": "https://reservation.one.dirs21.de/ruebezahl-berlinde/result?range=2027-01-01,2027-01-03&sets=%5B%7B%22uuid%22%3A%224e0220b7-4f39-4f25-bba0-3e020c863bb8%22%2C%22occupancy%22%3A%7B%22adultCount%22%3A6%2C%22children%22%3A%5B%5D%7D%7D%5D&los=2",
+   "neden": "Çelişkili: Rübezahl kendi rezervasyon motoru (dirs21) 30.12–03.01, 6 yetişkin, 1 ev için sonuç vermedi (\"keine passenden Ergebnisse\"); aynı anda Vrbo p5130239 ve FeWo.de 19 Mistel müsait gösteriyor. Ev numarası belirtilmediği için hiçbir satıra müsait değil yazılmadı. Kanıt: Kayıtlı bağlantı 01–03.01 (2 gece) aralıklı; görev tarihleriyle range=2026-12-30,2027-01-03, los=4, 6 Erwachsene, 1 Haus açıldı: 'Leider haben wir keine passenden Ergebnisse für Ihre Suche gefunden.' Takvimde 1–3 Ocak fiyatsız, fiyatlar 4 Ocak'tan itibaren (ab 220 €). Not: aynı tesisin FEWO.de kanalında Mistel ve Mohn evleri bu tarihlerde müsait görünüyor; kanal kontenjanı farklı olabilir.",
+   "at": "2026-11-11T19:53:31+03:00",
+   "kartDurumuKesin": true
+  }
+ ]
+}

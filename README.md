@@ -51,6 +51,8 @@ Günlük müsaitlik: Canlı sayfa açılışta yanındaki `availability-status.j
 
 Son Eklenenler: Kullanıcı yeni bir seçeneği onayladığında kaynak kaydına gerçek eklenme zamanını saat dilimiyle `addedAt` olarak yazın (örnek `2026-11-10T20:53:36Z`); yalnızca fiyat veya müsaitlik yenilendiğinde bu tarihi değiştirmeyin. Görünüm seçili planlar arasındaki seçenekleri en yeniden eskiye sıralar. Aynı konaklamayı kapsayan farklı kapsamlı teklifler ayrı kart gibi çoğaltılmaz; mevcut kartın `relatedStays` alanında kaynak ve kişi bazlı fiyatla ilişkilendirilir. Ayrı teklifin müsaitliği `scope: offer` ve `parentCardId` ile kaydedilir, tüm kartı otomatik olarak dolu yapmaz.
 
+12 Kasım 2026 eklemesi: 11 Kasım taramasındaki 20 aday 12 Kasım’da 30 Aralık–3 Ocak, 6 yetişkin için yeniden kontrol edildi; hepsi müsaitti ve `six/prepared/galeri-sweep-20261112-yeni.json` ile `sweep12-…` kimlikleriyle eklendi. Müsaitlik kanıtı `aday-arama/tarama-2026-11-11/aday-musaitlik-2026-11-12.json` dosyasındadır; kanepe, ödeme ve aynı bina uyarıları kartta görünür.
+
 Kur: Fiyatlar kaynaktaki para biriminde gösterilir; yanında euro ve TL karşılığı (dolar fiyatında ikisi) yazar. Sayfa her açılışta Frankfurter üzerinden günün ECB referans kurunu (`api.frankfurter.dev/v1/latest`) alır ve tüm ≈ tutarları, TL fiyatlı ilanların filtre ve sıralamadaki euro değerini buna göre günceller. Kur alınamazsa tarayıcıdaki son kur, o da yoksa derlemedeki referans kur (`build_liquid.py` içindeki `TRY_PER_EUR`) kullanılır. "En uygun" etiketleri derleme anındaki kurla belirlenir.
 
 Kişi sayısı: Müsaitlik durumu yalnız kontrol edilen kişi sayısında gösterilir. Altı kişilik teklif yedi kişilik fiyat veya müsaitlik kanıtı değildir. Ayrıntı `redesign-prototip/MUSAITLIK.md` içindedir.

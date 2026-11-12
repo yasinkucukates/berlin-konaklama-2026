@@ -450,5 +450,81 @@
   "six-booking-954475401-first": {
     "normalBeds": 5,
     "source": "https://www.booking.com/hotel/de/super-zentral-super-schoner-altbau-im-herzen-von-berlin-fur-bis-zu-12-personen.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&no_rooms=1#room_954475401"
+  },
+  "sweep12-airbnb-1034836316144652017-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/1034836316144652017?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  },
+  "sweep12-traum-ferienwohnungen-93211-20261230-20270103": {
+    "normalBeds": 7,
+    "source": "https://www.traum-ferienwohnungen.de/93211/?arrival=2026-12-30&departure=2027-01-03&persons=6"
+  },
+  "sweep12-airbnb-53796458-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/53796458?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  },
+  "sweep12-airbnb-1333910684186106416-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/1333910684186106416?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  },
+  "sweep12-airbnb-32453158-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/32453158?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  },
+  "sweep12-airbnb-32453154-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/32453154?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  },
+  "sweep12-airbnb-14381251-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/14381251?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  },
+  "sweep12-airbnb-31500359-20261230-20270103": {
+    "normalBeds": 10,
+    "source": "https://www.airbnb.com/rooms/31500359?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  },
+  "sweep12-airbnb-1036200996605773806-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.airbnb.com/rooms/1036200996605773806?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  },
+  "sweep12-booking-cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking-20261230-20270103": {
+    "normalBeds": 6,
+    "source": "https://www.booking.com/hotel/de/cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  },
+  "sweep12-booking-city-apartment-spreeufer-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/city-apartment-spreeufer.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  },
+  "sweep12-booking-stilvolle-6-zimmer-ferienwohnung-mit-2-badern-20261230-20270103": {
+    "normalBeds": 12,
+    "source": "https://www.booking.com/hotel/de/stilvolle-6-zimmer-ferienwohnung-mit-2-badern.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  },
+  "sweep12-booking-britzer-tor-20261230-20270103": {
+    "normalBeds": 7,
+    "source": "https://www.booking.com/hotel/de/britzer-tor.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  },
+  "sweep12-booking-fantastic-berlin-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/fantastic-berlin.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  },
+  "sweep12-booking-petersburger-strasse-kleines-apartment-mit-kuche-und-bad-20261230-20270103": {
+    "normalBeds": 8,
+    "source": "https://www.booking.com/hotel/de/petersburger-strasse-kleines-apartment-mit-kuche-und-bad.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  },
+  "sweep12-booking-trio-apartment-berlin-lichtenberg-20261230-20270103": {
+    "normalBeds": 7,
+    "source": "https://www.booking.com/hotel/de/trio-apartment-berlin-lichtenberg.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  },
+  "sweep12-booking-modern-accommodation-neukoln-20261230-20270103": {
+    "normalBeds": 9,
+    "source": "https://www.booking.com/hotel/de/modern-accommodation-neukoln.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  },
+  "sweep12-booking-attic-apartment-in-villa-20261230-20270103": {
+    "normalBeds": 8,
+    "source": "https://www.booking.com/hotel/de/attic-apartment-in-villa.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  },
+  "sweep12-booking-gneisenau-20261230-20270103": {
+    "normalBeds": 5,
+    "source": "https://www.booking.com/hotel/de/gneisenau.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
   }
 }

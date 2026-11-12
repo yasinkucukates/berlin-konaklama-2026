@@ -1,6 +1,2366 @@
 {
   "records": [
     {
+      "source": "https://www.airbnb.com/rooms/1034836316144652017",
+      "targets": [
+        "sweep12-airbnb-1034836316144652017-20261230-20270103"
+      ],
+      "expected": 20,
+      "method": "curl ile ilan HTML; data-injector-instances JSON içindeki PhotoTourModalSection.mediaItems sırası; baseUrl parametresiz. user/ ve AirbnbPlatformAssets/ deseni yok (yalnız photo tour). Her URL GET ile 200. Tekrar: im_w=240 küçük, sha256 + 256 bit dHash/aHash (≤24/≤20), aday çiftler gözle kontrol. 12.11.2026.",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/7f673651-eec7-4f76-bc8e-270e0d5729a4.jpg",
+          "label": "İlan fotoğrafı 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/3d79e16e-bb3d-442d-ba7a-9b4343ab994a.jpg",
+          "label": "İlan fotoğrafı 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c74ff4da-bc8a-4f0d-853b-3f5d549c4926.jpg",
+          "label": "İlan fotoğrafı 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/370dda27-ee98-484f-a331-5da4fa16f2b9.jpg",
+          "label": "İlan fotoğrafı 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c052530e-a928-4774-b818-d85c771e0cb6.jpg",
+          "label": "İlan fotoğrafı 5"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/563a0d70-7d5f-4664-8309-1b2cb211f6f7.jpg",
+          "label": "İlan fotoğrafı 6"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/3e26b719-0b53-49e6-85cf-efb88d91c4c2.jpg",
+          "label": "İlan fotoğrafı 7"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/ca78ea99-0eb8-4d98-a6eb-20ec14cc3180.jpg",
+          "label": "İlan fotoğrafı 8"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/61bba4ac-ffc4-4471-aacb-17280c398e37.jpg",
+          "label": "İlan fotoğrafı 9"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c4f8ea64-41f8-4478-b2c0-c92b710b6211.jpg",
+          "label": "İlan fotoğrafı 10"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/d4144e0d-e0f2-40e6-9e7c-10fea5c61004.jpg",
+          "label": "İlan fotoğrafı 11"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/cea39f2d-3d86-47fa-876e-553e5c84a137.jpg",
+          "label": "İlan fotoğrafı 12"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/560ed2fb-7acc-4352-ba89-7bd0f08cc303.jpg",
+          "label": "İlan fotoğrafı 13"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/eb8836b9-9539-4f9c-a519-71827ef5ace1.jpg",
+          "label": "İlan fotoğrafı 14"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/2ca88a31-797f-44e2-ac28-534b7cc62c57.jpg",
+          "label": "İlan fotoğrafı 15"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/973db154-524e-4b15-afca-25b86b5eb2d8.jpg",
+          "label": "İlan fotoğrafı 16"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/a727f7b5-7859-434d-8c51-cbacc6f833c8.jpg",
+          "label": "İlan fotoğrafı 17"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/fd0834be-0d81-4d33-8d4c-af691f97f931.jpg",
+          "label": "İlan fotoğrafı 18"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/3d232316-b89f-4f1b-b880-c091a30757c1.jpg",
+          "label": "İlan fotoğrafı 19"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/266f133c-4d4c-4daa-a28b-411a9818a7ce.jpg",
+          "label": "İlan fotoğrafı 20"
+        }
+      ]
+    },
+    {
+      "source": "https://www.traum-ferienwohnungen.de/93211/",
+      "targets": [
+        "sweep12-traum-ferienwohnungen-93211-20261230-20270103"
+      ],
+      "expected": 8,
+      "method": "curl ile ilan HTML; images.traum-ferienwohnungen.de/93211/<id>/46/<ad>.jpg sırası; parametresiz adres 1200 px (imwidth=1600 ile aynı genişlik, en büyük). Logo/harita/avatar yok. 12 URL HEAD 200. Tekrar: imwidth=320 küçük, hash + gözle. 12.11.2026. Kaynak galerideki 12 görselden 9-12. sıradakiler (Brandenburger Tor, East Side Gallery, Alexanderplatz, Tierpark) dairenin değil, ev sahibinin eklediği çevre görselleri olduğu için çıkarıldı; 8 daire fotoğrafı kaldı.",
+      "photos": [
+        {
+          "src": "https://images.traum-ferienwohnungen.de/93211/1704194/46/wohnbereich.jpg",
+          "label": "Oturma alanı"
+        },
+        {
+          "src": "https://images.traum-ferienwohnungen.de/93211/1704197/46/kueche.jpg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://images.traum-ferienwohnungen.de/93211/1704195/46/schlafzimmer-1.jpg",
+          "label": "1. Yatak odası"
+        },
+        {
+          "src": "https://images.traum-ferienwohnungen.de/93211/1704198/46/schlafzimmer-2.jpg",
+          "label": "2. Yatak odası"
+        },
+        {
+          "src": "https://images.traum-ferienwohnungen.de/93211/1704199/46/schlafzimmer-3.jpg",
+          "label": "3. Yatak odası"
+        },
+        {
+          "src": "https://images.traum-ferienwohnungen.de/93211/1704201/46/schlafzimmer-4.jpg",
+          "label": "4. Yatak odası"
+        },
+        {
+          "src": "https://images.traum-ferienwohnungen.de/93211/1704200/46/bad-1.jpg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://images.traum-ferienwohnungen.de/93211/1704218/46/flur.jpg",
+          "label": "Koridor"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/53796458",
+      "targets": [
+        "sweep12-airbnb-53796458-20261230-20270103"
+      ],
+      "expected": 36,
+      "method": "curl ile ilan HTML; data-injector-instances JSON içindeki PhotoTourModalSection.mediaItems sırası; baseUrl parametresiz. user/ ve AirbnbPlatformAssets/ deseni yok (yalnız photo tour). Her URL GET ile 200. Tekrar: im_w=240 küçük, sha256 + 256 bit dHash/aHash (≤24/≤20), aday çiftler gözle kontrol. 12.11.2026.; 12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 1 kare çıkarıldı (foto-ilgisiz-20261112.json)",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/7f58d39d-b169-42b7-9ad4-157f8d05b009.jpg",
+          "label": "İlan fotoğrafı 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/91e95cb8-e7ea-4f89-9631-d6838aff3724.jpg",
+          "label": "İlan fotoğrafı 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/38e158d8-a9fb-4328-95f7-6d407ba86027.jpg",
+          "label": "İlan fotoğrafı 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/5fb51a23-6f5e-4697-af1e-c2f4b5dc22b0.jpg",
+          "label": "İlan fotoğrafı 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/dc8b42d7-6e8f-41cf-a823-2a83a854bd1e.jpg",
+          "label": "İlan fotoğrafı 5"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/9afe3e18-4136-4d49-869f-20560ac1f0a5.jpg",
+          "label": "İlan fotoğrafı 6"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/7f14c811-3190-4d30-bfb4-90e934da6ba5.jpg",
+          "label": "İlan fotoğrafı 7"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/5a598793-a773-4d72-a052-f95bdc14c274.jpg",
+          "label": "İlan fotoğrafı 8"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b3e839ee-111b-4519-b187-0273f7690939.jpg",
+          "label": "İlan fotoğrafı 9"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/dbc79113-cdc1-4b3a-a4e1-85f4c676850f.jpg",
+          "label": "İlan fotoğrafı 10"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/2f425a6b-eba5-41f3-8ed3-1fed892cd0f7.jpg",
+          "label": "İlan fotoğrafı 11"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/84a14411-dce6-4075-a179-e9c908744e58.jpg",
+          "label": "İlan fotoğrafı 12"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/72a0ceb9-45e9-4a28-82a2-a6c747c53536.jpg",
+          "label": "İlan fotoğrafı 13"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c486b86c-665c-4fbd-b193-d4f494d5aaab.jpg",
+          "label": "İlan fotoğrafı 14"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/246e0e0a-dcc4-4908-b78d-8c543d285543.jpg",
+          "label": "İlan fotoğrafı 15"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b2c6e99a-e15c-47da-af39-156fa9ed7296.jpg",
+          "label": "İlan fotoğrafı 16"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/674717d4-f1fe-423c-8a5e-57568abb7a2b.jpg",
+          "label": "İlan fotoğrafı 17"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/1d3220cb-7940-4e84-a07f-6f782fd559ca.jpg",
+          "label": "İlan fotoğrafı 18"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c2a5b18a-28ba-4dc1-afff-324f09023bfb.jpg",
+          "label": "İlan fotoğrafı 19"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/f92f85b1-9df9-48b4-bb57-936736aa049c.jpg",
+          "label": "İlan fotoğrafı 20"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/15218e9e-e950-4282-8ca0-7e4d48eb28e4.jpg",
+          "label": "İlan fotoğrafı 21"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/8f11c89c-67b7-4bea-b400-49301cfb81a3.jpg",
+          "label": "İlan fotoğrafı 22"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b67c39c3-599c-42b4-bad8-28ff5d67afc5.jpg",
+          "label": "İlan fotoğrafı 23"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/6525198a-3314-487a-8b65-4a5b1136b846.jpg",
+          "label": "İlan fotoğrafı 24"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/8a5ffc53-219c-4a34-b4fe-6b1eee1e911a.jpg",
+          "label": "İlan fotoğrafı 25"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b25d975f-dc30-482b-a5bd-b7625748f1e9.jpg",
+          "label": "İlan fotoğrafı 26"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/49bcc3a1-3dfc-43a3-a4fb-4a7005b95590.jpg",
+          "label": "İlan fotoğrafı 27"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/bbef368f-8df4-4240-b0a5-dee9d8dc2b6e.jpg",
+          "label": "İlan fotoğrafı 28"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/a6f6b84f-431b-458d-9931-e53952e6fe38.jpg",
+          "label": "İlan fotoğrafı 29"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/0f7b1943-5591-4ab7-9fac-faa595c691ee.jpg",
+          "label": "İlan fotoğrafı 30"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/df9533b2-1af2-446c-b75e-a56baf43be70.jpg",
+          "label": "İlan fotoğrafı 31"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/40a89294-978c-4501-8a14-d0b60369ec76.jpg",
+          "label": "İlan fotoğrafı 32"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c1e17445-b71c-4294-9f39-6772a756c9cb.jpg",
+          "label": "İlan fotoğrafı 33"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/47347e0b-263e-4827-b5ef-4c504e3af600.jpg",
+          "label": "İlan fotoğrafı 34"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b980e75e-31b9-4e91-909e-f0d052699d0a.jpg",
+          "label": "İlan fotoğrafı 35"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/f0103fdd-ef7d-4342-a0e1-ff0fa655534d.jpg",
+          "label": "İlan fotoğrafı 36"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1333910684186106416",
+      "targets": [
+        "sweep12-airbnb-1333910684186106416-20261230-20270103"
+      ],
+      "expected": 24,
+      "method": "curl ile ilan HTML; data-injector-instances JSON içindeki PhotoTourModalSection.mediaItems sırası; baseUrl parametresiz. user/ ve AirbnbPlatformAssets/ deseni yok (yalnız photo tour). Her URL GET ile 200. Tekrar: im_w=240 küçük, sha256 + 256 bit dHash/aHash (≤24/≤20), aday çiftler gözle kontrol. 12.11.2026.; 12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 1 kare çıkarıldı (foto-ilgisiz-20261112.json)",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/aeda9138-8bda-47c4-b63c-c4e3363fedb5.jpeg",
+          "label": "İlan fotoğrafı 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/8536ab54-02b3-455b-a7c0-767671a9bb42.jpeg",
+          "label": "İlan fotoğrafı 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/dfca07c5-e2c0-43e4-b72e-0bd53fe8dd3d.jpeg",
+          "label": "İlan fotoğrafı 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/be272f57-d41e-433e-9e74-36d67802e0e7.jpeg",
+          "label": "İlan fotoğrafı 5"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/98329e46-fe30-4b3f-b793-66ad74281ba9.jpeg",
+          "label": "İlan fotoğrafı 6"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/1dbfe561-2b9e-4602-ac74-b4cc3bea419e.jpeg",
+          "label": "İlan fotoğrafı 7"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/f849f75d-8225-466b-9a77-89f1d767c86b.jpeg",
+          "label": "İlan fotoğrafı 8"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/a4bda027-dd6e-486b-80d8-39c562aff68a.jpeg",
+          "label": "İlan fotoğrafı 9"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/c39c598f-e1fe-4dcc-a4f5-ba3d5730bddb.jpeg",
+          "label": "İlan fotoğrafı 10"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/d459e380-bd2f-4327-bad5-c69dd5a6680b.jpeg",
+          "label": "İlan fotoğrafı 11"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/2cbe9e6f-88e1-4d8c-9d31-f302727e7bb7.jpeg",
+          "label": "İlan fotoğrafı 12"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/a2b77416-4386-49ac-a376-37bb5feeadf7.jpeg",
+          "label": "İlan fotoğrafı 13"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/085c3281-0b42-443c-8f6b-546953c24cbb.jpeg",
+          "label": "İlan fotoğrafı 14"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/bf032b19-ff16-4b9e-be89-d0c356c561dc.jpeg",
+          "label": "İlan fotoğrafı 15"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/c6bf8421-efa5-463c-8966-237f4e3a2c8e.jpeg",
+          "label": "İlan fotoğrafı 16"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/fdcc0f96-90bd-474e-a8a0-e6c0b1bbe5ca.jpeg",
+          "label": "İlan fotoğrafı 17"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/48a43502-d844-4e39-a96e-c7ab54873af6.jpeg",
+          "label": "İlan fotoğrafı 18"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/593dea88-6a21-4c9d-9b08-a19121cc5b94.jpeg",
+          "label": "İlan fotoğrafı 19"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/a7ca468c-3035-47e3-b33d-1094e7c0722b.jpeg",
+          "label": "İlan fotoğrafı 20"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/8db42fc8-3a85-4219-9e0b-48985c9c615d.jpeg",
+          "label": "İlan fotoğrafı 21"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/e6607aad-b00d-463b-b753-a5d08e770a54.jpeg",
+          "label": "İlan fotoğrafı 22"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/e3934fbc-4d40-4e2e-9e03-efd949b061ea.jpeg",
+          "label": "İlan fotoğrafı 23"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/58b22a7b-2b0e-4d5f-859f-34fa7425adb1.jpeg",
+          "label": "İlan fotoğrafı 24"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1333910684186106416/original/15b5f80b-3841-4b36-8731-c6de2df80424.jpeg",
+          "label": "İlan fotoğrafı 25"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1591873645675719304",
+      "targets": [
+        "sweep12-airbnb-1591873645675719304-20261230-20270103"
+      ],
+      "expected": 17,
+      "method": "curl ile ilan HTML; data-injector-instances JSON içindeki PhotoTourModalSection.mediaItems sırası; baseUrl parametresiz. user/ ve AirbnbPlatformAssets/ deseni yok (yalnız photo tour). Her URL GET ile 200. Tekrar: im_w=240 küçük, sha256 + 256 bit dHash/aHash (≤24/≤20), aday çiftler gözle kontrol. 12.11.2026.",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/7f854cb3-3312-45b7-9e89-8862f1be480e.jpeg",
+          "label": "İlan fotoğrafı 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/69780b16-af6b-4508-968d-ead67cd39528.jpeg",
+          "label": "İlan fotoğrafı 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/d56e5408-0f00-412f-bff0-77e0744853ea.jpeg",
+          "label": "İlan fotoğrafı 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/12c9e321-0751-4bb6-8402-6a505326e6b8.jpeg",
+          "label": "İlan fotoğrafı 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/fc31f25a-c900-48d9-96b5-f941e1de1e0e.jpeg",
+          "label": "İlan fotoğrafı 5"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/47a59617-a887-4355-98a6-7ec6eea43cde.jpeg",
+          "label": "İlan fotoğrafı 6"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/237d9dab-0d03-46c2-bd6a-7ebef5752177.jpeg",
+          "label": "İlan fotoğrafı 7"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/60be14a4-5739-4ed9-a383-8c0f96c675ef.jpeg",
+          "label": "İlan fotoğrafı 8"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/24f89645-2c41-4c47-b38c-755242e1714c.jpeg",
+          "label": "İlan fotoğrafı 9"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/4828926d-5a5d-410e-8019-35fd2b6d44e1.jpeg",
+          "label": "İlan fotoğrafı 10"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/558fc94b-7eb1-4d99-bc0b-115616c31356.jpeg",
+          "label": "İlan fotoğrafı 11"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/91053ef2-c187-44a6-9c5e-1ecaef4c7461.jpeg",
+          "label": "İlan fotoğrafı 12"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/ef85dc5c-dd75-428b-92e4-196b4ad751b8.jpeg",
+          "label": "İlan fotoğrafı 13"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/fa499624-e67a-4367-814a-57024a784d50.jpeg",
+          "label": "İlan fotoğrafı 14"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/4a4d3fd9-aea1-49fa-8f31-1bec9348c1b5.jpeg",
+          "label": "İlan fotoğrafı 15"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/c5b2be34-4e27-4cef-8c2a-185901a205fb.jpeg",
+          "label": "İlan fotoğrafı 16"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1591873645675719304/original/c5deacd6-9838-4d1a-b733-72db3d75fb56.jpeg",
+          "label": "İlan fotoğrafı 17"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/32453158",
+      "targets": [
+        "sweep12-airbnb-32453158-20261230-20270103"
+      ],
+      "expected": 18,
+      "method": "curl ile ilan HTML; data-injector-instances JSON içindeki PhotoTourModalSection.mediaItems sırası; baseUrl parametresiz. user/ ve AirbnbPlatformAssets/ deseni yok (yalnız photo tour). Her URL GET ile 200. Tekrar: im_w=240 küçük, sha256 + 256 bit dHash/aHash (≤24/≤20), aday çiftler gözle kontrol. 12.11.2026.",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/511fa543-fdc4-4960-9d75-fec3e682aed3.jpg",
+          "label": "İlan fotoğrafı 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/79dff7f1-6ba1-48e9-8345-532b84c50ef7.jpg",
+          "label": "İlan fotoğrafı 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/791be34d-2703-438d-b486-1746a3a8e615.jpg",
+          "label": "İlan fotoğrafı 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c37dc7d8-e415-4f10-8ce0-a02508eddaed.jpg",
+          "label": "İlan fotoğrafı 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b60a5f04-4a1a-4ead-91c8-1630bf5c32ed.jpg",
+          "label": "İlan fotoğrafı 5"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/0cb83144-e9fd-4cda-a85b-3350e1406b7a.jpg",
+          "label": "İlan fotoğrafı 6"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/e71fd878-f076-45cc-b2ac-d19dc1355283.jpg",
+          "label": "İlan fotoğrafı 7"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b3a9d504-4ea4-4a87-ad59-616afb15e6bb.jpg",
+          "label": "İlan fotoğrafı 8"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/d6577c27-db56-4886-900a-e6289a80138d.jpg",
+          "label": "İlan fotoğrafı 9"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/14d6cebc-c586-4257-a658-53258f21de8c.jpg",
+          "label": "İlan fotoğrafı 10"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/af74f777-9ff6-4020-a2c6-cfb4b4393f87.jpg",
+          "label": "İlan fotoğrafı 11"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c1bec158-8821-43ba-9eb1-7bf5c4395430.jpg",
+          "label": "İlan fotoğrafı 12"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/982c26bd-f644-4e38-81ab-6364efc9dd37.jpg",
+          "label": "İlan fotoğrafı 13"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/646ff35b-000e-4a27-8fa5-130d22e3d1f6.jpg",
+          "label": "İlan fotoğrafı 14"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b2e7874c-5aae-4c37-b689-4a355ba9716c.jpg",
+          "label": "İlan fotoğrafı 15"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/ad65b838-8812-45c1-8ea2-8b7f71b10f6f.jpg",
+          "label": "İlan fotoğrafı 16"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/a6098e3e-e7ed-4b10-9414-a79264c104cc.jpg",
+          "label": "İlan fotoğrafı 17"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/517d6a38-00fa-4b61-88a1-2a9391cd1a35.jpg",
+          "label": "İlan fotoğrafı 18"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/32453154",
+      "targets": [
+        "sweep12-airbnb-32453154-20261230-20270103"
+      ],
+      "expected": 18,
+      "method": "curl ile ilan HTML; data-injector-instances JSON içindeki PhotoTourModalSection.mediaItems sırası; baseUrl parametresiz. user/ ve AirbnbPlatformAssets/ deseni yok (yalnız photo tour). Her URL GET ile 200. Tekrar: im_w=240 küçük, sha256 + 256 bit dHash/aHash (≤24/≤20), aday çiftler gözle kontrol. 12.11.2026.",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/12e2a130-1c6c-4ee8-80e1-f707ad714447.jpg",
+          "label": "İlan fotoğrafı 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/a5375cb6-792b-4c5c-84c7-6dca1e574ced.jpg",
+          "label": "İlan fotoğrafı 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/968c70f7-a3f4-4bf0-bf50-a2db2d0be5f1.jpg",
+          "label": "İlan fotoğrafı 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/e4bc68ce-5923-4b50-b746-878ff64ad56b.jpg",
+          "label": "İlan fotoğrafı 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c5c89672-cb4b-4cb7-9713-252281e62094.jpg",
+          "label": "İlan fotoğrafı 5"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/ab300534-a581-4f75-bbf8-da2c65c05142.jpg",
+          "label": "İlan fotoğrafı 6"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/cfc5710d-189e-417a-af40-37ee72c5230d.jpg",
+          "label": "İlan fotoğrafı 7"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/5a704171-4423-4613-ba06-a74ce07448a8.jpg",
+          "label": "İlan fotoğrafı 8"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/28379f05-0a2c-4751-a3bb-9915a76fa86b.jpg",
+          "label": "İlan fotoğrafı 9"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/a6ec9057-00d2-4356-8912-ddde19969f39.jpg",
+          "label": "İlan fotoğrafı 10"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/921f5d1a-9178-4f0b-a051-d524e41f399f.jpg",
+          "label": "İlan fotoğrafı 11"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/f928e896-e20d-4d75-b989-76caa2c41aa6.jpg",
+          "label": "İlan fotoğrafı 12"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/acbac448-a12b-4bc6-9be8-bc935ae44597.jpg",
+          "label": "İlan fotoğrafı 13"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/f7a54607-3ef7-4e28-a7cd-5530aefce08b.jpg",
+          "label": "İlan fotoğrafı 14"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/965fa7da-4e1f-43c1-9ba1-d33b0c1d2e31.jpg",
+          "label": "İlan fotoğrafı 15"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/eefc776e-2928-4cd0-805a-04cead619d9e.jpg",
+          "label": "İlan fotoğrafı 16"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/82fc6064-4c12-4cc8-80e1-3498457b8c74.jpg",
+          "label": "İlan fotoğrafı 17"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b2bffc91-d964-4264-ad42-555f96394bcb.jpg",
+          "label": "İlan fotoğrafı 18"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/14381251",
+      "targets": [
+        "sweep12-airbnb-14381251-20261230-20270103"
+      ],
+      "expected": 34,
+      "method": "curl ile ilan HTML; data-injector-instances JSON içindeki PhotoTourModalSection.mediaItems sırası; baseUrl parametresiz. user/ ve AirbnbPlatformAssets/ deseni yok (yalnız photo tour). Her URL GET ile 200. Tekrar: im_w=240 küçük, sha256 + 256 bit dHash/aHash (≤24/≤20), aday çiftler gözle kontrol. 12.11.2026.; 12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 2 kare çıkarıldı (foto-ilgisiz-20261112.json)",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/c1fa26d1-3da8-4826-a8cf-63a61eeafc70.jpeg",
+          "label": "İlan fotoğrafı 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/448d19d7-fa9c-47ac-b3ab-d3fd14aef163.jpeg",
+          "label": "İlan fotoğrafı 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/2d446f47-fc40-4ded-882c-6a84816d9905.jpeg",
+          "label": "İlan fotoğrafı 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/b5453942-4807-45ae-a3f1-7ce7d5a4ea7f.jpeg",
+          "label": "İlan fotoğrafı 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/8dfe953d-4029-49f1-8271-c3685dac3bf9.jpeg",
+          "label": "İlan fotoğrafı 5"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/3fd518ba-ad52-4e82-9e84-a0a7a28575fb.jpeg",
+          "label": "İlan fotoğrafı 6"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/45cd81df-99a9-4a24-96bc-f78a6f2857f8.jpeg",
+          "label": "İlan fotoğrafı 7"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/e1d1c894-3fc8-4162-a915-b021f554cabb.jpeg",
+          "label": "İlan fotoğrafı 8"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/525e242c-424c-49c9-98cf-7f9b54913648.jpeg",
+          "label": "İlan fotoğrafı 9"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/a0a53860-3d26-4c59-952e-f73e6488a35e.jpeg",
+          "label": "İlan fotoğrafı 10"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/804b68b3-9756-4d55-9d91-82eb8ce3e80e.jpeg",
+          "label": "İlan fotoğrafı 11"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/ef1da7c1-10f4-4666-b420-084ca64b8654.jpeg",
+          "label": "İlan fotoğrafı 12"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/3d801733-5c06-4a5e-8724-ce1c0dc1be26.jpeg",
+          "label": "İlan fotoğrafı 13"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/39c1f8b6-d1a0-40f5-aa04-5adc36c1b722.jpeg",
+          "label": "İlan fotoğrafı 14"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/e85ded29-5925-4770-8945-188a5733d9af.jpeg",
+          "label": "İlan fotoğrafı 15"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/8b5d7c89-2eca-442d-9294-df07587eb46a.jpeg",
+          "label": "İlan fotoğrafı 16"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/2b13fc38-e7ba-453d-974e-17af9091a25d.jpeg",
+          "label": "İlan fotoğrafı 17"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/a0a3f44d-32b1-4dea-b284-4599ae2accbb.jpeg",
+          "label": "İlan fotoğrafı 18"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/427d60cc-31e8-405f-a5a5-d46e7082dd78.jpeg",
+          "label": "İlan fotoğrafı 19"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/774e31bc-fd40-4375-81b7-74231922fb09.jpeg",
+          "label": "İlan fotoğrafı 20"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/9f7b04dc-e4a3-4144-a42c-2bd1963c8e5d.jpeg",
+          "label": "İlan fotoğrafı 21"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/3d683c27-3758-4d36-9982-a08c60ab88f9.jpeg",
+          "label": "İlan fotoğrafı 22"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/618f646e-0e62-4a81-8851-3ac4b47edb1c.jpeg",
+          "label": "İlan fotoğrafı 23"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/27c65d29-462d-48cb-9517-decba4e457c8.jpeg",
+          "label": "İlan fotoğrafı 24"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/cab589be-58fe-4630-9ccb-d18dca7a2d82.jpeg",
+          "label": "İlan fotoğrafı 25"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/c1ea4caf-3107-4369-8be3-57c338024cfc.jpeg",
+          "label": "İlan fotoğrafı 26"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/485a81d3-5af8-4c41-935d-0107c4caed67.jpeg",
+          "label": "İlan fotoğrafı 27"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/7807919d-32c0-4fe6-aa32-4bca66fe9abc.jpeg",
+          "label": "İlan fotoğrafı 28"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/65a3f267-053c-4d5d-8e39-4f3d7dd45762.jpeg",
+          "label": "İlan fotoğrafı 29"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/19aac15e-0ecd-4165-831f-8b0469902269.jpeg",
+          "label": "İlan fotoğrafı 30"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/ee1c22e0-913c-4fae-bdfa-ad8bd58c8370.jpeg",
+          "label": "İlan fotoğrafı 32"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/46623f87-6b68-479d-9058-718b952a8944.jpeg",
+          "label": "İlan fotoğrafı 33"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/cf94c479-147d-4616-9c68-48d917ac55ec.jpeg",
+          "label": "İlan fotoğrafı 34"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-14381251/original/9d9439c2-8b20-44f9-8fbf-821487a88695.jpeg",
+          "label": "İlan fotoğrafı 35"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/31500359",
+      "targets": [
+        "sweep12-airbnb-31500359-20261230-20270103"
+      ],
+      "expected": 21,
+      "method": "curl ile ilan HTML; data-injector-instances JSON içindeki PhotoTourModalSection.mediaItems sırası; baseUrl parametresiz. user/ ve AirbnbPlatformAssets/ deseni yok (yalnız photo tour). Her URL GET ile 200. Tekrar: im_w=240 küçük, sha256 + 256 bit dHash/aHash (≤24/≤20), aday çiftler gözle kontrol. 12.11.2026.; 12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 4 kare çıkarıldı (foto-ilgisiz-20261112.json)",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/ce6f3f33-c985-4bf3-8630-834018cd258d.jpg",
+          "label": "İlan fotoğrafı 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/b1d409b1-ef34-4909-9198-1f2e296aff02.jpg",
+          "label": "İlan fotoğrafı 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/ead6002b-837e-4854-9fc1-8912590e2c4d.jpg",
+          "label": "İlan fotoğrafı 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/86b7eb2a-8429-4cbd-ac10-899e3c45883b.jpg",
+          "label": "İlan fotoğrafı 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/91e5c524-6010-462e-b56f-db0ff97fdb4c.jpg",
+          "label": "İlan fotoğrafı 5"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c4ce6d2a-e7a7-40fc-b06c-121c438d356c.jpg",
+          "label": "İlan fotoğrafı 6"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/78861a62-f176-482d-8aa8-f5943a8e7e69.jpg",
+          "label": "İlan fotoğrafı 7"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/f7a6f1d8-1b69-40ce-8d73-5c8823b36aac.jpg",
+          "label": "İlan fotoğrafı 8"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/4c922cbd-78d9-4353-b64e-f63675312352.jpg",
+          "label": "İlan fotoğrafı 10"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/35f5b06a-44c7-47b4-bbe9-0451b6849b61.jpg",
+          "label": "İlan fotoğrafı 11"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/d42dca04-319b-4dcd-a070-5939a32bffcc.jpg",
+          "label": "İlan fotoğrafı 12"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/3eec5a94-46e5-454a-a8e3-197ca026bccd.jpg",
+          "label": "İlan fotoğrafı 13"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/dab62689-3446-43f1-a5bb-9a4222b71221.jpg",
+          "label": "İlan fotoğrafı 14"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/29c7901c-efdd-4ecc-884b-a166302e5524.jpg",
+          "label": "İlan fotoğrafı 15"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/57949673-bca6-42b2-8d0d-261040bd68f4.jpg",
+          "label": "İlan fotoğrafı 16"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/cd7ba896-8f73-40d7-b405-9c426c13045b.jpg",
+          "label": "İlan fotoğrafı 18"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/8af99ab9-3cbd-45df-b4be-da29359b212b.jpg",
+          "label": "İlan fotoğrafı 19"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/160952bf-500d-4f3b-8cbf-e03722a1819e.jpg",
+          "label": "İlan fotoğrafı 20"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/78f1eb59-ddad-44e7-83f4-18417d4d63b3.jpg",
+          "label": "İlan fotoğrafı 21"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/bf68ef0a-5515-4111-95bb-9d962ad8a178.jpg",
+          "label": "İlan fotoğrafı 22"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/bf9b349d-c06f-47e6-87ae-047914ef221f.jpg",
+          "label": "İlan fotoğrafı 23"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1036200996605773806",
+      "targets": [
+        "sweep12-airbnb-1036200996605773806-20261230-20270103"
+      ],
+      "expected": 31,
+      "method": "curl ile ilan HTML; data-injector-instances JSON içindeki PhotoTourModalSection.mediaItems sırası; baseUrl parametresiz. user/ ve AirbnbPlatformAssets/ deseni yok (yalnız photo tour). Her URL GET ile 200. Tekrar: im_w=240 küçük, sha256 + 256 bit dHash/aHash (≤24/≤20), aday çiftler gözle kontrol. 12.11.2026.",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/da4d4f26-c868-434d-bad7-5957cf8ff6ef.png",
+          "label": "İlan fotoğrafı 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/ed7b88a0-8531-486a-b33e-cbaf4e4a8b4f.png",
+          "label": "İlan fotoğrafı 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/5e0e971e-a07a-421a-8678-a23ac2e89230.png",
+          "label": "İlan fotoğrafı 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/8eeca6a6-f1e1-46e3-8567-3fde1e2b8003.png",
+          "label": "İlan fotoğrafı 4"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/d70980ad-d98a-4771-8991-18beac76c716.png",
+          "label": "İlan fotoğrafı 5"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/8c18d976-2870-4e09-ac49-b783b3a09bea.png",
+          "label": "İlan fotoğrafı 6"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/0da89c6d-1371-40b5-9b6a-b8571fabeca8.png",
+          "label": "İlan fotoğrafı 7"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/a2d53dfa-ec3d-440e-ac76-6668833672c9.png",
+          "label": "İlan fotoğrafı 8"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/1c9df528-eed3-454b-9f34-511865444443.png",
+          "label": "İlan fotoğrafı 9"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/2252fe5b-b94a-46f8-a784-94ad5d012a20.png",
+          "label": "İlan fotoğrafı 10"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/4a441cad-8fd1-4602-9105-3bc7631cdce9.png",
+          "label": "İlan fotoğrafı 11"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/fbd9fd7e-6229-43bd-a7d2-5d90af5be038.png",
+          "label": "İlan fotoğrafı 12"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/b275ae09-5e0d-4f97-a6ff-d1b093b55ee3.png",
+          "label": "İlan fotoğrafı 13"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/e8045d4c-b443-4b03-baac-a2f4a36efe53.png",
+          "label": "İlan fotoğrafı 14"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/a24c582f-5c2a-4b1f-bbdd-0d5fbf509ba9.png",
+          "label": "İlan fotoğrafı 15"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/50134f92-9d30-4355-8b6b-5964875c70c2.png",
+          "label": "İlan fotoğrafı 16"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/8fc4074b-506f-4056-9bf3-75d8f9f48ef8.png",
+          "label": "İlan fotoğrafı 17"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/2f7c854b-3a5d-43fc-b8a4-e596758167f8.png",
+          "label": "İlan fotoğrafı 18"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/2c64da1b-8120-495d-b6df-a29d6c7963f4.png",
+          "label": "İlan fotoğrafı 19"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/ff3b1da3-73a5-4529-b76a-e5b9b01272a1.png",
+          "label": "İlan fotoğrafı 20"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/14a560d3-a561-40c3-a222-aa6ecac6964a.png",
+          "label": "İlan fotoğrafı 21"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/9696dd64-c633-4dd8-a6be-d8cf90709cf4.png",
+          "label": "İlan fotoğrafı 22"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/d63ee9ec-f33a-47ca-939d-4954318e6eb1.jpeg",
+          "label": "İlan fotoğrafı 23"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/e3f4b5de-2d2f-452d-a50a-e7b0707a0106.png",
+          "label": "İlan fotoğrafı 24"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/ab7c3152-dcf9-40e4-90e4-4426cfb6ef48.png",
+          "label": "İlan fotoğrafı 25"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/5226f8f2-f35d-4974-a125-3ebe743bf883.jpeg",
+          "label": "İlan fotoğrafı 26"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/9d98d3b5-d556-4b0e-8342-3c6d3c008e15.jpeg",
+          "label": "İlan fotoğrafı 27"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/85052aa6-e032-41fc-a462-5ea665e514d0.jpeg",
+          "label": "İlan fotoğrafı 28"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/5437893f-10eb-44c0-8da7-380fae7c2b76.jpeg",
+          "label": "İlan fotoğrafı 29"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/e6a7c7e4-7113-49c3-a50f-0b42fe8ee370.jpeg",
+          "label": "İlan fotoğrafı 30"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1036200996605773806/original/cec0aae1-6fd0-460f-9dac-c2c9e374d961.jpeg",
+          "label": "İlan fotoğrafı 31"
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking.html",
+      "targets": [
+        "sweep12-booking-cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking-20261230-20270103"
+      ],
+      "expected": 18,
+      "method": "Booking tesis fotoğraf galerisi penceresindeki ızgara sırası (data-testid gallery-grid-photo-action-<id>; logo, harita, yorumcu görselleri yok); id ve k imzası galeri görsellerinden, max1920x1080 adresi HEAD 200 ile doğrulandı; max300 küçük boyutta sha256 + 256 bit dHash/aHash adayları gözle kontrol edildi. 12.11.2026.",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454421.jpg?k=00d3c5eb549bcc63a275fe00e18538b425d2fdcbcba0b2899308131166a5949a&o=",
+          "label": "Oturma alanı · Fotoğraf 1"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454434.jpg?k=270ac90d7f5d0133a43309d8360efbebe3363145b7a1e39d0ebead1a6b4f630d&o=",
+          "label": "Mutfak · Fotoğraf 2"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454440.jpg?k=307725ba8f7fc9070c92099bd176c4b277e124cecfa5895c1c3ee752cb612b7e&o=",
+          "label": "Yatak odası · Fotoğraf 3"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454420.jpg?k=5cb4bf987b47d2143f27f5843cb5102a53e8612bf43325a38ef87759cdbbdd7e&o=",
+          "label": "Oturma alanı · Fotoğraf 4"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454450.jpg?k=6fd6ae77610dec0e74c72ef69b24faeaa526c68d7e56f8fc750ce65ba986b63d&o=",
+          "label": "İlan fotoğrafı 5"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454448.jpg?k=046fb6e1d851ffe69b5d0f5ebbd1f37a74ff01fc8940a9acf8fb372989fe2da8&o=",
+          "label": "Banyo · Fotoğraf 6"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454447.jpg?k=67218c4462f236699ee057e5f94a9bc70a0bc43c6a456b9902ae547c42587d12&o=",
+          "label": "Kat planı · Fotoğraf 7"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454439.jpg?k=6ce29bca0dd484b6b7ecdb92b0e9be1e463339afd9ddf20901ea580274406721&o=",
+          "label": "Koridor · Fotoğraf 8"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454444.jpg?k=523006caf32e730efbc6b39082e943b03f7bab6b865ae7ce678061a3acb749a2&o=",
+          "label": "Banyo · Fotoğraf 9"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454431.jpg?k=85fd76c1a0252cb948f70c585e68e9134e94019c64478574caa3fefa673a09a6&o=",
+          "label": "Mutfak · Fotoğraf 10"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535821082.jpg?k=62337db233dea197d66f986eba36961fd53b318a21a21b77113c6d18730e9edc&o=",
+          "label": "Yemek alanı · Fotoğraf 11"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454457.jpg?k=7d8b2ecc426410fa8e1b725ccf39d6d769322c68a5b0546ce87fa0b653299db3&o=",
+          "label": "Bina · Fotoğraf 12"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454441.jpg?k=37cdbcc169a920f73c42661151e3b78c4244b6f408af93d09dc6035e6eb52159&o=",
+          "label": "Yatak odası · Fotoğraf 13"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454427.jpg?k=13e82d5560b9c6222cef7efd69d095a4b0506ce71ea32701409719f879a134ee&o=",
+          "label": "Oturma alanı · Fotoğraf 14"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454430.jpg?k=d433d79e89353cfdcd1ed5924722ecc2dfb02c610c2e29b1281b1c66033f1c0d&o=",
+          "label": "Yemek alanı · Fotoğraf 15"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454436.jpg?k=98cab51c962c78fc58f7d24e6d5d6bc4e747e1050014d8723fb66a260268d29f&o=",
+          "label": "Mutfak · Fotoğraf 16"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454435.jpg?k=ac42d598114bcb5a321f600c26786dc2b1ec4bf91c198008c217fb3e3930a969&o=",
+          "label": "Koridor · Fotoğraf 17"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535454442.jpg?k=6f25fe39ef0b6476e5a3ce315f64cce90f689b0730250c3d576d7754d19ba37a&o=",
+          "label": "Yatak odası · Fotoğraf 18"
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/city-apartment-spreeufer.html",
+      "targets": [
+        "sweep12-booking-city-apartment-spreeufer-20261230-20270103"
+      ],
+      "expected": 15,
+      "method": "Booking tesis fotoğraf galerisi penceresindeki ızgara sırası (data-testid gallery-grid-photo-action-<id>; logo, harita, yorumcu görselleri yok); id ve k imzası galeri görsellerinden, max1920x1080 adresi HEAD 200 ile doğrulandı; max300 küçük boyutta sha256 + 256 bit dHash/aHash adayları gözle kontrol edildi. 12.11.2026.; 12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 2 kare çıkarıldı (foto-ilgisiz-20261112.json)",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842932.jpg?k=fc3f11296758060e83267a42228bd10effc78ff42924555dd02f47fcec9d2e64&o=",
+          "label": "Yatak odası · Fotoğraf 1"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842914.jpg?k=0f16452848908057e19bc97345f3ba7c8a0b99f4a7ead1d1bd225aa33e642739&o=",
+          "label": "Yatak odası · Fotoğraf 2"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842925.jpg?k=05869c81bee21b15351c69f7ea7ba05a26927550743d06f7e76a278b9dc3d513&o=",
+          "label": "Oturma alanı · Fotoğraf 4"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842729.jpg?k=df785d51f279d75bb5ac83a47de04fcd84e8a6a80ee81a377020c1602a420a23&o=",
+          "label": "Yatak odası · Fotoğraf 5"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842877.jpg?k=d45aa698f0aadc735d9590f8f4bdcb757bd3867395f898466fe5a993a96ee937&o=",
+          "label": "Banyo · Fotoğraf 6"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842872.jpg?k=6471dd6cf918dd63b735416d76135cbececd955c0d86249b98c422dd00a971c1&o=",
+          "label": "Mutfak · Fotoğraf 7"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842895.jpg?k=ee9ff1d65b501a2ad8c13730030cae221290a1a626935db1ac5a67ce2678366e&o=",
+          "label": "Yatak odası · Fotoğraf 9"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842885.jpg?k=498c05eba5e9a8006d79cdc0afd5da7bc446239ffdd6688f7e5db89b9f4059e5&o=",
+          "label": "Banyo · Fotoğraf 10"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842831.jpg?k=c7788ca2f741d3c4f7b6e854632a4eaaedb6e7319ee37267a3ecce623f179af6&o=",
+          "label": "Banyo · Fotoğraf 11"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842888.jpg?k=e971bedbe242c50fa917baa191d5b5f57f3802ce8040923ba2b4739e00862ca2&o=",
+          "label": "Mutfak · Fotoğraf 12"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842878.jpg?k=9087499c668748b84276bd8722eaf2933dfd7fe54d9f4535d5e71cb44a06f5b6&o=",
+          "label": "Yatak odası · Fotoğraf 13"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842919.jpg?k=91f41fcf522d1554eca749cf74d33124025ccce65011d8e5bcd0332472eae47e&o=",
+          "label": "Yatak odası · Fotoğraf 14"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842842.jpg?k=36c102df45209fd2701c356b8f1b68cd640c57358b335d55ebd1d4e640f8c6a0&o=",
+          "label": "Mutfak · Fotoğraf 15"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842839.jpg?k=fc1895acf3383521d6892be01b3565fcd8226226596e1a91073971e0157baa7d&o=",
+          "label": "Mutfak · Fotoğraf 16"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/848842898.jpg?k=d9c155b8c30a7285284e16f4a14b9628df7148349f579a682e654629832f2e18&o=",
+          "label": "Oturma alanı · Fotoğraf 17"
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/stilvolle-6-zimmer-ferienwohnung-mit-2-badern.html",
+      "targets": [
+        "sweep12-booking-stilvolle-6-zimmer-ferienwohnung-mit-2-badern-20261230-20270103"
+      ],
+      "expected": 24,
+      "method": "Booking tesis fotoğraf galerisi penceresindeki ızgara sırası (data-testid gallery-grid-photo-action-<id>; logo, harita, yorumcu görselleri yok); id ve k imzası galeri görsellerinden, max1920x1080 adresi HEAD 200 ile doğrulandı; max300 küçük boyutta sha256 + 256 bit dHash/aHash adayları gözle kontrol edildi. 12.11.2026.",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271311.jpg?k=e4983f4c3799f47ecdd3b1e49ea61b8f9390a4b2a64084088db04c0a2848fbb9&o=",
+          "label": "Oturma alanı · Fotoğraf 1"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271231.jpg?k=94168b729a386c7dfb390ad09d383e4130a90b0ba41156854b76763573b3641d&o=",
+          "label": "Koridor · Fotoğraf 2"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271265.jpg?k=b19ed49a8fded4f24839154f8e688a7b5e329efb78529502eae39b5dcb361c92&o=",
+          "label": "Koridor · Fotoğraf 3"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271129.jpg?k=7b88d6df0952166a215ea3326fad3f58381af561b6ff4c56b86550dd61dfb61e&o=",
+          "label": "Banyo · Fotoğraf 4"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271071.jpg?k=f9ddf017d5d2899c0a1761bc19806c626e8eb8ac24af18bfcce936e74e10642e&o=",
+          "label": "Banyo · Fotoğraf 5"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271164.jpg?k=c077988d6626ccc67d30e410cea2315097159ed361c4afbf40a32aecb4e5cddf&o=",
+          "label": "Banyo · Fotoğraf 6"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271181.jpg?k=a69c50eba3c416f57bdef672c94f99960f41d41facf3ecc50da7f4cdeff85016&o=",
+          "label": "Banyo · Fotoğraf 7"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271194.jpg?k=1ca10266c99e74e487dec4f1945e16a90eb8eb3a1f99c8b7721b0cbdc432e043&o=",
+          "label": "Yemek alanı · Fotoğraf 8"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271211.jpg?k=c47255d7cebebff987cc854431c7af79edb73874f248dbc18b5c41ba7d143d1a&o=",
+          "label": "Yemek alanı · Fotoğraf 9"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271369.jpg?k=96287596041b93a15ca9d6b15c750ba979af64ea386db5ac7db8dee627e38510&o=",
+          "label": "Mutfak · Fotoğraf 10"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271388.jpg?k=7148815956db716bb7f90a84c4b4d498074618275590bb2b3bea48c6ec32288d&o=",
+          "label": "Mutfak · Fotoğraf 11"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271391.jpg?k=221f254977e8ac7128a855b3cf31722fd43753807f4f4d9a61c65db6c894a65c&o=",
+          "label": "Mutfak · Fotoğraf 12"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271419.jpg?k=50f5eec0cf522908918b4f2b691021a3500762fea15e3af722ab002c95e6247c&o=",
+          "label": "Mutfak · Fotoğraf 13"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271439.jpg?k=7dc9d9081c45193cac4e5c9fe8efd771d2be8cea9a5934fc2eea59bb31ad32f1&o=",
+          "label": "Mutfak · Fotoğraf 14"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271515.jpg?k=1a9bd48213a87be0a3330d8631bb190ed723a91633c0020e74a87d6c620aae9e&o=",
+          "label": "Yatak odası · Fotoğraf 15"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271613.jpg?k=c3eaa586f236701ab6a47738e81f9f7bbc8cfa6cef0172f506d463cc5a021e1a&o=",
+          "label": "Yatak odası · Fotoğraf 16"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271672.jpg?k=76ffbad7d272adc1ac89c56ec0c637974b42dbe04df8b592e548ef37578e5541&o=",
+          "label": "Yatak odası · Fotoğraf 17"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271729.jpg?k=78e1ae17cb5f90e3ba841dc7dcecf2076863fee3d7d59478ebc4d59d025f8248&o=",
+          "label": "Yatak odası · Fotoğraf 18"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271474.jpg?k=c8b944af667756b20bdd114f5086184d78ae9164e04dde75aa0077357b39f27e&o=",
+          "label": "Yatak odası · Fotoğraf 19"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271463.jpg?k=248b306d784d319c1be87e0b062b71873d6ece9dba35cb1a9a59b21a2e04911c&o=",
+          "label": "Yatak odası · Fotoğraf 20"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271451.jpg?k=38fd1dcd00429103cbf07eee89fc21fd933e71f9092e8d5a890158dad97508cc&o=",
+          "label": "Yatak odası · Fotoğraf 21"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271767.jpg?k=cc4c46e38f89aa7992e0cce53bb37938d4d1277d75e0d0b0d2c9b149e93a79a6&o=",
+          "label": "Yatak odası · Fotoğraf 22"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271808.jpg?k=8cad3bdb2e4bbfb93d66aa6efbff04e1a0ac3ce8db159f40ff41df9614713a26&o=",
+          "label": "Yatak odası · Fotoğraf 23"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/824271837.jpg?k=cba0bd70fbe5b885444d438dfb595d016e3cb869d6b59381df59a6e979a84aca&o=",
+          "label": "Yatak odası · Fotoğraf 24"
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/britzer-tor.html",
+      "targets": [
+        "sweep12-booking-britzer-tor-20261230-20270103"
+      ],
+      "expected": 37,
+      "method": "Booking tesis fotoğraf galerisi penceresindeki ızgara sırası (data-testid gallery-grid-photo-action-<id>; logo, harita, yorumcu görselleri yok); id ve k imzası galeri görsellerinden, max1920x1080 adresi HEAD 200 ile doğrulandı; max300 küçük boyutta sha256 + 256 bit dHash/aHash adayları gözle kontrol edildi. 12.11.2026.; 12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 9 kare çıkarıldı (foto-ilgisiz-20261112.json)",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118413.jpg?k=e1af22f466e8c0c3d2a38d8b065af40904b11fab37aa640fd25190855f923b30&o=",
+          "label": "Yatak odası · Fotoğraf 1"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118482.jpg?k=89a2d1f8e457d4c0a0be717f8396c780dcc595b66a15e8ef052fc48ac7afeb37&o=",
+          "label": "Banyo · Fotoğraf 2"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269781207.jpg?k=a8bd45f4fb22014ff911152889b012407221e428eb1814553714b55be0961610&o=",
+          "label": "Bina · Fotoğraf 3"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/511829806.jpg?k=10f552fc327011805f74e9593a0a22624f1444aad8906075c0d4e9c809b3188b&o=",
+          "label": "İlan fotoğrafı 4"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959294.jpg?k=e3f2a615a2571fb5bf19d9d9df2416a3c2e57d7ff3f9b6846ba02f5a6ed5030b&o=",
+          "label": "Yatak odası · Fotoğraf 6"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118405.jpg?k=f5c0e0c004239cf33b97ce93edcbf3d5e6de0c31025b692874406b503fbbafb1&o=",
+          "label": "Yatak odası · Fotoğraf 7"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959304.jpg?k=c168cb262b7285f077e88593d1b63f2e762bc037792c7ab66cd33956db37cf80&o=",
+          "label": "Yatak odası · Fotoğraf 8"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959293.jpg?k=0260914054fbe8e7d435ed54bd9bddd9c4a1625dbb35d93420fa505f855be5b6&o=",
+          "label": "Yatak odası · Fotoğraf 9"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118501.jpg?k=8072ef37e10b272afe8e99deb6467829fa96260b7e67d2f0673e72b8a07e193d&o=",
+          "label": "Yemek alanı · Fotoğraf 10"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269781208.jpg?k=305faca7cb727dc4d22249c6246efaf34b08fcd397a38d1ed5d3578aec2efe9f&o=",
+          "label": "Bina · Fotoğraf 11"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959291.jpg?k=f77f4a527317ec58a330acfd7b984c71d8d14d7ff7960b93555f1528fcae17c4&o=",
+          "label": "Yatak odası · Fotoğraf 12"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118481.jpg?k=874a31d8343ceab33fb6b7a7279efa70fdcc3a671e037b00934bf85c21e7b319&o=",
+          "label": "Banyo · Fotoğraf 13"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118497.jpg?k=9f14d61e89a3be2bdba1937f965cd67894487a9d6b63b4cd8437f17ebc0e5fe0&o=",
+          "label": "Mutfak · Fotoğraf 14"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118472.jpg?k=96f468285d28767df5ed3c7b185a1c64b6c06249121b337cea0b21c75cde01ed&o=",
+          "label": "Oturma alanı · Fotoğraf 15"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118484.jpg?k=583b679c48904fb38cd9de46dafe28882551605149b665553a155897767dc66f&o=",
+          "label": "Balkon · Fotoğraf 22"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118418.jpg?k=975d19f0c8ab060fa0048f380b4efe1cf9eff8d433e2f137640759618a1c33a5&o=",
+          "label": "Banyo · Fotoğraf 23"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118423.jpg?k=880481ef1197b3df8e2f8dd0f397003eba5290663b1184910ace13b127b1eabd&o=",
+          "label": "Yatak odası · Fotoğraf 24"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959297.jpg?k=f54bdebc414199b584576f9d71ff4af369f4bb41291f671f2f5ce4eed555ffcf&o=",
+          "label": "Yatak odası · Fotoğraf 25"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959302.jpg?k=ab25bdbdd4b35365ccaa488db5d4b9e917d6522aafb1bed4a2cd9b3c73623891&o=",
+          "label": "Yatak odası · Fotoğraf 26"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959305.jpg?k=ddb1cd82752e746a3fa0730de94ab9b7bf164fa5525622e8b065b3685bdcb153&o=",
+          "label": "Yatak odası · Fotoğraf 27"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118415.jpg?k=5835af5d42698cfaffc55fdab1f071884cdcb1b103c0eeb487af0a4ec51b1b15&o=",
+          "label": "Yatak odası · Fotoğraf 28"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118475.jpg?k=8b12685862d5b95f54a1071673e4b55bddeb3c396a59f64a9d5be4d6e53496f4&o=",
+          "label": "Yemek alanı · Fotoğraf 29"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118350.jpg?k=8fa9cf504869f826f6c5685c0e371bb1d30b3bd5fe6359c12dea82273f55c9f1&o=",
+          "label": "Yatak odası · Fotoğraf 30"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118408.jpg?k=d3015a51329f01f7ca581060fdc5fc36699e6a7a3a06d791dd4d596e8877e171&o=",
+          "label": "Yatak odası · Fotoğraf 31"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959306.jpg?k=820b44c8605922410c644f095697c7ddd3b2995e1b3fe2205bc2f16a79698d0c&o=",
+          "label": "Yatak odası · Fotoğraf 32"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118420.jpg?k=e9f91de56fe353d9cc7bd084ccca882efcdf0935931e731e9e70dcfe38a84b69&o=",
+          "label": "Yatak odası · Fotoğraf 33"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118400.jpg?k=57b971f57ec89b2aa7c16e534f520ba78c099cc41f7ecd6e2f50344206c88d9b&o=",
+          "label": "Yatak odası · Fotoğraf 34"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118422.jpg?k=6f459e2431c98abf20644ad4471ca152f5aa1adefa1fc6a1df1726462f8408dc&o=",
+          "label": "Banyo · Fotoğraf 35"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118355.jpg?k=74f71bc530c0d483e296d3b14780c04f5eb77a6baffe386b061981a2600bde9d&o=",
+          "label": "Banyo · Fotoğraf 36"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118379.jpg?k=6a43ba6346fd0ed626cff04e04510b4ac7cf9123b0cac086c104a8df69a2e03b&o=",
+          "label": "Banyo · Fotoğraf 37"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118427.jpg?k=d4ffc2a8ba1b2774f13fb2e5748c5095ab39ce767327e19e9c3697f6d7954a0d&o=",
+          "label": "Banyo · Fotoğraf 38"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118425.jpg?k=35660ec3220e8930b5c7b219ce04dba28e162913d771420e1e874949d68cd056&o=",
+          "label": "Banyo · Fotoğraf 39"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/208118382.jpg?k=39b9caf0e409a6fe16f69fdfabbfe9be8ae70a72b7892036deb4c798a87f2551&o=",
+          "label": "Banyo · Fotoğraf 40"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959296.jpg?k=3d8912a17fe932570d8f4efe734a9e7b0112031b345b80c18cdde157be9976f4&o=",
+          "label": "Bina · Fotoğraf 41"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269781210.jpg?k=95473d304ad240862d19c38a28ffdb3f15ae21e866724b16ecb47b2fc4bb9ae6&o=",
+          "label": "Bina · Fotoğraf 42"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/269959292.jpg?k=06f5be0d7209ad9930bb03a8e6fd0cfdf8342287c8169e215cd47aa4225934d2&o=",
+          "label": "Yatak odası · Fotoğraf 43"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/421354038.jpg?k=5fef48f0b5b99ccbcbe8db6fd70cd136850eaa31fbeb68b293f2414a79c7802b&o=",
+          "label": "Mutfak · Fotoğraf 44"
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/fantastic-berlin.html",
+      "targets": [
+        "sweep12-booking-fantastic-berlin-20261230-20270103"
+      ],
+      "expected": 39,
+      "method": "Booking tesis fotoğraf galerisi penceresindeki ızgara sırası (data-testid gallery-grid-photo-action-<id>; logo, harita, yorumcu görselleri yok); id ve k imzası galeri görsellerinden, max1920x1080 adresi HEAD 200 ile doğrulandı; max300 küçük boyutta sha256 + 256 bit dHash/aHash adayları gözle kontrol edildi. 12.11.2026.",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512486055.jpg?k=5dd70ad262ce81a24ced2d961b8d2eaee7dc3b82e6e1860bd4ab250997077d72&o=",
+          "label": "İlan fotoğrafı 1"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484166.jpg?k=f02f92e0ee6c572f588e904e7e389f3d5db5da77d2c20170bc7faa235f9b9cc6&o=",
+          "label": "Balkon · Fotoğraf 2"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481774.jpg?k=dd89c8535edf3b84e0d47b7d533e2d425514b0add97c841c56839888bc8e44c5&o=",
+          "label": "Banyo · Fotoğraf 3"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512485047.jpg?k=2d7c169f176da071fc9f5174ace4bc6591bbdc31c04e91a73695d9bddb4736b6&o=",
+          "label": "Oturma alanı · Fotoğraf 4"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483921.jpg?k=a76bb990d5a639eb64f4f0d5d551f99167a8671b893f5a999e30324bdcc95b06&o=",
+          "label": "Yatak odası · Fotoğraf 5"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481388.jpg?k=9fc187cf971398e4aba9b1e5fc25b7ba32bcf8144f7cdf38ce8e2a62ea7f21f1&o=",
+          "label": "Mutfak · Fotoğraf 6"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481629.jpg?k=72c5b572d8f57f8a97629a5f85b5d566a5aa38ad7935e4effb9dc27820c0fe8c&o=",
+          "label": "Yatak odası · Fotoğraf 7"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483086.jpg?k=31240dfcbff36b66febb2b67e20163a6bd19183d2bc8645337ee438f76f8110e&o=",
+          "label": "Yatak odası · Fotoğraf 8"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512482271.jpg?k=225de1d17c3dc51b9d984de9051822f39f8f06b79402c91b36d4273f3aac04c3&o=",
+          "label": "Banyo · Fotoğraf 9"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481321.jpg?k=a808b4db0d165eabae3aa5701a709576f810a1a7db869c6b027bf1b8f04a6d41&o=",
+          "label": "Mutfak · Fotoğraf 10"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484691.jpg?k=09482f597e46f89b860cd642db1e8b1f5af0fc413874f0072700addab25d9068&o=",
+          "label": "Oturma alanı · Fotoğraf 11"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483757.jpg?k=219f7da4263efb443a7198563f313e0a281a64c018834ce7aa5da7e48e82a592&o=",
+          "label": "Yatak odası · Fotoğraf 12"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481452.jpg?k=a7bde6a539099a3aac94d79610d91f907fb94b9c3912bb11940aed530c184f67&o=",
+          "label": "İlan fotoğrafı 13"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512485461.jpg?k=7ebbdaebc65b28bc8251733f6d282306906666d2101fc90a21819adfaf194997&o=",
+          "label": "Oturma alanı · Fotoğraf 14"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484894.jpg?k=ea80b3240571e28753982698acb1ecb55d51791868212bca51ecac50778fe9c4&o=",
+          "label": "Yemek alanı · Fotoğraf 15"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484954.jpg?k=dd233e3c2ec7e063ed36e3f7bce2f655f46d7146fdb0f0678626344852887990&o=",
+          "label": "Oturma alanı · Fotoğraf 16"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512485197.jpg?k=ab42b83847815895271e3bdbefc4a5c3c8ad381a4367d307d7513a2afc27bfb1&o=",
+          "label": "Oturma alanı · Fotoğraf 17"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484498.jpg?k=4914d916053331c347cd02030cfa493b37b1ae0edfdaa1008bbde2ab474ff954&o=",
+          "label": "Oturma alanı · Fotoğraf 18"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484773.jpg?k=b28061d8948c41ed6774d0923586abbd72734fabb91282c4f18ea77cb0e585fd&o=",
+          "label": "Oturma alanı · Fotoğraf 19"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484045.jpg?k=0a6cc1c3e185107c9778f61b4e984d55c7027fdd44f6a845113d6e9bb56cbc0d&o=",
+          "label": "İlan fotoğrafı 20"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512486329.jpg?k=46893dcc5fa388189d5ada15118535615bae587ee39e439d1503d93a9b454ad9&o=",
+          "label": "Yatak odası · Fotoğraf 21"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512486216.jpg?k=56d13173469b468e488148209dafc5be2f031cf1f5133eb850461948959bcac8&o=",
+          "label": "Yatak odası · Fotoğraf 22"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481544.jpg?k=19712e7ec4b29f9a2234dded545602e514baf5734b7a599b636bb6cc70e89767&o=",
+          "label": "İlan fotoğrafı 23"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512485913.jpg?k=d43386e1740e8537538ef746ca0b8d68284f16290928baf722cce8a1b4e2d193&o=",
+          "label": "Yatak odası · Fotoğraf 24"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512480787.jpg?k=b0a7799595548c243e93350de0085863a01609dbfa1f961ba516b27916c4fba3&o=",
+          "label": "Yatak odası · Fotoğraf 25"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512480679.jpg?k=b10c141c2b546426d16ea0ecf2e3ae3651e2de226e03ec8cdb233f8453d82b9b&o=",
+          "label": "Yatak odası · Fotoğraf 26"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512485704.jpg?k=9a17ca40ee522eb4627ed6991cfeff6b60e460f20e415fb736569a08c8022d41&o=",
+          "label": "İlan fotoğrafı 27"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483873.jpg?k=4464f645ff3f759ea879db418da66a708a022223506504dec5a0291d61442ce2&o=",
+          "label": "Yatak odası · Fotoğraf 28"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483679.jpg?k=36ac5779af98c7aa36b65972f758984e55405744b15bc1eae65ddc41b723a3b3&o=",
+          "label": "Yatak odası · Fotoğraf 29"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483589.jpg?k=25b30ab37dd3fa49fa80d4fa8602738189c637bc23263a98c93b2490ac729a66&o=",
+          "label": "Yatak odası · Fotoğraf 30"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483447.jpg?k=bed960ca1a5779dba705bc931f0357eb96d27a41a62c46eacc6ecf3642629347&o=",
+          "label": "Yatak odası · Fotoğraf 31"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512483046.jpg?k=c86983132363bcb1bf018f3641025f4a6bcd34c62c172a4b1f5a2fa8a650d934&o=",
+          "label": "Yatak odası · Fotoğraf 32"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512482577.jpg?k=73a9137244bf7d8372bebbc21598852cf31771325c8e35488d22cb8d5e48f3c2&o=",
+          "label": "Banyo · Fotoğraf 33"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512484315.jpg?k=8861a91eda11ce46c0ec15632ca269783ed3ea2997f1505d34205f556eafb06d&o=",
+          "label": "Balkon · Fotoğraf 34"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512482009.jpg?k=ee6f28e305d660e75d4cc21340a36151bcc31f5d3139e35e1190d10ad570eea2&o=",
+          "label": "Banyo · Fotoğraf 35"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481898.jpg?k=be5bafd00bcb48ed1e3c560042ed361a1666b81f0d2d51d24a2d9289e6f3df77&o=",
+          "label": "Banyo · Fotoğraf 36"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481218.jpg?k=a80ad9a5a1a07123c7a17c52514fe2ec5590677d0d942c87a0c9fb31b724b142&o=",
+          "label": "Mutfak · Fotoğraf 37"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512481145.jpg?k=0eebbdd8423981ecf5319844e678567ea42133c69dc9fda968306d01909b810f&o=",
+          "label": "Mutfak · Fotoğraf 38"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/512480895.jpg?k=48eaec967f7f910cd9f3b7b61757ad1c6044460f91aebf8afe5f5f486332b772&o=",
+          "label": "Mutfak · Fotoğraf 39"
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/petersburger-strasse-kleines-apartment-mit-kuche-und-bad.html",
+      "targets": [
+        "sweep12-booking-petersburger-strasse-kleines-apartment-mit-kuche-und-bad-20261230-20270103"
+      ],
+      "expected": 76,
+      "method": "Booking tesis fotoğraf galerisi penceresindeki ızgara sırası (data-testid gallery-grid-photo-action-<id>; logo, harita, yorumcu görselleri yok); id ve k imzası galeri görsellerinden, max1920x1080 adresi HEAD 200 ile doğrulandı; max300 küçük boyutta sha256 + 256 bit dHash/aHash adayları gözle kontrol edildi. 12.11.2026.",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872264963.jpg?k=9e0fb756c1cff34fcc0b71de281e1e97f32914b832b803e139fccc892144a381&o=",
+          "label": "Mutfak · Fotoğraf 1"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340620.jpg?k=37846f3adbb4fa74d9237788188bbb3e1295c6066a78707d4391a75e47ae8de0&o=",
+          "label": "Mutfak · Fotoğraf 2"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266811.jpg?k=3f58643a7f5417604df76fe539cedad2617e5eb87ca241d4c295a821dd7e6a66&o=",
+          "label": "Banyo · Fotoğraf 3"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266822.jpg?k=c5878f99e9d689657b256e81f8df593309b431c2d3d496b815f6d69183405d6f&o=",
+          "label": "Yatak odası · Fotoğraf 4"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671392.jpg?k=59c01064a36c3b1c881e349c0c80d1e5729095c446fe6b84ac3cbdc22e807d91&o=",
+          "label": "Yatak odası · Fotoğraf 5"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340617.jpg?k=fbb1958ce55cfd09df8b6490efd166ef1d86135accb2a8f7b87221f8f2a591dd&o=",
+          "label": "Yatak odası · Fotoğraf 6"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508597.jpg?k=959cf56c79010ea1a221e8b39de1fc3a0d04691e8ef401f630dbb4d0602bc078&o=",
+          "label": "Yatak odası · Fotoğraf 7"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508591.jpg?k=b117099400da6f25fe9e387ec6a57e296cc2f3465d821d7df9bc9c7b665fe3cb&o=",
+          "label": "Yatak odası · Fotoğraf 8"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818755.jpg?k=5d1b31c2a18062ba7e2fa86f0a0816d6061ce74c8ffdaa9500d0bbbbb4ad3296&o=",
+          "label": "Yatak odası · Fotoğraf 9"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818691.jpg?k=ae0644787211411329b27d852039f4b85f902b01583366b8e56cd3a9a5d0335f&o=",
+          "label": "Banyo · Fotoğraf 10"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818739.jpg?k=e421fb6cd9903121eda14aa335fde77bb0e4be8f7f65cb0e3ca80b71230b0464&o=",
+          "label": "Mutfak · Fotoğraf 11"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340609.jpg?k=dd4ef0c9a0d8a671bc5673bec1a6c9663f6919592798cfdfcd1bb6110b5f38f4&o=",
+          "label": "Koridor · Fotoğraf 12"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508619.jpg?k=3461dd4c968cc83c26febac915e9a7802169e2e6e0e9075f98ffe4060cb03ab5&o=",
+          "label": "Banyo · Fotoğraf 13"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340574.jpg?k=8faca14fe3b45d6edb9205a7bfa0d1d9b1ae9e5d05f006349c8f31d49688a48a&o=",
+          "label": "Yatak odası · Fotoğraf 14"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340579.jpg?k=7b37bb830aa8b8f6f4b695889e6e9dde7e45dc5108d6b17d401f47bf928a2cbc&o=",
+          "label": "Banyo · Fotoğraf 15"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340584.jpg?k=36281f3c81c1f0805fbe6480ea0fa6de8e25ef2d70be747896491bbb436a8c88&o=",
+          "label": "Banyo · Fotoğraf 16"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340591.jpg?k=a6db24f7bfd874820b3196a26835e663c60ef180829624092855a9f608dbd531&o=",
+          "label": "İlan fotoğrafı 17"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340593.jpg?k=bb1ed7282ee96c10a1e4e084c45a26d520554c386ef763726b3f514710934a29&o=",
+          "label": "Banyo · Fotoğraf 18"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340595.jpg?k=0389035100c531953544d922559fed4a064581e9bbd72ea84a74adc5bb5a7cd8&o=",
+          "label": "Banyo · Fotoğraf 19"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340598.jpg?k=263cfc95f0a027122a87c984d8719ce6c019e9dcc0ce7452c392d2a7659f3bca&o=",
+          "label": "Yatak odası · Fotoğraf 20"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340601.jpg?k=9d1871071d09388d0b4e7d9f6420221e8072ee1f571a20cc0af41820042de0b2&o=",
+          "label": "Koridor · Fotoğraf 21"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340604.jpg?k=68c95daf6e13d44cc0ba3fcf4349f2e49f2e7a011458991cdc461537ceeb9d5f&o=",
+          "label": "Mutfak · Fotoğraf 22"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340613.jpg?k=94e8a5a15d58c738fbf357c006ade33b97b9c80cbf7fbc420eb44a95743d6757&o=",
+          "label": "Yatak odası · Fotoğraf 23"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/903340624.jpg?k=df275943cf1a858bf559d208ed4eface07fbbd0d6afd85a64716ab0d98ff5a63&o=",
+          "label": "Mutfak · Fotoğraf 24"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671380.jpg?k=733d454152ed8cbe5caa1b473e2ba3708b9dbf6bf12d9e293943c59eaf64fe1c&o=",
+          "label": "Yatak odası · Fotoğraf 25"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671385.jpg?k=f5aae80c90f6c91b94075bc90bae26359a2e6ab7c5d4bb2243f55818fd1ea579&o=",
+          "label": "Mutfak · Fotoğraf 26"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671386.jpg?k=06c6212156515514d8235017b0b0dc44f2fb17518397abcdcfcefec63b2417f2&o=",
+          "label": "Banyo · Fotoğraf 27"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671394.jpg?k=1c7e1fea42bd25ce8cb0ed2dde1f198200f91ff52e67a7b142931dd545115886&o=",
+          "label": "Yatak odası · Fotoğraf 28"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671396.jpg?k=a8207401fcd0e184c66b70e862ca99bc6344911ed8c3f0ddb9c5fb848b0540bf&o=",
+          "label": "Mutfak · Fotoğraf 29"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671399.jpg?k=4fc9f5b52c84225326e389451f5bb479c266d5eb0faec8e4ab4b0cfb5c805d6e&o=",
+          "label": "Yatak odası · Fotoğraf 30"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671400.jpg?k=8dd19d725f3008e044dbc216be0cdbde434c5fd42fa043ed77beb1f74401ebeb&o=",
+          "label": "Banyo · Fotoğraf 31"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671403.jpg?k=6307bbfa4eb5eb8cc6281812c011831b8cab9bf64497c5ff8adf428f55f6fbfa&o=",
+          "label": "Banyo · Fotoğraf 32"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671406.jpg?k=2b7e3bbd447246c50b2dfa65c3645460117df995e05815b89666f477884b8148&o=",
+          "label": "Banyo · Fotoğraf 33"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671410.jpg?k=b7846a5fa65b2cba76e762d9d913b62498cb8792a5ea74fd276ba3fcb76a0c8e&o=",
+          "label": "Yatak odası · Fotoğraf 34"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671416.jpg?k=725117fc65584bf831f325334a1766c39f62c006236eb9aeb389e8265f66da24&o=",
+          "label": "Yatak odası · Fotoğraf 35"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/888671418.jpg?k=2d33e954ea5e1f4307ceec69dc32bb9b9380079719974c011baec0d35966ae90&o=",
+          "label": "Yatak odası · Fotoğraf 36"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818684.jpg?k=2c50117edde492b5e4a9b337a7a2a13c5916d0dc30c3bd4b3b7377586c8656ca&o=",
+          "label": "Koridor · Fotoğraf 37"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818701.jpg?k=1ad5888d9f436cf17e69f6efbc56e180424e59dedcd39b8d2bb52bd9e493b729&o=",
+          "label": "Yatak odası · Fotoğraf 38"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818717.jpg?k=bcbe10cf8412d1613df8b64322e074f8e209fe425aa14e5cfc294c81e6658bf7&o=",
+          "label": "Mutfak · Fotoğraf 39"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818724.jpg?k=301eee91e8a94608ed69ab8bf911b1d6cfe00746a7a56557c18d5b6d9ddf1cf0&o=",
+          "label": "Yatak odası · Fotoğraf 40"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818733.jpg?k=97c07500cdd38684f5049794c433910d09ee6b34372b1f2bc60461015e31a1bc&o=",
+          "label": "Banyo · Fotoğraf 41"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818762.jpg?k=c6aead71e65b63d53f5ccacb38ccf2216c2f8be3e7bcefe897511f767c244db9&o=",
+          "label": "Koridor · Fotoğraf 42"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818768.jpg?k=ea5ac1776c61b021ee998acf29cb3b89e6ba8117d7a9391861d44a0e7cc134e7&o=",
+          "label": "Mutfak · Fotoğraf 43"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818775.jpg?k=d757a34c74add7697e98837cc79bdabbdc23fe5e32f15a30d94abd2aa4cd138b&o=",
+          "label": "Mutfak · Fotoğraf 44"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887818788.jpg?k=73d96097708fa00d5c9e658814c670459da2988e6976d44b67ee81fd7c82ecff&o=",
+          "label": "Yatak odası · Fotoğraf 45"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886510990.jpg?k=6828a87f5ff663c231fb9b1572cc2aec42a25468a5d0d965ca481603987a3ff5&o=",
+          "label": "Yatak odası · Fotoğraf 46"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886510994.jpg?k=ec43bfa34e9115aa806d4e4b5720547b21f3e54848182e70a47b407f32958c40&o=",
+          "label": "Yatak odası · Fotoğraf 47"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511000.jpg?k=611d1847f87e25371794d55238336d9dd10f9fb06b00b1ce9d5b9f2e823e1efb&o=",
+          "label": "Koridor · Fotoğraf 48"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511008.jpg?k=cd1a7fcd0956a3b14f213572d625bc551e4e0abbf16a725ce46d9f6d351f6194&o=",
+          "label": "Banyo · Fotoğraf 49"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511020.jpg?k=2ac44ea3c3102c605d98417280caeb9369f1a467589d174e02bbbc53fd64b0c0&o=",
+          "label": "Oturma alanı · Fotoğraf 50"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511025.jpg?k=037074c96cc6e4fc489c87a81234d64100d7c70222e75eda078df67e517a23b6&o=",
+          "label": "Mutfak · Fotoğraf 51"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511034.jpg?k=30d12a28e05b9052ca2ee42a11a60f5515b61914d9f9b0254e9eb01a76d43fb1&o=",
+          "label": "Banyo · Fotoğraf 52"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511041.jpg?k=79e3845fba771b3c9967a9b5e36f0bf80d0fc225566602e8e80b3fd9de140a8e&o=",
+          "label": "Yatak odası · Fotoğraf 53"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511053.jpg?k=cea29d971235b66b10761b6a590b5c81c78c427b79d5b876fba0d324e19c37ec&o=",
+          "label": "Oturma alanı · Fotoğraf 54"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511062.jpg?k=bb2c407870c7d106f64cd2ad1fe92aaa3f6a6c7fac56f2fd46e17afcb67e8a3e&o=",
+          "label": "Yatak odası · Fotoğraf 55"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511074.jpg?k=e5eefd0421bcbff0bc8a0d7331b13d8b388dc759f15e3c716ed962d8a60eb421&o=",
+          "label": "Yatak odası · Fotoğraf 56"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886511084.jpg?k=c0c1b9e88f8e31cef5efbc5b8f431c82d47ac2b166479199981595ff9f741d46&o=",
+          "label": "Mutfak · Fotoğraf 57"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508587.jpg?k=19941aa552f91a658fae61f63931c5b4ef0c711a6d55391b297445b926701950&o=",
+          "label": "Yatak odası · Fotoğraf 58"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508595.jpg?k=22305cb3cc20ebe3f032e3cd43a5d3567a021c337118858d2ad5f9f0ea977048&o=",
+          "label": "Yatak odası · Fotoğraf 59"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508610.jpg?k=afa13a172edf306603d05a8ef7f4953798061127b0b036a90852c4a318a49e73&o=",
+          "label": "Yatak odası · Fotoğraf 60"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508613.jpg?k=b411bdaf336da85793739060079abc6807452601b5ae7b9155dcac795444c0fe&o=",
+          "label": "Yatak odası · Fotoğraf 61"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508623.jpg?k=aa2d66defa4e3564409e4ae5c82b5bb834398600237cd82da1fdbeab0d95e0b3&o=",
+          "label": "Mutfak · Fotoğraf 62"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508628.jpg?k=198c22d24dde17188bae49c778063022680a4cee9fe0313c6aa92ed766dc35ce&o=",
+          "label": "Yatak odası · Fotoğraf 63"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508631.jpg?k=e7cc4cfd3a5b444d9830e6f5aa4fc1b91113bf88c97ecd55f91e46c5c1224ea1&o=",
+          "label": "Yatak odası · Fotoğraf 64"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508637.jpg?k=0246de10af72445603107c4bf7e7818458d56b3ce6bb77170da304ac0fa86a38&o=",
+          "label": "Banyo · Fotoğraf 65"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/886508643.jpg?k=74692bfcc7652b1f3673733c029d9d911ee56b721d4d5a6275d58f2f1cc2357b&o=",
+          "label": "Mutfak · Fotoğraf 66"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266799.jpg?k=14499a0ef1b575802a7f87aa4002290d38aa1200a3278c8ecdacd2565eba029b&o=",
+          "label": "Yatak odası · Fotoğraf 67"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266804.jpg?k=4d0b460ba4995ab6a43f203038551eeac1bb89392eea26623f73f7b390b468fd&o=",
+          "label": "Yatak odası · Fotoğraf 68"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266814.jpg?k=ed122bfeb1f31c65c4b26c94e15e0cd99472036f1274d9cbfcd852f3379df06c&o=",
+          "label": "Mutfak · Fotoğraf 69"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266818.jpg?k=be97311cc3b638d2f58cb8f514bf23f4e1504dcce7f44e4a6d8ac6b6204356ca&o=",
+          "label": "İlan fotoğrafı 70"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266828.jpg?k=298c2b82d47e0b19d8a703cebdd1b7136d77755c83cdc5b349c97b7f5ad42107&o=",
+          "label": "Koridor · Fotoğraf 71"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266840.jpg?k=20d55f062b98c52bf147dbb247217cf924721e1ca76e89f3542471f9c05d99f5&o=",
+          "label": "Yatak odası · Fotoğraf 72"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266846.jpg?k=9a09777a10e50c6d7bd909f8121fde6d8212882aa756201feef2581bc6872a56&o=",
+          "label": "Yatak odası · Fotoğraf 73"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266852.jpg?k=4f67bac906392542d13ac41b49c9bc5bd65ba8b34271fe1490b58f5d7be287a5&o=",
+          "label": "Yatak odası · Fotoğraf 74"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266857.jpg?k=e6502e53e7d48c77fa8cc500d5a7a5719cf27e36404652d5fd6da4a94fd298b9&o=",
+          "label": "Mutfak · Fotoğraf 75"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/872266866.jpg?k=6ada50935ba283055c53ff4a5cc83a4bfff9f88b74e80d1cbc30858c4054a8a1&o=",
+          "label": "Banyo · Fotoğraf 76"
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/trio-apartment-berlin-lichtenberg.html",
+      "targets": [
+        "sweep12-booking-trio-apartment-berlin-lichtenberg-20261230-20270103"
+      ],
+      "expected": 31,
+      "method": "Booking tesis fotoğraf galerisi penceresindeki ızgara sırası (data-testid gallery-grid-photo-action-<id>; logo, harita, yorumcu görselleri yok); id ve k imzası galeri görsellerinden, max1920x1080 adresi HEAD 200 ile doğrulandı; max300 küçük boyutta sha256 + 256 bit dHash/aHash adayları gözle kontrol edildi. 12.11.2026.",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102948166.jpg?k=c08e4893c42b5cc10f133deb5ca796c58f4b01544350cd07782b780be3624f1d&o=",
+          "label": "Yatak odası · Fotoğraf 1"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102951304.jpg?k=74af7c0cd41e505f21a5c086f84724b10c51c719e9fbaf518cb6b8d7473f51a9&o=",
+          "label": "Banyo · Fotoğraf 2"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102949467.jpg?k=33ea6e22521245150c424daa58d1472e34fa98214dfa8516c7df6a7ccee76c40&o=",
+          "label": "Oturma alanı · Fotoğraf 3"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765872.jpg?k=b105bf1380e9512b90a974b1b3efd3cdb6df60e73ce6fd3737e23b29abe963ce&o=",
+          "label": "Bina · Fotoğraf 4"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/115593371.jpg?k=477677bb53413813090e1b057f961d7b8b678ded3ecdb2f002148f36314dce23&o=",
+          "label": "Bina · Fotoğraf 5"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/191518103.jpg?k=49dbbf3d54e8cf187298fe3476bd1f61527fd3b71b496e7b5f4c993f669e303a&o=",
+          "label": "Bina · Fotoğraf 6"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/115593376.jpg?k=a5580e5726c89fd23d5db8e6cf8c665f65633d1e1ee0279a8ef49ab55ceaa07c&o=",
+          "label": "İlan fotoğrafı 7"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/115593368.jpg?k=e1df68d9316de79d16ab440d321864051136232edb620fbac8709d68649f34ad&o=",
+          "label": "İlan fotoğrafı 8"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/201760499.jpg?k=177dad1ad041585459086c4edec8c5fb59814623671584072abfa03e38493b66&o=",
+          "label": "Mutfak · Fotoğraf 9"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102948247.jpg?k=3679f85e998b6980c45400b330d09fc33ffcbb6de508f7f1c3db1f53c6f3aa95&o=",
+          "label": "Mutfak · Fotoğraf 10"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102948240.jpg?k=6e2ea83b747f768a1d0f60a3eefd98fe67f979f4164d4de8fe48d9471fc9eada&o=",
+          "label": "Mutfak · Fotoğraf 11"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/97436814.jpg?k=8b8315b20b082c8b1fb6bfb5d1064594c62e528e9f78baa7e64f065d17eb9777&o=",
+          "label": "İlan fotoğrafı 12"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102948208.jpg?k=08ba1c8d7139869effd0ed4f64aca72dc484ee003455b6ac4c0466f62b23593a&o=",
+          "label": "İlan fotoğrafı 13"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/279580995.jpg?k=3550ff3e26d163b5f444afc5c63ac43ee55d26765c385afb0c4390d50226e3d4&o=",
+          "label": "Yatak odası · Fotoğraf 14"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765120.jpg?k=d869735cb4baf52983c4df6345221cd3a4b562b273e809f6483b3544fd3c5b55&o=",
+          "label": "Mutfak · Fotoğraf 15"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/279580999.jpg?k=c0458c49de47f977888803fe83b029f205912364b23fc4de9ae3c5e0bc992954&o=",
+          "label": "Yatak odası · Fotoğraf 16"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765672.jpg?k=28686c12080c361fcd83d378dc45222d8782c357128c39d8fa4be5dea1f204e0&o=",
+          "label": "Banyo · Fotoğraf 17"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/201759785.jpg?k=6f0ac9468cde472a100b4edd5b7f2d0dd169654c190ca492e4aae066dddf0750&o=",
+          "label": "Yatak odası · Fotoğraf 18"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/105516177.jpg?k=a813c17183528d02bd7d151ff3ce42af9af9e3683a35e872a4a5e994d40b9a7e&o=",
+          "label": "Banyo · Fotoğraf 19"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/201759782.jpg?k=89c395cdec3b79a408f930dfc18173e011566fdc403c30d54cfd378a4745dcf1&o=",
+          "label": "Yatak odası · Fotoğraf 20"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/115593372.jpg?k=64d9a0f342b21af4b363fc7609fee0407258d51d6585a265b3ea2e8f951cc62b&o=",
+          "label": "İlan fotoğrafı 21"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765132.jpg?k=06fe47ff72de730fbcc427615d61485dfc0d80c1e1c3b461b13e3cfae0f455ba&o=",
+          "label": "Yatak odası · Fotoğraf 22"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765866.jpg?k=36024e7759f6eb15cab7681b1e7a1d6bf3f939e3cb3775df407eac061a1da2f9&o=",
+          "label": "Bina · Fotoğraf 23"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765129.jpg?k=00227e4b6b0234e42cf58a51e9823bccfa95d09bd4664cf54e6e38ba26e0aa2f&o=",
+          "label": "Yatak odası · Fotoğraf 24"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765135.jpg?k=457700b70d9465068885f634b0b3cdcaeb4cec8d9f6348a4c91da2520ae586cf&o=",
+          "label": "Oturma alanı · Fotoğraf 25"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/201759718.jpg?k=09e4c63329eeb3045f7fad3d85dec009d2065c9f3ad695a5462c93292d8942b7&o=",
+          "label": "Oturma alanı · Fotoğraf 26"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102950254.jpg?k=3d348dca175fd3bec13c4ddaef58e2adbb2918996afdb2a2ccb55309f6ac0690&o=",
+          "label": "Oturma alanı · Fotoğraf 27"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102949474.jpg?k=fc0f8edfb20098e1f2c313ed13719f42d64e69c0b83542d50bd82858ab53cacc&o=",
+          "label": "Mutfak · Fotoğraf 28"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765125.jpg?k=83a4e595de6506d84b95de0bfed6325c0c9ae468bc5f0eb4002083af88341e1f&o=",
+          "label": "Mutfak · Fotoğraf 29"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/102948195.jpg?k=59306b1c8e4330e277a85ae17343619e0992f865b497b1504a770e6d2ea9291b&o=",
+          "label": "Mutfak · Fotoğraf 30"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/187765121.jpg?k=a8bf4866247a62a4f7f952f4d6168bf0cb160dba37542e1a39c5cd7819cc80e9&o=",
+          "label": "Banyo · Fotoğraf 31"
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/modern-accommodation-neukoln.html",
+      "targets": [
+        "sweep12-booking-modern-accommodation-neukoln-20261230-20270103"
+      ],
+      "expected": 16,
+      "method": "Booking tesis fotoğraf galerisi penceresindeki ızgara sırası (data-testid gallery-grid-photo-action-<id>; logo, harita, yorumcu görselleri yok); id ve k imzası galeri görsellerinden, max1920x1080 adresi HEAD 200 ile doğrulandı; max300 küçük boyutta sha256 + 256 bit dHash/aHash adayları gözle kontrol edildi. 12.11.2026.",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/694112422.jpg?k=1e0307489536842fb766b9df91ac3f29c4d7b0dfe47cf1bc915f638869a204c7&o=",
+          "label": "Mutfak · Fotoğraf 1"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042490.jpg?k=791996431478732d9b76e3a62510941694f5ed66640b7fadd55e0a7cf7412b5a&o=",
+          "label": "Mutfak · Fotoğraf 2"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042127.jpg?k=5775ec82b0ec47944eccfa1512a62afc632fb2857e9a09ead10b30de3102c227&o=",
+          "label": "Banyo · Fotoğraf 3"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042654.jpg?k=b48c8ccb9d77d5b3768fc79862d45249fc0ca6fc4130280f764539b0f2c7fb2a&o=",
+          "label": "Yatak odası · Fotoğraf 4"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042118.jpg?k=74bdb282424116fbf23a3d49da9dcbd677386e83ce4563cbde76b7aacdb470a7&o=",
+          "label": "Koridor · Fotoğraf 5"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042613.jpg?k=31d54a0cedcf847ad78985ce66f4db1f21030744bb20673df520940bc4dca518&o=",
+          "label": "Yatak odası · Fotoğraf 6"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042075.jpg?k=1eba49fc372b470fcec25107b0b9b9cabb8025031fda34a019913177e6ec9629&o=",
+          "label": "Banyo · Fotoğraf 7"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042422.jpg?k=df7d8213e8adb69b6b540a5f8c14da0d4d5cb5a5c1fe72a6ffb9b558c9d108be&o=",
+          "label": "Mutfak · Fotoğraf 8"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042037.jpg?k=ec19716fa8ff6b0214fb6e7d043e998c1de91f6c18be7cd65f09bff66ef0dc52&o=",
+          "label": "Yatak odası · Fotoğraf 9"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042061.jpg?k=142dca3df562aebec46be7bcc026759172a36f64dc21c50834177a66e08af5cf&o=",
+          "label": "Banyo · Fotoğraf 10"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042402.jpg?k=00c21f31875e25bd92b3813a482165fc4bae201c8948207dd8adc3121ed83e40&o=",
+          "label": "Koridor · Fotoğraf 11"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042527.jpg?k=1b69c120b85d3554241955fbf3259b0dd1323686c6cc8b57273cbc63085459f9&o=",
+          "label": "Yatak odası · Fotoğraf 12"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042565.jpg?k=523b6abc1b3002e680d7b4aded75741744a296b2b603fe0d004bd8acad4d2132&o=",
+          "label": "Yatak odası · Fotoğraf 13"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042551.jpg?k=5cf5c8a33528c9c6adcff22ec8d460182353733136528248175156743044442f&o=",
+          "label": "İlan fotoğrafı 14"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042577.jpg?k=5871dd518d524578be7154b781762e5e1d7adb9d5ff668aa7236b60b393d508d&o=",
+          "label": "Yatak odası · Fotoğraf 15"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/763042632.jpg?k=91877a114f60558f1deef3a7ab00a1ffb20aa6555cd4a063da9a5c20a2fc5109&o=",
+          "label": "Yatak odası · Fotoğraf 16"
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/attic-apartment-in-villa.html",
+      "targets": [
+        "sweep12-booking-attic-apartment-in-villa-20261230-20270103"
+      ],
+      "expected": 16,
+      "method": "Booking tesis fotoğraf galerisi penceresindeki ızgara sırası (data-testid gallery-grid-photo-action-<id>; logo, harita, yorumcu görselleri yok); id ve k imzası galeri görsellerinden, max1920x1080 adresi HEAD 200 ile doğrulandı; max300 küçük boyutta sha256 + 256 bit dHash/aHash adayları gözle kontrol edildi. 12.11.2026.",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594526.jpg?k=a06354355de3fcfd366f11ec7f6a944042b7f76a5d6b55e1fd23896b1f8e0a91&o=",
+          "label": "Yatak odası · Fotoğraf 1"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595063.jpg?k=adeb849425fcb3fc43a0d9aa2cfb5863ca96512221a68e90820c58ed6bcedff4&o=",
+          "label": "Bina · Fotoğraf 2"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594979.jpg?k=555dd83064b576ff4ce38950894b4eea0f5b084c038a5437f9f6c6fa0cbe980a&o=",
+          "label": "Banyo · Fotoğraf 3"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594999.jpg?k=fe0bc1818a01927f9f4fc1b3923a2ac1df2bc9f55d4ca7725f34ce096ad48338&o=",
+          "label": "Yatak odası · Fotoğraf 4"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595021.jpg?k=aa72085fd508a799228e095ea8008eed9c234c51f0294241e6a0ce70614229d0&o=",
+          "label": "İlan fotoğrafı 5"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595004.jpg?k=e10f1f8cb0f85b679bbf41718dbde15f6c4c9dd9976ab6f439be6222951ddb1c&o=",
+          "label": "Yatak odası · Fotoğraf 6"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595016.jpg?k=39cdbe91a191df6cee34f57601ec02e8bed03ecb42ecee3a0eae33d0c2ba5218&o=",
+          "label": "Koridor · Fotoğraf 7"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595013.jpg?k=94047ca9d95563a145e0dee1d8a3835d8ff7d5b4940ecd710bb00bf6e4938c7c&o=",
+          "label": "Yatak odası · Fotoğraf 8"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594971.jpg?k=e7cf0e1619d29df6f97c00275ba08a43e377ab4ddf0404d6324dfb7fb8ad966c&o=",
+          "label": "Banyo · Fotoğraf 9"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595042.jpg?k=277cbeedf11dd68079cf719af1af081c2298988fd632f218e8301392effb3f95&o=",
+          "label": "Mutfak · Fotoğraf 10"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823594990.jpg?k=9f12900a77a542072a60284359006dbb3ecb9e599aea81b4b2581e828964a171&o=",
+          "label": "Yatak odası · Fotoğraf 11"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595010.jpg?k=5c99f8bb645e1640a858735d1ad9a9b14b645c27161b524708ca641ad8fcb892&o=",
+          "label": "Mutfak · Fotoğraf 12"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595028.jpg?k=34d987d43ff88242148ad98cbd2ffa76bab756e56f0460d334bb0c5a896fa6ae&o=",
+          "label": "Mutfak · Fotoğraf 13"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595036.jpg?k=4524ff555d77d51b303ab0d5ad50e0f02f76954297f0e2ac1da5b87b79ed6892&o=",
+          "label": "Mutfak · Fotoğraf 14"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595049.jpg?k=2525d67e49373853aae0ea096a63aa5420fb31cf0f67a9f7cb7cbbd13906d522&o=",
+          "label": "Yatak odası · Fotoğraf 15"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/823595057.jpg?k=570c5d61211a1fb60615d45c3edf6fb936e05b3301ea4e2900e7b472a55019e7&o=",
+          "label": "Balkon · Fotoğraf 16"
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/gneisenau.html",
+      "targets": [
+        "sweep12-booking-gneisenau-20261230-20270103"
+      ],
+      "expected": 41,
+      "method": "Booking tesis fotoğraf galerisi penceresindeki ızgara sırası (data-testid gallery-grid-photo-action-<id>; logo, harita, yorumcu görselleri yok); id ve k imzası galeri görsellerinden, max1920x1080 adresi HEAD 200 ile doğrulandı; max300 küçük boyutta sha256 + 256 bit dHash/aHash adayları gözle kontrol edildi. 12.11.2026.; 12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 1 kare çıkarıldı (foto-ilgisiz-20261112.json)",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959890.jpg?k=d41bb937c47abd3f045edf5353578ac6076f6c66cac07c29fccd2cad21e57033&o=",
+          "label": "Oturma alanı · Fotoğraf 1"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959884.jpg?k=37f26282bef32ab85aa82dd370ff6fe2ba661ce459bce76e9d22f382b9d639fa&o=",
+          "label": "Yatak odası · Fotoğraf 2"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959887.jpg?k=435c6a90812a96d15007db730bd385821fbc3bdfaabe223e181ffa75291d74b5&o=",
+          "label": "Mutfak · Fotoğraf 3"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959877.jpg?k=e432345abd5ee86b2d6d785f704279a356988025a0a2daf6b3f16d862eab6b07&o=",
+          "label": "Yemek alanı · Fotoğraf 5"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959854.jpg?k=d2b27fa70dcb6210fdd79aa8b26190d53a798126c3ba91996e8926fbe2e026ed&o=",
+          "label": "Oturma alanı · Fotoğraf 6"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959844.jpg?k=ea566d44521abdd16cdd827a202f608f5c39039ccf6f86112b0510b4c941b3f8&o=",
+          "label": "Banyo · Fotoğraf 7"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959878.jpg?k=1e59d146d0f7286871bdf2ad7efc8289106fd35fdc27db07540e2c7d6f3a4ec8&o=",
+          "label": "Oturma alanı · Fotoğraf 8"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959856.jpg?k=e6149fa9988dc23f0689c5d48ccefc29bbb641b3e6000534dca3dc0ee149b9f8&o=",
+          "label": "Yatak odası · Fotoğraf 9"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959865.jpg?k=4960cc437082608a716a5cfc454db67ec63f06268ecb70eaed659b9f7901d803&o=",
+          "label": "Oturma alanı · Fotoğraf 10"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959852.jpg?k=c2eb93bd22ea90916c6666fb13f888170a2eed5c1f8071b106bcb72331ba2e31&o=",
+          "label": "Mutfak · Fotoğraf 11"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959866.jpg?k=287f573ab085a2c00f89e90b0b45693dbdcae8a574ecbef6a60a3fc9f468b347&o=",
+          "label": "Koridor · Fotoğraf 12"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959756.jpg?k=fc0894399c0967fe4a5f0ff6d7a1cb94167b56d6a580904378341b6c353ef5cb&o=",
+          "label": "Oturma alanı · Fotoğraf 13"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959755.jpg?k=9ebc9e997cb984abb041da2a6b06f176355b890bbb0ae10d07a1b590f0804660&o=",
+          "label": "Mutfak · Fotoğraf 14"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959759.jpg?k=96102f69df78f6e191116efaca461a4c39393a0ac41117fe7cf396b8e7b99c0d&o=",
+          "label": "Banyo · Fotoğraf 15"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959761.jpg?k=ad8adcca02245f6bf7984bb65c622519bddbc730b056ceb0cef5a8b9bb06b933&o=",
+          "label": "Banyo · Fotoğraf 16"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959763.jpg?k=5f6a86e01d7d66b76c652b00187ec4184a9a1dc158901536389d05be43a53b9b&o=",
+          "label": "Banyo · Fotoğraf 17"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959764.jpg?k=addf16adeeb7c92214168749270ed2c2a7bf60966827b545712edf47a178f3ca&o=",
+          "label": "İlan fotoğrafı 18"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959825.jpg?k=17b4bd7a47479be17beed0bcf2abb45b1b86eddad9b801997c5a749604b7c509&o=",
+          "label": "Yatak odası · Fotoğraf 19"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959831.jpg?k=b1e684bf29211f8755d296602effbf37dc7a207dc2e6680a887ee81c6ea49559&o=",
+          "label": "Banyo · Fotoğraf 20"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959824.jpg?k=56e1355bfb474e09e4a6610b9f9478e7500242d1c890060600cee7e9273fb627&o=",
+          "label": "Oturma alanı · Fotoğraf 21"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959864.jpg?k=2a2de537d37cd1c05630490d20c1496175fe16d6dc4a6c545a2eec51a9d006f4&o=",
+          "label": "Banyo · Fotoğraf 22"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959859.jpg?k=360e602d5bf0d10c0a95ce887f1780f636b6e9cc9a19e152c3504d2c3e9169a2&o=",
+          "label": "İlan fotoğrafı 23"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959862.jpg?k=5ad0ce917181d4b31abe230f5b91ef3c0e4e9e1bd7b744412e1038eac7dcb7e3&o=",
+          "label": "Oturma alanı · Fotoğraf 24"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959855.jpg?k=304fd1792a960037970a843258043ba0e59f62a6c017001ce5e574e16437e18d&o=",
+          "label": "Yatak odası · Fotoğraf 25"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959853.jpg?k=3c0633f5a2e86678f7351b7bdd4cbafc4838cbb62b60b3b10f35bd2b3ffacf27&o=",
+          "label": "Yatak odası · Fotoğraf 26"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959876.jpg?k=6e0231af1179ef471fd40f280f8cf9b923934207be0c0b83d157a6edcdfd6d6f&o=",
+          "label": "Yatak odası · Fotoğraf 27"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959869.jpg?k=b3badd26d95c66f420b29a185b0ebb3e73c6885188c51697c06b16eda90b8ea1&o=",
+          "label": "Mutfak · Fotoğraf 28"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959870.jpg?k=06dd6687813993c6b36bae9b89526342b4c37d467be1ca0a989068f37ef7e49f&o=",
+          "label": "Banyo · Fotoğraf 29"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959894.jpg?k=301cb7d2413529b30aaf0bae7d000320503d3d25105a5fa33ea06d7583b189bf&o=",
+          "label": "Yatak odası · Fotoğraf 30"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959898.jpg?k=d91f5bb9e7c91d1b95e07f76063aa1f11be9be9e5a7e2bbcdd1123c275c31500&o=",
+          "label": "İlan fotoğrafı 31"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959902.jpg?k=1cac3345ac0ae9279e65dbe240e50017ec384eeccbd8e03f7dec9b62e43fc21b&o=",
+          "label": "İlan fotoğrafı 32"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959872.jpg?k=3d5ec7e192090846822ef2b5b1236702f232a17d9a537d3c6c8779092549761b&o=",
+          "label": "Yatak odası · Fotoğraf 33"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959907.jpg?k=a696a5a4bfa7bff07aed6dcf700b54bff5338e7a1069a246e0c61b8fb4107d98&o=",
+          "label": "İlan fotoğrafı 34"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959888.jpg?k=e79c35e7af195eaaf7877c8a332740c44a25382fcd0721ecd21c121d8a3119d7&o=",
+          "label": "Yatak odası · Fotoğraf 35"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959914.jpg?k=467c184f7832ceed12c84fa241200eb83335280000f8d4cca682ec899cac7c18&o=",
+          "label": "İlan fotoğrafı 36"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959842.jpg?k=569ef44e33255e6872d7e024bc2c92f7c33e2106fc3dc3652db3b2a12ef3e080&o=",
+          "label": "Banyo · Fotoğraf 37"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959918.jpg?k=354b66e75a543319256ffad5664ca632edb1556d497de4a59a0f92315394e317&o=",
+          "label": "İlan fotoğrafı 38"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959812.jpg?k=889ef47f153fbfa7f4374c9d7867db4c6bd4e00f9d510f1305af9a4baab99599&o=",
+          "label": "Mutfak · Fotoğraf 39"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959849.jpg?k=e6596b3f95df465d8d39a72958dd3da1ca8ed3645998ba259dcce5b809d1656e&o=",
+          "label": "İlan fotoğrafı 40"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959924.jpg?k=8c96efb88526336c544eccf511c59650e456c906e82f9dd751e160a821e7621f&o=",
+          "label": "Yatak odası · Fotoğraf 41"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/403959926.jpg?k=5405e092ff2b154f18252c7a21bccc44e72c4b0e9d07d52d5c01fd6ed0fce34e&o=",
+          "label": "Yemek alanı · Fotoğraf 42"
+        }
+      ]
+    },
+    {
       "source": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239",
       "targets": [
         "six-vrbo-145069-full",
