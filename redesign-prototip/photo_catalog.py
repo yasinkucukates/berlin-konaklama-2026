@@ -33,7 +33,7 @@ def verified_galleries():
   seen=set()
   for photo in photos:
    url=photo.get('src',''); parsed=urlsplit(url)
-   if parsed.scheme!='https' or parsed.hostname not in allowed or identity(url) in seen:
+   if parsed.scheme!='https' or parsed.hostname not in allowed or identity(url) in seen or re.search(r'/im/pictures/(?:user/|AirbnbPlatformAssets|airbnb-platform-assets)',parsed.path,re.I):
     raise ValueError('Doğrulanmış galeri görseli geçersiz veya tekrarlı')
    seen.add(identity(url))
   for target in rec.get('targets',[]):

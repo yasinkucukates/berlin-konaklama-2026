@@ -6,8 +6,8 @@
         "six-vrbo-145069-full",
         "six-vrbo-145069-last"
       ],
-      "expected": 24,
-      "method": "Vrbo 24 fotoğraflık kaynak galerisinde göründü; 6 Kasım 2026",
+      "expected": 21,
+      "method": "Vrbo 24 fotoğraflık kaynak galerisinde göründü; 6 Kasım 2026; 12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 3 kare çıkarıldı (foto-ilgisiz-20261112.json)",
       "photos": [
         {
           "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/3ed5942c.jpg?impolicy=resizecrop&rw=1200&ra=fit",
@@ -108,21 +108,6 @@
           "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/7722a5b1.jpg?impolicy=resizecrop&rw=1200&ra=fit",
           "label": "Innenbereich",
           "description": "Ein geräumiges Badezimmer mit Badewanne, Dusche und einer separaten Duschkabine."
-        },
-        {
-          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/da9c256c.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-          "label": "Fitnessbereich",
-          "description": "Drei Personen fahren auf Fahrrädern auf einem befestigten Weg, der von Bäumen gesäumt ist."
-        },
-        {
-          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/47c0fb86.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-          "label": "Jachthafen",
-          "description": "Ein Yachthafen mit mehreren angemeldeten Booten, darunter ein weißes Boot mit der Aufschrift „Ines“ und ein blaues Boot mit der Aufschrift „Reneé“."
-        },
-        {
-          "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/12c891bf.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-          "label": "See",
-          "description": "Ein Boot mit einer Kabine und einem Deck, Passagiere auf dem Deck, und ruhiges Gewässer mit Bäumen im Hintergrund."
         },
         {
           "src": "https://media.vrbo.com/lodging/67000000/66860000/66851300/66851212/b54979e2.jpg?impolicy=resizecrop&rw=1200&ra=fit",
@@ -949,7 +934,7 @@
       "targets": [
         "bolunmus-torstrasse"
       ],
-      "expected": 22,
+      "expected": 20,
       "photos": [
         {
           "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898603324.jpg?k=5c180f31cd96eafd172af503c244a23081cd0ee8d978bd48e08ab3b03c486e68&o=",
@@ -1012,11 +997,6 @@
           "alt": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604281.jpg?k=6f448bb6d8ed2a8a941adfed39c58425d7806b25efb91feeb2da478ecedf8d97&o=",
-          "label": "Fotoğraf 13",
-          "alt": ""
-        },
-        {
           "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604401.jpg?k=b058e021e5efe890c6192f99897fdcf711f2f6ab34e15772e6465b7def1b3a48&o=",
           "label": "Fotoğraf 14",
           "alt": ""
@@ -1029,11 +1009,6 @@
         {
           "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604516.jpg?k=08e7d6d8c6a5ac1f0f1570e9ea8cf71217b5a21758a7fbc450ff36e4ac2f5d03&o=",
           "label": "Fotoğraf 16",
-          "alt": ""
-        },
-        {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/898604559.jpg?k=34e7c3351b93f119aa74c7a4e2f27c7ec9079da7daeed5c577ac66e7052e67a9&o=",
-          "label": "Fotoğraf 17",
           "alt": ""
         },
         {
@@ -1062,7 +1037,8 @@
           "alt": ""
         }
       ],
-      "observedAt": "2026-11-06"
+      "observedAt": "2026-11-06",
+      "method": "12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 2 kare çıkarıldı (foto-ilgisiz-20261112.json)"
     },
     {
       "source": "https://www.booking.com/hotel/de/arabel-design-apartments.tr.html",
@@ -1191,45 +1167,119 @@
       "targets": [
         "yeni-locke-2-family"
       ],
-      "expected": 7,
+      "expected": 27,
       "photos": [
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509388.jpg?k=309398fc7bc2efbbbf55dbf7e3fa4a4c5270f035e31c89071f94588c847f9fa5&o=",
-          "label": "Fotoğraf 1",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/890509388.jpg?k=309398fc7bc2efbbbf55dbf7e3fa4a4c5270f035e31c89071f94588c847f9fa5&o=",
+          "label": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509379.jpg?k=1423976a2018bf7cdc71ffc949e2928918b4e19f8df68890e00e7b0ff50c75bd&o=",
-          "label": "Fotoğraf 2",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/890509379.jpg?k=1423976a2018bf7cdc71ffc949e2928918b4e19f8df68890e00e7b0ff50c75bd&o=",
+          "label": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509383.jpg?k=2ae53b0e1ea482f2747b3470d8adcdbd61ece544cf5362324066c0d1bd4bdc68&o=",
-          "label": "Fotoğraf 3",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/890509383.jpg?k=2ae53b0e1ea482f2747b3470d8adcdbd61ece544cf5362324066c0d1bd4bdc68&o=",
+          "label": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509961.jpg?k=4b423c3d75bb6be47b56919f154b82fa6cd8219d4d6285860889ea2e3a96b305&o=",
-          "label": "Fotoğraf 4",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/890509961.jpg?k=4b423c3d75bb6be47b56919f154b82fa6cd8219d4d6285860889ea2e3a96b305&o=",
+          "label": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509372.jpg?k=569f4f8b5b79fc0b187eeb3d05f580d56817208ddf422a5f82d06ace53452f0c&o=",
-          "label": "Fotoğraf 5",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/890509372.jpg?k=569f4f8b5b79fc0b187eeb3d05f580d56817208ddf422a5f82d06ace53452f0c&o=",
+          "label": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509389.jpg?k=60a6a4c54b4d40fbb9c4187a93d861f99a462947b4fc1187a67df5bc59676609&o=",
-          "label": "Fotoğraf 6",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/890509389.jpg?k=60a6a4c54b4d40fbb9c4187a93d861f99a462947b4fc1187a67df5bc59676609&o=",
+          "label": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/890509385.jpg?k=fc0f65e1012da3a7979ab934596925c70a4f9b544dd9f7aaf54e073679986649&o=",
-          "label": "Fotoğraf 7",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/890509385.jpg?k=fc0f65e1012da3a7979ab934596925c70a4f9b544dd9f7aaf54e073679986649&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887935413.jpg?k=8db112c6ed82db35e2b1313e6ded14e581f1b1a8ee28166a0a7d4d4369dbd95c&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916304.jpg?k=20e924e67115e907c59c2b33193581f3a9272c49185fe1fa7de2a08658c24950&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916331.jpg?k=fb2fb5316a8fb44f7030774e93edd22608d83fb612c5d8113ce189c9926c3604&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916321.jpg?k=8b32b7e8908eb813e4bf685ca13aa4cc5b925d4f3297ed6b0bd8c9fcab81ef34&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916307.jpg?k=eaabe3e4a484e73c4fa96be1171b402bbc9d88d2c6d362dc83039918d0d085bc&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916318.jpg?k=8ba482e5ea9f37309f4ce0dae0fbf482ec8c573bb2018237476c6eb7f7641133&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916310.jpg?k=a0448a65e6a25a5291e6fed7deebdd4a03eb2853da69d84876d146374fa92468&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916328.jpg?k=a4367d7a39d89cb2e1a64c7c391dc4146b3fdc4116e53ddb2577a06b137023a3&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916327.jpg?k=978d847022ddee55264fb3b335dcb38e91836e6684ad17759665f6b81fa1b57b&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916316.jpg?k=3eba205235cacd1353206e2b672275de4f8f78a2f5e0472b7140fb45d8565f6a&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916315.jpg?k=4a5542c157768c4896d9d157ac7d2fd8f17281efea9a9a415dd4f710b327e1a6&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916324.jpg?k=fd03cea7d4b1f8dfceb271acbf06a044f645532f6030b8c39817857e42b38e6a&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916325.jpg?k=66f8fd62724b20ef4591c45b8e86ac4193197383d6c6b66740c84b31e6d5849d&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916319.jpg?k=d63e459639ab2add89fd521456022b7edea1ec5e56b32ce393aa4fb53d715efb&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916313.jpg?k=77ea3b9cf7311fc2fa4ed8809f0e3ad6551d1d6495df6f7f7af38ff723b20c0d&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916326.jpg?k=07016ce421633a112eeee0789841ace5ca267db4b98c036db2a0214feaaed1f8&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916317.jpg?k=0946d29a8ec7ff9ad24f7f1c70f9371cee226a3541a482d82c09297d1f8ac54e&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916320.jpg?k=074447a39deb788a7d984625d6a3aef9538ba372a245cf3cfe78d5e440ae9133&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916312.jpg?k=02499af8417427b5046bb67717dd2a34b8cac7b9b876e13fa2309ce1f3e0e345&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/887916302.jpg?k=065feba0880bcb9310d3881755b5d86aa286b95fd1524fa27eedf0d23a08690d&o=",
+          "label": "Tesis ortak alanı"
         }
       ],
-      "observedAt": "2026-11-06"
+      "observedAt": "2026-11-12",
+      "method": "Booking Family Apartment oda penceresinde 7 fotoğraf (tamamı), ardından odaya bağlı olmayan tesis ortak alanı ve bina kareleri (20) eklendi; ?k= imzalı max1920x1080; 12 Kasım 2026"
     },
     {
       "source": "https://www.booking.com/hotel/de/wilde-aparthotels-by-staycity-berlin-checkpoint-charlie.tr.html",
@@ -1237,45 +1287,119 @@
       "targets": [
         "yeni-wilde-2-daire"
       ],
-      "expected": 7,
+      "expected": 27,
       "photos": [
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/772702723.jpg?k=3d4ecc347faef67d2fa4afc70d1bb8071a2ffc57ac99591ddcbb8f511e8560e4&o=",
-          "label": "Fotoğraf 1",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/772702723.jpg?k=3d4ecc347faef67d2fa4afc70d1bb8071a2ffc57ac99591ddcbb8f511e8560e4&o=",
+          "label": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/680597984.jpg?k=3668701cab4744edbcc3f5bc4fb09f3b847b51f2a5dc437b868d160a9d61ed05&o=",
-          "label": "Fotoğraf 2",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/680597984.jpg?k=3668701cab4744edbcc3f5bc4fb09f3b847b51f2a5dc437b868d160a9d61ed05&o=",
+          "label": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/217132699.jpg?k=5c7a1b17a20907383f81641ce4b98591dddcd1f013c3e181ca3eeb64acc46fdc&o=",
-          "label": "Fotoğraf 3",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/217132699.jpg?k=5c7a1b17a20907383f81641ce4b98591dddcd1f013c3e181ca3eeb64acc46fdc&o=",
+          "label": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/772702974.jpg?k=d361314942aa2c23f7c09a0a39d8f2c11ae2150321691225a65756a0775d67d2&o=",
-          "label": "Fotoğraf 4",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/772702974.jpg?k=d361314942aa2c23f7c09a0a39d8f2c11ae2150321691225a65756a0775d67d2&o=",
+          "label": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/772702930.jpg?k=d5b847167682fae7cf9ded6cee76989fd33ab3ed5ac19cbc0047ade6de54952d&o=",
-          "label": "Fotoğraf 5",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/772702930.jpg?k=d5b847167682fae7cf9ded6cee76989fd33ab3ed5ac19cbc0047ade6de54952d&o=",
+          "label": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/217132659.jpg?k=a94190939cf2dabce59ae4f7cd4eb4284f04c7016938db4159dd68f382d7d1aa&o=",
-          "label": "Fotoğraf 6",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/217132659.jpg?k=a94190939cf2dabce59ae4f7cd4eb4284f04c7016938db4159dd68f382d7d1aa&o=",
+          "label": ""
         },
         {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/square60/230508395.jpg?k=d0751fe45668897ef6f790fbe8d132aae2a0ac0cfc043eee98e51defe76df039&o=",
-          "label": "Fotoğraf 7",
-          "alt": ""
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/230508395.jpg?k=d0751fe45668897ef6f790fbe8d132aae2a0ac0cfc043eee98e51defe76df039&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/840705033.jpg?k=da962ef1a8ef014c1ab302b7a2e38cefa7950176230f6038a4329b3625d18709&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/840704594.jpg?k=b5a1aaa6f68671e0e6e247ee46fef0571b2479020d3ab488684770b8e8ea34d2&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/840704820.jpg?k=2696365c0f4ff1fda94235e08f25f0b06fcd6e8caf5dcb1fec99b3d637b6ce2d&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/840704783.jpg?k=0a3eb10782ffc7e13a9b5dff6c36021e8ef5b98e6f1811f739b535a390e4fde6&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/840704652.jpg?k=d8d442e19112f27bc2825895b67c7258347dc37810cfab0601b57f6307018603&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/231341608.jpg?k=287b0012e8c799e4c70646d079b2350f1c0949ee32a9680d67edb1b106094c0a&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/535823239.jpg?k=4295e7ade0292324a836debe1cbd573a8fec2302834c4f5637fed40aac5a3728&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/840705435.jpg?k=e96ac56709144cfb2da050a9c01260554cd28c76c01f5c98c5cf08a0a11f009b&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/840704590.jpg?k=ec54e8a78df995c6c8248854c4b24728bc2a901a2a5dc2b10ee0bbf6e2ff7630&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/840704606.jpg?k=80c31dab6e1fbc8e4da7f358d67b507f49b1f7cfebe19c1d929b782d390a0db7&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/840704596.jpg?k=0ccb10cbad146f39e95d99433f569a46e126217824ab7a36e45f86c6039f6209&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/840704777.jpg?k=f09e8cdfc089aaed0ead9e30180533e6803ddec59f8e483b64b25432f547ab3a&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/753005991.jpg?k=abda1c6d3f1d5a37ff360ec017c616a59c0435e1638d76528c4f9a329976db6d&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/753010919.jpg?k=71a3684d8f71d03a72e1fc71a1d5a0bf8362196b9dc14a306a1b9fe835e99bd9&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/840705427.jpg?k=37c023fc235d2a979aad4f57015b6b456d0836a2c722eea4601319a00980a5bf&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/840705432.jpg?k=5d7b6f175e8e800f1482b66de5bd40da483ac5c751844a2c80ac4a29ba33f432&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/217109121.jpg?k=b6df309fce07828471a7189570cedc6eb9f6a5cf74c16a8508bcecff3e174f2c&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/231341595.jpg?k=8a4dea9013497bb1d45924dea44eaddffac2565bc227874fcd037ab24ee3db59&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/231341582.jpg?k=02161362f1f9d1722bd459220f8bc7fb2181f3d4bb216f02e6349a8070cdd6a2&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/217254456.jpg?k=2d3f1e93ebd051dc76cfd7efcd1e0b445eeffe231f9dd688a766480118377f3e&o=",
+          "label": "Tesis ortak alanı"
         }
       ],
-      "observedAt": "2026-11-06"
+      "observedAt": "2026-11-12",
+      "method": "Booking oda penceresinde 7 fotoğraf (tamamı), ardından odaya bağlı olmayan tesis ortak alanı ve bina kareleri eklendi; çevredeki simge yapılar (Checkpoint Charlie tabelası, Die Welt balonu) eklenmedi; 27 fotoğraf; ?k= imzalı max1920x1080; 12 Kasım 2026"
     },
     {
       "source": "https://www.booking.com/hotel/de/im-herzen-von-kreuzberg-perfekt-gelegen-fur-bis-zu-8-personen.tr.html",
@@ -1751,8 +1875,8 @@
       "targets": [
         "sweep7-airbnb-1765241459359399223-20261230-20270103"
       ],
-      "expected": 36,
-      "method": "Airbnb ilan fotoğraf turunda 36 fotoğraf görüldü; 7 Kasım 2026",
+      "expected": 34,
+      "method": "Airbnb ilan fotoğraf turunda 36 fotoğraf görüldü; 7 Kasım 2026; 12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 2 kare çıkarıldı (foto-ilgisiz-20261112.json)",
       "photos": [
         {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/c776e533-4de8-47d5-8555-1cf950195a9b.jpeg",
@@ -1879,19 +2003,11 @@
           "label": "Additional photos"
         },
         {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/1c342f7c-e628-45de-90ad-1c7110a1dacf.png",
-          "label": "Additional photos"
-        },
-        {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/038205a5-2c78-4bd5-aadd-2f3a0c9bbe66.png",
           "label": "Additional photos"
         },
         {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/a4c2f30f-473f-4e8b-a9ec-027bcd021dd5.png",
-          "label": "Additional photos"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1765241459359399223/original/12760146-bb72-408c-b6f0-39f6f5d0f03f.jpeg",
           "label": "Additional photos"
         },
         {
@@ -2653,8 +2769,8 @@
       "targets": [
         "sweep7-airbnb-31701521-20261230-20270103"
       ],
-      "expected": 20,
-      "method": "Airbnb ilan fotoğraf turunda 20 fotoğraf görüldü; 7 Kasım 2026",
+      "expected": 18,
+      "method": "Airbnb ilan fotoğraf turunda 20 fotoğraf görüldü; 7 Kasım 2026; 12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 2 kare çıkarıldı (foto-ilgisiz-20261112.json)",
       "photos": [
         {
           "src": "https://a0.muscache.com/im/pictures/14a90e40-e96b-471c-9bcb-28dfaa4c3e73.jpg",
@@ -2681,10 +2797,6 @@
           "label": ""
         },
         {
-          "src": "https://a0.muscache.com/im/pictures/6159c0fa-fcb8-4914-b134-9f45262048eb.jpg",
-          "label": ""
-        },
-        {
           "src": "https://a0.muscache.com/im/pictures/170537d5-919e-453f-bafd-7361bd4ad58d.jpg",
           "label": ""
         },
@@ -2698,10 +2810,6 @@
         },
         {
           "src": "https://a0.muscache.com/im/pictures/06d9b230-2327-4624-b26c-9d9f2818b55d.jpg",
-          "label": ""
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/5624c391-034e-46fe-b13f-2083db0b6d6d.jpg",
           "label": ""
         },
         {
@@ -3129,8 +3237,8 @@
       "targets": [
         "sweep7-airbnb-1363888262051860529-20261230-20270103"
       ],
-      "expected": 22,
-      "method": "Airbnb ilan fotoğraf turunda 22 fotoğraf görüldü; 7 Kasım 2026",
+      "expected": 18,
+      "method": "Airbnb ilan fotoğraf turunda 22 fotoğraf görüldü; 7 Kasım 2026; 12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 4 kare çıkarıldı (foto-ilgisiz-20261112.json)",
       "photos": [
         {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2Mzg4ODI2MjA1MTg2MDUyOQ==/original/7442aa63-9fe8-4edd-be0e-ba03fc67fa61.jpeg",
@@ -3201,23 +3309,7 @@
           "label": "Workspace"
         },
         {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/2b078559-2083-43cf-806b-7f615815d20d.jpeg",
-          "label": "Exterior 1"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/ee71e318-6668-4207-b0f1-ac0ed8d784a4.jpeg",
-          "label": "Exterior 2"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/60062af2-296e-451a-8b65-5f7990a05863.jpeg",
-          "label": "Additional photos"
-        },
-        {
           "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2Mzg4ODI2MjA1MTg2MDUyOQ==/original/0bd61904-527c-4244-89a4-62aea2b15b02.jpeg",
-          "label": "Additional photos"
-        },
-        {
-          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1363888262051860529/original/d23e58d0-90cb-435c-94db-9c4d8fcda143.jpeg",
           "label": "Additional photos"
         }
       ]
@@ -4504,13 +4596,9 @@
       "targets": [
         "sweep7-booking-triumph-haus-mit-3-schlafzimmer-20261230-20270103"
       ],
-      "expected": 35,
-      "method": "Booking çok üniteli tesis; seçili ünitenin (Üç Yatak Odalı Ev, oda 1052821701) kendi galerisinde 35 fotoğraf görüldü, diğer ünitelerin fotoğrafları eklenmedi; 7 Kasım 2026",
+      "expected": 34,
+      "method": "Booking çok üniteli tesis; seçili ünitenin (Üç Yatak Odalı Ev, oda 1052821701) kendi galerisinde 35 fotoğraf görüldü, diğer ünitelerin fotoğrafları eklenmedi; 7 Kasım 2026; 12 Kasım 2026 gözle kontrolde ilan fotoğrafı olmayan 1 kare çıkarıldı (foto-ilgisiz-20261112.json)",
       "photos": [
-        {
-          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/923925810.jpg?k=416ce7dfb43dd4911f523f6313f5c3bd8d7496a215ca661c566c46048608984c&o=",
-          "label": ""
-        },
         {
           "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/730031249.jpg?k=3b0ba3c5aded5ce4fab7b0d29e10310dfbc7078fb43dd1408fdbb5e4678e7d33&o=",
           "label": ""
@@ -4878,6 +4966,1334 @@
         {
           "src": "https://img.holidu.com/images/182d5730-c5f6-446a-ba7a-16b4d6b93c94/l.jpg",
           "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1107298370548666445",
+      "targets": [
+        "1107298370548666445"
+      ],
+      "expected": 22,
+      "method": "Airbnb ilanının tam fotoğraf turunda (PHOTO_TOUR_SCROLLABLE) 22 fotoğraf görüldü; asıl görsel yolu (im_w yok), oda etiketleri Airbnb oda gruplarından; 12 Kasım 2026",
+      "observedAt": "2026-11-12",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1107298370548666445/original/1bd0925b-9cff-491d-b106-f8636d96275b.jpeg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1107298370548666445/original/d907c660-4bfd-4fb1-9393-33137c8ae92e.jpeg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/66e67e92-61f2-4521-8fca-f8019b682daa.png",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/f2df8548-8709-42df-bca5-47ca817ddfb1.png",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/62671592-8980-4891-b7cc-2f22782e6432.png",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/71594224-e510-420a-800b-7c988ea46f22.jpeg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/055c65bb-739f-4626-bae0-7e62565ba840.jpeg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/42a3ae83-40e9-455e-8103-441ee7d8ca79.png",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/61a8bd91-78d3-46a5-914d-bb401814c280.png",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/f211d050-f8ab-4cfc-99eb-2adf581cdab7.png",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1107298370548666445/original/b75c94b1-be88-4251-8c74-df2bc8ea5c3a.jpeg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1107298370548666445/original/fe0e864e-31d2-412c-b120-0236a0868c7d.jpeg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1107298370548666445/original/be19de16-204b-4575-9a41-d88285d2e4b1.jpeg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1107298370548666445/original/f44ae5a6-8925-43af-9e42-6c9f11dad1b1.png",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1107298370548666445/original/897d9312-8140-4b11-8d77-c2f0ba3ce87f.png",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1107298370548666445/original/f656af6a-39c0-44ec-8283-c35db93ac6a0.png",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1107298370548666445/original/ec89c961-71fc-466c-8d98-5597fda21632.png",
+          "label": "Yatak odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1107298370548666445/original/53099c1c-90c0-401f-bd1c-2f7da8b645ef.jpeg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1107298370548666445/original/db97e058-bcf1-46d4-bd7a-9f501290e9a6.jpeg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1107298370548666445/original/c119d710-6592-4f47-b18b-719fe7e98002.jpeg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/200cdf2f-8ab5-42b8-957d-f2aaea416859.jpeg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEwNzI5ODM3MDU0ODY2NjQ0NQ%3D%3D/original/ffb36110-acbd-412d-8321-ef9c257b8b0a.jpeg",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1610146635685764854",
+      "targets": [
+        "1610146635685764854"
+      ],
+      "expected": 31,
+      "method": "Airbnb ilanının tam fotoğraf turunda (PHOTO_TOUR_SCROLLABLE) 31 fotoğraf görüldü; asıl görsel yolu (im_w yok), oda etiketleri Airbnb oda gruplarından; 12 Kasım 2026",
+      "observedAt": "2026-11-12",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/14ea6d62-ec46-4a0d-9652-e14e4ddcb111.jpeg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/90d68756-2dc0-45ae-a114-9007cad332ba.jpeg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/43907c31-5b6b-4c89-8d8d-348b1315707d.jpeg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/5b3565ed-7130-47d1-99c4-b074b6925aca.jpeg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/e4825d73-7cfd-4576-9d88-d301a4362042.jpeg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/1308d72c-8536-44b8-9799-c019815694c5.jpeg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/a7a26df4-8856-48d5-b386-16513a5b3e7e.jpeg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/5e52494a-96f5-4e2e-81e3-af19d804e113.jpeg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/9f879307-769f-4249-9236-3a09b6bc1888.jpeg",
+          "label": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/4bfa071d-ab0a-4b83-9800-1bb9a0ea9b96.jpeg",
+          "label": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/ba8e90b1-d88f-4587-aa73-9d1795568429.jpeg",
+          "label": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/c55b01d8-9e10-41b9-ae5c-8bb9703c583c.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/12358499-256d-4cd0-b2db-b9ff037c54c5.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/cfbd5ae9-458f-4899-a311-5330785da4f0.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/a2b4e48f-eae9-4331-84d6-4ef68d6d32fb.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/f710aa02-30cb-443c-924b-7618e4a5b77e.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/833d66e8-655b-4355-9179-81b7cc1a8836.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/5edd80eb-bdde-4018-babf-6f7becf528a2.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/71d9c035-b124-44a8-a4ab-5f0a276d537d.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/b92f4585-36d9-4575-a157-e0a382b6fc54.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/0a4a255e-7b2d-4a3e-9a6d-d22420f0e7cc.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/1f59cd83-a652-4967-8d82-5d3cad5edecc.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/f71b84ad-87c1-444e-a062-669592db477c.jpeg",
+          "label": "Yatak odası 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/0b2f2b5d-4d8b-43a4-bdcc-e4ac890c5492.jpeg",
+          "label": "Yatak odası 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/f5ddd974-660f-4369-8d9e-1c50ee2c5a9b.jpeg",
+          "label": "Yatak odası 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/06e4c029-0756-467d-88ca-d5ca8ff1f96a.jpeg",
+          "label": "Banyo 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/16392b8d-227e-4915-bef7-825e2c9e9350.jpeg",
+          "label": "Banyo 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/ffce57bf-20fa-409a-b468-8d18d9af6c9d.jpeg",
+          "label": "Banyo 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/777dd73d-9f5c-4954-9a54-671cef6f0784.jpeg",
+          "label": "Banyo 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/3f195a8d-7c77-4e62-b5a3-09ffec1829c4.jpeg",
+          "label": "Çalışma alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1610146635685764854/original/54f7b675-8fc8-46f0-9bcc-954cd249990d.jpeg",
+          "label": "Dış görünüm"
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/20671210",
+      "targets": [
+        "20671210"
+      ],
+      "expected": 28,
+      "method": "Airbnb ilanının tam fotoğraf turunda (PHOTO_TOUR_SCROLLABLE) 28 fotoğraf görüldü; asıl görsel yolu (im_w yok), oda etiketleri Airbnb oda gruplarından; 12 Kasım 2026",
+      "observedAt": "2026-11-12",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/c3cbd2e7-7c7c-47ec-bd96-56b1dc8bfb3b.jpg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/73e5f109-0973-45a3-80a0-0d57df4765f3.jpg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/952a4de9-52af-404f-a796-7ac5bc0f36d1.jpg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/fdb606bb-8e8d-4b5a-81ca-ed85a6b27f73.jpg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/acd22ab4-a8d7-45d9-9c1a-90bffb9fde94.jpg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/458effc0-ec39-4f7f-8399-a388ca4e53da.jpg",
+          "label": "Mini mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/35290c2f-2d7d-4457-8627-fcafc5e65c08.jpg",
+          "label": "Mini mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/3d1c328a-fa5b-4e5d-9670-8420d70d38e8.jpg",
+          "label": "Mini mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/1b7da5e2-5e02-4358-a11d-e52aa105cceb.jpg",
+          "label": "Mini mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/beb5e4b4-d609-4deb-9b69-cf550a24449a.jpg",
+          "label": "Mini mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/5d074c05-d423-462d-a5df-67fb85581a62.jpg",
+          "label": "Mini mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/4f664909-46bc-4eb2-8ccd-f05546cd24b9.jpg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/30c2498a-48c8-4d1e-91b6-76e79f352e72.jpg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/ad36ee04-1b43-43cb-8a0b-7b601af15a66.jpg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/8783bea4-3e8c-47dc-ac25-dccdfe1a18f1.jpg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/e4e984f3-0c91-4169-aad7-46278c7e6840.jpg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/1c188c62-71cc-408e-a1b1-0ad3dc247148.jpg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/c824838e-14fe-441d-be87-b0e83521bb7f.jpg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/5f640650-a09c-4847-a842-206c843e956d.jpg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/630e6812-41bb-41df-a92b-db95cab8d65a.jpg",
+          "label": "Çamaşır alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/e2874e28-076b-4e4c-89e6-338d3457b193.jpg",
+          "label": "Dış görünüm"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/71bf4299-d898-452e-bc49-583a1c38233d.jpg",
+          "label": "Dış görünüm"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/62145179-3588-4f9f-b133-acccfdc5d91b.jpg",
+          "label": "Dış görünüm"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/47e07b20-f125-4785-8267-91cbec105270.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/aba1af10-47ce-4770-8d53-ba00a5a1d38e.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/af3a68ad-d9d1-4313-8dcf-5438f32ef080.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/8d9fe8d7-740a-4f08-9339-b9a73d98234c.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/0ed0ebe0-a512-4081-bda8-817be074f389.jpg",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1532802572102238291",
+      "targets": [
+        "1532802572102238291"
+      ],
+      "expected": 16,
+      "method": "Airbnb ilanının tam fotoğraf turunda (PHOTO_TOUR_SCROLLABLE) 16 fotoğraf görüldü; asıl görsel yolu (im_w yok), oda etiketleri Airbnb oda gruplarından; 12 Kasım 2026",
+      "observedAt": "2026-11-12",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/79f05f8d-51f0-4b2c-adf5-2ef39162b1c5.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/aa8b0f07-283c-4e95-9752-bebf5dbacc2a.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/e924ac5e-e76d-4992-bf8f-46cf8380a5eb.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/57392b9e-04e8-403b-b54c-ddc80a25fb78.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/81be3e5d-0b2a-4f69-a93f-326e59cb2682.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/f3d2913b-dfb1-483c-ad0d-0468a0bee321.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/3c438441-9b3c-4909-addc-340273517142.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/511400e1-005b-4771-8641-8bea3ca9ca7b.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/2087b263-a3c5-4391-a914-75889db843d8.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/5aae53f7-e83d-4bcf-b575-4695a3e5a9bb.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/7e322faa-5a49-43a6-8321-bf44cab09d70.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/f342fa24-fc33-4594-90e7-3df928330266.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/06da9b49-6fce-4f1c-a6f8-1eef6c4d8eb3.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/8df8123f-2e0d-474f-99cf-dca7bd9f075a.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/3095242b-e280-4173-8c4d-64deb70a0a6e.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1532802572102238291/original/03dc5604-df04-4e12-8092-acec0f42eb98.jpeg",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/35666163",
+      "targets": [
+        "35666163"
+      ],
+      "expected": 26,
+      "method": "Airbnb ilanının tam fotoğraf turunda (PHOTO_TOUR_SCROLLABLE) 26 fotoğraf görüldü; asıl görsel yolu (im_w yok), oda etiketleri Airbnb oda gruplarından; 12 Kasım 2026",
+      "observedAt": "2026-11-12",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/82da1d24-b609-4709-b69c-b13908735c4b.jpg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/4552828c-4588-4173-b70f-fbf8e8409a9a.jpg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/29c2fd44-67c6-4859-bf16-395e385f1259.jpg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/847633b2-80d6-481a-ab8e-1f85bd82c623.jpg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/751ba03e-6174-45c9-8e89-374f503ef388.jpg",
+          "label": "Oturma odası"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/61cc98a0-895c-4bff-8d6c-315266a2d85a.jpg",
+          "label": "Mini mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/3d6b9cf6-ef58-44af-a555-8e059f422ee6.jpg",
+          "label": "Mini mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/e55bf670-2388-4b99-87cb-e18c68da092e.jpg",
+          "label": "Mini mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/3f796949-a19d-40ab-ace6-27445f1dc7f3.jpg",
+          "label": "Mini mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/ff6ab2d0-270c-4d64-848c-efb5e22248c1.jpg",
+          "label": "Mini mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/31ecfc53-0ce6-4892-980c-979d5032b020.jpg",
+          "label": "Mini mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/924b48fc-af1e-4da0-8e6b-bfce3200137d.jpg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/1d23aae0-f6db-4312-87f5-b492890c0911.jpg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/6e5ee9e5-d258-49d9-a2ee-1f2f23cc723b.jpg",
+          "label": "Yatak odası 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/f5b0d80a-603a-46c6-9208-f4eacb8a8e18.jpg",
+          "label": "Yatak odası 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/9ba03b1d-cc82-4e00-a220-d8ee381e8fdc.jpg",
+          "label": "Yatak odası 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/782818e2-e490-4f94-9e25-d6f153419009.jpg",
+          "label": "Banyo"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/e6de6a38-cd0a-46eb-89bd-ae1059e672c3.jpg",
+          "label": "Çamaşır alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/e16db0ab-3c85-48cc-9394-5715ffaf23c1.jpg",
+          "label": "Dış görünüm"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/ef32232c-20f5-4b8b-9357-40e906eda23e.jpg",
+          "label": "Dış görünüm"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/9179fa7e-decf-46eb-a65e-3f2fe02c0d5d.jpg",
+          "label": "Dış görünüm"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/0550f5be-be56-4d26-8a1e-c7f24e79213e.jpg",
+          "label": "Lobi"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/0baf9b19-a344-4920-bf4c-1b29cf247c6e.jpg",
+          "label": "Giriş"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/f5ca31bd-70ee-4a94-af92-7d8ac3dd6816.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/33cf346c-d140-4dc8-8165-b6ea4c02f46b.jpg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/920ea18a-c260-4ffc-bbe1-d27873b7fc0a.jpg",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1383517943466250521",
+      "targets": [
+        "1383517943466250521"
+      ],
+      "expected": 49,
+      "method": "Airbnb ilanının tam fotoğraf turunda (PHOTO_TOUR_SCROLLABLE) 57 fotoğraf görüldü; ilanla ilgisiz 8 kare (projektör ve hoparlör ürün görseli, parti teklifi metin kartı, parti teknesi, Siegessäule, Tiergarten, Spree teknesi, iletişim bilgili nehir karesi) gözle çıkarıldı, 49 kaldı; asıl görsel yolu (im_w yok), oda etiketleri Airbnb oda gruplarından; 12 Kasım 2026",
+      "observedAt": "2026-11-12",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/3928628a-fe6a-46cd-9c79-3f9b0c68b45c.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/7c89ae99-d27c-4b7d-b221-6d2acf606baf.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/1a4b0be3-ef21-4bae-bfa4-cc38548d6284.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/9f3c9fa2-bdb9-4943-b219-cbc2cb78aee9.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/256ca19e-0c59-4137-a9c7-96ebf7b7fcae.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/8767912c-28d7-4519-8d70-72b41506723c.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/38aeef4b-c544-4978-a67a-9cbcdee0bb77.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/7bc46e75-ef5d-4369-a3e7-64242b515b5b.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/2914ed91-759c-47d4-921e-f110380ac410.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/42b3e312-dc65-4a22-8df7-b4d774845e27.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/7c12170e-8068-4bed-ba48-31b8f14a522e.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/183baf0a-274d-45bf-9cd7-5577ec57d5d5.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/811f0fbd-5a1e-475e-be9a-57ef77f5bebb.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/d5453a87-4917-4a64-8c40-5b5e58749e1b.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/72ae9b5c-53cd-4713-95f6-1e98f1343ee4.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/c85f7a2f-de76-462f-b4e3-f36bbc921674.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/4e195568-773f-47fd-a947-e198f5353ebc.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/43036f0a-6eb5-49f0-83c7-b55e1e9d68ab.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/123fb103-a9f5-4ba4-859a-08b94a7dfb88.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/c2650ec3-2f3c-4b55-ae2a-25c364ace245.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/615060cf-55a5-4567-a52d-5a6e311654f8.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/b300cf9e-64b2-4148-b742-516e3acf5b5f.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/a53d3bc5-0fcb-434c-8c59-4c966a36abf1.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/54e227fb-d7d5-4b06-b428-656ed20ddd28.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/b77edc28-ac07-4ea7-8325-d87a3e6ec8ef.jpeg",
+          "label": "Pencereden manzara"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/3e2f76a6-c3e8-4dad-a763-2db5d9e46040.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/9e45a618-abab-4de1-877c-847a78b01cf3.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/1b14d881-d6be-4c0b-bda8-67f3bcc6caf2.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/46084e99-09ee-4aed-8026-2345c4cdbc1f.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/74084669-bf28-439c-b680-d8d1b8718d3a.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/79788fde-da4d-4a45-a7cf-e744b01668a5.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/123fead4-14e4-48fe-ae4b-becdca07d6ef.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/e11f766a-71e1-4f89-b695-855ba0738589.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/e22bf4be-b410-448f-b093-d47fb5c9cb6d.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/2d7c98b3-d0ef-4ade-8fbd-7367345a6f60.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/a24cc9af-1352-40d7-9fcc-012c407c963f.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/3d39920a-178a-4814-ac98-7fe503f7e1fb.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/c1a011f7-d301-4040-a32b-ce1e61656a4f.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1383517943466250521/original/5a300fd6-9b2f-45bc-8971-3c6f3487cc9b.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/7af73e3e-0fd1-44e2-98a5-05accf51664a.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/34acf72d-39ea-4a0d-8ac5-4555832f8d53.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/2a15afc7-5f81-4462-af2f-59442d9a91c1.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/ad43a938-b516-4c1f-94f2-a0867a09af66.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/70f7ebf9-35c1-451d-8d8b-9daf5cc33760.png",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/8971b63e-7d5f-4e24-8af5-24a8dc910c2e.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/acdc1704-7e1b-43b3-801f-a9019f1c4eb8.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/ad10105d-2eeb-4f19-9de9-112f4b35e174.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1383517943466250521/original/3840fa5e-e6e2-4f92-9f19-867f00567e24.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4MzUxNzk0MzQ2NjI1MDUyMQ==/original/965fc572-c45c-433c-8979-a7e895706c58.jpeg",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1740651283805171847",
+      "targets": [
+        "1740651283805171847"
+      ],
+      "expected": 47,
+      "method": "Airbnb ilanının tam fotoğraf turunda (PHOTO_TOUR_SCROLLABLE) 48 fotoğraf görüldü; Superhost rozeti gözle çıkarıldı, 47 kaldı; asıl görsel yolu (im_w yok), oda etiketleri Airbnb oda gruplarından; 12 Kasım 2026",
+      "observedAt": "2026-11-12",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/9891e59f-721b-4e24-a786-7ff37b9b51f5.jpeg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/6d77e717-f9e2-41f9-9006-dd133b858937.jpeg",
+          "label": "Mutfak"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/f8d19884-0771-4470-ae6f-b00127b5bda0.jpeg",
+          "label": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/d7ac89fb-1652-4b77-bb25-07f892423884.jpeg",
+          "label": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/ec5bbf25-5bc0-483d-b0fd-fc6474c696c9.jpeg",
+          "label": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/67a3193a-047f-44b4-b174-e7db8916cd91.jpeg",
+          "label": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/2798dd3e-91c8-4913-9755-81a487eb6991.jpeg",
+          "label": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/44faa1ed-0abb-442c-be1c-0573ed7b48ed.jpeg",
+          "label": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/0e76799b-bbdf-4112-9b05-27a7f401ed8d.jpeg",
+          "label": "Yemek alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/ae2fc111-a9c3-435d-a193-154c3442faba.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/1b92c71c-c9fb-44fa-b6f9-aa6e0c10f670.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/ac6383c2-50b6-4636-91fc-86aaf77a4697.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/bd9b3c3b-3004-49df-b890-a43ff1ce2db9.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/7a72a986-0281-4866-a350-2b70b508ec41.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/5f105a83-dfa2-4b0b-8181-64a291937b70.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/baf3abed-d78d-4f1a-aae5-e56aa54b00a4.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/114fd042-b18a-457a-9f57-50b0edc64918.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/25ef9b56-53f6-461f-9752-e604e23dda47.jpeg",
+          "label": "Yatak odası 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/02ddc2cd-ae4b-4e07-8360-9a175e09994d.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/a2454315-fd7e-46cb-9f03-252531b663e3.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/5d181b08-c828-4094-ac0d-fe2237e398c1.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/3ebd4f37-1226-4e42-99f4-c172837269dd.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/f4992bb2-3cb4-4d99-bdd5-d629e3584f1e.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/b90b59bc-2531-424d-98ca-6f2b5ce68f23.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/90996912-ebe6-4fb8-aa4c-b1d103f0dcff.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/0f331417-c8eb-48ae-b6ac-73138ab7b929.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/3ae95fd6-5530-4788-a766-e47d0e0d8dad.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/b02c2e62-7fd7-4eed-99b7-64f4a78570e5.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/319572cc-dc15-4906-905e-3e31242e6291.jpeg",
+          "label": "Yatak odası 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/78467567-c5c1-4293-9f03-a0f191d7304a.jpeg",
+          "label": "Yatak odası 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/19f655a3-a857-4c46-9cb2-22ea7dd44ed4.jpeg",
+          "label": "Yatak odası 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/cb31023b-fc21-4ae5-a920-97d4c63e1d53.jpeg",
+          "label": "Yatak odası 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/6b85cdde-038d-4263-91b0-6809ac38b402.jpeg",
+          "label": "Yatak odası 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/16f3bf86-895b-4105-9ccf-704d19567338.jpeg",
+          "label": "Yatak odası 3"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/790f7711-5771-47e8-929f-2c8c55a83ccc.jpeg",
+          "label": "Banyo 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/2d361048-a0af-41d8-a69a-c50dd936c51e.jpeg",
+          "label": "Banyo 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/be2efc85-7d36-425f-9a30-ffa3b44757e4.jpeg",
+          "label": "Banyo 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/aec1988e-6eb2-4fe5-abc4-0497e373443e.jpeg",
+          "label": "Banyo 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/2f0cc310-2969-4782-930a-b060f059e2fe.jpeg",
+          "label": "Banyo 1"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/6cbf3c74-8495-4bee-be05-dc522456447b.jpeg",
+          "label": "Banyo 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/0148fcb6-6183-4932-b7c1-ea0b5997065f.jpeg",
+          "label": "Banyo 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/8e4c1681-c263-4470-b17b-41b0073b4f69.jpeg",
+          "label": "Banyo 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/d61623fe-3281-47c2-9bcb-c5fb82b4e4f9.jpeg",
+          "label": "Banyo 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/38cb744f-b949-44d8-a4fc-3cd7b3851117.jpeg",
+          "label": "Banyo 2"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/508706df-21e3-448e-b97c-d202211461de.jpeg",
+          "label": "Çamaşır alanı"
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/44487efd-a4ff-40bc-ae04-1f80e1c6cd21.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-1740651283805171847/original/31f5acba-568e-4532-acd0-0a02360fe3bb.jpeg",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.airbnb.com/rooms/1152005761587998986",
+      "targets": [
+        "six-airbnb-1152005761587998986-full"
+      ],
+      "expected": 8,
+      "method": "Airbnb ilanının tam fotoğraf turunda (PHOTO_TOUR_SCROLLABLE) 8 fotoğraf görüldü; asıl görsel yolu (im_w yok), oda etiketleri Airbnb oda gruplarından; 12 Kasım 2026; kaynakta yalnız 8 fotoğraf var",
+      "observedAt": "2026-11-12",
+      "photos": [
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1152005761587998986/original/eca040a5-1238-4185-adb9-407132f7088d.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1152005761587998986/original/9811d8c7-c575-4195-9558-410e2d545270.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1152005761587998986/original/a5d73942-5747-4976-9f43-9ed3f8028724.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1152005761587998986/original/fdad6ff8-8e23-462d-b53c-d331e16f3aa2.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1152005761587998986/original/acc99b3b-af7c-43ed-99f5-09bc4c371e69.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1152005761587998986/original/2cc9e1bd-fe6d-42c2-aee8-23eb7fc092ae.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1152005761587998986/original/2ec3ecf9-7e4b-4adb-8cdb-6622d2073f4d.jpeg",
+          "label": ""
+        },
+        {
+          "src": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1152005761587998986/original/01395f4c-f3c3-4530-b004-93aa69cc0436.jpeg",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/sonnig-und-helle-wohnung-alexanderplatz-in-15min-zu-erreichen-sehr-schon-und-gro.html",
+      "targets": [
+        "six-booking-951491101-full"
+      ],
+      "expected": 23,
+      "unitId": "951491101",
+      "method": "Booking ilan galerisi ve oda penceresi; görseller sayfadaki ?k= imzasıyla max1920x1080; tesiste tek ünite, 23 fotoğrafın tamamı bu daireye ait; 12 Kasım 2026",
+      "observedAt": "2026-11-12",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302795.jpg?k=7cb01aeb2677ba0b56a8c769e77af3ffef10c08480ef389fe83c056ca7bc9669&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302945.jpg?k=ebd72db9e484348234a74ea79c76d5aa482c54b84bbc94c2967782ae6832b72f&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302944.jpg?k=6b72bc17017858135519bb63765ab871a1f5ea03ad7f728f7f7c772abb7fd12c&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302942.jpg?k=2626bb094bcf02246b2ec710dbcc4d0d351653c787305c5723db8dcef3ad0f93&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302940.jpg?k=fc4515b880901aa629b1f2e70d4c09caae55e387777b9388a4f53968259b6c30&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302960.jpg?k=610ffd14b11d3a6074e452d4affa6dc3f766c2613fc065e0e17413aa6bf855de&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302949.jpg?k=1301f53bf9f649740621cb0e6a028a853a94d40c31f57b2f3087776b7afb8cb5&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302932.jpg?k=276039c3e40e915f255f022c1449593fef5d2d9a3364933520519b95d3524170&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302927.jpg?k=b4d25af448cb3b0bc54be61a6133d0844e0867e9e544108b64f2f8cb3dc13923&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302928.jpg?k=812e83d84f08b124abad3d4fc26fc7042c97c75f25d06d3e0445a61ecefb4c18&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302956.jpg?k=ae49891f706ea727b07e03990cc6b95178c7adec4babac2bb19d0707b3bd48bf&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302923.jpg?k=739fe62dfc50f0463d95a1a209ea6e38414c165792b38c0d5f31b09bcb8bc250&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302933.jpg?k=afd0ea842c63af989b366743640322b1e9d8c4b05624d8f26006efd8547ce47d&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302924.jpg?k=93545f4e88b73f7552fdc3e6786fab0ad8f5649652b06482ff22e82a9e24cb27&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302936.jpg?k=18ad47feb41cf6771acbc6c5abe8819ac9927e75d33f09b5358cfb3305114817&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302948.jpg?k=98d32fa81c9455753383ddc086a8d59893352db426368c57eb282386b16ec304&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302955.jpg?k=18f3274614c17c54193b37ba57fdd85f0cbeb32e0db4d1c2c7a2ce8464ff4b26&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302929.jpg?k=ad771adceaf7cedbeba32ac0afa4e69d6ee0cc2a0d6a7262a04cda74e4048954&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302947.jpg?k=7ddae004d85a52179857736b66af5f51df31c7de270a5c8e4216507062b0d382&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302939.jpg?k=6f74a1c1327d96a891cf24f1b401fb4b65b970dbb2ae93103428aa9654724df9&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302950.jpg?k=369837ee92fc056535813cadcb93a057011475f58b6df8d166464c4a95f426ea&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302853.jpg?k=a5488a10f0411f471dff417fcda856bac31650992465e74ae3c2fcb396a05c3c&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/422302941.jpg?k=89db04dec721dabd097f5d6e53b5c35bba6e1338a3a3d9b8ab9ee8b495a1fc43&o=",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/120sqm-amp-5-room-luxury-apartment-with-garden.html",
+      "targets": [
+        "six-booking-1242731801-full"
+      ],
+      "expected": 41,
+      "unitId": "1242731801",
+      "method": "Booking ilan galerisi ve oda penceresi; görseller sayfadaki ?k= imzasıyla max1920x1080; tesiste tek ünite, 41 fotoğrafın tamamı bu daireye ait; 12 Kasım 2026",
+      "observedAt": "2026-11-12",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578296359.jpg?k=a665c9a70ac1f9afe68cf79e64ebfc0bb732fd37cd23dbd5531d9269aae416bb&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298248.jpg?k=3060016a74c101e138967ba10e6bc1e79f27ed8c737eec0ff2baafc1f6951870&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298574.jpg?k=f7144ad33ecbf51ccbd167c5ddc79287f7982e79b5a3ef701335abd5a4b45e3b&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298581.jpg?k=15ab2e2ecbb0a0c58f9acfc7efd9744000d01f333e171a9878c0cd4d8c851a25&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578296480.jpg?k=5995f777fae6b9fbafc9dc043f20ca4e722f7d0feca3bf7d14c3a5d08751be86&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578295672.jpg?k=5c1241dbf60d1b18bd414118258cdf1ad5d84bc273876437e9a1015cdbe2d54a&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298667.jpg?k=4b79195b18420c75c76bb65a1fb628f91380b76ce0e53e33d0adb79627ba0cc9&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298367.jpg?k=30565ad585d39f1c4e26c69935cd6742971826edff81c8029f5884ac24f76e19&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578295296.jpg?k=699b3d9c5558db7207cec2f9a8e613238613bc2b1c076d1974b13f7078ed7bd2&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578295120.jpg?k=6d966a54a99edea44b10601d990ce9fa279879c87ec4f4177780af3933290037&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578295599.jpg?k=8be046cbfb031af512a2edba41110b768b5eb09eb95d66314dbb1f22d1153e2b&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578295696.jpg?k=a8a3a127be2d4bb465f7e7e83920edab247a40b8103200bf8910b6a5ab17238c&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578297033.jpg?k=062074f56e5003b64ee034c83810b76b2e70c6f91c14a9891f40ea533e56bb20&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578296941.jpg?k=f3e784dd0bbfd97f3912e2a7d90caf1cd055f8012c5d8362c9950a54d295d01a&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578297271.jpg?k=de19707388282a81622970240fd7ab66e01984d783c3dee911732c2b5a761602&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578297186.jpg?k=6c559411b278058f01f1f7bcdc581b1ce27ec26670643320a602b8d403047acd&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578297355.jpg?k=9113c02451950105c8a95840f3854510e32100fee635e5b0e0663fc4309c0276&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578297342.jpg?k=7ff4f48c7aac633fccc9b210b265d42e6d2f74d6b4f63904e069e5fb7fa84399&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578297300.jpg?k=4fe45dbd5ee18837ad63fbdba69c6c3a84ecfbc48ccf5fcc15e64dcfeea8a33a&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578297674.jpg?k=f2e980a66f6c15cdc52dc58b88d1559eee0393aa2a2421f9d0e287973fc27bff&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578297958.jpg?k=22a014e64693bd05bfd36fad6c34ed5c6ba889db96776e0fd7df48fe30d2e28c&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298015.jpg?k=41effdfc5ebaa6ca907c9e6578d215356150d77472b9c073abe824ccf7f7b860&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578297918.jpg?k=912547a533f5ce4d95072b0e04aeb93786ba08b8d14f497bfcf0183ff8c96713&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578297781.jpg?k=06a8b87e1efc1f4e83b07270d376265322d37412c49bdfe80ae3dd52a59fb8f8&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298006.jpg?k=a630df4d1a6991277f9d855ff946d7714f831cbef0b4011bc0f4432ef6614005&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578297981.jpg?k=915278bc3ca7012b4a69507bce07af1397451aec19f2e905be6089f89d015e96&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298104.jpg?k=efe51290283870089217f8938b78423e30abf6231d9ac369bbbe170e183b4f10&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298289.jpg?k=c221cae49bf5d5cf059ca80196144b340d00da50136672f15cc78b1289abda6e&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298276.jpg?k=98e280c6e8fe171dda6b1a51dc6e86e3b6f272c225e17e9c615f7cc79773de03&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298389.jpg?k=a1d7387683ec1aec614585a2ec7bb37305ed37b2f510f9fe50f6595bc99ded50&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298246.jpg?k=7732f67d6e848259ab018fb1e16033b3b4f95de5642d58f7da5b0052a68e1eae&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298406.jpg?k=1581a67b90ee2c3d779615a3c3c1c0324896bd0b4baecd231432c4f9fcf3ed29&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298402.jpg?k=88c0b30cc7d9ea6ea9cfaf9628b3dff75c6516200ae2cd5dc8a6cb0e7cbee043&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298525.jpg?k=bdb3f7c2cd34b097b97fa26aa423597a7be126f09cbfad6269c3820adcc609ce&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298548.jpg?k=362b2d6a77eb7f3d29b275da15d4edbb452ed9e46d02926e0ab3810cd5d0f3de&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298570.jpg?k=c228fe76afaad5c4ffad71f1e0938ae301a89da9a5490824842d4efc1811d288&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298650.jpg?k=82d58094d760e93bf591140d7440a583ee5c43ecc53b8db6153af269e0866beb&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298653.jpg?k=1756d41ae70aa8bac4839dea407e61b23a4ce48409171f2c8c5c844a986fb25f&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298665.jpg?k=fe68b1f1e1872a15440a9f64ac379a07c840513a94b99215af0b469367aeebc1&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298669.jpg?k=0c24fb7ca6fb65b1c2f6a99fe3afbd38d29ea7aba7a520caced7f897068547c2&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/578298674.jpg?k=e3f97d94f665f8d43ba34a6c0c76e041e4f5b2ae668bf4c2855e79335f6b723c&o=",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "source": "https://www.booking.com/hotel/de/apartmenthaus-berlin-mitte-digital-check-in.html",
+      "targets": [
+        "sweep6-booking-1252191308-20261230-20270101"
+      ],
+      "expected": 10,
+      "unitId": "1252191308",
+      "method": "Booking ilan galerisi ve oda penceresi; görseller sayfadaki ?k= imzasıyla max1920x1080; Standard Apartment oda penceresinde 4 fotoğraf; ardından odaya bağlı olmayan bina/koridor/avlu kareleri eklendi; başka daire tiplerinin iç mekânı ve çevre manzaraları (7 kare) eklenmedi; 10 fotoğraf; 12 Kasım 2026",
+      "observedAt": "2026-11-12",
+      "photos": [
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/869791739.jpg?k=1c2881b71983b1b4daf2a0633d6d5c04c1e84de36a1448ad24cf6e938787d3ea&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/869791196.jpg?k=eb47ea7c8ddb2ae1f7cdcdbfc58c5ca632d07191eaedf1dcec7f82092540f978&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/869789139.jpg?k=89818251325dddfc20bd8358ee16b8b0fcbbd3df9fc31b79afa80731909668fc&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/869789122.jpg?k=759acc76a180172a39c22298da98d2c3f30b5e11e4ed94556339d1baf6dc6619&o=",
+          "label": ""
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/583042285.jpg?k=d1a76913fb748a65e31392d3ed5af33d914d3d11920d41e60ef2e3570d3f3477&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/583042286.jpg?k=f4924b2d6a0c8ca35a2b5935450615387f4fd091f4c311ab41ad990ed1db7d72&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/583042288.jpg?k=038c5cebaaafb1c89b4b3b81c8c98e3e15f282bb12a58c3da4dbe56e2c976d5f&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/583042289.jpg?k=fd3decf07b6d7d2fdf679306031c279c653adbbbeb9c192c065c86056c7237a9&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/583042290.jpg?k=a3ecfa392af57f9430706d85de50390672aa1f44ae7573923b4c5fa5a2fac138&o=",
+          "label": "Tesis ortak alanı"
+        },
+        {
+          "src": "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/583042292.jpg?k=f28fbddcb6547f8efa8a27a24207cffa58900c1a6ece956775138ddee4b0a438&o=",
+          "label": "Tesis ortak alanı"
         }
       ]
     }

@@ -45,6 +45,13 @@ TITLE_REQUIRED_FROM = 'galeri-sweep-20261107.json'
 # Same image uploaded more than once to a listing, found by a visual check on
 # 7 November (exact file or the same frame with tiny exposure/crop changes).
 PHOTO_DUPLICATES = HERE.parent / 'six' / 'prepared' / 'foto-mukerrer-20261107.json'
+# Airbnb pages also carry host/reviewer portraits (im/pictures/user/) and the
+# review-summary icons (AirbnbPlatformAssets). On 10-11 November they were
+# collected as listing photos; they are never photos of the stay.
+# Images that are not photos of the stay (city sights, info cards, maps),
+# found by the 12 November visual check of every gallery.
+NON_LISTING_LIST = HERE.parent / 'six' / 'prepared' / 'foto-ilgisiz-20261112.json'
+NON_LISTING_PHOTO = re.compile(r'a0\.muscache\.com/im/pictures/(?:user/|AirbnbPlatformAssets|airbnb-platform-assets)', re.I)
 OUT = HERE / ('preview-six.html' if ADULTS == 6 else 'preview-seven.html')
 FOUR_IN, FOUR_OUT = '2026-12-30', '2027-01-03'
 MONTHS = {11: 'Kasım', 12: 'Aralık', 1: 'Ocak'}
@@ -542,6 +549,24 @@ def drop_duplicate_photos(rows, duplicates):
                 if not (url_of(photo) and drops.get(identity(url_of(photo))) in present)]
         removed += len(photos) - len(kept)
         row['photos'] = kept
+    return removed
+
+
+def drop_non_listing_photos(rows):
+    """Remove profile portraits and platform icons wherever a gallery came from."""
+    removed = 0
+    listed = {identity(item['url']) for item in read_json(NON_LISTING_LIST).get('photos', [])} if NON_LISTING_LIST.exists() else set()
+    def unrelated(photo):
+        if not (isinstance(photo, (list, tuple)) and len(photo) >= 2):
+            return False
+        url = str(photo[1])
+        return bool(NON_LISTING_PHOTO.search(url)) or identity(url) in listed
+    for row in rows:
+        photos = row.get('photos') or []
+        kept = [photo for photo in photos if not unrelated(photo)]
+        removed += len(photos) - len(kept)
+        if len(kept) != len(photos):
+            row['photos'] = kept
     return removed
 
 
@@ -1494,6 +1519,9 @@ def main():
             row['_photo_coverage'] = 'İlana ait olduğu doğrulanamayan görseller çıkarıldı.'
     apply_verified_galleries(rows, checked_galleries)
     drop_duplicate_photos(rows, load_photo_duplicates())
+    dropped = drop_non_listing_photos(rows)
+    if dropped:
+        print(f'Uyarı: {dropped} ilgisiz görsel (profil, platform simgesi veya foto-ilgisiz listesi) kaynak veride kalmış, karttan çıkarıldı.')
     if TITLES.exists():
         title_data = read_json(TITLES)
         titles = title_data.get('titles') if isinstance(title_data, dict) else None
