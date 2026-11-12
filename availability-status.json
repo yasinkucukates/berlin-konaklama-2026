@@ -383,7 +383,12 @@
       "status": "available",
       "checkedAt": "2026-11-10T18:13:55.860Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174401",
-      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 1557174401 numaralı eşleşen birimi seçilebilir gösterdi."
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 1557174401 numaralı eşleşen birimi seçilebilir gösterdi.",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-12T21:10:09.305Z",
+        "reason": "Booking seçili ilan ve kişi sayısı için gereken konaklamayı doğrulamadı."
+      }
     },
     {
       "scope": "card",
@@ -437,11 +442,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-10T07:00:22Z",
+      "checkedAt": "2026-11-12T21:25:45.785Z",
       "sourceUrl": "https://www.airbnb.com/rooms/45962465?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
       "evidenceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-thedanziger-2-yatak-odası-120-m-büyük-oturma-odası-4-7-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44006614%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=MpA05y3gTlNEWf464iX6pOJQPTKr7TCzV4zynn9m%2B%2BfZ0AqwOku7Y1umi%2FcWLjRoHXjfX%2FRHVuAvjm6UPdvY1YkeoF3CV2YG0nFNoeDmgSVhtN%2F%2BNkNMKV4GTvXKGQNeUJ8lCIMO95JTnwoG2dOu6YnJhRbYHgQUO4VGSZigc5m7ni85Ac8%3D&cdsOrigin=DEAL_ON_DEALFINDER",
-      "evidence": "10 Kasım Trivago araması seçili tarihler ve 6 yetişkin için eşleşen The Danziger Airbnb teklifini 2.534 € gösterdi; doğrudan ödeme ve vergi kapsamı teyit edilmedi. Kayıt zamanı kontrol aralığının başlangıcıdır.",
-      "displayPrice": "Trivago · Airbnb 2.534 €; vergi kapsamı teyitsiz"
+      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
     },
     {
       "scope": "card",
@@ -462,11 +466,10 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-10T07:00:22Z",
+      "checkedAt": "2026-11-12T21:25:48.198Z",
       "sourceUrl": "https://www.airbnb.com/rooms/45962465?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
       "evidenceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-thedanziger-2-yatak-odası-120-m-büyük-oturma-odası-4-7-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44006614%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-7&cds=NHp4jdYYC8fUPALFL3tszMSzw2%2B4xzmo%2By2i%2FMyt1SUdFlWDVp7Pcp2EZaTQj1DmmX13%2FfCSvqnPyGUAzsqEOwZymFWCSVe%2FBKWMPzWKdcf3IHSPmrbQNxR8sDoVeXdWqW1f9b2iQkpVmvUE5yn19W1SoJta4LYieJHKaqAbVNdDoIn2p4oBiQ%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER",
-      "evidence": "10 Kasım Trivago araması seçili tarihler ve 7 yetişkin için eşleşen The Danziger Airbnb teklifini 2.666 € gösterdi; doğrudan ödeme ve vergi kapsamı teyit edilmedi. Kayıt zamanı kontrol aralığının başlangıcıdır.",
-      "displayPrice": "Trivago · Airbnb 2.666 €; vergi kapsamı teyitsiz"
+      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
     },
     {
       "scope": "card",
@@ -1792,7 +1795,12 @@
       "status": "available",
       "checkedAt": "2026-11-10T17:58:03.250Z",
       "sourceUrl": "https://www.booking.com/hotel/de/freedom-studioapartment-booking.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_181193704",
-      "evidence": "Booking, 2026-12-30–2027-01-03 ve 6 yetişkin için 181193704 numaralı eşleşen birimin seçilebilir olduğunu gösterdi."
+      "evidence": "Booking, 2026-12-30–2027-01-03 ve 6 yetişkin için 181193704 numaralı eşleşen birimin seçilebilir olduğunu gösterdi.",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-12T21:00:35.262Z",
+        "reason": "Booking yalnız bir stüdyo gösterdi; ilan için gerekli üç stüdyonun birlikte müsaitliği doğrulanamadı."
+      }
     },
     {
       "scope": "card",
@@ -1902,7 +1910,12 @@
       "status": "available",
       "checkedAt": "2026-11-10T17:58:54.315Z",
       "sourceUrl": "https://www.booking.com/hotel/de/freedom-studioapartment-booking.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_181193704",
-      "evidence": "Booking, 2026-12-30–2027-01-01 ve 6 yetişkin için 181193704 numaralı eşleşen birimin seçilebilir olduğunu gösterdi."
+      "evidence": "Booking, 2026-12-30–2027-01-01 ve 6 yetişkin için 181193704 numaralı eşleşen birimin seçilebilir olduğunu gösterdi.",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-12T21:02:28.364Z",
+        "reason": "Booking yalnız bir stüdyo gösterdi; ilan için gerekli üç stüdyonun birlikte müsaitliği doğrulanamadı."
+      }
     },
     {
       "scope": "card",
@@ -2013,7 +2026,12 @@
       "checkedAt": "2026-11-10T17:56:08Z",
       "sourceUrl": "https://skiplagged.com/hotel/9485872/im-herzen-von-kreuzberg---perfekt-gelegen-fur-bis-zu-8-personen-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=6",
       "evidence": "Skiplagged canlı oda sorgusunda 6 yetişkin, 1 birim ve seçilen tarihler için One-Bedroom Apartment teklifi görüldü; sorgu 17:56 ile 18:07 UTC arasında yapıldı.",
-      "displayPrice": "Skiplagged $1595.60 toplam; kaynaktaki vergi kapsamını kontrol edin."
+      "displayPrice": "Skiplagged $1595.60 toplam; kaynaktaki vergi kapsamını kontrol edin.",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-12T21:25:12.399Z",
+        "reason": "Skiplagged seçili tarihler için oda sonucu döndürmedi; doluluk doğrulanamadı."
+      }
     },
     {
       "scope": "card",
@@ -2025,7 +2043,12 @@
       "checkedAt": "2026-11-10T17:56:08Z",
       "sourceUrl": "https://skiplagged.com/hotel/744972/arabel-design-apartments-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=6",
       "evidence": "Skiplagged canlı oda sorgusunda 6 yetişkin, 1 birim ve seçilen tarihler için Three-Bedroom Suite teklifi görüldü; sorgu 17:56 ile 18:07 UTC arasında yapıldı.",
-      "displayPrice": "Skiplagged $3138.51 toplam; kaynaktaki vergi kapsamını kontrol edin."
+      "displayPrice": "Skiplagged $3138.51 toplam; kaynaktaki vergi kapsamını kontrol edin.",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-12T21:25:12.399Z",
+        "reason": "Skiplagged süit teklifleri döndürdü, ancak üç yatak odalı süitin kimliği doğrulanamadı."
+      }
     },
     {
       "scope": "card",
@@ -2047,7 +2070,12 @@
       "status": "available",
       "checkedAt": "2026-11-10T18:13:02.651Z",
       "sourceUrl": "https://www.booking.com/hotel/de/freedom-studioapartment-booking.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR#room_181193704",
-      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 181193704 numaralı eşleşen birimi seçilebilir gösterdi."
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 181193704 numaralı eşleşen birimi seçilebilir gösterdi.",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-12T21:09:20.758Z",
+        "reason": "Booking yalnız bir stüdyo gösterdi; ilan için gerekli üç stüdyonun birlikte müsaitliği doğrulanamadı."
+      }
     },
     {
       "scope": "card",
@@ -2113,7 +2141,12 @@
       "status": "available",
       "checkedAt": "2026-11-10T18:13:52.707Z",
       "sourceUrl": "https://www.booking.com/hotel/de/freedom-studioapartment-booking.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR#room_181193704",
-      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 181193704 numaralı eşleşen birimi seçilebilir gösterdi."
+      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 181193704 numaralı eşleşen birimi seçilebilir gösterdi.",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-12T21:10:06.318Z",
+        "reason": "Booking yalnız bir stüdyo gösterdi; ilan için gerekli üç stüdyonun birlikte müsaitliği doğrulanamadı."
+      }
     },
     {
       "scope": "card",
@@ -2180,7 +2213,12 @@
       "checkedAt": "2026-11-10T18:15:32Z",
       "sourceUrl": "https://skiplagged.com/hotel/9485872/im-herzen-von-kreuzberg---perfekt-gelegen-fur-bis-zu-8-personen-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
       "evidence": "Skiplagged canlı oda sorgusunda 7 yetişkin, 1 birim ve seçilen tarihler için One-Bedroom Apartment teklifi görüldü; sorgu 18:15 UTC sonrasında yapıldı.",
-      "displayPrice": "Skiplagged $1642.24 toplam; ücret kapsamını kaynakta kontrol edin."
+      "displayPrice": "Skiplagged $1642.24 toplam; ücret kapsamını kaynakta kontrol edin.",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-12T21:25:12.399Z",
+        "reason": "Skiplagged seçili tarihler için oda sonucu döndürmedi; doluluk doğrulanamadı."
+      }
     },
     {
       "scope": "card",
@@ -2192,7 +2230,12 @@
       "checkedAt": "2026-11-10T18:15:32Z",
       "sourceUrl": "https://skiplagged.com/hotel/744972/arabel-design-apartments-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
       "evidence": "Skiplagged canlı oda sorgusunda 7 yetişkin, 1 birim ve seçilen tarihler için Three-Bedroom Suite teklifi görüldü; sorgu 18:15 UTC sonrasında yapıldı.",
-      "displayPrice": "Skiplagged $3160.87 toplam; ücret kapsamını kaynakta kontrol edin."
+      "displayPrice": "Skiplagged $3160.87 toplam; ücret kapsamını kaynakta kontrol edin.",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-12T21:25:12.399Z",
+        "reason": "Skiplagged süit teklifleri döndürdü, ancak üç yatak odalı süitin kimliği doğrulanamadı."
+      }
     },
     {
       "scope": "card",
