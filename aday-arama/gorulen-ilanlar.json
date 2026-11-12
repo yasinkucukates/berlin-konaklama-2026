@@ -5127,160 +5127,200 @@
    "platform": "airbnb",
    "url": "https://www.airbnb.com/rooms/1034836316144652017",
    "name": "Old building apartment in Neukölln near Tempelhofer Feld",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-airbnb-1034836316144652017-20261230-20270103"
   },
   {
    "key": "booking:cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking",
    "platform": "booking",
    "url": "https://www.booking.com/hotel/de/cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking.html",
    "name": "Cosy Three BR Two BTH plus AC plus Self CheckIn plus Street Parking",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-booking-cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking-20261230-20270103"
   },
   {
    "key": "booking:city-apartment-spreeufer",
    "platform": "booking",
    "url": "https://www.booking.com/hotel/de/city-apartment-spreeufer.html",
    "name": "City-Apartment Spreeufer im Herzen Berlins",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-booking-city-apartment-spreeufer-20261230-20270103"
   },
   {
    "key": "traum-ferienwohnungen:93211",
    "platform": "traum-ferienwohnungen",
    "url": "https://www.traum-ferienwohnungen.de/93211/",
    "name": "Apartment Max",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-traum-ferienwohnungen-93211-20261230-20270103"
   },
   {
    "key": "airbnb:53796458",
    "platform": "airbnb",
    "url": "https://www.airbnb.com/rooms/53796458",
    "name": "Choice Berlin",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-airbnb-53796458-20261230-20270103"
   },
   {
    "key": "booking:stilvolle-6-zimmer-ferienwohnung-mit-2-badern",
    "platform": "booking",
    "url": "https://www.booking.com/hotel/de/stilvolle-6-zimmer-ferienwohnung-mit-2-badern.html",
    "name": "Stilvolle 6 Zimmer Ferienwohnung mit 2 Bädern",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-booking-stilvolle-6-zimmer-ferienwohnung-mit-2-badern-20261230-20270103"
   },
   {
    "key": "booking:britzer-tor",
    "platform": "booking",
    "url": "https://www.booking.com/hotel/de/britzer-tor.html",
    "name": "Hotel Bohemia – Two-Bedroom Apartment with Balcony",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-booking-britzer-tor-20261230-20270103"
   },
   {
    "key": "booking:fantastic-berlin",
    "platform": "booking",
    "url": "https://www.booking.com/hotel/de/fantastic-berlin.html",
    "name": "Just Berlin",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-booking-fantastic-berlin-20261230-20270103"
   },
   {
    "key": "booking:petersburger-strasse-kleines-apartment-mit-kuche-und-bad",
    "platform": "booking",
    "url": "https://www.booking.com/hotel/de/petersburger-strasse-kleines-apartment-mit-kuche-und-bad.html",
    "name": "Friedrichshain Apartmenthaus – Three-Bedroom Apartment - High Floor",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-booking-petersburger-strasse-kleines-apartment-mit-kuche-und-bad-20261230-20270103"
   },
   {
    "key": "booking:trio-apartment-berlin-lichtenberg",
    "platform": "booking",
    "url": "https://www.booking.com/hotel/de/trio-apartment-berlin-lichtenberg.html",
    "name": "TRIO Apartment Hotel Berlin – Superior Apartment Plus",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-booking-trio-apartment-berlin-lichtenberg-20261230-20270103"
   },
   {
    "key": "airbnb:1333910684186106416",
    "platform": "airbnb",
    "url": "https://www.airbnb.com/rooms/1333910684186106416",
    "name": "Fantastic 2 Bedroom Apartment",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-airbnb-1333910684186106416-20261230-20270103"
   },
   {
    "key": "booking:modern-accommodation-neukoln",
    "platform": "booking",
    "url": "https://www.booking.com/hotel/de/modern-accommodation-neukoln.html",
    "name": "Moderne Unterkunft Neukölln",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-booking-modern-accommodation-neukoln-20261230-20270103"
   },
   {
    "key": "airbnb:1591873645675719304",
    "platform": "airbnb",
    "url": "https://www.airbnb.com/rooms/1591873645675719304",
    "name": "BIG cozy Apartment for BIG Groups City Center",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-airbnb-1591873645675719304-20261230-20270103"
   },
   {
    "key": "booking:attic-apartment-in-villa",
    "platform": "booking",
    "url": "https://www.booking.com/hotel/de/attic-apartment-in-villa.html",
    "name": "Attic apartment in villa!",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-booking-attic-apartment-in-villa-20261230-20270103"
   },
   {
    "key": "airbnb:32453158",
    "platform": "airbnb",
    "url": "https://www.airbnb.com/rooms/32453158",
    "name": "Apartment \"Calla\"",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-airbnb-32453158-20261230-20270103"
   },
   {
    "key": "airbnb:32453154",
    "platform": "airbnb",
    "url": "https://www.airbnb.com/rooms/32453154",
    "name": "Apartment \"Ochidee\"",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-airbnb-32453154-20261230-20270103"
   },
   {
    "key": "airbnb:14381251",
    "platform": "airbnb",
    "url": "https://www.airbnb.com/rooms/14381251",
    "name": "120m² New MyGold Apt. | 2 Baths • Balcony • 8 Pers",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-airbnb-14381251-20261230-20270103"
   },
   {
    "key": "booking:gneisenau",
    "platform": "booking",
    "url": "https://www.booking.com/hotel/de/gneisenau.html",
    "name": "Arbio I Cosy Spacious Apartment in Kreuzburg",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-booking-gneisenau-20261230-20270103"
   },
   {
    "key": "airbnb:31500359",
    "platform": "airbnb",
    "url": "https://www.airbnb.com/rooms/31500359",
    "name": "Apartment \"Hibiskus\"",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-airbnb-31500359-20261230-20270103"
   },
   {
    "key": "airbnb:1036200996605773806",
    "platform": "airbnb",
    "url": "https://www.airbnb.com/rooms/1036200996605773806",
    "name": "City Center Berlin Mitte BR1 \"URBAN FLATS Berlin\"",
-   "status": "aday-sunuldu",
-   "firstSeen": "2026-11-11"
+   "status": "siteye-eklendi",
+   "firstSeen": "2026-11-11",
+   "addedAt": "2026-11-12T23:07:13+03:00",
+   "siteId": "sweep12-airbnb-1036200996605773806-20261230-20270103"
   },
   {
    "key": "airbnb:27018647",

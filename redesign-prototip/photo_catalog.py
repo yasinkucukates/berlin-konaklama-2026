@@ -24,7 +24,7 @@ def verified_galleries():
  if not path.exists():return {}
  records=json.loads(path.read_text(encoding='utf-8')).get('records',[])
  result={}
- allowed={'img.holidu.com','a0.muscache.com','media.vrbo.com','cf.bstatic.com'}
+ allowed={'img.holidu.com','a0.muscache.com','media.vrbo.com','cf.bstatic.com','images.traum-ferienwohnungen.de'}
  for rec in records:
   source=urlsplit(rec.get('source',''))
   photos=rec.get('photos',[])
