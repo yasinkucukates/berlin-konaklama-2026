@@ -1,10 +1,9 @@
 <!doctype html><html lang="tr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Test listesi</title>
 <body style="font:18px/1.4 -apple-system,sans-serif;padding:12px;margin:0"><div id="o">Yükleniyor…</div>
 <script>
-var B='https://raw.githack.com/yasinkucukates/berlin-konaklama-2026/';
-fetch('https://raw.githubusercontent.com/yasinkucukates/berlin-konaklama-2026/claude/project-thread-gmhm02/mobil-test/list.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){
+fetch('list.json').then(function(r){return r.json()}).then(function(d){
   var h='<p style="margin:0 0 8px;font-size:13px">'+d.note+' · '+d.sha.slice(0,7)+' · <a href="javascript:location.reload()">yenile</a></p>';
-  d.pages.concat([{f:'sonuc.html',t:'SONUÇ'}]).forEach(function(p){h+='<a href="'+B+d.sha+'/mobil-test/'+p.f+'" style="display:block;padding:14px;margin:0 0 8px;background:#eee;border-radius:10px;color:#000;text-decoration:none">'+p.t+'</a>';});
+  d.pages.concat([{f:'sonuc.html',t:'SONUÇ'}]).forEach(function(p){h+='<a href="'+p.f+'" style="display:block;padding:10px;margin:0 0 6px;background:#eee;border-radius:10px;color:#000;text-decoration:none">'+p.t+'</a>';});
   document.getElementById('o').innerHTML=h;
 }).catch(function(e){document.getElementById('o').textContent='Hata: '+e;});
 </script></body></html>
