@@ -366,3 +366,5 @@ body{background:
    close the page (13 Nov 2026 tests). gallery-mobile.js settles on a whole photo
    once scrolling stops. */
 .photo-grid,.photo-grid>a,.gm-ready .gm-frame .photo-grid,.gm-ready .gm-frame .photo-grid>a{scroll-snap-type:none!important;scroll-snap-align:none!important;scroll-snap-stop:normal!important}
+/* Large view: the photo's left and right parts are back/forward. */
+.lightbox-stage{cursor:pointer;-webkit-tap-highlight-color:transparent}

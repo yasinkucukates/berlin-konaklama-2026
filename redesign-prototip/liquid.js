@@ -1266,6 +1266,15 @@
   const step = amount => { if (photos.length) { index = (index + amount + photos.length) % photos.length; render(); } };
   previous.addEventListener('click', () => step(-1));
   next.addEventListener('click', () => step(1));
+  // Tapping the photo's left or right part goes back or forward, as in
+  // phone galleries; the middle does nothing so a stray tap is harmless.
+  const stage = dialog.querySelector('.lightbox-stage');
+  if (stage) stage.addEventListener('click', event => {
+    if (photos.length < 2 || event.target.closest('a,button')) return;
+    const box = stage.getBoundingClientRect();
+    const x = (event.clientX - box.left) / (box.width || 1);
+    if (x < 0.4) step(-1); else if (x > 0.6) step(1);
+  });
   dialog.querySelector('[data-close]').addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
   dialog.addEventListener('keydown', event => {
