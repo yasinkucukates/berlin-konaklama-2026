@@ -31,7 +31,6 @@
 
   document.querySelectorAll('[data-berlin-view]').forEach(root => {
     const dialog = root.querySelector('dialog.lightbox');
-    let openedGrid = null;
     const phone = window.matchMedia('(max-width: 639px)');
     const toolbar = root.querySelector('.toolbar');
     const bestChoices = toolbar?.querySelector('.best-choices');
@@ -279,69 +278,15 @@
     }).observe(root, {childList:true, subtree:true});
 
     if (!dialog) return;
-    root.addEventListener('click', event => {
-      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-      const link = event.target.closest('.photo-grid a[data-photo-url]');
-      const open = event.target.closest('.gallery-open');
-      if (link && !link.classList.contains('photo-failed')) openedGrid = link.closest('.photo-grid');
-      else if (open) openedGrid = open.closest('.card-media')?.querySelector('.photo-grid') || null;
-    }, true);
-    const stage = dialog.querySelector('.lightbox-stage');
-    const large = stage?.querySelector('img');
-    const error = stage?.querySelector('.lightbox-error');
-    const source = dialog.querySelector('.lightbox-caption a');
-    if (!stage || !large || !error || !source) return;
-    const loading = make('span', 'gm-lightbox-loading');
-    loading.setAttribute('role', 'status');
-    loading.textContent = 'Fotoğraf yükleniyor…';
-    loading.hidden = true;
-    stage.appendChild(loading);
-    large.draggable = false;
-    let loadTimer = 0, gesture = null;
-    const settle = () => { clearTimeout(loadTimer); loading.hidden = true; };
-    const startLoad = () => {
-      settle();
-      if (!large.getAttribute('src') || large.getAttribute('src').startsWith('data:')) return;
-      if (large.complete && large.naturalWidth > 0) { error.hidden = true; large.hidden = false; return; }
-      if (large.complete && large.currentSrc && large.naturalWidth === 0) return;
-      loading.hidden = false;
-      const url = large.getAttribute('src');
-      loadTimer = setTimeout(() => {
-        if (dialog.open && large.getAttribute('src') === url && !(large.complete && large.naturalWidth > 0)) {
-          loading.hidden = true; large.hidden = true; error.hidden = false;
-          error.textContent = 'Fotoğraf yüklenemedi veya gecikti. Alttaki kaynak bağlantısını kullanın.';
-        }
-      }, timeoutMs);
-    };
-    new MutationObserver(startLoad).observe(large, {attributes:true, attributeFilter:['src']});
-    large.addEventListener('load', () => { settle(); if (large.naturalWidth > 0) { large.hidden = false; error.hidden = true; } });
-    large.addEventListener('error', settle);
-    stage.addEventListener('pointerdown', event => {
-      if (!event.isPrimary || (event.pointerType === 'mouse' && event.button !== 0)) { gesture = null; return; }
-      gesture = {id:event.pointerId, x:event.clientX, y:event.clientY};
-      try { stage.setPointerCapture(event.pointerId); } catch (_) { /* Touch may already have ended. */ }
-    });
-    stage.addEventListener('pointercancel', () => { gesture = null; });
-    stage.addEventListener('pointerup', event => {
-      if (!gesture || gesture.id !== event.pointerId) return;
-      const dx = event.clientX - gesture.x, dy = event.clientY - gesture.y;
-      gesture = null;
-      if (Math.abs(dx) < 45 || Math.abs(dx) < Math.abs(dy) * 1.3) return;
-      dialog.querySelector(`[data-step="${dx < 0 ? 1 : -1}"]`)?.click();
-    });
-    dialog.addEventListener('close', () => {
-      settle(); gesture = null;
-      if (!mobile.matches || !openedGrid?.isConnected) { openedGrid = null; return; }
-      window.BerlinExpandPhotos?.(openedGrid);
-      galleryStates.get(openedGrid)?.refreshMode();
-      const links = Array.from(openedGrid.querySelectorAll('a[data-photo-url]'));
-      const selected = links.findIndex(link => link.dataset.photoUrl === source.href);
-      const state = galleryStates.get(openedGrid);
-      if (selected >= 0 && state) {
-        state.go(selected, false);
-        links[selected].focus({preventScroll:true});
-      }
-      openedGrid = null;
+    // The viewer (liquid.js) reports where it was closed; leave the card's
+    // strip on that photo so closing does not lose the place.
+    dialog.addEventListener('viewer-close', event => {
+      const grid = event.detail?.grid, index = event.detail?.index;
+      if (!mobile.matches || !grid?.isConnected) return;
+      window.BerlinExpandPhotos?.(grid);
+      const state = galleryStates.get(grid);
+      state?.refreshMode();
+      if (state && index >= 0) state.go(index, false);
     });
   });
 })();

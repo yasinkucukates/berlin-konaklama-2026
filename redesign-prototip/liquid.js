@@ -1222,39 +1222,94 @@
     }
   });
 
-  const dialog = byId('lightbox');
-  if (!dialog || typeof dialog.showModal !== 'function') return;
+  // Photo viewer. PhotoSwipe (vendor/photoswipe) drives the gestures: pinch
+  // and double-tap zoom, 1:1 swipe between photos, pull down to close. It is
+  // hosted in a <dialog> so it sits above the large card view (top layer).
+  const host = byId('lightbox');
+  if (!host || typeof host.showModal !== 'function' || typeof window.PhotoSwipe !== 'function') return;
   root.classList.add('gallery-modal');
-  const large = dialog.querySelector('img');
-  const title = byId('lightbox-title');
-  const caption = byId('lightbox-caption');
-  const source = byId('lightbox-source');
-  const imageError = dialog.querySelector('.lightbox-error');
-  const previous = dialog.querySelector('[data-step="-1"]');
-  const next = dialog.querySelector('[data-step="1"]');
-  let photos = [], index = 0, opener = null, galleryTitle = ''; 
-  function render() {
-    const photo = photos[index];
-    if (!photo) return;
-    imageError.hidden = true;
-    large.hidden = false;
-    large.src = photo.url;
-    large.alt = photo.label || '';
-    title.textContent = galleryTitle;
-    caption.textContent = `${photo.label || 'Fotoğraf'} · ${index + 1} / ${photos.length}`;
-    source.href = photo.url;
-    previous.disabled = next.disabled = photos.length < 2;
-  }
-  large.addEventListener('error', () => { large.hidden = true; imageError.hidden = false; });
+  let viewer = null;
+  const thumbOf = anchor => {
+    const img = anchor && anchor.querySelector('img');
+    return img && img.complete && img.naturalWidth > 1 && !(img.getAttribute('src') || '').startsWith('data:') ? img : null;
+  };
   function openGallery(anchor, origin) {
-    opener = origin;
-    window.BerlinExpandPhotos(anchor.closest('.photo-grid'));
-    const anchors = Array.from(anchor.closest('.photo-grid').querySelectorAll('a'));
-    index = anchors.indexOf(anchor);
-    galleryTitle = anchor.closest('.stay-card').querySelector('.card-title h3, .card-title h4').textContent;
-    photos = anchors.map(item => ({url: item.dataset.photoUrl || item.href, label: item.dataset.label || ''}));
-    render();
-    dialog.showModal();
+    if (viewer) return;
+    const grid = anchor.closest('.photo-grid');
+    window.BerlinExpandPhotos(grid);
+    const anchors = Array.from(grid.querySelectorAll('a'));
+    const first = Math.max(0, anchors.indexOf(anchor));
+    const galleryTitle = anchor.closest('.stay-card').querySelector('.card-title h3, .card-title h4').textContent;
+    // The full photo's size is unknown until it loads. The card thumbnail has
+    // the same proportions, so it gives the shape; the real size replaces it.
+    const items = anchors.map(item => {
+      const thumb = thumbOf(item);
+      const ratio = thumb ? thumb.naturalWidth / thumb.naturalHeight : 1.5;
+      const w = ratio >= 1 ? 1920 : Math.round(1920 * ratio);
+      return {src: item.dataset.photoUrl || item.href, w, h: Math.round(w / ratio), alt: item.dataset.label || '',
+              msrc: thumb ? thumb.currentSrc || thumb.src : undefined, element: item, label: item.dataset.label || ''};
+    });
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const pswp = viewer = new window.PhotoSwipe({
+      dataSource: items, index: first, appendToEl: host, loop: items.length > 1, preload: [1, 2],
+      bgOpacity: 1, wheelToZoom: true, returnFocus: false, escKey: false,
+      showHideAnimationType: reduce ? 'none' : (thumbOf(anchor) ? 'zoom' : 'fade'),
+      showAnimationDuration: 280, hideAnimationDuration: 240, zoomAnimationDuration: 280,
+      easing: 'cubic-bezier(.32,.72,0,1)',
+      initialZoomLevel: 'fit',
+      secondaryZoomLevel: zoom => Math.max(zoom.fill, zoom.fit * 2.5),
+      maxZoomLevel: zoom => Math.max(1.5, zoom.fit * 6),
+      paddingFn: viewport => viewport.x < 640 ? {top: 0, bottom: 0, left: 0, right: 0} : {top: 56, bottom: 56, left: 24, right: 24},
+      closeTitle: 'Kapat', zoomTitle: 'Yakınlaştır', arrowPrevTitle: 'Önceki fotoğraf', arrowNextTitle: 'Sonraki fotoğraf',
+      errorMsg: 'Fotoğraf yüklenemedi. Alttaki kaynak bağlantısını deneyin.', indexIndicatorSep: ' / ',
+    });
+    // Photo hosts refuse requests that carry this page as referrer.
+    pswp.on('contentLoadImage', ({content}) => { if (content.element) content.element.referrerPolicy = 'no-referrer'; });
+    pswp.addFilter('placeholderSrc', (src, content) => content.data.msrc || src);
+    // Zoom back into the thumbnail only when it is the photo that was opened
+    // and still on screen; otherwise fade, never fly to a hidden spot.
+    pswp.addFilter('thumbEl', (thumb, data, index) => {
+      const img = index === first ? thumbOf(data.element) : null;
+      if (!img) return null;
+      const box = img.getBoundingClientRect();
+      return box.width > 0 && box.bottom > 0 && box.top < window.innerHeight && box.right > 0 && box.left < window.innerWidth ? img : null;
+    });
+    pswp.on('loadComplete', ({slide, content, isError}) => {
+      const img = content.element;
+      if (isError || !img || !img.naturalWidth || (img.naturalWidth === content.width && img.naturalHeight === content.height)) return;
+      const atRest = slide.currZoomLevel === slide.zoomLevels.initial;
+      content.data.w = content.width = slide.width = img.naturalWidth;
+      content.data.h = content.height = slide.height = img.naturalHeight;
+      slide.calculateSize();
+      if (atRest) { slide.currentResolution = 0; slide.zoomAndPanToInitial(); slide.applyCurrentZoomPan(); }
+      slide.updateContentSize(true);
+    });
+    pswp.on('uiRegister', () => {
+      pswp.ui.registerElement({name: 'listing', order: 6, isButton: false, appendTo: 'bar', className: 'pv-title',
+        onInit: element => { element.textContent = galleryTitle; }});
+      pswp.ui.registerElement({name: 'caption', order: 9, isButton: false, appendTo: 'root', className: 'pv-caption',
+        onInit: element => {
+          const label = document.createElement('span');
+          const link = document.createElement('a');
+          link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = 'Kaynak ↗';
+          link.setAttribute('aria-label', 'Kaynak görseli yeni sekmede aç');
+          element.append(label, link);
+          const update = () => { const item = items[pswp.currIndex] || {}; label.textContent = item.label || ''; label.hidden = !item.label; link.href = item.src; };
+          pswp.on('change', update); update();
+        }});
+    });
+    const onCancel = event => { event.preventDefault(); pswp.close(); };
+    host.addEventListener('cancel', onCancel);
+    pswp.on('destroy', () => {
+      host.removeEventListener('cancel', onCancel);
+      const index = pswp.currIndex;
+      viewer = null;
+      if (host.open) host.close();
+      host.dispatchEvent(new CustomEvent('viewer-close', {detail: {grid, index}}));
+      if (origin && origin.isConnected) origin.focus({preventScroll: true});
+    });
+    host.showModal();
+    pswp.init();
   }
   root.addEventListener('click', event => {
     const anchor = event.target.closest('.photo-grid a');
@@ -1263,25 +1318,6 @@
     openGallery(anchor, anchor);
   });
   root.addEventListener('click', event => { const button=event.target.closest('.gallery-open'); if (button) { const anchor=button.closest('.stay-card').querySelector('.photo-grid a'); if(anchor)openGallery(anchor,button); } });
-  const step = amount => { if (photos.length) { index = (index + amount + photos.length) % photos.length; render(); } };
-  previous.addEventListener('click', () => step(-1));
-  next.addEventListener('click', () => step(1));
-  // Tapping the photo's left or right part goes back or forward, as in
-  // phone galleries; the middle does nothing so a stray tap is harmless.
-  const stage = dialog.querySelector('.lightbox-stage');
-  if (stage) stage.addEventListener('click', event => {
-    if (photos.length < 2 || event.target.closest('a,button')) return;
-    const box = stage.getBoundingClientRect();
-    const x = (event.clientX - box.left) / (box.width || 1);
-    if (x < 0.4) step(-1); else if (x > 0.6) step(1);
-  });
-  dialog.querySelector('[data-close]').addEventListener('click', () => dialog.close());
-  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
-  dialog.addEventListener('keydown', event => {
-    if (event.key === 'ArrowLeft') { event.preventDefault(); step(-1); }
-    if (event.key === 'ArrowRight') { event.preventDefault(); step(1); }
-  });
-  dialog.addEventListener('close', () => { large.src = window.BerlinBlankPhoto || 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'; if (opener) opener.focus(); });
   });
   loadLiveAvailability();
   loadDailyRate();

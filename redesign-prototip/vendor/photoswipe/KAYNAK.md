@@ -1,0 +1,2 @@
+PhotoSwipe 5.4.4 (photoswipe npm paketi, MIT lisansı, LICENSE dosyasında): `dist/umd/photoswipe.umd.min.js` ve `dist/photoswipe.css` değiştirilmeden alındı.
+build_combined.py ikisini sayfaya gömer; çalışırken ağ erişimi gerekmez. Fotoğraf görüntüleyicinin (parmakla büyütme, kaydırma, aşağı çekerek kapatma) hareket motorudur; arayüz ayarları liquid.js "Photo viewer" bölümünde, görünüm cards.css sonundadır.

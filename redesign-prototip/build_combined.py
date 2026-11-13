@@ -115,7 +115,10 @@ def main() -> None:
     gallery_script = (HERE / 'gallery-mobile.js').read_text(encoding='utf-8')
     cards_css = (HERE / 'cards.css').read_text(encoding='utf-8')
     map_css = map_css.replace('#map-canvas', '.map-canvas').replace('#card-dialog-content', '.card-dialog-content')
-    if '</script' in (liquid_script + map_script + gallery_script).lower() or '</style' in (css + map_css + gallery_css + cards_css).lower():
+    # Photo viewer engine (PhotoSwipe, MIT): embedded so the page needs no CDN.
+    viewer_script = (HERE / 'vendor' / 'photoswipe' / 'photoswipe.umd.min.js').read_text(encoding='utf-8')
+    viewer_css = (HERE / 'vendor' / 'photoswipe' / 'photoswipe.css').read_text(encoding='utf-8')
+    if '</script' in (liquid_script + map_script + gallery_script + viewer_script).lower() or '</style' in (css + map_css + gallery_css + cards_css + viewer_css).lower():
         raise ValueError('Asset cannot be embedded safely')
     favorite_bootstrap = ''
     if args.favorites_endpoint:
@@ -243,8 +246,8 @@ def main() -> None:
     combined = re.sub('\u27e6card-more\u27e7(.*?)\u27e6/card-more\u27e7',
                       lambda m: f'<script type="text/x-card-more" class="card-more-src">{m.group(1)}</script>',
                       combined, flags=re.S)
-    page = f'''<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title><style>{css}\n{map_css}\n{controls}\n{gallery_css}\n{cards_css}</style></head><body>
-{icon_sprite()}{icon_mask_css()}{combined}<script type="application/json" id="availability-data"{live_source}>{status_json}</script>{favorite_bootstrap}<script>{liquid_script}</script><script>{scoped_map_script(map_script)}</script><script>{gallery_script}</script></body></html>'''
+    page = f'''<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title><style>{css}\n{map_css}\n{controls}\n{gallery_css}\n{viewer_css}\n{cards_css}</style></head><body>
+{icon_sprite()}{icon_mask_css()}{combined}<script type="application/json" id="availability-data"{live_source}>{status_json}</script>{favorite_bootstrap}<script>{viewer_script}</script><script>{liquid_script}</script><script>{scoped_map_script(map_script)}</script><script>{gallery_script}</script></body></html>'''
     # Hash the full pre-meta document to avoid a circular hash; it changes
     # whenever listings, styles, scripts, or the configured transport change.
     release = hashlib.sha256(page.encode('utf-8')).hexdigest()[:16]

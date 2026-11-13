@@ -362,8 +362,6 @@ body{background:
 .stay-card[data-availability="unavailable"] .photo-grid img{filter:none!important;opacity:1!important}
 .stay-card[data-availability="unavailable"] .card-media::after{background:linear-gradient(to bottom right,transparent 49.4%,#615b57a0 49.7%,#615b57a0 50.3%,transparent 50.6%),linear-gradient(to top right,transparent 49.4%,#615b57a0 49.7%,#615b57a0 50.3%,transparent 50.6%),linear-gradient(rgba(236,233,230,.62),rgba(236,233,230,.62))}
 .stay-card[data-availability="unavailable"] .card-head,.stay-card[data-availability="unavailable"] .fact-tiles,.stay-card[data-availability="unavailable"] .card-alert{filter:none!important}
-/* Large view: the photo's left and right parts are back/forward. */
-.lightbox-stage{cursor:pointer;-webkit-tap-highlight-color:transparent}
 
 /* ---------- Phones and tablets: draw only the cards near the screen ----------
    iPhone Chrome gave the page about 1.9 GB (13 Nov 2026 tests). Drawing all
@@ -376,3 +374,24 @@ body{background:
   .groups .stay-card{content-visibility:auto;contain-intrinsic-size:auto 760px}
   .groups .stay-card.is-shared{outline-offset:-3px}
 }
+
+/* Photo viewer (PhotoSwipe engine, see vendor/photoswipe/KAYNAK.md). The
+   <dialog> is only a full-screen, transparent host in the top layer. Chrome
+   is kept to a counter, the listing name, close, and a caption line: no
+   bottom buttons, photos move with the finger. */
+dialog.lightbox{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;background:transparent;overflow:hidden;color:#fff;outline:0}
+dialog.lightbox::backdrop{background:transparent}
+.pswp{--pswp-bg:#0b0b0c;--pswp-placeholder-bg:#1c1c1e;--pswp-icon-color:#fff;--pswp-icon-color-secondary:#3a3a3c;--pswp-icon-stroke-color:#3a3a3c;--pswp-icon-stroke-width:1px;--pswp-error-text-color:#ebebf0;font:14px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif;-webkit-tap-highlight-color:transparent}
+.pswp img{max-width:none}
+.pswp__top-bar{height:calc(56px + env(safe-area-inset-top,0px));padding-top:env(safe-area-inset-top,0px);align-items:center;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,0))}
+.pswp__counter{height:auto;margin:0 0 0 16px;font-size:13px;line-height:1;font-variant-numeric:tabular-nums;opacity:.9;text-shadow:none;min-width:52px}
+.pv-title{flex:1 1 auto;min-width:0;padding:0 8px;text-align:center;font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pswp__button{-webkit-tap-highlight-color:transparent}
+.pswp--touch .pswp__button--zoom{display:none}
+.pswp__button--arrow{opacity:0;transition:opacity .2s}
+.pswp--ui-visible:hover .pswp__button--arrow{opacity:.85}
+.pv-caption{position:absolute;left:0;right:0;bottom:0;z-index:10;display:flex;justify-content:center;align-items:baseline;gap:14px;padding:32px 16px calc(14px + env(safe-area-inset-bottom,0px));font-size:13px;color:#fff;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.55));pointer-events:none}
+.pv-caption span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pv-caption a{pointer-events:auto;flex-shrink:0;padding:6px 2px;color:#fff;opacity:.72;text-decoration:none}
+.pv-caption a:hover,.pv-caption a:focus-visible{opacity:1;text-decoration:underline}
+.pswp__error-msg{font-size:14px}
