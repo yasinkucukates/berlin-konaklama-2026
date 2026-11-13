@@ -3,7 +3,9 @@
   try{var old=localStorage.getItem(K);if(old){var h=JSON.parse(localStorage.getItem('berlinDiagPrev')||'[]');var o=JSON.parse(old);h.push({page:o.page,start:o.start,ms:o.ms,decodedMB:o.decodedMB,maxDecodedMB:o.maxDecodedMB,nodes:o.nodes,longest:o.longest,url:o.url,last:o.last.slice(-12)});while(h.length>3)h.shift();localStorage.setItem('berlinDiagPrev',JSON.stringify(h));}}catch(e){}
   st.url=location.hash.slice(0,40);
   var note=function(s){st.last.push(((Date.now()-t0)/1000).toFixed(1)+'s '+s); if(st.last.length>25) st.last.shift();};
-  var save=function(){try{localStorage.setItem(K, JSON.stringify(st));}catch(e){}};
+  var runs={};try{runs=JSON.parse(localStorage.getItem('berlinRuns')||'{}');}catch(e){}
+  var myRun={t:new Date().toISOString().slice(11,19),ms:0,l:''};(runs[st.page]=runs[st.page]||[]).push(myRun);
+  var save=function(){try{localStorage.setItem(K, JSON.stringify(st));myRun.ms=Date.now()-t0;myRun.l=st.last.slice(-3).join(' | ');localStorage.setItem('berlinRuns',JSON.stringify(runs));}catch(e){}};
   var d=Object.getOwnPropertyDescriptor(HTMLImageElement.prototype,'src');
   Object.defineProperty(HTMLImageElement.prototype,'src',{configurable:true,get:d.get,set:function(v){st.srcSets++; if(/max1920|im_w=1[2-9]\d\d|\/original\/|im_w=2|im_w=3/.test(String(v))||(this.closest&&this.closest('a')&&this.closest('a').dataset.photoUrl===String(v))){st.fullSets++; if(st.fullSets<6) note('FULL src '+String(v).slice(0,60));} return d.set.call(this,v);}});
   var ra=Element.prototype.removeAttribute; Element.prototype.removeAttribute=function(n){ if(n==='src'&&this.tagName==='IMG') st.removes++; return ra.apply(this,arguments); };
@@ -27,6 +29,7 @@
   var cn=Node.prototype.cloneNode;Node.prototype.cloneNode=function(deep){var r=cn.apply(this,arguments);if(deep&&this.classList&&this.classList.contains('stay-card')){note('kart kopyalandı düğüm='+r.querySelectorAll('*').length+' img='+r.querySelectorAll('img').length);save();}return r;};
   window.__n=function(s){note(s);save();};
   document.addEventListener('DOMContentLoaded',function(){[0,50,150,300,600,1000,2000,4000].forEach(function(t){setTimeout(function(){note('DCL+'+t);save();},t);});requestAnimationFrame(function(){note('DCL kare1');save();requestAnimationFrame(function(){note('DCL kare2');save();});});});
+  window.addEventListener('load',function(){setTimeout(function(){note('SAĞ: dönüş');save();location.replace('l.html');},window.__hold||12000);});
   note('diag start'); save();
 })();
 </script><meta charset="utf-8"><meta name="berlin-release" content="ace986d9b49deec5"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Berlin Konaklamaları | 30 Aralık – 3 Ocak</title><style>/* Web approximation of a glass material, following the local Thailand reference. */
