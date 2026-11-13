@@ -267,8 +267,24 @@
           links[target].focus({preventScroll:true});
         }
       });
-      previous.addEventListener('click', () => go((programTarget ?? index) - 1));
-      next.addEventListener('click', () => go((programTarget ?? index) + 1));
+      // Quick repeated taps step through photos. iOS would read two taps as
+      // "zoom the page", and a tap that lands on the photo right after an
+      // arrow tap would open the large view; neither is wanted here.
+      let stepAt = 0, tapAt = 0;
+      const step = amount => { stepAt = Date.now(); go((programTarget ?? index) + amount); };
+      previous.addEventListener('click', () => step(-1));
+      next.addEventListener('click', () => step(1));
+      frame.addEventListener('touchend', event => {
+        const now = Date.now(), quick = now - tapAt < 450;
+        tapAt = now;
+        if (!quick || !event.cancelable || event.touches.length) return;
+        event.preventDefault();
+        const control = event.target.closest && event.target.closest('.gm-control');
+        if (control && !control.disabled) control.click();
+      }, {passive: false});
+      frame.addEventListener('click', event => {
+        if (Date.now() - stepAt < 700 && event.target.closest('.photo-grid a')) { event.preventDefault(); event.stopPropagation(); }
+      }, true);
       // Every strip starts closed (no scrolling layer); the near observer
       // opens the ones around the screen. 153 live strips at once closed the
       // tab on iPhone Chrome right after the page opened (13 Nov 2026 tests).
