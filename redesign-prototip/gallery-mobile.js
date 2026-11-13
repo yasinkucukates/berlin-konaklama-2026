@@ -61,6 +61,12 @@
         state.checkImage();
       });
     }, {rootMargin:'0px'}) : null;
+    // Phones close the tab when decoded photos pile up: one pass down the page
+    // kept ~270 photos (≈860 MB of bitmaps) alive. Only galleries near the
+    // screen keep their photos; far ones drop src and reload on return.
+    const nearIo = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
+      entries.forEach(entry => galleryStates.get(entry.target)?.setNear(entry.isIntersecting));
+    }, {rootMargin:'1500px 0px'}) : null;
 
     function setup(grid) {
       if (initialized.has(grid)) {
@@ -68,6 +74,7 @@
           activeGrids.add(grid);
           galleryStates.get(grid)?.refreshMode();
           if (io) io.observe(grid);
+          if (nearIo) nearIo.observe(grid);
         }
         return;
       }
@@ -124,7 +131,7 @@
 
       let index = 0, imageTimer = 0, liveTimer = 0, raf = 0;
       let programTarget = null, programTimer = 0;
-      const state = {visible:!io, checkImage, go, refreshMode, deactivate};
+      const state = {visible:!io, near:true, checkImage, go, refreshMode, deactivate, setNear};
       galleryStates.set(grid, state);
       const ensure = i => {
         const img = links[i]?.querySelector('img');
@@ -156,7 +163,7 @@
           if (mobile.matches) link.tabIndex = i === index ? 0 : -1;
           else link.removeAttribute('tabindex');
         });
-        if (mobile.matches) { ensure(index); ensure(index + 1); }
+        if (mobile.matches && state.near) { ensure(index); ensure(index + 1); }
         if (changed) {
           clearTimeout(liveTimer);
           liveTimer = setTimeout(() => { announcement.textContent = `Fotoğraf ${index + 1} / ${total()}`; }, 180);
@@ -187,6 +194,19 @@
         });
         update();
       }
+      function setNear(near) {
+        if (state.near === near) return;
+        state.near = near;
+        if (near) { update(); return; }
+        syncLinks();
+        links.forEach(link => {
+          const img = link.querySelector('img');
+          if (!img || link.classList.contains('photo-failed') || !img.hasAttribute('src')) return;
+          // Keep the address that last worked (the original after a failed copy).
+          img.dataset.gmSrc = img.getAttribute('src');
+          img.removeAttribute('src');
+        });
+      }
       function deactivate() {
         state.visible = !io;
         clearTimeout(imageTimer);
@@ -216,6 +236,7 @@
       next.addEventListener('click', () => go((programTarget ?? index) + 1));
       refreshMode();
       if (io) io.observe(grid);
+      if (nearIo) nearIo.observe(grid);
     }
 
     root.querySelectorAll('.photo-grid').forEach(setup);
@@ -235,6 +256,7 @@
         if (root.contains(grid)) return; // Reordering within the same view is not a removal.
         activeGrids.delete(grid);
         if (io) io.unobserve(grid);
+        if (nearIo) nearIo.unobserve(grid);
         galleryStates.get(grid)?.deactivate();
       })));
     }).observe(root, {childList:true, subtree:true});
