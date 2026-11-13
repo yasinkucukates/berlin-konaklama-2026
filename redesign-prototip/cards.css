@@ -364,3 +364,15 @@ body{background:
 .stay-card[data-availability="unavailable"] .card-head,.stay-card[data-availability="unavailable"] .fact-tiles,.stay-card[data-availability="unavailable"] .card-alert{filter:none!important}
 /* Large view: the photo's left and right parts are back/forward. */
 .lightbox-stage{cursor:pointer;-webkit-tap-highlight-color:transparent}
+
+/* ---------- Phones and tablets: draw only the cards near the screen ----------
+   iPhone Chrome gave the page about 1.9 GB (13 Nov 2026 tests). Drawing all
+   ~140 cards took 1.1 GB before any script ran and the tab closed on opening.
+   With content-visibility the off-screen cards keep their place but are not
+   drawn; the same test left 1.85 GB free. Rows size to their own cards here,
+   so a card coming into view does not resize every other row. */
+@media (max-width:1100px),(pointer:coarse){
+  .results-content .card-grid,.card-grid{grid-auto-rows:auto}
+  .groups .stay-card{content-visibility:auto;contain-intrinsic-size:auto 760px}
+  .groups .stay-card.is-shared{outline-offset:-3px}
+}

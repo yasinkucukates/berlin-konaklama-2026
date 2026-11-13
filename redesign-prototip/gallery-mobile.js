@@ -247,6 +247,10 @@
       });
       previous.addEventListener('click', () => go((programTarget ?? index) - 1));
       next.addEventListener('click', () => go((programTarget ?? index) + 1));
+      // Every strip starts closed (no scrolling layer); the near observer
+      // opens the ones around the screen. 153 live strips at once closed the
+      // tab on iPhone Chrome right after the page opened (13 Nov 2026 tests).
+      if (nearIo) grid.classList.add('gm-far');
       refreshMode();
       if (io) io.observe(grid);
       if (nearIo) nearIo.observe(grid);
