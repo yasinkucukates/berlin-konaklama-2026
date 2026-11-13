@@ -115,8 +115,11 @@
     if (dock.parentNode !== home) home.append(dock);
   }
   dockList.addEventListener('click', () => { if (!panel.hidden) hideMap(); else window.scrollTo({top: 0, behavior: scrollBehavior()}); });
-  dockMap.addEventListener('click', () => { if (panel.hidden) mapButton.click(); });
-  dockFull.addEventListener('click', () => setFull(!panel.classList.contains('is-full')));
+  // On wide screens the map sits in the page, so bring it into view; on a
+  // phone it covers the screen and the dock keeps the focus.
+  const revealMap = () => { if (panel.hidden) return; if (mapIsModal) dockMap.focus({preventScroll: true}); else panel.scrollIntoView({behavior: 'instant', block: 'start'}); };
+  dockMap.addEventListener('click', () => { if (panel.hidden) mapButton.click(); setTimeout(revealMap, 0); });
+  dockFull.addEventListener('click', () => { if (!panel.hidden) setFull(!panel.classList.contains('is-full')); });
   panel.addEventListener('fullscreenchange', () => {
     if (!document.fullscreenElement && nativeFull) { nativeFull = false; setFull(false); }
     if (map) requestAnimationFrame(() => { map.invalidateSize(); scheduleLayout(); });
