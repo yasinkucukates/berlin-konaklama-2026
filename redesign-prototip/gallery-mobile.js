@@ -137,7 +137,7 @@
 
       let index = 0, imageTimer = 0, liveTimer = 0, raf = 0;
       let programTarget = null, programTimer = 0;
-      const state = {visible:!io, near:true, checkImage, go, refreshMode, deactivate, setNear};
+      const state = {visible:!io, near:null, seen:false, checkImage, go, refreshMode, deactivate, setNear};
       galleryStates.set(grid, state);
       const ensure = i => {
         const img = links[i]?.querySelector('img');
@@ -169,7 +169,7 @@
           if (mobile.matches) link.tabIndex = i === index ? 0 : -1;
           else link.removeAttribute('tabindex');
         });
-        if (mobile.matches && state.near) { ensure(index); ensure(index + 1); }
+        if (mobile.matches && state.near !== false) { ensure(index); ensure(index + 1); }
         if (changed) {
           clearTimeout(liveTimer);
           liveTimer = setTimeout(() => { announcement.textContent = `Fotoğraf ${index + 1} / ${total()}`; }, 180);
@@ -203,14 +203,18 @@
       function setNear(near) {
         if (state.near === near) return;
         state.near = near;
-        // A far gallery is no longer a scroll area: iOS keeps a separate
-        // layer for every scrollable box, and 140 of them add up.
-        grid.classList.toggle('gm-far', !near);
-        if (near) { update(); return; }
+        if (near) { state.seen = true; grid.classList.remove('gm-far'); update(); return; }
+        // iPhone (13 Nov 2026 tests) closed the page when hundreds of
+        // images or strips changed at once right after opening. A strip that
+        // has never been on screen is left exactly as it is; only strips the
+        // visitor has passed are released, a few at a time while scrolling.
+        if (!state.seen) return;
+        grid.classList.add('gm-far');
         syncLinks();
         links.forEach(link => {
           const img = link.querySelector('img');
           if (!img || link.classList.contains('photo-failed') || isBlank(img)) return;
+          if (!(img.complete && img.naturalWidth > 1)) return; // nothing decoded yet
           // Keep the address that last worked (the original after a failed copy).
           img.dataset.gmSrc = img.getAttribute('src');
           img.src = BLANK;
