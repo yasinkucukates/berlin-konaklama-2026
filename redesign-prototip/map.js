@@ -323,7 +323,7 @@
     const img = card.querySelector('.photo-grid img');
     const media = document.createElement('button'); media.type = 'button'; media.className = 'map-preview-media';
     media.setAttribute('aria-label', `${titleFor(card)}: ayrıntıları aç`);
-    if (img) { const photo = document.createElement('img'); photo.alt = ''; photo.loading = 'lazy'; photo.src = img.currentSrc || img.src; media.append(photo); }
+    if (img) { const photo = document.createElement('img'); photo.alt = ''; photo.loading = 'lazy'; photo.src = (img.currentSrc && !img.currentSrc.startsWith('data:')) ? img.currentSrc : (img.dataset.gmSrc || img.src); media.append(photo); }
     media.addEventListener('click', () => showCard(card, marker));
     const body = document.createElement('div'); body.className = 'map-preview-body';
     if (samePoint.length > 1) {

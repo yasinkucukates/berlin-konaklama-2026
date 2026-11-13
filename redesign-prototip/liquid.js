@@ -1067,7 +1067,7 @@
   // Card tiles load a smaller copy; if that copy fails, try the original once.
   const useOriginal = img => {
     const full = img.closest('a')?.dataset.photoUrl;
-    if (!full || img.getAttribute('src') === full) return false;
+    if (!full || img.getAttribute('src') === full || String(img.getAttribute('src') || '').startsWith('data:')) return false;
     img.src = full;
     return true;
   };
@@ -1272,7 +1272,7 @@
     if (event.key === 'ArrowLeft') { event.preventDefault(); step(-1); }
     if (event.key === 'ArrowRight') { event.preventDefault(); step(1); }
   });
-  dialog.addEventListener('close', () => { large.removeAttribute('src'); if (opener) opener.focus(); });
+  dialog.addEventListener('close', () => { large.src = window.BerlinBlankPhoto || 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'; if (opener) opener.focus(); });
   });
   loadLiveAvailability();
   loadDailyRate();

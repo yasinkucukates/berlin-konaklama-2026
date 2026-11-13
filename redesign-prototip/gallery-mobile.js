@@ -8,6 +8,12 @@
   const initialized = new WeakSet();
   const galleryStates = new WeakMap();
   const timeoutMs = 12000;
+  // iPhone (WebKit, 13 Nov 2026) closed the tab half a second after opening
+  // when the page removed src from hundreds of images; swapping in a blank
+  // pixel releases the photo the same way without that crash.
+  const BLANK = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+  const isBlank = img => !img.getAttribute('src') || img.getAttribute('src') === BLANK;
+  window.BerlinBlankPhoto = BLANK;
 
   const make = (tag, className) => {
     const element = document.createElement(tag);
@@ -135,7 +141,7 @@
       galleryStates.set(grid, state);
       const ensure = i => {
         const img = links[i]?.querySelector('img');
-        if (img && !img.hasAttribute('src') && img.dataset.gmSrc) img.src = img.dataset.gmSrc;
+        if (img && isBlank(img) && img.dataset.gmSrc) img.src = img.dataset.gmSrc;
       };
       function checkImage() {
         clearTimeout(imageTimer);
@@ -186,11 +192,11 @@
         links.forEach((link, i) => {
           const img = link.querySelector('img');
           if (!img) return;
-          if (!img.dataset.gmSrc && img.getAttribute('src')) img.dataset.gmSrc = img.getAttribute('src');
+          if (!img.dataset.gmSrc && !isBlank(img)) img.dataset.gmSrc = img.getAttribute('src');
           // On mobile the first and next image may load lazily; the rest wait
           // until approached. Already loaded images are never discarded.
-          if (mobile.matches && i > 1 && !(img.complete && img.naturalWidth > 0)) img.removeAttribute('src');
-          if (!mobile.matches && !img.hasAttribute('src') && img.dataset.gmSrc) img.src = img.dataset.gmSrc;
+          if (mobile.matches && i > 1 && !isBlank(img) && !(img.complete && img.naturalWidth > 0)) img.src = BLANK;
+          if (!mobile.matches && isBlank(img) && img.dataset.gmSrc) img.src = img.dataset.gmSrc;
         });
         update();
       }
@@ -204,10 +210,10 @@
         syncLinks();
         links.forEach(link => {
           const img = link.querySelector('img');
-          if (!img || link.classList.contains('photo-failed') || !img.hasAttribute('src')) return;
+          if (!img || link.classList.contains('photo-failed') || isBlank(img)) return;
           // Keep the address that last worked (the original after a failed copy).
           img.dataset.gmSrc = img.getAttribute('src');
-          img.removeAttribute('src');
+          img.src = BLANK;
         });
       }
       function deactivate() {
@@ -287,7 +293,7 @@
     const settle = () => { clearTimeout(loadTimer); loading.hidden = true; };
     const startLoad = () => {
       settle();
-      if (!large.getAttribute('src')) return;
+      if (!large.getAttribute('src') || large.getAttribute('src').startsWith('data:')) return;
       if (large.complete && large.naturalWidth > 0) { error.hidden = true; large.hidden = false; return; }
       if (large.complete && large.currentSrc && large.naturalWidth === 0) return;
       loading.hidden = false;
