@@ -8,9 +8,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:53:20.690Z",
+      "checkedAt": "2026-11-13T06:59:46.497Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi.",
       "maxGuests": 6,
       "capacityEvidence": "Airbnb sayfasında en çok 6 misafir sınırı görüldü.",
       "capacitySourceUrl": "https://www.airbnb.com/rooms/1101465952016111173?check_in=2026-12-30&check_out=2027-01-03&adults=7&guests=7&currency=EUR",
@@ -23,9 +23,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:53:38.301Z",
+      "checkedAt": "2026-11-13T06:59:54.355Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1552405041368851207?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi.",
       "maxGuests": 6,
       "capacityEvidence": "Airbnb sayfasında en çok 6 misafir sınırı görüldü.",
       "capacitySourceUrl": "https://www.airbnb.com/rooms/1552405041368851207?check_in=2026-12-30&check_out=2027-01-03&adults=7&guests=7&currency=EUR",
@@ -38,9 +38,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:55:45.468Z",
+      "checkedAt": "2026-11-13T07:01:14.006Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1389128667463860564?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -49,9 +49,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:04:21.320Z",
+      "checkedAt": "2026-11-13T07:06:54.284Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1389128667463860564?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -60,9 +60,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:55:08.324Z",
+      "checkedAt": "2026-11-13T07:01:03.934Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1166429151300530583?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -71,9 +71,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:04:10.476Z",
+      "checkedAt": "2026-11-13T07:06:47.909Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1166429151300530583?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -82,9 +82,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T20:53:20.691Z",
+      "checkedAt": "2026-11-13T06:59:48.771Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1656340?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi gösterdi.",
       "lastAvailableAt": "2026-11-07T10:09:00+03:00"
     },
     {
@@ -111,9 +111,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T20:54:57.791Z",
+      "checkedAt": "2026-11-13T07:00:57.065Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1573761201032292155?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi gösterdi.",
       "lastAvailableAt": "2026-11-07T10:09:00+03:00"
     },
     {
@@ -123,9 +123,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T21:04:04.569Z",
+      "checkedAt": "2026-11-13T07:06:44.187Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1573761201032292155?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi gösterdi.",
       "lastAvailableAt": "2026-11-07T10:09:00+03:00"
     },
     {
@@ -135,9 +135,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:47.006Z",
+      "checkedAt": "2026-11-13T07:01:55.077Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1472317094515056268?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -146,9 +146,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:09.593Z",
+      "checkedAt": "2026-11-13T07:07:33.394Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1472317094515056268?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -157,9 +157,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T20:56:15.067Z",
+      "checkedAt": "2026-11-13T07:01:42.613Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/4027687?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi gösterdi.",
       "lastAvailableAt": "2026-11-07T10:09:00+03:00"
     },
     {
@@ -169,9 +169,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T21:04:42.193Z",
+      "checkedAt": "2026-11-13T07:07:07.742Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/4027687?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi gösterdi.",
       "lastAvailableAt": "2026-11-07T10:09:00+03:00"
     },
     {
@@ -181,9 +181,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:17.810Z",
+      "checkedAt": "2026-11-13T07:05:11.433Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/19794276?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -192,9 +192,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:49.633Z",
+      "checkedAt": "2026-11-13T07:08:02.897Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/19794276?locale=en-GB&currency=EUR&adults=7&check_in=2026-12-30&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -203,9 +203,9 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:03.892Z",
+      "checkedAt": "2026-11-13T07:02:58.629Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/588125307521181982?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-01 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-01 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -214,9 +214,9 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:15.316Z",
+      "checkedAt": "2026-11-13T07:08:26.308Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/588125307521181982?check_in=2026-12-30&check_out=2027-01-01&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-01 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-01 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -225,9 +225,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:12:58.176Z",
+      "checkedAt": "2026-11-13T07:14:10.192Z",
       "sourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2026-12-30&endDate=2027-01-03&adults=6",
-      "evidence": "Vrbo 30 Ara - 3 Oca, 6 seyahatçi için müsait ve 4 gece toplam 3.101 € gösteriyor; Jetzt buchen bağlantısı var."
+      "evidence": "Vrbo seçili tarihlerde 6 seyahatçi için müsaitlik ve Jetzt buchen bağlantısı gösterdi."
     },
     {
       "scope": "offer",
@@ -236,9 +236,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:12:58.176Z",
+      "checkedAt": "2026-11-13T07:14:10.192Z",
       "sourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2026-12-30&endDate=2027-01-03&adults=6",
-      "evidence": "Vrbo 30 Ara - 3 Oca, 6 seyahatçi için müsait ve 4 gece toplam 3.101 € gösteriyor; Jetzt buchen bağlantısı var.",
+      "evidence": "Vrbo seçili tarihlerde 6 seyahatçi için müsaitlik ve Jetzt buchen bağlantısı gösterdi.",
       "parentCardId": "six-vrbo-145069-full"
     },
     {
@@ -248,9 +248,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:13:30.151Z",
+      "checkedAt": "2026-11-13T07:14:10.192Z",
       "sourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2027-01-01&endDate=2027-01-03&adults=6",
-      "evidence": "Vrbo 1-3 Oca, 6 seyahatçi için müsait, 1.603 € ve Jetzt buchen bağlantısı gösteriyor."
+      "evidence": "Vrbo seçili tarihlerde 6 seyahatçi için müsaitlik ve Jetzt buchen bağlantısı gösterdi."
     },
     {
       "scope": "offer",
@@ -259,9 +259,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:13:30.151Z",
+      "checkedAt": "2026-11-13T07:14:10.192Z",
       "sourceUrl": "https://www.vrbo.com/de-at/ferienwohnung-ferienhaus/p5130239?startDate=2027-01-01&endDate=2027-01-03&adults=6",
-      "evidence": "Vrbo 1-3 Oca, 6 seyahatçi için müsait, 1.603 € ve Jetzt buchen bağlantısı gösteriyor.",
+      "evidence": "Vrbo seçili tarihlerde 6 seyahatçi için müsaitlik ve Jetzt buchen bağlantısı gösterdi.",
       "parentCardId": "six-vrbo-145069-last"
     },
     {
@@ -271,7 +271,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:01:54.357Z",
+      "checkedAt": "2026-11-13T07:11:05.285Z",
       "sourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1270649713 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -293,7 +293,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:10:44.684Z",
+      "checkedAt": "2026-11-13T07:10:29.436Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174403",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174403 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -304,9 +304,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:10:44.684Z",
+      "checkedAt": "2026-11-13T07:10:29.436Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174403",
-      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174403 numaralı konaklamayı seçilebilir gösterdi."
+      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174404 numaralı konaklamayı seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -315,9 +315,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:10:44.684Z",
+      "checkedAt": "2026-11-13T07:10:29.436Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174403",
-      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174403 numaralı konaklamayı seçilebilir gösterdi."
+      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174402 numaralı konaklamayı seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -326,9 +326,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:10:44.684Z",
+      "checkedAt": "2026-11-13T07:10:29.436Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174403",
-      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174403 numaralı konaklamayı seçilebilir gösterdi."
+      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174406 numaralı konaklamayı seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -337,7 +337,7 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:02:44.975Z",
+      "checkedAt": "2026-11-13T07:11:28.935Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174402",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174402 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -348,9 +348,9 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:02:44.975Z",
+      "checkedAt": "2026-11-13T07:11:28.935Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174402",
-      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174402 numaralı konaklamayı seçilebilir gösterdi."
+      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174403 numaralı konaklamayı seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -359,9 +359,9 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:02:44.975Z",
+      "checkedAt": "2026-11-13T07:11:28.935Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174402",
-      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174402 numaralı konaklamayı seçilebilir gösterdi."
+      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174406 numaralı konaklamayı seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -370,9 +370,9 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:02:44.975Z",
+      "checkedAt": "2026-11-13T07:11:28.935Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174402",
-      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174402 numaralı konaklamayı seçilebilir gösterdi."
+      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174401 numaralı konaklamayı seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -381,14 +381,9 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-10T18:13:55.860Z",
-      "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174401",
-      "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 1557174401 numaralı eşleşen birimi seçilebilir gösterdi.",
-      "lastAttempt": {
-        "result": "unknown",
-        "at": "2026-11-12T21:10:09.305Z",
-        "reason": "Booking seçili ilan ve kişi sayısı için gereken konaklamayı doğrulamadı."
-      }
+      "checkedAt": "2026-11-13T07:13:01.033Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174402",
+      "evidence": "Booking.com seçili 7 yetişkin ve tarihler için 1557174401 numaralı konaklamayı seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -397,9 +392,9 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:02:44.975Z",
+      "checkedAt": "2026-11-13T07:11:28.935Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-center-berlin-rungestr.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1557174402",
-      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174402 numaralı konaklamayı seçilebilir gösterdi."
+      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1557174404 numaralı konaklamayı seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -408,9 +403,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:55:47.664Z",
+      "checkedAt": "2026-11-13T07:01:15.625Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/12048269?adults=6&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -419,9 +414,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:04:28.208Z",
+      "checkedAt": "2026-11-13T07:06:56.664Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/12048269?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -430,9 +425,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:38.526Z",
+      "checkedAt": "2026-11-13T07:01:47.596Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1216757408450098435?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "offer",
@@ -442,10 +437,10 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:25:45.785Z",
+      "checkedAt": "2026-11-13T07:14:33.021Z",
       "sourceUrl": "https://www.airbnb.com/rooms/45962465?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
       "evidenceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-thedanziger-2-yatak-odası-120-m-büyük-oturma-odası-4-7-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44006614%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-6&cds=MpA05y3gTlNEWf464iX6pOJQPTKr7TCzV4zynn9m%2B%2BfZ0AqwOku7Y1umi%2FcWLjRoHXjfX%2FRHVuAvjm6UPdvY1YkeoF3CV2YG0nFNoeDmgSVhtN%2F%2BNkNMKV4GTvXKGQNeUJ8lCIMO95JTnwoG2dOu6YnJhRbYHgQUO4VGSZigc5m7ni85Ac8%3D&cdsOrigin=DEAL_ON_DEALFINDER",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -454,9 +449,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:00.393Z",
+      "checkedAt": "2026-11-13T07:07:26.060Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1216757408450098435?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "offer",
@@ -466,10 +461,10 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:25:48.198Z",
+      "checkedAt": "2026-11-13T07:14:36.687Z",
       "sourceUrl": "https://www.airbnb.com/rooms/45962465?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
       "evidenceUrl": "https://www.trivago.com.tr/tr/lm/tüm-ev-apart-daire-thedanziger-2-yatak-odası-120-m-büyük-oturma-odası-4-7-misafir-berlin?cip=234716015&currencyCode=EUR&search=100-44006614%3B300-255%3Bdr-20261230-20270103%3Bdrs-40%3Brc-1-7&cds=NHp4jdYYC8fUPALFL3tszMSzw2%2B4xzmo%2By2i%2FMyt1SUdFlWDVp7Pcp2EZaTQj1DmmX13%2FfCSvqnPyGUAzsqEOwZymFWCSVe%2FBKWMPzWKdcf3IHSPmrbQNxR8sDoVeXdWqW1f9b2iQkpVmvUE5yn19W1SoJta4LYieJHKaqAbVNdDoIn2p4oBiQ%3D%3D&cdsOrigin=DEAL_ON_DEALFINDER",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -478,9 +473,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:10.714Z",
+      "checkedAt": "2026-11-13T07:05:30.983Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1468719376516749093?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -489,9 +484,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:19.939Z",
+      "checkedAt": "2026-11-13T07:17:45.084Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1468719376516749093?locale=en-GB&currency=EUR&adults=7&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -500,9 +495,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:10.714Z",
+      "checkedAt": "2026-11-13T07:05:30.983Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1468719376516749093?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -511,9 +506,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:19.939Z",
+      "checkedAt": "2026-11-13T07:17:45.084Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1468719376516749093?locale=en-GB&currency=EUR&adults=7&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -522,9 +517,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:18.979Z",
+      "checkedAt": "2026-11-13T07:05:35.729Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1777706242995862793?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -533,9 +528,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:22.465Z",
+      "checkedAt": "2026-11-13T07:08:42.753Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1777706242995862793?locale=en-GB&currency=EUR&adults=7&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -544,9 +539,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:18.979Z",
+      "checkedAt": "2026-11-13T07:05:35.729Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1777706242995862793?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -555,9 +550,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:22.465Z",
+      "checkedAt": "2026-11-13T07:08:42.753Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1777706242995862793?locale=en-GB&currency=EUR&adults=7&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -566,9 +561,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:21.182Z",
+      "checkedAt": "2026-11-13T07:05:40.697Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -577,9 +572,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:23.883Z",
+      "checkedAt": "2026-11-13T07:08:47.533Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=7&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -588,9 +583,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:21.182Z",
+      "checkedAt": "2026-11-13T07:05:40.697Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -599,9 +594,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:23.883Z",
+      "checkedAt": "2026-11-13T07:08:47.533Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1641351333944417315?locale=en-GB&currency=EUR&adults=7&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -610,9 +605,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:22.993Z",
+      "checkedAt": "2026-11-13T07:03:23.192Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/22026440?adults=6&check_in=2027-01-01&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -621,9 +616,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:25.467Z",
+      "checkedAt": "2026-11-13T07:08:49.140Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/22026440?adults=7&check_in=2027-01-01&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -632,9 +627,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:33.042Z",
+      "checkedAt": "2026-11-13T07:05:45.684Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1755900699204248773?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi.",
       "maxGuests": 6,
       "capacityEvidence": "Airbnb sayfasında en çok 6 misafir sınırı görüldü.",
       "capacitySourceUrl": "https://www.airbnb.com/rooms/1755900699204248773?check_in=2027-01-01&check_out=2027-01-03&adults=7&guests=7&currency=EUR",
@@ -647,9 +642,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:08.888Z",
+      "checkedAt": "2026-11-13T07:17:35.129Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1144871109877188022?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -658,9 +653,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:18.377Z",
+      "checkedAt": "2026-11-13T07:17:40.134Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1144871109877188022?locale=en-GB&currency=EUR&adults=7&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -669,9 +664,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:08.888Z",
+      "checkedAt": "2026-11-13T07:17:35.129Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1144871109877188022?locale=en-GB&currency=EUR&adults=6&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -680,9 +675,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:18.377Z",
+      "checkedAt": "2026-11-13T07:17:40.134Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1144871109877188022?locale=en-GB&currency=EUR&adults=7&check_in=2027-01-01&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2027-01-01 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -691,7 +686,7 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:10:47.804Z",
+      "checkedAt": "2026-11-13T07:11:22.583Z",
       "sourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1270649713 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -702,7 +697,7 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:09:56.565Z",
+      "checkedAt": "2026-11-13T07:12:55.209Z",
       "sourceUrl": "https://www.booking.com/hotel/de/urban-flats-berlin-berlin6.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 7 yetişkin ve tarihler için 1270649713 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -713,7 +708,7 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:02:54.740Z",
+      "checkedAt": "2026-11-13T07:11:38.049Z",
       "sourceUrl": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1387722001 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -724,7 +719,7 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:10:19.105Z",
+      "checkedAt": "2026-11-13T07:13:09.718Z",
       "sourceUrl": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 7 yetişkin ve tarihler için 1387722001 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -737,7 +732,12 @@
       "status": "available",
       "checkedAt": "2026-11-12T20:53:52.653Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü.",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-13T07:00:07.791Z",
+        "reason": "Airbnb teklifi kapandı; aynı tesisteki üç odalı Booking teklifinin durumu doğrulanamadı."
+      }
     },
     {
       "scope": "card",
@@ -748,7 +748,12 @@
       "status": "available",
       "checkedAt": "2026-11-12T21:03:16.564Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü.",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-13T07:06:11.139Z",
+        "reason": "Airbnb teklifi kapandı; aynı tesisteki üç odalı Booking teklifinin durumu doğrulanamadı."
+      }
     },
     {
       "scope": "card",
@@ -757,9 +762,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:52.189Z",
+      "checkedAt": "2026-11-13T07:02:05.165Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -768,9 +773,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:15.051Z",
+      "checkedAt": "2026-11-13T07:07:39.877Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1740651283805171847?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -779,9 +784,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:53:34.114Z",
+      "checkedAt": "2026-11-13T06:59:50.260Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/31297828?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -790,9 +795,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:53:36.293Z",
+      "checkedAt": "2026-11-13T06:59:52.057Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/12541792?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -801,9 +806,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:53:46.563Z",
+      "checkedAt": "2026-11-13T07:00:03.334Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/32453210?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -812,9 +817,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:16:14.101Z",
+      "checkedAt": "2026-11-13T07:00:06.333Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1519600838702010375?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -823,9 +828,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:53:54.562Z",
+      "checkedAt": "2026-11-13T07:00:09.328Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/31701521?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -834,9 +839,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T20:53:57.006Z",
+      "checkedAt": "2026-11-13T07:00:10.988Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1805168581752936023?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi gösterdi.",
       "maxGuests": 6,
       "capacityEvidence": "Airbnb sayfasında en çok 6 misafir sınırı görüldü.",
       "capacitySourceUrl": "https://www.airbnb.com/rooms/1805168581752936023?check_in=2026-12-30&check_out=2027-01-03&adults=7&guests=7&currency=EUR",
@@ -849,9 +854,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:54:01.266Z",
+      "checkedAt": "2026-11-13T07:00:13.063Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1268121761753625501?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -860,9 +865,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T20:54:03.699Z",
+      "checkedAt": "2026-11-13T07:00:14.761Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1727650304700546371?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi gösterdi.",
       "lastAvailableAt": "2026-11-10T17:50:14.263Z"
     },
     {
@@ -872,9 +877,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:54:07.976Z",
+      "checkedAt": "2026-11-13T07:00:17.807Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1765241459359399223?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -883,9 +888,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T20:54:29.303Z",
+      "checkedAt": "2026-11-13T07:00:19.256Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/40216009?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi gösterdi."
     },
     {
       "scope": "card",
@@ -894,9 +899,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:54:34.021Z",
+      "checkedAt": "2026-11-13T07:00:21.049Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi.",
       "maxGuests": 6,
       "capacityEvidence": "Airbnb sayfasında en çok 6 misafir sınırı görüldü.",
       "capacitySourceUrl": "https://www.airbnb.com/rooms/1452938883567081364?check_in=2026-12-30&check_out=2027-01-03&adults=7&guests=7&currency=EUR",
@@ -909,9 +914,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:54:35.923Z",
+      "checkedAt": "2026-11-13T07:00:22.940Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/34301098?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi.",
       "maxGuests": 6,
       "capacityEvidence": "Airbnb sayfasında en çok 6 misafir sınırı görüldü.",
       "capacitySourceUrl": "https://www.airbnb.com/rooms/34301098?check_in=2026-12-30&check_out=2027-01-03&adults=7&guests=7&currency=EUR",
@@ -924,9 +929,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:54:37.230Z",
+      "checkedAt": "2026-11-13T07:00:24.681Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1510142980699078825?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -935,9 +940,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:54:39.608Z",
+      "checkedAt": "2026-11-13T07:00:26.011Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1389672541037596818?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -946,9 +951,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:54:41.551Z",
+      "checkedAt": "2026-11-13T07:00:27.856Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/38533401?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -957,9 +962,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:54:43.212Z",
+      "checkedAt": "2026-11-13T07:00:29.583Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/13868134?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -968,9 +973,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:54:51.217Z",
+      "checkedAt": "2026-11-13T07:00:51.485Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1066700616308697452?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -979,9 +984,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:54:55.154Z",
+      "checkedAt": "2026-11-13T07:00:54.658Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/942782300690662568?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -990,9 +995,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:55:02.008Z",
+      "checkedAt": "2026-11-13T07:00:58.806Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1406503358873925054?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1001,9 +1006,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:55:11.265Z",
+      "checkedAt": "2026-11-13T07:01:05.421Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/33234428?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi.",
       "maxGuests": 6,
       "capacityEvidence": "Airbnb sayfasında en çok 6 misafir sınırı görüldü.",
       "capacitySourceUrl": "https://www.airbnb.com/rooms/33234428?check_in=2026-12-30&check_out=2027-01-03&adults=7&guests=7&currency=EUR",
@@ -1016,9 +1021,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T20:55:34.211Z",
+      "checkedAt": "2026-11-13T07:01:07.223Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1152005761587998986?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi gösterdi."
     },
     {
       "scope": "card",
@@ -1027,9 +1032,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:55:38.515Z",
+      "checkedAt": "2026-11-13T07:01:08.910Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1363888262051860529?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi.",
       "maxGuests": 6,
       "capacityEvidence": "Airbnb sayfasında en çok 6 misafir sınırı görüldü.",
       "capacitySourceUrl": "https://www.airbnb.com/rooms/1363888262051860529?check_in=2026-12-30&check_out=2027-01-03&adults=7&guests=7&currency=EUR",
@@ -1042,9 +1047,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:55:43.411Z",
+      "checkedAt": "2026-11-13T07:01:12.238Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/53802915?adults=6&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1053,9 +1058,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T20:55:50.696Z",
+      "checkedAt": "2026-11-13T07:01:30.105Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1150006272268927007?adults=6&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi gösterdi."
     },
     {
       "scope": "card",
@@ -1064,9 +1069,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T20:56:02.814Z",
+      "checkedAt": "2026-11-13T07:01:33.513Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1552331405600484908?adults=6&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi gösterdi."
     },
     {
       "scope": "card",
@@ -1075,9 +1080,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:07.032Z",
+      "checkedAt": "2026-11-13T07:01:35.041Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1186815887957943578?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1086,9 +1091,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:11.121Z",
+      "checkedAt": "2026-11-13T07:05:05.037Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1461578862659272395?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi.",
       "maxGuests": 6,
       "capacityEvidence": "Airbnb sayfasında en çok 6 misafir sınırı görüldü.",
       "capacitySourceUrl": "https://www.airbnb.com/rooms/1461578862659272395?check_in=2026-12-30&check_out=2027-01-03&adults=7&guests=7&currency=EUR",
@@ -1101,9 +1106,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:12.918Z",
+      "checkedAt": "2026-11-13T07:01:41.102Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/45436574?adults=6&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1112,9 +1117,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:19.217Z",
+      "checkedAt": "2026-11-13T07:01:44.358Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/873230612368758488?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1123,9 +1128,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T20:56:22.167Z",
+      "checkedAt": "2026-11-13T07:01:45.921Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1174576099912827244?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi gösterdi."
     },
     {
       "scope": "card",
@@ -1134,9 +1139,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:42.426Z",
+      "checkedAt": "2026-11-13T07:01:51.192Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/21074683?adults=6&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1145,9 +1150,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:44.567Z",
+      "checkedAt": "2026-11-13T07:01:52.607Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/51513538?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1156,9 +1161,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:48.793Z",
+      "checkedAt": "2026-11-13T07:02:01.442Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1415265646306539034?adults=6&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1167,9 +1172,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:07.965Z",
+      "checkedAt": "2026-11-13T07:02:15.364Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1042045413385336860?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1178,9 +1183,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:11.850Z",
+      "checkedAt": "2026-11-13T07:02:19.226Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1352773721511868469?adults=6&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1189,9 +1194,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T20:57:19.537Z",
+      "checkedAt": "2026-11-13T07:02:25.784Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/937599705398085803?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi gösterdi."
     },
     {
       "scope": "card",
@@ -1200,9 +1205,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:23.696Z",
+      "checkedAt": "2026-11-13T07:02:27.392Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1305081869431363843?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi.",
       "maxGuests": 6,
       "capacityEvidence": "Airbnb sayfasında en çok 6 misafir sınırı görüldü.",
       "capacitySourceUrl": "https://www.airbnb.com/rooms/1305081869431363843?check_in=2026-12-30&check_out=2027-01-03&adults=7&guests=7&currency=EUR",
@@ -1215,9 +1220,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:25.746Z",
+      "checkedAt": "2026-11-13T07:02:29.357Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1468719376516749093?adults=6&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1226,9 +1231,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:27.720Z",
+      "checkedAt": "2026-11-13T07:02:41.799Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/565270388295704317?adults=6&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1243,8 +1248,8 @@
       "displayPrice": "Airbnb €980; vergi ve ücret kapsamını kaynaktan kontrol edin.",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-12T21:16:16.114Z",
-        "reason": "Airbnb ilan sayfasını kaldırdığını bildirdi; seçili tarihler için rezervasyon durumu belirlenemedi."
+        "at": "2026-11-13T07:05:16.169Z",
+        "reason": "Kaynağın seçili tarihler ve kişi sayısı için sonucu doğrulanamadı."
       }
     },
     {
@@ -1254,9 +1259,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:33.666Z",
+      "checkedAt": "2026-11-13T07:05:21.051Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1800855588199404311?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1265,9 +1270,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:33.666Z",
+      "checkedAt": "2026-11-13T07:05:21.051Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1800855588199404311?locale=en-GB&currency=EUR&adults=6&check_in=2026-12-30&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1276,9 +1281,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:34.939Z",
+      "checkedAt": "2026-11-13T07:02:52.175Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/22026440?adults=6&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1287,9 +1292,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:58.252Z",
+      "checkedAt": "2026-11-13T07:02:53.762Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1175489093358086077?adults=6&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1298,9 +1303,9 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:00.277Z",
+      "checkedAt": "2026-11-13T07:02:55.171Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1166429151300530583?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-01 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-01 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1309,9 +1314,9 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:02.327Z",
+      "checkedAt": "2026-11-13T07:02:56.755Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1506711709322131491?check_in=2026-12-30&check_out=2027-01-01&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-01 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-01 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1320,9 +1325,9 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:05.308Z",
+      "checkedAt": "2026-11-13T07:03:00.502Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1559249085935822360?adults=6&check_in=2026-12-30&check_out=2027-01-01&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-01 çıkış ve 6 misafir için rezervasyon düğmesi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-01 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi.",
       "maxGuests": 6,
       "capacityEvidence": "Airbnb sayfasında en çok 6 misafir sınırı görüldü.",
       "capacitySourceUrl": "https://www.airbnb.com/rooms/1559249085935822360?check_in=2026-12-30&check_out=2027-01-01&adults=7&guests=7&currency=EUR",
@@ -1335,9 +1340,9 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:58:07.130Z",
+      "checkedAt": "2026-11-13T07:03:02.126Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/14314574?adults=6&check_in=2026-12-30&check_out=2027-01-01&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-01 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-01 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1346,9 +1351,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:03:07.108Z",
+      "checkedAt": "2026-11-13T07:06:04.717Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/31297828?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1357,9 +1362,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:03:08.923Z",
+      "checkedAt": "2026-11-13T07:06:06.360Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/12541792?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1368,9 +1373,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:16:19.888Z",
+      "checkedAt": "2026-11-13T07:06:07.937Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/32453210?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1379,9 +1384,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:03:14.939Z",
+      "checkedAt": "2026-11-13T07:06:09.480Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1519600838702010375?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1390,9 +1395,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:03:17.956Z",
+      "checkedAt": "2026-11-13T07:06:12.522Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/31701521?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1401,9 +1406,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:03:19.508Z",
+      "checkedAt": "2026-11-13T07:06:14.169Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1268121761753625501?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1412,9 +1417,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T21:03:21.255Z",
+      "checkedAt": "2026-11-13T07:06:16.214Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1727650304700546371?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi görüldü.",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi gösterdi.",
       "lastAvailableAt": "2026-11-10T17:50:16.211Z"
     },
     {
@@ -1424,9 +1429,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:03:30.464Z",
+      "checkedAt": "2026-11-13T07:06:19.371Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1765241459359399223?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1435,9 +1440,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T21:03:33.857Z",
+      "checkedAt": "2026-11-13T07:06:20.955Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/40216009?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi gösterdi."
     },
     {
       "scope": "card",
@@ -1446,9 +1451,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:03:37.923Z",
+      "checkedAt": "2026-11-13T07:06:22.597Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1510142980699078825?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1457,9 +1462,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:03:39.598Z",
+      "checkedAt": "2026-11-13T07:06:25.493Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1389672541037596818?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1468,9 +1473,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:03:41.604Z",
+      "checkedAt": "2026-11-13T07:06:27.067Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/38533401?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1479,9 +1484,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:03:42.997Z",
+      "checkedAt": "2026-11-13T07:06:31.851Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/13868134?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1490,9 +1495,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:03:44.727Z",
+      "checkedAt": "2026-11-13T07:06:33.981Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1066700616308697452?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1501,9 +1506,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:04:01.584Z",
+      "checkedAt": "2026-11-13T07:06:42.343Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/942782300690662568?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1512,9 +1517,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:04:08.726Z",
+      "checkedAt": "2026-11-13T07:06:46.284Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1406503358873925054?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1523,9 +1528,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T21:04:13.121Z",
+      "checkedAt": "2026-11-13T07:06:49.341Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1152005761587998986?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi gösterdi."
     },
     {
       "scope": "card",
@@ -1534,9 +1539,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:04:19.358Z",
+      "checkedAt": "2026-11-13T07:06:52.737Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/53802915?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1545,9 +1550,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T21:04:29.890Z",
+      "checkedAt": "2026-11-13T07:06:58.350Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1150006272268927007?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi gösterdi."
     },
     {
       "scope": "card",
@@ -1556,9 +1561,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T21:04:34.255Z",
+      "checkedAt": "2026-11-13T07:07:00.714Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1552331405600484908?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi gösterdi."
     },
     {
       "scope": "card",
@@ -1567,9 +1572,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:04:38.538Z",
+      "checkedAt": "2026-11-13T07:07:02.990Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1186815887957943578?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1578,9 +1583,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:04:40.723Z",
+      "checkedAt": "2026-11-13T07:07:04.664Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/45436574?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1589,9 +1594,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:04:49.107Z",
+      "checkedAt": "2026-11-13T07:07:22.465Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/873230612368758488?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1600,9 +1605,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T21:04:50.761Z",
+      "checkedAt": "2026-11-13T07:07:24.115Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1174576099912827244?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi gösterdi."
     },
     {
       "scope": "card",
@@ -1611,9 +1616,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:05.956Z",
+      "checkedAt": "2026-11-13T07:07:29.467Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/21074683?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1622,9 +1627,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:08.002Z",
+      "checkedAt": "2026-11-13T07:07:31.311Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/51513538?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1633,9 +1638,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:11.422Z",
+      "checkedAt": "2026-11-13T07:07:35.196Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1415265646306539034?adults=7&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1644,9 +1649,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:38.781Z",
+      "checkedAt": "2026-11-13T07:07:55.623Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1042045413385336860?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1655,9 +1660,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:43.565Z",
+      "checkedAt": "2026-11-13T07:07:59.508Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1352773721511868469?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1666,9 +1671,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T21:05:50.939Z",
+      "checkedAt": "2026-11-13T07:08:05.009Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/937599705398085803?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi gösterdi."
     },
     {
       "scope": "card",
@@ -1677,9 +1682,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:55.522Z",
+      "checkedAt": "2026-11-13T07:08:06.806Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1468719376516749093?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1688,9 +1693,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:57.050Z",
+      "checkedAt": "2026-11-13T07:08:08.621Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/565270388295704317?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1705,8 +1710,8 @@
       "displayPrice": "Airbnb €980; vergi ve ücret kapsamını kaynaktan kontrol edin.",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-12T21:16:21.624Z",
-        "reason": "Airbnb ilan sayfasını kaldırdığını bildirdi; seçili tarihler için rezervasyon durumu belirlenemedi."
+        "at": "2026-11-13T07:08:12.396Z",
+        "reason": "Kaynağın seçili tarihler ve kişi sayısı için sonucu doğrulanamadı."
       }
     },
     {
@@ -1716,9 +1721,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:03.205Z",
+      "checkedAt": "2026-11-13T07:08:17.405Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1800855588199404311?locale=en-GB&currency=EUR&adults=7&check_in=2026-12-30&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1727,9 +1732,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:03.205Z",
+      "checkedAt": "2026-11-13T07:08:17.405Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1800855588199404311?locale=en-GB&currency=EUR&adults=7&check_in=2026-12-30&check_out=2027-01-03",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1738,9 +1743,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:04.560Z",
+      "checkedAt": "2026-11-13T07:08:19.048Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/22026440?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1749,9 +1754,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:05.982Z",
+      "checkedAt": "2026-11-13T07:08:20.752Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1175489093358086077?adults=7&children=0&check_in=2026-12-30&check_out=2027-01-03&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1760,9 +1765,9 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:12.066Z",
+      "checkedAt": "2026-11-13T07:08:22.487Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1166429151300530583?check_in=2026-12-30&check_out=2027-01-01&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-01 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-01 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1771,9 +1776,9 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:13.708Z",
+      "checkedAt": "2026-11-13T07:08:24.659Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1506711709322131491?check_in=2026-12-30&check_out=2027-01-01&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-01 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-01 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1782,9 +1787,9 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:06:16.900Z",
+      "checkedAt": "2026-11-13T07:08:28.110Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/14314574?adults=7&check_in=2026-12-30&check_out=2027-01-01&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-01 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-01 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1798,8 +1803,8 @@
       "evidence": "Booking, 2026-12-30–2027-01-03 ve 6 yetişkin için 181193704 numaralı eşleşen birimin seçilebilir olduğunu gösterdi.",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-12T21:00:35.262Z",
-        "reason": "Booking yalnız bir stüdyo gösterdi; ilan için gerekli üç stüdyonun birlikte müsaitliği doğrulanamadı."
+        "at": "2026-11-13T07:10:23.006Z",
+        "reason": "Üç stüdyonun birlikte müsaitliği doğrulanamadı."
       }
     },
     {
@@ -1809,7 +1814,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:00:38.393Z",
+      "checkedAt": "2026-11-13T07:10:26.270Z",
       "sourceUrl": "https://www.booking.com/hotel/de/im-grund-22-c.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 715143503 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -1820,7 +1825,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:01:23.365Z",
+      "checkedAt": "2026-11-13T07:10:43.214Z",
       "sourceUrl": "https://www.booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1315188502 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -1831,7 +1836,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:01:34.752Z",
+      "checkedAt": "2026-11-13T07:10:55.562Z",
       "sourceUrl": "https://www.booking.com/hotel/de/greatstay-apartment-danzigerstr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 169367802 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -1842,9 +1847,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "unavailable",
-      "checkedAt": "2026-11-12T21:10:51.311Z",
+      "checkedAt": "2026-11-13T07:09:53.617Z",
       "sourceUrl": "https://www.booking.com/hotel/de/eastside34.en-gb.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
-      "evidence": "Booking: Bu tesis için 30 Ara 2026 ile 3 Oca 2027 arasında müsait yer bulunmuyor; 6 yetişkin seçili."
+      "evidence": "Booking.com seçili tarih aralığı ve 6 yetişkin için bu tesiste müsait yer bulunmadığını bildirdi."
     },
     {
       "scope": "card",
@@ -1853,7 +1858,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:01:42.634Z",
+      "checkedAt": "2026-11-13T07:10:58.770Z",
       "sourceUrl": "https://www.booking.com/hotel/de/greatstay-apartment-paul-robeson-str.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 169367701 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -1864,7 +1869,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:01:51.142Z",
+      "checkedAt": "2026-11-13T07:11:02.155Z",
       "sourceUrl": "https://www.booking.com/hotel/de/schoenhouse-berlin-city-street.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_850390007",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 850390007 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -1875,7 +1880,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:01:57.970Z",
+      "checkedAt": "2026-11-13T07:11:08.538Z",
       "sourceUrl": "https://www.booking.com/hotel/de/triumph-haus-mit-3-schlafzimmer.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1052821701 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -1886,7 +1891,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:02:01.259Z",
+      "checkedAt": "2026-11-13T07:11:16.420Z",
       "sourceUrl": "https://www.booking.com/hotel/de/ferienhaus-berlin-6-pax.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1747120801 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -1897,7 +1902,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:02:11.882Z",
+      "checkedAt": "2026-11-13T07:11:19.116Z",
       "sourceUrl": "https://www.booking.com/hotel/de/idyllisches-haus-mitten-in-berlin.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1&group_children=0&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 254387201 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -1913,8 +1918,8 @@
       "evidence": "Booking, 2026-12-30–2027-01-01 ve 6 yetişkin için 181193704 numaralı eşleşen birimin seçilebilir olduğunu gösterdi.",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-12T21:02:28.364Z",
-        "reason": "Booking yalnız bir stüdyo gösterdi; ilan için gerekli üç stüdyonun birlikte müsaitliği doğrulanamadı."
+        "at": "2026-11-13T07:11:25.588Z",
+        "reason": "Üç stüdyonun birlikte müsaitliği doğrulanamadı."
       }
     },
     {
@@ -1924,7 +1929,7 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:02:48.351Z",
+      "checkedAt": "2026-11-13T07:11:32.303Z",
       "sourceUrl": "https://www.booking.com/hotel/de/apartmenthaus-berlin-mitte-digital-check-in.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR#room_1252191308",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1252191308 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -1935,7 +1940,7 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:02:51.959Z",
+      "checkedAt": "2026-11-13T07:11:35.490Z",
       "sourceUrl": "https://www.booking.com/hotel/de/spacious-family-home-near-alexanderplatz-and-free-parking.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1300661303 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -1946,9 +1951,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:14:06.410Z",
+      "checkedAt": "2026-11-13T07:16:44.923Z",
       "sourceUrl": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p2714753?startDate=2026-12-30&endDate=2027-01-03&adults=6",
-      "evidence": "FeWo-direkt 30 Ara - 3 Oca, 6 seyahatçi için müsait, 1.915 € ve Jetzt buchen bağlantısı gösteriyor."
+      "evidence": "FeWo-direkt seçili giriş ve çıkış tarihleri ve belirtilen yolcu sayısı için müsaitlik ve Jetzt buchen bağlantısı gösterdi."
     },
     {
       "scope": "card",
@@ -1957,9 +1962,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:14:21.715Z",
+      "checkedAt": "2026-11-13T07:16:44.923Z",
       "sourceUrl": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p5553503?startDate=2026-12-30&endDate=2027-01-03&adults=6",
-      "evidence": "FeWo-direkt 30 Ara - 3 Oca, 6 seyahatçi için müsait, 1.593 € ve Jetzt buchen bağlantısı gösteriyor."
+      "evidence": "FeWo-direkt seçili giriş ve çıkış tarihleri ve belirtilen yolcu sayısı için müsaitlik ve Jetzt buchen bağlantısı gösterdi."
     },
     {
       "scope": "card",
@@ -1968,9 +1973,9 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:13:52.841Z",
-      "sourceUrl": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p5553503?startDate=2026-12-30&endDate=2027-01-01&adults=6",
-      "evidence": "FeWo-direkt 30 Ara - 1 Oca, 6 seyahatçi için müsait, 970 € ve Jetzt buchen bağlantısı gösteriyor."
+      "checkedAt": "2026-11-13T07:16:44.923Z",
+      "sourceUrl": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p5553503?startDate=2026-12-30&endDate=2027-01-01&adults=6&chkin=2026-12-30&chkout=2027-01-01&searchId=09dca08b-5bab-4e9a-a315-d4de9a0142b2",
+      "evidence": "FeWo-direkt seçili giriş ve çıkış tarihleri ve belirtilen yolcu sayısı için müsaitlik ve Jetzt buchen bağlantısı gösterdi."
     },
     {
       "scope": "card",
@@ -1979,9 +1984,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:14:37.928Z",
+      "checkedAt": "2026-11-13T07:16:08.025Z",
       "sourceUrl": "https://www.holidu.com/d/56239528?checkin=2026-12-30&checkout=2027-01-03&adults=6&exactPrice=t&currency=EUR",
-      "evidence": "Holidu selected dates are available; 30 Ara - 3 Oca, 6 Adults ve Reserve düğmesi gösteriyor."
+      "evidence": "Holidu seçili tarihler ve kişi sayısı için müsaitlik ile rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -1990,9 +1995,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:14:51.389Z",
+      "checkedAt": "2026-11-13T07:16:23.835Z",
       "sourceUrl": "https://www.holidu.de/d/69492292?checkin=2026-12-30&checkout=2027-01-03&adults=6&exactPrice=t&currency=EUR",
-      "evidence": "Holidu 30 Ara - 3 Oca, 6 Erwachsene için Ihr Zeitraum ist verfügbar ve Reservieren düğmesi gösteriyor."
+      "evidence": "Holidu 30 Ara - 3 Oca ve 6 yetişkin için Ihr Zeitraum ist verfügbar ve Reservieren gösterdi."
     },
     {
       "scope": "card",
@@ -2001,9 +2006,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:17:58.657Z",
+      "checkedAt": "2026-11-13T07:21:37.651Z",
       "sourceUrl": "https://skiplagged.com/hotel/7675980/locke-at-east-side-gallery-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=6",
-      "evidence": "Skiplagged canlı aramada 6 yetişkin, 2 oda ve seçili tarihler için Family Apartment teklifi ve rezervasyon bağlantısı döndürdü; sağlayıcıdaki son koşulları kontrol edin."
+      "evidence": "Skiplagged 6 yetişkin ve 2 oda için ilgili konaklama teklifini gösterdi."
     },
     {
       "scope": "card",
@@ -2012,9 +2017,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:17:58.657Z",
+      "checkedAt": "2026-11-13T07:21:37.651Z",
       "sourceUrl": "https://skiplagged.com/hotel/3558878/wilde-aparthotels-berlin-checkpoint-charlie-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=6",
-      "evidence": "Skiplagged canlı aramada 6 yetişkin, 2 oda ve seçili tarihler için Apartment teklifi ve rezervasyon bağlantısı döndürdü; sağlayıcıdaki son koşulları kontrol edin."
+      "evidence": "Skiplagged 6 yetişkin ve 2 oda için ilgili konaklama teklifini gösterdi."
     },
     {
       "scope": "card",
@@ -2029,8 +2034,8 @@
       "displayPrice": "Skiplagged $1595.60 toplam; kaynaktaki vergi kapsamını kontrol edin.",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-12T21:25:12.399Z",
-        "reason": "Skiplagged seçili tarihler için oda sonucu döndürmedi; doluluk doğrulanamadı."
+        "at": "2026-11-13T07:21:37.651Z",
+        "reason": "Kaynak oda sonucu döndürmedi; müsaitlik doğrulanamadı."
       }
     },
     {
@@ -2046,8 +2051,8 @@
       "displayPrice": "Skiplagged $3138.51 toplam; kaynaktaki vergi kapsamını kontrol edin.",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-12T21:25:12.399Z",
-        "reason": "Skiplagged süit teklifleri döndürdü, ancak üç yatak odalı süitin kimliği doğrulanamadı."
+        "at": "2026-11-13T07:21:37.651Z",
+        "reason": "Kaynak dönen süitlerin seçili üç odalı ilanla eşleşmesini doğrulamadı."
       }
     },
     {
@@ -2057,9 +2062,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:17:58.657Z",
+      "checkedAt": "2026-11-13T07:21:37.651Z",
       "sourceUrl": "https://skiplagged.com/hotel/8912209/traumhafte-wohnung-mitten-in-charlottenburg-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=6",
-      "evidence": "Skiplagged canlı aramada 6 yetişkin, 1 oda ve seçili tarihler için Three-Bedroom Apartment teklifi ve rezervasyon bağlantısı döndürdü; sağlayıcıdaki son koşulları kontrol edin."
+      "evidence": "Skiplagged 6 yetişkin ve 1 oda için ilgili konaklama teklifini gösterdi."
     },
     {
       "scope": "card",
@@ -2073,8 +2078,8 @@
       "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 181193704 numaralı eşleşen birimi seçilebilir gösterdi.",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-12T21:09:20.758Z",
-        "reason": "Booking yalnız bir stüdyo gösterdi; ilan için gerekli üç stüdyonun birlikte müsaitliği doğrulanamadı."
+        "at": "2026-11-13T07:12:19.209Z",
+        "reason": "Üç stüdyonun birlikte müsaitliği doğrulanamadı."
       }
     },
     {
@@ -2084,7 +2089,7 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:09:23.926Z",
+      "checkedAt": "2026-11-13T07:12:22.899Z",
       "sourceUrl": "https://www.booking.com/hotel/de/im-grund-22-c.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 7 yetişkin ve tarihler için 715143503 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2095,7 +2100,7 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:09:30.985Z",
+      "checkedAt": "2026-11-13T07:12:28.829Z",
       "sourceUrl": "https://www.booking.com/hotel/de/grand-central-city-apartments-mitte-museumsinsel.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 7 yetişkin ve tarihler için 1315188502 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2106,7 +2111,7 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:09:39.076Z",
+      "checkedAt": "2026-11-13T07:12:31.568Z",
       "sourceUrl": "https://www.booking.com/hotel/de/greatstay-apartment-danzigerstr.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 7 yetişkin ve tarihler için 169367802 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2117,7 +2122,7 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:09:42.377Z",
+      "checkedAt": "2026-11-13T07:12:34.288Z",
       "sourceUrl": "https://www.booking.com/hotel/de/greatstay-apartment-paul-robeson-str.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 7 yetişkin ve tarihler için 169367701 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2128,7 +2133,7 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:09:53.966Z",
+      "checkedAt": "2026-11-13T07:12:51.374Z",
       "sourceUrl": "https://www.booking.com/hotel/de/idyllisches-haus-mitten-in-berlin.tr.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0&selected_currency=EUR",
       "evidence": "Booking.com seçili 7 yetişkin ve tarihler için 254387201 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2144,8 +2149,8 @@
       "evidence": "Booking, seçilen tarihler ve 7 yetişkin için 181193704 numaralı eşleşen birimi seçilebilir gösterdi.",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-12T21:10:06.318Z",
-        "reason": "Booking yalnız bir stüdyo gösterdi; ilan için gerekli üç stüdyonun birlikte müsaitliği doğrulanamadı."
+        "at": "2026-11-13T07:12:57.841Z",
+        "reason": "Üç stüdyonun birlikte müsaitliği doğrulanamadı."
       }
     },
     {
@@ -2155,7 +2160,7 @@
       "checkOut": "2027-01-01",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:10:15.966Z",
+      "checkedAt": "2026-11-13T07:13:07.109Z",
       "sourceUrl": "https://www.booking.com/hotel/de/spacious-family-home-near-alexanderplatz-and-free-parking.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 7 yetişkin ve tarihler için 1300661303 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2166,9 +2171,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:15:52.692Z",
+      "checkedAt": "2026-11-13T07:16:44.923Z",
       "sourceUrl": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p2714753?startDate=2026-12-30&endDate=2027-01-03&adults=7",
-      "evidence": "FeWo-direkt 30 Ara - 3 Oca, 7 seyahatçi için müsait, 2.060 € ve Jetzt buchen bağlantısı gösteriyor."
+      "evidence": "FeWo-direkt seçili giriş ve çıkış tarihleri ve belirtilen yolcu sayısı için müsaitlik ve Jetzt buchen bağlantısı gösterdi."
     },
     {
       "scope": "card",
@@ -2177,9 +2182,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:15:05.030Z",
+      "checkedAt": "2026-11-13T07:16:08.025Z",
       "sourceUrl": "https://www.holidu.de/d/69492292?checkin=2026-12-30&checkout=2027-01-03&adults=7&exactPrice=t&currency=EUR",
-      "evidence": "Holidu 30 Ara - 3 Oca, 7 Erwachsene için Ihr Zeitraum ist verfügbar ve Reservieren düğmesi gösteriyor."
+      "evidence": "Holidu seçili tarihler ve kişi sayısı için müsaitlik ile rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2188,9 +2193,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:17:58.657Z",
+      "checkedAt": "2026-11-13T07:21:37.651Z",
       "sourceUrl": "https://skiplagged.com/hotel/7675980/locke-at-east-side-gallery-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=7",
-      "evidence": "Skiplagged canlı aramada 7 yetişkin, 2 oda ve seçili tarihler için Family Apartment teklifi ve rezervasyon bağlantısı döndürdü; sağlayıcıdaki son koşulları kontrol edin."
+      "evidence": "Skiplagged 7 yetişkin ve 2 oda için ilgili konaklama teklifini gösterdi."
     },
     {
       "scope": "card",
@@ -2199,9 +2204,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:17:58.657Z",
+      "checkedAt": "2026-11-13T07:21:37.651Z",
       "sourceUrl": "https://skiplagged.com/hotel/3558878/wilde-aparthotels-berlin-checkpoint-charlie-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=7",
-      "evidence": "Skiplagged canlı aramada 7 yetişkin, 2 oda ve seçili tarihler için Apartment teklifi ve rezervasyon bağlantısı döndürdü; sağlayıcıdaki son koşulları kontrol edin."
+      "evidence": "Skiplagged 7 yetişkin ve 2 oda için ilgili konaklama teklifini gösterdi."
     },
     {
       "scope": "card",
@@ -2216,8 +2221,8 @@
       "displayPrice": "Skiplagged $1642.24 toplam; ücret kapsamını kaynakta kontrol edin.",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-12T21:25:12.399Z",
-        "reason": "Skiplagged seçili tarihler için oda sonucu döndürmedi; doluluk doğrulanamadı."
+        "at": "2026-11-13T07:21:37.651Z",
+        "reason": "Kaynak oda sonucu döndürmedi; müsaitlik doğrulanamadı."
       }
     },
     {
@@ -2233,8 +2238,8 @@
       "displayPrice": "Skiplagged $3160.87 toplam; ücret kapsamını kaynakta kontrol edin.",
       "lastAttempt": {
         "result": "unknown",
-        "at": "2026-11-12T21:25:12.399Z",
-        "reason": "Skiplagged süit teklifleri döndürdü, ancak üç yatak odalı süitin kimliği doğrulanamadı."
+        "at": "2026-11-13T07:21:37.651Z",
+        "reason": "Kaynak dönen süitlerin seçili üç odalı ilanla eşleşmesini doğrulamadı."
       }
     },
     {
@@ -2244,9 +2249,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:17:58.657Z",
+      "checkedAt": "2026-11-13T07:21:37.651Z",
       "sourceUrl": "https://skiplagged.com/hotel/8912209/traumhafte-wohnung-mitten-in-charlottenburg-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=7",
-      "evidence": "Skiplagged canlı aramada 7 yetişkin, 1 oda ve seçili tarihler için Three-Bedroom Apartment teklifi ve rezervasyon bağlantısı döndürdü; sağlayıcıdaki son koşulları kontrol edin."
+      "evidence": "Skiplagged 7 yetişkin ve 1 oda için ilgili konaklama teklifini gösterdi."
     },
     {
       "scope": "card",
@@ -2255,7 +2260,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:10:41.609Z",
+      "checkedAt": "2026-11-13T07:10:20.291Z",
       "sourceUrl": "https://www.booking.com/hotel/de/sonnig-und-helle-wohnung-alexanderplatz-in-15min-zu-erreichen-sehr-schon-und-gro.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1&group_children=0&selected_currency=EUR#room_951491101",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 951491101 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2266,9 +2271,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:40.230Z",
+      "checkedAt": "2026-11-13T07:01:49.104Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1610146635685764854?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2277,7 +2282,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:10:38.835Z",
+      "checkedAt": "2026-11-13T07:10:17.421Z",
       "sourceUrl": "https://www.booking.com/hotel/de/120sqm-amp-5-room-luxury-apartment-with-garden.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1&group_children=0&selected_currency=EUR#room_1242731801",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1242731801 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2288,9 +2293,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:05.103Z",
+      "checkedAt": "2026-11-13T07:02:13.637Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/20671210?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2299,9 +2304,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:00.248Z",
+      "checkedAt": "2026-11-13T07:01:31.845Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1532802572102238291?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2310,9 +2315,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:09.756Z",
+      "checkedAt": "2026-11-13T07:02:17.683Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1383517943466250521?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "offer",
@@ -2321,9 +2326,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:11:42.761Z",
-      "sourceUrl": "https://www.airbnb.com.tr/rooms/1429537620167870553?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü.",
+      "checkedAt": "2026-11-13T07:14:27.356Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1429537620167870553?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi.",
       "parentCardId": "sweep7-airbnb-31297828-20261230-20270103"
     },
     {
@@ -2333,9 +2338,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:54:45.075Z",
+      "checkedAt": "2026-11-13T07:00:49.361Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1107298370548666445?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2344,7 +2349,7 @@
       "checkOut": "2027-01-01",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:02:59.522Z",
+      "checkedAt": "2026-11-13T07:11:43.379Z",
       "sourceUrl": "https://www.booking.com/hotel/de/super-zentral-super-schoner-altbau-im-herzen-von-berlin-fur-bis-zu-12-personen.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&no_rooms=1&group_children=0&selected_currency=EUR#room_954475401",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 954475401 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2355,9 +2360,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:04.240Z",
+      "checkedAt": "2026-11-13T07:07:27.747Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1610146635685764854?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2366,7 +2371,7 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:09:17.710Z",
+      "checkedAt": "2026-11-13T07:12:16.569Z",
       "sourceUrl": "https://www.booking.com/hotel/de/120sqm-amp-5-room-luxury-apartment-with-garden.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&no_rooms=1&group_children=0&selected_currency=EUR#room_1242731801",
       "evidence": "Booking.com seçili 7 yetişkin ve tarihler için 1242731801 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2377,9 +2382,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:36.880Z",
+      "checkedAt": "2026-11-13T07:07:49.588Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/20671210?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2388,9 +2393,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:41.404Z",
+      "checkedAt": "2026-11-13T07:07:57.623Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1383517943466250521?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "offer",
@@ -2399,9 +2404,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:11:44.604Z",
-      "sourceUrl": "https://www.airbnb.com.tr/rooms/1429537620167870553?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü.",
+      "checkedAt": "2026-11-13T07:14:31.415Z",
+      "sourceUrl": "https://www.airbnb.com/rooms/1429537620167870553?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi.",
       "parentCardId": "sweep7-airbnb-31297828-20261230-20270103"
     },
     {
@@ -2411,9 +2416,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:54:53.258Z",
+      "checkedAt": "2026-11-13T07:00:52.969Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/31500359?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2422,9 +2427,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:55:06.233Z",
+      "checkedAt": "2026-11-13T07:01:01.848Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1036200996605773806?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2433,9 +2438,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:55:40.222Z",
+      "checkedAt": "2026-11-13T07:01:10.385Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/53796458?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2444,9 +2449,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:55:49.369Z",
+      "checkedAt": "2026-11-13T07:01:28.079Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1034836316144652017?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2455,9 +2460,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:50.594Z",
+      "checkedAt": "2026-11-13T07:02:03.548Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/14381251?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2466,9 +2471,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:58.437Z",
+      "checkedAt": "2026-11-13T07:02:06.980Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1333910684186106416?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2477,9 +2482,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:56:59.965Z",
+      "checkedAt": "2026-11-13T07:02:08.629Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1591873645675719304?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2488,9 +2493,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:01.652Z",
+      "checkedAt": "2026-11-13T07:02:10.128Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/32453158?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2499,9 +2504,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:57:03.673Z",
+      "checkedAt": "2026-11-13T07:02:11.555Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/32453154?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2510,9 +2515,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:59:40.459Z",
+      "checkedAt": "2026-11-13T07:09:41.118Z",
       "sourceUrl": "https://www.booking.com/hotel/de/petersburger-strasse-kleines-apartment-mit-kuche-und-bad.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
-      "evidence": "Booking seçili tarihler ve 6 yetişkin için Üç Yatak Odalı Daire - Üst Katlarda (1651068503) seçeneğinde 1 adet seçilebilir gösteriyor."
+      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1651068503 numaralı konaklamayı seçilebilir gösterdi."
     },
     {
       "scope": "card",
@@ -2521,7 +2526,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:59:51.758Z",
+      "checkedAt": "2026-11-13T07:09:44.204Z",
       "sourceUrl": "https://www.booking.com/hotel/de/cosy-three-br-two-bth-plus-ac-plus-self-checkin-plus-street-parking.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 969180402 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2532,7 +2537,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T20:59:55.311Z",
+      "checkedAt": "2026-11-13T07:09:47.010Z",
       "sourceUrl": "https://www.booking.com/hotel/de/modern-accommodation-neukoln.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1432001501 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2543,7 +2548,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:00:00.901Z",
+      "checkedAt": "2026-11-13T07:10:07.849Z",
       "sourceUrl": "https://www.booking.com/hotel/de/britzer-tor.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 6713918 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2556,7 +2561,12 @@
       "status": "available",
       "checkedAt": "2026-11-12T21:00:15.830Z",
       "sourceUrl": "https://www.booking.com/hotel/de/trio-apartment-berlin-lichtenberg.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
-      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 220243906 numaralı konaklamayı seçilebilir gösterdi."
+      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 220243906 numaralı konaklamayı seçilebilir gösterdi.",
+      "lastAttempt": {
+        "result": "unknown",
+        "at": "2026-11-13T07:09:50.362Z",
+        "reason": "Seçili daire ve kişi sayısı için Booking teklifi doğrulanamadı."
+      }
     },
     {
       "scope": "card",
@@ -2565,7 +2575,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:00:24.954Z",
+      "checkedAt": "2026-11-13T07:10:14.302Z",
       "sourceUrl": "https://www.booking.com/hotel/de/attic-apartment-in-villa.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1581324301 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2576,7 +2586,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:01:26.364Z",
+      "checkedAt": "2026-11-13T07:10:46.458Z",
       "sourceUrl": "https://www.booking.com/hotel/de/city-apartment-spreeufer.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 674049301 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2587,7 +2597,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:01:28.908Z",
+      "checkedAt": "2026-11-13T07:10:49.342Z",
       "sourceUrl": "https://www.booking.com/hotel/de/gneisenau.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 685065801 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2598,7 +2608,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:01:31.652Z",
+      "checkedAt": "2026-11-13T07:10:52.521Z",
       "sourceUrl": "https://www.booking.com/hotel/de/fantastic-berlin.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1120072201 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2608,10 +2618,11 @@
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-01",
       "adults": 6,
-      "status": "available",
-      "checkedAt": "2026-11-12T21:02:57.316Z",
+      "status": "unavailable",
+      "checkedAt": "2026-11-13T07:11:40.315Z",
       "sourceUrl": "https://www.booking.com/hotel/de/torstrasse.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
-      "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1693702003 numaralı konaklamayı seçilebilir gösterdi."
+      "evidence": "Booking.com seçili tarih aralığı ve 6 yetişkin için bu tesiste müsait yer bulunmadığını bildirdi.",
+      "lastAvailableAt": "2026-11-12T21:02:57.316Z"
     },
     {
       "scope": "card",
@@ -2620,9 +2631,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:03:47.147Z",
+      "checkedAt": "2026-11-13T07:06:40.473Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/31500359?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2631,9 +2642,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:04:17.471Z",
+      "checkedAt": "2026-11-13T07:06:50.836Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/53796458?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2642,9 +2653,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:13.216Z",
+      "checkedAt": "2026-11-13T07:07:37.684Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/14381251?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2653,9 +2664,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:28.827Z",
+      "checkedAt": "2026-11-13T07:07:42.127Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1333910684186106416?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2664,9 +2675,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:30.700Z",
+      "checkedAt": "2026-11-13T07:07:43.823Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1591873645675719304?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2675,9 +2686,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:33.232Z",
+      "checkedAt": "2026-11-13T07:07:45.926Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/32453158?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2686,9 +2697,9 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:05:35.202Z",
+      "checkedAt": "2026-11-13T07:07:48.033Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/32453154?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanında 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi görüldü."
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için rezervasyon düğmesi gösterdi."
     },
     {
       "scope": "card",
@@ -2697,7 +2708,7 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:09:14.713Z",
+      "checkedAt": "2026-11-13T07:12:13.368Z",
       "sourceUrl": "https://www.booking.com/hotel/de/stilvolle-6-zimmer-ferienwohnung-mit-2-badern.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 7 yetişkin ve tarihler için 1548189001 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2708,7 +2719,7 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:10:35.663Z",
+      "checkedAt": "2026-11-13T07:10:02.568Z",
       "sourceUrl": "https://www.booking.com/hotel/de/stilvolle-6-zimmer-ferienwohnung-mit-2-badern.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 6 yetişkin ve tarihler için 1548189001 numaralı konaklamayı seçilebilir gösterdi."
     },
@@ -2719,9 +2730,9 @@
       "checkOut": "2027-01-03",
       "adults": 6,
       "status": "available",
-      "checkedAt": "2026-11-12T21:12:58.176Z",
+      "checkedAt": "2026-11-13T07:17:00.045Z",
       "sourceUrl": "https://www.traum-ferienwohnungen.de/93211/?arrival=2026-12-30&departure=2027-01-03&persons=6",
-      "evidence": "Kaynak 30 Ara 2026 - 03 Oca 2027, 6 Gäste/4 Nächte için Verfügbar ve 2.195 € gösteriyor; rezervasyon ev sahibi onayına bağlı."
+      "evidence": "Kaynak seçili tarihler ve kişi sayısı için Verfügbar gösteriyor; rezervasyon ev sahibi onayına bağlı."
     },
     {
       "scope": "card",
@@ -2730,9 +2741,46 @@
       "checkOut": "2027-01-03",
       "adults": 7,
       "status": "available",
-      "checkedAt": "2026-11-12T21:15:19.336Z",
+      "checkedAt": "2026-11-13T07:17:00.045Z",
       "sourceUrl": "https://www.traum-ferienwohnungen.de/93211/?arrival=2026-12-30&departure=2027-01-03&persons=7",
-      "evidence": "Kaynak 30 Ara - 3 Oca, 7 Gäste/4 Nächte için Verfügbar ve 2.295 € gösteriyor; rezervasyon ev sahibi onayına bağlı."
+      "evidence": "Kaynak seçili tarihler ve kişi sayısı için Verfügbar gösteriyor; rezervasyon ev sahibi onayına bağlı."
+    },
+    {
+      "scope": "offer",
+      "id": "airbnb-35666163",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "unavailable",
+      "checkedAt": "2026-11-13T07:00:07.791Z",
+      "sourceUrl": "https://www.airbnb.com.tr/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 6 misafir için bu tarihler uygun değil bildirimi gösterdi.",
+      "parentCardId": "35666163",
+      "lastAvailableAt": "2026-11-12T20:53:52.653Z"
+    },
+    {
+      "scope": "offer",
+      "id": "airbnb-35666163",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "unavailable",
+      "checkedAt": "2026-11-13T07:06:11.139Z",
+      "sourceUrl": "https://www.airbnb.com.tr/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi gösterdi.",
+      "parentCardId": "35666163",
+      "lastAvailableAt": "2026-11-12T21:03:16.564Z"
+    },
+    {
+      "scope": "card",
+      "id": "bolunmus-torstrasse",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-01",
+      "adults": 7,
+      "status": "unavailable",
+      "checkedAt": "2026-11-13T07:13:11.984Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/torstrasse.tr.html?checkin=2026-12-30&checkout=2027-01-01&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR",
+      "evidence": "Booking.com seçili tarih aralığı ve 7 yetişkin için bu tesiste müsait yer bulunmadığını bildirdi."
     }
   ]
 }
