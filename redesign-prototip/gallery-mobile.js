@@ -229,7 +229,44 @@
       grid.addEventListener('scroll', () => {
         if (raf) cancelAnimationFrame(raf);
         raf = requestAnimationFrame(() => { raf = 0; update(); });
+        // Settle on a whole photo once scrolling stops (trackpad, keyboard).
+        clearTimeout(settleTimer);
+        if (!touch) settleTimer = setTimeout(settle, 160);
       }, {passive:true});
+      // Photo-by-photo swiping is done here instead of CSS scroll snapping:
+      // on iPhone (13 Nov 2026) snapping carousels made the browser close
+      // the page. The finger drags the strip; release moves one photo.
+      let touch = null, settleTimer = 0;
+      function settle() {
+        const width = grid.clientWidth;
+        if (!width || touch || programTarget !== null) return;
+        const nearest = Math.max(0, Math.min(links.length - 1, Math.round(grid.scrollLeft / width)));
+        if (Math.abs(grid.scrollLeft - nearest * width) > 2) go(nearest);
+      }
+      grid.addEventListener('touchstart', event => {
+        if (event.touches.length !== 1) { touch = null; return; }
+        const t = event.touches[0];
+        clearTimeout(settleTimer); clearTimeout(programTimer); programTarget = null;
+        touch = {x:t.clientX, y:t.clientY, left:grid.scrollLeft, start:Math.round(grid.scrollLeft / (grid.clientWidth || 1)), axis:''};
+      }, {passive:true});
+      grid.addEventListener('touchmove', event => {
+        if (!touch || event.touches.length !== 1) return;
+        const t = event.touches[0], dx = t.clientX - touch.x, dy = t.clientY - touch.y;
+        if (!touch.axis && Math.abs(dx) + Math.abs(dy) > 8) touch.axis = Math.abs(dx) > Math.abs(dy) ? 'x' : 'y';
+        if (touch.axis === 'x') grid.scrollLeft = touch.left - dx;
+      }, {passive:true});
+      const release = event => {
+        if (!touch) return;
+        const t = event.changedTouches && event.changedTouches[0];
+        const dx = t ? t.clientX - touch.x : 0, axis = touch.axis, start = touch.start;
+        touch = null;
+        if (axis !== 'x') { settle(); return; }
+        const threshold = Math.min(60, grid.clientWidth * 0.18);
+        expandNear(start + 1);
+        go(dx < -threshold ? start + 1 : dx > threshold ? start - 1 : start);
+      };
+      grid.addEventListener('touchend', release, {passive:true});
+      grid.addEventListener('touchcancel', release, {passive:true});
       grid.addEventListener('load', event => { if (event.target instanceof HTMLImageElement) checkImage(); }, true);
       grid.addEventListener('error', event => { if (event.target instanceof HTMLImageElement) checkImage(); }, true);
       grid.addEventListener('keydown', event => {
