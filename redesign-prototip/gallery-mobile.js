@@ -233,24 +233,7 @@
       grid.addEventListener('scroll', () => {
         if (raf) cancelAnimationFrame(raf);
         raf = requestAnimationFrame(() => { raf = 0; update(); });
-        // Settle on a whole photo once scrolling stops (trackpad, keyboard).
-        clearTimeout(settleTimer);
-        if (!touch) settleTimer = setTimeout(settle, 160);
       }, {passive:true});
-      // Settling is done here instead of CSS scroll snapping: on iPhone
-      // (13 Nov 2026) snapping carousels made the browser close the page.
-      // Touch scrolling stays native; a finger on the strip delays settling.
-      let touch = false, settleTimer = 0;
-      grid.addEventListener('touchstart', () => { touch = true; clearTimeout(settleTimer); }, {passive:true});
-      const release = () => { touch = false; clearTimeout(settleTimer); settleTimer = setTimeout(settle, 160); };
-      grid.addEventListener('touchend', release, {passive:true});
-      grid.addEventListener('touchcancel', release, {passive:true});
-      function settle() {
-        const width = grid.clientWidth;
-        if (!width || touch || programTarget !== null) return;
-        const nearest = Math.max(0, Math.min(links.length - 1, Math.round(grid.scrollLeft / width)));
-        if (Math.abs(grid.scrollLeft - nearest * width) > 2) go(nearest);
-      }
       grid.addEventListener('load', event => { if (event.target instanceof HTMLImageElement) checkImage(); }, true);
       grid.addEventListener('error', event => { if (event.target instanceof HTMLImageElement) checkImage(); }, true);
       grid.addEventListener('keydown', event => {

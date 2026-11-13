@@ -362,9 +362,5 @@ body{background:
 .stay-card[data-availability="unavailable"] .photo-grid img{filter:none!important;opacity:1!important}
 .stay-card[data-availability="unavailable"] .card-media::after{background:linear-gradient(to bottom right,transparent 49.4%,#615b57a0 49.7%,#615b57a0 50.3%,transparent 50.6%),linear-gradient(to top right,transparent 49.4%,#615b57a0 49.7%,#615b57a0 50.3%,transparent 50.6%),linear-gradient(rgba(236,233,230,.62),rgba(236,233,230,.62))}
 .stay-card[data-availability="unavailable"] .card-head,.stay-card[data-availability="unavailable"] .fact-tiles,.stay-card[data-availability="unavailable"] .card-alert{filter:none!important}
-/* No CSS scroll snapping on photo strips: on iPhone it made the browser
-   close the page (13 Nov 2026 tests). gallery-mobile.js settles on a whole photo
-   once scrolling stops. */
-.photo-grid,.photo-grid>a,.gm-ready .gm-frame .photo-grid,.gm-ready .gm-frame .photo-grid>a{scroll-snap-type:none!important;scroll-snap-align:none!important;scroll-snap-stop:normal!important}
 /* Large view: the photo's left and right parts are back/forward. */
 .lightbox-stage{cursor:pointer;-webkit-tap-highlight-color:transparent}
