@@ -77,7 +77,7 @@
     if (panel.classList.contains('is-full') === on) return;
     panel.classList.toggle('is-full', on);
     document.documentElement.classList.toggle('map-full-open', on);
-    setFullLabel(on);
+    setFullLabel(on); syncDock();
     if (on && !mapIsModal && panel.requestFullscreen) {
       panel.requestFullscreen().then(() => { nativeFull = true; }).catch(() => { nativeFull = false; });
     } else if (!on && nativeFull) {
@@ -90,6 +90,33 @@
     if (map) requestAnimationFrame(() => { map.invalidateSize(); scheduleLayout(); });
   }
   fullButton.addEventListener('click', () => setFull(!panel.classList.contains('is-full')));
+  // View dock: a pill fixed to the bottom of the screen with List / Map and,
+  // while the map is open, Full screen. It stays in reach wherever the page
+  // is scrolled, so the view switch never has to be searched for. A modal or
+  // full-screen map is in the top layer, so the dock moves inside the panel.
+  const dock = document.createElement('div');
+  dock.className = 'view-dock'; dock.setAttribute('role', 'group'); dock.setAttribute('aria-label', 'Görünüm');
+  const dockButton = (iconName, text) => {
+    const button = document.createElement('button'); button.type = 'button';
+    const label = document.createElement('span'); label.textContent = text;
+    button.append(svgIcon(iconName), label);
+    return button;
+  };
+  const dockList = dockButton('list', 'Liste'), dockMap = dockButton('map', 'Harita'), dockFull = dockButton('maximize-2', 'Tam ekran');
+  dockFull.className = 'view-dock-full';
+  dock.append(dockList, dockMap, dockFull);
+  function syncDock() {
+    const open = !panel.hidden, full = panel.classList.contains('is-full');
+    dockList.setAttribute('aria-pressed', String(!open)); dockMap.setAttribute('aria-pressed', String(open));
+    dockFull.hidden = !open;
+    dockFull.replaceChildren(svgIcon(full ? 'minimize-2' : 'maximize-2'), Object.assign(document.createElement('span'), {textContent: full ? 'Küçült' : 'Tam ekran'}));
+    dockFull.setAttribute('aria-pressed', String(full));
+    const home = open && (mapIsModal || full) ? panel : (view || document.body);
+    if (dock.parentNode !== home) home.append(dock);
+  }
+  dockList.addEventListener('click', () => { if (!panel.hidden) hideMap(); else window.scrollTo({top: 0, behavior: scrollBehavior()}); });
+  dockMap.addEventListener('click', () => { if (panel.hidden) mapButton.click(); });
+  dockFull.addEventListener('click', () => setFull(!panel.classList.contains('is-full')));
   panel.addEventListener('fullscreenchange', () => {
     if (!document.fullscreenElement && nativeFull) { nativeFull = false; setFull(false); }
     if (map) requestAnimationFrame(() => { map.invalidateSize(); scheduleLayout(); });
@@ -781,10 +808,12 @@
     if (panel.open) panel.close();
     panel.hidden = true; mapIsModal = false;
     listButton.setAttribute('aria-pressed','true'); mapButton.setAttribute('aria-pressed','false');
+    syncDock();
     if (mapOpener && mapOpener.isConnected) mapOpener.focus({preventScroll:true});
   }
   async function showMap(shouldScroll) {
     openMapPanel(); listButton.setAttribute('aria-pressed','false'); mapButton.setAttribute('aria-pressed','true');
+    syncDock();
     if (shouldScroll && !mapIsModal) panel.scrollIntoView({behavior:'instant',block:'start'});
     if (mapFailure) {
       if (map) {
@@ -812,11 +841,12 @@
       return false;
     }
   }
+  syncDock();
   mapButton.addEventListener('click', async () => { mapOpener = mapButton; setMapGroup(currentPageGroup()); if (await showMap(false)) requestAnimationFrame(() => fitPoints()); });
   listButton.addEventListener('click', hideMap);
   if (mapClose) mapClose.addEventListener('click', hideMap);
   panel.addEventListener('cancel', event => { event.preventDefault(); if (panel.classList.contains('is-full')) setFull(false); else hideMap(); });
-  window.addEventListener('resize', () => { if (!panel.hidden) { openMapPanel(); if (map) requestAnimationFrame(() => map.invalidateSize()); } });
+  window.addEventListener('resize', () => { if (!panel.hidden) { openMapPanel(); syncDock(); if (map) requestAnimationFrame(() => map.invalidateSize()); } });
   group.addEventListener('change', () => { updatePlanLabel(); clearSelection(); draw(true); fitPoints(); });
   if (resetBest) resetBest.addEventListener('click', () => { setMapGroup('hepsi'); draw(true); fitPoints(); });
   favoriteToggle.addEventListener('click', () => {

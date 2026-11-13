@@ -395,3 +395,30 @@ dialog.lightbox::backdrop{background:transparent}
 .pv-caption a{pointer-events:auto;flex-shrink:0;padding:6px 2px;color:#fff;opacity:.72;text-decoration:none}
 .pv-caption a:hover,.pv-caption a:focus-visible{opacity:1;text-decoration:underline}
 .pswp__error-msg{font-size:14px}
+
+/* View dock (map.js): List / Map and, while the map is open, Full screen,
+   fixed to the bottom of the screen on every size so the switch is always
+   in reach. Neutral dark pill; the active view is the light segment. */
+.view-dock{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:1200;display:flex;align-items:center;gap:2px;padding:4px;border-radius:999px;background:rgba(28,28,30,.94);box-shadow:0 8px 28px rgba(0,0,0,.3),0 0 0 1px rgba(255,255,255,.08) inset;font:650 13px/1 var(--sans);-webkit-tap-highlight-color:transparent}
+.view-dock button{display:inline-flex;align-items:center;gap:7px;min-height:42px;padding:0 15px;border:0;border-radius:999px;background:transparent;color:#fff;font:inherit;white-space:nowrap;cursor:pointer}
+.view-dock button[hidden]{display:none}
+.view-dock button .i{width:16px;height:16px;flex:none}
+.view-dock button[aria-pressed="true"]{background:#fff;color:#1c1c1e}
+.view-dock button:not([aria-pressed="true"]):hover{background:rgba(255,255,255,.14)}
+.view-dock button:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.view-dock .view-dock-full{margin-left:6px;position:relative}
+.view-dock .view-dock-full::before{content:"";position:absolute;left:-4px;top:10px;bottom:10px;width:1px;background:rgba(255,255,255,.28)}
+.view-dock .view-dock-full[aria-pressed="true"]{background:rgba(255,255,255,.18);color:#fff}
+@media print{.view-dock{display:none}}
+@media(max-width:639px){
+  /* The dock replaces "Listeye Dön"; the map panel keeps a strip for it. */
+  .map-panel{padding-bottom:calc(70px + env(safe-area-inset-bottom,0px))}
+  .map-panel .map-close{display:none}
+  /* Full screen on a phone: nothing but the map, edge to edge. */
+  .map-panel.is-full{padding:0}
+  .map-panel.is-full .map-heading,.map-panel.is-full .map-legend,.map-panel.is-full .map-notice,.map-panel.is-full .map-best-reset{display:none}
+  .map-panel.is-full .map-frame{border-radius:0;border:0}
+  .map-panel.is-full .leaflet-bottom{bottom:calc(66px + env(safe-area-inset-bottom,0px))}
+  .map-panel.is-full .map-preview{bottom:calc(76px + env(safe-area-inset-bottom,0px))}
+  .map-panel.is-full .leaflet-top{top:env(safe-area-inset-top,0px)}
+}
