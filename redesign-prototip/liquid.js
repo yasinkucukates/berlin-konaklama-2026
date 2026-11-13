@@ -1253,6 +1253,16 @@
               msrc: thumb ? thumb.currentSrc || thumb.src : undefined, element: item, label: item.dataset.label || ''};
     });
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const chevron = '<svg class="pswp__icn pv-chevron" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="m15 18-6-6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    const edgeStep = (point, event) => {
+      if (items.length < 2 || (event && event.target && event.target.closest && event.target.closest('a,button'))) return false;
+      const slide = pswp.currSlide;
+      if (slide && slide.currZoomLevel > slide.zoomLevels.initial * 1.02) return false;
+      const x = point.x / (pswp.viewportSize.x || window.innerWidth);
+      if (x < 0.28) { pswp.prev(); return true; }
+      if (x > 0.72) { pswp.next(); return true; }
+      return false;
+    };
     const pswp = viewer = new window.PhotoSwipe({
       dataSource: items, index: first, appendToEl: host, loop: items.length > 1, preload: [1, 2],
       bgOpacity: 1, wheelToZoom: true, returnFocus: false, escKey: false,
@@ -1263,6 +1273,11 @@
       secondaryZoomLevel: zoom => Math.max(zoom.fill, zoom.fit * 2.5),
       maxZoomLevel: zoom => Math.max(1.5, zoom.fit * 6),
       paddingFn: viewport => viewport.x < 640 ? {top: 0, bottom: 0, left: 0, right: 0} : {top: 56, bottom: 56, left: 24, right: 24},
+      // Tapping near the left or right edge steps like the arrows; the
+      // middle toggles the controls (touch) or closes on the backdrop (mouse).
+      tapAction: (point, event) => edgeStep(point, event) || pswp.element.classList.toggle('pswp--ui-visible'),
+      bgClickAction: (point, event) => edgeStep(point, event) || pswp.close(),
+      arrowPrevSVG: chevron, arrowNextSVG: chevron,
       closeTitle: 'Kapat', zoomTitle: 'Yakınlaştır', arrowPrevTitle: 'Önceki fotoğraf', arrowNextTitle: 'Sonraki fotoğraf',
       errorMsg: 'Fotoğraf yüklenemedi. Alttaki kaynak bağlantısını deneyin.', indexIndicatorSep: ' / ',
     });

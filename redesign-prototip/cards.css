@@ -388,8 +388,21 @@ dialog.lightbox::backdrop{background:transparent}
 .pv-title{flex:1 1 auto;min-width:0;padding:0 8px;text-align:center;font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pswp__button{-webkit-tap-highlight-color:transparent}
 .pswp--touch .pswp__button--zoom{display:none}
-.pswp__button--arrow{opacity:0;transition:opacity .2s}
-.pswp--ui-visible:hover .pswp__button--arrow{opacity:.85}
+/* Arrows stay on screen on phones too, as small glass circles: a tap is
+   enough, dragging is optional. Hidden while a photo is zoomed in. */
+.pswp .pswp__button--arrow,.pswp--touch .pswp__button--arrow{visibility:visible;width:68px;height:96px;margin-top:-48px;opacity:.78;transition:opacity .2s}
+.pswp__button--arrow .pswp__icn.pv-chevron{top:50%;left:14px;width:40px;height:40px;margin-top:-20px;padding:9px;box-sizing:border-box;border-radius:50%;fill:none;color:#fff;background:rgba(60,60,67,.42);-webkit-backdrop-filter:blur(14px) saturate(1.5);backdrop-filter:blur(14px) saturate(1.5);box-shadow:inset 0 0 0 1px rgba(255,255,255,.16);transition:background .2s,transform .12s}
+.pswp__button--arrow--next .pswp__icn.pv-chevron{left:auto;right:14px}
+.pswp--has_mouse .pswp__button--arrow:hover{opacity:1}
+.pswp--has_mouse .pswp__button--arrow:hover .pv-chevron{background:rgba(90,90,96,.62)}
+.pswp__button--arrow:active .pv-chevron{transform:scale(.92)}
+.pswp__button--arrow--next:active .pv-chevron{transform:scale(-.92,.92)}
+.pswp--zoomed-in .pswp__button--arrow{opacity:0;pointer-events:none}
+@media(max-width:639px){
+  .pswp .pswp__button--arrow,.pswp--touch .pswp__button--arrow{width:54px;height:84px;margin-top:-42px}
+  .pswp__button--arrow .pswp__icn.pv-chevron{left:8px;width:36px;height:36px;margin-top:-18px;padding:8px}
+  .pswp__button--arrow--next .pswp__icn.pv-chevron{left:auto;right:8px}
+}
 .pv-caption{position:absolute;left:0;right:0;bottom:0;z-index:10;display:flex;justify-content:center;align-items:baseline;gap:14px;padding:32px 16px calc(14px + env(safe-area-inset-bottom,0px));font-size:13px;color:#fff;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.55));pointer-events:none}
 .pv-caption span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .pv-caption a{pointer-events:auto;flex-shrink:0;padding:6px 2px;color:#fff;opacity:.72;text-decoration:none}
