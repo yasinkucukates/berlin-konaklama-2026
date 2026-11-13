@@ -352,3 +352,13 @@ body{background:
    bars and dialogs keep it. */
 .stay-card,.stay-card *,.availability-status,.media-flag,.favorite-unavailable,.unavailable-stamp,.gm-control,.gm-counter{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
 .release-mark{margin:28px auto 18px;text-align:center;color:#9a8f85;font:600 10px/1.4 var(--sans)}
+/* Phones closed the tab on opening. Safari measurements (Mac, same engine as
+   iPhone): blur and grey filters cost ~70 MB at desktop resolution and grow
+   with the screen's pixel density. Bars keep their colours as solid fills;
+   unavailable cards are washed out with an overlay instead of a filter. */
+*,*::before,*::after,::backdrop{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+.topbar,.toolbar,.availability-summary{background:#fbf9f5}
+.card-dialog-head{background:#fffdf9}
+.stay-card[data-availability="unavailable"] .photo-grid img{filter:none!important;opacity:1!important}
+.stay-card[data-availability="unavailable"] .card-media::after{background:linear-gradient(to bottom right,transparent 49.4%,#615b57a0 49.7%,#615b57a0 50.3%,transparent 50.6%),linear-gradient(to top right,transparent 49.4%,#615b57a0 49.7%,#615b57a0 50.3%,transparent 50.6%),linear-gradient(rgba(236,233,230,.62),rgba(236,233,230,.62))}
+.stay-card[data-availability="unavailable"] .card-head,.stay-card[data-availability="unavailable"] .fact-tiles,.stay-card[data-availability="unavailable"] .card-alert{filter:none!important}

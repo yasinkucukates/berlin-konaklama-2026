@@ -1460,6 +1460,14 @@ def card_html(row, audit, route, point, budget, card_index, price_record, bed_re
     more = (f'<div class="card-more"><div class="detail-tabs" role="tablist" aria-label="{esc(name)} ayrıntıları">{tabs}</div>'
             + panel('overview', overview_inner) + panel('beds', beds_inner) + panel('route', route_inner)
             + panel('price', price_inner) + panel('notes', notes_body) + panel('sources', sources_inner) + '</div>')
+    # The large view's panels are kept as text until a card is opened
+    # (liquid.js BerlinInflateMore). 144 cards' hidden panels cost phones
+    # ~75 MB of page memory at load (Safari measurement, 13 Nov 2026).
+    if '</script' in more.lower() or '<!--' in more:
+        raise ValueError(f"Ayrıntı paneli metin olarak saklanamıyor: {row.get('id')}")
+    # build_combined.py turns the marked block into script text after the
+    # views are merged (merge_views still checks the panels' contents).
+    more = f'\u27e6card-more\u27e7{more}\u27e6/card-more\u27e7'
 
     related_html = ''
     for offer in row.get('relatedStays', []):

@@ -254,6 +254,8 @@
       return;
     }
     opener = marker && marker.getElement ? marker.getElement() : document.activeElement;
+    // Open the source card's panels first so the copy carries its notes.
+    if (window.BerlinInflateMore) window.BerlinInflateMore(card);
     const clone = card.cloneNode(true);
     clone.removeAttribute('id');
     // A card may be hidden by the list's best-plan filter while the map is

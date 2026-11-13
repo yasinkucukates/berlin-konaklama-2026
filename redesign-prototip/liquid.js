@@ -28,8 +28,23 @@
     return true;
   });
 
-  // Large-view tabs. Without JavaScript every panel remains visible in order.
+  // Large-view panels arrive as text (script.card-more-src) and become
+  // elements the first time a card is opened; 'berlin-more' lets the list
+  // fill in the opened card's dated availability note.
+  window.BerlinInflateMore = window.BerlinInflateMore || (card => {
+    const sources = card ? Array.from(card.querySelectorAll('script.card-more-src')) : [];
+    if (!sources.length) return false;
+    sources.forEach(source => {
+      const template = document.createElement('template');
+      template.innerHTML = source.textContent;
+      source.replaceWith(template.content);
+    });
+    document.dispatchEvent(new CustomEvent('berlin-more', {detail:{card}}));
+    return true;
+  });
+  // Large-view tabs.
   const activateCardTab = (card, name = 'overview', reveal = false) => {
+    window.BerlinInflateMore(card);
     const more = card && card.querySelector('.card-more');
     if (!more) return;
     const tabs = Array.from(more.querySelectorAll('.detail-tab'));
@@ -1040,6 +1055,7 @@
     });
   }
   if (sort) { sort.addEventListener('change', applySort); applySort(); }
+  document.addEventListener('berlin-more', () => applyFilters());
   document.addEventListener('berlin-availability', event => {
     availabilityRecords = event.detail;
     cards.forEach(applyCapacityEvidence);

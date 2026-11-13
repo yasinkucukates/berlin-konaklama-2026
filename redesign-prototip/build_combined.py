@@ -222,6 +222,14 @@ def main() -> None:
     # Live: the embedded snapshot shows at once, then the page reads the daily
     # availability-status.json published next to it, so a daily check needs no rebuild.
     live_source = ' data-live-src="availability-status.json"' if args.live else ''
+    # Large-view panels stay as script text until a card is opened (see
+    # build_liquid.py and liquid.js BerlinInflateMore).
+    starts, ends = combined.count('\u27e6card-more\u27e7'), combined.count('\u27e6/card-more\u27e7')
+    if starts != ends or not starts:
+        raise SystemExit(f'Ayrıntı paneli işaretleri eşleşmiyor: {starts}/{ends}')
+    combined = re.sub('\u27e6card-more\u27e7(.*?)\u27e6/card-more\u27e7',
+                      lambda m: f'<script type="text/x-card-more" class="card-more-src">{m.group(1)}</script>',
+                      combined, flags=re.S)
     page = f'''<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title><style>{css}\n{map_css}\n{controls}\n{gallery_css}\n{cards_css}</style></head><body>
 {icon_sprite()}{combined}<script type="application/json" id="availability-data"{live_source}>{status_json}</script>{favorite_bootstrap}<script>{liquid_script}</script><script>{scoped_map_script(map_script)}</script><script>{gallery_script}</script></body></html>'''
     # Hash the full pre-meta document to avoid a circular hash; it changes
