@@ -1263,8 +1263,29 @@
       closeTitle: 'Kapat', zoomTitle: 'Yakınlaştır', arrowPrevTitle: 'Önceki fotoğraf', arrowNextTitle: 'Sonraki fotoğraf',
       errorMsg: 'Fotoğraf yüklenemedi. Alttaki kaynak bağlantısını deneyin.', indexIndicatorSep: ' / ',
     });
+    // Write the photo's real size as soon as it is known. Neighbouring photos
+    // are preloaded before their slide exists, so this cannot wait for a
+    // slide event: a wrong shape there would stretch the photo.
+    const applySize = content => {
+      const img = content.element, slide = content.slide;
+      if (!img || !img.naturalWidth || (img.naturalWidth === content.width && img.naturalHeight === content.height)) return;
+      content.data.w = content.width = img.naturalWidth;
+      content.data.h = content.height = img.naturalHeight;
+      if (!slide) return;
+      const atRest = slide.currZoomLevel === slide.zoomLevels.initial;
+      slide.width = content.width; slide.height = content.height;
+      slide.calculateSize();
+      if (atRest) { slide.currentResolution = 0; slide.zoomAndPanToInitial(); slide.applyCurrentZoomPan(); }
+      slide.updateContentSize(true);
+    };
     // Photo hosts refuse requests that carry this page as referrer.
-    pswp.on('contentLoadImage', ({content}) => { if (content.element) content.element.referrerPolicy = 'no-referrer'; });
+    pswp.on('contentLoadImage', ({content}) => {
+      if (!content.element) return;
+      content.element.referrerPolicy = 'no-referrer';
+      content.element.addEventListener('load', () => applySize(content));
+    });
+    pswp.on('loadComplete', ({content, isError}) => { if (!isError) applySize(content); });
+    pswp.on('contentAppend', ({content}) => applySize(content));
     pswp.addFilter('placeholderSrc', (src, content) => content.data.msrc || src);
     // Zoom back into the thumbnail only when it is the photo that was opened
     // and still on screen; otherwise fade, never fly to a hidden spot.
@@ -1273,16 +1294,6 @@
       if (!img) return null;
       const box = img.getBoundingClientRect();
       return box.width > 0 && box.bottom > 0 && box.top < window.innerHeight && box.right > 0 && box.left < window.innerWidth ? img : null;
-    });
-    pswp.on('loadComplete', ({slide, content, isError}) => {
-      const img = content.element;
-      if (isError || !img || !img.naturalWidth || (img.naturalWidth === content.width && img.naturalHeight === content.height)) return;
-      const atRest = slide.currZoomLevel === slide.zoomLevels.initial;
-      content.data.w = content.width = slide.width = img.naturalWidth;
-      content.data.h = content.height = slide.height = img.naturalHeight;
-      slide.calculateSize();
-      if (atRest) { slide.currentResolution = 0; slide.zoomAndPanToInitial(); slide.applyCurrentZoomPan(); }
-      slide.updateContentSize(true);
     });
     pswp.on('uiRegister', () => {
       pswp.ui.registerElement({name: 'listing', order: 6, isButton: false, appendTo: 'bar', className: 'pv-title',
