@@ -642,8 +642,12 @@ def photos_html(row):
             more.append([str(label), url, thumb_url(url)])
             continue
         alt = f"{row.get('name', 'Konaklama')}: {label}"
+        # Only the first two photos start loading from the page itself; the
+        # carousel loads the rest as it reaches them (data-gm-src). Phones were
+        # fetching five photos per card before the script could stop them.
+        src_attr = 'src' if i < 2 else 'data-gm-src'
         cls_extra = ''
-        tags.append(f'<a{cls_extra} href="{esc(url)}" target="_blank" rel="noopener noreferrer" data-photo-url="{esc(url)}" data-label="{esc(label)}" aria-label="{esc(alt)} Fotoğrafını Aç"><img src="{esc(thumb_url(url))}" alt="{esc(alt)}" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a>')
+        tags.append(f'<a{cls_extra} href="{esc(url)}" target="_blank" rel="noopener noreferrer" data-photo-url="{esc(url)}" data-label="{esc(label)}" aria-label="{esc(alt)} Fotoğrafını Aç"><img {src_attr}="{esc(thumb_url(url))}" alt="{esc(alt)}" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a>')
     listing = safe_url(row.get('link'))
     action = f'<div class="photo-actions"><button class="gallery-open" type="button">Fotoğrafları Aç ({len(images)})</button><a class="gallery-all" href="{esc(listing)}" target="_blank" rel="noopener noreferrer">Tüm Fotoğrafları İlanda Gör ↗</a></div>' if listing else ''
     more_attr = f' data-total="{len(images)}" data-more="{esc(json.dumps(more, ensure_ascii=False, separators=(",", ":")))}"' if more else ''

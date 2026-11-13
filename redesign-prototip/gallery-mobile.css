@@ -27,6 +27,7 @@
     scrollbar-width:none;
   }
   .gm-ready .gm-frame .photo-grid::-webkit-scrollbar{display:none}
+  .gm-ready .gm-frame .photo-grid.gm-far{overflow:hidden}
   .gm-ready .gm-frame .photo-grid>a,
   .gm-ready .gm-frame .photo-grid.single>a,
   .gm-ready.gallery-modal .gm-frame .photo-grid>a.extra-photo{

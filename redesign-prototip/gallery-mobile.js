@@ -197,6 +197,9 @@
       function setNear(near) {
         if (state.near === near) return;
         state.near = near;
+        // A far gallery is no longer a scroll area: iOS keeps a separate
+        // layer for every scrollable box, and 140 of them add up.
+        grid.classList.toggle('gm-far', !near);
         if (near) { update(); return; }
         syncLinks();
         links.forEach(link => {
