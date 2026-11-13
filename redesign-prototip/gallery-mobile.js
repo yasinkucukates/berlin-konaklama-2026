@@ -39,15 +39,38 @@
     const viewChoice = root.querySelector('.view-choice');
     const toolbarActions = document.createElement('div');
     toolbarActions.className = 'gm-toolbar-actions';
+    // On a phone the quick filters form one scrolling row of chips under the
+    // plan switch: Filters, Sort, Favorites, New, Best. Each element returns
+    // to its marker when the screen is wide again.
+    const filterToggle = root.querySelector('.mobile-filter-toggle');
+    const sortLabel = controls?.querySelector('.sort');
+    const sortSelect = sortLabel?.querySelector('select');
+    const newRow = root.querySelector('.new-filter-row');
+    const lent = [filterToggle, sortLabel, newRow].filter(Boolean).map(element => {
+      const marker = document.createComment('gm-home'); element.before(marker); return {element, marker};
+    });
+    let sortValue = null;
+    if (sortLabel && sortSelect) {
+      sortValue = make('span', 'gm-sort-value'); sortValue.setAttribute('aria-hidden', 'true');
+      sortLabel.appendChild(sortValue);
+      const syncSort = () => { sortValue.textContent = sortSelect.selectedOptions[0]?.textContent || ''; };
+      sortSelect.addEventListener('change', syncSort);
+      root.addEventListener('click', () => setTimeout(syncSort, 0));
+      syncSort();
+    }
     const placePhoneActions = () => {
       if (!toolbar || !controls) return;
       if (phone.matches) {
         toolbar.after(toolbarActions);
-        if (bestChoices) toolbarActions.appendChild(bestChoices);
+        if (filterToggle) toolbarActions.appendChild(filterToggle);
+        if (sortLabel) toolbarActions.appendChild(sortLabel);
         if (favoriteFilter) toolbarActions.appendChild(favoriteFilter);
+        if (newRow) toolbarActions.appendChild(newRow);
+        if (bestChoices) toolbarActions.appendChild(bestChoices);
         if (viewChoice) toolbarActions.appendChild(viewChoice);
         toolbar.appendChild(controls);
       } else {
+        lent.forEach(({element, marker}) => marker.after(element));
         if (bestChoices) toolbar.insertBefore(bestChoices, controls);
         toolbar.appendChild(controls);
         if (favoriteFilter) toolbar.insertBefore(favoriteFilter, controls);
