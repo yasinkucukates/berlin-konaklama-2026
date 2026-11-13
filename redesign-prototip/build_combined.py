@@ -56,6 +56,19 @@ def icon_sprite() -> str:
             'aria-hidden="true" focusable="false">' + ''.join(symbols) + '</svg>')
 
 
+def icon_mask_css() -> str:
+    """Card icons are CSS masks: one decoded image per icon instead of an SVG tree per use (iOS memory)."""
+    from urllib.parse import quote
+    rules = ['span.i{display:inline-block;width:1em;height:1em;background-color:currentColor;'
+             '-webkit-mask:var(--im) center/contain no-repeat;mask:var(--im) center/contain no-repeat}']
+    for path in sorted((HERE / 'vendor' / 'lucide').glob('*.svg')):
+        inner = ' '.join(re.search(r'<svg\b[^>]*>(.*)</svg>', path.read_text(encoding='utf-8'), flags=re.S)[1].split())
+        svg = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" '
+               f'stroke-linecap="round" stroke-linejoin="round">{inner}</svg>')
+        rules.append(f'.i-{path.stem}{{--im:url("data:image/svg+xml,{quote(svg, safe=" =:/,.-")}")}}')
+    return '<style>' + ''.join(rules) + '</style>'
+
+
 def view_body(page: str, adults: int, liquid_script: str, map_script: str) -> str:
     prefix = f'p{adults}-'
     opening = '<div data-berlin-view data-id-prefix="">'
@@ -231,7 +244,7 @@ def main() -> None:
                       lambda m: f'<script type="text/x-card-more" class="card-more-src">{m.group(1)}</script>',
                       combined, flags=re.S)
     page = f'''<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title><style>{css}\n{map_css}\n{controls}\n{gallery_css}\n{cards_css}</style></head><body>
-{icon_sprite()}{combined}<script type="application/json" id="availability-data"{live_source}>{status_json}</script>{favorite_bootstrap}<script>{liquid_script}</script><script>{scoped_map_script(map_script)}</script><script>{gallery_script}</script></body></html>'''
+{icon_sprite()}{icon_mask_css()}{combined}<script type="application/json" id="availability-data"{live_source}>{status_json}</script>{favorite_bootstrap}<script>{liquid_script}</script><script>{scoped_map_script(map_script)}</script><script>{gallery_script}</script></body></html>'''
     # Hash the full pre-meta document to avoid a circular hash; it changes
     # whenever listings, styles, scripts, or the configured transport change.
     release = hashlib.sha256(page.encode('utf-8')).hexdigest()[:16]

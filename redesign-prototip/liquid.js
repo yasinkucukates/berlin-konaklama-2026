@@ -728,7 +728,7 @@
           stamp = document.createElement('div');
           stamp.className = 'unavailable-stamp';
           stamp.setAttribute('aria-hidden', 'true');
-          stamp.innerHTML = '<span class="stamp-x"><svg class="i"><use href="#i-x"></use></svg></span><b>Bu tarihler artık müsait değil</b><span class="stamp-history" hidden></span><small></small>';
+          stamp.innerHTML = '<span class="stamp-x"><span class="i i-x" aria-hidden="true"></span></span><b>Bu tarihler artık müsait değil</b><span class="stamp-history" hidden></span><small></small>';
           card.querySelector('.card-media')?.append(stamp);
         }
         // "It was available on X and closed by Y" only when the data records X.

@@ -122,7 +122,7 @@ def esc(value):
 
 def icon(name):
     """Reference a Lucide symbol embedded once by build_combined.py."""
-    return f'<svg class="i" aria-hidden="true" focusable="false"><use href="#i-{name}"></use></svg>'
+    return f'<span class="i i-{name}" aria-hidden="true"></span>'
 
 
 def safe_url(value):
