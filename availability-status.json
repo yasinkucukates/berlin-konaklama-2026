@@ -1701,16 +1701,12 @@
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
       "adults": 7,
-      "status": "available",
-      "checkedAt": "2026-11-10T18:04:58.276Z",
-      "sourceUrl": "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=7&guests=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanı 2026-12-30–2027-01-03 ve 7 yetişkin için rezervasyon düğmesi gösterdi.",
-      "displayPrice": "Airbnb €980; vergi ve ücret kapsamını kaynaktan kontrol edin.",
-      "lastAttempt": {
-        "result": "unknown",
-        "at": "2026-11-14T07:52:19.664Z",
-        "reason": "Kaynak rezervasyon alanı açılamadı veya doğrulanabilir yanıt vermedi."
-      }
+      "status": "unavailable",
+      "checkedAt": "2026-11-14T12:37:29.552Z",
+      "sourceUrl": "https://www.airbnb.com.tr/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "Airbnb İngilizce ve Türkçe ilanda HTTP 410 ile sayfanın kaldırıldığını bildirdi. Tarihlerin başkasına satıldığının kanıtı yok; bu ilan üzerinden rezervasyon yapılamıyor.",
+      "displayPrice": "Airbnb ilanı yayından kaldırılmış",
+      "lastAvailableAt": "2026-11-10T18:04:58.276Z"
     },
     {
       "scope": "card",
@@ -2019,15 +2015,11 @@
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
       "adults": 6,
-      "status": "available",
-      "checkedAt": "2026-11-13T07:21:37.651Z",
+      "checkedAt": "2026-11-14T12:43:56Z",
       "sourceUrl": "https://skiplagged.com/hotel/3558878/wilde-aparthotels-berlin-checkpoint-charlie-berlin-germany/2026-12-30/2027-01-03?rooms=2&adults=6",
-      "evidence": "Skiplagged 6 yetişkin ve 2 oda için ilgili konaklama teklifini gösterdi.",
-      "lastAttempt": {
-        "result": "unknown",
-        "at": "2026-11-14T08:06:13Z",
-        "reason": "Skiplagged istek sınırı uyguladı (HTTP 429); bu teklifin durumu doğrulanamadı."
-      }
+      "status": "available",
+      "evidence": "Skiplagged Wilde Aparthotels Berlin, Checkpoint Charlie için doğru tarihler ve altı yetişkinde 2 birim, One Bedroom Apartment ve rezervasyon bağlantısı gösterdi. Son ödeme kontrol edilmedi.",
+      "displayPrice": "Kaynak toplamı 2.816,40 USD"
     },
     {
       "scope": "card",
@@ -2035,16 +2027,11 @@
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
       "adults": 6,
-      "status": "available",
-      "checkedAt": "2026-11-10T17:56:08Z",
+      "checkedAt": "2026-11-14T12:43:39Z",
       "sourceUrl": "https://skiplagged.com/hotel/9485872/im-herzen-von-kreuzberg---perfekt-gelegen-fur-bis-zu-8-personen-berlin-germany/2026-12-30/2027-01-03?rooms=1&adults=6",
-      "evidence": "Skiplagged canlı oda sorgusunda 6 yetişkin, 1 birim ve seçilen tarihler için One-Bedroom Apartment teklifi görüldü; sorgu 17:56 ile 18:07 UTC arasında yapıldı.",
-      "displayPrice": "Skiplagged $1595.60 toplam; kaynaktaki vergi kapsamını kontrol edin.",
-      "lastAttempt": {
-        "result": "unknown",
-        "at": "2026-11-14T08:06:13Z",
-        "reason": "Skiplagged istek sınırı uyguladı (HTTP 429); bu teklifin durumu doğrulanamadı."
-      }
+      "status": "available",
+      "evidence": "Skiplagged Im Herzen von Kreuzberg - perfekt gelegen für bis zu 8 Personen için doğru tarihler ve altı yetişkinde 1 birim, One-Bedroom Apartment ve rezervasyon bağlantısı gösterdi. Son ödeme kontrol edilmedi.",
+      "displayPrice": "Kaynak toplamı 1.546,32 USD"
     },
     {
       "scope": "card",
@@ -2791,14 +2778,14 @@
     {
       "scope": "offer",
       "id": "airbnb-35666163",
+      "parentCardId": "35666163",
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
       "adults": 7,
-      "status": "unavailable",
-      "checkedAt": "2026-11-14T07:48:47.748Z",
+      "checkedAt": "2026-11-14T12:45:36.491Z",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/35666163?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
-      "evidence": "Airbnb rezervasyon alanı 2026-12-30 giriş, 2027-01-03 çıkış ve 7 misafir için bu tarihler uygun değil bildirimi gösterdi.",
-      "parentCardId": "35666163",
+      "status": "unavailable",
+      "evidence": "Airbnb 30 Aralık–3 Ocak, 7 misafir için “Bu tarihler uygun değil” gösteriyor. Diğer sağlayıcılar ayrıca değerlendirilir.",
       "lastAvailableAt": "2026-11-12T21:03:16.564Z"
     },
     {
