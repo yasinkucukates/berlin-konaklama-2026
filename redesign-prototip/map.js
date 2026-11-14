@@ -636,6 +636,9 @@
     const area = canvas.getBoundingClientRect(), card = preview.getBoundingClientRect(), margin = 18;
     const room = {left:area.left + margin, right:area.right - margin, top:area.top + margin, bottom:area.bottom - margin};
     if (card.width > area.width * 0.7) room.bottom = card.top - margin; else room.right = card.left - margin;
+    // The view dock floats over the bottom of a full-screen map.
+    const dockRect = dock.parentNode === panel ? dock.getBoundingClientRect() : null;
+    if (dockRect && dockRect.height && dockRect.top < room.bottom && dockRect.right > box.left && dockRect.left < box.right) room.bottom = Math.min(room.bottom, dockRect.top - 10);
     const shift = (low, high, min, max) => high - low > max - min ? low - min : low < min ? low - min : high > max ? high - max : 0;
     const dx = shift(box.left, box.right, room.left, room.right), dy = shift(box.top, box.bottom, room.top, room.bottom);
     if (Math.abs(dx) > 1 || Math.abs(dy) > 1) map.panBy([dx, dy], {animate:!window.matchMedia('(prefers-reduced-motion: reduce)').matches});
