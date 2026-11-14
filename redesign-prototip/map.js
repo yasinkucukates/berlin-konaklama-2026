@@ -113,6 +113,8 @@
     dockFull.setAttribute('aria-pressed', String(full));
     const home = open && (mapIsModal || full) ? panel : (view || document.body);
     if (dock.parentNode !== home) home.append(dock);
+    panel.classList.toggle('show-filterbar', open && (mapIsModal || full));
+    if (!(open && (mapIsModal || full)) && typeof setFilterSheet === 'function') setFilterSheet(false);
   }
   dockList.addEventListener('click', () => { if (!panel.hidden) hideMap(); else window.scrollTo({top: 0, behavior: scrollBehavior()}); });
   // On wide screens the map sits in the page, so bring it into view; on a
@@ -125,12 +127,80 @@
     if (map) requestAnimationFrame(() => { map.invalidateSize(); scheduleLayout(); });
   });
   window.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && panelHome) { event.preventDefault(); setFilterSheet(false); return; }
     if (event.key === 'Escape' && panel.classList.contains('is-full') && !nativeFull && !mapIsModal && !(dialog && dialog.open)) setFull(false);
   });
+  // Filters over a full-screen (or phone) map: the page's filter panel is out
+  // of sight there, so a bar at the top of the map says whether filters are
+  // on, lists them with a remove button each and opens the same panel over
+  // the map. The panel element itself moves in and back, so every control
+  // keeps working and stays in sync with the list.
+  const filterPanel = document.querySelector('.filter-panel');
+  const filterBar = document.createElement('div');
+  filterBar.className = 'map-filterbar'; filterBar.setAttribute('role', 'group'); filterBar.setAttribute('aria-label', 'Harita filtreleri');
+  const filterOpen = document.createElement('button'); filterOpen.type = 'button'; filterOpen.className = 'map-filter-open';
+  filterOpen.setAttribute('aria-expanded', 'false');
+  const filterChips = document.createElement('div'); filterChips.className = 'map-filter-chips';
+  filterBar.append(filterOpen, filterChips);
+  frame.append(filterBar);
+  let panelHome = null;
+  function renderFilterBar() {
+    const chips = Array.from(document.querySelectorAll('.active-filters .filter-chip'));
+    filterBar.classList.toggle('has-filters', chips.length > 0);
+    const count = document.createElement('b'); count.textContent = chips.length ? String(chips.length) : '';
+    filterOpen.replaceChildren(svgIcon('sliders-horizontal'), document.createTextNode(chips.length ? ' Filtreler ' : ' Filtreler'), ...(chips.length ? [count] : []));
+    filterOpen.setAttribute('aria-label', chips.length ? `Filtreler: ${chips.length} filtre açık. Filtre panelini aç` : 'Filtreler: filtre yok. Filtre panelini aç');
+    const nodes = chips.map(original => {
+      const chip = document.createElement('button'); chip.type = 'button'; chip.className = 'map-filter-chip';
+      const text = document.createElement('span'); text.textContent = original.textContent.trim();
+      chip.append(text, svgIcon('x'));
+      chip.setAttribute('aria-label', original.getAttribute('aria-label') || `${text.textContent} filtresini kaldır`);
+      chip.addEventListener('click', () => original.click());
+      return chip;
+    });
+    if (!chips.length) { const none = document.createElement('span'); none.className = 'map-filter-none'; none.textContent = 'Filtre yok · tüm ilanlar'; nodes.push(none); }
+    else if (chips.length > 1) {
+      const clearAll = document.querySelector('.active-filters .filter-chips-clear');
+      if (clearAll) { const all = document.createElement('button'); all.type = 'button'; all.className = 'map-filter-clear'; all.textContent = 'Tümünü kaldır'; all.addEventListener('click', () => clearAll.click()); nodes.push(all); }
+    }
+    filterChips.replaceChildren(...nodes);
+  }
+  function setFilterSheet(open) {
+    if (!filterPanel) return;
+    if (open && !panelHome) {
+      panelHome = document.createComment('filter-panel');
+      filterPanel.before(panelHome);
+      frame.append(filterPanel);
+      filterPanel.classList.add('in-map');
+      const done = filterPanel.querySelector('.mobile-filter-done');
+      if (done) { done.dataset.listText = done.textContent; done.textContent = 'Haritaya Dön'; }
+      if (!filterPanel.querySelector('.map-filter-close')) {
+        const close = document.createElement('button'); close.type = 'button'; close.className = 'map-filter-close';
+        close.setAttribute('aria-label', 'Filtreleri kapat'); close.append(svgIcon('x'));
+        close.addEventListener('click', () => setFilterSheet(false));
+        filterPanel.querySelector('.filter-panel-heading')?.append(close);
+      }
+      filterPanel.setAttribute('tabindex', '-1'); filterPanel.focus({preventScroll:true});
+    } else if (!open && panelHome) {
+      filterPanel.classList.remove('in-map');
+      const done = filterPanel.querySelector('.mobile-filter-done');
+      if (done?.dataset.listText) done.textContent = done.dataset.listText;
+      panelHome.replaceWith(filterPanel); panelHome = null;
+      if (!panel.hidden) filterOpen.focus({preventScroll:true});
+    }
+    filterOpen.setAttribute('aria-expanded', String(Boolean(panelHome)));
+    frame.classList.toggle('filters-open', Boolean(panelHome));
+  }
+  filterOpen.addEventListener('click', () => setFilterSheet(!panelHome));
+  // "Sonuçları Gör" in the panel returns to the map.
+  filterPanel?.querySelector('.mobile-filter-done')?.addEventListener('click', () => { if (panelHome) setFilterSheet(false); });
+  if (!filterPanel) filterOpen.hidden = true;
+  renderFilterBar();
   function clearSelection() {
     clearTimeout(selectionTimer); selectionTimer = null;
     canvas.querySelectorAll('.map-pin.selected').forEach(el => el.classList.remove('selected', 'pin-pulse'));
     selectedKeys = null; previewOffer = null;
+    closeFan();
     preview.hidden = true; preview.replaceChildren();
     scheduleLayout();
   }
@@ -250,11 +320,25 @@
   };
   // A label always says how many offers it stands for ("4 ilan"), so several
   // offers at one point or grouped nearby are visible without a tap.
+  // Several offers at one point: the label shows their price range. A label
+  // grouping nearby points keeps the lowest price (a tap zooms in). Either way
+  // a plain heart marks a favourite inside; a sum of votes means nothing.
+  const onePoint = cards => new Set(cards.map(card => `${Number(card.dataset.lat)},${Number(card.dataset.lon)}`)).size === 1;
+  const priceRange = cards => {
+    if (!onePoint(cards)) return '';
+    const prices = cards.map(card => Number(card.dataset.priceEur)).filter(value => Number.isFinite(value) && value > 0);
+    if (prices.length < 2) return '';
+    const low = Math.min(...prices), high = Math.max(...prices);
+    return high - low < 25 ? '' : `${whole.format(Math.round(low))}–${whole.format(Math.round(high))} €`;
+  };
   function fillLabel(pill, cards, label) {
     pill.replaceChildren();
     const votes = cards.reduce((sum, card) => sum + Number(card.dataset.votes || 0), 0);
-    if (votes) { pill.append(svgIcon('heart')); const v = document.createElement('b'); v.className = 'pin-votes'; v.textContent = String(votes); pill.append(v); }
-    const price = document.createElement('span'); price.className = 'pin-price'; price.textContent = label; pill.append(price);
+    if (votes) {
+      pill.append(svgIcon('heart'));
+      if (cards.length === 1) { const v = document.createElement('b'); v.className = 'pin-votes'; v.textContent = String(votes); pill.append(v); }
+    }
+    const price = document.createElement('span'); price.className = 'pin-price'; price.textContent = (cards.length > 1 && priceRange(cards)) || label; pill.append(price);
     if (cards.length > 1) { const count = document.createElement('span'); count.className = 'pin-count'; count.textContent = `${cards.length} ilan`; pill.append(count); }
   }
   function stayIcon(samePoint, label, className) {
@@ -406,6 +490,7 @@
     preview.setAttribute('aria-label', `${titleFor(card)} · seçili ilan`);
     preview.replaceChildren(...content, media, body, actions);
     preview.hidden = false;
+    markFan(card, 'selected');
   }
   function previewList(samePoint, marker, area = false) {
     previewOffer = null; listShown = {marker, area, count:samePoint.length};
@@ -428,14 +513,21 @@
       });
     }
     const list = document.createElement('div'); list.className = 'map-preview-list';
-    samePoint.slice().sort((a, b) => Number(isFavorite(b)) - Number(isFavorite(a)) || a.dataset.checkIn.localeCompare(b.dataset.checkIn) || Number(a.dataset.priceEur) - Number(b.dataset.priceEur)).forEach(card => {
-      const row = document.createElement('button'); row.type = 'button'; row.className = 'map-preview-row';
+    samePoint.slice().sort(offerOrder).forEach(card => {
+      const row = document.createElement('button'); row.type = 'button'; row.className = 'map-preview-row'; row.cardRef = card;
+      const img = card.querySelector('.photo-grid img');
+      const thumb = document.createElement('span'); thumb.className = 'row-thumb';
+      if (img) { const photo = document.createElement('img'); photo.alt = ''; photo.loading = 'lazy'; photo.decoding = 'async'; photo.referrerPolicy = 'no-referrer'; photo.src = (img.currentSrc && !img.currentSrc.startsWith('data:')) ? img.currentSrc : (img.dataset.gmSrc || img.src); thumb.append(photo); }
+      row.append(thumb);
+      row.addEventListener('mouseenter', () => markFan(card, 'is-hover'));
+      row.addEventListener('mouseleave', () => markFan(card, 'is-hover', false));
       if (card.dataset.availability === 'unavailable') row.classList.add('is-unavailable');
       const name = document.createElement('span'); name.className = 'row-title'; name.textContent = titleFor(card);
       const date = document.createElement('small'); date.textContent = textOf(card, '.card-kicker');
       const amount = document.createElement('strong'); amount.textContent = headPrice(card);
       if (isFavorite(card)) { const heart = document.createElement('span'); heart.className = 'row-heart'; heart.append(svgIcon('heart'), document.createTextNode(card.dataset.votes)); name.prepend(heart); }
-      row.append(name, amount, date);
+      const text = document.createElement('span'); text.className = 'row-text'; text.append(name, date);
+      row.append(text, amount);
       row.addEventListener('click', () => previewSingle(card, samePoint, marker, area));
       list.append(row);
     });
@@ -444,6 +536,83 @@
     preview.setAttribute('aria-label', `${samePoint.length} teklif · seçili konum`);
     preview.replaceChildren(close, body);
     preview.hidden = false;
+    markFan(null, 'selected');
+  }
+  // Fan: several offers behind one label open as a column of their own price
+  // tags beside the point, each joined to it by a thin line. A tag works like
+  // a single marker (tap = that offer's card); the rest of the map dims.
+  const FAN_MAX = 12;
+  let fan = null;
+  const offerOrder = (a, b) => Number(a.dataset.availability === 'unavailable') - Number(b.dataset.availability === 'unavailable') ||
+    Number(a.dataset.priceEur || Infinity) - Number(b.dataset.priceEur || Infinity);
+  const nightsOf = card => Math.round((Date.parse(card.dataset.checkOut) - Date.parse(card.dataset.checkIn)) / 864e5);
+  function closeFan() {
+    if (!fan) return;
+    fan.marker.remove();
+    fan.lead.getElement()?.classList.remove('fanned');
+    canvas.classList.remove('fan-open'); frame.classList.remove('has-fan');
+    fan = null;
+  }
+  function markFan(card, className, on = true) {
+    if (!fan) return;
+    fan.tags.forEach(tag => tag.classList.toggle(className, on && tag.cardRef === card));
+  }
+  function openFan(cards, lead) {
+    closeFan();
+    if (!map || cards.length < 2) return;
+    const shown = cards.slice().sort(offerOrder).slice(0, FAN_MAX);
+    const mixedNights = new Set(shown.map(nightsOf)).size > 1;
+    const root = document.createElement('div'); root.className = 'map-fan';
+    const ns = 'http://www.w3.org/2000/svg';
+    const lines = document.createElementNS(ns, 'svg'); lines.setAttribute('class', 'map-fan-lines'); lines.setAttribute('aria-hidden', 'true');
+    root.append(lines);
+    const tags = shown.map(card => {
+      const tag = document.createElement('button'); tag.type = 'button'; tag.className = 'map-fan-tag'; tag.cardRef = card;
+      if (isFavorite(card)) { tag.classList.add('favorite'); tag.append(svgIcon('heart')); const v = document.createElement('b'); v.className = 'pin-votes'; v.textContent = card.dataset.votes; tag.append(v); }
+      if (card.dataset.availability === 'unavailable') tag.classList.add('unavailable');
+      const price = document.createElement('span'); price.className = 'pin-price'; price.textContent = priceOf(card); tag.append(price);
+      if (mixedNights) { const n = document.createElement('small'); n.textContent = `${nightsOf(card)} gece`; tag.append(n); }
+      tag.title = titleFor(card);
+      tag.setAttribute('aria-label', `${titleFor(card)} · ${headPrice(card)}${isFavorite(card) ? ` · ${card.dataset.votes} beğeni` : ''}${card.dataset.availability === 'unavailable' ? ' · son kontrolde müsait değil' : ''}`);
+      tag.addEventListener('click', event => { event.stopPropagation(); previewSingle(card, cards, lead, fan?.area); requestAnimationFrame(() => revealPin(lead)); });
+      tag.addEventListener('mouseenter', () => markRow(card, true));
+      tag.addEventListener('mouseleave', () => markRow(card, false));
+      root.append(tag);
+      return tag;
+    });
+    if (cards.length > shown.length) {
+      const more = document.createElement('span'); more.className = 'map-fan-more'; more.textContent = `+${cards.length - shown.length} teklif listede`;
+      root.append(more);
+    }
+    const marker = window.L.marker(lead.getLatLng(), {icon:window.L.divIcon({className:'map-fan-icon', html:'', iconSize:[0,0], iconAnchor:[0,0]}), interactive:false, keyboard:false, zIndexOffset:6000}).addTo(map);
+    const el = marker.getElement();
+    el.append(root);
+    window.L.DomEvent.disableClickPropagation(el); window.L.DomEvent.disableScrollPropagation(el);
+    fan = {marker, lead, cards, tags, area:false, root};
+    lead.getElement()?.classList.add('fanned');
+    canvas.classList.add('fan-open'); frame.classList.add('has-fan');
+    // Column side: away from the open card on wide screens, else where room is.
+    const step = 34, gap = 46, height = tags.length * step - 6;
+    const widest = Math.max(...tags.map(tag => tag.offsetWidth));
+    const point = map.latLngToContainerPoint(lead.getLatLng());
+    const sideCard = !preview.hidden && preview.offsetWidth < canvas.clientWidth * 0.7;
+    const side = sideCard || point.x + gap + widest > canvas.clientWidth - 12 ? -1 : 1;
+    let path = '';
+    tags.forEach((tag, index) => {
+      const y = -height / 2 + index * step + 14;
+      const x = side > 0 ? gap : -gap - tag.offsetWidth;
+      tag.style.transform = `translate(${x}px, ${y - 14}px)`;
+      const end = side > 0 ? gap : -gap;
+      path += `M0 0C${end * 0.55} 0 ${end * 0.45} ${y} ${end} ${y}`;
+    });
+    const more = root.querySelector('.map-fan-more');
+    if (more) more.style.transform = `translate(${side > 0 ? gap : -gap - more.offsetWidth}px, ${height / 2 + 6}px)`;
+    const p = document.createElementNS(ns, 'path'); p.setAttribute('d', path); lines.append(p);
+    root.classList.toggle('to-left', side < 0);
+    requestAnimationFrame(() => root.classList.add('is-open'));
+  }
+  function markRow(card, on) {
+    preview.querySelectorAll('.map-preview-row').forEach(row => row.classList.toggle('is-hover', on && row.cardRef === card));
   }
   function selectPoint(samePoint, marker, card = null, area = false) {
     canvas.querySelectorAll('.map-pin.selected').forEach(el => el.classList.remove('selected'));
@@ -452,19 +621,24 @@
     selectedKeys = samePoint.map(offerKey);
     if (card || samePoint.length === 1) previewSingle(card || samePoint[0], samePoint, marker, area);
     else previewList(samePoint, marker, area);
+    if (samePoint.length > 1) { openFan(samePoint, marker); if (fan) fan.area = area; if (card) markFan(card, 'selected'); }
     requestAnimationFrame(() => revealPin(marker));
     scheduleLayout();
   }
-  // Keep the chosen pin in sight beside (desktop) or above (phone) the card.
+  // Keep the chosen pin (and an open fan) in sight beside (desktop) or above
+  // (phone) the card: the map moves just enough to bring them into the room
+  // the card leaves free.
   function revealPin(marker) {
-    const pin = marker.getElement()?.getBoundingClientRect(), card = preview.getBoundingClientRect();
-    if (!map || !pin || preview.hidden) return;
-    const area = canvas.getBoundingClientRect(), margin = 48;
-    const covered = pin.left < card.right && pin.right > card.left && pin.top < card.bottom && pin.bottom > card.top;
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (covered && card.width > area.width * 0.7) map.panBy([0, pin.bottom - card.top + margin], {animate:!reduce});
-    else if (covered) map.panBy([pin.right - card.left + margin, 0], {animate:!reduce});
-    else if (pin.top < area.top + 10) map.panBy([0, pin.top - area.top - margin], {animate:!reduce});
+    const own = marker.getElement()?.getBoundingClientRect();
+    if (!map || !own || preview.hidden) return;
+    const rects = [own, ...(fan ? fan.tags.map(tag => tag.getBoundingClientRect()) : [])];
+    const box = {left:Math.min(...rects.map(r => r.left)), right:Math.max(...rects.map(r => r.right)), top:Math.min(...rects.map(r => r.top)), bottom:Math.max(...rects.map(r => r.bottom))};
+    const area = canvas.getBoundingClientRect(), card = preview.getBoundingClientRect(), margin = 18;
+    const room = {left:area.left + margin, right:area.right - margin, top:area.top + margin, bottom:area.bottom - margin};
+    if (card.width > area.width * 0.7) room.bottom = card.top - margin; else room.right = card.left - margin;
+    const shift = (low, high, min, max) => high - low > max - min ? low - min : low < min ? low - min : high > max ? high - max : 0;
+    const dx = shift(box.left, box.right, room.left, room.right), dy = shift(box.top, box.bottom, room.top, room.bottom);
+    if (Math.abs(dx) > 1 || Math.abs(dy) > 1) map.panBy([dx, dy], {animate:!window.matchMedia('(prefers-reduced-motion: reduce)').matches});
   }
   const priority = (cards) => cards.some(isFavorite) ? 1 : cards.some(c => c.dataset.availability !== 'unavailable') ? 2 : 4;
   function draw(force = false) {
@@ -478,6 +652,8 @@
     if (!force && signature === lastSignature) { refreshPreview(); updateStatus(); return; }
     lastSignature = signature;
     const keep = selectedKeys;
+    const fanKeys = fan ? fan.cards.map(offerKey) : null, fanArea = fan?.area;
+    closeFan();
     markerLayer.clearLayers(); markers = new Map(); stayPins = [];
     // Equal coordinates may represent several dates, prices or neighboring
     // properties. Keep one marker at the supplied point and let users choose.
@@ -505,7 +681,21 @@
       const marker = window.L.marker([lat,lon], {icon:stayIcon(samePoint, label, markerClass), title:accessibleName, keyboard:true, zIndexOffset:(5 - rank) * 200, riseOnHover:true});
       const pin = {marker, samePoint, rank, label, accessibleName, price:Number(card.dataset.priceEur) || Infinity, group:null};
       // While nearby pins share this label, a tap lists all of their offers.
-      const open = () => pin.group ? selectPoint(pin.group, marker, null, true) : selectPoint(samePoint, marker);
+      // A label grouping stays that are apart zooms to them, as long as zooming
+      // would still separate them; otherwise its offers fan out in place.
+      const open = () => {
+        if (pin.group) {
+          const bounds = window.L.latLngBounds(pin.group.map(c => [Number(c.dataset.lat), Number(c.dataset.lon)]));
+          const padding = window.matchMedia('(max-width:639px)').matches ? [60, 50] : [90, 90];
+          const target = Math.min(map.getBoundsZoom(bounds, false, window.L.point(padding[1] * 2, padding[0] * 2)), 17);
+          if (target >= map.getZoom() + 1 && map.getZoom() < 16) {
+            clearSelection();
+            map.flyToBounds(bounds, {padding, maxZoom:17, duration:0.45});
+            return;
+          }
+          selectPoint(pin.group, marker, null, true);
+        } else selectPoint(samePoint, marker);
+      };
       marker.on('click', open);
       marker.on('add', () => {
         const element = marker.getElement();
@@ -528,8 +718,11 @@
       const current = previewOffer && restored.samePoint.includes(previewOffer) ? previewOffer : null;
       restored.marker.getElement()?.classList.add('selected'); restored.marker.setZIndexOffset(3000);
       selectedKeys = restored.samePoint.map(offerKey);
-      if (current || restored.samePoint.length === 1) previewSingle(current || restored.samePoint[0], restored.samePoint, restored.marker);
-      else previewList(restored.samePoint, restored.marker);
+      const fanned = fanKeys ? cards.filter(c => fanKeys.includes(offerKey(c))) : [];
+      const listed = fanned.length > 1 ? fanned : restored.samePoint;
+      if (current || listed.length === 1) previewSingle(current || listed[0], listed, restored.marker, fanArea);
+      else previewList(listed, restored.marker, fanArea);
+      if (fanned.length > 1) { openFan(fanned, restored.marker); fan.area = fanArea; if (current) markFan(current, 'selected'); }
     } else if (keep) clearSelection();
     updateStatus();
     scheduleLayout();
@@ -661,7 +854,7 @@
     groups.forEach(g => { if (g.side) g.lead.el.classList.add(g.side); });
     // An open list follows its label: if the label now counts more or fewer
     // offers (the card itself takes room on the map), list the same offers.
-    if (listShown?.area && !preview.hidden && preview.classList.contains('is-list')) {
+    if (!fan && listShown?.area && !preview.hidden && preview.classList.contains('is-list')) {
       const shown = groups.find(g => g.lead.pin.marker === listShown.marker)?.lead.pin;
       const cards = shown ? (shown.group || shown.samePoint) : null;
       if (cards && cards.length !== listShown.count) {
@@ -848,7 +1041,7 @@
   mapButton.addEventListener('click', async () => { mapOpener = mapButton; setMapGroup(currentPageGroup()); if (await showMap(false)) requestAnimationFrame(() => fitPoints()); });
   listButton.addEventListener('click', hideMap);
   if (mapClose) mapClose.addEventListener('click', hideMap);
-  panel.addEventListener('cancel', event => { event.preventDefault(); if (panel.classList.contains('is-full')) setFull(false); else hideMap(); });
+  panel.addEventListener('cancel', event => { event.preventDefault(); if (panelHome) { setFilterSheet(false); return; } if (panel.classList.contains('is-full')) setFull(false); else hideMap(); });
   window.addEventListener('resize', () => { if (!panel.hidden) { openMapPanel(); syncDock(); if (map) requestAnimationFrame(() => map.invalidateSize()); } });
   group.addEventListener('change', () => { updatePlanLabel(); clearSelection(); draw(true); fitPoints(); });
   if (resetBest) resetBest.addEventListener('click', () => { setMapGroup('hepsi'); draw(true); fitPoints(); });
@@ -864,7 +1057,7 @@
     map.setView(marker.getLatLng(), 17, {animate:!window.matchMedia('(prefers-reduced-motion: reduce)').matches});
     marker.openPopup();
   });
-  document.addEventListener('cards-filtered', () => draw());
+  document.addEventListener('cards-filtered', () => { renderFilterBar(); draw(); });
   document.addEventListener('group-current-changed', event => {
     if (group.value === 'hepsi' && !panel.hidden && !String(event.detail?.id || '').startsWith('best-')) return;
     setMapGroup(event.detail?.id); draw(true); if (!panel.hidden) fitPoints();
