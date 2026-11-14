@@ -6,10 +6,22 @@
     "checkOut": "2027-01-03",
     "adults": 6,
     "status": "available",
-    "checkedAt": "2026-11-14T12:40:09.253Z",
+    "checkedAt": "2026-11-14T13:51:21.826Z",
     "sourceUrl": "https://www.airbnb.com.tr/rooms/1102272642935452724?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-    "evidence": "Airbnb 14.11.2026 tarihinde altı misafir ve dört gece için rezervasyon düğmesi gösterdi.",
+    "evidence": "Airbnb 14.11.2026 tarihinde 6 misafir ve dört gece için rezervasyon düğmesi gösterdi.",
     "displayPrice": "1.600 €"
+  },
+  {
+    "scope": "card",
+    "id": "sweep14-airbnb-1102272642935452724-20261230-20270103",
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "adults": 7,
+    "status": "available",
+    "checkedAt": "2026-11-14T13:51:21.759Z",
+    "sourceUrl": "https://www.airbnb.com.tr/rooms/1102272642935452724?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+    "evidence": "Airbnb 14.11.2026 tarihinde 7 misafir ve dört gece için rezervasyon düğmesi gösterdi.",
+    "displayPrice": "1.680 €"
   },
   {
     "scope": "card",
@@ -18,9 +30,21 @@
     "checkOut": "2027-01-03",
     "adults": 6,
     "status": "available",
-    "checkedAt": "2026-11-14T12:40:09.195Z",
+    "checkedAt": "2026-11-14T13:51:21.738Z",
     "sourceUrl": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
-    "evidence": "Airbnb 14.11.2026 tarihinde altı misafir ve dört gece için rezervasyon düğmesi gösterdi.",
+    "evidence": "Airbnb 14.11.2026 tarihinde 6 misafir ve dört gece için rezervasyon düğmesi gösterdi.",
     "displayPrice": "1.883 €"
+  },
+  {
+    "scope": "card",
+    "id": "sweep14-airbnb-973151040520236566-20261230-20270103",
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "adults": 7,
+    "status": "unavailable",
+    "checkedAt": "2026-11-14T13:51:27.805Z",
+    "sourceUrl": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+    "evidence": "7 misafir seçildiğinde Airbnb en fazla 6 misafir kabul edildiğini gösterdi.",
+    "unavailableReason": "party-limit"
   }
 ]

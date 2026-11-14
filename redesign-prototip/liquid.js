@@ -680,18 +680,41 @@
       card.dataset.generalMatch = String(generalMatch && availabilityMatch);
       card.hidden = !(generalMatch && availabilityMatch) || (activeBest !== '' && !bestMatch);
       if (statusNode) {
-        statusNode.hidden = !visibleStatus;
+        const failedAttempt = status?.lastAttempt;
+        const showWarning = visibleStatus?.status !== 'unavailable' && (!visibleStatus || failedAttempt?.result === 'unknown');
+        statusNode.hidden = false;
+        statusNode.dataset.status = showWarning ? 'unknown' : visibleStatus.status;
         // The photo chip stays short; the full dated observation is in the summary tab.
         const overview = card.querySelector('.detail-panel[data-panel="overview"]');
         let full = overview?.querySelector('.availability-full');
-        if (visibleStatus) {
+        if (showWarning) {
+          const label = 'Müsaitlik teyit edilemedi';
+          const details = [`${label} · ${party} kişi`];
+          if (isTime(failedAttempt?.at)) details.push(`Son deneme ${trDayTime(failedAttempt.at)}`);
+          if (failedAttempt?.reason) details.push(failedAttempt.reason);
+          if (visibleStatus) details.push(`Son doğrulanan sonuç: ${trDay(visibleStatus.checkedAt)} tarihinde müsait görünüyordu.`);
+          if (packageOnlyUnavailable) details.push('Ana teklif müsait değil. Diğer teklifin durumunu kaynağından kontrol edin.');
+          statusNode.textContent = label;
+          statusNode.title = details.join(' · ');
+          statusNode.setAttribute('aria-label', statusNode.title);
+          if (overview) {
+            if (!full) { full = document.createElement('p'); full.className = 'availability-full'; overview.querySelector('.panel-title')?.after(full); }
+            full.textContent = statusNode.title;
+            full.dataset.status = 'unknown';
+          }
+        } else {
           const day = trDay(visibleStatus.checkedAt);
+          const unavailableReason = visibleStatus.status === 'unavailable' ? visibleStatus.unavailableReason : null;
           let text = `${visibleStatus.status === 'unavailable' ? 'Bu Tarihlerde Müsait Değil' : 'Kaynakta Müsait Göründü'} · ${visibleStatus.adults} Kişi · ${day}`;
           const wasAvailable = visibleStatus.status === 'unavailable' && Number.isFinite(Date.parse(visibleStatus.lastAvailableAt || ''));
           if (wasAvailable) text = `${trDayAt(visibleStatus.lastAvailableAt)} ${visibleStatus.adults} kişi için müsait görünüyordu. ${trDayTime(visibleStatus.checkedAt)} kontrolünde bu tarihler artık müsait değil; ilan başkası tarafından kiralanmış ya da takvimi kapatılmış olabilir.`;
-          if (typeof visibleStatus.displayPrice === 'string' && visibleStatus.displayPrice) text += ` · ${visibleStatus.displayPrice}`;
+          if (unavailableReason === 'listing-removed') text = `İlan kaynak siteden kaldırılmış · ${visibleStatus.adults} kişi · ${day}`;
+          else if (unavailableReason === 'party-limit') text = `İlan ${visibleStatus.adults} kişi kabul etmiyor · ${day}`;
+          else if (typeof visibleStatus.displayPrice === 'string' && visibleStatus.displayPrice) text += ` · ${visibleStatus.displayPrice}`;
           if (visibleStatus.lastAttempt?.result === 'unknown') text += ' · Son kontrol doğrulanamadı';
           statusNode.textContent = `${visibleStatus.status === 'unavailable' ? 'Müsait değil' : 'Müsait göründü'} · ${visibleStatus.adults} kişi · ${day}`;
+          if (unavailableReason === 'listing-removed') statusNode.textContent = 'İlan kaldırılmış';
+          else if (unavailableReason === 'party-limit') statusNode.textContent = `${visibleStatus.adults} kişi kabul edilmiyor`;
           statusNode.title = text;
           statusNode.setAttribute('aria-label', text);
           if (overview) {
@@ -699,12 +722,7 @@
             full.textContent = text;
             full.dataset.status = visibleStatus.status;
           }
-        } else if (packageOnlyUnavailable) {
-          statusNode.hidden = false;
-          statusNode.textContent = 'Ana teklif müsait değil';
-          statusNode.title = `Ana teklif ${trDay(status.checkedAt)} tarihinde müsait değildi; diğer seçeneğin durumu ayrıca gösterilir.`;
-          if (full) full.remove();
-        } else if (full) full.remove();
+        }
       }
       // Unavailable offers stay listed: greyed, crossed out and dated.
       let stamp = card.querySelector('.unavailable-stamp');
@@ -719,7 +737,12 @@
         // "It was available on X and closed by Y" only when the data records X.
         const history = stamp.querySelector('.stamp-history');
         const lastAvailable = visibleStatus.lastAvailableAt;
-        history.hidden = !Number.isFinite(Date.parse(lastAvailable || ''));
+        const removed = visibleStatus.unavailableReason === 'listing-removed';
+        const heading = stamp.querySelector('b');
+        heading.textContent = 'Bu tarihler artık müsait değil';
+        if (removed) heading.textContent = 'İlan kaynak siteden kaldırılmış';
+        if (visibleStatus.unavailableReason === 'party-limit') heading.textContent = `${visibleStatus.adults} kişi kabul edilmiyor`;
+        history.hidden = removed || !Number.isFinite(Date.parse(lastAvailable || ''));
         if (!history.hidden) history.textContent = `${trDayAt(lastAvailable)} müsaitti, ${trDayAt(visibleStatus.checkedAt)} kapandı`;
         stamp.querySelector('small').textContent = `${visibleStatus.adults} kişi · Son kontrol ${trDayTime(visibleStatus.checkedAt)}`;
       } else if (stamp) stamp.remove();
