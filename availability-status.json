@@ -1247,7 +1247,8 @@
       "sourceUrl": "https://www.airbnb.com/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=6",
       "evidence": "Airbnb İngilizce ve Türkçe ilanda HTTP 410 ile sayfanın kaldırıldığını bildirdi. Tarihlerin başkasına satıldığının kanıtı yok; bu ilan üzerinden rezervasyon yapılamıyor.",
       "displayPrice": "Airbnb ilanı yayından kaldırılmış",
-      "lastAvailableAt": "2026-11-10T17:53:11.607Z"
+      "lastAvailableAt": "2026-11-10T17:53:11.607Z",
+      "unavailableReason": "listing-removed"
     },
     {
       "scope": "card",
@@ -1706,7 +1707,8 @@
       "sourceUrl": "https://www.airbnb.com.tr/rooms/1611035619222657901?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
       "evidence": "Airbnb İngilizce ve Türkçe ilanda HTTP 410 ile sayfanın kaldırıldığını bildirdi. Tarihlerin başkasına satıldığının kanıtı yok; bu ilan üzerinden rezervasyon yapılamıyor.",
       "displayPrice": "Airbnb ilanı yayından kaldırılmış",
-      "lastAvailableAt": "2026-11-10T18:04:58.276Z"
+      "lastAvailableAt": "2026-11-10T18:04:58.276Z",
+      "unavailableReason": "listing-removed"
     },
     {
       "scope": "card",
@@ -2886,6 +2888,54 @@
       "checkedAt": "2026-11-14T07:57:53.939Z",
       "sourceUrl": "https://www.booking.com/hotel/de/eastside34.en-gb.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR",
       "evidence": "Booking.com seçili 2026-12-30 giriş, 2027-01-03 çıkış ve 7 yetişkin için tesiste bu tarihlerde müsait yer bulunmadığını bildirdi."
+    },
+    {
+      "scope": "card",
+      "id": "sweep14-airbnb-1102272642935452724-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-14T13:51:21.826Z",
+      "sourceUrl": "https://www.airbnb.com.tr/rooms/1102272642935452724?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "Airbnb 14.11.2026 tarihinde 6 misafir ve dört gece için rezervasyon düğmesi gösterdi.",
+      "displayPrice": "1.600 €"
+    },
+    {
+      "scope": "card",
+      "id": "sweep14-airbnb-1102272642935452724-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-14T13:51:21.759Z",
+      "sourceUrl": "https://www.airbnb.com.tr/rooms/1102272642935452724?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "Airbnb 14.11.2026 tarihinde 7 misafir ve dört gece için rezervasyon düğmesi gösterdi.",
+      "displayPrice": "1.680 €"
+    },
+    {
+      "scope": "card",
+      "id": "sweep14-airbnb-973151040520236566-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-14T13:51:21.738Z",
+      "sourceUrl": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "evidence": "Airbnb 14.11.2026 tarihinde 6 misafir ve dört gece için rezervasyon düğmesi gösterdi.",
+      "displayPrice": "1.883 €"
+    },
+    {
+      "scope": "card",
+      "id": "sweep14-airbnb-973151040520236566-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "unavailable",
+      "checkedAt": "2026-11-14T13:51:27.805Z",
+      "sourceUrl": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=7&currency=EUR",
+      "evidence": "7 misafir seçildiğinde Airbnb en fazla 6 misafir kabul edildiğini gösterdi.",
+      "unavailableReason": "party-limit"
     }
   ]
 }
