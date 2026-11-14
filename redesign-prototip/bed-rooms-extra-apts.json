@@ -800,5 +800,43 @@
     ],
     "note": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı. 1 kişi kanepede yatar: 5 ayrı yatak + çekyat; yetişkine uygunluğu teyitsiz.",
     "status": "ilan"
+  },
+  "sweep14-airbnb-1102272642935452724-20261230-20270103": {
+    "source": "https://www.airbnb.com.tr/rooms/1102272642935452724?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çift, 1 tek kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift, 2 tek kişilik yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "2 tek kişilik yatak"
+      }
+    ],
+    "note": "Alt kat dairesi; iki tek kişilik yatak salonda. İlan, turizm vergisinin varışta ayrıca ödeneceğini bildiriyor.",
+    "status": "ilan"
+  },
+  "sweep14-airbnb-973151040520236566-20261230-20270103": {
+    "source": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "1 çift kişilik yatak"
+      },
+      {
+        "name": "Salon",
+        "beds": "1 çekyat (140 × 200 cm)"
+      }
+    ],
+    "note": "Altı kişiye ayrı yatak yok; çift yataklar ve çekyat paylaşılır. Toplamda vergi kapsamı teyitsiz.",
+    "status": "ilan"
   }
 }

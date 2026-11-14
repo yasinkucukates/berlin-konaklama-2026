@@ -411,5 +411,15 @@
     "source": "https://www.booking.com/hotel/de/gneisenau.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
     "normalBeds": 5,
     "certainty": "Kaynak ilanındaki oda kartları 12.11.2026 kontrolünde esas alındı."
+  },
+  "sweep14-airbnb-1102272642935452724-20261230-20270103": {
+    "summary": "2 çift kişilik, 5 tek kişilik yatak; 2 tanesi salonda.",
+    "source": "https://www.airbnb.com.tr/rooms/1102272642935452724?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 7
+  },
+  "sweep14-airbnb-973151040520236566-20261230-20270103": {
+    "summary": "2 çift kişilik yatak ve salonda 1 çekyat.",
+    "source": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "normalBeds": 2
   }
 }

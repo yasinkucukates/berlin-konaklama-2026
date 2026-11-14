@@ -1504,6 +1504,32 @@
       "source": "https://www.booking.com/hotel/de/gneisenau.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
       "maxAdults": 6,
       "ui7Eligible": false
+    },
+    {
+      "id": "sweep14-airbnb-1102272642935452724-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "eligible": true,
+      "privacy": "entire_private",
+      "category": "apartment",
+      "group": "conditional",
+      "reason": "Alt kat dairesi; iki tek kişilik yatak salonda. İlan, turizm vergisinin varışta ayrıca ödeneceğini bildiriyor.",
+      "source": "https://www.airbnb.com.tr/rooms/1102272642935452724?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "maxAdults": 9,
+      "ui7Eligible": false
+    },
+    {
+      "id": "sweep14-airbnb-973151040520236566-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "eligible": true,
+      "privacy": "entire_private",
+      "category": "apartment",
+      "group": "conditional",
+      "reason": "Altı kişiye ayrı yatak yok; çift yataklar ve çekyat paylaşılır. Toplamda vergi kapsamı teyitsiz.",
+      "source": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+      "maxAdults": 6,
+      "ui7Eligible": false
     }
   ],
   "validation": {
