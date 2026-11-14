@@ -645,7 +645,13 @@
     const dockRect = dock.parentNode === panel ? dock.getBoundingClientRect() : null;
     if (dockRect && dockRect.height && dockRect.top < room.bottom && dockRect.right > box.left && dockRect.left < box.right) room.bottom = Math.min(room.bottom, dockRect.top - 10);
     const shift = (low, high, min, max) => high - low > max - min ? low - min : low < min ? low - min : high > max ? high - max : 0;
-    const dx = shift(box.left, box.right, room.left, room.right), dy = shift(box.top, box.bottom, room.top, room.bottom);
+    let dx = shift(box.left, box.right, room.left, room.right), dy = shift(box.top, box.bottom, room.top, room.bottom);
+    // When the map has to move anyway, bring the group to the middle of the free room.
+    if (Math.abs(dx) > 1 || Math.abs(dy) > 1) {
+      const fitsX = box.right - box.left <= room.right - room.left, fitsY = box.bottom - box.top <= room.bottom - room.top;
+      if (fitsX) dx = (box.left + box.right) / 2 - (room.left + room.right) / 2;
+      if (fitsY) dy = (box.top + box.bottom) / 2 - (room.top + room.bottom) / 2;
+    }
     if (Math.abs(dx) > 1 || Math.abs(dy) > 1) map.panBy([dx, dy], {animate:!window.matchMedia('(prefers-reduced-motion: reduce)').matches});
   }
   const priority = (cards) => cards.some(isFavorite) ? 1 : cards.some(c => c.dataset.availability !== 'unavailable') ? 2 : 4;
