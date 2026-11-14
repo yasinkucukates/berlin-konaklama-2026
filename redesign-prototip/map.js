@@ -546,23 +546,28 @@
   const offerOrder = (a, b) => Number(a.dataset.availability === 'unavailable') - Number(b.dataset.availability === 'unavailable') ||
     Number(a.dataset.priceEur || Infinity) - Number(b.dataset.priceEur || Infinity);
   const nightsOf = card => Math.round((Date.parse(card.dataset.checkOut) - Date.parse(card.dataset.checkIn)) / 864e5);
+  // Same-point stays whose fan fits on the map keep it open all the time
+  // ("static" fans, one per marker); a tap on a label that could not open
+  // its fan opens one over the dimmed map until it is closed.
+  const staticFans = new Map();
   function closeFan() {
     if (!fan) return;
-    fan.marker.remove();
-    fan.lead.getElement()?.classList.remove('fanned');
-    canvas.classList.remove('fan-open'); frame.classList.remove('has-fan');
+    if (fan.static) fan.tags.forEach(tag => tag.classList.remove('selected', 'is-hover'));
+    else {
+      fan.marker.remove();
+      fan.lead.getElement()?.classList.remove('fanned');
+      canvas.classList.remove('fan-open'); frame.classList.remove('has-fan');
+    }
     fan = null;
   }
   function markFan(card, className, on = true) {
     if (!fan) return;
     fan.tags.forEach(tag => tag.classList.toggle(className, on && tag.cardRef === card));
   }
-  function openFan(cards, lead) {
-    closeFan();
-    if (!map || cards.length < 2) return;
+  function buildFan(cards, lead, pick, extraClass = '') {
     const shown = cards.slice().sort(offerOrder).slice(0, FAN_MAX);
     const mixedNights = new Set(shown.map(nightsOf)).size > 1;
-    const root = document.createElement('div'); root.className = 'map-fan';
+    const root = document.createElement('div'); root.className = `map-fan ${extraClass}`;
     const ns = 'http://www.w3.org/2000/svg';
     const lines = document.createElementNS(ns, 'svg'); lines.setAttribute('class', 'map-fan-lines'); lines.setAttribute('aria-hidden', 'true');
     root.append(lines);
@@ -574,42 +579,71 @@
       if (mixedNights) { const n = document.createElement('small'); n.textContent = `${nightsOf(card)} gece`; tag.append(n); }
       tag.title = titleFor(card);
       tag.setAttribute('aria-label', `${titleFor(card)} · ${headPrice(card)}${isFavorite(card) ? ` · ${card.dataset.votes} beğeni` : ''}${card.dataset.availability === 'unavailable' ? ' · son kontrolde müsait değil' : ''}`);
-      tag.addEventListener('click', event => { event.stopPropagation(); previewSingle(card, cards, lead, fan?.area); requestAnimationFrame(() => revealPin(lead)); });
+      tag.addEventListener('click', event => { event.stopPropagation(); pick(card); });
       tag.addEventListener('mouseenter', () => markRow(card, true));
       tag.addEventListener('mouseleave', () => markRow(card, false));
       root.append(tag);
       return tag;
     });
+    let more = null;
     if (cards.length > shown.length) {
-      const more = document.createElement('span'); more.className = 'map-fan-more'; more.textContent = `+${cards.length - shown.length} teklif listede`;
+      more = document.createElement('span'); more.className = 'map-fan-more'; more.textContent = `+${cards.length - shown.length} teklif listede`;
       root.append(more);
     }
-    const marker = window.L.marker(lead.getLatLng(), {icon:window.L.divIcon({className:'map-fan-icon', html:'', iconSize:[0,0], iconAnchor:[0,0]}), interactive:false, keyboard:false, zIndexOffset:6000}).addTo(map);
+    const marker = window.L.marker(lead.getLatLng(), {icon:window.L.divIcon({className:'map-fan-icon', html:'', iconSize:[0,0], iconAnchor:[0,0]}), interactive:false, keyboard:false, zIndexOffset:extraClass ? 2500 : 6000}).addTo(map);
     const el = marker.getElement();
     el.append(root);
     window.L.DomEvent.disableClickPropagation(el); window.L.DomEvent.disableScrollPropagation(el);
-    fan = {marker, lead, cards, tags, area:false, root};
+    return {marker, lead, cards, tags, root, lines, more, area:false, static:Boolean(extraClass)};
+  }
+  // Tags sit in a column `gap` px beside the point, centred `lift` px from it;
+  // a curved line runs from the point to each tag. Tags fly out of the point
+  // one after another the first time (or when the column changes side).
+  function placeFan(f, side, lift, step, gap, animate = true) {
+    const ns = 'http://www.w3.org/2000/svg';
+    const height = f.tags.length * step - (step - f.tags[0].offsetHeight), half = f.tags[0].offsetHeight / 2;
+    let path = '';
+    const spots = f.tags.map((tag, index) => {
+      const y = lift - height / 2 + index * step + half;
+      const x = side > 0 ? gap : -gap - tag.offsetWidth;
+      const end = side > 0 ? gap : -gap;
+      path += `M0 0C${end * 0.6} 0 ${end * 0.4} ${y} ${end} ${y}`;
+      return `translate(${x}px, ${y - half}px)`;
+    });
+    if (f.more) f.more.style.transform = `translate(${side > 0 ? gap : -gap - f.more.offsetWidth}px, ${lift + height / 2 + 6}px)`;
+    const line = document.createElementNS(ns, 'path'); line.setAttribute('d', path); line.setAttribute('pathLength', '1'); f.lines.replaceChildren(line);
+    const still = !animate || window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    f.root.classList.remove('is-open');
+    f.tags.forEach((tag, index) => {
+      tag.style.transitionDelay = still ? '0s' : `${index * 32}ms`;
+      tag.style.transform = still ? spots[index] : `translate(${side > 0 ? 0 : -tag.offsetWidth}px, ${-half}px) scale(.5)`;
+    });
+    if (still) { f.root.classList.add('is-open', 'no-anim'); return; }
+    f.root.classList.remove('no-anim');
+    void f.root.offsetWidth;
+    requestAnimationFrame(() => { f.root.classList.add('is-open'); f.tags.forEach((tag, index) => { tag.style.transform = spots[index]; }); });
+  }
+  function openFan(cards, lead) {
+    closeFan();
+    if (!map || cards.length < 2) return;
+    // A tapped point gets the focused fan, which stays while its card is open.
+    removeStaticFan(lead);
+    fan = buildFan(cards, lead, card => { previewSingle(card, cards, lead, fan?.area); requestAnimationFrame(() => revealPin(lead)); });
     lead.getElement()?.classList.add('fanned');
     canvas.classList.add('fan-open'); frame.classList.add('has-fan');
     // Column side: away from the open card on wide screens, else where room is.
-    const step = 34, gap = 46, height = tags.length * step - 6;
-    const widest = Math.max(...tags.map(tag => tag.offsetWidth));
+    const widest = Math.max(...fan.tags.map(tag => tag.offsetWidth));
     const point = map.latLngToContainerPoint(lead.getLatLng());
     const sideCard = !preview.hidden && preview.offsetWidth < canvas.clientWidth * 0.7;
-    const side = sideCard || point.x + gap + widest > canvas.clientWidth - 12 ? -1 : 1;
-    let path = '';
-    tags.forEach((tag, index) => {
-      const y = -height / 2 + index * step + 14;
-      const x = side > 0 ? gap : -gap - tag.offsetWidth;
-      tag.style.transform = `translate(${x}px, ${y - 14}px)`;
-      const end = side > 0 ? gap : -gap;
-      path += `M0 0C${end * 0.55} 0 ${end * 0.45} ${y} ${end} ${y}`;
-    });
-    const more = root.querySelector('.map-fan-more');
-    if (more) more.style.transform = `translate(${side > 0 ? gap : -gap - more.offsetWidth}px, ${height / 2 + 6}px)`;
-    const p = document.createElementNS(ns, 'path'); p.setAttribute('d', path); lines.append(p);
-    root.classList.toggle('to-left', side < 0);
-    requestAnimationFrame(() => root.classList.add('is-open'));
+    const side = sideCard || point.x + 46 + widest > canvas.clientWidth - 12 ? -1 : 1;
+    placeFan(fan, side, 0, 34, 46);
+  }
+  function removeStaticFan(lead) {
+    const f = staticFans.get(lead);
+    if (!f) return;
+    if (fan === f) fan = null;
+    f.marker.remove(); lead.getElement()?.classList.remove('fan-static');
+    staticFans.delete(lead);
   }
   function markRow(card, on) {
     preview.querySelectorAll('.map-preview-row').forEach(row => row.classList.toggle('is-hover', on && row.cardRef === card));
@@ -621,7 +655,8 @@
     selectedKeys = samePoint.map(offerKey);
     if (card || samePoint.length === 1) previewSingle(card || samePoint[0], samePoint, marker, area);
     else previewList(samePoint, marker, area);
-    if (samePoint.length > 1) { openFan(samePoint, marker); if (fan) fan.area = area; if (card) markFan(card, 'selected'); }
+    // Only offers at one point fan out; a label grouping nearby points lists them.
+    if (samePoint.length > 1 && !area) { openFan(samePoint, marker); if (card) markFan(card, 'selected'); }
     requestAnimationFrame(() => revealPin(marker));
     scheduleLayout();
   }
@@ -666,8 +701,9 @@
     if (!force && signature === lastSignature) { refreshPreview(); updateStatus(); return; }
     lastSignature = signature;
     const keep = selectedKeys;
-    const fanKeys = fan ? fan.cards.map(offerKey) : null, fanArea = fan?.area;
+    const fanKeys = fan && !fan.static ? fan.cards.map(offerKey) : null, fanArea = false;
     closeFan();
+    Array.from(staticFans.keys()).forEach(removeStaticFan);
     markerLayer.clearLayers(); markers = new Map(); stayPins = [];
     // Equal coordinates may represent several dates, prices or neighboring
     // properties. Keep one marker at the supplied point and let users choose.
@@ -695,21 +731,9 @@
       const marker = window.L.marker([lat,lon], {icon:stayIcon(samePoint, label, markerClass), title:accessibleName, keyboard:true, zIndexOffset:(5 - rank) * 200, riseOnHover:true});
       const pin = {marker, samePoint, rank, label, accessibleName, price:Number(card.dataset.priceEur) || Infinity, group:null};
       // While nearby pins share this label, a tap lists all of their offers.
-      // A label grouping stays that are apart zooms to them, as long as zooming
-      // would still separate them; otherwise its offers fan out in place.
-      const open = () => {
-        if (pin.group) {
-          const bounds = window.L.latLngBounds(pin.group.map(c => [Number(c.dataset.lat), Number(c.dataset.lon)]));
-          const padding = window.matchMedia('(max-width:639px)').matches ? [60, 50] : [90, 90];
-          const target = Math.min(map.getBoundsZoom(bounds, false, window.L.point(padding[1] * 2, padding[0] * 2)), 17);
-          if (target >= map.getZoom() + 1 && map.getZoom() < 16) {
-            clearSelection();
-            map.flyToBounds(bounds, {padding, maxZoom:17, duration:0.45});
-            return;
-          }
-          selectPoint(pin.group, marker, null, true);
-        } else selectPoint(samePoint, marker);
-      };
+      // A tap never zooms: a label grouping nearby stays fans their offers out
+      // in place and lists them; the list still offers a zoom button.
+      const open = () => pin.group ? selectPoint(pin.group, marker, null, true) : selectPoint(samePoint, marker);
       marker.on('click', open);
       marker.on('add', () => {
         const element = marker.getElement();
@@ -736,7 +760,7 @@
       const listed = fanned.length > 1 ? fanned : restored.samePoint;
       if (current || listed.length === 1) previewSingle(current || listed[0], listed, restored.marker, fanArea);
       else previewList(listed, restored.marker, fanArea);
-      if (fanned.length > 1) { openFan(fanned, restored.marker); fan.area = fanArea; if (current) markFan(current, 'selected'); }
+      if (fanned.length > 1 && !fanArea) { openFan(fanned, restored.marker); if (current) markFan(current, 'selected'); }
     } else if (keep) clearSelection();
     updateStatus();
     scheduleLayout();
@@ -782,6 +806,7 @@
     const box = (left, top, width, height) => ({left, top, right:left + width, bottom:top + height});
     const placed = Array.from(canvas.querySelectorAll('.leaflet-control')).map(el => el.getBoundingClientRect());
     if (!preview.hidden) placed.push(preview.getBoundingClientRect());
+    [filterOpen, ...filterChips.children].forEach(el => { const r = el.getBoundingClientRect(); if (r.width) placed.push(r); });
     const anchors = [];
     clubMarkers.forEach(marker => {
       const el = marker.getElement();
@@ -793,7 +818,7 @@
       ownLabel(pin);
       const el = pin.marker.getElement(), label = el?.querySelector('.pin-label'), dot = el?.querySelector('.pin-shape');
       if (!el || !label || !dot) return;
-      el.classList.remove('compact', 'below', 'right', 'left', 'grouped-away');
+      el.classList.remove('compact', 'below', 'right', 'left', 'grouped-away', 'fan-static');
       const dotRect = dot.getBoundingClientRect();
       if (!hit(dotRect, bounds, 0)) { el.classList.add('compact'); return; }
       const selected = el.classList.contains('selected');
@@ -875,6 +900,37 @@
         selectedKeys = cards.map(offerKey);
         if (cards.length > 1) previewList(cards, listShown.marker, Boolean(shown.group)); else previewSingle(cards[0], cards, listShown.marker);
       }
+    }
+    // Static fans: a point with several offers shows each of them on its own
+    // tag whenever the column fits beside the point without covering anything.
+    const fanRects = [];
+    const keepFans = new Set();
+    groups.forEach(g => {
+      const pin = g.lead.pin, lead = pin.marker, count = pin.samePoint.length;
+      if (g.members.length !== 1 || count < 2 || count > 8 || (fan && !fan.static && fan.lead === lead)) return;
+      let f = staticFans.get(lead);
+      const fresh = !f;
+      if (fresh) f = buildFan(pin.samePoint, lead, card => selectPoint(pin.samePoint, lead, card), 'is-static');
+      const step = 28, gap = 30, h = count * step - (step - f.tags[0].offsetHeight), w = Math.max(...f.tags.map(tag => tag.offsetWidth));
+      const [cx, cy] = center(g.dot);
+      const options = [];
+      [0, -(h / 2 + 4), h / 2 + 4].forEach(lift => [1, -1].forEach(side => options.push({side, lift,
+        rect:box(side > 0 ? cx - 4 : cx - gap - w, cy + lift - h / 2 - 2, gap + w + 4, h + 4)})));
+      const fits = o => inside(o.rect) && !placed.some(r => hit(o.rect, r)) && !anchors.some(a => hit(o.rect, a, 1)) && !fanRects.some(r => hit(o.rect, r, 4)) &&
+        !groups.some(other => other !== g && (hit(o.rect, other.rect) || hit(o.rect, other.dot, 1)));
+      const same = options.find(o => o.side === f.side && o.lift === f.lift);
+      const choice = same && fits(same) ? same : options.find(fits);
+      if (!choice) { if (fresh) f.marker.remove(); return; }
+      if (fresh) staticFans.set(lead, f);
+      if (f.side !== choice.side || f.lift !== choice.lift) { f.side = choice.side; f.lift = choice.lift; placeFan(f, choice.side, choice.lift, step, gap, fresh); }
+      g.lead.el.classList.add('fan-static');
+      g.rect = choice.rect; fanRects.push(choice.rect); keepFans.add(lead);
+    });
+    Array.from(staticFans.keys()).forEach(lead => { if (!keepFans.has(lead)) removeStaticFan(lead); });
+    // The offer whose card is open keeps its tag marked on a rebuilt fan.
+    if (!fan && previewOffer && !preview.hidden) {
+      const own = staticFans.get(markers.get(previewOffer));
+      if (own) { fan = own; markFan(previewOffer, 'selected'); }
     }
     groups.forEach(g => { placed.push(g.rect); marks.push({el:g.lead.el, rect:g.dot, level:0}); });
     const items = [];
