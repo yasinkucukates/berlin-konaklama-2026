@@ -636,6 +636,11 @@
     const area = canvas.getBoundingClientRect(), card = preview.getBoundingClientRect(), margin = 18;
     const room = {left:area.left + margin, right:area.right - margin, top:area.top + margin, bottom:area.bottom - margin};
     if (card.width > area.width * 0.7) room.bottom = card.top - margin; else room.right = card.left - margin;
+    // Keep clear of the zoom buttons and of the filter bar at the top.
+    const controls = canvas.querySelector('.leaflet-top.leaflet-left')?.getBoundingClientRect();
+    if (controls && controls.width) room.left = Math.max(room.left, controls.right + 8);
+    const bar = filterBar.getBoundingClientRect();
+    if (bar.height) room.top = Math.max(room.top, bar.bottom + 8);
     // The view dock floats over the bottom of a full-screen map.
     const dockRect = dock.parentNode === panel ? dock.getBoundingClientRect() : null;
     if (dockRect && dockRect.height && dockRect.top < room.bottom && dockRect.right > box.left && dockRect.left < box.right) room.bottom = Math.min(room.bottom, dockRect.top - 10);
