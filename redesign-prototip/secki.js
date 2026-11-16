@@ -98,18 +98,20 @@
   items.forEach((it, index) => {
     const card = it.card;
     const li = el('li', 'secki-row'); li.dataset.key = key(it);
-    const thumb = el('div', 'secki-thumb');
+    const thumb = el('button', 'secki-thumb'); thumb.type = 'button'; thumb.setAttribute('aria-label', 'İlanı aç');
     const img0 = card.querySelector('.photo-grid img');
     let src = img0 ? (img0.getAttribute('src') || img0.dataset.gmSrc || '') : '';
     if (src.startsWith('data:')) src = img0.dataset.gmSrc || '';
     // Small copies: a row needs ~200 px, not the card's 1024 px photo.
     src = src.replace('/max1024x768/', '/max500/').replace(/([?&]im_w=)\d+/, '$1480');
     if (src) { const img = el('img'); img.src = src; img.alt = ''; img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer'; thumb.append(img); }
+    const hint = el('span', 'secki-thumb-hint', 'İlanı aç'); thumb.append(hint);
     const main = el('div', 'secki-main');
     const titleRow = el('div', 'secki-title');
     titleRow.append(el('span', 'secki-no', String(index + 1)));
     const titleText = el('div');
-    titleText.append(el('h3', '', card.querySelector('.card-title h3, .card-title h4')?.textContent.trim() || it.id), el('p', 'secki-area', (card.querySelector('.card-title .area')?.textContent || it.area || '').replace(/^[^·]*·\s*/, '').trim()));
+    const h3 = el('h3'); const titleBtn = el('button', 'secki-title-open', card.querySelector('.card-title h3, .card-title h4')?.textContent.trim() || it.id); titleBtn.type = 'button'; h3.append(titleBtn);
+    titleText.append(h3, el('p', 'secki-area', (card.querySelector('.card-title .area')?.textContent || it.area || '').replace(/^[^·]*·\s*/, '').trim()));
     titleRow.append(titleText);
     const facts = el('p', 'secki-facts');
     const price = card.querySelector('.amount > strong')?.textContent.trim() || '';
@@ -131,12 +133,15 @@
     pc.append(pros, cons);
     const actions = el('div', 'secki-actions');
     const open = el('button', 'secki-open', 'Ayrıntılar'); open.type = 'button';
-    open.addEventListener('click', () => {
+    const openCard = () => {
       const guest = document.querySelector('.filter-guests');
       const adults = card.dataset.offerAdults;
       if (guest && /^[67]$/.test(adults || '') && guest.value !== adults && card.hidden) { guest.value = adults; guest.dispatchEvent(new Event('change', {bubbles:true})); }
       card.querySelector('.card-open-main')?.click();
-    });
+    };
+    open.addEventListener('click', openCard);
+    thumb.addEventListener('click', openCard);
+    titleBtn.addEventListener('click', openCard);
     const mapButton = el('button', 'secki-map', 'Harita'); mapButton.type = 'button';
     mapButton.addEventListener('click', () => card.querySelector('.map-show')?.click());
     actions.append(open, mapButton);
