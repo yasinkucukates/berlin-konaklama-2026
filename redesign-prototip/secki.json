@@ -100,7 +100,8 @@
                 "min": 2
               }
             ]
-          }
+          },
+          "roadKm": 3.5
         },
         "rso": {
           "go": {
@@ -167,7 +168,8 @@
               }
             ],
             "limeMin": 36
-          }
+          },
+          "roadKm": 9.8
         }
       }
     },
@@ -257,7 +259,8 @@
                 "min": 5
               }
             ]
-          }
+          },
+          "roadKm": 5.8
         },
         "rso": {
           "go": {
@@ -312,7 +315,8 @@
               }
             ],
             "limeMin": 18
-          }
+          },
+          "roadKm": 5.4
         }
       }
     },
@@ -400,7 +404,8 @@
               }
             ],
             "limeMin": 26
-          }
+          },
+          "roadKm": 5.5
         },
         "rso": {
           "go": {
@@ -471,7 +476,8 @@
               }
             ],
             "limeMin": 34
-          }
+          },
+          "roadKm": 13.9
         }
       }
     },
@@ -560,7 +566,8 @@
                 "min": 7
               }
             ]
-          }
+          },
+          "roadKm": 3.7
         },
         "rso": {
           "go": {
@@ -622,7 +629,8 @@
               }
             ],
             "limeMin": 28
-          }
+          },
+          "roadKm": 9.3
         }
       }
     },
@@ -711,7 +719,8 @@
                 "min": 4
               }
             ]
-          }
+          },
+          "roadKm": 7.8
         },
         "rso": {
           "go": {
@@ -766,7 +775,8 @@
               }
             ],
             "limeMin": 20
-          }
+          },
+          "roadKm": 6.0
         }
       }
     },
@@ -844,7 +854,8 @@
               }
             ],
             "limeMin": 21
-          }
+          },
+          "roadKm": 4.7
         },
         "rso": {
           "go": {
@@ -900,7 +911,8 @@
               }
             ],
             "limeMin": 23
-          }
+          },
+          "roadKm": 7.8
         }
       }
     },
@@ -994,7 +1006,8 @@
                 "min": 4
               }
             ]
-          }
+          },
+          "roadKm": 6.5
         },
         "rso": {
           "go": {
@@ -1044,7 +1057,8 @@
               }
             ],
             "limeMin": 26
-          }
+          },
+          "roadKm": 10.5
         }
       }
     },
@@ -1142,7 +1156,8 @@
                 "min": 8
               }
             ]
-          }
+          },
+          "roadKm": 6.5
         },
         "rso": {
           "go": {
@@ -1216,7 +1231,8 @@
               }
             ],
             "limeMin": 30
-          }
+          },
+          "roadKm": 7.1
         }
       }
     },
@@ -1328,7 +1344,8 @@
                 "min": 3
               }
             ]
-          }
+          },
+          "roadKm": 7.0
         },
         "rso": {
           "go": {
@@ -1378,7 +1395,8 @@
               }
             ],
             "limeMin": 25
-          }
+          },
+          "roadKm": 9.5
         }
       }
     },
@@ -1468,7 +1486,8 @@
                 "min": 4
               }
             ]
-          }
+          },
+          "roadKm": 6.9
         },
         "rso": {
           "go": {
@@ -1536,7 +1555,8 @@
               }
             ],
             "limeMin": 42
-          }
+          },
+          "roadKm": 15.7
         }
       }
     },
@@ -1642,7 +1662,8 @@
                 "min": 3
               }
             ]
-          }
+          },
+          "roadKm": 7.5
         },
         "rso": {
           "go": {
@@ -1704,7 +1725,8 @@
               }
             ],
             "limeMin": 32
-          }
+          },
+          "roadKm": 13.4
         }
       }
     },
@@ -1799,7 +1821,8 @@
               }
             ],
             "limeMin": 32
-          }
+          },
+          "roadKm": 8.0
         },
         "rso": {
           "go": {
@@ -1861,7 +1884,8 @@
               }
             ],
             "limeMin": 32
-          }
+          },
+          "roadKm": 13.5
         }
       }
     },
@@ -1961,7 +1985,8 @@
                 "min": 5
               }
             ]
-          }
+          },
+          "roadKm": 8.4
         },
         "rso": {
           "go": {
@@ -2028,7 +2053,8 @@
               }
             ],
             "limeMin": 44
-          }
+          },
+          "roadKm": 11.3
         }
       }
     }
@@ -2041,6 +2067,7 @@
     "back": "1 Ocak 05:00 kulüpten dönüş",
     "lime": "Lime yalnız 600 m üstü yürüyüşlerin (evden istasyona, aktarma arası, istasyondan kulübe) yerine düşünüldü; toplu taşıma bacağının yerine geçmiyor. Bu süre ölçüm değil tahmin (15 km/sa, +2 dk kilit açma/park).",
     "silvester": "Veride 31 Aralık gecesi U-Bahn ve S-Bahn bütün gece çalışıyor (1 Ocak 01:30 sorgusu: U8 15 dk arayla).",
-    "normalNight": "2 Ocak cumartesi 23:30 kalkışlı sorgu 13 evin 12sinde aynı süreyi verdi."
+    "normalNight": "2 Ocak cumartesi 23:30 kalkışlı sorgu 13 evin 12sinde aynı süreyi verdi.",
+    "road": "Taksi süresi ve yol mesafesi OSRM araç rotası (trafiksiz), ölçüm 16 Kasım 2026."
   }
 }
