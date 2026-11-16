@@ -148,7 +148,7 @@
   // ---- Night public transport (VBB timetable; Lime only as a marked estimate)
   const CLUBS = [['tresor', 'Tresor', "Tresor'a", "Tresor'dan"], ['rso', 'RSO', "RSO'ya", "RSO'dan"]];
   const legText = l => l.walkM != null ? `yürü ${l.min} dk` : `${l.line} ${l.min} dk`;
-  const limeText = e => Number.isFinite(e?.limeMin) && e.limeMin < e.min ? `Lime'la ≈ ${e.limeMin}` : '';
+  const limeText = e => Number.isFinite(e?.limeMin) && e.limeMin < e.min ? `yürüme yerine Lime ≈ ${e.limeMin}` : '';
   function transitBlock(it) {
     const t = it.transit;
     if (!t) return null;

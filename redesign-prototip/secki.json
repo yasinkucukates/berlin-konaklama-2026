@@ -2039,7 +2039,7 @@
     "source": "VBB sefer planı (HAFAS, v6.vbb.transport.rest), ölçüm 16 Kasım 2026 17:25 UTC.",
     "go": "31 Aralık 23:30 evden kalkış",
     "back": "1 Ocak 05:00 kulüpten dönüş",
-    "lime": "Lime süresi ölçüm değil tahmin: 600 m üstü yürüyüşler scooterla (15 km/sa, +2 dk kilit açma/park) yapılırsa.",
+    "lime": "Lime yalnız toplu taşımanın başındaki ya da sonundaki 600 m üstü yürüyüşün yerine düşünüldü; ev ile kulüp arasında doğrudan Lime rotası yok. Bu süre ölçüm değil tahmin (15 km/sa, +2 dk kilit açma/park).",
     "silvester": "Veride 31 Aralık gecesi U-Bahn ve S-Bahn bütün gece çalışıyor (1 Ocak 01:30 sorgusu: U8 15 dk arayla).",
     "normalNight": "2 Ocak cumartesi 23:30 kalkışlı sorgu 13 evin 12sinde aynı süreyi verdi."
   }
