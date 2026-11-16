@@ -215,6 +215,9 @@ body{background:
 .detail-panel .facts{margin:0 0 6px}
 .availability-full{margin:2px 0 10px!important;padding:9px 12px;border-radius:12px;background:rgba(232,246,237,.6);color:#1f5c3b;font-weight:650}
 .availability-full[data-status="unavailable"]{background:rgba(60,55,52,.1);color:#4a4440}
+.stay-card .media-flags .availability-status[data-status="unknown"]{background:#fff0d4;color:#68430e;border-color:#ead1a7}
+.stay-card .media-flags .availability-status[data-status="unknown"]::before{content:"!";display:grid;place-items:center;flex:none;width:14px;height:14px;border-radius:50%;background:#84530b;color:#fff;font-size:10px;animation:none}
+.availability-full[data-status="unknown"]{background:#fff0d4;color:#68430e}
 .overview-list{display:grid;grid-template-columns:1fr;gap:0;margin:6px 0 10px}
 .overview-list div{display:grid;grid-template-columns:120px minmax(0,1fr);gap:12px;padding:8px 0;border-bottom:1px solid rgba(116,99,81,.16)}
 .overview-list dt{color:#7a7067;font-weight:650}.overview-list dd{margin:0;color:#2b2622;font-weight:650}

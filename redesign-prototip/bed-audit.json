@@ -526,5 +526,13 @@
   "sweep12-booking-gneisenau-20261230-20270103": {
     "normalBeds": 5,
     "source": "https://www.booking.com/hotel/de/gneisenau.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+  },
+  "sweep14-airbnb-1102272642935452724-20261230-20270103": {
+    "normalBeds": 7,
+    "source": "https://www.airbnb.com.tr/rooms/1102272642935452724?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+  },
+  "sweep14-airbnb-973151040520236566-20261230-20270103": {
+    "normalBeds": 2,
+    "source": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
   }
 }

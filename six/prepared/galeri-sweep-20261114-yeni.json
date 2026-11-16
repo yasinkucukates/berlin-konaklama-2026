@@ -1,0 +1,122 @@
+[
+  {
+    "id": "sweep14-airbnb-1102272642935452724-20261230-20270103",
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "sourceId": "1102272642935452724",
+    "name": "Mitte | Nehir Kıyısında Yedi Yataklı Daire",
+    "originalName": "Riverside Family Apartment",
+    "area": "Mitte",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 9,
+    "maxAdults": 9,
+    "rooms": 2,
+    "baths": "1",
+    "beds": "2 çift kişilik, 5 tek kişilik yatak; 2 tanesi salonda.",
+    "features": "Alt kat dairesi; iki tek kişilik yatak salonda. İlan, turizm vergisinin varışta ayrıca ödeneceğini bildiriyor.",
+    "price": "1.600 €",
+    "priceEUR": 1600,
+    "priceStatus": "4 gecelik kaynak fiyatı; ek ücretleri kontrol edin",
+    "priceClass": "search",
+    "priceNote": "Alt kat dairesi; iki tek kişilik yatak salonda. İlan, turizm vergisinin varışta ayrıca ödeneceğini bildiriyor.",
+    "availabilityNote": "Airbnb 14.11.2026 tarihinde altı misafir ve dört gece için rezervasyon düğmesi gösterdi.",
+    "rsoCar": "21 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "8 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "İlanın yaklaşık konumundan OSRM trafiksiz araç hesabı; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.41025,52.48773;13.38612,52.52189;13.467,52.5078;13.3143,52.3651;13.4175,52.5243;13.40398,52.51269;13.505335,52.459912;13.419484,52.510681?sources=0;1;2;3;4;5&destinations=6;7&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com.tr/rooms/1102272642935452724?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "sourceURL": "https://www.airbnb.com.tr/rooms/1102272642935452724?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/airflow/Hosting-1102272642935452724/original/29586ed7-75a5-4b08-a4af-6af1f0b970f2.jpg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/airflow/Hosting-1102272642935452724/original/b13d0ded-2b88-4fc2-983a-19742615a217.jpg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/airflow/Hosting-1102272642935452724/original/dbb5836f-80f6-4702-95b9-30fbaad5212b.jpg"
+      ],
+      [
+        "İlan fotoğrafı 4",
+        "https://a0.muscache.com/im/pictures/airflow/Hosting-1102272642935452724/original/126f4222-a204-4322-a567-4e6b70a460a7.jpg"
+      ],
+      [
+        "İlan fotoğrafı 5",
+        "https://a0.muscache.com/im/pictures/airflow/Hosting-1102272642935452724/original/2ed5483f-69e5-42e6-b5be-25e03bb82ad6.jpg"
+      ],
+      [
+        "İlan fotoğrafı 6",
+        "https://a0.muscache.com/im/pictures/airflow/Hosting-1102272642935452724/original/31a5ccba-12eb-4cdc-b034-700856fd1542.jpg"
+      ],
+      [
+        "İlan fotoğrafı 7",
+        "https://a0.muscache.com/im/pictures/airflow/Hosting-1102272642935452724/original/d3ef5614-a090-4364-a9aa-8aa0a735e6ae.jpg"
+      ]
+    ],
+    "addedAt": "2026-11-14T12:40:09.253Z",
+    "nights": 4
+  },
+  {
+    "id": "sweep14-airbnb-973151040520236566-20261230-20270103",
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "sourceId": "973151040520236566",
+    "name": "Kreuzkölln | Authentic Berlin Apartment",
+    "originalName": "Authentic Berlin Apartment",
+    "area": "Kreuzberg / Neukölln",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 6,
+    "maxAdults": 6,
+    "rooms": 2,
+    "baths": "1",
+    "beds": "2 çift kişilik yatak ve salonda 1 çekyat.",
+    "features": "Altı kişiye ayrı yatak yok; çift yataklar ve çekyat paylaşılır. Toplamda vergi kapsamı teyitsiz.",
+    "price": "1.883 €",
+    "priceEUR": 1883,
+    "priceStatus": "4 gecelik kaynak fiyatı; ek ücretleri kontrol edin",
+    "priceClass": "search",
+    "priceNote": "Altı kişiye ayrı yatak yok; çift yataklar ve çekyat paylaşılır. Toplamda vergi kapsamı teyitsiz.",
+    "availabilityNote": "Airbnb 14.11.2026 tarihinde altı misafir ve dört gece için rezervasyon düğmesi gösterdi.",
+    "rsoCar": "15 dk",
+    "rsoTransit": "Kontrol edilmedi",
+    "tresorCar": "7 dk",
+    "tresorTransit": "Kontrol edilmedi",
+    "routeNote": "İlanın yaklaşık konumundan OSRM trafiksiz araç hesabı; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "routeSource": "https://router.project-osrm.org/table/v1/driving/13.41025,52.48773;13.38612,52.52189;13.467,52.5078;13.3143,52.3651;13.4175,52.5243;13.40398,52.51269;13.505335,52.459912;13.419484,52.510681?sources=0;1;2;3;4;5&destinations=6;7&annotations=duration,distance",
+    "sleepConfirmed": true,
+    "link": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "sourceURL": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
+    "photos": [
+      [
+        "İlan fotoğrafı 1",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-973151040520236566/original/34eabf26-72f7-41f9-9ae9-89bed75cdc2d.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 2",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-973151040520236566/original/59478f0f-4d3f-4e87-a8c9-4f9d769279f2.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 3",
+        "https://a0.muscache.com/im/pictures/ca15ae89-9d00-4589-9d85-0dd6279c557e.jpg"
+      ],
+      [
+        "İlan fotoğrafı 4",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-973151040520236566/original/268d3532-3a1b-4fd0-ad56-de103bc4ce59.jpeg"
+      ],
+      [
+        "İlan fotoğrafı 5",
+        "https://a0.muscache.com/im/pictures/7d52a21d-48dc-4127-b75b-26a1d895be19.jpg"
+      ]
+    ],
+    "addedAt": "2026-11-14T12:40:09.195Z",
+    "nights": 4
+  }
+]

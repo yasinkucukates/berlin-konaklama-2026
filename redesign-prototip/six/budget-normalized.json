@@ -1962,6 +1962,38 @@
       "sourceFile": "galeri-sweep-20261112-yeni.json",
       "sourcePriceText": "2.332,20 €",
       "notes": "KDV %7 dahil, 150 € temizlik toplama eklendi. Dökümde City Tax 0 € görünüyor ama \"Additional charges may apply\" yazıyor; City Tax (%7,5) tesiste ayrıca istenebilir, toplama eklenmedi."
+    },
+    {
+      "id": "sweep14-airbnb-1102272642935452724-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "amountEUR": 1600,
+      "currencyBasis": "native",
+      "band": "within",
+      "taxKnown": false,
+      "taxReserveFlag": true,
+      "sourceTaxStatus": "excluded",
+      "depositFlag": false,
+      "componentOnly": false,
+      "sourceFile": "galeri-sweep-20261114-yeni.json",
+      "sourcePriceText": "1.600 €",
+      "notes": "Alt kat dairesi; iki tek kişilik yatak salonda. İlan, turizm vergisinin varışta ayrıca ödeneceğini bildiriyor."
+    },
+    {
+      "id": "sweep14-airbnb-973151040520236566-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "amountEUR": 1883,
+      "currencyBasis": "native",
+      "band": "within",
+      "taxKnown": false,
+      "taxReserveFlag": true,
+      "sourceTaxStatus": "unknown",
+      "depositFlag": false,
+      "componentOnly": false,
+      "sourceFile": "galeri-sweep-20261114-yeni.json",
+      "sourcePriceText": "1.883 €",
+      "notes": "Altı kişiye ayrı yatak yok; çift yataklar ve çekyat paylaşılır. Toplamda vergi kapsamı teyitsiz."
     }
   ],
   "pairs": [
