@@ -96,6 +96,15 @@
       if (norm(admin) !== DEMO_ADMIN) return {ok: false, error: 'invalid'};
       const db = this.load(); db.closed = true; this.save(db); return {ok: true};
     },
+    async unvote(admin, code) {
+      await wait(250);
+      if (norm(admin) !== DEMO_ADMIN) return {ok: false, error: 'invalid'};
+      const hit = demoCodes.find(([c]) => c === norm(code));
+      if (!hit) return {ok: false, error: 'who'};
+      const db = this.load(), before = db.ballots.length;
+      db.ballots = db.ballots.filter(b => b.code !== hit[0]); this.save(db);
+      return {ok: true, removed: before - db.ballots.length};
+    },
     async reset() { localStorage.removeItem(PREVIEW_STORE); }
   };
   const remoteApi = {
@@ -110,7 +119,8 @@
     },
     check(code) { return this.post({action: 'check', code: norm(code)}); },
     vote(code, main, backup) { return this.post({action: 'vote', code: norm(code), main, backup}); },
-    close(admin) { return this.post({action: 'close', admin: norm(admin)}); }
+    close(admin) { return this.post({action: 'close', admin: norm(admin)}); },
+    unvote(admin, code) { return this.post({action: 'unvote', admin: norm(admin), code: norm(code)}); }
   };
   const api = preview ? localApi : remoteApi;
 
@@ -578,7 +588,12 @@
     foot.replaceChildren();
     foot.append(el('p', '', (preview ? `Önizleme: oylar yalnız bu tarayıcıda tutulur. Deneme şifreleri DENEME-1 … DENEME-${VOTERS}; oylamayı bitirmek için ${DEMO_ADMIN}. ` : '') + 'Artı ve eksiler kartlardaki kayıtlardan derlendi; fiyat ve müsaitlik son kontrole aittir.'));
     const buttons = el('div', 'secki-foot-buttons');
-    if (isOpen()) { const closeBtn = button('secki-quiet', 'Oylamayı bitir (yönetici)'); closeBtn.addEventListener('click', closeVote); buttons.append(closeBtn); }
+    if (isOpen()) {
+      const closeBtn = button('secki-quiet', 'Oylamayı bitir (yönetici)'); closeBtn.addEventListener('click', () => adminForm('close'));
+      // Someone's vote went wrong: the admin clears it and that code works again.
+      const undoBtn = button('secki-quiet', 'Bir oyu sıfırla (yönetici)'); undoBtn.addEventListener('click', () => adminForm('unvote'));
+      buttons.append(closeBtn, undoBtn);
+    }
     if (preview) {
       const resetBtn = button('secki-quiet', 'Önizlemeyi sıfırla');
       resetBtn.addEventListener('click', async () => {
@@ -591,29 +606,36 @@
     if (buttons.childNodes.length) foot.append(buttons);
   }
 
-  // Closing: a small inline form for the admin code (no browser dialogs).
+  // Admin actions: a small inline form for the admin code (no browser dialogs).
+  // "close" ends the vote; "unvote" clears one person's vote so their code works again.
   let closing = null;
-  function closeVote() {
-    if (closing) { closing.querySelector('input')?.focus(); return; }
+  function adminForm(kind) {
+    if (closing) closing.remove();
     closing = el('div', 'secki-admin');
+    const who = el('input', 'secki-code-input'); Object.assign(who, {type: 'text', placeholder: 'Kimin oyu? (şifresi)', autocomplete: 'off'});
     const input = el('input', 'secki-code-input'); Object.assign(input, {type: 'password', placeholder: 'Yönetici şifresi', autocomplete: 'off'});
-    const ok = button('secki-submit', 'Oylamayı bitir'), no = button('secki-cancel', 'Vazgeç');
+    const ok = button('secki-submit', kind === 'close' ? 'Oylamayı bitir' : 'Oyu sıfırla'), no = button('secki-cancel', 'Vazgeç');
     const msg = el('span', 'secki-code-who');
+    if (kind === 'unvote') closing.append(who);
     closing.append(input, ok, no, msg);
     foot.after(closing);
-    input.focus();
+    (kind === 'unvote' ? who : input).focus();
     no.addEventListener('click', () => { closing.remove(); closing = null; });
     const go = async () => {
+      if (kind === 'unvote' && norm(who.value).length < 3) { msg.textContent = 'Kimin oyu sıfırlanacak, şifresini yaz.'; return; }
       ok.disabled = true; msg.textContent = 'Gönderiliyor…';
       try {
-        const r = await api.close(input.value);
-        if (r && r.ok) { closing.remove(); closing = null; await refresh(); return; }
-        msg.textContent = 'Şifre tanınmadı.';
+        const r = kind === 'close' ? await api.close(input.value) : await api.unvote(input.value, who.value);
+        if (r && r.ok) {
+          if (kind === 'unvote') { msg.textContent = r.removed ? 'Oy silindi; bu şifreyle yeniden oy verilebilir.' : 'Bu şifreyle verilmiş oy yok.'; ok.disabled = false; await refresh(); return; }
+          closing.remove(); closing = null; await refresh(); return;
+        }
+        msg.textContent = r && r.error === 'who' ? 'Bu şifre bir seçmene ait değil.' : 'Yönetici şifresi tanınmadı.';
       } catch (_) { msg.textContent = 'Gönderilemedi.'; }
       ok.disabled = false;
     };
     ok.addEventListener('click', go);
-    input.addEventListener('keydown', event => { if (event.key === 'Enter') go(); });
+    [who, input].forEach(field => field.addEventListener('keydown', event => { if (event.key === 'Enter') go(); }));
   }
 
   function renderResults() {
