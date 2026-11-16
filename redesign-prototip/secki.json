@@ -34,6 +34,141 @@
         "cleaningEur": 150,
         "allInConfirmed": false,
         "sourceUrl": "https://www.booking.com/hotel/de/gneisenau.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 20,
+            "transfers": 1,
+            "lines": [
+              "U7",
+              "U8"
+            ],
+            "walkMin": 6,
+            "legs": [
+              {
+                "walkM": 141,
+                "min": 2
+              },
+              {
+                "line": "U7",
+                "stops": "Mehringdamm-Hermannplatz",
+                "min": 5
+              },
+              {
+                "line": "U8",
+                "stops": "Hermannplatz-Heinrich-Heine-Str.",
+                "min": 7
+              },
+              {
+                "walkM": 278,
+                "min": 4
+              }
+            ]
+          },
+          "back": {
+            "min": 35,
+            "transfers": 2,
+            "lines": [
+              "N65",
+              "S3",
+              "U6"
+            ],
+            "walkMin": 6,
+            "legs": [
+              {
+                "walkM": 278,
+                "min": 4
+              },
+              {
+                "line": "N65",
+                "stops": "Heinrich-Heine-Str.-Jannowitzbrücke",
+                "min": 1
+              },
+              {
+                "line": "S3",
+                "stops": "Jannowitzbrücke-Friedrichstr. Bhf",
+                "min": 6
+              },
+              {
+                "line": "U6",
+                "stops": "Friedrichstr. Bhf-Mehringdamm",
+                "min": 7
+              },
+              {
+                "walkM": 141,
+                "min": 2
+              }
+            ]
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 37,
+            "transfers": 2,
+            "lines": [
+              "U6",
+              "S46",
+              "165"
+            ],
+            "walkMin": 5,
+            "legs": [
+              {
+                "walkM": 141,
+                "min": 2
+              },
+              {
+                "line": "U6",
+                "stops": "Mehringdamm-Tempelhof",
+                "min": 5
+              },
+              {
+                "line": "S46",
+                "stops": "Tempelhof-Schöneweide Bhf",
+                "min": 13
+              },
+              {
+                "line": "165",
+                "stops": "Schöneweide Bhf-Obrikatstr.",
+                "min": 1
+              },
+              {
+                "walkM": 192,
+                "min": 3
+              }
+            ]
+          },
+          "back": {
+            "min": 42,
+            "transfers": 1,
+            "lines": [
+              "S46",
+              "U7"
+            ],
+            "walkMin": 14,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S46",
+                "stops": "Schöneweide Bhf-Neukölln",
+                "min": 7
+              },
+              {
+                "line": "U7",
+                "stops": "Neukölln-Mehringdamm",
+                "min": 9
+              },
+              {
+                "walkM": 141,
+                "min": 2
+              }
+            ],
+            "limeMin": 36
+          }
+        }
       }
     },
     {
@@ -62,6 +197,123 @@
         "cleaningEur": 165,
         "allInConfirmed": true,
         "sourceUrl": "https://www.booking.com/hotel/de/stilvolle-6-zimmer-ferienwohnung-mit-2-badern.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 25,
+            "transfers": 1,
+            "lines": [
+              "U7",
+              "U8"
+            ],
+            "walkMin": 9,
+            "legs": [
+              {
+                "walkM": 330,
+                "min": 5
+              },
+              {
+                "line": "U7",
+                "stops": "Neukölln-Hermannplatz",
+                "min": 4
+              },
+              {
+                "line": "U8",
+                "stops": "Hermannplatz-Heinrich-Heine-Str.",
+                "min": 7
+              },
+              {
+                "walkM": 278,
+                "min": 4
+              }
+            ]
+          },
+          "back": {
+            "min": 24,
+            "transfers": 1,
+            "lines": [
+              "U8",
+              "U7"
+            ],
+            "walkMin": 9,
+            "legs": [
+              {
+                "walkM": 278,
+                "min": 4
+              },
+              {
+                "line": "U8",
+                "stops": "Heinrich-Heine-Str.-Hermannplatz",
+                "min": 8
+              },
+              {
+                "line": "U7",
+                "stops": "Hermannplatz-Neukölln",
+                "min": 4
+              },
+              {
+                "walkM": 330,
+                "min": 5
+              }
+            ]
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 21,
+            "transfers": 1,
+            "lines": [
+              "S46",
+              "165"
+            ],
+            "walkMin": 8,
+            "legs": [
+              {
+                "walkM": 330,
+                "min": 5
+              },
+              {
+                "line": "S46",
+                "stops": "Neukölln-Schöneweide Bhf",
+                "min": 7
+              },
+              {
+                "line": "165",
+                "stops": "Schöneweide Bhf-Obrikatstr.",
+                "min": 1
+              },
+              {
+                "walkM": 192,
+                "min": 3
+              }
+            ]
+          },
+          "back": {
+            "min": 24,
+            "transfers": 0,
+            "lines": [
+              "S46"
+            ],
+            "walkMin": 17,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S46",
+                "stops": "Schöneweide Bhf-Neukölln",
+                "min": 7
+              },
+              {
+                "walkM": 330,
+                "min": 5
+              }
+            ],
+            "limeMin": 18
+          }
+        }
       }
     },
     {
@@ -89,6 +341,138 @@
         "cleaningEur": 59,
         "allInConfirmed": false,
         "sourceUrl": "https://www.booking.com/hotel/de/sonnig-und-helle-wohnung-alexanderplatz-in-15min-zu-erreichen-sehr-schon-und-gro.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1&selected_currency=EUR#room_951491101"
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 29,
+            "transfers": 1,
+            "lines": [
+              "M2",
+              "U8"
+            ],
+            "walkMin": 10,
+            "legs": [
+              {
+                "walkM": 286,
+                "min": 4
+              },
+              {
+                "line": "M2",
+                "stops": "Prenzlauer Allee/Ostseestr.-Alexanderplatz Bhf/Dircksenstr.",
+                "min": 14
+              },
+              {
+                "walkM": 45,
+                "min": 2
+              },
+              {
+                "line": "U8",
+                "stops": "Alexanderplatz Bhf-Heinrich-Heine-Str.",
+                "min": 3
+              },
+              {
+                "walkM": 278,
+                "min": 4
+              }
+            ]
+          },
+          "back": {
+            "min": 42,
+            "transfers": 0,
+            "lines": [
+              "U2"
+            ],
+            "walkMin": 30,
+            "legs": [
+              {
+                "walkM": 821,
+                "min": 11
+              },
+              {
+                "line": "U2",
+                "stops": "Märkisches Museum-Schönhauser Allee",
+                "min": 12
+              },
+              {
+                "walkM": 1393,
+                "min": 19
+              }
+            ],
+            "limeMin": 26
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 45,
+            "transfers": 2,
+            "lines": [
+              "M2",
+              "S41",
+              "165"
+            ],
+            "walkMin": 13,
+            "legs": [
+              {
+                "walkM": 286,
+                "min": 4
+              },
+              {
+                "line": "M2",
+                "stops": "Prenzlauer Allee/Ostseestr.-Prenzlauer Allee",
+                "min": 3
+              },
+              {
+                "line": "S41",
+                "stops": "Prenzlauer Allee-Treptower Park",
+                "min": 13
+              },
+              {
+                "walkM": 229,
+                "min": 6
+              },
+              {
+                "line": "165",
+                "stops": "Elsenstr./S Treptower Park-Obrikatstr.",
+                "min": 12
+              },
+              {
+                "walkM": 192,
+                "min": 3
+              }
+            ]
+          },
+          "back": {
+            "min": 47,
+            "transfers": 1,
+            "lines": [
+              "S8",
+              "S42"
+            ],
+            "walkMin": 26,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S8",
+                "stops": "Schöneweide Bhf-Treptower Park",
+                "min": 7
+              },
+              {
+                "line": "S42",
+                "stops": "Treptower Park-Prenzlauer Allee",
+                "min": 13
+              },
+              {
+                "walkM": 1028,
+                "min": 14
+              }
+            ],
+            "limeMin": 34
+          }
+        }
       }
     },
     {
@@ -116,6 +500,130 @@
         "cleaningEur": 390,
         "allInConfirmed": true,
         "sourceUrl": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 22,
+            "transfers": 1,
+            "lines": [
+              "U5",
+              "U8"
+            ],
+            "walkMin": 11,
+            "legs": [
+              {
+                "walkM": 502,
+                "min": 7
+              },
+              {
+                "line": "U5",
+                "stops": "Frankfurter Tor-Alexanderplatz Bhf",
+                "min": 6
+              },
+              {
+                "line": "U8",
+                "stops": "Alexanderplatz Bhf-Heinrich-Heine-Str.",
+                "min": 3
+              },
+              {
+                "walkM": 278,
+                "min": 4
+              }
+            ]
+          },
+          "back": {
+            "min": 22,
+            "transfers": 1,
+            "lines": [
+              "U8",
+              "U5"
+            ],
+            "walkMin": 11,
+            "legs": [
+              {
+                "walkM": 278,
+                "min": 4
+              },
+              {
+                "line": "U8",
+                "stops": "Heinrich-Heine-Str.-Alexanderplatz Bhf",
+                "min": 3
+              },
+              {
+                "line": "U5",
+                "stops": "Alexanderplatz Bhf-Frankfurter Tor",
+                "min": 6
+              },
+              {
+                "walkM": 502,
+                "min": 7
+              }
+            ]
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 44,
+            "transfers": 1,
+            "lines": [
+              "S41",
+              "S9"
+            ],
+            "walkMin": 27,
+            "legs": [
+              {
+                "walkM": 1066,
+                "min": 15
+              },
+              {
+                "line": "S41",
+                "stops": "Storkower Str.-Treptower Park",
+                "min": 6
+              },
+              {
+                "line": "S9",
+                "stops": "Treptower Park-Schöneweide Bhf",
+                "min": 8
+              },
+              {
+                "walkM": 873,
+                "min": 12
+              }
+            ],
+            "limeMin": 30
+          },
+          "back": {
+            "min": 42,
+            "transfers": 1,
+            "lines": [
+              "S8",
+              "S42"
+            ],
+            "walkMin": 27,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S8",
+                "stops": "Schöneweide Bhf-Treptower Park",
+                "min": 7
+              },
+              {
+                "line": "S42",
+                "stops": "Treptower Park-Storkower Str.",
+                "min": 7
+              },
+              {
+                "walkM": 1066,
+                "min": 15
+              }
+            ],
+            "limeMin": 28
+          }
+        }
       }
     },
     {
@@ -143,6 +651,123 @@
         "cleaningEur": null,
         "allInConfirmed": true,
         "sourceUrl": "https://www.booking.com/hotel/de/britzer-tor.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 25,
+            "transfers": 1,
+            "lines": [
+              "U7",
+              "U8"
+            ],
+            "walkMin": 8,
+            "legs": [
+              {
+                "walkM": 298,
+                "min": 4
+              },
+              {
+                "line": "U7",
+                "stops": "Grenzallee-Hermannplatz",
+                "min": 5
+              },
+              {
+                "line": "U8",
+                "stops": "Hermannplatz-Heinrich-Heine-Str.",
+                "min": 7
+              },
+              {
+                "walkM": 278,
+                "min": 4
+              }
+            ]
+          },
+          "back": {
+            "min": 25,
+            "transfers": 1,
+            "lines": [
+              "U8",
+              "U7"
+            ],
+            "walkMin": 8,
+            "legs": [
+              {
+                "walkM": 278,
+                "min": 4
+              },
+              {
+                "line": "U8",
+                "stops": "Heinrich-Heine-Str.-Hermannplatz",
+                "min": 8
+              },
+              {
+                "line": "U7",
+                "stops": "Hermannplatz-Grenzallee",
+                "min": 6
+              },
+              {
+                "walkM": 298,
+                "min": 4
+              }
+            ]
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 23,
+            "transfers": 1,
+            "lines": [
+              "S46",
+              "165"
+            ],
+            "walkMin": 10,
+            "legs": [
+              {
+                "walkM": 501,
+                "min": 7
+              },
+              {
+                "line": "S46",
+                "stops": "Neukölln-Schöneweide Bhf",
+                "min": 7
+              },
+              {
+                "line": "165",
+                "stops": "Schöneweide Bhf-Obrikatstr.",
+                "min": 1
+              },
+              {
+                "walkM": 192,
+                "min": 3
+              }
+            ]
+          },
+          "back": {
+            "min": 26,
+            "transfers": 0,
+            "lines": [
+              "S46"
+            ],
+            "walkMin": 19,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S46",
+                "stops": "Schöneweide Bhf-Neukölln",
+                "min": 7
+              },
+              {
+                "walkM": 501,
+                "min": 7
+              }
+            ],
+            "limeMin": 20
+          }
+        }
       }
     },
     {
@@ -169,6 +794,114 @@
         "cleaningEur": 135,
         "allInConfirmed": true,
         "sourceUrl": "https://www.booking.com/hotel/de/modern-accommodation-neukoln.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 22,
+            "transfers": 0,
+            "lines": [
+              "U8"
+            ],
+            "walkMin": 13,
+            "legs": [
+              {
+                "walkM": 657,
+                "min": 9
+              },
+              {
+                "line": "U8",
+                "stops": "Boddinstr.-Heinrich-Heine-Str.",
+                "min": 9
+              },
+              {
+                "walkM": 278,
+                "min": 4
+              }
+            ],
+            "limeMin": 18
+          },
+          "back": {
+            "min": 25,
+            "transfers": 0,
+            "lines": [
+              "U8"
+            ],
+            "walkMin": 13,
+            "legs": [
+              {
+                "walkM": 278,
+                "min": 4
+              },
+              {
+                "line": "U8",
+                "stops": "Heinrich-Heine-Str.-Boddinstr.",
+                "min": 12
+              },
+              {
+                "walkM": 657,
+                "min": 9
+              }
+            ],
+            "limeMin": 21
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 38,
+            "transfers": 1,
+            "lines": [
+              "U8",
+              "S47"
+            ],
+            "walkMin": 23,
+            "legs": [
+              {
+                "walkM": 791,
+                "min": 11
+              },
+              {
+                "line": "U8",
+                "stops": "Leinestr.-Hermannstr.",
+                "min": 1
+              },
+              {
+                "line": "S47",
+                "stops": "Hermannstr.-Schöneweide Bhf",
+                "min": 9
+              },
+              {
+                "walkM": 873,
+                "min": 12
+              }
+            ],
+            "limeMin": 27
+          },
+          "back": {
+            "min": 40,
+            "transfers": 0,
+            "lines": [
+              "S46"
+            ],
+            "walkMin": 31,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S46",
+                "stops": "Schöneweide Bhf-Hermannstr.",
+                "min": 9
+              },
+              {
+                "walkM": 1396,
+                "min": 19
+              }
+            ],
+            "limeMin": 23
+          }
+        }
       }
     },
     {
@@ -195,6 +928,124 @@
         "cleaningEur": null,
         "allInConfirmed": false,
         "sourceUrl": "https://www.airbnb.com/rooms/38533401?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 31,
+            "transfers": 1,
+            "lines": [
+              "S47",
+              "U8"
+            ],
+            "walkMin": 12,
+            "legs": [
+              {
+                "walkM": 562,
+                "min": 8
+              },
+              {
+                "line": "S47",
+                "stops": "Tempelhof-Hermannstr.",
+                "min": 3
+              },
+              {
+                "line": "U8",
+                "stops": "Hermannstr.-Heinrich-Heine-Str.",
+                "min": 12
+              },
+              {
+                "walkM": 278,
+                "min": 4
+              }
+            ]
+          },
+          "back": {
+            "min": 43,
+            "transfers": 2,
+            "lines": [
+              "N65",
+              "S3",
+              "U6"
+            ],
+            "walkMin": 8,
+            "legs": [
+              {
+                "walkM": 278,
+                "min": 4
+              },
+              {
+                "line": "N65",
+                "stops": "Heinrich-Heine-Str.-Jannowitzbrücke",
+                "min": 1
+              },
+              {
+                "line": "S3",
+                "stops": "Jannowitzbrücke-Friedrichstr. Bhf",
+                "min": 6
+              },
+              {
+                "line": "U6",
+                "stops": "Friedrichstr. Bhf-Alt-Tempelhof",
+                "min": 13
+              },
+              {
+                "walkM": 286,
+                "min": 4
+              }
+            ]
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 33,
+            "transfers": 0,
+            "lines": [
+              "S47"
+            ],
+            "walkMin": 20,
+            "legs": [
+              {
+                "walkM": 562,
+                "min": 8
+              },
+              {
+                "line": "S47",
+                "stops": "Tempelhof-Schöneweide Bhf",
+                "min": 13
+              },
+              {
+                "walkM": 873,
+                "min": 12
+              }
+            ],
+            "limeMin": 27
+          },
+          "back": {
+            "min": 32,
+            "transfers": 0,
+            "lines": [
+              "S46"
+            ],
+            "walkMin": 20,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S46",
+                "stops": "Schöneweide Bhf-Tempelhof",
+                "min": 12
+              },
+              {
+                "walkM": 562,
+                "min": 8
+              }
+            ],
+            "limeMin": 26
+          }
+        }
       }
     },
     {
@@ -221,6 +1072,152 @@
         "cleaningEur": 0,
         "allInConfirmed": false,
         "sourceUrl": "https://www.traum-ferienwohnungen.de/93211/?arrival=2026-12-30&departure=2027-01-03&persons=6"
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 27,
+            "transfers": 1,
+            "lines": [
+              "S7",
+              "U8"
+            ],
+            "walkMin": 12,
+            "legs": [
+              {
+                "walkM": 564,
+                "min": 8
+              },
+              {
+                "line": "S7",
+                "stops": "Nöldnerplatz-Jannowitzbrücke",
+                "min": 9
+              },
+              {
+                "line": "U8",
+                "stops": "Jannowitzbrücke-Heinrich-Heine-Str.",
+                "min": 2
+              },
+              {
+                "walkM": 278,
+                "min": 4
+              }
+            ]
+          },
+          "back": {
+            "min": 34,
+            "transfers": 2,
+            "lines": [
+              "N60",
+              "S42",
+              "S75"
+            ],
+            "walkMin": 17,
+            "legs": [
+              {
+                "walkM": 190,
+                "min": 3
+              },
+              {
+                "line": "N60",
+                "stops": "Michaelkirchstr.-Elsenstr./S Treptower Park",
+                "min": 9
+              },
+              {
+                "walkM": 229,
+                "min": 6
+              },
+              {
+                "line": "S42",
+                "stops": "Treptower Park-Ostkreuz Bhf",
+                "min": 2
+              },
+              {
+                "line": "S75",
+                "stops": "Ostkreuz Bhf-Nöldnerplatz",
+                "min": 2
+              },
+              {
+                "walkM": 564,
+                "min": 8
+              }
+            ]
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 40,
+            "transfers": 2,
+            "lines": [
+              "S7",
+              "S8",
+              "S47"
+            ],
+            "walkMin": 20,
+            "legs": [
+              {
+                "walkM": 564,
+                "min": 8
+              },
+              {
+                "line": "S7",
+                "stops": "Nöldnerplatz-Ostkreuz Bhf",
+                "min": 2
+              },
+              {
+                "line": "S8",
+                "stops": "Ostkreuz Bhf-Baumschulenweg",
+                "min": 7
+              },
+              {
+                "line": "S47",
+                "stops": "Baumschulenweg-Schöneweide Bhf",
+                "min": 2
+              },
+              {
+                "walkM": 873,
+                "min": 12
+              }
+            ],
+            "limeMin": 34
+          },
+          "back": {
+            "min": 36,
+            "transfers": 2,
+            "lines": [
+              "S8",
+              "S42",
+              "S75"
+            ],
+            "walkMin": 20,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S8",
+                "stops": "Schöneweide Bhf-Treptower Park",
+                "min": 7
+              },
+              {
+                "line": "S42",
+                "stops": "Treptower Park-Ostkreuz Bhf",
+                "min": 2
+              },
+              {
+                "line": "S75",
+                "stops": "Ostkreuz Bhf-Nöldnerplatz",
+                "min": 2
+              },
+              {
+                "walkM": 564,
+                "min": 8
+              }
+            ],
+            "limeMin": 30
+          }
+        }
       }
     },
     {
@@ -247,6 +1244,142 @@
         "cleaningEur": null,
         "allInConfirmed": false,
         "sourceUrl": "https://www.airbnb.com/rooms/34301098?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 34,
+            "transfers": 3,
+            "lines": [
+              "246",
+              "U6",
+              "U7",
+              "U8"
+            ],
+            "walkMin": 7,
+            "legs": [
+              {
+                "walkM": 207,
+                "min": 3
+              },
+              {
+                "line": "246",
+                "stops": "Felixstr.-Alt-Tempelhof",
+                "min": 1
+              },
+              {
+                "line": "U6",
+                "stops": "Alt-Tempelhof-Mehringdamm",
+                "min": 7
+              },
+              {
+                "line": "U7",
+                "stops": "Mehringdamm-Hermannplatz",
+                "min": 5
+              },
+              {
+                "line": "U8",
+                "stops": "Hermannplatz-Heinrich-Heine-Str.",
+                "min": 7
+              },
+              {
+                "walkM": 278,
+                "min": 4
+              }
+            ]
+          },
+          "back": {
+            "min": 48,
+            "transfers": 3,
+            "lines": [
+              "N65",
+              "S3",
+              "U6",
+              "M46"
+            ],
+            "walkMin": 7,
+            "legs": [
+              {
+                "walkM": 278,
+                "min": 4
+              },
+              {
+                "line": "N65",
+                "stops": "Heinrich-Heine-Str.-Jannowitzbrücke",
+                "min": 1
+              },
+              {
+                "line": "S3",
+                "stops": "Jannowitzbrücke-Friedrichstr. Bhf",
+                "min": 6
+              },
+              {
+                "line": "U6",
+                "stops": "Friedrichstr. Bhf-Alt-Tempelhof",
+                "min": 13
+              },
+              {
+                "line": "M46",
+                "stops": "Alt-Tempelhof-Felixstr.",
+                "min": 2
+              },
+              {
+                "walkM": 207,
+                "min": 3
+              }
+            ]
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 40,
+            "transfers": 0,
+            "lines": [
+              "S47"
+            ],
+            "walkMin": 27,
+            "legs": [
+              {
+                "walkM": 1062,
+                "min": 15
+              },
+              {
+                "line": "S47",
+                "stops": "Tempelhof-Schöneweide Bhf",
+                "min": 13
+              },
+              {
+                "walkM": 873,
+                "min": 12
+              }
+            ],
+            "limeMin": 26
+          },
+          "back": {
+            "min": 39,
+            "transfers": 0,
+            "lines": [
+              "S46"
+            ],
+            "walkMin": 27,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S46",
+                "stops": "Schöneweide Bhf-Tempelhof",
+                "min": 12
+              },
+              {
+                "walkM": 1062,
+                "min": 15
+              }
+            ],
+            "limeMin": 25
+          }
+        }
       }
     },
     {
@@ -274,6 +1407,137 @@
         "allInConfirmed": false,
         "sourceUrl": "https://www.airbnb.com.tr/rooms/14314574?adults=6&check_in=2026-12-30&check_out=2027-01-01&currency=EUR",
         "available4Nights": false
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 36,
+            "transfers": 1,
+            "lines": [
+              "123",
+              "S7"
+            ],
+            "walkMin": 14,
+            "legs": [
+              {
+                "walkM": 305,
+                "min": 4
+              },
+              {
+                "line": "123",
+                "stops": "Stendaler Str.-Berlin Hauptbahnhof",
+                "min": 8
+              },
+              {
+                "line": "S7",
+                "stops": "Berlin Hauptbahnhof-Jannowitzbrücke",
+                "min": 8
+              },
+              {
+                "walkM": 707,
+                "min": 10
+              }
+            ],
+            "limeMin": 31
+          },
+          "back": {
+            "min": 33,
+            "transfers": 1,
+            "lines": [
+              "U8",
+              "M27"
+            ],
+            "walkMin": 8,
+            "legs": [
+              {
+                "walkM": 278,
+                "min": 4
+              },
+              {
+                "line": "U8",
+                "stops": "Heinrich-Heine-Str.-Pankstr.",
+                "min": 12
+              },
+              {
+                "line": "M27",
+                "stops": "Pankstr.-Stendaler Str.",
+                "min": 7
+              },
+              {
+                "walkM": 305,
+                "min": 4
+              }
+            ]
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 56,
+            "transfers": 2,
+            "lines": [
+              "S41",
+              "S9",
+              "N60"
+            ],
+            "walkMin": 15,
+            "legs": [
+              {
+                "walkM": 883,
+                "min": 12
+              },
+              {
+                "line": "S41",
+                "stops": "Westhafen-Treptower Park",
+                "min": 22
+              },
+              {
+                "line": "S9",
+                "stops": "Treptower Park-Schöneweide Bhf",
+                "min": 8
+              },
+              {
+                "line": "N60",
+                "stops": "Schöneweide Bhf-Obrikatstr.",
+                "min": 0
+              },
+              {
+                "walkM": 192,
+                "min": 3
+              }
+            ],
+            "limeMin": 50
+          },
+          "back": {
+            "min": 54,
+            "transfers": 1,
+            "lines": [
+              "S8",
+              "S42"
+            ],
+            "walkMin": 24,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S8",
+                "stops": "Schöneweide Bhf-Treptower Park",
+                "min": 7
+              },
+              {
+                "line": "S42",
+                "stops": "Treptower Park-Westhafen",
+                "min": 22
+              },
+              {
+                "walkM": 883,
+                "min": 12
+              }
+            ],
+            "limeMin": 42
+          }
+        }
       }
     },
     {
@@ -300,6 +1564,148 @@
         "cleaningEur": null,
         "allInConfirmed": false,
         "sourceUrl": "https://www.airbnb.com/rooms/1591873645675719304?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 33,
+            "transfers": 2,
+            "lines": [
+              "M48",
+              "U7",
+              "U8"
+            ],
+            "walkMin": 7,
+            "legs": [
+              {
+                "walkM": 228,
+                "min": 3
+              },
+              {
+                "line": "M48",
+                "stops": "Dominicusstr./Hauptstr.-Kleistpark",
+                "min": 4
+              },
+              {
+                "line": "U7",
+                "stops": "Kleistpark-Hermannplatz",
+                "min": 10
+              },
+              {
+                "line": "U8",
+                "stops": "Hermannplatz-Heinrich-Heine-Str.",
+                "min": 7
+              },
+              {
+                "walkM": 278,
+                "min": 4
+              }
+            ]
+          },
+          "back": {
+            "min": 47,
+            "transfers": 3,
+            "lines": [
+              "N65",
+              "S3",
+              "S25",
+              "M46"
+            ],
+            "walkMin": 7,
+            "legs": [
+              {
+                "walkM": 278,
+                "min": 4
+              },
+              {
+                "line": "N65",
+                "stops": "Heinrich-Heine-Str.-Jannowitzbrücke",
+                "min": 1
+              },
+              {
+                "line": "S3",
+                "stops": "Jannowitzbrücke-Friedrichstr. Bhf",
+                "min": 6
+              },
+              {
+                "line": "S25",
+                "stops": "Friedrichstr. Bhf-Südkreuz Bhf",
+                "min": 11
+              },
+              {
+                "line": "M46",
+                "stops": "Südkreuz Bhf-Dominicusstr./Hauptstr.",
+                "min": 5
+              },
+              {
+                "walkM": 228,
+                "min": 3
+              }
+            ]
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 37,
+            "transfers": 1,
+            "lines": [
+              "S42",
+              "S47"
+            ],
+            "walkMin": 17,
+            "legs": [
+              {
+                "walkM": 352,
+                "min": 5
+              },
+              {
+                "line": "S42",
+                "stops": "Schöneberg-Südkreuz Bhf",
+                "min": 2
+              },
+              {
+                "line": "S47",
+                "stops": "Südkreuz Bhf-Schöneweide Bhf",
+                "min": 15
+              },
+              {
+                "walkM": 873,
+                "min": 12
+              }
+            ],
+            "limeMin": 31
+          },
+          "back": {
+            "min": 38,
+            "transfers": 1,
+            "lines": [
+              "S46",
+              "S41"
+            ],
+            "walkMin": 17,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S46",
+                "stops": "Schöneweide Bhf-Südkreuz Bhf",
+                "min": 15
+              },
+              {
+                "line": "S41",
+                "stops": "Südkreuz Bhf-Schöneberg",
+                "min": 2
+              },
+              {
+                "walkM": 352,
+                "min": 5
+              }
+            ],
+            "limeMin": 32
+          }
+        }
       }
     },
     {
@@ -326,6 +1732,137 @@
         "cleaningEur": null,
         "allInConfirmed": true,
         "sourceUrl": "https://www.airbnb.com/rooms/14381251?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 34,
+            "transfers": 2,
+            "lines": [
+              "M48",
+              "U7",
+              "U8"
+            ],
+            "walkMin": 7,
+            "legs": [
+              {
+                "walkM": 195,
+                "min": 3
+              },
+              {
+                "line": "M48",
+                "stops": "Hauptstr./Martin-Luther-Str.-Kleistpark",
+                "min": 5
+              },
+              {
+                "line": "U7",
+                "stops": "Kleistpark-Hermannplatz",
+                "min": 10
+              },
+              {
+                "line": "U8",
+                "stops": "Hermannplatz-Heinrich-Heine-Str.",
+                "min": 7
+              },
+              {
+                "walkM": 278,
+                "min": 4
+              }
+            ]
+          },
+          "back": {
+            "min": 37,
+            "transfers": 1,
+            "lines": [
+              "U2",
+              "U4"
+            ],
+            "walkMin": 15,
+            "legs": [
+              {
+                "walkM": 821,
+                "min": 11
+              },
+              {
+                "line": "U2",
+                "stops": "Märkisches Museum-Nollendorfplatz",
+                "min": 14
+              },
+              {
+                "line": "U4",
+                "stops": "Nollendorfplatz-Innsbrucker Platz",
+                "min": 6
+              },
+              {
+                "walkM": 307,
+                "min": 4
+              }
+            ],
+            "limeMin": 32
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 37,
+            "transfers": 1,
+            "lines": [
+              "S42",
+              "S47"
+            ],
+            "walkMin": 16,
+            "legs": [
+              {
+                "walkM": 307,
+                "min": 4
+              },
+              {
+                "line": "S42",
+                "stops": "Innsbrucker Platz-Neukölln",
+                "min": 11
+              },
+              {
+                "line": "S47",
+                "stops": "Neukölln-Schöneweide Bhf",
+                "min": 7
+              },
+              {
+                "walkM": 873,
+                "min": 12
+              }
+            ],
+            "limeMin": 31
+          },
+          "back": {
+            "min": 38,
+            "transfers": 1,
+            "lines": [
+              "S46",
+              "S41"
+            ],
+            "walkMin": 16,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S46",
+                "stops": "Schöneweide Bhf-Tempelhof",
+                "min": 12
+              },
+              {
+                "line": "S41",
+                "stops": "Tempelhof-Innsbrucker Platz",
+                "min": 5
+              },
+              {
+                "walkM": 307,
+                "min": 4
+              }
+            ],
+            "limeMin": 32
+          }
+        }
       }
     },
     {
@@ -352,9 +1889,158 @@
         "cleaningEur": null,
         "allInConfirmed": false,
         "sourceUrl": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p2714753?startDate=2026-12-30&endDate=2027-01-03&adults=6"
+      },
+      "transit": {
+        "tresor": {
+          "go": {
+            "min": 36,
+            "transfers": 2,
+            "lines": [
+              "U6",
+              "U7",
+              "U8"
+            ],
+            "walkMin": 9,
+            "legs": [
+              {
+                "walkM": 331,
+                "min": 5
+              },
+              {
+                "line": "U6",
+                "stops": "Westphalweg-Mehringdamm",
+                "min": 11
+              },
+              {
+                "line": "U7",
+                "stops": "Mehringdamm-Hermannplatz",
+                "min": 5
+              },
+              {
+                "line": "U8",
+                "stops": "Hermannplatz-Heinrich-Heine-Str.",
+                "min": 7
+              },
+              {
+                "walkM": 278,
+                "min": 4
+              }
+            ]
+          },
+          "back": {
+            "min": 48,
+            "transfers": 2,
+            "lines": [
+              "N65",
+              "S3",
+              "U6"
+            ],
+            "walkMin": 9,
+            "legs": [
+              {
+                "walkM": 278,
+                "min": 4
+              },
+              {
+                "line": "N65",
+                "stops": "Heinrich-Heine-Str.-Jannowitzbrücke",
+                "min": 1
+              },
+              {
+                "line": "S3",
+                "stops": "Jannowitzbrücke-Friedrichstr. Bhf",
+                "min": 6
+              },
+              {
+                "line": "U6",
+                "stops": "Friedrichstr. Bhf-Westphalweg",
+                "min": 17
+              },
+              {
+                "walkM": 331,
+                "min": 5
+              }
+            ]
+          }
+        },
+        "rso": {
+          "go": {
+            "min": 44,
+            "transfers": 2,
+            "lines": [
+              "U6",
+              "S46",
+              "165"
+            ],
+            "walkMin": 8,
+            "legs": [
+              {
+                "walkM": 331,
+                "min": 5
+              },
+              {
+                "line": "U6",
+                "stops": "Westphalweg-Tempelhof",
+                "min": 6
+              },
+              {
+                "line": "S46",
+                "stops": "Tempelhof-Schöneweide Bhf",
+                "min": 13
+              },
+              {
+                "line": "165",
+                "stops": "Schöneweide Bhf-Obrikatstr.",
+                "min": 1
+              },
+              {
+                "walkM": 192,
+                "min": 3
+              }
+            ]
+          },
+          "back": {
+            "min": 50,
+            "transfers": 1,
+            "lines": [
+              "S46",
+              "U6"
+            ],
+            "walkMin": 17,
+            "legs": [
+              {
+                "walkM": 873,
+                "min": 12
+              },
+              {
+                "line": "S46",
+                "stops": "Schöneweide Bhf-Tempelhof",
+                "min": 12
+              },
+              {
+                "line": "U6",
+                "stops": "Tempelhof-Westphalweg",
+                "min": 5
+              },
+              {
+                "walkM": 331,
+                "min": 5
+              }
+            ],
+            "limeMin": 44
+          }
+        }
       }
     }
   ],
   "server": "https://script.google.com/macros/s/AKfycbxygeQhyGu7wZbipgRx6acyDVz7l-YpTeR9inqwVHko1CZwRcrnl-_Kz-tPEv6SJgE/exec",
-  "checkNote": "Müsaitlik ve toplam fiyat 16 Kasım 2026 16:02–16:17 UTC arasında 6 kişi için kaynak sitelerde okundu (/mnt/project-files/secki/fiyat-teyit.json); rezervasyon yapılmadı."
+  "checkNote": "Müsaitlik ve toplam fiyat 16 Kasım 2026 16:02–16:17 UTC arasında 6 kişi için kaynak sitelerde okundu (/mnt/project-files/secki/fiyat-teyit.json); rezervasyon yapılmadı.",
+  "transitNote": {
+    "source": "VBB sefer planı (HAFAS, v6.vbb.transport.rest), ölçüm 16 Kasım 2026 17:25 UTC.",
+    "go": "31 Aralık 23:30 evden kalkış",
+    "back": "1 Ocak 05:00 kulüpten dönüş",
+    "lime": "Lime süresi ölçüm değil tahmin: 600 m üstü yürüyüşler scooterla (15 km/sa, +2 dk kilit açma/park) yapılırsa.",
+    "silvester": "Veride 31 Aralık gecesi U-Bahn ve S-Bahn bütün gece çalışıyor (1 Ocak 01:30 sorgusu: U8 15 dk arayla).",
+    "normalNight": "2 Ocak cumartesi 23:30 kalkışlı sorgu 13 evin 12sinde aynı süreyi verdi."
+  }
 }
