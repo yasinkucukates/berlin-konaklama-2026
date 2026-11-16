@@ -157,6 +157,38 @@
         "Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı; 24 saat sonra iade yok",
         "İlan 6 kişilik, 7. kişi teyitsiz; La Corniche Premium ile aynı binada"
       ]
+    },
+    {
+      "id": "sweep6-airbnb-14314574-20261230-20270101",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-01",
+      "area": "Moabit",
+      "pros": [
+        "220 m², tarihî fabrikada çatı katı loft; 4 yatak odası, 2 banyo",
+        "Airbnb puanı 4,92 (313 yorum), Superhost",
+        "30 Kasım'a kadar ücretsiz iptal"
+      ],
+      "cons": [
+        "4 gece müsait değil: Airbnb'de yalnız 30 Aralık–1 Ocak açık (2 gece 1.489 €), 2 Ocak gecesi dolu (16 Kasım)",
+        "Yataklar çift kişilik (oda başına 1 queen): yatak paylaşmak gerekir",
+        "Tresor'a 24 dk, RSO süresi kontrol edilmedi"
+      ]
+    },
+    {
+      "id": "sweep12-airbnb-1591873645675719304-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "area": "Schöneberg",
+      "pros": [
+        "Ucuz: 4 gece 1.688 €, hizmet ve temizlik dahil",
+        "4 yatak odası, 2 banyo; Tresor'a 15 dk, RSO'ya 19 dk",
+        "30 Kasım'a kadar ücretsiz iptal; 6 ve 7 kişi için müsait görüldü (16 Kasım)"
+      ],
+      "cons": [
+        "Airbnb puanı düşük: 3,38 (8 yorum)",
+        "Oda oda yatak dökümü yok; ilan 9 yatak diyor, 6 ayrı yatak teyitsiz",
+        "Berlin şehir vergisinin dahil olup olmadığı doğrulanmadı"
+      ]
     }
   ]
 }
