@@ -7,7 +7,7 @@
 .secki-toggle,.secki-to-map{flex:none;min-height:36px;padding:0 14px;border:1px solid var(--line,rgba(116,99,81,.3));border-radius:999px;background:#fff;color:var(--ink,#2b2723);font:600 13px/1 var(--sans,system-ui);cursor:pointer}
 .secki-how{margin:0 0 6px;padding:10px 0;border-top:1px solid var(--line,rgba(116,99,81,.22));color:var(--muted,#625b52);font:500 14px/1.45 var(--sans,system-ui)}
 .secki-list{list-style:none;margin:0;padding:0}
-.secki-row{display:grid;grid-template-columns:132px minmax(0,1fr) 132px;gap:16px;align-items:start;padding:14px 0;border-top:1px solid var(--line,rgba(116,99,81,.22))}
+.secki-row{display:grid;grid-template-columns:clamp(180px,19vw,270px) minmax(0,1fr) 120px;gap:16px;align-items:start;padding:14px 0;border-top:1px solid var(--line,rgba(116,99,81,.22))}
 .secki-row[data-vote="main"]{background:linear-gradient(90deg,rgba(111,62,47,.10),rgba(111,62,47,.03));box-shadow:inset 4px 0 0 #6f3e2f;padding-left:12px;padding-right:8px;border-radius:0 10px 10px 0}
 .secki-row[data-vote="backup"]{background:linear-gradient(90deg,rgba(185,138,60,.16),rgba(185,138,60,.04));box-shadow:inset 4px 0 0 #b98a3c;padding-left:12px;padding-right:8px;border-radius:0 10px 10px 0}
 .secki-thumb{position:relative;display:block;width:100%;padding:0;border:0;aspect-ratio:4/3;border-radius:9px;overflow:hidden;background:#e9e2d8;cursor:pointer;touch-action:manipulation}
@@ -136,7 +136,7 @@
 .secki-mrow[data-vote="backup"]{background:rgba(185,138,60,.15);box-shadow:inset 4px 0 0 #b98a3c}
 .secki-mrow[data-vote].is-active{box-shadow:inset 4px 0 0 currentColor,0 0 0 2px #2b2723}
 .secki-mrow-top{display:flex;gap:10px;align-items:flex-start}
-.secki-mrow-thumb{position:relative;flex:none;width:60px;height:60px;border-radius:9px;overflow:hidden;background:#e9e2d8}
+.secki-mrow-thumb{position:relative;flex:none;width:76px;height:76px;border-radius:9px;overflow:hidden;background:#e9e2d8}
 .secki-mrow-thumb img{display:block;width:100%;height:100%;object-fit:cover}
 .secki-mrow-thumb{padding:0;border:0;cursor:pointer}
 .secki-mrow-open{position:absolute;right:3px;bottom:3px;display:grid;place-items:center;width:18px;height:18px;border-radius:50%;background:rgba(28,28,30,.72);color:#fff;font:800 11px/1 var(--sans,system-ui)}

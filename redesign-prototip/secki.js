@@ -737,6 +737,9 @@
   document.addEventListener('availability-updated', render);
   render();
   refresh();
+  // Yasin (16 Nov): the seçki and its vote open on the map, list beside it;
+  // "Yalnız liste" or the dock's "Liste" switches over. Shared links (#ilan=…) keep their own view.
+  if (!location.hash || location.hash === '#secki') setTimeout(() => section.dispatchEvent(new CustomEvent('secki-map', {bubbles: true})), 0);
   // Others vote too: read again now and then while the page is visible.
   setInterval(() => { if (document.visibilityState === 'visible' && phase !== 'sending') refresh(); }, 30000);
 })();
