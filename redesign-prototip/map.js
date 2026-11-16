@@ -1019,6 +1019,9 @@
       if (!mapLoaded) showMapFailure('Harita yüklenemedi.');
     }, 18000);
     gl.on('load', () => { mapLoaded = true; clearTimeout(mapLoadTimer); });
+    // The GL canvas does not always follow when the frame grows (seen when the
+    // phone seçki list mounts); size it again whenever Leaflet resizes.
+    map.on('resize', () => requestAnimationFrame(() => requestAnimationFrame(() => { try { gl.resize(); } catch (_) {} })));
     gl.on('error', () => showMapFailure('Harita yüklenemedi.'));
     markerLayer = window.L.layerGroup().addTo(map);
     clubMarkers = new Map(); clubNames = new Map();
