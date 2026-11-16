@@ -301,10 +301,6 @@
   const bestMatch = card => card.dataset.bestEligible === 'true' || card.dataset.bestCandidate === 'true';
   const hasBestHouse = () => Array.from(document.querySelectorAll('.groups .stay-card')).some(card => card.dataset.planGroup === 'full-villa' && bestMatch(card));
   const isFavorite = card => Number(card.dataset.votes || 0) > 0;
-  // Yasin (16 Nov): "seçkide likelar görünmesin". The seçki map shows no hearts,
-  // like counts or Beğen button; the favourites themselves stay untouched.
-  const votesShown = card => seckiOnly ? 0 : Number(card.dataset.votes || 0);
-  const likedShown = card => votesShown(card) > 0;
   const isSecki = card => card.dataset.secki === 'true';
   const usableCard = card => seckiOnly ? isSecki(card) : card.dataset.generalMatch !== 'false' && (!favoritesOnly || isFavorite(card));
   const inPlan = card => {
@@ -338,9 +334,9 @@
       else {
         const alternatives = group.value === 'best-house' && !hasBestHouse() ? ' Tam eşleşme yok; koşullara yakın alternatifler gösteriliyor.' : group.value === 'best-apartment' ? ' Teyit gerektiren adaylar da gösteriliyor.' : '';
         const points = new Set(markers.values()).size;
-        const favorites = selected.filter(likedShown).length;
+        const favorites = selected.filter(isFavorite).length;
         const filtersOn = Number(view?.dataset.activeFilters || 0);
-        if (seckiOnly) markStatus(`Seçki: ${points} konumda ${selected.length} ev. Filtreler seçkiye uygulanmaz. Konumlar yaklaşıktır.`);
+        if (seckiOnly) markStatus(`Seçki: ${points} konumda ${selected.length} ev${favorites ? ` · ${favorites} favori` : ''}. Filtreler seçkiye uygulanmaz. Konumlar yaklaşıktır.`);
         else if (favoritesOnly && !selected.length) markStatus(filtersOn ? 'Açık filtrelerle eşleşen ortak favori yok.' : 'Bu planda henüz ortak favori yok. Kartlardaki kalp ile beğenebilirsiniz.');
         else markStatus(`${points} konumda ${selected.length} teklif${favorites ? ` · ${favorites} favori` : ''}${missing ? ` · ${missing} ilanın konumu belirsiz` : ''}${filtersOn ? ` · ${filtersOn} filtre açık` : ''}. Konumlar yaklaşıktır.${alternatives}`);
       }
@@ -388,16 +384,15 @@
   const swatch = (className, children) => { const el = document.createElement('span'); el.className = `legend-swatch ${className}`; el.setAttribute('aria-hidden', 'true'); el.append(...children); return el; };
   [
     [swatch('stay', ['1.900 €']), 'Konaklama'],
-    [swatch('stay favorite', [svgIcon('heart'), '2']), 'Ortak favori', 'map-legend-favorite'],
+    [swatch('stay favorite', [svgIcon('heart'), '2']), 'Ortak favori'],
     [swatch('stay unavailable', ['1.900 €']), 'Son kontrolde dolu'],
     [swatch('club', [rainbow()]), 'Kulüp'],
     [swatch('club anchor', [rainbow()]), 'Tresor ve RSO']
-  ].forEach(([mark, label, extra]) => {
-    const item = document.createElement('span'); item.className = `map-legend-item${extra ? ` ${extra}` : ''}`;
+  ].forEach(([mark, label]) => {
+    const item = document.createElement('span'); item.className = 'map-legend-item';
     item.append(mark, document.createTextNode(label)); legend.append(item);
   });
   mapBody.before(legend);
-  const legendFavorite = legend.querySelector('.map-legend-favorite');
   const priceOf = card => {
     const eur = Number(card.dataset.priceEur);
     const head = card.querySelector('.card-head .converted-price[data-fx-currency]');
@@ -424,7 +419,7 @@
   }
   function fillLabel(pill, cards, label) {
     pill.replaceChildren();
-    const votes = cards.reduce((sum, card) => sum + votesShown(card), 0);
+    const votes = cards.reduce((sum, card) => sum + Number(card.dataset.votes || 0), 0);
     if (votes) {
       pill.append(svgIcon('heart'));
       if (cards.length === 1) { const v = document.createElement('b'); v.className = 'pin-votes'; v.textContent = String(votes); pill.append(v); }
@@ -472,12 +467,6 @@
     clone.querySelectorAll('.map-show').forEach(el => el.remove());
     // Summary tiles stay in the large view and switch its tabs instead.
     clone.querySelectorAll('.card-open-main').forEach(el => el.remove());
-    // Opened from the seçki (map or panel): no Beğen button, like badge or like frame.
-    if (seckiOnly || card.dataset.fromSecki === 'true') {
-      clone.querySelectorAll('.favorite-button, .favorite-unavailable, .vote-badge').forEach(el => el.remove());
-      clone.classList.remove('liked-two', 'liked-many');
-    }
-    clone.removeAttribute('data-from-secki');
     clone.querySelectorAll('.photo-grid img').forEach(img => {
       const fail = () => {
         const full = img.closest('a')?.dataset.photoUrl;
@@ -568,7 +557,7 @@
       const sold = document.createElement('p'); sold.className = 'map-preview-sold'; sold.textContent = 'Son kontrolde bu tarihler müsait değildi.'; body.append(sold);
     }
     const actions = document.createElement('div'); actions.className = 'map-preview-actions';
-    const original = seckiOnly ? null : card.querySelector('.favorite-button');
+    const original = card.querySelector('.favorite-button');
     if (original) {
       const fav = document.createElement('button'); fav.type = 'button'; fav.className = 'map-preview-like';
       const votes = Number(card.dataset.votes || 0);
@@ -631,7 +620,7 @@
       const name = document.createElement('span'); name.className = 'row-title'; name.textContent = titleFor(card);
       const date = document.createElement('small'); date.textContent = textOf(card, '.card-kicker');
       const amount = document.createElement('strong'); amount.textContent = headPrice(card);
-      if (likedShown(card)) { const heart = document.createElement('span'); heart.className = 'row-heart'; heart.append(svgIcon('heart'), document.createTextNode(card.dataset.votes)); name.prepend(heart); }
+      if (isFavorite(card)) { const heart = document.createElement('span'); heart.className = 'row-heart'; heart.append(svgIcon('heart'), document.createTextNode(card.dataset.votes)); name.prepend(heart); }
       const text = document.createElement('span'); text.className = 'row-text'; text.append(name, date);
       row.append(text, amount);
       row.addEventListener('click', () => previewSingle(card, samePoint, marker, area));
@@ -679,13 +668,13 @@
     root.append(lines);
     const tags = shown.map(card => {
       const tag = document.createElement('button'); tag.type = 'button'; tag.className = 'map-fan-tag'; tag.cardRef = card;
-      if (likedShown(card)) { tag.classList.add('favorite'); tag.append(svgIcon('heart')); const v = document.createElement('b'); v.className = 'pin-votes'; v.textContent = card.dataset.votes; tag.append(v); }
+      if (isFavorite(card)) { tag.classList.add('favorite'); tag.append(svgIcon('heart')); const v = document.createElement('b'); v.className = 'pin-votes'; v.textContent = card.dataset.votes; tag.append(v); }
       if (card.dataset.availability === 'unavailable') tag.classList.add('unavailable');
       if (card.dataset.seckiVote) { tag.classList.add(`secki-${card.dataset.seckiVote}`); const chip = document.createElement('b'); chip.className = `pin-secki ${card.dataset.seckiVote}`; chip.textContent = `${card.dataset.seckiVote === 'main' ? '★' : '☆'}${card.dataset.seckiRank || 1}`; tag.append(chip); }
       const price = document.createElement('span'); price.className = 'pin-price'; price.textContent = priceOf(card); tag.append(price);
       if (mixedNights) { const n = document.createElement('small'); n.textContent = `${nightsOf(card)} gece`; tag.append(n); }
       tag.title = titleFor(card);
-      tag.setAttribute('aria-label', `${titleFor(card)} · ${headPrice(card)}${likedShown(card) ? ` · ${card.dataset.votes} beğeni` : ''}${card.dataset.availability === 'unavailable' ? ' · son kontrolde müsait değil' : ''}`);
+      tag.setAttribute('aria-label', `${titleFor(card)} · ${headPrice(card)}${isFavorite(card) ? ` · ${card.dataset.votes} beğeni` : ''}${card.dataset.availability === 'unavailable' ? ' · son kontrolde müsait değil' : ''}`);
       tag.addEventListener('click', event => { event.stopPropagation(); pick(card); });
       tag.addEventListener('mouseenter', () => markRow(card, true));
       tag.addEventListener('mouseleave', () => markRow(card, false));
@@ -804,9 +793,8 @@
     }
     if (Math.abs(dx) > 1 || Math.abs(dy) > 1) map.panBy([dx, dy], {animate:!window.matchMedia('(prefers-reduced-motion: reduce)').matches});
   }
-  const priority = (cards) => cards.some(likedShown) ? 1 : cards.some(c => c.dataset.availability !== 'unavailable') ? 2 : 4;
+  const priority = (cards) => cards.some(isFavorite) ? 1 : cards.some(c => c.dataset.availability !== 'unavailable') ? 2 : 4;
   function draw(force = false) {
-    if (legendFavorite) legendFavorite.hidden = seckiOnly;
     if (!map || !markerLayer) return;
     const cards = selectedCards().filter(card => card.dataset.lat && card.dataset.lon &&
       Number.isFinite(Number(card.dataset.lat)) && Number.isFinite(Number(card.dataset.lon)));
@@ -836,9 +824,9 @@
       const lat = Number(card.dataset.lat), lon = Number(card.dataset.lon);
       const name = titleFor(card);
       const label = bestPlan && card.dataset.bestBasis === 'booking' && card.dataset.bestPriceLabel ? card.dataset.bestPriceLabel : priceOf(card);
-      const favorite = samePoint.some(likedShown);
+      const favorite = samePoint.some(isFavorite);
       const unavailable = samePoint.every(c => c.dataset.availability === 'unavailable');
-      const votes = samePoint.reduce((sum, c) => sum + votesShown(c), 0);
+      const votes = samePoint.reduce((sum, c) => sum + Number(c.dataset.votes || 0), 0);
       const accessibleName = samePoint.length > 1
         ? `Bu konumda ${samePoint.length} teklif · en düşük ${label}${favorite ? ` · ${votes} beğeni` : ''} · teklifleri göster`
         : `${name} · ${headPrice(card)}${favorite ? ` · ${votes} beğeni` : ''}${unavailable ? ' · son kontrolde müsait değil' : ''}`;
@@ -905,7 +893,7 @@
     if (pin.group) {
       fillLabel(label, pin.samePoint, pin.label);
       el.classList.toggle('multi', pin.samePoint.length > 1);
-      el.classList.toggle('favorite', pin.samePoint.some(likedShown));
+      el.classList.toggle('favorite', pin.samePoint.some(isFavorite));
       el.classList.toggle('unavailable', pin.samePoint.every(c => c.dataset.availability === 'unavailable'));
       el.setAttribute('aria-label', pin.accessibleName);
       pin.group = null;
@@ -943,7 +931,7 @@
       const dotRect = dot.getBoundingClientRect();
       if (!hit(dotRect, bounds, 0)) { el.classList.add('compact'); return; }
       const selected = el.classList.contains('selected');
-      const order = selected ? 0 : pin.samePoint.some(likedShown) ? 2 : pin.rank >= 4 ? 5 : 4;
+      const order = selected ? 0 : pin.samePoint.some(isFavorite) ? 2 : pin.rank >= 4 ? 5 : 4;
       pins.push({pin, el, label, dot:dotRect, order});
     });
     pins.sort((a, b) => a.order - b.order || a.pin.price - b.pin.price);
@@ -985,9 +973,9 @@
       cards.sort((a, b) => Number(a.dataset.availability === 'unavailable') - Number(b.dataset.availability === 'unavailable') || Number(a.dataset.priceEur || Infinity) - Number(b.dataset.priceEur || Infinity));
       pin.group = cards;
       fillLabel(label, cards, pin.samePoint.includes(cards[0]) ? pin.label : priceOf(cards[0]));
-      const favorite = cards.some(likedShown), unavailable = cards.every(c => c.dataset.availability === 'unavailable');
+      const favorite = cards.some(isFavorite), unavailable = cards.every(c => c.dataset.availability === 'unavailable');
       el.classList.add('multi'); el.classList.toggle('favorite', favorite); el.classList.toggle('unavailable', unavailable);
-      const votes = cards.reduce((sum, c) => sum + votesShown(c), 0);
+      const votes = cards.reduce((sum, c) => sum + Number(c.dataset.votes || 0), 0);
       el.setAttribute('aria-label', `Bu bölgede ${cards.length} teklif · en düşük ${priceOf(cards[0])}${votes ? ` · ${votes} beğeni` : ''} · teklifleri göster`);
       g.members.forEach(m => { m.el.classList.toggle('grouped-away', m !== g.lead); });
       const sides = sidesFor(g.dot, label.getBoundingClientRect());
