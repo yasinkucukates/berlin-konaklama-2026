@@ -16,12 +16,12 @@
       "pros": [
         "Tresor'a 6 dk: seçkinin en yakını",
         "115 m², 3 yatak odası, 2 banyo",
-        "Ücretsiz iptalli tarifesi var (2.542 €, 25 Aralık'a kadar)"
+        "Ücretsiz iptalli tarifesi var (25 Aralık'a kadar; toplam ≈ 2.684 €)"
       ],
       "cons": [
+        "Booking'deki 2.160 €'ya 150 € temizlik ve ≈ 151 € şehir vergisi ekleniyor (toplam ≈ 2.461 €)",
         "5 ayrı yatak var, 1 kişi çekyatta yatar",
-        "Bodrum katı (Souterrain)",
-        "City Tax ayrıca istenebilir; gösterilen fiyat iadesiz",
+        "Bodrum katı (Souterrain); 250 € depozito",
         "RSO'ya 18 dk; ilan 6 kişilik, 7. kişi teyitsiz"
       ]
     },
@@ -140,6 +140,22 @@
         "Platform koruması yok: havale/PayPal/nakit, 200 € kapora, ev sahibi onayı gerekir",
         "Yatakların çoğu çift kişilik (5 çift + 2 tek + çekyat)",
         "City Tax (~165 €) ayrıca istenebilir; yalnız 1 yorum (2015)"
+      ]
+    },
+    {
+      "id": "sweep7-airbnb-34301098-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "area": "Tempelhof (Ringbahnstraße)",
+      "pros": [
+        "Seçkinin açık ara en ucuzu: 16 Kasım’da Airbnb’de 1.051 € (ücretler dahil)",
+        "6 tek yatak: herkese ayrı yatak; 3 yatak odası, 2 banyo",
+        "Tresor'a 12 dk, RSO'ya 13 dk; ücretsiz otopark"
+      ],
+      "cons": [
+        "Yalnız 2 yorum, puan henüz yok",
+        "Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı; 24 saat sonra iade yok",
+        "İlan 6 kişilik, 7. kişi teyitsiz; La Corniche Premium ile aynı binada"
       ]
     }
   ]
