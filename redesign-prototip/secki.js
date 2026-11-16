@@ -146,16 +146,21 @@
   }
   function availabilityText(it) {
     const a = availabilityOf(it);
+    if (a.state === 'available' && it.check?.available4Nights === false) return `${trDay(it.checkIn)}–${trDay(it.checkOut)} müsait · 4 gece müsait değil${a.when ? ` · ${a.when} kontrolü` : ''}`;
     if (a.state === 'available') return `Müsait${a.when ? ` · ${a.when} kontrolü` : ''}`;
     if (a.state === 'unavailable') return `Müsait değil${a.when ? ` · ${a.when} kontrolü` : ''}`;
     return 'Müsaitlik doğrulanmadı';
   }
+  const allInEur = it => { const v = it.check?.allInEur; return typeof v === 'number' && Number.isFinite(v) ? v : null; };
+  // The all-in total from the seçki check, and how sure it is about the city tax.
   function allInText(it) {
-    const c = it.check;
-    if (!c || !Number.isFinite(Number(c.allInEur)) || c.allInEur === null) return '';
-    const per = Math.round(Number(c.allInEur) / 6);
-    const tax = c.cityTaxIncluded === true ? 'şehir vergisi dahil' : c.cityTaxIncluded === false ? `şehir vergisi ayrıca${Number.isFinite(Number(c.cityTaxEur)) && c.cityTaxEur !== null ? ` ≈ ${fmtEur.format(Number(c.cityTaxEur))} €` : ''}` : '';
-    return `Her şey dahil ≈ ${fmtEur.format(Number(c.allInEur))} € (kişi başı ≈ ${fmtEur.format(per)} €)${tax ? ` · ${tax}` : ''}`;
+    const c = it.check, total = allInEur(it);
+    if (total === null) return '';
+    const head = `${c.allInConfirmed ? 'Her şey dahil' : 'Toplam'} ${c.allInConfirmed ? '' : '≈ '}${fmtEur.format(Math.round(total))} € (kişi başı ${fmtEur.format(Math.round(total / 6))} €)`;
+    const tax = typeof c.cityTaxEur === 'number' ? fmtEur.format(Math.round(c.cityTaxEur)) : '';
+    if (c.allInConfirmed) return `${head} · vergi ve temizlik dahil, ödeme sayfasında görüldü`;
+    if (c.cityTaxIncluded === false) return `${head} · şehir vergisi${tax ? ` (≈ ${tax} €)` : ''} ödeme sayfasında yok, toplama biz ekledik`;
+    return `${head} · şehir vergisi gösterilmiyor, ev sahibi yerinde isteyebilir`;
   }
 
   // Vote buttons for one home; several copies (panel, map list, map card) stay in sync.
@@ -551,12 +556,17 @@
     thumb.addEventListener('click', event => { event.stopPropagation(); openCard(it.card); });
     const text = el('div', 'secki-mrow-text');
     const title = el('p', 'secki-mrow-title', titleOf(it));
-    const price = it.card.querySelector('.amount > strong')?.textContent.trim() || '';
-    const per6 = it.card.querySelector('tr[data-share-people="6"] .share-main')?.textContent.trim() || '';
-    const meta = el('p', 'secki-mrow-meta', [(it.area || '').split('·')[0].split(',')[0].trim(), price, per6 && `kişi ${per6}`].filter(Boolean).join(' · '));
-    const avail = el('p', 'secki-mrow-avail');
+    const total = allInEur(it);
+    const price = total !== null ? `${it.check.allInConfirmed ? '' : '≈ '}${fmtEur.format(Math.round(total))} €` : (it.card.querySelector('.amount > strong')?.textContent.trim() || '');
+    const per6 = total !== null ? `${fmtEur.format(Math.round(total / 6))} €` : (it.card.querySelector('tr[data-share-people="6"] .share-main')?.textContent.trim() || '');
+    const meta = el('p', 'secki-mrow-meta', [price, per6 && `kişi başı ${per6}`].filter(Boolean).join(' · '));
+    meta.title = allInText(it);
+    const line = el('p', 'secki-mrow-line');
+    const avail = el('span', 'secki-mrow-avail');
+    line.append(avail);
     const b = badge();
-    text.append(title, meta, avail);
+    text.append(title, meta, line);
+    if (total !== null) { const sure = el('span', 'secki-mrow-tax', it.check.allInConfirmed ? 'Her şey dahil' : it.check.cityTaxIncluded === false ? 'Vergiyi ekledik' : 'Vergi ayrıca olabilir'); sure.dataset.sure = String(Boolean(it.check.allInConfirmed)); line.append(sure); }
     const top = el('div', 'secki-mrow-top');
     top.append(thumb, text, b);
     li.append(top, voteBox(it, true, true));
@@ -574,7 +584,8 @@
       paintBadge(row.badge, k);
       const a = availabilityOf(row.it);
       row.avail.dataset.state = a.state;
-      row.avail.textContent = availabilityText(row.it);
+      row.avail.textContent = a.state === 'available' ? (row.it.check?.available4Nights === false ? 'Yalnız 2 gece müsait' : 'Müsait') : a.state === 'unavailable' ? 'Müsait değil' : 'Müsaitlik doğrulanmadı';
+      row.avail.title = availabilityText(row.it);
     });
   }
   function markMapRow(card) {

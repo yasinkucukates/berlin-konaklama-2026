@@ -24,7 +24,17 @@
         "5 ayrı yatak var, 1 kişi çekyatta yatar",
         "Bodrum katı (Souterrain); 250 € depozito",
         "RSO'ya 18 dk; ilan 6 kişilik, 7. kişi teyitsiz"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:02:00Z",
+        "allInEur": 2461.51,
+        "cityTaxIncluded": false,
+        "cityTaxEur": 151.41,
+        "cleaningEur": 150,
+        "allInConfirmed": false,
+        "sourceUrl": "https://www.booking.com/hotel/de/gneisenau.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+      }
     },
     {
       "id": "sweep12-booking-stilvolle-6-zimmer-ferienwohnung-mit-2-badern-20261230-20270103",
@@ -42,7 +52,17 @@
         "Yalnız 2 yorum, puan 6,5",
         "6 odaya 2 banyo düşüyor",
         "Gösterilen fiyat iadesiz tarife; zemin kat"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:10:50Z",
+        "allInEur": 2144.1,
+        "cityTaxIncluded": true,
+        "cityTaxEur": 141.2,
+        "cleaningEur": 165,
+        "allInConfirmed": true,
+        "sourceUrl": "https://www.booking.com/hotel/de/stilvolle-6-zimmer-ferienwohnung-mit-2-badern.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+      }
     },
     {
       "id": "six-booking-951491101-full",
@@ -59,7 +79,17 @@
         "RSO'ya 23 dk: seçkinin en uzağı",
         "Vergilerin fiyata dahil olup olmadığı belirtilmemiş; 250 € depozito",
         "İlan 6 kişilik, 7. kişi teyitsiz"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:06:11Z",
+        "allInEur": 2834.29,
+        "cityTaxIncluded": false,
+        "cityTaxEur": 181.79,
+        "cleaningEur": 59,
+        "allInConfirmed": false,
+        "sourceUrl": "https://www.booking.com/hotel/de/sonnig-und-helle-wohnung-alexanderplatz-in-15min-zu-erreichen-sehr-schon-und-gro.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&no_rooms=1&selected_currency=EUR#room_951491101"
+      }
     },
     {
       "id": "sweep16-booking-berlin-roof-chill-20261230-20270103",
@@ -76,7 +106,17 @@
         "7 kişide 2.881 €'ya çıkıyor (6 kişide 2.681 €)",
         "Bir eski misafir WC sayısının, biri bazı yatakların küçüklüğünün sorun olduğunu yazmış",
         "Booking ve Airbnb yatak sayısını farklı veriyor (Airbnb: 3 tek + 3 king)"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:06:40Z",
+        "allInEur": 2681.0,
+        "cityTaxIncluded": true,
+        "cityTaxEur": 177.4,
+        "cleaningEur": 390,
+        "allInConfirmed": true,
+        "sourceUrl": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+      }
     },
     {
       "id": "sweep12-booking-britzer-tor-20261230-20270103",
@@ -93,7 +133,17 @@
         "90 m²: seçkinin en küçüğü",
         "Otel bünyesinde daire, kahvaltı dahil değil (kişi başı 15 €)",
         "İlan 6 kişilik, 7. kişi teyitsiz"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:10:00Z",
+        "allInEur": 2347.2,
+        "cityTaxIncluded": true,
+        "cityTaxEur": 153.05,
+        "cleaningEur": null,
+        "allInConfirmed": true,
+        "sourceUrl": "https://www.booking.com/hotel/de/britzer-tor.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+      }
     },
     {
       "id": "sweep12-booking-modern-accommodation-neukoln-20261230-20270103",
@@ -109,7 +159,17 @@
         "İadesiz: ücretsiz iptal seçeneği yok",
         "4 yorum (7,5); 300 €'ya kadar hasar politikası",
         "İlan 6 kişilik; 7 kişi için müsait görünse de 7. kişi teyitsiz"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:10:36Z",
+        "allInEur": 1606.5,
+        "cityTaxIncluded": true,
+        "cityTaxEur": 105.85,
+        "cleaningEur": 135,
+        "allInConfirmed": true,
+        "sourceUrl": "https://www.booking.com/hotel/de/modern-accommodation-neukoln.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+      }
     },
     {
       "id": "sweep7-airbnb-38533401-20261230-20270103",
@@ -125,7 +185,17 @@
         "Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı",
         "İptal: 24 saat sonra iade yok (23 Aralık öncesi kısmi iade)",
         "Giriş ve çıkış saatleri bilinmiyor"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:12:01Z",
+        "allInEur": 1975.0,
+        "cityTaxIncluded": null,
+        "cityTaxEur": null,
+        "cleaningEur": null,
+        "allInConfirmed": false,
+        "sourceUrl": "https://www.airbnb.com/rooms/38533401?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+      }
     },
     {
       "id": "sweep12-traum-ferienwohnungen-93211-20261230-20270103",
@@ -141,7 +211,17 @@
         "Platform koruması yok: havale/PayPal/nakit, 200 € kapora, ev sahibi onayı gerekir",
         "Yatakların çoğu çift kişilik (5 çift + 2 tek + çekyat)",
         "City Tax (~165 €) ayrıca istenebilir; yalnız 1 yorum (2015)"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:16:35Z",
+        "allInEur": 2195.0,
+        "cityTaxIncluded": null,
+        "cityTaxEur": null,
+        "cleaningEur": 0,
+        "allInConfirmed": false,
+        "sourceUrl": "https://www.traum-ferienwohnungen.de/93211/?arrival=2026-12-30&departure=2027-01-03&persons=6"
+      }
     },
     {
       "id": "sweep7-airbnb-34301098-20261230-20270103",
@@ -157,7 +237,17 @@
         "Yalnız 2 yorum, puan henüz yok",
         "Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı; 24 saat sonra iade yok",
         "İlan 6 kişilik, 7. kişi teyitsiz; La Corniche Premium ile aynı binada"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:12:31Z",
+        "allInEur": 1050.7,
+        "cityTaxIncluded": null,
+        "cityTaxEur": null,
+        "cleaningEur": null,
+        "allInConfirmed": false,
+        "sourceUrl": "https://www.airbnb.com/rooms/34301098?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+      }
     },
     {
       "id": "sweep6-airbnb-14314574-20261230-20270101",
@@ -173,7 +263,18 @@
         "4 gece müsait değil: Airbnb'de yalnız 30 Aralık–1 Ocak açık (2 gece 1.489 €), 2 Ocak gecesi dolu (16 Kasım)",
         "Yataklar çift kişilik (oda başına 1 queen): yatak paylaşmak gerekir",
         "Tresor'a 24 dk, RSO süresi kontrol edilmedi"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:13:13Z",
+        "allInEur": 1488.8,
+        "cityTaxIncluded": null,
+        "cityTaxEur": null,
+        "cleaningEur": null,
+        "allInConfirmed": false,
+        "sourceUrl": "https://www.airbnb.com.tr/rooms/14314574?adults=6&check_in=2026-12-30&check_out=2027-01-01&currency=EUR",
+        "available4Nights": false
+      }
     },
     {
       "id": "sweep12-airbnb-1591873645675719304-20261230-20270103",
@@ -189,7 +290,17 @@
         "Airbnb puanı düşük: 3,38 (8 yorum)",
         "Oda oda yatak dökümü yok; ilan 9 yatak diyor, 6 ayrı yatak teyitsiz",
         "Berlin şehir vergisinin dahil olup olmadığı doğrulanmadı"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:13:37Z",
+        "allInEur": 1671.0,
+        "cityTaxIncluded": null,
+        "cityTaxEur": null,
+        "cleaningEur": null,
+        "allInConfirmed": false,
+        "sourceUrl": "https://www.airbnb.com/rooms/1591873645675719304?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+      }
     },
     {
       "id": "sweep12-airbnb-14381251-20261230-20270103",
@@ -205,7 +316,17 @@
         "Yalnız 2 yatak odası: 3'er kişi aynı odada",
         "5 ayrı yatak (2 çift + 3 tek), 1 kişi çekyatta",
         "Yalnız rezervasyondan sonraki 24 saat ücretsiz iptal; şehir vergisi dahil mi doğrulanmadı; tam adres ilanda yok"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:15:55Z",
+        "allInEur": 2100.55,
+        "cityTaxIncluded": true,
+        "cityTaxEur": 146.55,
+        "cleaningEur": null,
+        "allInConfirmed": true,
+        "sourceUrl": "https://www.airbnb.com/rooms/14381251?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+      }
     },
     {
       "id": "sweep6-german-p2714753-20261230-20270103",
@@ -221,8 +342,19 @@
         "İadesiz teklif; 200 € depozito",
         "İki oda kalabalık: birinde 4 tek yatak + futon, birinde 3 tek yatak",
         "Bir yorumda temizlik şikâyeti; 20.00'den sonra girişe 35–65 € ek ücret; tam adres ilanda yok"
-      ]
+      ],
+      "check": {
+        "available": true,
+        "checkedAt": "2026-11-16T16:17:10Z",
+        "allInEur": 1914.52,
+        "cityTaxIncluded": null,
+        "cityTaxEur": null,
+        "cleaningEur": null,
+        "allInConfirmed": false,
+        "sourceUrl": "https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p2714753?startDate=2026-12-30&endDate=2027-01-03&adults=6"
+      }
     }
   ],
-  "server": ""
+  "server": "",
+  "checkNote": "Müsaitlik ve toplam fiyat 16 Kasım 2026 16:02–16:17 UTC arasında 6 kişi için kaynak sitelerde okundu (/mnt/project-files/secki/fiyat-teyit.json); rezervasyon yapılmadı."
 }
