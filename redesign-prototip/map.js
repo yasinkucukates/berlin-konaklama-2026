@@ -172,7 +172,7 @@
     if (seckiOnly) {
       // Filters do not apply to the short list; say so instead of listing them.
       const chip = document.createElement('button'); chip.type = 'button'; chip.className = 'map-filter-chip map-filter-secki';
-      const text = document.createElement('span'); text.textContent = 'Yalnız seçki · filtreler uygulanmaz';
+      const text = document.createElement('span'); text.textContent = 'Yalnız seçki';
       chip.append(text, svgIcon('x')); chip.setAttribute('aria-label', 'Seçki görünümünü kapat');
       chip.addEventListener('click', () => setSecki(false));
       nodes.splice(0, nodes.length, chip);
