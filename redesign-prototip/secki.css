@@ -287,7 +287,7 @@
   .secki-maplist-view,.secki-maplist-exit{min-height:30px;padding:0 10px;font-size:12px}
   /* Keep the map credit on one line and the open card above it. */
   .map-panel.has-secki-list .leaflet-control-attribution{max-width:100vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .map-panel.has-secki-list .map-preview{z-index:1001;bottom:24px}
+  .map-panel.has-secki-list .map-preview{z-index:1001;bottom:24px;background:#faf7f2}
 }
 @media (max-width:899px){
   .secki-maplist-head{align-items:center}

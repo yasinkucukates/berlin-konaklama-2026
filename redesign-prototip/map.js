@@ -522,7 +522,7 @@
     preview.classList.remove('is-list');
     preview.setAttribute('aria-label', `${titleFor(card)} · seçili ilan`);
     preview.replaceChildren(...content, media, body, actions);
-    preview.hidden = false;
+    preview.hidden = false; preview.scrollTop = 0;
     markFan(card, 'selected');
     document.dispatchEvent(new CustomEvent('map-card-selected', {detail:{card}}));
   }

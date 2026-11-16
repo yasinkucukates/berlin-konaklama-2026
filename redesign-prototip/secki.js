@@ -647,7 +647,7 @@
     mlView.textContent = listOnly ? 'Haritayı göster' : 'Yalnız liste';
     mlTitle.textContent = inVote ? 'Oy paneli' : 'Seçki';
     mlExit.hidden = !inVote;
-    mlSub.textContent = inVote && voter ? `Şifren kabul edildi · ${MAIN} asıl, en çok ${BACKUP} yedek seç`
+    mlSub.textContent = inVote && voter ? 'Şifren kabul edildi'
       : `${items.length} ev · ${status ? `${status.voted || 0}/${status.total || VOTERS} kişi oy verdi` : 'oylar yükleniyor'}${listOnly ? '' : ' · haritada görmek için eve dokun'}`;
     mapRows.forEach((row, k) => {
       row.li.dataset.vote = kindOf(k);
