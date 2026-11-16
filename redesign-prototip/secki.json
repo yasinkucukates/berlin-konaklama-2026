@@ -5,7 +5,8 @@
   "note": "Yasin'in 16 Kasım 2026'da paylaştığı bağlantılardaki ilanların sitedeki kartları. Artı ve eksiler kartlardaki kaynak kayıtlarından derlendi; fiyat ve müsaitlik kartlardaki son kontrol tarihine aittir.",
   "ballot": {
     "main": 2,
-    "backup": 2
+    "backup": 2,
+    "voters": 6
   },
   "items": [
     {
@@ -222,5 +223,6 @@
         "Bir yorumda temizlik şikâyeti; 20.00'den sonra girişe 35–65 € ek ücret; tam adres ilanda yok"
       ]
     }
-  ]
+  ],
+  "server": ""
 }

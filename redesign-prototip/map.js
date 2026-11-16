@@ -51,7 +51,10 @@
   }
   // Map frame: the canvas plus a small listing card that opens over the map.
   const frame = document.createElement('div'); frame.className = 'map-frame';
-  canvas.before(frame); frame.append(canvas);
+  // The body holds the frame and, in seçki mode, the seçki list beside it
+  // (below it on narrow screens).
+  const mapBody = document.createElement('div'); mapBody.className = 'map-body';
+  canvas.before(mapBody); mapBody.append(frame); frame.append(canvas);
   const preview = document.createElement('section');
   preview.className = 'map-preview'; preview.hidden = true; preview.setAttribute('aria-live', 'polite');
   frame.append(preview);
@@ -328,7 +331,7 @@
     const item = document.createElement('span'); item.className = 'map-legend-item';
     item.append(mark, document.createTextNode(label)); legend.append(item);
   });
-  frame.before(legend);
+  mapBody.before(legend);
   const priceOf = card => {
     const eur = Number(card.dataset.priceEur);
     const head = card.querySelector('.card-head .converted-price[data-fx-currency]');
@@ -348,6 +351,11 @@
     const low = Math.min(...prices), high = Math.max(...prices);
     return high - low < 25 ? '' : `${whole.format(Math.round(low))}–${whole.format(Math.round(high))} €`;
   };
+  // The viewer's own seçki picks (main first) mark a pin with a small badge.
+  function seckiPick(cards) {
+    const picks = cards.filter(card => card.dataset.seckiVote).map(card => ({kind:card.dataset.seckiVote, rank:Number(card.dataset.seckiRank) || 1}));
+    return picks.sort((a, b) => (a.kind === 'main' ? 0 : 1) - (b.kind === 'main' ? 0 : 1) || a.rank - b.rank)[0] || null;
+  }
   function fillLabel(pill, cards, label) {
     pill.replaceChildren();
     const votes = cards.reduce((sum, card) => sum + Number(card.dataset.votes || 0), 0);
@@ -355,6 +363,8 @@
       pill.append(svgIcon('heart'));
       if (cards.length === 1) { const v = document.createElement('b'); v.className = 'pin-votes'; v.textContent = String(votes); pill.append(v); }
     }
+    const picked = seckiPick(cards);
+    if (picked) { const chip = document.createElement('b'); chip.className = `pin-secki ${picked.kind}`; chip.textContent = picked.kind === 'main' ? `★${picked.rank}` : `☆${picked.rank}`; pill.append(chip); }
     const price = document.createElement('span'); price.className = 'pin-price'; price.textContent = (cards.length > 1 && priceRange(cards)) || label; pill.append(price);
     if (cards.length > 1) { const count = document.createElement('span'); count.className = 'pin-count'; count.textContent = `${cards.length} ilan`; pill.append(count); }
   }
@@ -502,12 +512,16 @@
       const link = document.createElement('a'); link.className = 'map-preview-link'; link.href = listing.href; link.target = '_blank'; link.rel = 'noopener noreferrer';
       link.append(svgIcon('square-arrow-out-up-right'), document.createTextNode(' İlan')); actions.append(link);
     }
+    // Seçki homes can be voted on right here; the buttons mirror the panel.
+    const seckiVote = card.dataset.secki === 'true' && window.BerlinSecki ? window.BerlinSecki.voteBox(card) : null;
+    if (seckiVote) { const wrap = document.createElement('div'); wrap.className = 'map-preview-secki'; wrap.append(seckiVote); body.append(wrap); }
     preview.classList.toggle('is-unavailable', card.dataset.availability === 'unavailable');
     preview.classList.remove('is-list');
     preview.setAttribute('aria-label', `${titleFor(card)} · seçili ilan`);
     preview.replaceChildren(...content, media, body, actions);
     preview.hidden = false;
     markFan(card, 'selected');
+    document.dispatchEvent(new CustomEvent('map-card-selected', {detail:{card}}));
   }
   function previewList(samePoint, marker, area = false) {
     previewOffer = null; listShown = {marker, area, count:samePoint.length};
@@ -592,6 +606,7 @@
       const tag = document.createElement('button'); tag.type = 'button'; tag.className = 'map-fan-tag'; tag.cardRef = card;
       if (isFavorite(card)) { tag.classList.add('favorite'); tag.append(svgIcon('heart')); const v = document.createElement('b'); v.className = 'pin-votes'; v.textContent = card.dataset.votes; tag.append(v); }
       if (card.dataset.availability === 'unavailable') tag.classList.add('unavailable');
+      if (card.dataset.seckiVote) { tag.classList.add(`secki-${card.dataset.seckiVote}`); const chip = document.createElement('b'); chip.className = `pin-secki ${card.dataset.seckiVote}`; chip.textContent = `${card.dataset.seckiVote === 'main' ? '★' : '☆'}${card.dataset.seckiRank || 1}`; tag.append(chip); }
       const price = document.createElement('span'); price.className = 'pin-price'; price.textContent = priceOf(card); tag.append(price);
       if (mixedNights) { const n = document.createElement('small'); n.textContent = `${nightsOf(card)} gece`; tag.append(n); }
       tag.title = titleFor(card);
@@ -687,7 +702,8 @@
     const box = {left:Math.min(...rects.map(r => r.left)), right:Math.max(...rects.map(r => r.right)), top:Math.min(...rects.map(r => r.top)), bottom:Math.max(...rects.map(r => r.bottom))};
     const area = canvas.getBoundingClientRect(), card = preview.getBoundingClientRect(), margin = 18;
     const room = {left:area.left + margin, right:area.right - margin, top:area.top + margin, bottom:area.bottom - margin};
-    if (card.width > area.width * 0.7) room.bottom = card.top - margin; else room.right = card.left - margin;
+    // A card hidden by CSS (phone seçki list) leaves the whole map free.
+    if (card.width) { if (card.width > area.width * 0.7) room.bottom = card.top - margin; else room.right = card.left - margin; }
     // Keep clear of the zoom buttons and of the filter bar at the top.
     const controls = canvas.querySelector('.leaflet-top.leaflet-left')?.getBoundingClientRect();
     if (controls && controls.width) room.left = Math.max(room.left, controls.right + 8);
@@ -713,7 +729,7 @@
       Number.isFinite(Number(card.dataset.lat)) && Number.isFinite(Number(card.dataset.lon)));
     const bestPlan = group.value === 'best-apartment' || group.value === 'best-house';
     // Redraw only when something visible changed; favorites refresh often.
-    const signature = [group.value, favoritesOnly, seckiOnly, ...cards.map(card => `${offerKey(card)}:${card.dataset.availability}:${card.dataset.votes || 0}:${card.dataset.priceEur}`)].join('|');
+    const signature = [group.value, favoritesOnly, seckiOnly, ...cards.map(card => `${offerKey(card)}:${card.dataset.availability}:${card.dataset.votes || 0}:${card.dataset.priceEur}:${card.dataset.seckiVote || ''}${card.dataset.seckiRank || ''}`)].join('|');
     updateFavoriteToggle();
     if (!force && signature === lastSignature) { refreshPreview(); updateStatus(); return; }
     lastSignature = signature;
@@ -743,7 +759,8 @@
       const accessibleName = samePoint.length > 1
         ? `Bu konumda ${samePoint.length} teklif · en düşük ${label}${favorite ? ` · ${votes} beğeni` : ''} · teklifleri göster`
         : `${name} · ${headPrice(card)}${favorite ? ` · ${votes} beğeni` : ''}${unavailable ? ' · son kontrolde müsait değil' : ''}`;
-      const markerClass = `map-pin${favorite ? ' favorite' : ''}${unavailable ? ' unavailable' : ''}`;
+      const picked = seckiPick(samePoint);
+      const markerClass = `map-pin${favorite ? ' favorite' : ''}${unavailable ? ' unavailable' : ''}${picked ? ` secki-${picked.kind}` : ''}`;
       const rank = priority(samePoint) + (unavailable ? 2 : 0);
       const marker = window.L.marker([lat,lon], {icon:stayIcon(samePoint, label, markerClass), title:accessibleName, keyboard:true, zIndexOffset:(5 - rank) * 200, riseOnHover:true});
       const pin = {marker, samePoint, rank, label, accessibleName, price:Number(card.dataset.priceEur) || Infinity, group:null};
@@ -1137,9 +1154,29 @@
   group.addEventListener('change', () => { updatePlanLabel(); clearSelection(); draw(true); fitPoints(); });
   if (resetBest) resetBest.addEventListener('click', () => { setMapGroup('hepsi'); draw(true); fitPoints(); });
   favoriteToggle.addEventListener('click', () => {
-    favoritesOnly = !favoritesOnly; if (favoritesOnly) seckiOnly = false; clearSelection(); draw(true); fitPoints(!favoritesOnly);
+    favoritesOnly = !favoritesOnly; if (favoritesOnly) seckiOnly = false; mountSeckiList(); clearSelection(); draw(true); fitPoints(!favoritesOnly);
   });
-  const setSecki = on => { seckiOnly = on; if (on) favoritesOnly = false; clearSelection(); draw(true); fitPoints(); updateFavoriteToggle(); renderFilterBar(); };
+  function mountSeckiList() {
+    const list = window.BerlinSecki?.mapList;
+    const on = Boolean(seckiOnly && list);
+    if (on && list.parentNode !== mapBody) mapBody.append(list);
+    else if (!on && list && list.parentNode === mapBody) list.remove();
+    panel.classList.toggle('has-secki-list', on);
+    if (map) { map.invalidateSize(); scheduleLayout(); }
+  }
+  const setSecki = on => { seckiOnly = on; if (on) favoritesOnly = false; mountSeckiList(); clearSelection(); draw(true); fitPoints(); updateFavoriteToggle(); renderFilterBar(); };
+  // A home picked in the seçki list beside the map: fly to it and open its card.
+  document.addEventListener('secki-focus', event => {
+    const card = event.detail?.card;
+    const marker = card && markers.get(card);
+    if (!map || !marker) return;
+    map.stop();
+    map.setView(marker.getLatLng(), Math.max(map.getZoom(), 14), {animate:!window.matchMedia('(prefers-reduced-motion: reduce)').matches});
+    const samePoint = [...markers].filter(([, m]) => m === marker).map(([item]) => item);
+    setTimeout(() => selectPoint(samePoint, marker, card), 260);
+  });
+  // A vote changes the pin badges; redraw only what changed.
+  document.addEventListener('secki-change', () => { if (map && !panel.hidden) draw(); });
   seckiToggle.addEventListener('click', () => setSecki(!seckiOnly));
   // The seçki panel's "Seçkiyi Haritada Gör" opens the map on the short list.
   document.addEventListener('secki-map', async () => {
@@ -1187,7 +1224,7 @@
     mapOpener = button;
     setMapGroup(view?.dataset.activeBest && bestMatch(card) ? view.dataset.activeBest : parent.classList.contains('group-favorites')?'hepsi':parent.id);
     if (favoritesOnly && !isFavorite(card)) { favoritesOnly = false; }
-    if (seckiOnly && !isSecki(card)) { seckiOnly = false; }
+    if (seckiOnly && !isSecki(card)) { seckiOnly = false; mountSeckiList(); }
     if (!(await showMap(true))) return;
     draw(true);
     const marker = markers.get(card);

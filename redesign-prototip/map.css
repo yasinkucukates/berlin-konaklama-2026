@@ -138,10 +138,16 @@
 .club-pin.closed .pin-shape{filter:grayscale(1);opacity:.75}
 .leaflet-clubNames-pane{z-index:640;pointer-events:none}
 .leaflet-zoom-anim .leaflet-clubNames-pane{visibility:hidden}
-.club-name{position:absolute;display:block;width:max-content;padding:3px 7px;border-radius:7px;background:rgba(255,255,255,.9);color:#22363a;
-  font:750 11px/1.2 var(--sans);white-space:nowrap;box-shadow:0 0 0 1px rgba(34,54,58,.12),0 1px 4px rgba(34,54,58,.18);pointer-events:auto;cursor:pointer}
-.club-name.anchor{font-size:12px;color:#1b2b2e;box-shadow:0 0 0 1.5px #22363a,0 1px 4px rgba(34,54,58,.2)}
-.club-name.closed{color:#7c766f;text-decoration:line-through}
+/* Club names: dark slate-blue tags with white text, so they never read as a
+   white price label. Tresor and RSO get a thin rainbow edge. */
+.club-name{position:absolute;display:block;width:max-content;padding:3px 8px;border-radius:7px;background:#2f3a5c;color:#fff;
+  font:750 11px/1.2 var(--sans);letter-spacing:.01em;white-space:nowrap;box-shadow:0 0 0 1px rgba(255,255,255,.85),0 1px 4px rgba(20,26,44,.35);pointer-events:auto;cursor:pointer}
+.club-name::before{content:"♪";margin-right:4px;opacity:.75;font-weight:700}
+.club-name.anchor{font-size:12px;padding:4px 9px;background:#1f2742;
+  box-shadow:0 0 0 1.5px #fff,0 0 0 3.5px transparent,0 2px 6px rgba(20,26,44,.4);
+  background-image:linear-gradient(#1f2742,#1f2742),conic-gradient(from -90deg,#e5484d,#f5a524,#f2d13a,#3fae5c,#2f8fd8,#6a5acd,#b04fc4,#e5484d);
+  background-origin:border-box;background-clip:padding-box,border-box;border:2px solid transparent}
+.club-name.closed{background:#8b8f9c;color:#f2f2f2;text-decoration:line-through}
 .club-name.name-hidden{visibility:hidden;pointer-events:none}
 .club-pin:focus-visible{outline:none}
 .club-pin:focus-visible .pin-shape{outline:3px solid #175b71;outline-offset:3px}
@@ -361,3 +367,20 @@ html.map-full-open{overflow:hidden}
 }
 /* A fan opened by a tap may cover its neighbours; they step back a little. */
 .map-canvas.fan-open .map-pin:not(.fanned),.map-canvas.fan-open .club-name,.map-canvas.fan-open .map-fan.is-static{opacity:.45}
+
+/* ---------- Seçki on the map ---------- */
+.map-body{display:flex;gap:12px;align-items:stretch;width:100%;min-width:0}
+.map-body>.map-frame{flex:1 1 auto;min-width:0}
+.map-panel.is-full .map-body{flex:1 1 auto;min-height:0}
+.map-panel.is-full .map-body>.map-frame{min-height:0}
+/* The viewer's own picks: main = brick, backup = mustard, each with a badge. */
+.map-pin .pin-secki,.map-fan-tag .pin-secki{display:inline-grid;place-items:center;height:17px;padding:0 5px;border-radius:999px;font:800 10.5px/1 var(--sans);letter-spacing:0}
+.pin-secki.main{background:#fff;color:#6f3e2f}
+.pin-secki.backup{background:#5c4314;color:#fff}
+.map-pin.secki-main .pin-label,.map-fan-tag.secki-main{background:#6f3e2f;color:#fff;box-shadow:0 0 0 2px #fff,0 0 0 3.5px #6f3e2f,0 2px 8px rgba(111,62,47,.45)}
+.map-pin.secki-backup .pin-label,.map-fan-tag.secki-backup{background:#e6bf6a;color:#3d2c0c;box-shadow:0 0 0 2px #fff,0 0 0 3.5px #b98a3c,0 2px 8px rgba(120,86,26,.35)}
+.map-pin.secki-main .pin-shape{background:#6f3e2f}
+.map-pin.secki-backup .pin-shape{background:#b98a3c}
+.map-pin.secki-main,.map-pin.secki-backup{z-index:5000!important}
+.map-preview-secki{margin:10px 0 0;padding-top:10px;border-top:1px solid rgba(116,99,81,.16)}
+@media(max-width:639px){.map-preview-secki{grid-column:1 / -1}}
