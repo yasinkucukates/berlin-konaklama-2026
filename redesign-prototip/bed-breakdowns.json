@@ -421,5 +421,11 @@
     "summary": "2 çift kişilik yatak ve salonda 1 çekyat.",
     "source": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
     "normalBeds": 2
+  },
+  "sweep16-booking-berlin-roof-chill-20261230-20270103": {
+    "summary": "4 tek + 3 ekstra büyük çift kişilik yatak (7 ayrı yatak); oturma odasında 3 çekyat.",
+    "source": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "normalBeds": 7,
+    "certainty": "Booking oda kartları 16.11.2026 kontrolünde esas alındı."
   }
 }

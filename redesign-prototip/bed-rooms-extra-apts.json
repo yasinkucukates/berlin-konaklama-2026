@@ -838,5 +838,28 @@
     ],
     "note": "Altı kişiye ayrı yatak yok; çift yataklar ve çekyat paylaşılır. Toplamda vergi kapsamı teyitsiz.",
     "status": "ilan"
+  },
+  "sweep16-booking-berlin-roof-chill-20261230-20270103": {
+    "source": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "rooms": [
+      {
+        "name": "1. Yatak Odası",
+        "beds": "1 tek, 1 ekstra büyük çift kişilik yatak"
+      },
+      {
+        "name": "2. Yatak Odası",
+        "beds": "2 tek, 1 ekstra büyük çift kişilik yatak"
+      },
+      {
+        "name": "3. Yatak Odası",
+        "beds": "1 tek, 1 ekstra büyük çift kişilik yatak"
+      },
+      {
+        "name": "Oturma Odası",
+        "beds": "3 çekyat"
+      }
+    ],
+    "note": "Booking oda kartları 16.11.2026. Airbnb ilanı 3 tek + 3 king sayıyor; bir eski misafir bazı yatakların küçük olduğunu yazmış.",
+    "status": "ilan"
   }
 }

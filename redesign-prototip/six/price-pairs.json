@@ -2075,6 +2075,23 @@
       "depositText": null,
       "sourceFile": "galeri-sweep-20261114-yeni.json",
       "sourceUrl": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR"
+    },
+    {
+      "id": "sweep16-booking-berlin-roof-chill-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "numericTry": null,
+      "numericEur": 2681,
+      "numericUsd": null,
+      "taxStatus": "included",
+      "priceConfidence": "search",
+      "sourcePriceText": "2.681 €",
+      "sourcePriceStatus": "4 gecelik kaynak toplamı; vergi ve ücretler dahil",
+      "sourcePriceNote": "Booking 16.11.2026: 4 gece, 6 yetişkin 2.291 € + 390 € vergi ve ücretler = 2.681 €; 7 yetişkin 2.491 € + 390 € = 2.881 €. 16 Aralık 2026 öncesi ücretsiz iptal, 14 Aralık'a kadar ödeme yok. Aynı ev Airbnb'de 6 kişi 2.752 €, 7 kişi 2.992 € (tüm ücretler dahil, 29 Aralık'a kadar ücretsiz iptal); Holidu fiyatı Booking ile aynı.",
+      "depositText": null,
+      "sourceFile": "galeri-sweep-20261116-yeni.json",
+      "sourceUrl": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
     }
   ],
   "pairs": [

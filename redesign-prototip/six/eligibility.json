@@ -1530,6 +1530,19 @@
       "source": "https://www.airbnb.com.tr/rooms/973151040520236566?check_in=2026-12-30&check_out=2027-01-03&adults=6&currency=EUR",
       "maxAdults": 6,
       "ui7Eligible": false
+    },
+    {
+      "id": "sweep16-booking-berlin-roof-chill-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "eligible": true,
+      "privacy": "entire_private",
+      "category": "apartment",
+      "group": "recommended",
+      "reason": "Dairenin tamamı; 7 ayrı yatak (4 tek + 3 büyük çift).",
+      "source": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "maxAdults": 7,
+      "ui7Eligible": false
     }
   ],
   "validation": {

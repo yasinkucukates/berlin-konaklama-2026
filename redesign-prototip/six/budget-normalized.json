@@ -1994,6 +1994,23 @@
       "sourceFile": "galeri-sweep-20261114-yeni.json",
       "sourcePriceText": "1.883 €",
       "notes": "Altı kişiye ayrı yatak yok; çift yataklar ve çekyat paylaşılır. Toplamda vergi kapsamı teyitsiz."
+    },
+    {
+      "id": "sweep16-booking-berlin-roof-chill-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "amountEUR": 2681,
+      "currencyBasis": "native",
+      "band": "within",
+      "taxKnown": true,
+      "taxReserveFlag": false,
+      "sourceTaxStatus": "included",
+      "depositFlag": false,
+      "depositText": null,
+      "componentOnly": false,
+      "sourceFile": "galeri-sweep-20261116-yeni.json",
+      "sourcePriceText": "2.681 €",
+      "notes": "Booking 16.11.2026: 4 gece, 6 yetişkin 2.291 € + 390 € vergi ve ücretler = 2.681 €; 7 yetişkin 2.491 € + 390 € = 2.881 €. 16 Aralık 2026 öncesi ücretsiz iptal, 14 Aralık'a kadar ödeme yok. Aynı ev Airbnb'de 6 kişi 2.752 €, 7 kişi 2.992 € (tüm ücretler dahil, 29 Aralık'a kadar ücretsiz iptal); Holidu fiyatı Booking ile aynı."
     }
   ],
   "pairs": [

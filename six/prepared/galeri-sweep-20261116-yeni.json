@@ -1,0 +1,137 @@
+[
+  {
+    "id": "sweep16-booking-berlin-roof-chill-20261230-20270103",
+    "sourceId": "booking-berlin-roof-chill",
+    "name": "Friedrichshain | Roof & Chill, 170 m² Teraslı Loft",
+    "originalName": "Berlin Roof&Chill Loft I OverTheTop 2-level I 170m2 I 2 Bäder",
+    "area": "Friedrichshain",
+    "address": "Rigaer Str. 8, 10247 Berlin (Friedrichshain)",
+    "kind": "Dairenin tamamı",
+    "group": "full-apartment",
+    "capacity": 7,
+    "maxAdults": 7,
+    "rooms": 3,
+    "baths": "2",
+    "beds": "4 tek + 3 ekstra büyük çift kişilik yatak (7 ayrı yatak); oturma odasında 3 çekyat.",
+    "features": "170 m², iki katlı loft, teras, 3 yatak odası, 2 banyo, bulaşık makinesi. Airbnb puanı 4,78 (23 yorum). Bir eski misafir WC sayısını, biri bazı yatakların küçük olduğunu yazmış.",
+    "price": "2.681 €",
+    "priceEUR": 2681,
+    "priceApproximate": false,
+    "priceStatus": "4 gecelik kaynak toplamı; vergi ve ücretler dahil",
+    "priceClass": "search",
+    "priceNote": "Booking 16.11.2026: 4 gece, 6 yetişkin 2.291 € + 390 € vergi ve ücretler = 2.681 €; 7 yetişkin 2.491 € + 390 € = 2.881 €. 16 Aralık 2026 öncesi ücretsiz iptal, 14 Aralık'a kadar ödeme yok. Aynı ev Airbnb'de 6 kişi 2.752 €, 7 kişi 2.992 € (tüm ücretler dahil, 29 Aralık'a kadar ücretsiz iptal); Holidu fiyatı Booking ile aynı.",
+    "availabilityNote": "2026-11-16 tarihinde Booking'de 4 gece için 6 ve 7 yetişkin seçeneği görüldü; rezervasyon yapılmadı.",
+    "rsoCar": "16 dk",
+    "rsoTransit": "36 dk",
+    "tresorCar": "7 dk",
+    "tresorTransit": "40 dk",
+    "routeNote": "Aynı evin 2 gecelik kaydındaki OSRM araç ve BVG örnek rotası; trafik ve yılbaşı koşulları süreyi değiştirebilir.",
+    "sleepConfirmed": true,
+    "link": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "sourceURL": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+    "photoNote": "Aynı evin Booking galerisi (22 fotoğraf, imzalı); oda eşleşmeleri doğrulanmadı.",
+    "platform": "Booking",
+    "adults": 6,
+    "priceQuoteAdults": 6,
+    "checkIn": "2026-12-30",
+    "checkOut": "2027-01-03",
+    "nights": 4,
+    "privacyProof": {
+      "status": "entire_private",
+      "text": "Booking dairenin tamamını gösteriyor.",
+      "source": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR"
+    },
+    "checkedAt": "2026-11-16T15:34:00Z",
+    "addedAt": "2026-11-16T15:36:00Z",
+    "photos": [
+      [
+        "İlan Galerisi · Fotoğraf 1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913229.jpg?k=8d4a5f396de441d25261ef62b1bf176fa2e06bda4adfa9eedbb3201be2428315&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 2",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913240.jpg?k=e42380bd6e8d2ed0bcb31b6b936c7774b7f774fe661c11495c7de5684c33d2bd&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 3",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913228.jpg?k=40044940fe44a49b4857fb110217cb820d6e5c8832ce62b6f2b13695993b77fa&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 4",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913190.jpg?k=d50febcf9ac2c27db58f8be969de3f43691dd28b53e19857e53c92f156dc339b&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 5",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913170.jpg?k=cc0dcc8051a48c7ca086018d677d4a94d5e780676426ee9432ad6951e09ccdaf&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 6",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913318.jpg?k=048f60bf2efc2fe02fca277c1193e3e217d28a7e1717f09f8060c90d3e09db06&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 7",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913254.jpg?k=8614188fc918b3b54d4958ac375aedb467ebcdf9b9036b993e715a3bb78ec02f&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 8",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913195.jpg?k=184128037171a8b97e9aef82e1c9ff8ada7c27afa287057db05e74b02edcbc64&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 9",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913173.jpg?k=63678bb2762e69007c688bcd2264cf3c97452476a738c0302323d61d238407d5&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 10",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913225.jpg?k=84d319461c21bd3d35ee26a748fe4a86ff982167fc0ecad656273bd5b88aed76&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 11",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913242.jpg?k=1879bd9f3668de84fc83fd0d67dd4b0df9fd3ad88caf7ff124f3e7a53b3344d4&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 12",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913248.jpg?k=60e37a6a9417d11dc19f23d8fac7d0a9bab811a99fee732cc0617a7f61c2de17&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 13",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913158.jpg?k=362f8be271c7f781ff2426a8d7a498f5edddeaad8fca12924efb3d7720b01f34&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 14",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913174.jpg?k=bb45cd6397d66088a2a8a69e0402d1332e5e1552caa9226453525b833202b988&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 15",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913160.jpg?k=501328cb868da82c1226c6ef3b0f1aaacd1cc504ab05105a871d275de3dad9dd&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 16",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913200.jpg?k=34b4b36c14178a6fbc8e8f07b19088fc2c4145548357cd3fc5119b6029bd42d2&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 17",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913185.jpg?k=34b73273bda27a96c76632a00ce528d3903fbcf7e3a68ed04c435fb6641907d2&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 18",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913183.jpg?k=eb7518a09e161b3e45a6ad8c344cfa7b12bda9c9cecf671e3b869546ee489438&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 19",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913251.jpg?k=8d200d3aea2a61b4fff5a1e6e7be387dded10aa6fe1053e19598716adc0cd343&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 20",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913261.jpg?k=a14fd069f594686ce3998d65707bca0ab37b7aafb67f7c1140ca904f3c87df25&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 21",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913314.jpg?k=41d6dd41f2ac6d386e1766becd22b6f958a360b15a9902439a2e0f84acb781d9&o="
+      ],
+      [
+        "İlan Galerisi · Fotoğraf 22",
+        "https://cf.bstatic.com/xdata/images/hotel/max1920x1080/669913313.jpg?k=1587b69102bcf575f27359606ea6c79761c1e723d26071d5ac88be13ab40b774&o="
+      ]
+    ]
+  }
+]

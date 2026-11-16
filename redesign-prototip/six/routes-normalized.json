@@ -1390,6 +1390,18 @@
       "tresorTransitMin": null,
       "routeQuality": "OSRM trafiksiz araç hesabı",
       "notes": "İlanın yaklaşık konumundan OSRM trafiksiz araç hesabı; trafik ve yılbaşı koşulları süreyi değiştirebilir. https://router.project-osrm.org/table/v1/driving/13.41025,52.48773;13.38612,52.52189;13.467,52.5078;13.3143,52.3651;13.4175,52.5243;13.40398,52.51269;13.505335,52.459912;13.419484,52.510681?sources=0;1;2;3;4;5&destinations=6;7&annotations=duration,distance"
+    },
+    {
+      "id": "sweep16-booking-berlin-roof-chill-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "rsoCarMin": 16,
+      "tresorCarMin": 7,
+      "tresorRangeUpperMin": null,
+      "rsoTransitMin": 36,
+      "tresorTransitMin": 40,
+      "routeQuality": "OSRM trafiksiz araç hesabı",
+      "notes": "Aynı evin (bolunmus-roof-chill) kaydındaki rota: OSRM araç; BVG 31 Aralık 22.00 örneği."
     }
   ]
 }

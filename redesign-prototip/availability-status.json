@@ -699,6 +699,28 @@
       "sourceUrl": "https://www.holidu.de/d/69492292?checkin=2026-12-30&checkout=2027-01-03&adults=6",
       "evidence": "07.11.2026 aramasında seçili tarihler ve 6 yetişkin ile 1.328 € toplam görüldü.",
       "displayPrice": "1.328 €"
+    },
+    {
+      "scope": "card",
+      "id": "sweep16-booking-berlin-roof-chill-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-16T15:34:00+00:00",
+      "sourceUrl": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "evidence": "Booking fiyat tablosunda 30 Aralık–3 Ocak, 6 yetişkin için tek birim seçeneği ve 2.681 € (vergi dahil) görüldü; rezervasyon yapılmadı."
+    },
+    {
+      "scope": "card",
+      "id": "sweep16-booking-berlin-roof-chill-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 7,
+      "status": "available",
+      "checkedAt": "2026-11-16T15:34:00+00:00",
+      "sourceUrl": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=7&group_children=0&no_rooms=1&selected_currency=EUR",
+      "evidence": "Booking fiyat tablosunda 30 Aralık–3 Ocak, 7 yetişkin için tek birim seçeneği ve 2.881 € (vergi dahil) görüldü; rezervasyon yapılmadı."
     }
   ]
 }
