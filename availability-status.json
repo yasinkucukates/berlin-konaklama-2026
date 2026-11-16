@@ -3498,6 +3498,17 @@
       "status": "unavailable",
       "unavailableReason": "party-limit",
       "evidence": "Airbnb 7 misafir seçildiğinde en fazla 6 misafir kabul edildiğini gösterdi."
+    },
+    {
+      "scope": "card",
+      "id": "sweep16-booking-berlin-roof-chill-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "adults": 6,
+      "status": "available",
+      "checkedAt": "2026-11-16T16:06:40Z",
+      "sourceUrl": "https://www.booking.com/hotel/de/berlin-roof-amp-chill-i-overthetop-2-level-loft-for-13-i-familien-i-gruppen-i-ev.html?checkin=2026-12-30&checkout=2027-01-03&group_adults=6&group_children=0&no_rooms=1&selected_currency=EUR",
+      "evidence": "Booking.com 2026-12-30 giriş, 2027-01-03 çıkış ve 6 yetişkin için rezervasyon formunda 2.291 € (KDV ve şehir vergisi dahil) + 390 € temizlik, toplam 2.681 € gösterdi."
     }
   ]
 }
