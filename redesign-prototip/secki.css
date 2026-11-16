@@ -355,6 +355,11 @@
   .map-panel.is-full.has-secki-list{padding:6px max(8px,env(safe-area-inset-right,0px)) max(6px,env(safe-area-inset-bottom,0px)) max(8px,env(safe-area-inset-left,0px))}
   .map-panel.has-secki-list .map-heading>div:first-child,.map-panel.has-secki-list .map-legend{display:none}
   .map-panel.has-secki-list .map-notice{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .map-panel.has-secki-list .map-controls{display:flex;flex-wrap:nowrap;gap:6px;margin-top:0;overflow-x:auto;scrollbar-width:none}
+  .map-panel.has-secki-list .map-controls::-webkit-scrollbar{display:none}
+  .map-panel.has-secki-list .map-controls>*{flex:none}
+  .map-panel.has-secki-list .map-controls label{font-size:0;gap:0}
+  .map-panel.has-secki-list .map-controls select,.map-panel.has-secki-list .map-controls button{min-height:34px;padding:0 10px;font-size:12px}
   .map-panel.has-secki-list .map-body{flex-direction:row;gap:8px;flex:1 1 auto;min-height:0}
   .map-panel.has-secki-list .map-body>.map-frame,.map-panel.has-secki-list .map-canvas{min-height:0}
   .map-panel.has-secki-list .secki-maplist{width:300px;height:auto;margin:0;align-self:stretch;border-radius:14px}
