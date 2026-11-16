@@ -25,6 +25,14 @@
 .secki-area{margin:2px 0 0;color:var(--muted,#625b52);font:500 13px/1.3 var(--sans,system-ui)}
 .secki-facts{margin:8px 0 0;font:500 14px/1.45 var(--sans,system-ui);color:var(--ink,#2b2723)}
 .secki-facts b{font-weight:700}
+.secki-transit{margin:4px 0 0;font:500 13px/1.45 var(--sans,system-ui);color:var(--ink,#2b2723)}
+.secki-transit-line{margin:0}
+.secki-transit-label{color:var(--muted,#6f665d);margin-right:2px}
+.secki-transit-lime{color:var(--muted,#6f665d)}
+.secki-transit-more summary{cursor:pointer;color:var(--muted,#6f665d);font-size:12px;width:max-content}
+.secki-transit-more[open] summary{margin-bottom:4px}
+.secki-transit-route{margin:2px 0;font-size:12px}
+.secki-transit-note{margin:4px 0 0;font-size:11px;color:var(--muted,#6f665d)}
 .secki-status{margin:6px 0 0;color:#8a2f22;font:600 13px/1.35 var(--sans,system-ui)}
 .secki-status[hidden]{display:none}
 /* Pros and cons: two tinted columns, told apart at a glance. */
@@ -226,7 +234,7 @@
   .secki-thumb{grid-row:1}
   .secki-main{display:contents}
   .secki-title{grid-column:2;grid-row:1}
-  .secki-facts,.secki-status,.secki-pc,.secki-actions{grid-column:1 / -1;margin-top:0}
+  .secki-facts,.secki-transit,.secki-status,.secki-pc,.secki-actions{grid-column:1 / -1;margin-top:0}
   .secki-pc ul{font-size:12.5px;padding:7px 8px 5px}
   .secki-vote{grid-column:1 / -1;flex-direction:row;flex-wrap:wrap}
   .secki-vote button{flex:1 1 0}

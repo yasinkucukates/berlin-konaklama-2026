@@ -143,6 +143,43 @@
 
   // ---- Small builders -----------------------------------------------------
   const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+  // ---- Night public transport (VBB timetable; Lime only as a marked estimate)
+  const CLUBS = [['tresor', 'Tresor', "Tresor'a", "Tresor'dan"], ['rso', 'RSO', "RSO'ya", "RSO'dan"]];
+  const legText = l => l.walkM != null ? `yürü ${l.min} dk` : `${l.line} ${l.min} dk`;
+  const limeText = e => Number.isFinite(e?.limeMin) && e.limeMin < e.min ? `Lime'la ≈ ${e.limeMin}` : '';
+  function transitBlock(it) {
+    const t = it.transit;
+    if (!t) return null;
+    const box = el('div', 'secki-transit');
+    const line = el('p', 'secki-transit-line');
+    line.append(el('span', 'secki-transit-label', 'Toplu taşımayla, yılbaşı gecesi:'));
+    CLUBS.forEach(([k, name], i) => {
+      const go = t[k]?.go;
+      if (!go) return;
+      if (i) line.append(document.createTextNode(' ·'));
+      line.append(document.createTextNode(` ${name} `), el('b', '', `${go.min} dk`));
+      const lime = limeText(go);
+      if (lime) line.append(el('span', 'secki-transit-lime', ` (${lime})`));
+    });
+    const more = el('details', 'secki-transit-more');
+    more.append(el('summary', '', 'Rotalar'));
+    CLUBS.forEach(([k, , to, from]) => {
+      [['go', `${to} gidiş, 31 Ara 23:30`], ['back', `${from} dönüş, 1 Oca 05:00`]].forEach(([dir, label]) => {
+        const e = t[k]?.[dir];
+        if (!e) return;
+        const p = el('p', 'secki-transit-route');
+        p.append(el('b', '', `${label}: ${e.min} dk`));
+        const lime = limeText(e);
+        p.append(document.createTextNode(` · ${e.legs.map(legText).join(' › ')}` + (lime ? ` · ${lime} dk` : '')));
+        more.append(p);
+      });
+    });
+    const n = data.transitNote || {};
+    more.append(el('p', 'secki-transit-note', [n.source, n.silvester, n.lime].filter(Boolean).join(' ')));
+    box.append(line, more);
+    return box;
+  }
+
   const button = (cls, text) => { const b = el('button', cls, text); b.type = 'button'; return b; };
   const badgeText = (kind, rank) => kind === 'main' ? `Asıl ${rank}` : `Yedek ${rank}`;
   function badge() { const b = el('span', 'secki-badge'); b.hidden = true; return b; }
@@ -285,7 +322,7 @@
     const beds = card.querySelector('.fact-tile[data-tab="beds"] b')?.textContent.trim() || '';
     const rooms = card.querySelector('.fact-tile[data-tab="overview"] b')?.textContent.trim() || '';
     facts.append(el('b', '', price + (price.includes('€') || !Number.isFinite(eur) ? '' : ` (≈ ${fmtEur.format(eur)} €)`)));
-    [nights, per6 && `kişi başı ${per6}`, card.dataset.tresorCarMin && `Tresor ${card.dataset.tresorCarMin} dk`, card.dataset.rsoCarMin && `RSO ${card.dataset.rsoCarMin} dk`, beds, rooms]
+    [nights, per6 && `kişi başı ${per6}`, card.dataset.tresorCarMin && `taksiyle Tresor ${card.dataset.tresorCarMin} dk`, card.dataset.rsoCarMin && `RSO ${card.dataset.rsoCarMin} dk`, beds, rooms]
       .filter(Boolean).forEach(text => facts.append(document.createTextNode(' · ' + text)));
     const check = el('p', 'secki-check');
     const avail = el('span', 'secki-avail');
@@ -310,7 +347,8 @@
     const listing = card.querySelector('a.listing');
     if (listing) { const a = el('a', 'secki-listing', 'İlan ↗'); a.href = listing.href; a.target = '_blank'; a.rel = 'noopener noreferrer'; actions.append(a); }
     if (street && !exactPoint(card)) actions.append(el('span', 'secki-street-note', 'Konum yaklaşık; sokak görünümü evin önü olmayabilir.'));
-    main.append(titleRow, facts, check, pc, actions);
+    const transit = transitBlock(it);
+    main.append(...[titleRow, facts, transit, check, pc, actions].filter(Boolean));
     li.append(thumb, main, voteBox(it, false, true));
     list.append(li);
     rows.set(k, {li, badge: b, avail, allIn, it});
