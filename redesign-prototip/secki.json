@@ -178,7 +178,7 @@
       "id": "sweep12-airbnb-1591873645675719304-20261230-20270103",
       "checkIn": "2026-12-30",
       "checkOut": "2027-01-03",
-      "area": "Schöneberg",
+      "area": "Schöneberg (Hauptstraße)",
       "pros": [
         "Ucuz: 4 gece 1.688 €, hizmet ve temizlik dahil",
         "4 yatak odası, 2 banyo; Tresor'a 15 dk, RSO'ya 19 dk",
@@ -188,6 +188,22 @@
         "Airbnb puanı düşük: 3,38 (8 yorum)",
         "Oda oda yatak dökümü yok; ilan 9 yatak diyor, 6 ayrı yatak teyitsiz",
         "Berlin şehir vergisinin dahil olup olmadığı doğrulanmadı"
+      ]
+    },
+    {
+      "id": "sweep12-airbnb-14381251-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "area": "Schöneberg (balkonlu daire)",
+      "pros": [
+        "120 m², balkonlu, 2 banyo; hizmet ve temizlik dahil 1.964,80 €",
+        "Tresor'a 14 dk, RSO'ya 17 dk",
+        "6 ve 7 kişi için müsait görüldü (16 Kasım)"
+      ],
+      "cons": [
+        "Yalnız 2 yatak odası: 3'er kişi aynı odada",
+        "5 ayrı yatak (2 çift + 3 tek), 1 kişi çekyatta",
+        "Yalnız rezervasyondan sonraki 24 saat ücretsiz iptal; şehir vergisi dahil mi doğrulanmadı; tam adres ilanda yok"
       ]
     }
   ]
