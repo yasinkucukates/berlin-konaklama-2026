@@ -227,7 +227,9 @@
     const guest = document.querySelector('.filter-guests');
     const adults = card.dataset.offerAdults;
     if (guest && /^[67]$/.test(adults || '') && guest.value !== adults && card.hidden) { guest.value = adults; guest.dispatchEvent(new Event('change', {bubbles: true})); }
-    card.querySelector('.card-open-main')?.click();
+    // The large view opened from the seçki shows no likes (map.js reads this flag).
+    card.dataset.fromSecki = 'true';
+    try { card.querySelector('.card-open-main')?.click(); } finally { delete card.dataset.fromSecki; }
   }
   const fmtEur = new Intl.NumberFormat('tr-TR', {maximumFractionDigits: 0});
   const trDay = iso => { const d = new Date(iso); return Number.isFinite(d.getTime()) ? new Intl.DateTimeFormat('tr-TR', {day: 'numeric', month: 'long'}).format(d) : ''; };
