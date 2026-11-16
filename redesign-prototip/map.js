@@ -807,6 +807,7 @@
     const placed = Array.from(canvas.querySelectorAll('.leaflet-control')).map(el => el.getBoundingClientRect());
     if (!preview.hidden) placed.push(preview.getBoundingClientRect());
     [filterOpen, ...filterChips.children].forEach(el => { const r = el.getBoundingClientRect(); if (r.width) placed.push(r); });
+    if (dock.parentNode === panel) { const r = dock.getBoundingClientRect(); if (r.width) placed.push(r); }
     const anchors = [];
     clubMarkers.forEach(marker => {
       const el = marker.getElement();
@@ -837,14 +838,40 @@
     const center = r => [(r.left + r.right) / 2, (r.top + r.bottom) / 2];
     const nearest = item => {
       const [x, y] = center(item.dot);
-      return groups.reduce((best, g) => {
+      const pool = groups.some(g => !g.fan) ? groups.filter(g => !g.fan) : groups;
+      return pool.reduce((best, g) => {
         const [gx, gy] = center(g.dot), d = Math.hypot(gx - x, gy - y);
         return !best || d < best.d ? {g, d} : best;
       }, null)?.g;
     };
+    // Fans first: a point with several offers reserves room for a column of
+    // its own tags before any label is placed, so it stays open at any scale
+    // where the column covers no other stay, club anchor or control. Other
+    // labels then arrange themselves around it.
+    const fanStep = 28, fanGap = 30;
     pins.forEach(item => {
+      const pin = item.pin, lead = pin.marker, count = pin.samePoint.length;
+      if (count < 2 || count > 8 || item.order === 0 || (fan && fan.lead === lead)) return;
+      let f = staticFans.get(lead);
+      const fresh = !f;
+      if (fresh) f = buildFan(pin.samePoint, lead, card => selectPoint(pin.samePoint, lead, card), 'is-static');
+      const h = count * fanStep - (fanStep - f.tags[0].offsetHeight), w = Math.max(...f.tags.map(tag => tag.offsetWidth));
+      const [cx, cy] = center(item.dot);
+      const options = [];
+      [0, -(h / 2 + 4), h / 2 + 4, -h / 4, h / 4].forEach(lift => [1, -1].forEach(side => options.push({side, lift,
+        rect:box(side > 0 ? cx + 9 : cx - fanGap - w, cy + lift - h / 2 - 2, fanGap + w - 9, h + 4)})));
+      const fitsFan = o => inside(o.rect) && !placed.some(r => hit(o.rect, r)) && !anchors.some(a => hit(o.rect, a, 1)) &&
+        !groups.some(g => hit(o.rect, g.rect, 4) || hit(o.rect, g.dot, 2)) && !pins.some(other => other !== item && hit(o.rect, other.dot, 2));
+      const same = options.find(o => o.side === f.side && o.lift === f.lift);
+      const choice = same && fitsFan(same) ? same : options.find(fitsFan);
+      if (!choice) { if (fresh) f.marker.remove(); return; }
+      item.fanned = true;
+      groups.push({lead:item, members:[item], side:'', rect:choice.rect, dot:item.dot, fan:{f, fresh, choice}});
+    });
+    pins.forEach(item => {
+      if (item.fanned) return;
       // A dot under an existing label or next to another dot joins that label.
-      const under = item.order === 0 ? null : groups.find(g => hit(item.dot, g.rect, 2) || hit(item.dot, g.dot, 3));
+      const under = item.order === 0 ? null : groups.find(g => !g.fan && (hit(item.dot, g.rect, 2) || hit(item.dot, g.dot, 3)));
       if (under) { under.members.push(item); return; }
       const choice = sidesFor(item.dot, item.label.getBoundingClientRect()).find(([, rect]) => free(rect, null));
       if (choice) { groups.push({lead:item, members:[item], side:choice[0], rect:choice[1], dot:item.dot}); return; }
@@ -859,6 +886,7 @@
     const render = g => {
       const {el, label, pin} = g.lead;
       if (g.members.length < 2) return true;
+      if (g.fan) { if (g.fan.fresh) g.fan.f.marker.remove(); g.fan = null; }
       const cards = g.members.flatMap(m => m.pin.samePoint);
       cards.sort((a, b) => Number(a.dataset.availability === 'unavailable') - Number(b.dataset.availability === 'unavailable') || Number(a.dataset.priceEur || Infinity) - Number(b.dataset.priceEur || Infinity));
       pin.group = cards;
@@ -879,7 +907,7 @@
       let changed = false;
       for (const g of groups.slice()) {
         if (!groups.includes(g) || render(g) || g.lead.order === 0) continue;
-        const others = groups.filter(o => o !== g);
+        const rest = groups.filter(o => o !== g), others = rest.some(o => !o.fan) ? rest.filter(o => !o.fan) : rest;
         if (!others.length) continue;
         const [x, y] = center(g.dot);
         const target = others.reduce((best, o) => { const [ox, oy] = center(o.dot), d = Math.hypot(ox - x, oy - y); return !best || d < best.d ? {o, d} : best; }, null).o;
@@ -901,30 +929,15 @@
         if (cards.length > 1) previewList(cards, listShown.marker, Boolean(shown.group)); else previewSingle(cards[0], cards, listShown.marker);
       }
     }
-    // Static fans: a point with several offers shows each of them on its own
-    // tag whenever the column fits beside the point without covering anything.
-    const fanRects = [];
+    // Open the fans that kept their reserved room.
     const keepFans = new Set();
     groups.forEach(g => {
-      const pin = g.lead.pin, lead = pin.marker, count = pin.samePoint.length;
-      if (g.members.length !== 1 || count < 2 || count > 8 || (fan && !fan.static && fan.lead === lead)) return;
-      let f = staticFans.get(lead);
-      const fresh = !f;
-      if (fresh) f = buildFan(pin.samePoint, lead, card => selectPoint(pin.samePoint, lead, card), 'is-static');
-      const step = 28, gap = 30, h = count * step - (step - f.tags[0].offsetHeight), w = Math.max(...f.tags.map(tag => tag.offsetWidth));
-      const [cx, cy] = center(g.dot);
-      const options = [];
-      [0, -(h / 2 + 4), h / 2 + 4].forEach(lift => [1, -1].forEach(side => options.push({side, lift,
-        rect:box(side > 0 ? cx - 4 : cx - gap - w, cy + lift - h / 2 - 2, gap + w + 4, h + 4)})));
-      const fits = o => inside(o.rect) && !placed.some(r => hit(o.rect, r)) && !anchors.some(a => hit(o.rect, a, 1)) && !fanRects.some(r => hit(o.rect, r, 4)) &&
-        !groups.some(other => other !== g && (hit(o.rect, other.rect) || hit(o.rect, other.dot, 1)));
-      const same = options.find(o => o.side === f.side && o.lift === f.lift);
-      const choice = same && fits(same) ? same : options.find(fits);
-      if (!choice) { if (fresh) f.marker.remove(); return; }
+      if (!g.fan) return;
+      const {f, fresh, choice} = g.fan, lead = g.lead.pin.marker;
       if (fresh) staticFans.set(lead, f);
-      if (f.side !== choice.side || f.lift !== choice.lift) { f.side = choice.side; f.lift = choice.lift; placeFan(f, choice.side, choice.lift, step, gap, fresh); }
+      if (f.side !== choice.side || f.lift !== choice.lift) { f.side = choice.side; f.lift = choice.lift; placeFan(f, choice.side, choice.lift, fanStep, fanGap, fresh); }
       g.lead.el.classList.add('fan-static');
-      g.rect = choice.rect; fanRects.push(choice.rect); keepFans.add(lead);
+      keepFans.add(lead);
     });
     Array.from(staticFans.keys()).forEach(lead => { if (!keepFans.has(lead)) removeStaticFan(lead); });
     // The offer whose card is open keeps its tag marked on a rebuilt fan.
