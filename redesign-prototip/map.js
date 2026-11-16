@@ -29,7 +29,7 @@
   let map, markerLayer, mapFailure = '', mapLoadTimer, opener = null, mapOpener = null, mapIsModal = false;
   let markers = new Map();
   let clubMarkers = new Map(), clubNames = new Map(), namePane;
-  let stayPins = [], lastSignature = '', favoritesOnly = false, seckiOnly = false, layoutQueued = false;
+  let stayPins = [], lastSignature = '', favoritesOnly = false, seckiOnly = false, voteMode = false, layoutQueued = false;
   let selectedKeys = null, selectionTimer = null, previewOffer = null, listShown = null;
   const scrollBehavior = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
   const clubCenter = [52.52, 13.405];
@@ -82,12 +82,12 @@
   };
   setFullLabel(false);
   let nativeFull = false, refitOnResize = false, resizeTimer;
-  function setFull(on) {
+  function setFull(on, native = true) {
     if (panel.classList.contains('is-full') === on) return;
     panel.classList.toggle('is-full', on);
     document.documentElement.classList.toggle('map-full-open', on);
     setFullLabel(on); syncDock();
-    if (on && !mapIsModal && panel.requestFullscreen) {
+    if (on && native && !mapIsModal && panel.requestFullscreen) {
       panel.requestFullscreen().then(() => { nativeFull = true; }).catch(() => { nativeFull = false; });
     } else if (!on && nativeFull) {
       nativeFull = false;
@@ -137,7 +137,7 @@
   });
   window.addEventListener('keydown', event => {
     if (event.key === 'Escape' && panelHome) { event.preventDefault(); setFilterSheet(false); return; }
-    if (event.key === 'Escape' && panel.classList.contains('is-full') && !nativeFull && !mapIsModal && !(dialog && dialog.open)) setFull(false);
+    if (event.key === 'Escape' && panel.classList.contains('is-full') && !nativeFull && !mapIsModal && !(dialog && dialog.open) && !document.body.querySelector('dialog.secki-gate[open]')) { if (voteMode) hideMap(); else setFull(false); }
   });
   // Filters over a full-screen (or phone) map: the page's filter panel is out
   // of sight there, so a bar at the top of the map says whether filters are
@@ -489,6 +489,9 @@
     body.append(kicker, title, price);
     if (share) body.append(shareLine);
     if (facts.childNodes.length) body.append(facts);
+    // Seçki homes carry the list's notes: all-in total, pros and cons, street view.
+    const seckiNotes = card.dataset.secki === 'true' && window.BerlinSecki?.details ? window.BerlinSecki.details(card) : null;
+    if (seckiNotes) { body.append(seckiNotes); preview.classList.add('has-secki'); } else preview.classList.remove('has-secki');
     if (card.dataset.availability === 'unavailable') {
       const sold = document.createElement('p'); sold.className = 'map-preview-sold'; sold.textContent = 'Son kontrolde bu tarihler müsait değildi.'; body.append(sold);
     }
@@ -882,11 +885,12 @@
     };
     pins.forEach(item => {
       // A dot under an existing label or next to another dot joins that label.
-      const under = item.order === 0 ? null : groups.find(g => hit(item.dot, g.rect, 2) || hit(item.dot, g.dot, 3));
+      // The seçki shows every home on its own label; nothing is merged.
+      const under = item.order === 0 || seckiOnly ? null : groups.find(g => hit(item.dot, g.rect, 2) || hit(item.dot, g.dot, 3));
       if (under) { under.members.push(item); return; }
       const choice = sidesFor(item.dot, item.label.getBoundingClientRect()).find(([, rect]) => free(rect, null));
       if (choice) { groups.push({lead:item, members:[item], side:choice[0], rect:choice[1], dot:item.dot}); return; }
-      const near = item.order === 0 ? null : nearest(item);
+      const near = item.order === 0 || seckiOnly ? null : nearest(item);
       if (near) near.members.push(item);
       else groups.push({lead:item, members:[item], side:'', rect:item.label.getBoundingClientRect(), dot:item.dot});
     });
@@ -916,7 +920,7 @@
     for (let pass = 0; pass < 8; pass++) {
       let changed = false;
       for (const g of groups.slice()) {
-        if (!groups.includes(g) || render(g) || g.lead.order === 0) continue;
+        if (!groups.includes(g) || render(g) || g.lead.order === 0 || seckiOnly) continue;
         const others = groups.filter(o => o !== g);
         if (!others.length) continue;
         const [x, y] = center(g.dot);
@@ -1110,6 +1114,8 @@
     mapIsModal = modal;
   }
   function hideMap() {
+    const leavingVote = voteMode;
+    voteMode = false; panel.classList.remove('secki-vote-mode', 'secki-list-only');
     setFull(false);
     clearSelection();
     if (panel.open) panel.close();
@@ -1117,6 +1123,7 @@
     listButton.setAttribute('aria-pressed','true'); mapButton.setAttribute('aria-pressed','false');
     syncDock();
     if (mapOpener && mapOpener.isConnected) mapOpener.focus({preventScroll:true});
+    if (leavingVote) document.dispatchEvent(new CustomEvent('secki-vote-ended'));
   }
   async function showMap(shouldScroll) {
     openMapPanel(); listButton.setAttribute('aria-pressed','false'); mapButton.setAttribute('aria-pressed','true');
@@ -1152,7 +1159,7 @@
   mapButton.addEventListener('click', async () => { mapOpener = mapButton; setMapGroup(currentPageGroup()); if (await showMap(false)) requestAnimationFrame(() => fitPoints()); });
   listButton.addEventListener('click', hideMap);
   if (mapClose) mapClose.addEventListener('click', hideMap);
-  panel.addEventListener('cancel', event => { event.preventDefault(); if (panelHome) { setFilterSheet(false); return; } if (panel.classList.contains('is-full')) setFull(false); else hideMap(); });
+  panel.addEventListener('cancel', event => { event.preventDefault(); if (panelHome) { setFilterSheet(false); return; } if (panel.classList.contains('is-full') && !voteMode) setFull(false); else hideMap(); });
   window.addEventListener('resize', () => { if (!panel.hidden) { openMapPanel(); syncDock(); if (map) requestAnimationFrame(() => map.invalidateSize()); } });
   group.addEventListener('change', () => { updatePlanLabel(); clearSelection(); draw(true); fitPoints(); });
   if (resetBest) resetBest.addEventListener('click', () => { setMapGroup('hepsi'); draw(true); fitPoints(); });
@@ -1182,10 +1189,20 @@
   document.addEventListener('secki-change', () => { if (map && !panel.hidden) draw(); });
   seckiToggle.addEventListener('click', () => setSecki(!seckiOnly));
   // The seçki panel's "Seçkiyi Haritada Gör" opens the map on the short list.
+  // Both open as a full-screen map with the seçki list beside it (below on a phone).
   document.addEventListener('secki-map', async () => {
     mapOpener = null; seckiOnly = true; favoritesOnly = false;
-    if (await showMap(true)) { setSecki(true); requestAnimationFrame(() => fitPoints()); }
+    if (await showMap(true)) { setSecki(true); setFull(true, false); requestAnimationFrame(() => fitPoints()); }
   });
+  // The vote panel, opened by the code gate: only seçki homes, map + list, no other controls.
+  document.addEventListener('secki-vote-open', async () => {
+    mapOpener = null; seckiOnly = true; favoritesOnly = false; voteMode = true;
+    panel.classList.add('secki-vote-mode'); panel.classList.remove('secki-list-only');
+    if (await showMap(true)) { setSecki(true); setFull(true, false); requestAnimationFrame(() => fitPoints()); }
+    else { voteMode = false; panel.classList.remove('secki-vote-mode'); document.dispatchEvent(new CustomEvent('secki-vote-ended')); }
+  });
+  document.addEventListener('secki-vote-exit', () => hideMap());
+  document.addEventListener('secki-list-view', () => { if (map) requestAnimationFrame(() => { map.invalidateSize(); scheduleLayout(); }); });
   document.addEventListener('berlin-favorites-state', () => { if (map) draw(); else updateFavoriteToggle(); });
   if (fitButton) fitButton.addEventListener('click', () => fitPoints());
   if (fitClubsButton) fitClubsButton.addEventListener('click', () => fitPoints(true));

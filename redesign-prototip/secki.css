@@ -58,12 +58,14 @@
 .secki-results h3{margin:0;font:600 18px/1.2 var(--serif,Georgia,serif)}
 .secki-results-sub{margin:4px 0 8px;color:var(--muted,#625b52);font:500 13px/1.4 var(--sans,system-ui)}
 .secki-rank{margin:0;padding:0 0 0 22px;font:500 14px/1.35 var(--sans,system-ui)}
-.secki-rank li{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(80px,1fr) auto;grid-template-areas:"name meter num" "tier tier tier";gap:2px 12px;align-items:center;padding:7px 0;border-top:1px solid rgba(116,99,81,.14)}
+.secki-rank li{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(80px,1fr) auto;grid-template-areas:"name meter num" "tier tier tier" "who who who";gap:2px 12px;align-items:center;padding:7px 0;border-top:1px solid rgba(116,99,81,.14)}
 .secki-rank li::marker{font-weight:700;color:var(--muted,#625b52)}
 .rank-name{grid-area:name;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .rank-meter{grid-area:meter;display:flex;height:8px;border-radius:4px;background:#efe7dd;overflow:hidden}
 .rank-meter .m-a{background:var(--accent,#87503d)}
 .rank-meter .m-b{background:#d2ad69}
+.rank-meter .m-t{background:var(--accent,#87503d)}
+.rank-who{grid-area:who;color:var(--ink,#2b2620);font-size:13px;font-weight:600}
 .rank-num{grid-area:num;color:var(--muted,#625b52);font-weight:600;white-space:nowrap}
 .rank-tier{grid-area:tier;font-size:12.5px;font-weight:700}
 .rank-tier:empty{display:none}
@@ -176,14 +178,14 @@
   .secki-bar-map .secki-bar-buttons button{min-height:38px;padding:0 14px}
   .secki-bar-map[data-phase="confirm"]{flex-wrap:wrap}
   .secki-bar-map[data-phase="confirm"] .secki-bar-buttons{flex:1 1 100%}
-  .secki-bar-map[data-phase="done"] .secki-bar-buttons,.secki-bar-map[data-phase="closed"] .secki-bar-buttons{display:none}
+  .secki-bar-map[data-phase="closed"] .secki-bar-buttons{display:none}
 }
 @media (max-width:760px){
   .secki-bar.secki-bar-map{flex-direction:row;align-items:center;margin:0}
 }
 @media (max-width:639px){
   /* Phone: the list row is the card; the map only points at the home. */
-  .map-panel.has-secki-list .map-preview{display:none!important}
+  .map-panel.has-secki-list .map-preview{max-height:62%}
   .map-panel.has-secki-list .map-notice{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
   .map-panel.has-secki-list .map-heading>div:first-child{display:none}
   .map-panel.has-secki-list .map-heading .map-controls{grid-column:1;grid-row:1;margin-top:0}
@@ -225,4 +227,71 @@
   .secki-bar{flex-direction:column;align-items:stretch;margin:8px -4px 0}
   .secki-bar-buttons button{flex:1}
   .secki-rank li{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"name num" "meter meter" "tier tier"}
+}
+
+/* ---------- Map list head: view switch and exit ---------- */
+.secki-maplist-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.secki-maplist-headtext{min-width:0}
+.secki-maplist-buttons{display:flex;gap:6px;flex:none}
+.secki-maplist-view,.secki-maplist-exit{min-height:32px;padding:0 11px;border:1px solid var(--line,rgba(116,99,81,.3));border-radius:999px;background:#fff;color:var(--ink,#2b2723);font:650 12.5px/1 var(--sans,system-ui);cursor:pointer;white-space:nowrap}
+.secki-maplist-exit{background:#2b2723;border-color:#2b2723;color:#fff}
+.secki-maplist-exit[hidden]{display:none}
+.secki-mrow-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:5px}
+.secki-mrow-foot .secki-tally{margin:0;text-align:left;font-size:12px}
+.secki-mrow-street{flex:none;color:#175b71;font:650 12px/1.2 var(--sans,system-ui);text-decoration:none;white-space:nowrap}
+.secki-mrow-street:hover{text-decoration:underline}
+.secki-vote.is-compact:not(:has(button:not([hidden]))){display:none}
+.secki-street{color:#175b71!important;border-color:rgba(23,91,113,.35)!important}
+.secki-street-note{flex:1 1 100%;color:var(--muted,#625b52);font:500 12px/1.35 var(--sans,system-ui)}
+
+/* ---------- List only (map hidden) ---------- */
+.map-panel.secki-list-only .map-body>.map-frame{display:none}
+.map-panel.secki-list-only .secki-maplist{flex:1 1 auto;width:auto}
+.map-panel.secki-list-only .secki-maplist-rows{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px;align-content:start;overflow-x:hidden;overflow-y:auto;scroll-snap-type:none}
+.map-panel.secki-list-only .secki-mrow{width:auto;margin:0;background:#f8f4ee}
+.map-panel.secki-list-only .secki-mrow-title{-webkit-line-clamp:2}
+
+/* ---------- Vote panel: only the seçki, full-screen map + list ---------- */
+.map-panel.secki-vote-mode .map-heading,.map-panel.secki-vote-mode .map-legend,.map-panel.secki-vote-mode .map-help,.map-panel.secki-vote-mode .map-notice,
+.map-panel.secki-vote-mode .map-filterbar,.map-panel.secki-vote-mode .view-dock,.map-panel.secki-vote-mode .map-full-control{display:none!important}
+.map-panel.secki-vote-mode .secki-maplist-head h3{color:#6f3e2f}
+
+/* ---------- Code gate ---------- */
+.secki-gate{width:min(420px,calc(100% - 28px));padding:0;border:0;border-radius:16px;background:#fffdfa;color:var(--ink,#2b2723);box-shadow:0 24px 70px rgba(0,0,0,.35)}
+.secki-gate::backdrop{background:rgba(24,21,19,.6)}
+.secki-gate-form{display:grid;gap:12px;padding:20px}
+.secki-gate h3{margin:0;font:600 22px/1.15 var(--serif,Georgia,serif)}
+.secki-gate-text{margin:0;color:var(--muted,#625b52);font:500 14px/1.45 var(--sans,system-ui)}
+.secki-gate .secki-code-label{display:grid;gap:6px}
+.secki-gate .secki-code-input{width:100%;min-height:46px;font-size:18px}
+.secki-gate-buttons{display:flex;gap:8px;justify-content:flex-end}
+.secki-gate-buttons button{min-height:44px;padding:0 18px;border-radius:999px;font:700 14px/1 var(--sans,system-ui);cursor:pointer}
+.secki-gate .secki-code-who:empty{display:none}
+.secki-gate .secki-code-who{margin:0}
+
+/* ---------- Notes inside the map card ---------- */
+.secki-details{margin-top:8px;padding-top:8px;border-top:1px solid rgba(116,99,81,.16)}
+.secki-details .secki-check{display:grid;gap:3px;margin:0;font-size:12px}
+.secki-details .secki-pc{grid-template-columns:1fr;gap:2px;margin-top:6px}
+.secki-details .secki-pc ul{font-size:12.5px;line-height:1.38}
+.secki-details .secki-pc li{margin:2px 0;padding-left:14px}
+.secki-details-street{margin:6px 0 0;font:650 12.5px/1.3 var(--sans,system-ui)}
+.secki-details-street a{color:#175b71;text-decoration:none}
+.secki-details-street a:hover{text-decoration:underline}
+@media (max-width:639px){
+  .map-panel.secki-vote-mode .secki-maplist{margin-bottom:env(safe-area-inset-bottom,0px)}
+  .map-panel.secki-list-only .secki-maplist-rows{grid-template-columns:1fr;padding:6px 10px 10px}
+  .map-panel.secki-list-only .secki-maplist{flex:1 1 auto;min-height:0}
+  .map-panel.secki-list-only.has-secki-list .map-body{min-height:0}
+  .map-preview .secki-details .secki-pc ul{font-size:12px}
+  .secki-maplist-view,.secki-maplist-exit{min-height:30px;padding:0 10px;font-size:12px}
+  /* Keep the map credit on one line and the open card above it. */
+  .map-panel.has-secki-list .leaflet-control-attribution{max-width:100vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .map-panel.has-secki-list .map-preview{z-index:1001;bottom:24px}
+}
+@media (max-width:899px){
+  .secki-maplist-head{align-items:center}
+  .secki-maplist-headtext{display:flex;align-items:baseline;gap:8px;min-width:0}
+  .secki-maplist-headtext h3{flex:0 0 auto;white-space:nowrap}
+  .secki-maplist-headtext .secki-maplist-sub{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 }
