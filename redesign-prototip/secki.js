@@ -80,6 +80,8 @@
     async vote(code, main, backup) {
       await wait(400);
       const db = this.load(), hit = demoCodes.find(([c]) => c === norm(code));
+      const all = [...main, ...backup];
+      if (main.length !== MAIN || backup.length !== BACKUP || new Set(all).size !== all.length || !all.every(k => itemByKey.has(k))) return {ok: false, error: 'bad'};
       if (db.closed) return {ok: false, error: 'closed'};
       if (!hit) return {ok: false, error: 'invalid'};
       if (db.ballots.some(b => b.code === hit[0])) return {ok: false, error: 'used'};
@@ -251,7 +253,7 @@
   head.append(headText, headButtons);
   const body = el('div', 'secki-body'); body.id = 'secki-body';
   const how = el('p', 'secki-how');
-  how.textContent = `Herkes ${MAIN} asıl ve ${BACKUP} yedek oy verir; her oy ayrı bir eve gider. Önce en çok oy alan iki eve bakılır (eşitlikte asıl oyu fazla olan öne geçer), onlar olmazsa sıradakilere. Oy, sana verilen tek kullanımlık şifreyle bir kez verilir. Her evin yalnız toplam oyu görünür; hangi oyun asıl, hangisinin yedek olduğu anlaşılmaz. Oylama bitince yalnız en çok oy alan iki eve kimlerin oy verdiği yazar, öteki oylar isimsiz kalır.`;
+  how.textContent = `Herkes ${MAIN} asıl ve ${BACKUP} yedek oy verir; dördü de zorunlu ve her oy ayrı bir eve gider. Önce en çok oy alan iki eve bakılır (eşitlikte asıl oyu fazla olan öne geçer), onlar olmazsa sıradakilere. Oy, sana verilen tek kullanımlık şifreyle bir kez verilir. Her evin yalnız toplam oyu görünür; hangi oyun asıl, hangisinin yedek olduğu anlaşılmaz. Oylama bitince yalnız en çok oy alan iki eve kimlerin oy verdiği yazar, öteki oylar isimsiz kalır.`;
   const list = el('ol', 'secki-list');
   const results = el('div', 'secki-results'); results.hidden = true;
   const foot = el('div', 'secki-foot');
@@ -387,10 +389,20 @@
   }
   document.addEventListener('secki-vote-ended', leaveVote);
 
+  // What is still missing, in plain words ("2 yedek oy vermedin").
+  function missingText() {
+    const m = MAIN - picks.main.size, b = BACKUP - picks.backup.size;
+    const parts = [m > 0 && `${m} asıl`, b > 0 && `${b} yedek`].filter(Boolean);
+    return parts.length ? `Henüz ${parts.join(' ve ')} oy vermedin; ${MAIN} asıl ve ${BACKUP} yedeğin dördü de zorunlu.` : '';
+  }
   function onSubmit(where) {
     if (!isOpen()) return;
     if (!voter && phase !== 'done') { openGate(); return; }
-    if (phase === 'choose' && picks.main.size === MAIN) { phase = 'confirm'; note = ''; render(); return; }
+    if (phase === 'choose') {
+      const missing = missingText();
+      if (missing) { note = missing; render(); return; }
+      phase = 'confirm'; note = ''; render(); return;
+    }
     if (phase === 'confirm') { send(); return; }
     if (phase === 'done') {
       if (where === 'map' && inVote) { mapList.dispatchEvent(new CustomEvent('secki-vote-exit', {bubbles: true})); return; }
@@ -466,10 +478,11 @@
         text.textContent = `Oy vermek için sana verilen şifreyle gir. ${status ? `${status.voted || 0}/${status.total || VOTERS} kişi oy verdi.` : ''}`;
         submit.textContent = 'Oy Ver';
       } else if (phase === 'choose') {
-        text.textContent = note || `Asıl ${picks.main.size}/${MAIN} · Yedek ${picks.backup.size}/${BACKUP}${picks.main.size < MAIN ? ` · ${MAIN - picks.main.size} asıl daha seç` : ''}`;
-        submit.textContent = 'Oyumu Ver'; submit.disabled = picks.main.size !== MAIN;
+        text.textContent = note || `Asıl ${picks.main.size}/${MAIN} · Yedek ${picks.backup.size}/${BACKUP}`;
+        submit.textContent = 'Oyumu Ver';
+        submit.classList.toggle('is-quiet', Boolean(missingText()));
       } else if (phase === 'confirm') {
-        text.textContent = note || `Asıl: ${nameList([...picks.main]).join(', ')}${picks.backup.size ? ` · Yedek: ${nameList([...picks.backup]).join(', ')}` : ' · Yedek yok'}. Oy bir kez verilir, sonra değiştirilemez.`;
+        text.textContent = note || `Asıl: ${nameList([...picks.main]).join(', ')} · Yedek: ${nameList([...picks.backup]).join(', ')}. Oy bir kez verilir, sonra değiştirilemez.`;
         submit.textContent = 'Onayla ve Gönder';
       } else {
         text.textContent = 'Oyun gönderiliyor…'; submit.disabled = true; submit.textContent = 'Gönderiliyor';
@@ -583,8 +596,11 @@
   const mlHead = el('div', 'secki-maplist-head');
   const mlTitle = el('h3', '', 'Seçki');
   const mlSub = el('p', 'secki-maplist-sub');
+  const mlRotate = el('p', 'secki-rotate');
+  mlRotate.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect class="r-phone" x="7" y="3" width="10" height="18" rx="2.2"/><path d="M11 18h2"/><path class="r-arrow" d="M20.5 9.5a8 8 0 0 0-4-5.5m4 5.5V6m0 3.5H17"/></svg>';
+  mlRotate.append(document.createTextNode('Ayrıntı için telefonu yan çevir'));
   const mlText = el('div', 'secki-maplist-headtext');
-  mlText.append(mlTitle, mlSub);
+  mlText.append(mlTitle, mlSub, mlRotate);
   // Map + list by default; "Yalnız liste" hides the map, as asked.
   const mlView = button('secki-maplist-view');
   const mlExit = button('secki-maplist-exit', 'Kapat'); mlExit.hidden = true;
@@ -603,15 +619,20 @@
   const mapBar = makeBar('map');
   mapList.append(mlHead, mlRows, mapBar.node);
   const mapRows = new Map();
+  const tilesQuery = window.matchMedia('(max-width: 639px) and (orientation: portrait), (max-width: 999px) and (orientation: landscape) and (max-height: 540px)');
+  const tilesNow = () => tilesQuery.matches && mapList.dataset.view !== 'list';
   items.forEach(it => {
     const k = key(it);
     const li = el('li', 'secki-mrow'); li.dataset.key = k; li.tabIndex = 0;
+    const focus = () => section.dispatchEvent(new CustomEvent('secki-focus', {bubbles: true, detail: {card: it.card}}));
     li.setAttribute('aria-label', `${numberOf(it)}. ${titleOf(it)}: haritada göster`);
     const thumb = button('secki-mrow-thumb'); thumb.setAttribute('aria-label', `${titleOf(it)}: ilanı aç`);
     const src = thumbSrc(it.card);
     if (src) { const img = el('img'); img.src = src; img.alt = ''; img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer'; thumb.append(img); }
-    thumb.append(el('span', 'secki-no', String(numberOf(it))), el('span', 'secki-mrow-open', '↗'));
-    thumb.addEventListener('click', event => { event.stopPropagation(); openCard(it.card); });
+    const count = el('span', 'secki-mrow-count'); count.hidden = true;
+    thumb.append(el('span', 'secki-no', String(numberOf(it))), el('span', 'secki-mrow-open', '↗'), count);
+    // On a phone (upright or on its side) the photo shows the home's card on the map.
+    thumb.addEventListener('click', event => { event.stopPropagation(); if (tilesNow()) focus(); else openCard(it.card); });
     const text = el('div', 'secki-mrow-text');
     const title = el('p', 'secki-mrow-title', titleOf(it));
     const total = allInEur(it);
@@ -624,6 +645,8 @@
     line.append(avail);
     const b = badge();
     text.append(title, meta, line);
+    const pp = el('p', 'secki-mrow-pp', per6 ? `${total !== null && !it.check.allInConfirmed ? '≈ ' : ''}${per6}` : '');
+    if (per6) pp.append(el('span', '', ' / kişi'));
     if (total !== null) { const sure = el('span', 'secki-mrow-tax', it.check.allInConfirmed ? 'Her şey dahil' : it.check.cityTaxIncluded === false ? 'Vergiyi ekledik' : 'Vergi ayrıca olabilir'); sure.dataset.sure = String(Boolean(it.check.allInConfirmed)); line.append(sure); }
     const top = el('div', 'secki-mrow-top');
     top.append(thumb, text, b);
@@ -633,12 +656,11 @@
     if (tallyNode) foot.append(tallyNode);
     const street = streetLink(it, 'secki-mrow-street', exactPoint(it.card) ? 'Sokağı gör ↗' : 'Sokak (yaklaşık) ↗');
     if (street) foot.append(street);
-    li.append(top, box, foot);
-    const focus = () => section.dispatchEvent(new CustomEvent('secki-focus', {bubbles: true, detail: {card: it.card}}));
+    li.append(top, pp, box, foot);
     li.addEventListener('click', event => { if (!event.target.closest('button')) focus(); });
     li.addEventListener('keydown', event => { if ((event.key === 'Enter' || event.key === ' ') && event.target === li) { event.preventDefault(); focus(); } });
     mlRows.append(li);
-    mapRows.set(k, {li, badge: b, avail, it});
+    mapRows.set(k, {li, badge: b, avail, count, it});
   });
   function renderMapList() {
     mapList.dataset.phase = isOpen() ? phase : 'closed';
@@ -656,6 +678,8 @@
       row.avail.dataset.state = a.state;
       row.avail.textContent = a.state === 'available' ? (row.it.check?.available4Nights === false ? 'Yalnız 2 gece müsait' : 'Müsait') : a.state === 'unavailable' ? 'Müsait değil' : 'Müsaitlik doğrulanmadı';
       row.avail.title = availabilityText(row.it);
+      row.count.hidden = !status;
+      row.count.textContent = status ? tallyText(k) : '';
     });
   }
   function markMapRow(card) {

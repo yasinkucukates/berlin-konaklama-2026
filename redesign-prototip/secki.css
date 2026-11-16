@@ -27,9 +27,16 @@
 .secki-facts b{font-weight:700}
 .secki-status{margin:6px 0 0;color:#8a2f22;font:600 13px/1.35 var(--sans,system-ui)}
 .secki-status[hidden]{display:none}
-.secki-pc{display:grid;grid-template-columns:1fr 1fr;gap:4px 22px;margin-top:10px}
-.secki-pc ul{margin:0;padding:0;list-style:none;font:500 13.5px/1.42 var(--sans,system-ui)}
-.secki-pc li{position:relative;padding-left:18px;margin:3px 0}
+/* Pros and cons: two tinted columns, told apart at a glance. */
+.secki-pc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+.secki-pc ul{margin:0;padding:8px 10px 6px;border-radius:10px;list-style:none;font:500 13.5px/1.42 var(--sans,system-ui)}
+.secki-pc ul::before{display:block;margin:0 0 2px;font:800 12px/1.3 var(--sans,system-ui)}
+.secki-pros{background:#edf3ea;box-shadow:inset 0 3px 0 #5b8a5f}
+.secki-cons{background:#f8ece6;box-shadow:inset 0 3px 0 #b0644c}
+.secki-pros::before{content:"Artılar";color:#3f6b45}
+.secki-cons::before{content:"Eksiler";color:#9a4a35}
+.secki-pc ul:empty::after{content:"—";color:var(--muted,#625b52)}
+.secki-pc li{position:relative;padding-left:14px;margin:3px 0}
 .secki-pros li::before,.secki-cons li::before{position:absolute;left:0;top:0;font-weight:800}
 .secki-pros li::before{content:"+";color:#3f6b45}
 .secki-cons li::before{content:"–";color:#9a4a35}
@@ -220,7 +227,7 @@
   .secki-main{display:contents}
   .secki-title{grid-column:2;grid-row:1}
   .secki-facts,.secki-status,.secki-pc,.secki-actions{grid-column:1 / -1;margin-top:0}
-  .secki-pc{grid-template-columns:1fr}
+  .secki-pc ul{font-size:12.5px;padding:7px 8px 5px}
   .secki-vote{grid-column:1 / -1;flex-direction:row;flex-wrap:wrap}
   .secki-vote button{flex:1 1 0}
   .secki-tally{flex-basis:100%}
@@ -272,9 +279,9 @@
 /* ---------- Notes inside the map card ---------- */
 .secki-details{margin-top:8px;padding-top:8px;border-top:1px solid rgba(116,99,81,.16)}
 .secki-details .secki-check{display:grid;gap:3px;margin:0;font-size:12px}
-.secki-details .secki-pc{grid-template-columns:1fr;gap:2px;margin-top:6px}
-.secki-details .secki-pc ul{font-size:12.5px;line-height:1.38}
-.secki-details .secki-pc li{margin:2px 0;padding-left:14px}
+.secki-details .secki-pc{gap:6px;margin-top:8px}
+.secki-details .secki-pc ul{padding:7px 8px 5px;font-size:12.5px;line-height:1.36}
+.secki-details .secki-pc li{margin:2px 0;padding-left:12px}
 .secki-details-street{margin:6px 0 0;font:650 12.5px/1.3 var(--sans,system-ui)}
 .secki-details-street a{color:#175b71;text-decoration:none}
 .secki-details-street a:hover{text-decoration:underline}
@@ -284,6 +291,7 @@
   .map-panel.secki-list-only .secki-maplist{flex:1 1 auto;min-height:0}
   .map-panel.secki-list-only.has-secki-list .map-body{min-height:0}
   .map-preview .secki-details .secki-pc ul{font-size:12px}
+  .map-preview .secki-details .secki-pc li{padding-left:11px}
   .secki-maplist-view,.secki-maplist-exit{min-height:30px;padding:0 10px;font-size:12px}
   /* Keep the map credit on one line and the open card above it. */
   .map-panel.has-secki-list .leaflet-control-attribution{max-width:100vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -294,4 +302,88 @@
   .secki-maplist-headtext{display:flex;align-items:baseline;gap:8px;min-width:0}
   .secki-maplist-headtext h3{flex:0 0 auto;white-space:nowrap}
   .secki-maplist-headtext .secki-maplist-sub{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+}
+
+/* ---------- Phone layouts (16 Nov) ----------
+   Upright phone: the list stays below the map as small tiles (photo, price per
+   person, votes); tapping a photo opens the home's card on the map.
+   Phone on its side: map on the left, list on the right, a wider card. */
+.secki-mrow-pp,.secki-mrow-count{display:none}
+.secki-rotate{display:none}
+.map-panel.has-secki-list .map-body{position:relative}
+/* The open card on small screens: photo on the left, notes across the width. */
+@media (max-width:999px){
+  .map-panel.has-secki-list .map-preview.has-secki{display:block}
+  .map-panel.has-secki-list .map-preview.has-secki .map-preview-media{float:left;width:72px;height:72px;margin:10px 10px 4px 10px;border-radius:10px}
+  .map-panel.has-secki-list .map-preview.has-secki .map-preview-body{padding:10px 10px 0}
+  .map-panel.has-secki-list .map-preview.has-secki .map-preview-kicker,.map-panel.has-secki-list .map-preview.has-secki h3{padding-right:34px}
+  .map-panel.has-secki-list .map-preview.has-secki .secki-details,.map-panel.has-secki-list .map-preview.has-secki .map-preview-actions{clear:both}
+}
+@media (min-width:1000px){
+  .map-preview.has-secki{width:min(420px,calc(100% - 24px))}
+}
+@media (max-width:639px) and (orientation:portrait){
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-maplist-rows{gap:6px;padding:6px 8px 8px}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow{display:flex;flex-direction:column;gap:4px;width:128px;padding:5px;border-radius:11px}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-top{display:block}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-thumb{display:block;width:100%;height:76px;border-radius:8px}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-text,
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-foot,
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow .secki-badge,
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-open{display:none}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-pp{display:block;margin:0 1px;font:750 13px/1.2 var(--sans,system-ui);color:var(--ink,#2b2723);white-space:nowrap}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-pp span{color:var(--muted,#625b52);font-weight:600;font-size:11px}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-count:not([hidden]){display:block;position:absolute;right:3px;top:3px;padding:2px 6px;border-radius:999px;background:rgba(28,28,30,.74);color:#fff;font:750 10.5px/1.3 var(--sans,system-ui)}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-vote.is-compact{margin:0;gap:4px;flex-wrap:nowrap}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-vote.is-compact button{min-height:30px;padding:0 2px;font-size:11px;border-radius:8px;white-space:nowrap}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-vote.is-compact .secki-tally{display:none}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow[data-vote="main"]{box-shadow:inset 0 0 0 2px #6f3e2f}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow[data-vote="backup"]{box-shadow:inset 0 0 0 2px #b98a3c}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow.is-active{box-shadow:0 0 0 2px #2b2723}
+  /* "Turn the phone" sign, floating at the top of the map for a few seconds. */
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-rotate{position:absolute;z-index:1002;top:10px;left:50%;display:flex;align-items:center;gap:6px;margin:0;padding:6px 11px 6px 9px;border-radius:999px;background:rgba(28,28,30,.82);color:#fff;font:650 12px/1.2 var(--sans,system-ui);white-space:nowrap;transform:translateX(-50%);pointer-events:none;animation:secki-hint 9s ease forwards}
+  .map-panel.has-secki-list:not(.secki-list-only):not(.secki-vote-mode) .secki-rotate{top:62px}
+  .map-body:has(.map-preview:not([hidden])) .secki-rotate{display:none!important}
+  .map-panel.has-secki-list .map-preview{max-height:calc(100% - 96px)}
+  .secki-rotate svg{flex:none}
+  .secki-rotate .r-phone{transform-box:fill-box;transform-origin:center;animation:secki-turn 2.4s ease-in-out infinite}
+}
+@keyframes secki-hint{0%{opacity:0}6%{opacity:1}85%{opacity:1}100%{opacity:0;visibility:hidden}}
+@keyframes secki-turn{0%,30%{transform:rotate(0)}50%,80%{transform:rotate(-90deg)}100%{transform:rotate(0)}}
+@media (prefers-reduced-motion:reduce){.secki-rotate .r-phone{animation:none}}
+@media (max-width:999px) and (orientation:landscape) and (max-height:540px){
+  .map-panel.is-full.has-secki-list{padding:6px max(8px,env(safe-area-inset-right,0px)) max(6px,env(safe-area-inset-bottom,0px)) max(8px,env(safe-area-inset-left,0px))}
+  .map-panel.has-secki-list .map-heading>div:first-child,.map-panel.has-secki-list .map-legend{display:none}
+  .map-panel.has-secki-list .map-notice{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .map-panel.has-secki-list .map-body{flex-direction:row;gap:8px;flex:1 1 auto;min-height:0}
+  .map-panel.has-secki-list .map-body>.map-frame,.map-panel.has-secki-list .map-canvas{min-height:0}
+  .map-panel.has-secki-list .secki-maplist{width:300px;height:auto;margin:0;align-self:stretch;border-radius:14px}
+  .map-panel.has-secki-list:not(.secki-vote-mode) .secki-maplist{margin-bottom:calc(58px + env(safe-area-inset-bottom,0px))}
+  .map-panel.has-secki-list .secki-maplist-head{padding:6px 10px}
+  .map-panel.has-secki-list .secki-maplist-head h3{font-size:15px}
+  .map-panel.has-secki-list .secki-maplist-headtext .secki-maplist-sub{display:none}
+  .map-panel.has-secki-list .secki-maplist-rows{display:block;padding:4px 6px;overflow-x:hidden;overflow-y:auto;scroll-snap-type:none}
+  /* One line per home: photo (with its vote count), name and price, the two vote buttons. */
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow{display:grid;grid-template-columns:52px minmax(0,1fr) auto;align-items:center;gap:8px;width:auto;padding:6px;background:transparent}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow+.secki-mrow{margin-top:2px}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-top{display:contents}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-thumb{grid-column:1;grid-row:1;width:52px;height:52px}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-text{grid-column:2;grid-row:1}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-title{-webkit-line-clamp:1;font-size:13px;padding-right:0}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow .secki-badge,
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-foot,
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-open,
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-pp{display:none}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-count:not([hidden]){display:block;position:absolute;left:2px;right:2px;bottom:2px;padding:1px 0;border-radius:6px;background:rgba(28,28,30,.74);color:#fff;text-align:center;font:750 10px/1.3 var(--sans,system-ui)}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-vote.is-compact{grid-column:3;grid-row:1;flex-direction:column;flex-wrap:nowrap;gap:4px;width:84px;margin:0}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-vote.is-compact button{flex:none;width:100%;min-height:27px;padding:0 4px;font-size:11.5px;border-radius:8px;white-space:nowrap}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-vote.is-compact .secki-tally{display:none}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow[data-vote="main"]{box-shadow:inset 3px 0 0 #6f3e2f;background:rgba(111,62,47,.07)}
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow[data-vote="backup"]{box-shadow:inset 3px 0 0 #b98a3c;background:rgba(185,138,60,.12)}
+  .map-panel.has-secki-list .secki-bar-map{padding:6px 10px}
+  .map-panel.has-secki-list .secki-bar-map .secki-bar-text{font-size:12px}
+  .map-panel.has-secki-list .secki-bar-map .secki-bar-buttons button{min-height:36px}
+  .map-panel.has-secki-list .map-preview{top:8px;right:8px;bottom:auto;left:auto;width:min(470px,calc(100% - 16px));max-height:calc(100% - 16px);z-index:1001;background:#faf7f2;border-radius:14px}
+  .map-panel.secki-list-only .secki-maplist{width:auto;flex:1 1 auto}
+  .map-panel.secki-list-only .secki-maplist-rows{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:8px}
 }
