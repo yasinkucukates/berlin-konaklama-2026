@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "title": "Seçki",
+  "createdAt": "2026-11-16T15:18:26Z",
+  "note": "Yasin'in 16 Kasım 2026'da paylaştığı bağlantılardaki ilanların sitedeki kartları. Artı ve eksiler kartlardaki kaynak kayıtlarından derlendi; fiyat ve müsaitlik kartlardaki son kontrol tarihine aittir.",
+  "ballot": {
+    "main": 2,
+    "backup": 2
+  },
+  "items": [
+    {
+      "id": "sweep12-booking-gneisenau-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "area": "Kreuzberg",
+      "pros": [
+        "Tresor'a 6 dk: seçkinin en yakını",
+        "115 m², 3 yatak odası, 2 banyo",
+        "Ücretsiz iptalli tarifesi var (2.542 €, 25 Aralık'a kadar)"
+      ],
+      "cons": [
+        "5 ayrı yatak var, 1 kişi çekyatta yatar",
+        "Bodrum katı (Souterrain)",
+        "City Tax ayrıca istenebilir; gösterilen fiyat iadesiz",
+        "RSO'ya 18 dk; ilan 6 kişilik, 7. kişi teyitsiz"
+      ]
+    },
+    {
+      "id": "sweep12-booking-stilvolle-6-zimmer-ferienwohnung-mit-2-badern-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "area": "Neukölln",
+      "pros": [
+        "12 tek yatak, 6 yatak odası: herkese ayrı yatak, çoğuna ayrı oda",
+        "RSO'ya 9 dk, Tresor'a 11 dk taksi",
+        "Vergi, City Tax ve temizlik fiyata dahil",
+        "Ücretsiz iptalli tarifesi var (2.535 €, 29 Aralık'a kadar)",
+        "6 ve 7 kişi için müsait görüldü (14 Kasım)"
+      ],
+      "cons": [
+        "Yalnız 2 yorum, puan 6,5",
+        "6 odaya 2 banyo düşüyor",
+        "Gösterilen fiyat iadesiz tarife; zemin kat"
+      ]
+    },
+    {
+      "id": "six-booking-951491101-full",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "area": "Pankow (Herthastraße)",
+      "pros": [
+        "140 m², 3 yatak odası, 2 banyo",
+        "Her odada 2 büyük çift kişilik yatak: herkese kendi yatağı",
+        "Tresor'a 10 dk taksi"
+      ],
+      "cons": [
+        "Seçkinin en pahalısı",
+        "RSO'ya 23 dk: seçkinin en uzağı",
+        "Vergilerin fiyata dahil olup olmadığı belirtilmemiş; 250 € depozito",
+        "İlan 6 kişilik, 7. kişi teyitsiz"
+      ]
+    },
+    {
+      "id": "bolunmus-roof-chill",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-01",
+      "area": "Friedrichshain",
+      "pros": [
+        "170 m², teras; Tresor'a 7 dk, RSO'ya 16 dk",
+        "7 kişilik teklif, vergi ve ücretler dahil",
+        "16 Aralık'a kadar ücretsiz iptal"
+      ],
+      "cons": [
+        "Sitedeki fiyat yalnız 2 gece (30 Aralık–1 Ocak); 4 gecelik fiyat sitede yok",
+        "Yatak düzeni teyitsiz: Booking ve Airbnb farklı sayıyor",
+        "WC sayısı teyitsiz; 1 Ocak çıkışı sabah 06.00–10.00"
+      ]
+    },
+    {
+      "id": "sweep12-booking-britzer-tor-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "area": "Neukölln (Karl-Marx-Str.)",
+      "pros": [
+        "7 tek yatak: herkese ayrı yatak",
+        "RSO'ya 9 dk, Tresor'a 11 dk taksi",
+        "Vergiler dahil; ücretsiz iptalli tarifesi var (2.582 €, 23 Aralık'a kadar)"
+      ],
+      "cons": [
+        "Yalnız 2 yatak odası: 3 ve 4 kişi aynı odada",
+        "90 m²: seçkinin en küçüğü",
+        "Otel bünyesinde daire, kahvaltı dahil değil (kişi başı 15 €)",
+        "İlan 6 kişilik, 7. kişi teyitsiz"
+      ]
+    },
+    {
+      "id": "sweep12-booking-modern-accommodation-neukoln-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "area": "Neukölln (Schillerkiez)",
+      "pros": [
+        "Seçkinin en ucuzu",
+        "9 tek yatak, 3 yatak odası, 2 banyo, 120 m²",
+        "Vergi, City Tax ve temizlik dahil; Tresor'a 11 dk"
+      ],
+      "cons": [
+        "İadesiz: ücretsiz iptal seçeneği yok",
+        "4 yorum (7,5); 300 €'ya kadar hasar politikası",
+        "İlan 6 kişilik; 7 kişi için müsait görünse de 7. kişi teyitsiz"
+      ]
+    },
+    {
+      "id": "sweep7-airbnb-38533401-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "area": "Tempelhof (Ringbahnstraße)",
+      "pros": [
+        "13 tek yatak, 5 yatak odası, 3 banyo: seçkinin en çok banyolusu",
+        "Airbnb puanı 4,57; Tresor'a 12 dk, RSO'ya 14 dk",
+        "6 ve 7 kişi için müsait görüldü"
+      ],
+      "cons": [
+        "Berlin konaklama vergisinin dahil olup olmadığı doğrulanmadı",
+        "İptal: 24 saat sonra iade yok (23 Aralık öncesi kısmi iade)",
+        "Giriş ve çıkış saatleri bilinmiyor"
+      ]
+    },
+    {
+      "id": "sweep12-traum-ferienwohnungen-93211-20261230-20270103",
+      "checkIn": "2026-12-30",
+      "checkOut": "2027-01-03",
+      "area": "Lichtenberg",
+      "pros": [
+        "200 m², 5 yatak odası, 2025'te yenilenmiş",
+        "Tresor'a ve RSO'ya 12'şer dk taksi",
+        "Girişten 28 gün öncesine (2 Aralık) kadar ücretsiz iptal"
+      ],
+      "cons": [
+        "Platform koruması yok: havale/PayPal/nakit, 200 € kapora, ev sahibi onayı gerekir",
+        "Yatakların çoğu çift kişilik (5 çift + 2 tek + çekyat)",
+        "City Tax (~165 €) ayrıca istenebilir; yalnız 1 yorum (2015)"
+      ]
+    }
+  ]
+}

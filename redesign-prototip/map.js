@@ -29,7 +29,7 @@
   let map, markerLayer, mapFailure = '', mapLoadTimer, opener = null, mapOpener = null, mapIsModal = false;
   let markers = new Map();
   let clubMarkers = new Map(), clubNames = new Map(), namePane;
-  let stayPins = [], lastSignature = '', favoritesOnly = false, layoutQueued = false;
+  let stayPins = [], lastSignature = '', favoritesOnly = false, seckiOnly = false, layoutQueued = false;
   let selectedKeys = null, selectionTimer = null, previewOffer = null, listShown = null;
   const scrollBehavior = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
   const clubCenter = [52.52, 13.405];
@@ -60,6 +60,12 @@
   favoriteToggle.append(svgIcon('heart'), document.createTextNode(' Yalnız Favoriler '));
   const favoriteCount = document.createElement('span'); favoriteCount.className = 'map-favorites-count'; favoriteToggle.append(favoriteCount);
   if (mapControls) mapControls.prepend(favoriteToggle);
+  // Seçki: only the group's short list (cards marked by secki.js), all plans.
+  const seckiToggle = document.createElement('button');
+  seckiToggle.type = 'button'; seckiToggle.className = 'map-secki'; seckiToggle.setAttribute('aria-pressed', 'false');
+  seckiToggle.append(svgIcon('sparkles'), document.createTextNode(' Seçki '));
+  const seckiCount = document.createElement('span'); seckiCount.className = 'map-favorites-count'; seckiToggle.append(seckiCount);
+  if (mapControls) favoriteToggle.after(seckiToggle);
   // Full screen: the browser's own full screen where it exists (desktop),
   // otherwise the panel simply covers the page. Lives in the map's corner.
   const fullButton = document.createElement('button');
@@ -163,6 +169,14 @@
       const clearAll = document.querySelector('.active-filters .filter-chips-clear');
       if (clearAll) { const all = document.createElement('button'); all.type = 'button'; all.className = 'map-filter-clear'; all.textContent = 'Tümünü kaldır'; all.addEventListener('click', () => clearAll.click()); nodes.push(all); }
     }
+    if (seckiOnly) {
+      // Filters do not apply to the short list; say so instead of listing them.
+      const chip = document.createElement('button'); chip.type = 'button'; chip.className = 'map-filter-chip map-filter-secki';
+      const text = document.createElement('span'); text.textContent = 'Yalnız seçki · filtreler uygulanmaz';
+      chip.append(text, svgIcon('x')); chip.setAttribute('aria-label', 'Seçki görünümünü kapat');
+      chip.addEventListener('click', () => setSecki(false));
+      nodes.splice(0, nodes.length, chip);
+    }
     filterChips.replaceChildren(...nodes);
   }
   function setFilterSheet(open) {
@@ -223,8 +237,10 @@
   const bestMatch = card => card.dataset.bestEligible === 'true' || card.dataset.bestCandidate === 'true';
   const hasBestHouse = () => Array.from(document.querySelectorAll('.groups .stay-card')).some(card => card.dataset.planGroup === 'full-villa' && bestMatch(card));
   const isFavorite = card => Number(card.dataset.votes || 0) > 0;
-  const usableCard = card => card.dataset.generalMatch !== 'false' && (!favoritesOnly || isFavorite(card));
+  const isSecki = card => card.dataset.secki === 'true';
+  const usableCard = card => seckiOnly ? isSecki(card) : card.dataset.generalMatch !== 'false' && (!favoritesOnly || isFavorite(card));
   const inPlan = card => {
+    if (seckiOnly) return true;
     const plan = group.value.replace(/^p[67]-/, '');
     if (plan === 'hepsi') return true;
     if (plan === 'best-apartment') return card.dataset.planGroup === 'full-daire' && (bestMatch(card) || card.dataset.bestAlternative === 'true');
@@ -256,7 +272,8 @@
         const points = new Set(markers.values()).size;
         const favorites = selected.filter(isFavorite).length;
         const filtersOn = Number(view?.dataset.activeFilters || 0);
-        if (favoritesOnly && !selected.length) markStatus(filtersOn ? 'Açık filtrelerle eşleşen ortak favori yok.' : 'Bu planda henüz ortak favori yok. Kartlardaki kalp ile beğenebilirsiniz.');
+        if (seckiOnly) markStatus(`Seçki: ${points} konumda ${selected.length} ev${favorites ? ` · ${favorites} favori` : ''}. Filtreler seçkiye uygulanmaz. Konumlar yaklaşıktır.`);
+        else if (favoritesOnly && !selected.length) markStatus(filtersOn ? 'Açık filtrelerle eşleşen ortak favori yok.' : 'Bu planda henüz ortak favori yok. Kartlardaki kalp ile beğenebilirsiniz.');
         else markStatus(`${points} konumda ${selected.length} teklif${favorites ? ` · ${favorites} favori` : ''}${missing ? ` · ${missing} ilanın konumu belirsiz` : ''}${filtersOn ? ` · ${filtersOn} filtre açık` : ''}. Konumlar yaklaşıktır.${alternatives}`);
       }
     }
@@ -696,7 +713,7 @@
       Number.isFinite(Number(card.dataset.lat)) && Number.isFinite(Number(card.dataset.lon)));
     const bestPlan = group.value === 'best-apartment' || group.value === 'best-house';
     // Redraw only when something visible changed; favorites refresh often.
-    const signature = [group.value, favoritesOnly, ...cards.map(card => `${offerKey(card)}:${card.dataset.availability}:${card.dataset.votes || 0}:${card.dataset.priceEur}`)].join('|');
+    const signature = [group.value, favoritesOnly, seckiOnly, ...cards.map(card => `${offerKey(card)}:${card.dataset.availability}:${card.dataset.votes || 0}:${card.dataset.priceEur}`)].join('|');
     updateFavoriteToggle();
     if (!force && signature === lastSignature) { refreshPreview(); updateStatus(); return; }
     lastSignature = signature;
@@ -776,6 +793,10 @@
     const total = Array.from(document.querySelectorAll('.groups .stay-card')).filter(card => inPlan(card) && card.dataset.generalMatch !== 'false' && isFavorite(card)).length;
     favoriteCount.textContent = `(${total})`;
     favoriteToggle.setAttribute('aria-pressed', String(favoritesOnly));
+    const secki = Array.from(document.querySelectorAll('.groups .stay-card')).filter(isSecki).length;
+    seckiToggle.hidden = !secki;
+    seckiCount.textContent = `(${secki})`;
+    seckiToggle.setAttribute('aria-pressed', String(seckiOnly));
   }
   // Label one stay without grouping (its own offers and price).
   function ownLabel(pin) {
@@ -1050,7 +1071,7 @@
   function fitPoints(clubsOnly = false) {
     if (!map) return;
     const coordinates = clubsOnly ? [] : [...new Set(markers.values())].map(marker => marker.getLatLng());
-    if (favoritesOnly && coordinates.length) {
+    if ((favoritesOnly || seckiOnly) && coordinates.length) {
       const padding = window.matchMedia('(max-width:639px)').matches ? [70,50] : [60,60];
       map.fitBounds(window.L.latLngBounds(coordinates), {padding, maxZoom:14}); return;
     }
@@ -1116,7 +1137,14 @@
   group.addEventListener('change', () => { updatePlanLabel(); clearSelection(); draw(true); fitPoints(); });
   if (resetBest) resetBest.addEventListener('click', () => { setMapGroup('hepsi'); draw(true); fitPoints(); });
   favoriteToggle.addEventListener('click', () => {
-    favoritesOnly = !favoritesOnly; clearSelection(); draw(true); fitPoints(!favoritesOnly);
+    favoritesOnly = !favoritesOnly; if (favoritesOnly) seckiOnly = false; clearSelection(); draw(true); fitPoints(!favoritesOnly);
+  });
+  const setSecki = on => { seckiOnly = on; if (on) favoritesOnly = false; clearSelection(); draw(true); fitPoints(); updateFavoriteToggle(); renderFilterBar(); };
+  seckiToggle.addEventListener('click', () => setSecki(!seckiOnly));
+  // The seçki panel's "Seçkiyi Haritada Gör" opens the map on the short list.
+  document.addEventListener('secki-map', async () => {
+    mapOpener = null; seckiOnly = true; favoritesOnly = false;
+    if (await showMap(true)) { setSecki(true); requestAnimationFrame(() => fitPoints()); }
   });
   document.addEventListener('berlin-favorites-state', () => { if (map) draw(); else updateFavoriteToggle(); });
   if (fitButton) fitButton.addEventListener('click', () => fitPoints());
@@ -1159,6 +1187,7 @@
     mapOpener = button;
     setMapGroup(view?.dataset.activeBest && bestMatch(card) ? view.dataset.activeBest : parent.classList.contains('group-favorites')?'hepsi':parent.id);
     if (favoritesOnly && !isFavorite(card)) { favoritesOnly = false; }
+    if (seckiOnly && !isSecki(card)) { seckiOnly = false; }
     if (!(await showMap(true))) return;
     draw(true);
     const marker = markers.get(card);
