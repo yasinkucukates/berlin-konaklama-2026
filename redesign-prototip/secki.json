@@ -8,6 +8,98 @@
     "backup": 2,
     "voters": 6
   },
+  "result": {
+    "decidedAt": "2026-11-16T21:31:00Z",
+    "rule": "Asıl 1 = 4, Asıl 2 = 3, Yedek 1 = 2, Yedek 2 = 1 puan; puan eşitse 1. sıraya daha çok konan öne geçer.",
+    "order": [
+      {
+        "key": "sweep16-booking-berlin-roof-chill-20261230-20270103|2026-12-30|2027-01-03",
+        "place": 1,
+        "points": 12,
+        "firsts": 2,
+        "slot": "Asıl 1",
+        "label": "Roof & Chill"
+      },
+      {
+        "key": "six-booking-951491101-full|2026-12-30|2027-01-03",
+        "place": 2,
+        "points": 12,
+        "firsts": 1,
+        "slot": "Asıl 2",
+        "label": "Herthastraße"
+      },
+      {
+        "key": "sweep7-airbnb-38533401-20261230-20270103|2026-12-30|2027-01-03",
+        "place": 3,
+        "points": 8,
+        "firsts": 2,
+        "slot": "Yedek 1",
+        "label": "La Corniche Premium"
+      },
+      {
+        "key": "sweep12-traum-ferienwohnungen-93211-20261230-20270103|2026-12-30|2027-01-03",
+        "place": 4,
+        "points": 6,
+        "firsts": 1,
+        "slot": "Yedek 2",
+        "label": "Lichtenberg 200 m²"
+      },
+      {
+        "key": "sweep12-airbnb-14381251-20261230-20270103|2026-12-30|2027-01-03",
+        "place": 5,
+        "points": 6,
+        "firsts": 0
+      },
+      {
+        "key": "sweep6-airbnb-14314574-20261230-20270101|2026-12-30|2027-01-01",
+        "place": 6,
+        "points": 4,
+        "firsts": 0
+      },
+      {
+        "key": "sweep7-airbnb-34301098-20261230-20270103|2026-12-30|2027-01-03",
+        "place": 7,
+        "points": 3,
+        "firsts": 0
+      },
+      {
+        "key": "sweep12-booking-modern-accommodation-neukoln-20261230-20270103|2026-12-30|2027-01-03",
+        "place": 7,
+        "points": 3,
+        "firsts": 0
+      },
+      {
+        "key": "sweep12-booking-gneisenau-20261230-20270103|2026-12-30|2027-01-03",
+        "place": 8,
+        "points": 2,
+        "firsts": 0
+      },
+      {
+        "key": "sweep12-booking-britzer-tor-20261230-20270103|2026-12-30|2027-01-03",
+        "place": 8,
+        "points": 2,
+        "firsts": 0
+      },
+      {
+        "key": "sweep12-airbnb-1591873645675719304-20261230-20270103|2026-12-30|2027-01-03",
+        "place": 9,
+        "points": 1,
+        "firsts": 0
+      },
+      {
+        "key": "sweep6-german-p2714753-20261230-20270103|2026-12-30|2027-01-03",
+        "place": 9,
+        "points": 1,
+        "firsts": 0
+      },
+      {
+        "key": "sweep12-booking-stilvolle-6-zimmer-ferienwohnung-mit-2-badern-20261230-20270103|2026-12-30|2027-01-03",
+        "place": 10,
+        "points": 0,
+        "firsts": 0
+      }
+    ]
+  },
   "items": [
     {
       "id": "sweep12-booking-gneisenau-20261230-20270103",

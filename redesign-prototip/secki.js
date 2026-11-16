@@ -17,6 +17,10 @@
   if (!data || !Array.isArray(data.items) || !data.items.length) return;
   const MAIN = Number(data.ballot?.main) || 2, BACKUP = Number(data.ballot?.backup) || 2;
   const VOTERS = Number(data.ballot?.voters) || 6;
+  // Yasin (16 Nov, after the vote closed): asıl and yedek homes by ranked points
+  // (Asıl 1 = 4 … Yedek 2 = 1; a tie goes to the home put first more often).
+  // Worked out once from the closed ballots; the service itself is unchanged.
+  const RESULT = Array.isArray(data.result?.order) && data.result.order.length ? data.result : null;
   const allCards = Array.from(document.querySelectorAll('.groups .stay-card'));
   const findCard = it => allCards.find(c => c.dataset.id === it.id && c.dataset.checkIn === it.checkIn && c.dataset.checkOut === it.checkOut) || null;
   const items = data.items.map(it => ({...it, card: findCard(it)})).filter(it => it.card);
@@ -143,8 +147,17 @@
       phase = 'done';
     }
   } catch (_) {}
-  const kindOf = k => picks.main.has(k) ? 'main' : picks.backup.has(k) ? 'backup' : '';
-  const rankOf = k => { const kind = kindOf(k); return kind ? [...picks[kind]].indexOf(k) + 1 : 0; };
+  // Once the result is out, the badges (rows, pins) show it instead of this device's ballot.
+  const resultEntry = k => RESULT ? RESULT.order.find(r => r.key === k) || null : null;
+  const resultSlot = k => resultEntry(k)?.slot || '';
+  const kindOf = k => {
+    if (resultOn()) { const s = resultSlot(k); return s.startsWith('Asıl') ? 'main' : s.startsWith('Yedek') ? 'backup' : ''; }
+    return picks.main.has(k) ? 'main' : picks.backup.has(k) ? 'backup' : '';
+  };
+  const rankOf = k => {
+    if (resultOn()) { const s = resultSlot(k); return s ? Number(s.split(' ')[1]) || 1 : 0; }
+    const kind = kindOf(k); return kind ? [...picks[kind]].indexOf(k) + 1 : 0;
+  };
   const countOf = k => {
     const c = status?.counts?.[k] || {};
     const main = Number(c.main) || 0, backup = Number(c.backup) || 0;
@@ -152,6 +165,10 @@
   };
   const closedNow = () => status?.open === false;
   const isOpen = () => !status || status.open !== false;
+  // Live: shown unless the service says the vote is open. Preview: after its own close.
+  function resultOn() { return Boolean(RESULT) && (preview ? closedNow() : status?.open !== true); }
+  const resultLabel = r => r.label || (itemByKey.get(r.key) ? titleOf(itemByKey.get(r.key)) : '');
+  const resultPicks = () => RESULT ? RESULT.order.filter(r => r.slot) : [];
 
   // ---- Small builders -----------------------------------------------------
   const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
@@ -215,7 +232,9 @@
     node.append(el('span', 'secki-badge-mark', kind === 'main' ? '★' : '☆'), document.createTextNode(badgeText(kind, rank)));
     node.setAttribute('aria-label', kind === 'main' ? `${rank}. asıl seçimin` : `${rank}. yedek seçimin`);
   }
-  const tallyText = k => `${countOf(k).total} oy`;
+  const tallyText = k => { const r = resultOn() && resultEntry(k); return r ? `${r.points} puan` : `${countOf(k).total} oy`; };
+  // The photo tile's chip on a phone: the slot for the four picks, points for the rest.
+  const chipText = k => { const r = resultOn() && resultEntry(k); return r ? (r.slot || `${r.points} puan`) : tallyText(k); };
   function thumbSrc(card) {
     const img0 = card.querySelector('.photo-grid img');
     let src = img0 ? (img0.getAttribute('src') || img0.dataset.gmSrc || '') : '';
@@ -305,10 +324,10 @@
     mainBtn.disabled = backupBtn.disabled = locked;
     // Without a code only the counts (and this device's own sent ballot) show.
     const showAll = voter && phase !== 'done' && isOpen();
-    mainBtn.hidden = !showAll && kind !== 'main';
-    backupBtn.hidden = !showAll && kind !== 'backup';
-    tally.hidden = !status;
-    tally.textContent = status ? tallyText(k) : '';
+    mainBtn.hidden = resultOn() || (!showAll && kind !== 'main');
+    backupBtn.hidden = resultOn() || (!showAll && kind !== 'backup');
+    tally.hidden = !status && !resultOn();
+    tally.textContent = status || resultOn() ? tallyText(k) : '';
   }
 
   // ---- Panel markup -------------------------------------------------------
@@ -326,7 +345,8 @@
   head.append(headText, headButtons);
   const body = el('div', 'secki-body'); body.id = 'secki-body';
   const how = el('p', 'secki-how');
-  how.textContent = `Herkes ${MAIN} asıl ve ${BACKUP} yedek oy verir; dördü de zorunlu ve her oy ayrı bir eve gider. Önce en çok oy alan iki eve bakılır (eşitlikte asıl oyu fazla olan öne geçer), onlar olmazsa sıradakilere. Oy, sana verilen tek kullanımlık şifreyle bir kez verilir. Her evin yalnız toplam oyu görünür; hangi oyun asıl, hangisinin yedek olduğu anlaşılmaz. Oylama bitince yalnız en çok oy alan iki eve kimlerin oy verdiği yazar, öteki oylar isimsiz kalır.`;
+  const HOW = `Herkes ${MAIN} asıl ve ${BACKUP} yedek oy verir; dördü de zorunlu ve her oy ayrı bir eve gider. Önce en çok oy alan iki eve bakılır (eşitlikte asıl oyu fazla olan öne geçer), onlar olmazsa sıradakilere. Oy, sana verilen tek kullanımlık şifreyle bir kez verilir. Her evin yalnız toplam oyu görünür; hangi oyun asıl, hangisinin yedek olduğu anlaşılmaz. Oylama bitince yalnız en çok oy alan iki eve kimlerin oy verdiği yazar, öteki oylar isimsiz kalır.`;
+  how.textContent = HOW;
   const list = el('ol', 'secki-list');
   const results = el('div', 'secki-results'); results.hidden = true;
   const foot = el('div', 'secki-foot');
@@ -543,7 +563,9 @@
       cancel.hidden = phase !== 'confirm';
       submit.hidden = false; submit.disabled = false; submit.classList.remove('is-quiet');
       if (!isOpen()) {
-        text.textContent = 'Oylama bitti. Sonuç seçki panelinde.';
+        const picked = resultOn() ? resultPicks() : [];
+        const names = slot => picked.filter(r => r.slot.startsWith(slot)).map(resultLabel).join(', ');
+        text.textContent = picked.length ? `Sonuç · Asıl: ${names('Asıl')} · Yedek: ${names('Yedek')}` : 'Oylama bitti. Sonuç seçki panelinde.';
         submit.hidden = true; cancel.hidden = true;
       } else if (phase === 'done') {
         text.textContent = note || 'Oyun kaydedildi. Teşekkürler.';
@@ -567,8 +589,17 @@
     });
   }
 
+  // The result puts the four picks first, then the rest by points (once).
+  let resultOrdered = false;
+  function orderByResult() {
+    if (resultOrdered || !resultOn()) return;
+    resultOrdered = true;
+    RESULT.order.forEach(r => { const a = rows.get(r.key); if (a) list.append(a.li); const b = mapRows.get(r.key); if (b) mlRows.append(b.li); });
+  }
   function render() {
     const open = section.dataset.open !== 'false';
+    orderByResult();
+    how.textContent = resultOn() ? `Oylama bitti. Asıl ve yedek evler sıralı puanla belirlendi: ${RESULT.rule} Önce asıl evlere bakılır, olmazsa yedeklere.` : HOW;
     body.hidden = !open;
     toggle.textContent = open ? 'Kapat' : 'Seçkiyi Aç';
     toggle.setAttribute('aria-expanded', String(open));
@@ -650,6 +681,7 @@
   }
 
   function renderResults() {
+    if (resultOn()) { renderPointResults(); return; }
     results.hidden = !status;
     if (results.hidden) return;
     const closed = closedNow() && Array.isArray(status.ranking);
@@ -674,6 +706,36 @@
       const tier = el('span', 'rank-tier', li.dataset.tier === 'main' ? `${r.place}. sırada` : li.dataset.tier === 'backup' ? 'Olmazsa bunlara' : '');
       li.append(el('span', 'rank-name', `${numberOf(r.it)}. ${titleOf(r.it)}`), meter, el('span', 'rank-num', `${r.t} oy`), tier);
       if (r.names && r.names.length) li.append(el('span', 'rank-who', `Oy verenler: ${r.names.join(', ')}`));
+      ol.append(li);
+    });
+    results.append(ol);
+  }
+
+  // Ranked points (Yasin, 16 Nov): the four picks first; names only for Asıl 1 and 2,
+  // and only as the service gives them (its closed ranking names its top two).
+  function renderPointResults() {
+    results.hidden = false;
+    results.replaceChildren();
+    results.append(el('h3', '', 'Sonuç'));
+    const voted = status ? `${status.voted || 0}/${status.total || VOTERS} kişi oy verdi. ` : '';
+    results.append(el('p', 'secki-results-sub', `${voted}Sıralama puanla: ${RESULT.rule}`));
+    const named = new Map((status?.ranking || []).filter(r => Array.isArray(r.names)).map(r => [r.key, r.names]));
+    const max = Math.max(1, ...RESULT.order.map(r => Number(r.points) || 0));
+    const ol = el('ol', 'secki-rank secki-rank-points');
+    RESULT.order.forEach(r => {
+      const it = itemByKey.get(r.key);
+      if (!it) return;
+      const li = el('li');
+      if (Number(r.place) > 0) li.value = Number(r.place);
+      if (r.slot) li.dataset.tier = r.slot.startsWith('Asıl') ? 'main' : 'backup';
+      const meter = el('span', 'rank-meter'); meter.setAttribute('aria-hidden', 'true');
+      const mt = el('i', 'm-t'); mt.style.width = `${((Number(r.points) || 0) / max) * 100}%`;
+      meter.append(mt);
+      const firsts = Number(r.firsts) > 0 ? ` · ${r.firsts} kişinin 1. tercihi` : '';
+      li.append(el('span', 'rank-name', `${numberOf(it)}. ${titleOf(it)}`), meter, el('span', 'rank-num', `${Number(r.points) || 0} puan`),
+        el('span', 'rank-tier', `${r.slot || ''}${r.slot ? firsts : firsts.replace(/^ · /, '')}`));
+      const who = r.slot && r.slot.startsWith('Asıl') ? named.get(r.key) : null;
+      if (who && who.length) li.append(el('span', 'rank-who', `Oy verenler: ${who.join(', ')}`));
       ol.append(li);
     });
     results.append(ol);
@@ -758,6 +820,7 @@
     mlTitle.textContent = inVote ? 'Oy paneli' : 'Seçki';
     mlExit.hidden = !inVote;
     mlSub.textContent = inVote && voter ? 'Şifren kabul edildi'
+      : resultOn() ? `Sonuç: 2 asıl, 2 yedek ev · sıralı puanla${listOnly ? '' : ' · haritada görmek için eve dokun'}`
       : `${items.length} ev · ${status ? `${status.voted || 0}/${status.total || VOTERS} kişi oy verdi` : 'oylar yükleniyor'}${listOnly ? '' : ' · haritada görmek için eve dokun'}`;
     mapRows.forEach((row, k) => {
       row.li.dataset.vote = kindOf(k);
@@ -766,8 +829,9 @@
       row.avail.dataset.state = a.state;
       row.avail.textContent = a.state === 'available' ? (row.it.check?.available4Nights === false ? 'Yalnız 2 gece müsait' : 'Müsait') : a.state === 'unavailable' ? 'Müsait değil' : 'Müsaitlik doğrulanmadı';
       row.avail.title = availabilityText(row.it);
-      row.count.hidden = !status;
-      row.count.textContent = status ? tallyText(k) : '';
+      row.count.hidden = !status && !resultOn();
+      row.count.textContent = status || resultOn() ? chipText(k) : '';
+      row.count.dataset.kind = resultOn() ? kindOf(k) : '';
     });
   }
   function markMapRow(card) {

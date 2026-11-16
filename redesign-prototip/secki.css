@@ -518,3 +518,9 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
 .secki-details-street .secki-sv:hover{background:#d9e8ec}
 .secki-details-street .secki-gmaps{color:var(--muted,#625b52);font-weight:600}
 .secki-sv:focus-visible,.secki-gmaps:focus-visible{outline:3px solid #175b71;outline-offset:2px}
+
+/* Result by ranked points (Yasin, 16 Nov): the phone tile's chip takes the slot colours. */
+.map-panel .secki-mrow-count[data-kind="main"]:not([hidden]){background:#6f3e2f!important;color:#fff!important}
+.map-panel .secki-mrow-count[data-kind="backup"]:not([hidden]){background:#e6bf6a!important;color:#3d2c0c!important}
+.secki-rank-points li[data-tier] .rank-tier{font-size:13px}
+@media (min-width:1000px){.map-panel.secki-list-only .secki-bar-map[data-phase="closed"] .secki-bar-text{max-width:calc(50% - 170px)}}
