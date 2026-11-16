@@ -62,7 +62,9 @@
     return {counts, ranking};
   }
   const DEMO_ADMIN = 'DENEME-YONETICI';
-  const norm = code => String(code || '').trim().toUpperCase().replace(/\s+/g, '');
+  // Same folding as the server: case and Turkish letters do not matter ("tuğrul" = "TUGRUL").
+  const FOLD = {'ç': 'C', 'Ç': 'C', 'ğ': 'G', 'Ğ': 'G', 'ı': 'I', 'İ': 'I', 'ö': 'O', 'Ö': 'O', 'ş': 'S', 'Ş': 'S', 'ü': 'U', 'Ü': 'U', 'â': 'A', 'Â': 'A', 'î': 'I', 'Î': 'I', 'û': 'U', 'Û': 'U'};
+  const norm = code => String(code || '').normalize('NFC').trim().replace(/[çÇğĞıİöÖşŞüÜâÂîÎûÛ]/g, ch => FOLD[ch]).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase().replace(/\s+/g, '');
   const localApi = {
     load() { try { return JSON.parse(localStorage.getItem(PREVIEW_STORE) || 'null') || {ballots: [], closed: false}; } catch (_) { return {ballots: [], closed: false}; } },
     save(db) { localStorage.setItem(PREVIEW_STORE, JSON.stringify(db)); },
@@ -196,16 +198,28 @@
     return `${head} · şehir vergisi gösterilmiyor, ev sahibi yerinde isteyebilir`;
   }
 
-  // Street View at the listing's point (Google Maps URL, no key). Many listings
-  // only show the neighbourhood until booking, so say when the point is approximate.
+  // Street View at the listing's point. Many listings only show the
+  // neighbourhood until booking, so say when the point is approximate.
+  // Two separate controls (Yasin, 16 Nov: "ayır, anlaşılsın"): "Sokağı gör"
+  // opens it inside the map (map.js, "secki-street"); "Google Maps ↗" leaves
+  // for Google in a new tab.
   const exactPoint = card => card.dataset.mapAccuracy === 'address';
   const streetUrl = card => `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${Number(card.dataset.lat)},${Number(card.dataset.lon)}`;
-  function streetLink(it, cls, text) {
-    if (!Number.isFinite(Number(it.card.dataset.lat)) || !it.card.dataset.lat) return null;
-    const a = el('a', cls, text); a.href = streetUrl(it.card); a.target = '_blank'; a.rel = 'noopener noreferrer';
-    a.title = exactPoint(it.card) ? 'Google Sokak Görünümü, ilanın adresinde' : 'Google Sokak Görünümü; konum yaklaşık, evin önü olmayabilir';
-    a.addEventListener('click', event => event.stopPropagation());
-    return a;
+  function streetLinks(it, cls, text, outText = 'Google Maps ↗') {
+    if (!Number.isFinite(Number(it.card.dataset.lat)) || !it.card.dataset.lat) return [];
+    const url = streetUrl(it.card);
+    const inPage = button(`${cls} secki-sv`, text);
+    inPage.title = exactPoint(it.card) ? 'Sokak görünümü bu sayfada, haritanın üstünde açılır' : 'Sokak görünümü bu sayfada açılır; konum yaklaşık, evin önü olmayabilir';
+    inPage.addEventListener('click', event => {
+      event.stopPropagation();
+      const detail = {card: it.card, handled: false};
+      inPage.dispatchEvent(new CustomEvent('secki-street', {bubbles: true, detail}));
+      if (!detail.handled) window.open(url, '_blank', 'noopener');
+    });
+    const out = el('a', `${cls} secki-gmaps`, outText); out.href = url; out.target = '_blank'; out.rel = 'noopener noreferrer';
+    out.title = 'Google Haritalar yeni sekmede açılır';
+    out.addEventListener('click', event => event.stopPropagation());
+    return [inPage, out];
   }
 
   // Vote buttons for one home; several copies (panel, map list, map card) stay in sync.
@@ -305,11 +319,11 @@
     const mapButton = button('secki-map', 'Harita');
     mapButton.addEventListener('click', () => card.querySelector('.map-show')?.click());
     actions.append(open, mapButton);
-    const street = streetLink(it, 'secki-street', 'Sokağı gör ↗');
-    if (street) actions.append(street);
+    const streets = streetLinks(it, 'secki-street', 'Sokağı gör');
+    actions.append(...streets);
     const listing = card.querySelector('a.listing');
     if (listing) { const a = el('a', 'secki-listing', 'İlan ↗'); a.href = listing.href; a.target = '_blank'; a.rel = 'noopener noreferrer'; actions.append(a); }
-    if (street && !exactPoint(card)) actions.append(el('span', 'secki-street-note', 'Konum yaklaşık; sokak görünümü evin önü olmayabilir.'));
+    if (streets.length && !exactPoint(card)) actions.append(el('span', 'secki-street-note', 'Konum yaklaşık; sokak görünümü evin önü olmayabilir.'));
     main.append(titleRow, facts, check, pc, actions);
     li.append(thumb, main, voteBox(it, false, true));
     list.append(li);
@@ -339,7 +353,7 @@
   const gate = el('dialog', 'secki-gate'); gate.setAttribute('aria-labelledby', 'secki-gate-title');
   const gateForm = el('form', 'secki-gate-form'); gateForm.method = 'dialog';
   const gateTitle = el('h3', '', 'Oy ver'); gateTitle.id = 'secki-gate-title';
-  const gateText = el('p', 'secki-gate-text', 'Sana verilen tek kullanımlık şifreyi gir. Şifre doğrulanınca yalnız seçki evlerinin olduğu harita ve liste açılır.');
+  const gateText = el('p', 'secki-gate-text', 'Şifreni gir. Şifre doğrulanınca yalnız seçki evlerinin olduğu oy paneli açılır. Her şifreyle bir kez oy verilir; oy gönderilemezse aynı şifreyle yeniden denenebilir.');
   const gateLabel = el('label', 'secki-code-label');
   const gateInput = el('input', 'secki-code-input');
   Object.assign(gateInput, {type: 'text', autocomplete: 'off', spellcheck: false, placeholder: 'Oy şifren', required: true});
@@ -414,10 +428,12 @@
     if (!voter) { openGate(); return; }
     phase = 'sending'; note = ''; render();
     const main = [...picks.main], backup = [...picks.backup];
-    let r = null;
+    let r = null, lost = false;
     for (let attempt = 0; attempt < 3; attempt++) {
-      try { r = await api.vote(voter.code, main, backup); break; } catch (_) { await wait(1200 * (attempt + 1)); }
+      try { r = await api.vote(voter.code, main, backup); break; } catch (_) { lost = true; await wait(1200 * (attempt + 1)); }
     }
+    // A lost answer may hide a vote the server did store: "used" right after it means ours.
+    if (r && !r.ok && r.error === 'used' && lost) r = {ok: true};
     if (r && r.ok) {
       mine = {main, backup, at: new Date().toISOString()};
       try { localStorage.setItem(LOCAL, JSON.stringify(mine)); } catch (_) {}
@@ -475,7 +491,8 @@
         if (where === 'map' && inVote) submit.textContent = 'Paneli kapat';
         else { submit.textContent = 'Başka biri oy verecek'; submit.classList.add('is-quiet'); }
       } else if (!voter) {
-        text.textContent = `Oy vermek için sana verilen şifreyle gir. ${status ? `${status.voted || 0}/${status.total || VOTERS} kişi oy verdi.` : ''}`;
+        // Two parts so a phone's map bar can keep only the count.
+        text.replaceChildren(el('span', 'secki-bar-lead', 'Oy vermek için sana verilen şifreyle gir. '), el('span', 'secki-bar-count', status ? `${status.voted || 0}/${status.total || VOTERS} kişi oy verdi.` : ''));
         submit.textContent = 'Oy Ver';
       } else if (phase === 'choose') {
         text.textContent = note || `Asıl ${picks.main.size}/${MAIN} · Yedek ${picks.backup.size}/${BACKUP}`;
@@ -654,8 +671,8 @@
     const foot = el('div', 'secki-mrow-foot');
     const tallyNode = box.querySelector('.secki-tally');
     if (tallyNode) foot.append(tallyNode);
-    const street = streetLink(it, 'secki-mrow-street', exactPoint(it.card) ? 'Sokağı gör ↗' : 'Sokak (yaklaşık) ↗');
-    if (street) foot.append(street);
+    const streets = streetLinks(it, 'secki-mrow-street', exactPoint(it.card) ? 'Sokağı gör' : 'Sokak (yaklaşık)', 'Maps ↗');
+    if (streets.length) { const s = el('span', 'secki-mrow-streets'); s.append(...streets); foot.append(s); }
     li.append(top, pp, box, foot);
     li.addEventListener('click', event => { if (!event.target.closest('button')) focus(); });
     li.addEventListener('keydown', event => { if ((event.key === 'Enter' || event.key === ' ') && event.target === li) { event.preventDefault(); focus(); } });
@@ -719,8 +736,8 @@
       (it.cons || []).forEach(t => cons.append(el('li', '', t)));
       pc.append(pros, cons);
       box.append(pc);
-      const street = streetLink(it, 'secki-street', exactPoint(card) ? 'Sokağı gör ↗' : 'Sokağı gör (konum yaklaşık) ↗');
-      if (street) { const p = el('p', 'secki-details-street'); p.append(street); box.append(p); }
+      const streets = streetLinks(it, 'secki-street', exactPoint(card) ? 'Sokağı gör' : 'Sokağı gör (konum yaklaşık)', 'Google Maps\'te aç ↗');
+      if (streets.length) { const p = el('p', 'secki-details-street'); p.append(...streets); box.append(p); }
       return box;
     },
     badge(card) { const it = itemByCard.get(card); if (!it) return null; const k = key(it), kind = kindOf(k); return kind ? {kind, rank: rankOf(k), text: badgeText(kind, rankOf(k))} : null; }
@@ -739,7 +756,12 @@
   refresh();
   // Yasin (16 Nov): the seçki and its vote open on the map, list beside it;
   // "Yalnız liste" or the dock's "Liste" switches over. Shared links (#ilan=…) keep their own view.
-  if (!location.hash || location.hash === '#secki') setTimeout(() => section.dispatchEvent(new CustomEvent('secki-map', {bubbles: true})), 0);
+  // Vote link (#oy, Yasin 16 Nov: "Oy için link de hazırla direkt şifre sorsun"):
+  // the seçki map opens with the code asked at once; the code opens the vote panel.
+  const openVoteLink = () => { section.dispatchEvent(new CustomEvent('secki-map', {bubbles: true})); setTimeout(openGate, 60); };
+  if (location.hash === '#oy') setTimeout(openVoteLink, 0);
+  else if (!location.hash || location.hash === '#secki') setTimeout(() => section.dispatchEvent(new CustomEvent('secki-map', {bubbles: true})), 0);
+  window.addEventListener('hashchange', () => { if (location.hash === '#oy' && !inVote && !gate.open) openVoteLink(); });
   // Others vote too: read again now and then while the page is visible.
   setInterval(() => { if (document.visibilityState === 'visible' && phase !== 'sending') refresh(); }, 30000);
 })();

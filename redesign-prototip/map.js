@@ -58,6 +58,27 @@
   const preview = document.createElement('section');
   preview.className = 'map-preview'; preview.hidden = true; preview.setAttribute('aria-live', 'polite');
   frame.append(preview);
+  // Street View in the page (Yasin, 16 Nov: "Altta açılsa? Yandexteki gibi"):
+  // the panorama opens over the top of the frame and the map stays below it
+  // with the home's pin. Google's keyless embed; "Yeni sekmede" is the way out
+  // if Google ever refuses it.
+  const street = document.createElement('div'); street.className = 'map-street'; street.hidden = true;
+  const streetView = document.createElement('iframe');
+  streetView.className = 'map-street-view'; streetView.title = 'Google Sokak Görünümü';
+  streetView.setAttribute('allowfullscreen', ''); streetView.allow = 'fullscreen; accelerometer; gyroscope';
+  const streetBar = document.createElement('div'); streetBar.className = 'map-street-bar';
+  const streetNote = document.createElement('span'); streetNote.className = 'map-street-note'; streetNote.textContent = 'Konum yaklaşık';
+  streetNote.title = 'İlan yalnız semti gösteriyor; görüntü evin önü olmayabilir.';
+  const streetOut = document.createElement('a'); streetOut.className = 'map-street-out'; streetOut.target = '_blank'; streetOut.rel = 'noopener noreferrer'; streetOut.textContent = 'Google Maps ↗';
+  const streetClose = document.createElement('button'); streetClose.type = 'button'; streetClose.className = 'map-street-close';
+  streetClose.setAttribute('aria-label', 'Sokak görünümünü kapat');
+  streetClose.append(svgIcon('x'), Object.assign(document.createElement('span'), {textContent: 'Kapat'}));
+  streetBar.append(streetOut, streetClose);
+  street.append(streetView, streetBar, streetNote);
+  canvas.before(street);
+  const streetPoint = card => { const lat = Number(card?.dataset.lat), lon = Number(card?.dataset.lon); return card?.dataset.lat && card?.dataset.lon && Number.isFinite(lat) && Number.isFinite(lon) ? {lat, lon} : null; };
+  const streetEmbed = p => `https://maps.google.com/maps?layer=c&cbll=${p.lat},${p.lon}&cbp=11,0,0,0,0&hl=tr&output=svembed`;
+  const streetPage = p => `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${p.lat},${p.lon}`;
   const favoriteToggle = document.createElement('button');
   favoriteToggle.type = 'button'; favoriteToggle.className = 'map-favorites'; favoriteToggle.setAttribute('aria-pressed', 'false');
   favoriteToggle.append(svgIcon('heart'), document.createTextNode(' Yalnız Favoriler '));
@@ -114,14 +135,20 @@
   const dockList = dockButton('list', 'Liste'), dockMap = dockButton('map', 'Harita'), dockFull = dockButton('maximize-2', 'Tam ekran');
   dockFull.className = 'view-dock-full';
   dock.append(dockList, dockMap, dockFull);
+  // Yasin (16 Nov): on a phone's full-screen map the switch is small and
+  // see-through in the map's top-left corner, so the map keeps the room.
+  const phoneMap = window.matchMedia('(max-width:639px), (max-width:999px) and (orientation:landscape) and (max-height:540px)');
   function syncDock() {
     const open = !panel.hidden, full = panel.classList.contains('is-full');
     dockList.setAttribute('aria-pressed', String(!open)); dockMap.setAttribute('aria-pressed', String(open));
     dockFull.hidden = !open;
     dockFull.replaceChildren(svgIcon(full ? 'minimize-2' : 'maximize-2'), Object.assign(document.createElement('span'), {textContent: full ? 'Küçült' : 'Tam ekran'}));
     dockFull.setAttribute('aria-pressed', String(full));
-    const home = open && (mapIsModal || full) ? panel : (view || document.body);
-    if (dock.parentNode !== home) home.append(dock);
+    dockFull.setAttribute('aria-label', full ? 'Tam ekrandan çık' : 'Haritayı tam ekran aç');
+    const inMap = open && full && phoneMap.matches && !panel.classList.contains('secki-list-only');
+    panel.classList.toggle('dock-in-map', inMap);
+    const home = inMap ? filterBar : open && (mapIsModal || full) ? panel : (view || document.body);
+    if (dock.parentNode !== home) { if (inMap) home.prepend(dock); else home.append(dock); }
     panel.classList.toggle('show-filterbar', open && (mapIsModal || full));
     if (!(open && (mapIsModal || full)) && typeof setFilterSheet === 'function') setFilterSheet(false);
   }
@@ -136,8 +163,9 @@
     if (map) requestAnimationFrame(() => { map.invalidateSize(); scheduleLayout(); });
   });
   window.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && !street.hidden && !panelHome && !(dialog && dialog.open)) { event.preventDefault(); closeStreet(); return; }
     if (event.key === 'Escape' && panelHome) { event.preventDefault(); setFilterSheet(false); return; }
-    if (event.key === 'Escape' && panel.classList.contains('is-full') && !nativeFull && !mapIsModal && !(dialog && dialog.open) && !document.body.querySelector('dialog.secki-gate[open]')) { if (voteMode) hideMap(); else setFull(false); }
+    if (event.key === 'Escape' && panel.classList.contains('is-full') && !nativeFull && !mapIsModal && !(dialog && dialog.open) && !document.body.querySelector('dialog.secki-gate[open]')) { if (voteMode) { event.preventDefault(); clearSelection(); } else setFull(false); }
   });
   // Filters over a full-screen (or phone) map: the page's filter panel is out
   // of sight there, so a bar at the top of the map says whether filters are
@@ -221,6 +249,39 @@
     preview.hidden = true; preview.replaceChildren();
     scheduleLayout();
   }
+  function showStreet(card) {
+    const p = streetPoint(card);
+    if (!p) return false;
+    clearSelection();
+    const src = streetEmbed(p);
+    if (streetView.getAttribute('src') !== src) streetView.setAttribute('src', src);
+    streetOut.href = streetPage(p);
+    streetNote.hidden = card.dataset.mapAccuracy === 'address';
+    const opening = street.hidden;
+    street.hidden = false; frame.classList.add('has-street');
+    document.dispatchEvent(new CustomEvent('map-card-selected', {detail:{card}}));
+    if (!map) return true;
+    const marker = markers.get(card);
+    requestAnimationFrame(() => {
+      if (opening) map.invalidateSize({pan:false});
+      if (marker) {
+        map.stop();
+        map.setView(marker.getLatLng(), Math.max(map.getZoom(), 16), {animate:!opening && !window.matchMedia('(prefers-reduced-motion: reduce)').matches});
+        marker.getElement()?.classList.add('selected'); marker.setZIndexOffset(3000);
+      }
+      scheduleLayout();
+    });
+    return true;
+  }
+  function closeStreet() {
+    if (street.hidden) return false;
+    street.hidden = true; frame.classList.remove('has-street');
+    streetView.removeAttribute('src');
+    canvas.querySelectorAll('.map-pin.selected').forEach(el => el.classList.remove('selected'));
+    if (map) requestAnimationFrame(() => { map.invalidateSize({pan:false}); scheduleLayout(); });
+    return true;
+  }
+  streetClose.addEventListener('click', closeStreet);
   function showMapFailure(message) {
     if (mapFailure) return;
     clearTimeout(mapLoadTimer);
@@ -684,6 +745,13 @@
     preview.querySelectorAll('.map-preview-row').forEach(row => row.classList.toggle('is-hover', on && row.cardRef === card));
   }
   function selectPoint(samePoint, marker, card = null, area = false) {
+    // While the street view is open, a home picked on the map or in the list
+    // moves the panorama there instead of opening its card (as on Yandex).
+    if (!street.hidden) {
+      const target = card || (samePoint.length === 1 ? samePoint[0] : null);
+      if (target && showStreet(target)) return;
+      closeStreet();
+    }
     canvas.querySelectorAll('.map-pin.selected').forEach(el => el.classList.remove('selected'));
     marker.getElement()?.classList.add('selected');
     marker.setZIndexOffset(3000);
@@ -1116,6 +1184,7 @@
   function hideMap() {
     const leavingVote = voteMode;
     voteMode = false; panel.classList.remove('secki-vote-mode', 'secki-list-only');
+    closeStreet();
     setFull(false);
     clearSelection();
     if (panel.open) panel.close();
@@ -1159,7 +1228,9 @@
   mapButton.addEventListener('click', async () => { mapOpener = mapButton; setMapGroup(currentPageGroup()); if (await showMap(false)) requestAnimationFrame(() => fitPoints()); });
   listButton.addEventListener('click', hideMap);
   if (mapClose) mapClose.addEventListener('click', hideMap);
-  panel.addEventListener('cancel', event => { event.preventDefault(); if (panelHome) { setFilterSheet(false); return; } if (panel.classList.contains('is-full') && !voteMode) setFull(false); else hideMap(); });
+  // In the vote panel Escape or a phone's back gesture never leaves it (Yasin:
+  // "Aynı panelde kalsın"); only its own Kapat does.
+  panel.addEventListener('cancel', event => { event.preventDefault(); if (!street.hidden && !panelHome) { closeStreet(); return; } if (panelHome) { setFilterSheet(false); return; } if (voteMode) { clearSelection(); return; } if (panel.classList.contains('is-full')) setFull(false); else hideMap(); });
   window.addEventListener('resize', () => { if (!panel.hidden) { openMapPanel(); syncDock(); if (map) requestAnimationFrame(() => map.invalidateSize()); } });
   group.addEventListener('change', () => { updatePlanLabel(); clearSelection(); draw(true); fitPoints(); });
   if (resetBest) resetBest.addEventListener('click', () => { setMapGroup('hepsi'); draw(true); fitPoints(); });
@@ -1185,6 +1256,21 @@
     const samePoint = [...markers].filter(([, m]) => m === marker).map(([item]) => item);
     setTimeout(() => selectPoint(samePoint, marker, card), 260);
   });
+  // "Sokağı gör" in the seçki (panel, map list or map card): street view in the
+  // page. From the panel the seçki map opens first. detail.handled tells
+  // secki.js not to fall back to a new tab.
+  document.addEventListener('secki-street', async event => {
+    const card = event.detail?.card;
+    if (!card || !streetPoint(card) || mapFailure) return;
+    event.detail.handled = true;
+    if (panel.hidden || !seckiOnly) {
+      mapOpener = null; seckiOnly = true; favoritesOnly = false;
+      if (!(await showMap(true))) return;
+      setSecki(true); setFull(true, false);
+    }
+    if (panel.classList.contains('secki-list-only')) panel.querySelector('.secki-maplist-view')?.click();
+    requestAnimationFrame(() => showStreet(card));
+  });
   // A vote changes the pin badges; redraw only what changed.
   document.addEventListener('secki-change', () => { if (map && !panel.hidden) draw(); });
   seckiToggle.addEventListener('click', () => setSecki(!seckiOnly));
@@ -1201,8 +1287,18 @@
     if (await showMap(true)) { setSecki(true); setFull(true, false); requestAnimationFrame(() => fitPoints()); }
     else { voteMode = false; panel.classList.remove('secki-vote-mode'); document.dispatchEvent(new CustomEvent('secki-vote-ended')); }
   });
-  document.addEventListener('secki-vote-exit', () => hideMap());
-  document.addEventListener('secki-list-view', () => { if (map) requestAnimationFrame(() => { map.invalidateSize(); scheduleLayout(); }); });
+  // Leaving the vote panel (its Kapat, or after voting) returns to the seçki
+  // map with the totals, not to the whole list of homes.
+  document.addEventListener('secki-vote-exit', () => {
+    if (!voteMode) return;
+    voteMode = false; panel.classList.remove('secki-vote-mode');
+    closeStreet(); clearSelection();
+    syncDock(); renderFilterBar(); draw(true);
+    if (map) requestAnimationFrame(() => { map.invalidateSize(); scheduleLayout(); });
+    document.dispatchEvent(new CustomEvent('secki-vote-ended'));
+  });
+  phoneMap.addEventListener?.('change', syncDock);
+  document.addEventListener('secki-list-view', () => { syncDock(); if (map) requestAnimationFrame(() => { map.invalidateSize(); scheduleLayout(); }); });
   document.addEventListener('berlin-favorites-state', () => { if (map) draw(); else updateFavoriteToggle(); });
   if (fitButton) fitButton.addEventListener('click', () => fitPoints());
   if (fitClubsButton) fitClubsButton.addEventListener('click', () => fitPoints(true));
