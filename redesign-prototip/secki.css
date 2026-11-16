@@ -520,4 +520,4 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
 .secki-sv:focus-visible,.secki-gmaps:focus-visible{outline:3px solid #175b71;outline-offset:2px}
 
 /* Yasin (16 Nov): no likes in the seçki; the legend hides its "Ortak favori" item. */
-.map-legend-item[hidden],.map-favorites[hidden]{display:none}
+.map-legend-item[hidden]{display:none}

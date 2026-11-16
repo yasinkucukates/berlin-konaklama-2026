@@ -893,7 +893,6 @@
     const total = Array.from(document.querySelectorAll('.groups .stay-card')).filter(card => inPlan(card) && card.dataset.generalMatch !== 'false' && isFavorite(card)).length;
     favoriteCount.textContent = `(${total})`;
     favoriteToggle.setAttribute('aria-pressed', String(favoritesOnly));
-    favoriteToggle.hidden = seckiOnly; // no like count in the seçki (Yasin, 16 Nov)
     const secki = Array.from(document.querySelectorAll('.groups .stay-card')).filter(isSecki).length;
     seckiToggle.hidden = !secki;
     seckiCount.textContent = `(${secki})`;
