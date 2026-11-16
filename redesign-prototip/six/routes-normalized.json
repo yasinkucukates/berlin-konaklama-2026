@@ -489,10 +489,11 @@
       "rsoCarMin": null,
       "tresorCarMin": 24,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": null,
-      "tresorTransitMin": null,
+      "rsoTransitMin": 56,
+      "tresorTransitMin": 36,
       "routeQuality": "Yaklaşık/adres noktası; yılbaşı koşulları doğrulanmadı",
-      "notes": "Yaklaşık konum veya adres üzerinden araç rotası; yılbaşı trafiği ve taksi beklemesi değişebilir. Google Haritalar kontrol anı. Kaynak: https://www.google.com/maps/dir/Stephanstra%C3%9Fe+60,+10559+Berlin/Tresor+Berlin,+K%C3%B6penicker+Stra%C3%9Fe+70,+10179+Berlin/data=!4m2!4m1!3e0"
+      "notes": "Yaklaşık konum veya adres üzerinden araç rotası; yılbaşı trafiği ve taksi beklemesi değişebilir. Google Haritalar kontrol anı. Kaynak: https://www.google.com/maps/dir/Stephanstra%C3%9Fe+60,+10559+Berlin/Tresor+Berlin,+K%C3%B6penicker+Stra%C3%9Fe+70,+10179+Berlin/data=!4m2!4m1!3e0",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     },
     {
       "id": "sweep6-airbnb-1559249085935822360-20261230-20270101",
@@ -693,10 +694,11 @@
       "rsoCarMin": 16.1,
       "tresorCarMin": 14.6,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": null,
-      "tresorTransitMin": null,
+      "rsoTransitMin": 44,
+      "tresorTransitMin": 36,
       "routeQuality": "Yaklaşık/adres noktası; yılbaşı koşulları doğrulanmadı",
-      "notes": "Yaklaşık konum veya adres üzerinden araç rotası; yılbaşı trafiği ve taksi beklemesi değişebilir. OSRM trafiksiz model. Kaynak: https://router.project-osrm.org/route/v1/driving/13.38545,52.44852;13.419484,52.5106807?overview=false RSO kaynağı: https://router.project-osrm.org/route/v1/driving/13.38545,52.44852;13.5053346,52.459911?overview=false"
+      "notes": "Yaklaşık konum veya adres üzerinden araç rotası; yılbaşı trafiği ve taksi beklemesi değişebilir. OSRM trafiksiz model. Kaynak: https://router.project-osrm.org/route/v1/driving/13.38545,52.44852;13.419484,52.5106807?overview=false RSO kaynağı: https://router.project-osrm.org/route/v1/driving/13.38545,52.44852;13.5053346,52.459911?overview=false",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     },
     {
       "id": "sweep6-airbnb-13868134-20261230-20270103",
@@ -788,10 +790,11 @@
       "rsoCarMin": 14,
       "tresorCarMin": 12,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": null,
-      "tresorTransitMin": null,
+      "rsoTransitMin": 33,
+      "tresorTransitMin": 31,
       "routeQuality": "OSRM trafiksiz; Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)",
-      "notes": "OSRM araç rotası, trafiksiz serbest akış (6.5 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.38822,52.46775;13.419484,52.5106807?overview=false RSO kaynağı: https://router.project-osrm.org/route/v1/driving/13.38822,52.46775;13.50548,52.45989?overview=false"
+      "notes": "OSRM araç rotası, trafiksiz serbest akış (6.5 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.38822,52.46775;13.419484,52.5106807?overview=false RSO kaynağı: https://router.project-osrm.org/route/v1/driving/13.38822,52.46775;13.50548,52.45989?overview=false",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     },
     {
       "id": "sweep7-airbnb-34301098-20261230-20270103",
@@ -800,10 +803,11 @@
       "rsoCarMin": 13,
       "tresorCarMin": 12,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": null,
-      "tresorTransitMin": null,
+      "rsoTransitMin": 40,
+      "tresorTransitMin": 34,
       "routeQuality": "OSRM trafiksiz; Airbnb yaklaşık konumu (birkaç yüz metre sapabilir)",
-      "notes": "OSRM araç rotası, trafiksiz serbest akış (7.0 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.39321,52.46473;13.419484,52.5106807?overview=false RSO kaynağı: https://router.project-osrm.org/route/v1/driving/13.39321,52.46473;13.50548,52.45989?overview=false"
+      "notes": "OSRM araç rotası, trafiksiz serbest akış (7.0 km); gündüz ve yılbaşı trafiğinde uzayabilir. Konum: Airbnb yaklaşık konumu (birkaç yüz metre sapabilir). Kaynak: https://router.project-osrm.org/route/v1/driving/13.39321,52.46473;13.419484,52.5106807?overview=false RSO kaynağı: https://router.project-osrm.org/route/v1/driving/13.39321,52.46473;13.50548,52.45989?overview=false",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     },
     {
       "id": "sweep7-airbnb-31297828-20261230-20270103",
@@ -1040,10 +1044,11 @@
       "rsoCarMin": 23,
       "tresorCarMin": 10,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": null,
-      "tresorTransitMin": null,
+      "rsoTransitMin": 45,
+      "tresorTransitMin": 29,
       "routeQuality": "OSRM trafiksiz araç hesabı",
-      "notes": "Yaklaşık adresten OSRM trafiksiz rota; trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance"
+      "notes": "Yaklaşık adresten OSRM trafiksiz rota; trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.42868,52.55323;13.3506015,52.5240305;13.46101,52.5143;13.5260114,52.5193048;13.4380645,52.5430796;13.3198276,52.5249988;13.4433823,52.4960034;13.3489414,52.4818564;13.3264505,52.5300609;13.5053346,52.459911;13.419484,52.5106807?sources=0;1;2;3;4;5;6;7;8&destinations=9;10&annotations=duration,distance",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     },
     {
       "id": "1610146635685764854",
@@ -1148,10 +1153,11 @@
       "rsoCarMin": 12,
       "tresorCarMin": 12,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": null,
-      "tresorTransitMin": null,
+      "rsoTransitMin": 40,
+      "tresorTransitMin": 27,
       "routeQuality": "OSRM trafiksiz araç hesabı",
-      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance"
+      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     },
     {
       "id": "sweep12-airbnb-53796458-20261230-20270103",
@@ -1184,10 +1190,11 @@
       "rsoCarMin": 19,
       "tresorCarMin": 15,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": null,
-      "tresorTransitMin": null,
+      "rsoTransitMin": 37,
+      "tresorTransitMin": 33,
       "routeQuality": "OSRM trafiksiz araç hesabı",
-      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance"
+      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     },
     {
       "id": "sweep12-airbnb-32453158-20261230-20270103",
@@ -1220,10 +1227,11 @@
       "rsoCarMin": 17,
       "tresorCarMin": 14,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": null,
-      "tresorTransitMin": null,
+      "rsoTransitMin": 37,
+      "tresorTransitMin": 34,
       "routeQuality": "OSRM trafiksiz araç hesabı",
-      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance"
+      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     },
     {
       "id": "sweep12-airbnb-31500359-20261230-20270103",
@@ -1280,10 +1288,11 @@
       "rsoCarMin": 9,
       "tresorCarMin": 11,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": null,
-      "tresorTransitMin": null,
+      "rsoTransitMin": 21,
+      "tresorTransitMin": 25,
       "routeQuality": "OSRM trafiksiz araç hesabı",
-      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance"
+      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     },
     {
       "id": "sweep12-booking-britzer-tor-20261230-20270103",
@@ -1292,10 +1301,11 @@
       "rsoCarMin": 9,
       "tresorCarMin": 11,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": null,
-      "tresorTransitMin": null,
+      "rsoTransitMin": 23,
+      "tresorTransitMin": 25,
       "routeQuality": "OSRM trafiksiz araç hesabı",
-      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance"
+      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     },
     {
       "id": "sweep12-booking-fantastic-berlin-20261230-20270103",
@@ -1340,10 +1350,11 @@
       "rsoCarMin": 16,
       "tresorCarMin": 11,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": null,
-      "tresorTransitMin": null,
+      "rsoTransitMin": 38,
+      "tresorTransitMin": 22,
       "routeQuality": "OSRM trafiksiz araç hesabı",
-      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance"
+      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     },
     {
       "id": "sweep12-booking-attic-apartment-in-villa-20261230-20270103",
@@ -1364,10 +1375,11 @@
       "rsoCarMin": 18,
       "tresorCarMin": 6,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": null,
-      "tresorTransitMin": null,
+      "rsoTransitMin": 37,
+      "tresorTransitMin": 20,
       "routeQuality": "OSRM trafiksiz araç hesabı",
-      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance"
+      "notes": "İlan konumundan OSRM trafiksiz rota (12.11.2026); trafik ve yılbaşı koşulları süreyi değiştirebilir. Kaynak: https://router.project-osrm.org/table/v1/driving/13.4262,52.4811;13.49141,52.50366;13.42791,52.48513;13.5103,52.4565;13.348421478076082,52.48068139009875;13.3854,52.4485;13.3854,52.4485;13.34429,52.48004;13.3854,52.4485;13.4179,52.51332;13.4387198,52.4782219;13.4558139,52.5007375;13.440575383024624,52.46755076617041;13.442158699035645,52.46551682958359;13.428699,52.4856978;13.4498547,52.5238523;13.5264191828034,52.5192627925238;13.4219787128975,52.4765084383829;13.5053078711945,52.441271220533;13.388997249893,52.492794782949;13.5053346,52.459911;13.4194840,52.5106807?sources=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19&destinations=20;21&annotations=duration,distance",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     },
     {
       "id": "sweep14-airbnb-1102272642935452724-20261230-20270103",
@@ -1398,10 +1410,11 @@
       "rsoCarMin": 16,
       "tresorCarMin": 7,
       "tresorRangeUpperMin": null,
-      "rsoTransitMin": 36,
-      "tresorTransitMin": 40,
+      "rsoTransitMin": 44,
+      "tresorTransitMin": 22,
       "routeQuality": "OSRM trafiksiz araç hesabı",
-      "notes": "Aynı evin (bolunmus-roof-chill) kaydındaki rota: OSRM araç; BVG 31 Aralık 22.00 örneği."
+      "notes": "Aynı evin (bolunmus-roof-chill) kaydındaki rota: OSRM araç; BVG 31 Aralık 22.00 örneği.",
+      "transitQuality": "VBB sefer planı (HAFAS), 31 Aralık 23:30 kalkış; ölçüm 16 Kasım 2026"
     }
   ]
 }
