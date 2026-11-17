@@ -699,6 +699,8 @@
         const showWarning = visibleStatus?.status !== 'unavailable' && (!visibleStatus || failedAttempt?.result === 'unknown');
         statusNode.hidden = false;
         statusNode.dataset.status = showWarning ? 'unknown' : visibleStatus.status;
+        statusNode.dataset.checkedAt = status?.checkedAt || '';
+        statusNode.dataset.attemptAt = failedAttempt?.result === 'unknown' ? failedAttempt.at || '' : '';
         // The photo chip stays short; the full dated observation is in the summary tab.
         const overview = card.querySelector('.detail-panel[data-panel="overview"]');
         let full = overview?.querySelector('.availability-full');
@@ -916,7 +918,11 @@
     return svg;
   }
   filterValues.forEach(control => control.addEventListener('change', () => { applyFilters(); if (sort) applySort(); }));
-  guestFilter?.addEventListener('change', () => { applyFilters(); if (sort) applySort(); });
+  guestFilter?.addEventListener('change', () => {
+    applyFilters();
+    if (sort) applySort();
+    document.dispatchEvent(new Event('availability-updated'));
+  });
   checkInputs.forEach(input => input.addEventListener('change', () => { applyFilters(); if (sort) applySort(); }));
   root.querySelector('.filters-clear')?.addEventListener('click', () => {
     filterValues.forEach(control => { control.value = 'all'; });
@@ -1086,6 +1092,7 @@
     availabilityRecords = event.detail;
     cards.forEach(applyCapacityEvidence);
     applyFilters();
+    document.dispatchEvent(new Event('availability-updated'));
   });
   // Lira-priced offers change their euro value with the day's rate.
   document.addEventListener('berlin-fx', () => { applyFilters(); if (sort) applySort(); });

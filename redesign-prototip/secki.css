@@ -524,3 +524,17 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
 .map-panel .secki-mrow-count[data-kind="backup"]:not([hidden]){background:#e6bf6a!important;color:#3d2c0c!important}
 .secki-rank-points li[data-tier] .rank-tier{font-size:13px}
 @media (min-width:1000px){.map-panel.secki-list-only .secki-bar-map[data-phase="closed"] .secki-bar-text{max-width:calc(50% - 170px)}}
+
+/* Show the guide's current availability in the shortlist and vote result. */
+.secki-row[data-availability="unavailable"] .secki-thumb img,
+.secki-mrow[data-availability="unavailable"] .secki-mrow-thumb img{filter:grayscale(1)}
+.secki-row[data-availability="unavailable"] :is(.secki-allin,.secki-facts > b),
+.secki-details[data-availability="unavailable"] .secki-allin,
+.secki-mrow[data-availability="unavailable"] :is(.secki-mrow-meta,.secki-mrow-pp){text-decoration:line-through}
+.rank-availability{display:flex;font-size:12px;white-space:normal}
+.secki-mrow-compact-status{display:none}
+@media (max-width:639px) and (orientation:portrait){
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-compact-status:not([hidden]){
+    display:block;color:#8a2f22;font:700 11px/1.2 var(--sans,system-ui)
+  }
+}

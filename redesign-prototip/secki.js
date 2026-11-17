@@ -250,19 +250,43 @@
   }
   const fmtEur = new Intl.NumberFormat('tr-TR', {maximumFractionDigits: 0});
   const trDay = iso => { const d = new Date(iso); return Number.isFinite(d.getTime()) ? new Intl.DateTimeFormat('tr-TR', {day: 'numeric', month: 'long'}).format(d) : ''; };
-  // Availability and the all-in price: a seçki check (item.check) wins over the card.
+  const guestFilter = document.querySelector('.filter-guests');
   function availabilityOf(it) {
-    const c = it.check;
-    if (c && typeof c.available === 'boolean') return {state: c.available ? 'available' : 'unavailable', when: trDay(c.checkedAt)};
-    const s = it.card.dataset.availability;
-    return {state: s === 'available' || s === 'unavailable' ? s : 'unknown', when: ''};
+    const party = guestFilter?.value === '7' ? 7 : 6;
+    const badge = it.card.querySelector('.availability-status');
+    const check = it.check;
+    const checkedAt = Date.parse(check?.checkedAt);
+    const cardUpdatedAt = Math.max(Date.parse(badge?.dataset.checkedAt) || 0, Date.parse(badge?.dataset.attemptAt) || 0);
+    // The original Seçki checks were for six. Keep a more recent matching
+    // check when the guide has no newer result or failed attempt.
+    if (party === (check?.adults ?? 6) && typeof check?.available === 'boolean' && checkedAt > cardUpdatedAt) {
+      const state = check.available ? 'available' : 'unavailable';
+      const verdict = check.available ? 'Müsait göründü' : 'Müsait değil';
+      const stayNote = check.available && check.available4Nights === false ? ' · 4 gece müsait değil' : '';
+      const label = `${verdict} · ${party} kişi · ${trDay(check.checkedAt)}${stayNote}`;
+      return {state, party, label, title: label};
+    }
+    const state = badge?.dataset.status || 'unknown';
+    const label = badge?.textContent.trim() || 'Müsaitlik teyit edilemedi';
+    return {state, party, label, title: badge?.title || label};
   }
-  function availabilityText(it) {
+
+  function paintAvailability(node, availability, compact = false) {
+    node.dataset.state = availability.state;
+    node.textContent = compact && availability.state === 'unavailable'
+      ? `Müsait değil · ${availability.party} kişi` : availability.label;
+    node.title = availability.title;
+  }
+
+  function rankedName(it) {
+    const name = el('span', 'rank-name', `${numberOf(it)}. ${titleOf(it)}`);
     const a = availabilityOf(it);
-    if (a.state === 'available' && it.check?.available4Nights === false) return `${trDay(it.checkIn)}–${trDay(it.checkOut)} müsait · 4 gece müsait değil${a.when ? ` · ${a.when} kontrolü` : ''}`;
-    if (a.state === 'available') return `Müsait${a.when ? ` · ${a.when} kontrolü` : ''}`;
-    if (a.state === 'unavailable') return `Müsait değil${a.when ? ` · ${a.when} kontrolü` : ''}`;
-    return 'Müsaitlik doğrulanmadı';
+    if (a.state === 'unavailable') {
+      const label = el('span', 'secki-avail rank-availability');
+      paintAvailability(label, a, true);
+      name.append(label);
+    }
+    return name;
   }
   const allInEur = it => { const v = it.check?.allInEur; return typeof v === 'number' && Number.isFinite(v) ? v : null; };
   // The all-in total from the seçki check, and how sure it is about the city tax.
@@ -608,8 +632,8 @@
       row.li.dataset.vote = kindOf(k);
       paintBadge(row.badge, k);
       const a = availabilityOf(row.it);
-      row.avail.dataset.state = a.state;
-      row.avail.textContent = availabilityText(row.it);
+      row.li.dataset.availability = a.state;
+      paintAvailability(row.avail, a);
       row.allIn.textContent = allInText(row.it);
       row.allIn.hidden = !row.allIn.textContent;
     });
@@ -704,7 +728,7 @@
       const mt = el('i', 'm-t'); mt.style.width = `${(r.t / max) * 100}%`;
       meter.append(mt);
       const tier = el('span', 'rank-tier', li.dataset.tier === 'main' ? `${r.place}. sırada` : li.dataset.tier === 'backup' ? 'Olmazsa bunlara' : '');
-      li.append(el('span', 'rank-name', `${numberOf(r.it)}. ${titleOf(r.it)}`), meter, el('span', 'rank-num', `${r.t} oy`), tier);
+      li.append(rankedName(r.it), meter, el('span', 'rank-num', `${r.t} oy`), tier);
       if (r.names && r.names.length) li.append(el('span', 'rank-who', `Oy verenler: ${r.names.join(', ')}`));
       ol.append(li);
     });
@@ -732,7 +756,7 @@
       const mt = el('i', 'm-t'); mt.style.width = `${((Number(r.points) || 0) / max) * 100}%`;
       meter.append(mt);
       const firsts = Number(r.firsts) > 0 ? ` · ${r.firsts} kişinin 1. tercihi` : '';
-      li.append(el('span', 'rank-name', `${numberOf(it)}. ${titleOf(it)}`), meter, el('span', 'rank-num', `${Number(r.points) || 0} puan`),
+      li.append(rankedName(it), meter, el('span', 'rank-num', `${Number(r.points) || 0} puan`),
         el('span', 'rank-tier', `${r.slot || ''}${r.slot ? firsts : firsts.replace(/^ · /, '')}`));
       const who = r.slot && r.slot.startsWith('Asıl') ? named.get(r.key) : null;
       if (who && who.length) li.append(el('span', 'rank-who', `Oy verenler: ${who.join(', ')}`));
@@ -806,11 +830,13 @@
     if (tallyNode) foot.append(tallyNode);
     const streets = streetLinks(it, 'secki-mrow-street', exactPoint(it.card) ? 'Sokağı gör' : 'Sokak (yaklaşık)', 'Maps ↗');
     if (streets.length) { const s = el('span', 'secki-mrow-streets'); s.append(...streets); foot.append(s); }
-    li.append(top, pp, box, foot);
+    const compactStatus = el('span', 'secki-mrow-compact-status');
+    compactStatus.hidden = true;
+    li.append(top, pp, compactStatus, box, foot);
     li.addEventListener('click', event => { if (!event.target.closest('button')) focus(); });
     li.addEventListener('keydown', event => { if ((event.key === 'Enter' || event.key === ' ') && event.target === li) { event.preventDefault(); focus(); } });
     mlRows.append(li);
-    mapRows.set(k, {li, badge: b, avail, count, it});
+    mapRows.set(k, {li, badge: b, avail, compactStatus, count, it});
   });
   function renderMapList() {
     mapList.dataset.phase = isOpen() ? phase : 'closed';
@@ -826,9 +852,10 @@
       row.li.dataset.vote = kindOf(k);
       paintBadge(row.badge, k);
       const a = availabilityOf(row.it);
-      row.avail.dataset.state = a.state;
-      row.avail.textContent = a.state === 'available' ? (row.it.check?.available4Nights === false ? 'Yalnız 2 gece müsait' : 'Müsait') : a.state === 'unavailable' ? 'Müsait değil' : 'Müsaitlik doğrulanmadı';
-      row.avail.title = availabilityText(row.it);
+      row.li.dataset.availability = a.state;
+      paintAvailability(row.avail, a, true);
+      paintAvailability(row.compactStatus, a, true);
+      row.compactStatus.hidden = a.state !== 'unavailable';
       row.count.hidden = !status && !resultOn();
       row.count.textContent = status || resultOn() ? chipText(k) : '';
       row.count.dataset.kind = resultOn() ? kindOf(k) : '';
@@ -859,7 +886,9 @@
       if (!it) return null;
       const box = el('div', 'secki-details');
       const line = el('p', 'secki-check');
-      const a = availabilityOf(it), avail = el('span', 'secki-avail', availabilityText(it)); avail.dataset.state = a.state;
+      const a = availabilityOf(it), avail = el('span', 'secki-avail');
+      box.dataset.availability = a.state;
+      paintAvailability(avail, a);
       line.append(avail);
       const total = allInText(it);
       if (total) line.append(el('span', 'secki-allin', total));
