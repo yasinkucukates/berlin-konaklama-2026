@@ -2138,6 +2138,20 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
 .map-panel .secki-mrow-count[data-kind="backup"]:not([hidden]){background:#e6bf6a!important;color:#3d2c0c!important}
 .secki-rank-points li[data-tier] .rank-tier{font-size:13px}
 @media (min-width:1000px){.map-panel.secki-list-only .secki-bar-map[data-phase="closed"] .secki-bar-text{max-width:calc(50% - 170px)}}
+
+/* Show the guide's current availability in the shortlist and vote result. */
+.secki-row[data-availability="unavailable"] .secki-thumb img,
+.secki-mrow[data-availability="unavailable"] .secki-mrow-thumb img{filter:grayscale(1)}
+.secki-row[data-availability="unavailable"] :is(.secki-allin,.secki-facts > b),
+.secki-details[data-availability="unavailable"] .secki-allin,
+.secki-mrow[data-availability="unavailable"] :is(.secki-mrow-meta,.secki-mrow-pp){text-decoration:line-through}
+.rank-availability{display:flex;font-size:12px;white-space:normal}
+.secki-mrow-compact-status{display:none}
+@media (max-width:639px) and (orientation:portrait){
+  .map-panel.has-secki-list:not(.secki-list-only) .secki-mrow-compact-status:not([hidden]){
+    display:block;color:#8a2f22;font:700 11px/1.2 var(--sans,system-ui)
+  }
+}
 </style></head><body>
 <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="i-bath" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 4 8 6" /> <path d="M17 19v2" /> <path d="M2 12h20" /> <path d="M7 19v2" /> <path d="M9 5 7.621 3.621A2.121 2.121 0 0 0 4 5v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5" /></symbol><symbol id="i-bed-double" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20v-8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8" /> <path d="M4 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4" /> <path d="M12 4v6" /> <path d="M2 18h20" /></symbol><symbol id="i-calendar-days" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v3" /> <path d="M16 2v3" /> <rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M3 9h18" /> <path d="M8 13h.01" /> <path d="M12 13h.01" /> <path d="M16 13h.01" /> <path d="M8 17h.01" /> <path d="M12 17h.01" /> <path d="M16 17h.01" /></symbol><symbol id="i-car-taxi-front" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2h4" /> <path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8" /> <path d="M7 14h.01" /> <path d="M17 14h.01" /> <rect width="18" height="8" x="3" y="10" rx="2" /> <path d="M5 18v2" /> <path d="M19 18v2" /></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6" /></symbol><symbol id="i-disc-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /> <path d="M6 12c0-1.7.7-3.2 1.8-4.2" /> <circle cx="12" cy="12" r="2" /> <path d="M18 12c0 1.7-.7 3.2-1.8 4.2" /></symbol><symbol id="i-door-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 21H2" /> <path d="M10 3H7a2 2 0 00-2 2v16" /> <path d="M14 12h.01" /> <path d="M19 21V5a2 2 0 00-1.675-1.974l-6.163-1.013A1 1 0 0010 3v18a1 1 0 001.124.992z" /> <path d="M22 21h-3" /></symbol><symbol id="i-file-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <circle cx="11.5" cy="14.5" r="2.5" /> <path d="M13.3 16.3 15 18" /></symbol><symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" /></symbol><symbol id="i-images" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 11-1.296-1.296a2.4 2.4 0 0 0-3.408 0L11 16" /> <path d="M4 8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2" /> <circle cx="13" cy="7" r="1" fill="currentColor" /> <rect x="8" y="2" width="14" height="14" rx="2" /></symbol><symbol id="i-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /> <path d="M12 16v-4" /> <path d="M12 8h.01" /></symbol><symbol id="i-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h.01" /> <path d="M3 12h.01" /> <path d="M3 19h.01" /> <path d="M8 5h13" /> <path d="M8 12h13" /> <path d="M8 19h13" /></symbol><symbol id="i-map-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /> <circle cx="12" cy="10" r="3" /></symbol><symbol id="i-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z" /> <path d="M15 5.764v15" /> <path d="M9 3.236v15" /></symbol><symbol id="i-maximize-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6" /> <path d="m21 3-7 7" /> <path d="m3 21 7-7" /> <path d="M9 21H3v-6" /></symbol><symbol id="i-minimize-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m14 10 7-7" /> <path d="M20 10h-6V4" /> <path d="m3 21 7-7" /> <path d="M4 14h6v6" /></symbol><symbol id="i-receipt-text" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 16H8" /> <path d="M14 8H8" /> <path d="M16 12H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /></symbol><symbol id="i-share-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3" /> <circle cx="6" cy="12" r="3" /> <circle cx="18" cy="19" r="3" /> <line x1="8.59" x2="15.42" y1="13.51" y2="17.49" /> <line x1="15.41" x2="8.59" y1="6.51" y2="10.49" /></symbol><symbol id="i-shield-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="m9 12 2 2 4-4" /></symbol><symbol id="i-sliders-horizontal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 5H3" /> <path d="M12 19H3" /> <path d="M14 3v4" /> <path d="M16 17v4" /> <path d="M21 12h-9" /> <path d="M21 19h-5" /> <path d="M21 5h-7" /> <path d="M8 10v4" /> <path d="M8 12H3" /></symbol><symbol id="i-sparkles" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" /> <path d="M20 2v4" /> <path d="M22 4h-4" /> <circle cx="4" cy="20" r="2" /></symbol><symbol id="i-square-arrow-out-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6" /> <path d="m21 3-9 9" /> <path d="M15 3h6v6" /></symbol><symbol id="i-tram-front" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="3" rx="2" /> <path d="M4 11h16" /> <path d="M12 3v8" /> <path d="m8 19-2 3" /> <path d="m18 22-2-3" /> <path d="M8 15h.01" /> <path d="M16 15h.01" /></symbol><symbol id="i-triangle-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" /> <path d="M12 9v4" /> <path d="M12 17h.01" /></symbol><symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /> <path d="M16 3.128a4 4 0 0 1 0 7.744" /> <path d="M22 21v-2a4 4 0 0 0-3-3.87" /> <circle cx="9" cy="7" r="4" /></symbol><symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18" /> <path d="m6 6 12 12" /></symbol></svg><style>span.i{display:inline-block;width:1em;height:1em;background-color:currentColor;-webkit-mask:var(--im) center/contain no-repeat;mask:var(--im) center/contain no-repeat}.i-bath{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M10 4 8 6%22 /%3E %3Cpath d=%22M17 19v2%22 /%3E %3Cpath d=%22M2 12h20%22 /%3E %3Cpath d=%22M7 19v2%22 /%3E %3Cpath d=%22M9 5 7.621 3.621A2.121 2.121 0 0 0 4 5v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5%22 /%3E%3C/svg%3E")}.i-bed-double{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M2 20v-8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8%22 /%3E %3Cpath d=%22M4 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4%22 /%3E %3Cpath d=%22M12 4v6%22 /%3E %3Cpath d=%22M2 18h20%22 /%3E%3C/svg%3E")}.i-calendar-days{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M8 2v3%22 /%3E %3Cpath d=%22M16 2v3%22 /%3E %3Crect x=%223%22 y=%223%22 width=%2218%22 height=%2218%22 rx=%222%22 /%3E %3Cpath d=%22M3 9h18%22 /%3E %3Cpath d=%22M8 13h.01%22 /%3E %3Cpath d=%22M12 13h.01%22 /%3E %3Cpath d=%22M16 13h.01%22 /%3E %3Cpath d=%22M8 17h.01%22 /%3E %3Cpath d=%22M12 17h.01%22 /%3E %3Cpath d=%22M16 17h.01%22 /%3E%3C/svg%3E")}.i-car-taxi-front{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M10 2h4%22 /%3E %3Cpath d=%22m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8%22 /%3E %3Cpath d=%22M7 14h.01%22 /%3E %3Cpath d=%22M17 14h.01%22 /%3E %3Crect width=%2218%22 height=%228%22 x=%223%22 y=%2210%22 rx=%222%22 /%3E %3Cpath d=%22M5 18v2%22 /%3E %3Cpath d=%22M19 18v2%22 /%3E%3C/svg%3E")}.i-chevron-right{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22m9 18 6-6-6-6%22 /%3E%3C/svg%3E")}.i-disc-3{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%2210%22 /%3E %3Cpath d=%22M6 12c0-1.7.7-3.2 1.8-4.2%22 /%3E %3Ccircle cx=%2212%22 cy=%2212%22 r=%222%22 /%3E %3Cpath d=%22M18 12c0 1.7-.7 3.2-1.8 4.2%22 /%3E%3C/svg%3E")}.i-door-open{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M10 21H2%22 /%3E %3Cpath d=%22M10 3H7a2 2 0 00-2 2v16%22 /%3E %3Cpath d=%22M14 12h.01%22 /%3E %3Cpath d=%22M19 21V5a2 2 0 00-1.675-1.974l-6.163-1.013A1 1 0 0010 3v18a1 1 0 001.124.992z%22 /%3E %3Cpath d=%22M22 21h-3%22 /%3E%3C/svg%3E")}.i-file-search{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z%22 /%3E %3Cpath d=%22M14 2v5a1 1 0 0 0 1 1h5%22 /%3E %3Ccircle cx=%2211.5%22 cy=%2214.5%22 r=%222.5%22 /%3E %3Cpath d=%22M13.3 16.3 15 18%22 /%3E%3C/svg%3E")}.i-heart{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5%22 /%3E%3C/svg%3E")}.i-images{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22m22 11-1.296-1.296a2.4 2.4 0 0 0-3.408 0L11 16%22 /%3E %3Cpath d=%22M4 8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2%22 /%3E %3Ccircle cx=%2213%22 cy=%227%22 r=%221%22 fill=%22currentColor%22 /%3E %3Crect x=%228%22 y=%222%22 width=%2214%22 height=%2214%22 rx=%222%22 /%3E%3C/svg%3E")}.i-info{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%2210%22 /%3E %3Cpath d=%22M12 16v-4%22 /%3E %3Cpath d=%22M12 8h.01%22 /%3E%3C/svg%3E")}.i-list{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M3 5h.01%22 /%3E %3Cpath d=%22M3 12h.01%22 /%3E %3Cpath d=%22M3 19h.01%22 /%3E %3Cpath d=%22M8 5h13%22 /%3E %3Cpath d=%22M8 12h13%22 /%3E %3Cpath d=%22M8 19h13%22 /%3E%3C/svg%3E")}.i-map-pin{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0%22 /%3E %3Ccircle cx=%2212%22 cy=%2210%22 r=%223%22 /%3E%3C/svg%3E")}.i-map{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z%22 /%3E %3Cpath d=%22M15 5.764v15%22 /%3E %3Cpath d=%22M9 3.236v15%22 /%3E%3C/svg%3E")}.i-maximize-2{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M15 3h6v6%22 /%3E %3Cpath d=%22m21 3-7 7%22 /%3E %3Cpath d=%22m3 21 7-7%22 /%3E %3Cpath d=%22M9 21H3v-6%22 /%3E%3C/svg%3E")}.i-minimize-2{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22m14 10 7-7%22 /%3E %3Cpath d=%22M20 10h-6V4%22 /%3E %3Cpath d=%22m3 21 7-7%22 /%3E %3Cpath d=%22M4 14h6v6%22 /%3E%3C/svg%3E")}.i-receipt-text{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M13 16H8%22 /%3E %3Cpath d=%22M14 8H8%22 /%3E %3Cpath d=%22M16 12H8%22 /%3E %3Cpath d=%22M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z%22 /%3E%3C/svg%3E")}.i-share-2{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Ccircle cx=%2218%22 cy=%225%22 r=%223%22 /%3E %3Ccircle cx=%226%22 cy=%2212%22 r=%223%22 /%3E %3Ccircle cx=%2218%22 cy=%2219%22 r=%223%22 /%3E %3Cline x1=%228.59%22 x2=%2215.42%22 y1=%2213.51%22 y2=%2217.49%22 /%3E %3Cline x1=%2215.41%22 x2=%228.59%22 y1=%226.51%22 y2=%2210.49%22 /%3E%3C/svg%3E")}.i-shield-check{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z%22 /%3E %3Cpath d=%22m9 12 2 2 4-4%22 /%3E%3C/svg%3E")}.i-sliders-horizontal{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M10 5H3%22 /%3E %3Cpath d=%22M12 19H3%22 /%3E %3Cpath d=%22M14 3v4%22 /%3E %3Cpath d=%22M16 17v4%22 /%3E %3Cpath d=%22M21 12h-9%22 /%3E %3Cpath d=%22M21 19h-5%22 /%3E %3Cpath d=%22M21 5h-7%22 /%3E %3Cpath d=%22M8 10v4%22 /%3E %3Cpath d=%22M8 12H3%22 /%3E%3C/svg%3E")}.i-sparkles{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z%22 /%3E %3Cpath d=%22M20 2v4%22 /%3E %3Cpath d=%22M22 4h-4%22 /%3E %3Ccircle cx=%224%22 cy=%2220%22 r=%222%22 /%3E%3C/svg%3E")}.i-square-arrow-out-up-right{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6%22 /%3E %3Cpath d=%22m21 3-9 9%22 /%3E %3Cpath d=%22M15 3h6v6%22 /%3E%3C/svg%3E")}.i-tram-front{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Crect width=%2216%22 height=%2216%22 x=%224%22 y=%223%22 rx=%222%22 /%3E %3Cpath d=%22M4 11h16%22 /%3E %3Cpath d=%22M12 3v8%22 /%3E %3Cpath d=%22m8 19-2 3%22 /%3E %3Cpath d=%22m18 22-2-3%22 /%3E %3Cpath d=%22M8 15h.01%22 /%3E %3Cpath d=%22M16 15h.01%22 /%3E%3C/svg%3E")}.i-triangle-alert{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3%22 /%3E %3Cpath d=%22M12 9v4%22 /%3E %3Cpath d=%22M12 17h.01%22 /%3E%3C/svg%3E")}.i-users{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2%22 /%3E %3Cpath d=%22M16 3.128a4 4 0 0 1 0 7.744%22 /%3E %3Cpath d=%22M22 21v-2a4 4 0 0 0-3-3.87%22 /%3E %3Ccircle cx=%229%22 cy=%227%22 r=%224%22 /%3E%3C/svg%3E")}.i-x{--im:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M18 6 6 18%22 /%3E %3Cpath d=%22m6 6 12 12%22 /%3E%3C/svg%3E")}</style><div class="party-view party-view-7" data-berlin-view data-id-prefix="p7-"><a class="skip" href="#p7-icerik">İçeriğe Geç</a><header class="topbar"><div class="wrap toprow"><a class="brand" href="#p7-ust">Berlin Konaklamaları</a><span class="topmeta"><span class="desktop-meta">30 Aralık 2026 → 3 Ocak 2027 · 6 veya 7 Yetişkin</span><span class="mobile-meta">30 Ara → 3 Oca · 6 veya 7 Kişi</span></span></div></header>
 <main class="wrap" id="p7-icerik"><section class="hero" id="p7-ust"><p class="eyebrow"><span class="desktop-meta">6 veya 7 Yetişkin · 4 Gece · Ayrı Yatak Öncelikli</span><span class="mobile-meta">6 veya 7 Kişi · 4 Gece · Ayrı Yatak Öncelikli</span></p><h1>Berlin’de Birlikte Kalacak Yer</h1><p class="intro">Grubumuz 6 veya 7 kişi olabilir. Kişi başı tutarlar gösterilen toplamın seçilen kişi sayısına bölünmesidir. Teklifler 6 veya 7 yetişkin için ayrı alınmıştır; fiyat ve müsaitlik değişebilir. RSO ve Tresor ulaşımı, yataklar ve fiyat kapsamı her kartta.</p><p class="hero-note">Herkesin kendine ait bir yatağı olması önceliklidir. Daireler Tresor’a yaklaşık 30 dakikaya kadar. Evlerde 45 dakikaya kadar olanlar kartlarında belirtilir; 4.000 € üzerindeki seçeneklerde en çok 35 dakika ve herkese ayrı yatak aranır. Süreler tahmindir; yılbaşı trafiği ve taksi beklemesi dahil değil. Fiyat ve müsaitlik değişebilir.</p><p class="fx-note" data-fx-date="2026-11-05" data-fx-try="56.1729" data-fx-usd="1.1224"><span class="fx-rate-short">≈ işaretli tutarlar 5 Kasım ECB kuruyla hesaplanır: 1 € = 56,17 TL.</span> <a href="#p7-kur">Kur Bilgisi</a></p><details class="mobile-notes"><summary>Fiyat ve Plan Notları</summary><p>Herkesin yalnız kendine ait bir yatağı olması önceliklidir.</p><p>Dört gecelik gösterilen toplam en çok 6.000 €. Vergi veya ek ücretler toplamı artırabilir; ödeme öncesinde kontrol edin.</p><p>Daireler Tresor’a yaklaşık 30 dakikaya kadar. Evlerde 45 dakikaya kadar olanlar kartlarında belirtilir; 4.000 € üzerindeki seçeneklerde en çok 35 dakika ve herkese ayrı yatak aranır. Süreler tahmindir; trafik ve taksi beklemesi dahil değil.</p><p>Fiyat ve müsaitlik değişebilir; kontrol tarihini ilanın kaynak ayrıntılarında görebilirsiniz. <span class="fx-rate-short">≈ işaretli tutarlar 5 Kasım ECB kuruyla hesaplanır: 1 € = 56,17 TL.</span> <a href="#p7-kur">Kur Bilgisi</a></p><p>İki duraklı planda 1 Ocak çıkış, giriş ve transfer saatleri ayrıca kontrol edilmeli.</p></details></section>
@@ -4384,6 +4398,8 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
         const showWarning = visibleStatus?.status !== 'unavailable' && (!visibleStatus || failedAttempt?.result === 'unknown');
         statusNode.hidden = false;
         statusNode.dataset.status = showWarning ? 'unknown' : visibleStatus.status;
+        statusNode.dataset.checkedAt = status?.checkedAt || '';
+        statusNode.dataset.attemptAt = failedAttempt?.result === 'unknown' ? failedAttempt.at || '' : '';
         // The photo chip stays short; the full dated observation is in the summary tab.
         const overview = card.querySelector('.detail-panel[data-panel="overview"]');
         let full = overview?.querySelector('.availability-full');
@@ -4601,7 +4617,11 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
     return svg;
   }
   filterValues.forEach(control => control.addEventListener('change', () => { applyFilters(); if (sort) applySort(); }));
-  guestFilter?.addEventListener('change', () => { applyFilters(); if (sort) applySort(); });
+  guestFilter?.addEventListener('change', () => {
+    applyFilters();
+    if (sort) applySort();
+    document.dispatchEvent(new Event('availability-updated'));
+  });
   checkInputs.forEach(input => input.addEventListener('change', () => { applyFilters(); if (sort) applySort(); }));
   root.querySelector('.filters-clear')?.addEventListener('click', () => {
     filterValues.forEach(control => { control.value = 'all'; });
@@ -4771,6 +4791,7 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
     availabilityRecords = event.detail;
     cards.forEach(applyCapacityEvidence);
     applyFilters();
+    document.dispatchEvent(new Event('availability-updated'));
   });
   // Lira-priced offers change their euro value with the day's rate.
   document.addEventListener('berlin-fx', () => { applyFilters(); if (sort) applySort(); });
@@ -7015,19 +7036,43 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
   }
   const fmtEur = new Intl.NumberFormat('tr-TR', {maximumFractionDigits: 0});
   const trDay = iso => { const d = new Date(iso); return Number.isFinite(d.getTime()) ? new Intl.DateTimeFormat('tr-TR', {day: 'numeric', month: 'long'}).format(d) : ''; };
-  // Availability and the all-in price: a seçki check (item.check) wins over the card.
+  const guestFilter = document.querySelector('.filter-guests');
   function availabilityOf(it) {
-    const c = it.check;
-    if (c && typeof c.available === 'boolean') return {state: c.available ? 'available' : 'unavailable', when: trDay(c.checkedAt)};
-    const s = it.card.dataset.availability;
-    return {state: s === 'available' || s === 'unavailable' ? s : 'unknown', when: ''};
+    const party = guestFilter?.value === '7' ? 7 : 6;
+    const badge = it.card.querySelector('.availability-status');
+    const check = it.check;
+    const checkedAt = Date.parse(check?.checkedAt);
+    const cardUpdatedAt = Math.max(Date.parse(badge?.dataset.checkedAt) || 0, Date.parse(badge?.dataset.attemptAt) || 0);
+    // The original Seçki checks were for six. Keep a more recent matching
+    // check when the guide has no newer result or failed attempt.
+    if (party === (check?.adults ?? 6) && typeof check?.available === 'boolean' && checkedAt > cardUpdatedAt) {
+      const state = check.available ? 'available' : 'unavailable';
+      const verdict = check.available ? 'Müsait göründü' : 'Müsait değil';
+      const stayNote = check.available && check.available4Nights === false ? ' · 4 gece müsait değil' : '';
+      const label = `${verdict} · ${party} kişi · ${trDay(check.checkedAt)}${stayNote}`;
+      return {state, party, label, title: label};
+    }
+    const state = badge?.dataset.status || 'unknown';
+    const label = badge?.textContent.trim() || 'Müsaitlik teyit edilemedi';
+    return {state, party, label, title: badge?.title || label};
   }
-  function availabilityText(it) {
+
+  function paintAvailability(node, availability, compact = false) {
+    node.dataset.state = availability.state;
+    node.textContent = compact && availability.state === 'unavailable'
+      ? `Müsait değil · ${availability.party} kişi` : availability.label;
+    node.title = availability.title;
+  }
+
+  function rankedName(it) {
+    const name = el('span', 'rank-name', `${numberOf(it)}. ${titleOf(it)}`);
     const a = availabilityOf(it);
-    if (a.state === 'available' && it.check?.available4Nights === false) return `${trDay(it.checkIn)}–${trDay(it.checkOut)} müsait · 4 gece müsait değil${a.when ? ` · ${a.when} kontrolü` : ''}`;
-    if (a.state === 'available') return `Müsait${a.when ? ` · ${a.when} kontrolü` : ''}`;
-    if (a.state === 'unavailable') return `Müsait değil${a.when ? ` · ${a.when} kontrolü` : ''}`;
-    return 'Müsaitlik doğrulanmadı';
+    if (a.state === 'unavailable') {
+      const label = el('span', 'secki-avail rank-availability');
+      paintAvailability(label, a, true);
+      name.append(label);
+    }
+    return name;
   }
   const allInEur = it => { const v = it.check?.allInEur; return typeof v === 'number' && Number.isFinite(v) ? v : null; };
   // The all-in total from the seçki check, and how sure it is about the city tax.
@@ -7373,8 +7418,8 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
       row.li.dataset.vote = kindOf(k);
       paintBadge(row.badge, k);
       const a = availabilityOf(row.it);
-      row.avail.dataset.state = a.state;
-      row.avail.textContent = availabilityText(row.it);
+      row.li.dataset.availability = a.state;
+      paintAvailability(row.avail, a);
       row.allIn.textContent = allInText(row.it);
       row.allIn.hidden = !row.allIn.textContent;
     });
@@ -7469,7 +7514,7 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
       const mt = el('i', 'm-t'); mt.style.width = `${(r.t / max) * 100}%`;
       meter.append(mt);
       const tier = el('span', 'rank-tier', li.dataset.tier === 'main' ? `${r.place}. sırada` : li.dataset.tier === 'backup' ? 'Olmazsa bunlara' : '');
-      li.append(el('span', 'rank-name', `${numberOf(r.it)}. ${titleOf(r.it)}`), meter, el('span', 'rank-num', `${r.t} oy`), tier);
+      li.append(rankedName(r.it), meter, el('span', 'rank-num', `${r.t} oy`), tier);
       if (r.names && r.names.length) li.append(el('span', 'rank-who', `Oy verenler: ${r.names.join(', ')}`));
       ol.append(li);
     });
@@ -7497,7 +7542,7 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
       const mt = el('i', 'm-t'); mt.style.width = `${((Number(r.points) || 0) / max) * 100}%`;
       meter.append(mt);
       const firsts = Number(r.firsts) > 0 ? ` · ${r.firsts} kişinin 1. tercihi` : '';
-      li.append(el('span', 'rank-name', `${numberOf(it)}. ${titleOf(it)}`), meter, el('span', 'rank-num', `${Number(r.points) || 0} puan`),
+      li.append(rankedName(it), meter, el('span', 'rank-num', `${Number(r.points) || 0} puan`),
         el('span', 'rank-tier', `${r.slot || ''}${r.slot ? firsts : firsts.replace(/^ · /, '')}`));
       const who = r.slot && r.slot.startsWith('Asıl') ? named.get(r.key) : null;
       if (who && who.length) li.append(el('span', 'rank-who', `Oy verenler: ${who.join(', ')}`));
@@ -7571,11 +7616,13 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
     if (tallyNode) foot.append(tallyNode);
     const streets = streetLinks(it, 'secki-mrow-street', exactPoint(it.card) ? 'Sokağı gör' : 'Sokak (yaklaşık)', 'Maps ↗');
     if (streets.length) { const s = el('span', 'secki-mrow-streets'); s.append(...streets); foot.append(s); }
-    li.append(top, pp, box, foot);
+    const compactStatus = el('span', 'secki-mrow-compact-status');
+    compactStatus.hidden = true;
+    li.append(top, pp, compactStatus, box, foot);
     li.addEventListener('click', event => { if (!event.target.closest('button')) focus(); });
     li.addEventListener('keydown', event => { if ((event.key === 'Enter' || event.key === ' ') && event.target === li) { event.preventDefault(); focus(); } });
     mlRows.append(li);
-    mapRows.set(k, {li, badge: b, avail, count, it});
+    mapRows.set(k, {li, badge: b, avail, compactStatus, count, it});
   });
   function renderMapList() {
     mapList.dataset.phase = isOpen() ? phase : 'closed';
@@ -7591,9 +7638,10 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
       row.li.dataset.vote = kindOf(k);
       paintBadge(row.badge, k);
       const a = availabilityOf(row.it);
-      row.avail.dataset.state = a.state;
-      row.avail.textContent = a.state === 'available' ? (row.it.check?.available4Nights === false ? 'Yalnız 2 gece müsait' : 'Müsait') : a.state === 'unavailable' ? 'Müsait değil' : 'Müsaitlik doğrulanmadı';
-      row.avail.title = availabilityText(row.it);
+      row.li.dataset.availability = a.state;
+      paintAvailability(row.avail, a, true);
+      paintAvailability(row.compactStatus, a, true);
+      row.compactStatus.hidden = a.state !== 'unavailable';
       row.count.hidden = !status && !resultOn();
       row.count.textContent = status || resultOn() ? chipText(k) : '';
       row.count.dataset.kind = resultOn() ? kindOf(k) : '';
@@ -7624,7 +7672,9 @@ button.secki-mrow-street{padding:0;border:0;background:none;cursor:pointer}
       if (!it) return null;
       const box = el('div', 'secki-details');
       const line = el('p', 'secki-check');
-      const a = availabilityOf(it), avail = el('span', 'secki-avail', availabilityText(it)); avail.dataset.state = a.state;
+      const a = availabilityOf(it), avail = el('span', 'secki-avail');
+      box.dataset.availability = a.state;
+      paintAvailability(avail, a);
       line.append(avail);
       const total = allInText(it);
       if (total) line.append(el('span', 'secki-allin', total));
